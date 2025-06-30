@@ -2095,6 +2095,26 @@
                   <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
                 </IgnoreMMRot>
               </ZActor>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>5</XPos>
+                <YPos>109</YPos>
+                <ZPos>-56</ZPos>
+                <XRot>1</XRot>
+                <YRot>0</YRot>
+                <ZRot>66</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>255</FrontCamera>
+                <BackSwitchTo>1</BackSwitchTo>
+                <BackCamera>255</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
             </ZActors>
             <GroupSettings xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="11" />
             <OriginalMeshHeaderOffset>0</OriginalMeshHeaderOffset>

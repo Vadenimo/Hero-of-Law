@@ -2,6 +2,7 @@
 #include "message_data_static.h"
 #include "sfx.h"
 #include "../../../../actor/_custom-1.0/draw2D.h"
+#include "../../../../actor/_custom-1.0/common.h"
 
 #define CHARSIZEX 16
 #define CHARSIZEY 16
@@ -12,8 +13,13 @@ void DrawCharTexture(PlayState* play, Gfx** gfxp, u8* texture, s32 x, s32 y, flo
 {
     Gfx* gfx = *gfxp;
 
-    s32 sCharTexScale = 1024.0f / (scale / 100.0f);
+    float sCharTexScaleX = 1024.0f / (scale / 100.0f);
+    s32 sCharTexScaleY = 1024.0f / (scale / 100.0f);
     s32 sCharTexSize = (scale / 100.0f) * 16.0f;
+
+    
+    if (SAVE_WIDESCREEN)
+        sCharTexScaleX /= WIDESCREEN_SCALEX;
 
     if (loadGfx)
     {
@@ -25,12 +31,12 @@ void DrawCharTexture(PlayState* play, Gfx** gfxp, u8* texture, s32 x, s32 y, flo
     {
         gDPPipeSync(gfx++);
         gDPSetPrimColor(gfx++, 0, 0, ShadowColor.r, ShadowColor.g, ShadowColor.b, shadowAlpha);
-        gSPScisTextureRectangle (gfx++, (x + shadowOffsetX) << 2, ((y + shadowOffsetY) << 2), ((x + shadowOffsetX) + sCharTexSize) << 2, (((y + shadowOffsetY) + sCharTexSize) << 2), G_TX_RENDERTILE, 0, 0, sCharTexScale, sCharTexScale);
+        gSPScisTextureRectangle (gfx++, (x + shadowOffsetX) << 2, ((y + shadowOffsetY) << 2), ((x + shadowOffsetX) + sCharTexSize) << 2, (((y + shadowOffsetY) + sCharTexSize) << 2), G_TX_RENDERTILE, 0, 0, (s32)sCharTexScaleX, (s32)sCharTexScaleY);
     }
     
     gDPPipeSync(gfx++);
     gDPSetPrimColor(gfx++, 0, 0, Color.r, Color.g, Color.b, alpha);    
-    gSPScisTextureRectangle (gfx++, x << 2, (y << 2), (x + sCharTexSize) << 2, ((y + sCharTexSize) << 2), G_TX_RENDERTILE, 0, 0, sCharTexScale, sCharTexScale);
+    gSPScisTextureRectangle (gfx++, x << 2, (y << 2), (x + sCharTexSize) << 2, ((y + sCharTexSize) << 2), G_TX_RENDERTILE, 0, 0, (s32)sCharTexScaleX, (s32)sCharTexScaleY);
 
     *gfxp = gfx;
 }

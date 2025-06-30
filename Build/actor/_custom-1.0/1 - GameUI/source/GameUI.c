@@ -363,19 +363,19 @@ void GameUI_Update(Actor* thisx, PlayState* play)
             break;
         }
     }
+    
+    int heartsEndPos = (SAVE_WIDESCREEN ? HEARTS_POS_Y : HEARTS_POS_SHOWING);
 
     // Update the hearts
     switch (this->guiShowHearts)
     {
         case HEARTS_IN:
         {
-            this->heartsPos += HEARTS_MOVE_RATE;
+            Math_SmoothStepToS(&this->heartsPos, heartsEndPos, 4, HEARTS_MOVE_RATE, 4);
 
-            Math_SmoothStepToS(&this->heartsPos, HEARTS_POS_SHOWING, 4, HEARTS_MOVE_RATE, 4);
-
-            if (this->heartsPos >= HEARTS_POS_SHOWING)
+            if (this->heartsPos >= heartsEndPos)
             {
-                this->heartsPos = HEARTS_POS_SHOWING;
+                this->heartsPos = heartsEndPos;
                 this->guiShowHearts = HEARTS_SHOWING;
             }
 
@@ -396,7 +396,7 @@ void GameUI_Update(Actor* thisx, PlayState* play)
         case HEARTS_SHOWING:
         case HEARTS_DAMAGE:
         {
-            this->heartsPos = HEARTS_POS_SHOWING;
+            this->heartsPos = heartsEndPos;
             break;
         }
         case HEARTS_NONE:
@@ -471,9 +471,9 @@ void GameUI_Draw(Actor* thisx, PlayState* play)
 
     if (this->evidenceAlpha > EVIDENCE_ALPHA_NONE)
     {
-        Draw2D(CI4, OBJ_GRAPHICS_COMMON, play, &gfx, EVIDENCE_FRAME_POSX, EVIDENCE_FRAME_POSY, (u8*)EVIDENCE_FRAME_OFFSET + 0x20, (u8*)EVIDENCE_FRAME_OFFSET, EVIDENCE_FRAME_HEIGHT, EVIDENCE_FRAME_WIDTH, this->evidenceAlpha);
+        Draw2D((SAVE_WIDESCREEN ? CI4_Setup39 : CI4), OBJ_GRAPHICS_COMMON, play, &gfx, EVIDENCE_FRAME_POSX - (SAVE_WIDESCREEN ? 30 : 0), EVIDENCE_FRAME_POSY, (u8*)EVIDENCE_FRAME_OFFSET + 0x20, (u8*)EVIDENCE_FRAME_OFFSET, EVIDENCE_FRAME_HEIGHT, EVIDENCE_FRAME_WIDTH, this->evidenceAlpha);
         void* offs = (void*)(this->guiDrawIconEffective * EVIDENCE_ICON_X * EVIDENCE_ICON_Y * 4);
-        Draw2DScaled(RGBA32, 7, play, &gfx, EVIDENCE_ICON_POSX + 16, EVIDENCE_ICON_POSY + 16, offs, NULL, 64, 64, 32, 32, this->evidenceAlpha);
+        Draw2DScaled((SAVE_WIDESCREEN ? RGBA32_Setup39 : RGBA32), 7, play, &gfx, EVIDENCE_ICON_POSX + 16 - (SAVE_WIDESCREEN ? 30 : 0), EVIDENCE_ICON_POSY + 16, offs, NULL, 64, 64, 32, 32, this->evidenceAlpha);
     }
     //====================================================================================
     
@@ -484,11 +484,16 @@ void GameUI_Draw(Actor* thisx, PlayState* play)
 
         for (int i = 0; i < gSaveContext.healthCapacity; i++)
         {
-            int XPos = this->heartsPos + (20 + (i * (HEARTS_WIDTH + 1)));
-
+            int XPos = (20 + (i * (HEARTS_WIDTH + 1)));
+            
+            if (SAVE_WIDESCREEN)
+                XPos += HEARTS_POS_SHOWING - 50;
+            else
+                XPos += this->heartsPos;
+            
             if (this->guiShowHearts == HEARTS_DAMAGE && i == gSaveContext.healthCapacity - 1)
             {
-                Draw2D(CI8_Setup39, OBJ_GRAPHICS_COMMON, play, &gfx, XPos, HEARTS_POS_Y, (u8*)HEARTS_DAMAGE_OFFSET + 0x1F8 + (HEARTS_DAMAGE_SIZE * this->guiShowHeartsDamageFrame), (u8*)HEARTS_DAMAGE_OFFSET, HEARTS_WIDTH, HEARTS_HEIGHT, 255);
+                Draw2D(CI8_Setup39, OBJ_GRAPHICS_COMMON, play, &gfx, XPos, (SAVE_WIDESCREEN ? this->heartsPos : HEARTS_POS_Y), (u8*)HEARTS_DAMAGE_OFFSET + 0x1F8 + (HEARTS_DAMAGE_SIZE * this->guiShowHeartsDamageFrame), (u8*)HEARTS_DAMAGE_OFFSET, HEARTS_WIDTH, HEARTS_HEIGHT, 255);
 
                 this->guiShowHeartsDamageFrame++;
 
@@ -500,7 +505,7 @@ void GameUI_Draw(Actor* thisx, PlayState* play)
                 }
             }
             else
-                Draw2D(CI8_Setup39, OBJ_GRAPHICS_COMMON, play, &gfx, XPos, HEARTS_POS_Y, (u8*)HEARTS_OFFSET + 0x78, (u8*)HEARTS_OFFSET, HEARTS_WIDTH, HEARTS_HEIGHT, 255);
+                Draw2D(CI8_Setup39, OBJ_GRAPHICS_COMMON, play, &gfx, XPos, (SAVE_WIDESCREEN ? this->heartsPos : HEARTS_POS_Y), (u8*)HEARTS_OFFSET + 0x78, (u8*)HEARTS_OFFSET, HEARTS_WIDTH, HEARTS_HEIGHT, 255);
         }
 
         thisx->objBankIndex = bankCurrent;
@@ -535,7 +540,7 @@ void GameUI_Draw(Actor* thisx, PlayState* play)
                 
                 char* msg = this->VoiceM->listening ? listeningMsg : micMsg;
                 int scale = 60;
-                int xpos = ROUNDBUTTON_R_POS_X + 12 + ((ROUNDBUTTON_XSIZE - GetTextPxWidth(msg, scale)) / 2) - ROUNDBUTTON_XSIZE / 2;
+                int xpos = ROUNDBUTTON_R_POS_X + (SAVE_WIDESCREEN ? 50 : 0) + 12 + ((ROUNDBUTTON_XSIZE - GetTextPxWidth(msg, scale)) / 2) - ROUNDBUTTON_XSIZE / 2;
                 
                 HoL_DrawMessageText(play, 
                                     &gfx, 
@@ -786,16 +791,27 @@ void DrawSpeakerIndicator(Actor* thisx, PlayState* play, Gfx** gfxp)
     Gfx_SetupDL_39Ptr(&gfx);
     gDPPipeSync(gfx++);
 
-    int rTextboxTex = 512 << 3;
+    int rTextboxTexX = 512 << 3;
+    int rTextboxTexY = 512 << 3;
     int rTextboxWidth = 64;
+    int rTextboxWidthAct = rTextboxWidth;
     int rTextboxHeight = 16;
     int rTextboxX = 40;
+    int rTextboxXAct = rTextboxX;
     int rTextboxY = 0;
       
     if (R_TEXTBOX_Y < 128)
         rTextboxY = R_TEXTBOX_Y + 64;
     else
         rTextboxY = R_TEXTBOX_Y - 18;
+    
+    if (SAVE_WIDESCREEN)
+    {
+        rTextboxTexX = rTextboxTexX / 65 * 100;
+        rTextboxWidthAct = rTextboxWidth * 66 / 100;
+        rTextboxXAct *= WIDESCREEN_SCALEX;
+        rTextboxXAct += WIDESCREEN_OFFSX;    
+    }    
     
     if (!this->curSpeakerData->disableIndicator)
     {
@@ -808,7 +824,7 @@ void DrawSpeakerIndicator(Actor* thisx, PlayState* play, Gfx** gfxp)
             textureType = G_IM_FMT_I;
 
         gDPLoadTextureBlock_4b(gfx++, play->msgCtx.textboxSegment, textureType, 128, 64, 0, G_TX_MIRROR, G_TX_MIRROR, 7, 0, G_TX_NOLOD, G_TX_NOLOD);
-        gSPTextureRectangle(gfx++, rTextboxX << 2, rTextboxY << 2, (rTextboxX + rTextboxWidth) << 2, (rTextboxY + rTextboxHeight) << 2, G_TX_RENDERTILE, 0, 0, rTextboxTex, rTextboxTex);
+        gSPTextureRectangle(gfx++, rTextboxXAct << 2, rTextboxY << 2, (rTextboxXAct + rTextboxWidthAct) << 2, (rTextboxY + rTextboxHeight) << 2, G_TX_RENDERTILE, 0, 0, rTextboxTexX, rTextboxTexY);
 
         if (this->speakerLastFrame == this->guiSpeaker)
         {
@@ -817,7 +833,7 @@ void DrawSpeakerIndicator(Actor* thisx, PlayState* play, Gfx** gfxp)
                 case SPEAKER_CROSS_EXAM:
                 {
                     if (this->guiDrawCheckmark)
-                        Draw2D(CI4_Setup39, OBJ_GRAPHICS_COMMON, play, &gfx, rTextboxX + rTextboxWidth + 3, rTextboxY, (u8*)CHECKMARK_OFFSET + 0x20, (u8*)CHECKMARK_OFFSET, CHECKMARK_XSIZE, CHECKMARK_YSIZE, this->curSpeakerTextboxAlpha);
+                        Draw2D(CI4_Setup39, OBJ_GRAPHICS_COMMON, play, &gfx, rTextboxX + rTextboxWidthAct + (SAVE_WIDESCREEN ? 15 : 3), rTextboxY, (u8*)CHECKMARK_OFFSET + 0x20, (u8*)CHECKMARK_OFFSET, CHECKMARK_XSIZE, CHECKMARK_YSIZE, this->curSpeakerTextboxAlpha);
                     
                     sprintf(this->curSpeakerData->text, "%d / %d", this->guiCECurStatement, this->guiCEStatementCount); break;
                 }
@@ -828,8 +844,13 @@ void DrawSpeakerIndicator(Actor* thisx, PlayState* play, Gfx** gfxp)
             }        
            
             gDPPipeSync(gfx++);
-            s32 TEXT_POS_X = rTextboxX + ((rTextboxWidth - GetTextPxWidth(this->curSpeakerData->text, TEXT_SCALE)) / 2);
+            s32 TEXT_POS_X = rTextboxX + ((rTextboxWidthAct - GetTextPxWidth(this->curSpeakerData->text, TEXT_SCALE)) / 2);
             s32 TEXT_POS_Y = rTextboxY + rTextboxHeight - 14;
+            
+            if (SAVE_WIDESCREEN)
+            {
+                TEXT_POS_X += 8;               
+            }
 
             HoL_DrawMessageText(play, 
                                 &gfx, 
@@ -854,6 +875,13 @@ void DrawSpeakerIndicator(Actor* thisx, PlayState* play, Gfx** gfxp)
         rTextboxY = R_TEXTBOX_Y - 18 + 10; 
     
     int logPosX = rTextboxX + 256 - 75;
+    
+    if (SAVE_WIDESCREEN)
+    {
+        logPosX *= WIDESCREEN_SCALEX;
+        logPosX += WIDESCREEN_OFFSX;     
+        logPosX += 8;
+    }
     
     s16 historyBtnAlpha = 0;
     
@@ -915,7 +943,18 @@ void DrawCourtRecord(Actor* thisx, PlayState* play, Gfx** gfxp)
         gDPSetCycleType(gfx++, G_CYC_FILL);
         gDPSetRenderMode(gfx++, G_RM_NOOP, G_RM_NOOP2);
         gDPSetFillColor(gfx++, (GPACK_RGBA5551(0, 0, 0, 1) << 16) | GPACK_RGBA5551(0, 0, 0, 1));
-        gDPFillRectangle(gfx++, CR_BASE_POSX - (CR_BASE_X / 2), CR_BASE_POSY - (CR_BASE_Y / 2), CR_BASE_POSX + (CR_BASE_X / 2) - 1, CR_BASE_POSY + (CR_BASE_Y / 2) - 1);
+        
+        int xSz = CR_BASE_X;
+        int xPos = CR_BASE_POSX;
+        
+        if (SAVE_WIDESCREEN)
+        {
+            xSz *= WIDESCREEN_SCALEX;
+            xPos *= WIDESCREEN_SCALEX;
+            xPos += WIDESCREEN_OFFSX;
+        }
+        
+        gDPFillRectangle(gfx++, xPos - (xSz / 2), CR_BASE_POSY - (CR_BASE_Y / 2), xPos + (xSz / 2) - 1, CR_BASE_POSY + (CR_BASE_Y / 2) - 1);
     }    
 
     // The base graphic
@@ -952,7 +991,7 @@ void DrawCourtRecord(Actor* thisx, PlayState* play, Gfx** gfxp)
 
             // Draw evidence icon and then a border above it
             void* offs = (void*)(crE.id * EVIDENCE_ICON_X * EVIDENCE_ICON_Y * 4);
-            Draw2DScaled(RGBA32, OBJ_GRAPHICS_ICONS, play, &gfx, posX, CR_DARKSLOT_POSY, offs, NULL, EVIDENCE_ICON_X, EVIDENCE_ICON_Y, 16, 16, this->crAlpha);
+            Draw2DScaled((SAVE_WIDESCREEN ? RGBA32_Setup39 : RGBA32), OBJ_GRAPHICS_ICONS, play, &gfx, posX, CR_DARKSLOT_POSY, offs, NULL, EVIDENCE_ICON_X, EVIDENCE_ICON_Y, 16, 16, this->crAlpha);
             Draw2D(IA4_Setup39, OBJ_GRAPHICS_COMMON, play, &gfx, posX, CR_BORDER_FIRSTPOSY, (u8*)CR_BORDER_OFFSET, NULL, CR_BORDER_X, CR_BORDER_Y, this->crAlpha);
 
             listPos++;
@@ -973,7 +1012,7 @@ void DrawCourtRecord(Actor* thisx, PlayState* play, Gfx** gfxp)
     void* offs = (void*)(this->selectedCREntry->id * EVIDENCE_ICON_X * EVIDENCE_ICON_Y * 4);
 
     // Draw the big evidence icon and then a border above it
-    Draw2DScaled(RGBA32, 7, play, &gfx, CR_BIG_BORDER_POSX, CR_BIG_BORDER_POSY, offs, NULL, EVIDENCE_ICON_X, EVIDENCE_ICON_Y, 64, 64, this->crAlpha);
+    Draw2DScaled((SAVE_WIDESCREEN ? RGBA32_Setup39 : RGBA32), 7, play, &gfx, CR_BIG_BORDER_POSX, CR_BIG_BORDER_POSY, offs, NULL, EVIDENCE_ICON_X, EVIDENCE_ICON_Y, 64, 64, this->crAlpha);
     Draw2D(IA4_Setup39, OBJ_GRAPHICS_COMMON, play, &gfx, CR_BIG_BORDER_POSX, CR_BIG_BORDER_POSY, (u8*)CR_BIG_BORDER_OFFSET, NULL, CR_BIG_BORDER_X, CR_BIG_BORDER_Y, this->crAlpha);
 
     // Get the text
@@ -1022,7 +1061,7 @@ void DrawCourtRecord(Actor* thisx, PlayState* play, Gfx** gfxp)
     }
     
     if (this->guiCourtRecordMode == COURTRECORD_MODE_PRESENT)
-        Draw2D(CI8, OBJ_GRAPHICS_COMMON, play, &gfx, CUP_PRESENT_POS_X, CUP_PRESENT_POS_Y, (u8*)BUTTON_CUP_PRESENT_OFFSET + 0x1A8, (u8*)BUTTON_CUP_PRESENT_OFFSET, CUP_PRESENT_XSIZE, CUP_PRESENT_YSIZE, this->crAlpha);       
+        Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_COMMON, play, &gfx, CUP_PRESENT_POS_X, CUP_PRESENT_POS_Y, (u8*)BUTTON_CUP_PRESENT_OFFSET + 0x1A8, (u8*)BUTTON_CUP_PRESENT_OFFSET, CUP_PRESENT_XSIZE, CUP_PRESENT_YSIZE, this->crAlpha);       
          
     if (!this->forcedPresent)
         Draw2D(CI8, OBJ_GRAPHICS_COMMON, play, &gfx, BARBUTTON_L_POS_X, BARBUTTON_POS_Y, (u8*)BUTTON_B_CLOSE_OFFSET + 0xA0, (u8*)BUTTON_B_CLOSE_OFFSET, BARBUTTON_XSIZE, BARBUTTON_YSIZE, 
@@ -1072,7 +1111,7 @@ void DrawUIElements(Actor* thisx, PlayState* play, Gfx** gfxp)
         case GUI_NONE: break;
         case GUI_INVESTIGATION:
         {
-            Draw2D(CI4, OBJ_GRAPHICS_COMMON, play, &gfx, ROUNDBUTTON_R_POS_X, ROUNDBUTTON_R_POS_Y, (u8*)BUTTON_R_COURTRECORD_OFFSET + 0x20, (u8*)BUTTON_R_COURTRECORD_OFFSET, ROUNDBUTTON_XSIZE, ROUNDBUTTON_YSIZE, this->guiAlpha);
+            Draw2D((SAVE_WIDESCREEN ? CI4_Setup39 : CI4), OBJ_GRAPHICS_COMMON, play, &gfx, ROUNDBUTTON_R_POS_X + (SAVE_WIDESCREEN ? 50 : 0), ROUNDBUTTON_R_POS_Y, (u8*)BUTTON_R_COURTRECORD_OFFSET + 0x20, (u8*)BUTTON_R_COURTRECORD_OFFSET, ROUNDBUTTON_XSIZE, ROUNDBUTTON_YSIZE, this->guiAlpha);
             break;
         }
         case GUI_PHOTO_EVIDENCE:
@@ -1083,14 +1122,14 @@ void DrawUIElements(Actor* thisx, PlayState* play, Gfx** gfxp)
         case GUI_PHOTO:
         {
             // Drawn twice on purpose so that models underneath don't peek through
-            Draw2D(CI8, OBJ_GRAPHICS_CASE1, play, &gfx, PHOTO_POS_X, PHOTO_POS_Y, (u8*)PHOTO_OFFSET + 0x1F8, (u8*)PHOTO_OFFSET, PHOTO_XSIZE, PHOTO_YSIZE, this->guiAlpha);
-            Draw2D(CI8, OBJ_GRAPHICS_CASE1, play, &gfx, PHOTO_POS_X, PHOTO_POS_Y, (u8*)PHOTO_OFFSET + 0x1F8, (u8*)PHOTO_OFFSET, PHOTO_XSIZE, PHOTO_YSIZE, this->guiAlpha);
+            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, PHOTO_POS_X, PHOTO_POS_Y, (u8*)PHOTO_OFFSET + 0x1F8, (u8*)PHOTO_OFFSET, PHOTO_XSIZE, PHOTO_YSIZE, this->guiAlpha);
+            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, PHOTO_POS_X, PHOTO_POS_Y, (u8*)PHOTO_OFFSET + 0x1F8, (u8*)PHOTO_OFFSET, PHOTO_XSIZE, PHOTO_YSIZE, this->guiAlpha);
             break;
         }
         case GUI_CROSS_EXAMINATION:
         {
-            Draw2D(CI4, OBJ_GRAPHICS_COMMON, play, &gfx, ROUNDBUTTON_R_POS_X, ROUNDBUTTON_R_POS_Y, (u8*)BUTTON_R_COURTRECORD_OFFSET + 0x20, (u8*)BUTTON_R_COURTRECORD_OFFSET, ROUNDBUTTON_XSIZE, ROUNDBUTTON_YSIZE, this->guiAlpha);
-            Draw2D(CI4, OBJ_GRAPHICS_COMMON, play, &gfx, ROUNDBUTTON_L_POS_X, ROUNDBUTTON_L_POS_Y, (u8*)BUTTON_L_PRESS_OFFSET + 0x20, (u8*)BUTTON_L_PRESS_OFFSET, ROUNDBUTTON_XSIZE, ROUNDBUTTON_YSIZE, this->guiAlpha);
+            Draw2D((SAVE_WIDESCREEN ? CI4_Setup39 : CI4), OBJ_GRAPHICS_COMMON, play, &gfx, ROUNDBUTTON_R_POS_X + (SAVE_WIDESCREEN ? 50 : 0), ROUNDBUTTON_R_POS_Y, (u8*)BUTTON_R_COURTRECORD_OFFSET + 0x20, (u8*)BUTTON_R_COURTRECORD_OFFSET, ROUNDBUTTON_XSIZE, ROUNDBUTTON_YSIZE, this->guiAlpha);
+            Draw2D((SAVE_WIDESCREEN ? CI4_Setup39 : CI4), OBJ_GRAPHICS_COMMON, play, &gfx, ROUNDBUTTON_L_POS_X - (SAVE_WIDESCREEN ? 50 : 0), ROUNDBUTTON_L_POS_Y, (u8*)BUTTON_L_PRESS_OFFSET + 0x20, (u8*)BUTTON_L_PRESS_OFFSET, ROUNDBUTTON_XSIZE, ROUNDBUTTON_YSIZE, this->guiAlpha);
             
             if (this->guiShowConsult)
                 Draw2D(CI8, OBJ_GRAPHICS_COMMON, play, &gfx, CONSULT_BUTTON_POSX, CONSULT_BUTTON_POSY, (u8*)BUTTON_CONSULT_OFFSET + 0xF8, (u8*)BUTTON_CONSULT_OFFSET, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->guiAlpha);
@@ -1101,9 +1140,9 @@ void DrawUIElements(Actor* thisx, PlayState* play, Gfx** gfxp)
         {
             Environment_FillScreen(play->state.gfxCtx, 0, 0, 0, (s16)this->guiAlpha, FILL_SCREEN_XLU);
             
-            Draw2D(CI8, OBJ_GRAPHICS_COMMON, play, &gfx, CASE2_PICPART1_XPOS, CASE2_PICPART1_YPOS, (u8*)CASE2_PICPART1 + 0x88, (u8*)CASE2_PICPART1, CASE2_PICPART1X, CASE2_PICPART1Y, this->guiAlpha);
-            Draw2D(CI8, OBJ_GRAPHICS_COMMON, play, &gfx, CASE2_PICPART2_XPOS, CASE2_PICPART2_YPOS, (u8*)CASE2_PICPART2 + 0x88, (u8*)CASE2_PICPART2, CASE2_PICPART2X, CASE2_PICPART2Y, this->guiAlpha);
-            Draw2D(CI8, OBJ_GRAPHICS_COMMON, play, &gfx, CASE2_PICPART3_XPOS, CASE2_PICPART3_YPOS, (u8*)CASE2_PICPART3 + 0x88, (u8*)CASE2_PICPART3, CASE2_PICPART3X, CASE2_PICPART3Y, this->guiAlpha);
+            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_COMMON, play, &gfx, CASE2_PICPART1_XPOS, CASE2_PICPART1_YPOS, (u8*)CASE2_PICPART1 + 0x88, (u8*)CASE2_PICPART1, CASE2_PICPART1X, CASE2_PICPART1Y, this->guiAlpha);
+            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_COMMON, play, &gfx, CASE2_PICPART2_XPOS, CASE2_PICPART2_YPOS, (u8*)CASE2_PICPART2 + 0x88, (u8*)CASE2_PICPART2, CASE2_PICPART2X, CASE2_PICPART2Y, this->guiAlpha);
+            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_COMMON, play, &gfx, CASE2_PICPART3_XPOS, CASE2_PICPART3_YPOS, (u8*)CASE2_PICPART3 + 0x88, (u8*)CASE2_PICPART3, CASE2_PICPART3X, CASE2_PICPART3Y, this->guiAlpha);
             break;
         }
         case GUI_INVENTORY:
@@ -1111,9 +1150,9 @@ void DrawUIElements(Actor* thisx, PlayState* play, Gfx** gfxp)
         {
             Environment_FillScreen(play->state.gfxCtx, 0, 0, 0, (s16)this->guiAlpha, FILL_SCREEN_XLU);
             
-            Draw2D(CI8, OBJ_GRAPHICS_CASE1, play, &gfx, INVENTORY_PART1_XPOS, INVENTORY_PART1_YPOS, (u8*)INVENTORY_PART1 + 0x200, (u8*)INVENTORY_PART1, INVENTORY_PART1X, INVENTORY_PART1Y, this->guiAlpha);
-            Draw2D(CI8, OBJ_GRAPHICS_CASE1, play, &gfx, INVENTORY_PART2_XPOS, INVENTORY_PART2_YPOS, (u8*)INVENTORY_PART2 + 0x200, (u8*)INVENTORY_PART2, INVENTORY_PART2X, INVENTORY_PART2Y, this->guiAlpha);
-            Draw2D(CI8, OBJ_GRAPHICS_CASE1, play, &gfx, INVENTORY_PART3_XPOS, INVENTORY_PART3_YPOS, (u8*)INVENTORY_PART3 + 0x200, (u8*)INVENTORY_PART3, INVENTORY_PART3X, INVENTORY_PART3Y, this->guiAlpha);
+            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, INVENTORY_PART1_XPOS, INVENTORY_PART1_YPOS, (u8*)INVENTORY_PART1 + 0x200, (u8*)INVENTORY_PART1, INVENTORY_PART1X, INVENTORY_PART1Y, this->guiAlpha);
+            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, INVENTORY_PART2_XPOS, INVENTORY_PART2_YPOS, (u8*)INVENTORY_PART2 + 0x200, (u8*)INVENTORY_PART2, INVENTORY_PART2X, INVENTORY_PART2Y, this->guiAlpha);
+            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, INVENTORY_PART3_XPOS, INVENTORY_PART3_YPOS, (u8*)INVENTORY_PART3 + 0x200, (u8*)INVENTORY_PART3, INVENTORY_PART3X, INVENTORY_PART3Y, this->guiAlpha);
 
             if (this->guiEffective == GUI_INVENTORY_EVIDENCE)
                 Draw2D(CI8, OBJ_GRAPHICS_COMMON, play, &gfx, BARBUTTON_INVENTORY_POS_X, BARBUTTON_INVENTORY_POS_Y, (u8*)BUTTON_B_CLOSE_IND_OFFSET + 0xA0, (u8*)BUTTON_B_CLOSE_IND_OFFSET, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->guiAlpha);
@@ -1124,18 +1163,18 @@ void DrawUIElements(Actor* thisx, PlayState* play, Gfx** gfxp)
         {
             Environment_FillScreen(play->state.gfxCtx, 0, 0, 0, (s16)this->guiAlpha, FILL_SCREEN_XLU);
             
-            Draw2D(CI8, OBJ_GRAPHICS_CASE1, play, &gfx, CRATES_PART1_XPOS, CRATES_PART1_YPOS, (u8*)CRATES_PART1 + 0x200, (u8*)CRATES_PART1, CRATES_PART1X, CRATES_PART1Y, this->guiAlpha);
-            Draw2D(CI8, OBJ_GRAPHICS_CASE1, play, &gfx, CRATES_PART2_XPOS, CRATES_PART2_YPOS, (u8*)CRATES_PART2 + 0x200, (u8*)CRATES_PART2, CRATES_PART2X, CRATES_PART2Y, this->guiAlpha);
-            Draw2D(CI8, OBJ_GRAPHICS_CASE1, play, &gfx, CRATES_PART3_XPOS, CRATES_PART3_YPOS, (u8*)CRATES_PART3 + 0x200, (u8*)CRATES_PART3, CRATES_PART3X, CRATES_PART3Y, this->guiAlpha);
+            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, CRATES_PART1_XPOS, CRATES_PART1_YPOS, (u8*)CRATES_PART1 + 0x200, (u8*)CRATES_PART1, CRATES_PART1X, CRATES_PART1Y, this->guiAlpha);
+            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, CRATES_PART2_XPOS, CRATES_PART2_YPOS, (u8*)CRATES_PART2 + 0x200, (u8*)CRATES_PART2, CRATES_PART2X, CRATES_PART2Y, this->guiAlpha);
+            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, CRATES_PART3_XPOS, CRATES_PART3_YPOS, (u8*)CRATES_PART3 + 0x200, (u8*)CRATES_PART3, CRATES_PART3X, CRATES_PART3Y, this->guiAlpha);
             break;
         }
         case GUI_SHOPLIST:
         case GUI_SHOPLIST_EVIDENCE:
         {
-            Draw2D(CI8, OBJ_GRAPHICS_CASE1, play, &gfx, SHOP_LIST_POS_X, SHOP_LIST_POS_Y, (u8*)SHOP_LIST + 0x1F8, (u8*)SHOP_LIST, SHOP_LIST_XSIZE, SHOP_LIST_YSIZE, this->guiAlpha);
+            Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_CASE1, play, &gfx, SHOP_LIST_POS_X, SHOP_LIST_POS_Y, (u8*)SHOP_LIST + 0x1F8, (u8*)SHOP_LIST, SHOP_LIST_XSIZE, SHOP_LIST_YSIZE, this->guiAlpha);
             
             if (this->guiEffective == GUI_SHOPLIST_EVIDENCE)
-                Draw2D(CI8, OBJ_GRAPHICS_COMMON, play, &gfx, BARBUTTON_INVENTORY_POS_X, BARBUTTON_INVENTORY_POS_Y, (u8*)BUTTON_B_CLOSE_IND_OFFSET + 0xA0, (u8*)BUTTON_B_CLOSE_IND_OFFSET, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->guiAlpha);
+                Draw2D((SAVE_WIDESCREEN ? CI8_Setup39 : CI8), OBJ_GRAPHICS_COMMON, play, &gfx, BARBUTTON_INVENTORY_POS_X, BARBUTTON_INVENTORY_POS_Y, (u8*)BUTTON_B_CLOSE_IND_OFFSET + 0xA0, (u8*)BUTTON_B_CLOSE_IND_OFFSET, BARBUTTON_XSIZE, BARBUTTON_YSIZE, this->guiAlpha);
         }
     }
 
@@ -1243,7 +1282,7 @@ void DrawMsgLogTriforce(PlayState* play, Gfx** gfxp, int yPos)
                         255, 
                         255, 
                         msgLogEnd, 
-                        GetStringCenterX(msgLogEnd, TEXT_SCALE), 
+                        GetStringCenterX(msgLogEnd, TEXT_SCALE) - (SAVE_WIDESCREEN ? 10 : 0), 
                         yPos, 
                         0, 
                         1, 
@@ -1353,7 +1392,7 @@ void DrawMsgLog(Actor* thisx, PlayState* play, Gfx** gfxp)
                         DrawCharTexture(play, 
                                         &gfx, 
                                         this->arrowGraphic, 
-                                        TexPosX, 
+                                        TexPosX + (SAVE_WIDESCREEN ? 20 : 0), 
                                         TexPosY + this->msgLogPosition + posOffset, 
                                         TEXT_SCALE, 
                                         true, 

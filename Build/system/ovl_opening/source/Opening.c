@@ -108,6 +108,8 @@ void Opening_Main(GameState* thisx)
     gSPEndDisplayList(gfx++);
     Graph_BranchDlist(gfxRef, gfx);
     POLY_OPA_DISP = gfx;
+    
+    Screen_Adjust(&this->state, &this->view);
 }
 
 
@@ -131,7 +133,7 @@ void ConsoleLogo_SetupView(TitleSetupState* this, f32 x, f32 y, f32 z)
 
     View_SetPerspective(view, 30.0f, 10.0f, 12800.0f);
     View_LookAt(view, &eye, &lookAt, &up);
-    View_Apply(view, VIEW_ALL);
+    View_Apply(view, VIEW_ALL);  
 }
 
 void ConsoleLogo_Calc(TitleSetupState* this)
@@ -184,6 +186,11 @@ void ConsoleLogo_Draw(TitleSetupState* this)
 
     if (that->logoState >= LOGOSTATE_MOVE)
         gDPSetScissor(POLY_OPA_DISP++, G_SC_NON_INTERLACE, (that->logoPosMoveVec.x + 100 )* 1.1, 0, 360, 240);
+    
+    float scaleX = 1 << 10;
+    
+    if (SAVE_WIDESCREEN)
+        scaleX /= WIDESCREEN_SCALEX;
 
     for (idx = 0, y = 94 - that->logoPosOffs.y; idx < 16; idx++, y += 2) 
     {
@@ -192,7 +199,7 @@ void ConsoleLogo_Draw(TitleSetupState* this)
                             G_TX_NOMASK, G_TX_NOLOD, G_TX_NOLOD);
 
         gDPSetTileSize(POLY_OPA_DISP++, 1, that->ult, (that->uls & 0x7F) - (14 << 2), 0, 0);
-        gSPTextureRectangle(POLY_OPA_DISP++, (97 + (int)that->logoPosOffs.x) << 2, y << 2, (289 + (int)that->logoPosOffs.y) << 2, (y + 2) << 2, G_TX_RENDERTILE, 0, 0, 1 << 10,
+        gSPTextureRectangle(POLY_OPA_DISP++, ((SAVE_WIDESCREEN ? 20 : 0) + 97 + (int)that->logoPosOffs.x) << 2, y << 2, (289 + (int)that->logoPosOffs.y) << 2, (y + 2) << 2, G_TX_RENDERTILE, 0, 0, (s32)scaleX,
                             1 << 10);
     }
     
@@ -233,6 +240,27 @@ void ConsoleLogo_Main(GameState* thisx)
     that->logoRot += that->spinSpeed;
     ConsoleLogo_Calc(this);
     ConsoleLogo_Draw(this);
+    
+    if (that->logoState == LOGOSTATE_INIT)
+    {
+        int res = LoadSaveAndVerify(0);
+        int res2 = SAVE_NOT_HOL;
+        
+        if (res)
+            res2 = LoadSaveAndVerify(3); 
+        
+        if (res == SAVE_OK || res2 == SAVE_OK)
+        {
+        }
+        else
+        {
+            SAVE_SCREENXPOS = 0;
+            SAVE_SCREENYPOS = 0;
+            SAVE_SCREENSIZEX = 225;
+            SAVE_SCREENSIZEY = 225;
+            SAVE_WIDESCREEN = 0;
+        }
+    }
     
     #if DEBUGVER == 1
         if (that->logoState == LOGOSTATE_INIT && !CHECK_BTN_ALL(this->state.input->cur.button, BTN_START) && *memSize == 0x800000)
@@ -458,6 +486,7 @@ void ConsoleLogo_Main(GameState* thisx)
     }
 
     Environment_FillScreen(this->state.gfxCtx, 0, 0, 0, (s16)that->coverAlpha, FILL_SCREEN_XLU);
+    Screen_Adjust(&this->state, &this->view);      
 
     return;    
 }
@@ -546,13 +575,11 @@ void Opening_Init(GameState* thisx)
     
     _isPrintfInit();
     is64Printf("=== HERO OF LAW ===\n");     
-
+    
     that = (OpeningData*)THA_AllocTailAlign16(&thisx->tha, sizeof(OpeningData));    
     
-    // Load emulator identifier from reserved space in the header.
-    u32* emuIdentifier = (u32*)0x80198948;
+    // Load emulator identifier from reserved space in the header. 
     osEPiReadIo(gCartHandle, 0x18, emuIdentifier);
-    
     *hzChoice = 0;
     
     that->hzChoiceForce = CHECK_BTN_ALL(this->state.input->cur.button, BTN_L | BTN_R);

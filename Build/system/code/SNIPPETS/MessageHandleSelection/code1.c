@@ -1,5 +1,6 @@
 #include "global.h"
 #include "vt.h"
+#include "../../../../actor/_custom-1.0/common.h"
 
 void Message_HandleChoiceSelection(PlayState* play, u8 numChoices) 
 {
@@ -34,5 +35,12 @@ void Message_HandleChoiceSelection(PlayState* play, u8 numChoices)
     // R_TEXT_CHOICE_YPOS(0) is the initial position of the arrow.
     
     msgCtx->textPosX = R_TEXT_CHOICE_XPOS + (2 * sinf(play->gameplayFrames)); 
+    
+    if (SAVE_WIDESCREEN)
+    {
+        msgCtx->textPosX *= WIDESCREEN_SCALEX;
+        msgCtx->textPosX += WIDESCREEN_OFFSX;
+    }
+    
     msgCtx->textPosY = R_TEXTBOX_Y + 20 + (12 * msgCtx->choiceIndex) + ((numChoices == 1) ? 12 : 0);
 }

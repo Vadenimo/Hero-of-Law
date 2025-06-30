@@ -1,10 +1,12 @@
 #ifndef _Z_TITLE_H_
 #define _Z_TITLE_H_
 
+#define SAVE_STUFF
+
 #include <z64hdr/oot_u10/z64hdr.h>
 #include "../../draw2D.h"
 #include "../../holText.h"
-#include "../../holText.h"
+#include "../../common.h"
 #include "../../5 - TransferPak/include/trsPakMgr.h"
 #include "../../6 - BioSensor/include/bioSnsrMgr.h"
 #include "../../3 - NPC Maker/include/npc_maker_types.h"
@@ -21,42 +23,6 @@
 #define LOGO_OFFSET 0x0
 #define COPYRIGHT_OFFSET 0x19000
 #define TEXT_SCALE_TITLE 100
-
-#define SRAM_SIZE 0x8000
-#define SRAM_HEADER_SIZE 0x10
-#define SLOT_SIZE (sizeof(SaveContext) + 0x28)
-#define SLOT_OFFSET(index) (SRAM_HEADER_SIZE + 0x10 + (index * SLOT_SIZE))
-#define SAVESTRUCT_SIZE 0x1354
-#define CHECKSUM_SIZE (SAVESTRUCT_SIZE / 2)
-
-#define SAVE_HEALTH gSaveContext.healthCapacity
-#define SAVE_PROGRESS gSaveContext.bgsDayCount
-#define SAVE_EVIDENCE gSaveContext.swordHealth
-#define SAVE_DEBUG_DEPRECATED gSaveContext.deaths
-#define SAVE_DEBUGMODE gSaveContext.isDoubleDefenseAcquired
-#define SAVE_CREDITSDEBUGCOUNTER gSaveContext.highScores[0]
-#define SAVE_LASTDIEDONSCENE gSaveContext.scarecrowLongSong[0]
-#define SAVE_EXTRASCENES gSaveContext.scarecrowLongSong[1]
-#define SAVE_HASBEATENGAME (gSaveContext.scarecrowLongSongSet == 125)
-
-#define SAVE_LASLOT gSaveContext.scarecrowLongSong[2] 
-#define SAVE_LAKILLEDBYSHOPKEEPER gSaveContext.scarecrowLongSong[3] 
-#define SAVE_LANAME gSaveContext.scarecrowLongSong[4] // 5 bytes
-#define SAVE_NUMTHEFTS gSaveContext.scarecrowLongSong[9]
-#define SAVE_LAUNCHSCENE gSaveContext.scarecrowLongSong[10]
-#define SAVE_LAUNCHLEVEL gSaveContext.scarecrowLongSong[11]
-#define SAVE_ANTIPIRACYGAG gSaveContext.scarecrowLongSong[12]
-#define SAVE_CASINORUPEES (u16*)&gSaveContext.scarecrowLongSong[13] // 2 bytes
-#define SAVE_INGOHINT gSaveContext.scarecrowLongSong[15]
-#define SAVE_SHOWNTALONGAMECONTROLS gSaveContext.scarecrowLongSong[16]
-#define SAVE_LATUNIC gSaveContext.scarecrowLongSong[17]
-#define SAVE_SHOWNUNLOCK gSaveContext.scarecrowLongSong[18]
-#define SAVE_LANOLAWYERS gSaveContext.scarecrowLongSong[19]
-#define SAVE_SCREENXPOS gSaveContext.scarecrowLongSong[20]
-#define SAVE_SCREENYPOS gSaveContext.scarecrowLongSong[21]
-#define SAVE_SCREENSIZEX gSaveContext.scarecrowLongSong[22]
-#define SAVE_SCREENSIZEY gSaveContext.scarecrowLongSong[23]
-#define SAVE_AUDIOSETTING gSaveContext.scarecrowLongSong[24]        // Saved twice because it's less annoying than writing to the header
 
 #define SAVE_MSGLOG
 
@@ -85,18 +51,11 @@
 #define NPCMAKER_ACTOR_OVERWRITEQ 110
 #define NPCMAKER_ACTOR_CORRUPTED 111
 
-#define SAVE_OK 0
-#define SAVE_CORRUPTED 1
-#define SAVE_NOT_HOL 2
-
-char sSaveDefaultMagic[] = {0x98, 0x09, 0x10, 0x21, 'Z', 'E', 'L', 'D', 'A'};
-char sHeroOfLawMagic[] = {'H', 'E', 'R', 'O', '+', 'L', 'A', 'W'};
-char defaultLAName[] = {'?', '?', '?', '?', '?'};
 char sDebugVersion[] = "DEBUG VERSION";
 char NewGameString[] = "NEW GAME";
 char ContinueString[] = "CONTINUE";
-char SceneSelectString[] = "SCENE SELECT";
-char StringVERSION[] = "v.1.0";
+char SceneSelectString[] = "SCENE SELECT / EXTRAS";
+char StringVERSION[] = "v1.01";
 char StringSETTINGS[] = "\xA3"" Settings";
 char BUILDUSERSTRING[] = "BUILDUSERBUILDUSERBUILDUSERBUILDUSE";
 char* gbCamEasterEggStrings[] = 

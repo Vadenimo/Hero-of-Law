@@ -1,23 +1,5 @@
 echo off
 
-echo BUILDUSER...
-cd "actor"
-cd "_custom-1.0"
-cd "369 - Titlescreen"
-py -3 builduser.py
-
-echo DISABLE MUSIC DEBUG...
-cd ../../../system
-cd ovl_opening
-py -3 musid.py 3735928559
-
-cd ..
-cd ..
-cd tool
-py -3 build_audio.py 
-
-cd ..
-
 echo y | zzrtl-hol.exe oot_build.rtl
 
 cd tool

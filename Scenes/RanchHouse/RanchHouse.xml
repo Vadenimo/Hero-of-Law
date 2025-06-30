@@ -7,7 +7,7 @@
   <NightSFX>20</NightSFX>
   <Skybox>0</Skybox>
   <Weather>0</Weather>
-  <SpecialObject>3</SpecialObject>
+  <SpecialObject>2</SpecialObject>
   <ElfMessage>0</ElfMessage>
   <InjectOffset>64774144</InjectOffset>
   <SceneNumber>55</SceneNumber>
@@ -94,11 +94,11 @@
       <Number>9</Number>
       <XPos>125</XPos>
       <YPos>0</YPos>
-      <ZPos>209</ZPos>
+      <ZPos>215</ZPos>
       <XRot>0</XRot>
       <YRot>32767</YRot>
       <ZRot>0</ZRot>
-      <Variable>0</Variable>
+      <Variable>447</Variable>
       <FrontSwitchTo>0</FrontSwitchTo>
       <FrontCamera>0</FrontCamera>
       <BackSwitchTo>0</BackSwitchTo>
@@ -500,61 +500,61 @@
         <ZCutscenePosition>
           <Cameraroll>0</Cameraroll>
           <Frames>120</Frames>
-          <Angle>45</Angle>
+          <Angle>34</Angle>
           <Position>
             <X>234.27652</X>
             <Y>81.23749</Y>
             <Z>222.033951</Z>
           </Position>
           <Position2>
-            <X>134.59256</X>
-            <Y>-48.42804</Y>
-            <Z>-267.9284</Z>
+            <X>79.76801</X>
+            <Y>-55.43738</Y>
+            <Z>-253.494324</Z>
           </Position2>
         </ZCutscenePosition>
         <ZCutscenePosition>
           <Cameraroll>0</Cameraroll>
           <Frames>0</Frames>
-          <Angle>45</Angle>
+          <Angle>34</Angle>
           <Position>
             <X>234.27652</X>
             <Y>81.23749</Y>
             <Z>222.033951</Z>
           </Position>
           <Position2>
-            <X>134.59256</X>
-            <Y>-48.42804</Y>
-            <Z>-267.9284</Z>
+            <X>79.76801</X>
+            <Y>-55.43738</Y>
+            <Z>-253.494324</Z>
           </Position2>
         </ZCutscenePosition>
         <ZCutscenePosition>
           <Cameraroll>0</Cameraroll>
           <Frames>0</Frames>
-          <Angle>45</Angle>
+          <Angle>34</Angle>
           <Position>
             <X>234.27652</X>
             <Y>81.23749</Y>
             <Z>222.033951</Z>
           </Position>
           <Position2>
-            <X>134.59256</X>
-            <Y>-48.42804</Y>
-            <Z>-267.9284</Z>
+            <X>79.76801</X>
+            <Y>-55.43738</Y>
+            <Z>-253.494324</Z>
           </Position2>
         </ZCutscenePosition>
         <ZCutscenePosition>
           <Cameraroll>0</Cameraroll>
           <Frames>0</Frames>
-          <Angle>45</Angle>
+          <Angle>34</Angle>
           <Position>
             <X>234.27652</X>
             <Y>81.23749</Y>
             <Z>222.033951</Z>
           </Position>
           <Position2>
-            <X>134.59256</X>
-            <Y>-48.42804</Y>
-            <Z>-267.9284</Z>
+            <X>79.76801</X>
+            <Y>-55.43738</Y>
+            <Z>-253.494324</Z>
           </Position2>
         </ZCutscenePosition>
       </Points>
@@ -4453,7 +4453,7 @@
         <NightSFX>20</NightSFX>
         <Skybox>0</Skybox>
         <Weather>0</Weather>
-        <SpecialObject>3</SpecialObject>
+        <SpecialObject>2</SpecialObject>
         <ElfMessage>0</ElfMessage>
         <InjectOffset>64774144</InjectOffset>
         <SceneNumber>55</SceneNumber>
@@ -4501,11 +4501,11 @@
             <Number>9</Number>
             <XPos>125</XPos>
             <YPos>0</YPos>
-            <ZPos>209</ZPos>
+            <ZPos>215</ZPos>
             <XRot>0</XRot>
             <YRot>32767</YRot>
             <ZRot>0</ZRot>
-            <Variable>0</Variable>
+            <Variable>447</Variable>
             <FrontSwitchTo>0</FrontSwitchTo>
             <FrontCamera>0</FrontCamera>
             <BackSwitchTo>0</BackSwitchTo>

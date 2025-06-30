@@ -22,35 +22,6 @@ const ActorInitExplPad Title_InitVars =
     (ActorFunc)TitleLogo_Draw,
 };
 
-int LoadSaveAndVerify(int slot)
-{
-    gSaveContext.fileNum = 0;
-    
-    u16 i, j, oldChecksum, newChecksum, offset;
-    u16* ptr;
-      
-    SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(slot), &gSaveContext, SAVESTRUCT_SIZE, OS_READ);
-    
-    if (bcmp(sHeroOfLawMagic, &gSaveContext.playerName, ARRAY_COUNTU(sHeroOfLawMagic)))
-        return SAVE_NOT_HOL;     
-    
-    oldChecksum = gSaveContext.checksum;
-    gSaveContext.checksum = 0;  
-    ptr = (u16*)&gSaveContext;
-
-    for (i = newChecksum = j = 0; i < CHECKSUM_SIZE; i++, offset += 2) 
-    {
-        j += 2;
-        
-        if (j == 0x20) 
-            j = 0;
-        
-        newChecksum += *ptr++;
-    } 
-    
-    return oldChecksum == newChecksum ? SAVE_OK : SAVE_CORRUPTED;
-}
-
 void TitleLogo_Init(Actor* thisx, PlayState* play)
 {
     TitleLogo* this = THIS;
@@ -98,8 +69,12 @@ void TitleLogo_Init(Actor* thisx, PlayState* play)
 
     #if DEBUGVER == 1
         
+        int wasWide = SAVE_WIDESCREEN;
+        
         TitleLogo_InitNewSave();
         TitleLogo_InvalidateMsgLogChecksum();
+        
+        SAVE_WIDESCREEN = wasWide;
         
         this->globalState = TITLESCREEN_STATE_DISPLAY;
         this->saveCorrupted = false;
@@ -1064,6 +1039,7 @@ void TitleLogo_InitNewSave()
     SAVE_SCREENYPOS = 0;
     SAVE_SCREENSIZEX = 225;
     SAVE_SCREENSIZEY = 225;
+    SAVE_WIDESCREEN = 0;
     
     bcopy("ZELDA", &SAVE_LANAME, 5);
     bcopy(&sHeroOfLawMagic, &gSaveContext.playerName, ARRAY_COUNTU(sHeroOfLawMagic));

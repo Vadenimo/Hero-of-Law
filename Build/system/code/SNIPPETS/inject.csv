@@ -25,3 +25,5 @@
 "THGA_Init/code1.bin","../code.bin",0x90090,0x118 
 "ViModeConfigure/code1.bin","../code.bin",0x81E1C,0x5A8
 "PadMgr_UpdateRumble/code1.bin","../code.bin",0x91010,0x250 
+"DrawTextbox/code1.bin","../code.bin",0xCC4E4,0x4A0
+"ScreenAdjust/code1.bin","../code.bin",0x5B9C4,0xB28

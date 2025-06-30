@@ -1,6 +1,7 @@
 #include "global.h"
 #include "message_data_static.h"
 #include "sfx.h"
+#include "../../../../actor/_custom-1.0/common.h"
 
 #define G_IM_SIZ_4b_BYTES		0
 #define G_IM_SIZ_4b_TILE_BYTES	G_IM_SIZ_4b_BYTES
@@ -88,6 +89,13 @@ void Draw2DInternal(u8 RGBAType, u8* texture, u8* palette, Gfx** gfxp, s16 cente
 
     TextureFormat format = GetTextureFormat(RGBAType);
     u8 ciShift = (format.fmt == G_IM_FMT_CI) ? 1 : 0;
+    
+    if (SAVE_WIDESCREEN)
+    {
+        drawWidth *= WIDESCREEN_SCALEX;
+        centerX *= WIDESCREEN_SCALEX;
+        centerX += WIDESCREEN_OFFSX;
+    }
 
     // Calculate drawing parameters
     float scaleX = (float)drawWidth / (float)width;

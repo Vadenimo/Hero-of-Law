@@ -38,10 +38,21 @@ int HoL_DrawMessageTextInternal(PlayState* play, u8* fontBuf, Gfx** gfxp, Color_
         if (fontBuf == NULL && play != NULL)
             fontBuf = play->msgCtx.font.fontBuf;
     }
+    
+    int basePosX = posX;
 
-    // State variables
+    if (SAVE_WIDESCREEN)
+    {
+  
+            posX *= WIDESCREEN_SCALEX;
+            posX += WIDESCREEN_OFFSX; 
+        
+    }   
+    
     int TexPosX = posX;
-    int TexPosY = posY;
+    int TexPosY = posY;    
+    
+    
     int outYSize = TexPosY;
     bool charWasDrawn = false;
     bool drawShadow = (operation == OPERATION_DRAW_SHADOW || 
@@ -83,6 +94,14 @@ int HoL_DrawMessageTextInternal(PlayState* play, u8* fontBuf, Gfx** gfxp, Color_
             { 
                 int width = GetTextPxWidth(&msgData[i + 1], scale);
                 TexPosX = R_TEXTBOX_X + (R_TEXTBOX_WIDTH / 2) - (width / 2);
+                
+                if (SAVE_WIDESCREEN)
+                {
+                    int textboxWidth = R_TEXTBOX_WIDTH * 73 / 100;
+                    width *= WIDESCREEN_SCALEX;
+                    TexPosX = R_TEXTBOX_X + WIDESCREEN_TXBOX_OFFSX + (textboxWidth / 2) - (width / 2);                   
+                }
+                
                 break;
             }
             case MESSAGE_TEXT_SPEED:
@@ -120,7 +139,12 @@ int HoL_DrawMessageTextInternal(PlayState* play, u8* fontBuf, Gfx** gfxp, Color_
             }
             case MESSAGE_SHIFT:
             {
-                TexPosX += (u8)msgData[++i];
+                u8 shift = (u8)msgData[++i];
+                
+                if (SAVE_WIDESCREEN)
+                    shift *= WIDESCREEN_SCALEX;
+                
+                TexPosX += shift;
                 break;
             }
             case MESSAGE_NEWLINE: 
@@ -143,8 +167,15 @@ int HoL_DrawMessageTextInternal(PlayState* play, u8* fontBuf, Gfx** gfxp, Color_
                 break;
             }
             case 0x20: // Space
-                TexPosX += (s32)(fontWidths[0] * (scale / 100.0f));
+            {
+                float width = fontWidths[0];
+                
+                if (SAVE_WIDESCREEN)
+                    width *= WIDESCREEN_SCALEX;
+
+                TexPosX += (s32)(width * (scale / 100.0f));
                 break;
+            }
             case 0xF8: // START button
             { 
                 float sc = 16 * (scale / 100.0f);
@@ -152,9 +183,16 @@ int HoL_DrawMessageTextInternal(PlayState* play, u8* fontBuf, Gfx** gfxp, Color_
                 if (isAGraphicsOp) 
                 {
                     Draw2DInternal(CI8_Setup39, &fontBuf[0x6C30], &fontBuf[0x6C00], &gfx, 
-                                 TexPosX + sc / 2, TexPosY + sc / 2, 24, 24, sc, sc, alpha);
+                                    basePosX + sc / 2, TexPosY + sc / 2, 24, 24, sc, sc, alpha);
+                    
                     gDPPipeSync(gfx++);
                     Gfx_SetupDL_39Ptr(&gfx);
+                }
+                
+                if (SAVE_WIDESCREEN)
+                {
+                    sc *= WIDESCREEN_SCALEX;
+                    sc += 2;
                 }
                 
                 TexPosX += sc - 2;
@@ -192,6 +230,10 @@ int HoL_DrawMessageTextInternal(PlayState* play, u8* fontBuf, Gfx** gfxp, Color_
                                       shadowOffsetX, shadowOffsetY);
 
                         float width = (curChar > 0xAB) ? 13 : fontWidths[curChar - ' '];
+                        
+                        if (SAVE_WIDESCREEN)
+                            width *= WIDESCREEN_SCALEX;                        
+                        
                         TexPosX += (s32)(width * (scale / 100.0f));
                         charWasDrawn = true;
                         charLast = curChar;
@@ -200,7 +242,12 @@ int HoL_DrawMessageTextInternal(PlayState* play, u8* fontBuf, Gfx** gfxp, Color_
                 else if (operation == OPERATION_SET_POSITIONS || operation == OPERATION_SET_POSITIONS_CREDITS) 
                 {
                     positions[i] = (Vec2s){TexPosX, TexPosY};
-                    TexPosX += (s32)(fontWidths[curChar - ' '] * (scale / 100.0f));
+                    float width = (curChar > 0xAB) ? 13 : fontWidths[curChar - ' '];   
+
+                        if (SAVE_WIDESCREEN)
+                            width *= WIDESCREEN_SCALEX;                     
+                    
+                    TexPosX += (s32)(width * (scale / 100.0f));
                 } 
                 else if (operation == OPERATION_EVALUATE_LINE_XSIZE) 
                 {
@@ -214,7 +261,10 @@ int HoL_DrawMessageTextInternal(PlayState* play, u8* fontBuf, Gfx** gfxp, Color_
     if (isAGraphicsOp && iconDrawn > 0 && play != NULL) 
     {
         void* offs = (void*)(iconDrawn * 64 * 64 * 4);
-        Draw2DScaled(RGBA32, 7, play, &gfx, posX + 8, posY + 8 + (numLines * 6), offs, NULL, 64, 64, 32, 32, 255);
+        
+        int pos = SAVE_WIDESCREEN ? (posX + 8 - 16) : (posX + 8);
+        
+        Draw2DScaled(RGBA32, 7, play, &gfx, pos, posY + 8 + (numLines * 6), offs, NULL, 64, 64, 32, 32, 255);
         Gfx_SetupDL_39Ptr(&gfx);
     }
 

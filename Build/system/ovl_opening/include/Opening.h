@@ -1,8 +1,11 @@
 #ifndef _Z_OPENING_H
 #define _Z_OPENING_H
 
+#define SAVE_STUFF
+
 #include "../../../actor/_custom-1.0/holText.h"
 #include "../../../actor/_custom-1.0/draw2D.h"
+#include "../../../actor/_custom-1.0/common.h"
 #include "../../../actor/_custom-1.0/is64Printf.h"
 #include <z64hdr/oot_u10/z64hdr.h>
 #include "sfx.h"
@@ -83,8 +86,6 @@ typedef struct
 
 
 u32* memSize = (u32*)0x80000318;
-u32* hzChoice = (u32*)0x80198950;
-
 OpeningData* that;
 
 Color_RGBA8 primBlue = (Color_RGBA8){255, 255, 255, 255};

@@ -4,6 +4,7 @@
 #include <z64hdr/oot_u10/z64hdr.h>
 #include "../../draw2D.h"
 #include "../../holText.h"
+#include "../../common.h"
 #include "../../3 - NPC Maker/include/npc_maker_types.h"
 #include "../../4 - Voice/include/voicemgr.h"
 
@@ -128,7 +129,7 @@
 #define HEARTS_POS_DEFAULT -105 + (16 * (5 - gSaveContext.healthCapacity))
 #define HEARTS_POS_SHOWING 5
 #define HEARTS_POS_Y 20
-#define HEARTS_MOVE_RATE 8
+#define HEARTS_MOVE_RATE 12
 #define HEARTS_HEIGHT 16
 #define HEARTS_WIDTH 16
 #define HEARTS_DAMAGE_FRAMES_COUNT 8

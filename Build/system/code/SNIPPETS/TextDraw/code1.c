@@ -140,8 +140,18 @@ void Message_DrawText(PlayState* play, Gfx** gfxP)
     bool dontDoSoundForThisChar = false;
 
     msgCtx->textPosX = R_TEXT_INIT_XPOS;
-    msgCtx->textPosY = R_TEXT_INIT_YPOS;
+    int textInitialPos = R_TEXT_INIT_XPOS;
+    
+    if (SAVE_WIDESCREEN)
+    {
+        msgCtx->textPosX *= WIDESCREEN_SCALEX;
+        msgCtx->textPosX += WIDESCREEN_OFFSX;
+        textInitialPos *= WIDESCREEN_SCALEX;
+        textInitialPos += WIDESCREEN_OFFSX;        
+    }
 
+    msgCtx->textPosY = R_TEXT_INIT_YPOS;
+    
     if (msgCtx->textBoxType == TEXTBOX_TYPE_NONE_NO_SHADOW) 
         msgCtx->textColorR = msgCtx->textColorG = msgCtx->textColorB = 0;
     else
@@ -188,7 +198,7 @@ void Message_DrawText(PlayState* play, Gfx** gfxP)
     lastChar = 0;
     *useSquareEnd = false;
     msgUnskippable = false;
-
+    
     for (i = 0; i < msgCtx->textDrawPos; i++) 
     {
         character = msgCtx->msgBufDecoded[i];
@@ -211,13 +221,20 @@ void Message_DrawText(PlayState* play, Gfx** gfxP)
             {
                 int width = GetTextPxWidth(&msgCtx->msgBufDecoded[i + 1], TEXT_SCALE);
                 msgCtx->textPosX = R_TEXTBOX_X + (R_TEXTBOX_WIDTH / 2) - (width / 2);
+                
+                if (SAVE_WIDESCREEN)
+                {
+                    int textboxWidth = R_TEXTBOX_WIDTH * 73 / 100;
+                    width *= WIDESCREEN_SCALEX;
+                    msgCtx->textPosX = R_TEXTBOX_X + WIDESCREEN_TXBOX_OFFSX + (textboxWidth / 2) - (width / 2);
+                }
             }
             break;
             case MESSAGE_FADE2:
                 i+=2;
                 break;
             case MESSAGE_NEWLINE:
-                msgCtx->textPosX = R_TEXT_INIT_XPOS + textShift;
+                msgCtx->textPosX = textInitialPos + textShift;
                 msgCtx->textPosY += R_TEXT_LINE_SPACING;
                 
                 break;
@@ -241,8 +258,15 @@ void Message_DrawText(PlayState* play, Gfx** gfxP)
                 *gfxP = gfx;
                 return;
             case MESSAGE_SHIFT:
-                msgCtx->textPosX += msgCtx->msgBufDecoded[++i];
+            {
+                u8 shift = msgCtx->msgBufDecoded[++i];
+                
+                if (SAVE_WIDESCREEN)
+                    shift *= WIDESCREEN_SCALEX;
+            
+                msgCtx->textPosX += shift;
                 break;
+            }
             case MESSAGE_QUICKTEXT_ENABLE:
                 // This is way more complex than in the original code because it needs to account for multiple
                 // characters being printed per frame
@@ -337,8 +361,10 @@ void Message_DrawText(PlayState* play, Gfx** gfxP)
 			{
 				u8 iconIdx = msgCtx->msgBufDecoded[i + 1];
 				void* offs = (void*)(iconIdx * 64 * 64 * 4);
+                
+                int pos = SAVE_WIDESCREEN ? msgCtx->textPosX - 16 : msgCtx->textPosX;
 				
-				Draw2DScaled(RGBA32, 7, play, &gfx, msgCtx->textPosX + R_TEXTBOX_ICON_XPOS + 16, R_TEXTBOX_ICON_YPOS + 16, offs, NULL, 64, 64, 32, 32, 255);
+				Draw2DScaled(RGBA32, 7, play, &gfx, pos + R_TEXTBOX_ICON_XPOS + 16, R_TEXTBOX_ICON_YPOS + 16, offs, NULL, 64, 64, 32, 32, 255);
                 Gfx_SetupDL_39Ptr(&gfx);
 			
 				//gDPSetAlphaCompare(gfx++, G_AC_NONE);
@@ -420,8 +446,15 @@ void Message_DrawText(PlayState* play, Gfx** gfxP)
                 *gfxP = gfx;
                 return;
             case ' ':
-                msgCtx->textPosX += (s32)(sFontWidths[0] * (R_TEXT_CHAR_SCALE / 100.0f));
+            {
+                float width = sFontWidths[0];
+                
+                if (SAVE_WIDESCREEN)
+                    width *= WIDESCREEN_SCALEX;        
+                
+                msgCtx->textPosX += (s32)(width * (R_TEXT_CHAR_SCALE / 100.0f));
                 break;
+            }
             default:
             {
                 // Walk back a pixel to fix the kerning of select characters following a ( bracket.
@@ -467,6 +500,9 @@ void Message_DrawText(PlayState* play, Gfx** gfxP)
 
                 if (character > 0xAB)
                     width = 13;
+                
+                if (SAVE_WIDESCREEN)
+                    width *= WIDESCREEN_SCALEX;
                 
                 msgCtx->textPosX += (s32)(width * (R_TEXT_CHAR_SCALE / 100.0f));
                 break;
