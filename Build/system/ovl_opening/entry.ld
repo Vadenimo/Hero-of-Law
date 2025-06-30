@@ -1,0 +1,17 @@
+ENTRY_POINT = 0x80800000;
+gPadMgr = 0x8011D500;
+osEPiReadIo = 0x80005630;
+gCartHandle = 0x80006260;
+osTvType = 0x80000300;
+sViMode = 0x8011D1C8;
+gViConfigModeType = 0x80006230;
+gViConfigMode = 0x80007CD0;
+osViModePalLan1 = 0x800064D0;
+osViSetYScale = 0x800D5CF0;
+osViModeFpalLan1 = 0x8006DA50;
+sViMode = 0x8011D1C8;
+ViMode_Configure = 0x80092EBC;
+gAudioSpecs = 0x80104778;
+osViClock = 0x80006358;
+gAudioContext = 0x80125630;
+gTempoData = 0x8010A1B0;

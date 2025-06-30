@@ -1,0 +1,10 @@
+ENTRY_POINT = 0x80028974;
+D_8012D1F8 = 0x800FE4D0;
+Play_Draw = 0x8009C0A8;
+Play_Update = 0x8009AF1C;
+DebugDisplay_Init = 0x80051E60;
+gspS2DEX2d_fifoDataStart = 0x801149E0;
+gspS2DEX2d_fifoTextStart = 0x800E5300;
+SysUcode_GetUCodeData = 0x800ACAEC;
+SysUcode_GetUCode = 0x800ACADC;
+Gfx_Alloc = 0x800A1AC4;

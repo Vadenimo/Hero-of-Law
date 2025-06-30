@@ -1,0 +1,26 @@
+{
+    "daw": "musescore",
+    "loop_start": 9.0,
+    "volume_scale": 0.82,
+    "tracks": [
+        {"name": "glockenspiel 1"},
+        {"name": "glockenspiel 2"},
+        {"name": "harp 1", "volume_scale": 0.95},
+        {"name": "harp 2", "volume_scale": 0.95},
+        {"name": "harp 3", "volume_scale": 0.95},
+        {"name": "harp 4", "volume_scale": 0.95},
+        {"name": "bell pad"},
+        {"name": "oboe"},
+        {"name": "bassoon"},
+        {"name": "voice pad"},
+        {"name": "synth strings 1"},
+        {"name": "synth strings 2"},
+        {"name": "bass guitar"},
+        {"name": "thinking synth strings"},
+        {"name": "thinking bass guitar"},
+        {"name": "tambourine kit"},
+        {"name": "shaker 1"},
+        {"name": "shaker 2"},
+        {"name": "tap", "volume_scale": 1.5}
+    ]
+}

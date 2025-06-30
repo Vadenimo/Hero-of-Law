@@ -1,0 +1,152 @@
+# Blender MTL File: 'ImpaOfficeNewWindow.blend'
+# Material Count: 47
+
+newmtl BrickWallDark
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_00B750.ci8.png
+
+newmtl BrickWallLight
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_019B50.ci8.png
+
+newmtl Carpet
+map_Kd ..\\CARPETING.png
+tags_0 #MirrorX#MirrorY
+
+newmtl Cliff
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_00C950.ci8.png
+
+newmtl DarkGrass
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_019350.rgba16.png
+map_Ks ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_01B750.rgba16.png
+
+newmtl DeathMountain
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_014750.ia4.png
+
+newmtl Desktop
+map_Kd ..\\doortexture.png
+
+newmtl Deskwood
+map_Kd ..\\Judge Back.png
+
+newmtl Door
+map_Kd ..\\wooden_door.rgba16.png.001.png
+
+newmtl DoorNob
+
+newmtl Dresser
+map_Kd ..\\wood.png
+
+newmtl Elise
+map_Kd ..\\Elise.png
+
+newmtl Fence
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_01AF50.rgba16.png
+
+newmtl Floor
+map_Kd ..\\floor.png
+
+newmtl Glass
+map_Kd ..\\brass.png
+
+newmtl Grass
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_00AA50.rgba16.png
+map_Ks ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_018B50.rgba16.png
+
+newmtl Handle
+map_Kd ..\\handle.png
+
+newmtl HouseBrick
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_00CD50.ci8.png
+tags_0 #MirrorX
+
+newmtl HouseBrickDark
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_00CD50.ci8.png
+tags_0 #MirrorX
+
+newmtl HouseMetalWall
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_00E550.ci8.png
+tags_0 #MirrorX
+
+newmtl HouseWall
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_017B50.ci8.png
+tags_0 #MirrorX
+
+newmtl Ladder
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_00BF50.rgba16.png
+tags_0 #MirrorX
+
+newmtl LampDark
+
+newmtl MountainCliffs
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_00DD50.i4.png
+
+newmtl MountainRange
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_014350.ia4.png
+
+newmtl Paper
+map_Kd ..\\wall.png
+
+newmtl PurpleShingles
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_01BF50.ci8.png
+
+newmtl Quil
+map_Kd ..\\quil.png
+
+newmtl RedShingles
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_01BF50.ci8.png
+
+newmtl Stairs
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_014F50.ci8.png
+tags_0 #MirrorX
+
+newmtl StairsWall
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_014B50.ci8.png
+
+newmtl StonePath
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_00D550.i4.png
+
+newmtl Tower
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\spot01_sceneTex_011950.rgba16.png
+
+newmtl Wall
+map_Kd ..\\nakaniwa_room_0Tex_007A18.rgba16.png
+
+newmtl Well
+map_Kd ..\\brass.png
+
+newmtl Window
+map_Kd ..\\..\\Vanilla\\Kakariko\\textures\\night_window.rgba16.png
+tags_0 #MirrorX
+
+newmtl WindowGlass
+map_Kd ..\\asfsaf.png
+
+newmtl books
+map_Kd ..\\bookshelf.png
+
+newmtl books2
+map_Kd ..\\bookshelf2.png
+tags_0 #ClampY
+
+newmtl books3
+map_Kd ..\\bookshelf3.png
+
+newmtl bookshelf
+map_Kd ..\\wood.png
+
+newmtl ceiling
+map_Kd ..\\ceilingjimbo.png
+
+newmtl icon
+map_Kd ..\\icon.png
+
+newmtl lover
+map_Kd ..\\lover.png
+
+newmtl page
+map_Kd ..\\writing.png
+
+newmtl window
+map_Kd ..\\window.png
+
+newmtl window2_nocull
+map_Kd ..\\window.png

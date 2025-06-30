@@ -1,0 +1,35 @@
+# Blender MTL File: 'Prison.blend'
+# Material Count: 11
+
+newmtl Bars
+map_Kd ..\\textures\\bars.png
+
+newmtl Bed
+map_Kd ..\\textures\\BED.png
+
+newmtl Edge
+map_Kd ..\\textures\\edge.png
+
+newmtl GateHole
+map_Kd ..\\textures\\spot15_sceneTex_004A00.ia8.png
+
+newmtl PotOutside
+map_Kd ..\\textures\\tex_00000000.rgba16.png
+
+newmtl PotTop
+map_Kd ..\\textures\\tex_00001000.rgba16.png
+
+newmtl Rope
+map_Kd ..\\textures\\twine.png
+
+newmtl Sky
+map_Kd ..\\textures\\Sky.png
+
+newmtl Stone
+map_Kd ..\\textures\\Stone.png
+
+newmtl Torch
+map_Kd ..\\textures\\golden_torch_2.rgba16.png
+
+newmtl Wall
+map_Kd ..\\textures\\Wall.png

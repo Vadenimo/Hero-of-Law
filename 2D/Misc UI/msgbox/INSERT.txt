@@ -1,0 +1,4 @@
+Directly into ROM at 8E7000
+
+I4 codec
+128x64

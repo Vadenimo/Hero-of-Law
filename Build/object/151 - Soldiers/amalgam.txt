@@ -1,0 +1,5 @@
+0 - 151
+C6E0 - MM OBJ_BAISAN
+12F38 - ci8 palette
+14890 - ci8 8x8 mouth half
+148D0 - ci8 8x8 mouth open

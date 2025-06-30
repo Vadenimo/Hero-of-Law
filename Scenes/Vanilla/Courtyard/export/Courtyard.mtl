@@ -1,0 +1,98 @@
+# Blender MTL File: 'Courtyard.blend'
+# Material Count: 31
+
+newmtl Boozer
+map_Kd ..\\textures\\nakaniwa_room_0Tex_007418.rgba16.png
+
+newmtl BricksMulti1
+map_Kd ..\\textures\\nakaniwa_room_0Tex_00C618.i4.png
+map_Ks ..\\textures\\nakaniwa_room_0Tex_00FE18.rgba16.png
+
+newmtl BricksMulti2
+map_Kd ..\\textures\\nakaniwa_room_0Tex_013E18.i4.png
+map_Ks ..\\textures\\nakaniwa_room_0Tex_010E18.rgba16.png
+
+newmtl Carpet
+map_Kd ..\\textures\\nakaniwa_room_0Tex_011618.rgba16.png
+
+newmtl CentralStoneBricks
+map_Kd ..\\textures\\nakaniwa_room_0Tex_011E18.rgba16.png
+
+newmtl DirtWall
+map_Kd ..\\textures\\nakaniwa_room_0Tex_009E18.rgba16.png
+
+newmtl EmblemWing
+map_Kd ..\\textures\\nakaniwa_room_0Tex_016EC0.ia16.png
+
+newmtl FlowerBase
+map_Kd ..\\textures\\nakaniwa_room_0Tex_008618.rgba16.png
+
+newmtl FlowerTop
+map_Kd ..\\textures\\nakaniwa_room_0Tex_008E18.rgba16.png
+
+newmtl Glass
+
+newmtl GlassWindow
+map_Kd ..\\textures\\nakaniwa_room_0Tex_00E618.rgba16.png
+
+newmtl Goku
+map_Kd ..\\textures\\nakaniwa_room_0Tex_007218.rgba16.png
+
+newmtl Grass
+map_Kd ..\\textures\\nakaniwa_room_0Tex_012618.rgba16.png
+map_Ks ..\\textures\\nakaniwa_room_0Tex_00F618.rgba16.png
+
+newmtl GreenWallPaper
+map_Kd ..\\textures\\nakaniwa_room_0Tex_007A18.rgba16.png
+
+newmtl Pech
+map_Kd ..\\textures\\nakaniwa_room_0Tex_007618.rgba16.png
+
+newmtl PiinkFlowerBase
+map_Kd ..\\textures\\nakaniwa_room_0Tex_0156C0.ia16.png
+
+newmtl PinkFlowers
+map_Kd ..\\textures\\nakaniwa_room_0Tex_014EC0.ia16.png
+
+newmtl RoomPlant
+map_Kd ..\\textures\\nakaniwa_room_0Tex_008618.rgba16.png
+
+newmtl RoomPlanter
+map_Kd ..\\textures\\nakaniwa_room_0Tex_007818.rgba16.png
+
+newmtl Sky
+map_Kd ..\\textures\\nakaniwa_room_0Tex_00A618.rgba16.png
+
+newmtl Sky2
+map_Kd ..\\textures\\nakaniwa_room_0Tex_00B618.rgba16.png
+
+newmtl Spire
+map_Kd ..\\textures\\nakaniwa_room_0Tex_012E18.rgba16.png
+
+newmtl Stone
+map_Kd ..\\textures\\nakaniwa_room_0Tex_013618.rgba16.png
+
+newmtl StoneBricksByZelda
+map_Kd ..\\textures\\nakaniwa_room_0Tex_00EE18.rgba16.png
+
+newmtl StoneTile
+map_Kd ..\\textures\\nakaniwa_room_0Tex_00DE18.rgba16.png
+
+newmtl TitsAMe
+map_Kd ..\\textures\\nakaniwa_room_0Tex_008418.rgba16.png
+
+newmtl Trees
+map_Kd ..\\textures\\nakaniwa_room_0Tex_00CE18.rgba16.png
+
+newmtl Water
+map_Kd ..\\textures\\nakaniwa_room_0Tex_0166C0.rgba16.png
+map_Ks ..\\textures\\nakaniwa_room_0Tex_0166C0.rgba16.png
+
+newmtl Window
+map_Kd ..\\textures\\nakaniwa_room_0Tex_010618.rgba16.png
+
+newmtl WindowStonePillar
+map_Kd ..\\textures\\nakaniwa_room_0Tex_011E18.rgba16.png
+
+newmtl Yoggy
+map_Kd ..\\textures\\nakaniwa_room_0Tex_008218.rgba16.png

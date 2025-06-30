@@ -1,0 +1,20 @@
+{
+    "daw": "fl_studio",
+    "loop_start": 3.0,
+    "volume_scale": 1.0,
+    "tracks": [
+        {"name": "Jazz Guitar"},
+        {"name": "Harpsichord"},
+        {"name": "Guitar"},
+        {"name": "Drum", "force_instrument_id": 68},
+        {"name": "Orchestra Kit", "force_instrument_id": 68},
+        {"name": "Orchestra Kit 2", "force_instrument_id": 68},
+        {"name": "Beat Kit", "force_instrument_id": 68},
+        {"name": "Tambourine Kit"},
+        {"name": "Ganon Piano", "force_instrument_id": 67},
+        {"name": "Slow Strings"},
+        {"name": "Jazz Guitar (Thinking)"},
+        {"name": "Harpsichord (Thinking)"},
+        {"name": "Guitar (Thinking)"}
+    ]
+}

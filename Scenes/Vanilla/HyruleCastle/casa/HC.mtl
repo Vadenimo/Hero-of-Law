@@ -1,0 +1,140 @@
+# Blender MTL File: 'HC.blend'
+# Material Count: 43
+
+newmtl Black
+
+newmtl BricktileBorder
+map_Kd ..\\textures\\spot15_sceneTex_011400.rgba16.png
+
+newmtl CastleBrick
+map_Kd ..\\textures\\spot15_sceneTex_010C00.i4.png
+
+newmtl CastleBrick2
+map_Kd ..\\textures\\spot15_sceneTex_00A100.rgba16.png
+
+newmtl CastleSpike
+map_Kd ..\\textures\\spot15_sceneTex_016800.rgba16.png
+
+newmtl Cliff
+map_Kd ..\\textures\\spot15_sceneTex_012400.rgba16.png
+
+newmtl CliffClimb
+map_Kd ..\\textures\\spot15_sceneTex_005400.rgba16.png
+
+newmtl Crest
+map_Kd ..\\textures\\spot15_sceneTex_008E00.rgba16.png
+tags_0 #MirrorX
+
+newmtl CrestAboveDrawbridge
+map_Kd ..\\textures\\spot15_sceneTex_009600.rgba16.png
+tags_0 #MirrorX
+
+newmtl Drawbridge
+map_Kd ..\\textures\\spot15_sceneTex_00C200.rgba16.png
+
+newmtl Flower1
+map_Kd ..\\textures\\spot15_sceneTex_004100.rgba16.png
+tags_0 #ClampX#MirrorY
+
+newmtl Flower2
+map_Kd ..\\textures\\spot15_sceneTex_00BA00.rgba16.png
+tags_0 #ClampX#ClampY
+
+newmtl GateOpening
+map_Kd ..\\textures\\spot15_sceneTex_004A00.ia8.png
+
+newmtl Grass
+map_Kd ..\\textures\\spot15_sceneTex_014400.rgba16.png
+map_Ks ..\\textures\\spot15_sceneTex_00FC00.rgba16.png
+
+newmtl GreenGate
+map_Kd ..\\textures\\spot15_sceneTex_007E00.rgba16.png
+
+newmtl Ladder
+map_Kd ..\\textures\\spot15_sceneTex_00A900.rgba16.png
+
+newmtl MoatDirt
+map_Kd ..\\textures\\dirt.png
+
+newmtl Path
+map_Kd ..\\textures\\spot15_sceneTex_013400.rgba16.png
+
+newmtl PopupGrass
+map_Kd ..\\textures\\spot15_sceneTex_00CA00.rgba16.png
+
+newmtl Spires
+map_Kd ..\\textures\\spot15_sceneTex_016600.rgba16.png
+
+newmtl Stairs
+map_Kd ..\\textures\\spot15_sceneTex_00EC00.i8.png
+
+newmtl StairsBottom
+map_Kd ..\\textures\\spot15_sceneTex_00EC00.i8.png
+
+newmtl StairsCrawlSpaceBorder
+map_Kd ..\\textures\\spot15_sceneTex_015E00.rgba16.png
+
+newmtl StairsSide
+map_Kd ..\\textures\\spot15_sceneTex_017400dark.rgba16.png
+
+newmtl StairsSideOut
+map_Kd ..\\textures\\spot15_sceneTex_017400.rgba16.png
+
+newmtl Torch
+map_Kd ..\\textures\\spot15_sceneTex_009800.ia8.png
+
+newmtl Torchback
+map_Kd ..\\textures\\spot15_sceneTex_016600.rgba16.png
+
+newmtl Vine
+map_Kd ..\\textures\\spot15_sceneTex_004C00.rgba16.png
+tags_0 #ClampX
+
+newmtl VineShadow
+map_Kd ..\\textures\\spot15_sceneTex_004C00dark.rgba16.png
+tags_0 #ClampX
+
+newmtl WallBrickGuards
+map_Kd ..\\textures\\spot15_sceneTex_010C00.i4.png
+
+newmtl Water
+map_Kd ..\\textures\\spot15_sceneTex_017C00.rgba16.png
+map_Ks ..\\textures\\spot15_sceneTex_017C00.rgba16.png
+
+newmtl Window1
+map_Kd ..\\textures\\spot15_sceneTex_015C00.rgba16.png
+
+newmtl Window2
+map_Kd ..\\textures\\spot15_sceneTex_018400.ia8.png
+
+newmtl Window3
+map_Kd ..\\textures\\spot15_sceneTex_00B900.ia8.png
+
+newmtl bricktile
+map_Kd ..\\textures\\spot15_sceneTex_010400.rgba16.png
+
+newmtl bricktiledark
+map_Kd ..\\textures\\darktile.png
+
+newmtl brickwalldark
+map_Kd ..\\textures\\spot15_sceneTex_010C00dark.i4.png
+
+newmtl castlecrawlspace
+map_Kd ..\\textures\\spot15_sceneTex_00C200.rgba16.png
+
+newmtl door
+map_Kd ..\\textures\\spot15_sceneTex_006500.rgba16.png
+
+newmtl hawkfront
+map_Kd ..\\textures\\spot15_sceneTex_007300.ia4.png
+tags_0 #ClampX#ClampY
+
+newmtl hawklegs
+map_Kd ..\\textures\\spot15_sceneTex_007B00.ia4.png
+
+newmtl hawkwings
+map_Kd ..\\textures\\spot15_sceneTex_006F00.ia4.png
+tags_0 #ClampX#ClampY
+
+newmtl mountainbackdrop
+map_Kd ..\\textures\\spot15_sceneTex_011C00.ia4.png

@@ -1,0 +1,53 @@
+# Blender MTL File: 'Lobby_3.0.1_Optimized.blend'
+# Material Count: 17
+
+newmtl CARPETING
+map_Kd tex_real\\CARPETING.png
+
+newmtl Door
+map_Kd tex_real\\doortexture.png
+
+newmtl Doornob
+map_Kd tex_real\\doornob.png
+
+newmtl LEAVES
+map_Kd tex_real\\LEAVES.png
+
+newmtl POTSBLANKET
+map_Kd tex_real\\POTSBLANKET.png
+
+newmtl WOODOTHER
+map_Kd tex_real\\WOODOTHER.png
+
+newmtl _1
+map_Kd tex_real\\_1.png
+
+newmtl _2
+map_Kd tex_real\\_2.png
+
+newmtl _3
+map_Kd tex_real\\_3.png
+
+newmtl _4
+map_Kd tex_real\\_4.png
+
+newmtl _5
+map_Kd tex_real\\_5.png
+
+newmtl _6
+map_Kd tex_real\\_6.png
+
+newmtl _auto_
+map_Kd tex_real\\_auto_.png
+
+newmtl _auto_13
+map_Kd tex_real\\_auto_13.png
+
+newmtl _auto_14
+map_Kd tex_real\\_auto_14.png
+
+newmtl _auto_3
+map_Kd tex_real\\_auto_3.png
+
+newmtl _auto_5
+map_Kd tex_real\\_auto_5.png

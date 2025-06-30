@@ -1,0 +1,9 @@
+{
+    "daw": "fl_studio",
+    "time_signatures": {
+        "1": "1/4",
+        "2": "4/4"
+    },
+    "loop_start": 2.0,
+    "volume_scale": 0.95
+}

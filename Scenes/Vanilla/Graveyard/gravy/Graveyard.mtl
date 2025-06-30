@@ -1,0 +1,90 @@
+# Blender MTL File: 'Graveyard.blend'
+# Material Count: 29
+
+newmtl BackdropCliffs
+map_Kd ..\\textures\\spot02_room_1Tex_00C508.ci4.png
+
+newmtl BackdropMountains
+map_Kd ..\\textures\\spot02_room_1Tex_017988.ia8.png
+
+newmtl BackdropTop
+map_Kd ..\\textures\\spot02_room_1Tex_00CD08.rgba16.png
+
+newmtl BackdropTrees
+map_Kd ..\\textures\\spot02_room_1Tex_015D08.i8.png
+
+newmtl Chimmney
+map_Kd ..\\textures\\spot02_room_1Tex_010308.rgba16.png
+
+newmtl ChimmneyTop
+map_Kd ..\\textures\\spot02_room_1Tex_009708.rgba16.png
+
+newmtl Cliff
+map_Kd ..\\textures\\spot02_room_1Tex_018988.rgba16.png
+
+newmtl CliffTop
+map_Kd ..\\textures\\spot02_room_1Tex_017588.rgba16.png
+
+newmtl Fence
+map_Kd ..\\textures\\spot02_room_1Tex_014508.ci4.png
+
+newmtl FunnyHookshotRock
+map_Kd ..\\textures\\spot02_room_1Tex_010B08.rgba16.png
+
+newmtl FunnyHookshotRockFront
+map_Kd ..\\textures\\spot02_room_1Tex_00F308.rgba16.png
+
+newmtl Grass
+map_Kd ..\\textures\\spot02_room_1Tex_00E308.rgba16.png
+map_Ks ..\\textures\\spot02_room_1Tex_016D88.rgba16.png
+
+newmtl GraveMoon
+map_Kd ..\\textures\\spot02_room_1Tex_009908.rgba16.png
+
+newmtl GraveSign
+map_Kd ..\\textures\\spot02_room_1Tex_00B108.rgba16.png
+
+newmtl GraveSun
+map_Kd ..\\textures\\spot02_room_1Tex_00A908.rgba16.png
+
+newmtl GraveTalon
+map_Kd ..\\textures\\GraveTalon.png
+
+newmtl Graveside
+map_Kd ..\\textures\\spot02_room_1Tex_00C108.rgba16.png
+
+newmtl Mushroom
+map_Kd ..\\textures\\Red_Mushroom_29_JE2_BE2.png
+
+newmtl Shed
+map_Kd ..\\textures\\spot02_room_1Tex_010D08.rgba16.png
+
+newmtl ShedDoor
+
+newmtl ShedWindow
+map_Kd ..\\textures\\spot02_room_1Tex_00EB08.rgba16.png
+
+newmtl Sign
+map_Kd ..\\textures\\spot02_room_1Tex_012508.rgba16.png
+map_Ks ..\\textures\\spot02_room_1Tex_012508.rgba16.png
+
+newmtl SmallFence
+map_Kd ..\\textures\\spot02_room_1Tex_011508.ia8.png
+
+newmtl StonePath
+map_Kd ..\\textures\\spot02_room_1Tex_01C790.ia8.png
+
+newmtl TreeLog
+map_Kd ..\\textures\\spot02_room_1Tex_012D08.rgba16.png
+
+newmtl TriforceMark
+map_Kd ..\\textures\\spot02_room_1Tex_01D790.ia8.png
+
+newmtl Vines
+map_Kd ..\\textures\\spot02_room_1Tex_013508.rgba16.png
+
+newmtl WindmillBrick
+map_Kd ..\\textures\\spot02_room_1Tex_016D08.i4.png
+
+newmtl WrittenSign
+map_Kd ..\\textures\\spot02_room_1Tex_014D08.rgba16.png

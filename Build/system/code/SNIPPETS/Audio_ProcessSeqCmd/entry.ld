@@ -1,0 +1,17 @@
+ENTRY_POINT = 0x800C9FAC;
+gActiveSeqs = 0x80124C00;
+gAudioSpedId = 0x801043C0;
+sSeqRequests = 0x801247D0;
+sNumSeqRequests = 0x801247F8;
+Audio_StopSequence = 0x800C9F24;
+AudioThread_QueueCmdS8 = 0x800BB0E0;
+AudioThread_QueueCmdU16 = 0x800BB110;
+gSoundModeList = 0x801043BC;
+gStartSeqDisabled = 0x801043B8;
+gAudioSpecId = 0x801043C0;
+gSfxChannelLayout = 0x8010438C;
+AudioThread_ResetAudioHeap = 0x800BB548;
+func_800F71BC = 0x800C7E98;
+AudioThread_QueueCmdS32 = 0x800BB0BC;
+Audio_StartSequence = 0x800C9DA0;
+AudioThread_QueueCmdF32 = 0x800BB098;

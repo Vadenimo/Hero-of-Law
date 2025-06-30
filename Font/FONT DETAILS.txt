@@ -1,0 +1,7 @@
+Font size = 19
+YOffs = -2
+No "width advance"
+
+
+font  = font + hiragana
+hiragana width all 13

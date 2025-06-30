@@ -1,0 +1,43 @@
+{
+    "daw": "musescore",
+    "loop_start": 2.0,
+    "volume_scale": 0.8,
+    "_note": "glockenspiel 1 is set as cc11 because it trades off with glock 2 -- they should have consistent channel volume",
+    "cc11_regions": [
+        {"track": "accordion 1", "start": 1.0, "end": 2.0},
+        {"track": "accordion 2", "start": 1.0, "end": 2.0},
+        {"track": "glockenspiel 1 (shared)", "start": 1.0, "end": 26.0},
+        {"track": "glockenspiel 2 (shared)", "start": 1.0, "end": 26.0},
+        {"track": "strings 1 (normal)", "start": 1.0, "end": 2.0},
+        {"track": "strings 2 (normal)", "start": 1.0, "end": 2.0},
+        {"track": "strings 1 (thinking)", "start": 1.0, "end": 26.0},
+        {"track": "strings 2 (thinking)", "start": 1.0, "end": 26.0}
+    ],
+    "tracks": [
+        {"name": "glockenspiel 1 (normal)"},
+        {"name": "glockenspiel 1 (shared)"},
+        {"name": "glockenspiel 1 (thinking)"},
+        {"name": "harp 1"},
+        {"name": "harp 2"},
+        {"name": "harp 3"},
+        {"name": "accordion 1", "vibrato": 6},
+        {"name": "accordion 2", "vibrato": 6},
+        {"name": "ocarina"},
+        {"name": "guitar"},
+        {"name": "jazz guitar"},
+        {"name": "koto (normal)"},
+        {"name": "koto (shared)"},
+        {"name": "glockenspiel 2 (normal)"},
+        {"name": "glockenspiel 2 (shared)"},
+        {"name": "strings 1 (normal)"},
+        {"name": "strings 2 (normal)"},
+        {"name": "strings 1 (thinking)", "volume_scale": 1.1},
+        {"name": "strings 2 (thinking)", "volume_scale": 1.1},
+        {"name": "snare 1 (normal)"},
+        {"name": "snare 1 (shared)"},
+        {"name": "snare 2"},
+        {"name": "cymbal"},
+        {"name": "timpani 1"},
+        {"name": "timpani 2"}
+    ]
+}

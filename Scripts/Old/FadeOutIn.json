@@ -1,0 +1,898 @@
+{
+  "Version": 3,
+  "Entries": [
+    {
+      "NPCName": "Ingo",
+      "IsNull": false,
+      "ObjectID": 192,
+      "Hierarchy": 80776,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": true,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": true,
+      "IsAlwaysDrawn": true,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 12,
+      "CollisionHeight": 3,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": true,
+      "ShadowRadius": 36,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": true,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 16,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 82716,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "Text": "talk Message\r\n\r\n    set talk_mode true\r\n    face self towards player\r\n\r\n    set TALK_PERSIST true\r\n    \r\n    fadeout 0 0 0 15\r\n\r\n    await talking_end\r\n    await frames 20\r\n\r\n    fadein 15\r\n\r\n    show_textbox Message2\r\n\r\n    set player_rupees += 1\r\n\r\n    await talking_end\r\n\r\n\r\n    save\r\n\r\n\r\n    talk_mode false\r\n    set TALK_PERSIST false\r\n\r\nendtalk",
+          "ParseErrors": [],
+          "Name": "Talk"
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 17296,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 13520,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 15,
+      "TalkSegment": 15,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [
+        {
+          "Name": "DList_0",
+          "Address": 79496,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 1,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "DList_1",
+          "Address": 79808,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 2,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "DList_2",
+          "Address": 80144,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 3,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "DList_3",
+          "Address": 78520,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 4,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "DList_4",
+          "Address": 78832,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 5,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "DList_5",
+          "Address": 79168,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 6,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "DList_6",
+          "Address": 78080,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 7,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "DList_7",
+          "Address": 71512,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 8,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "DList_8",
+          "Address": 76480,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 9,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "DList_9",
+          "Address": 76784,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 10,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "DList_10",
+          "Address": 77088,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 11,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "DList_11",
+          "Address": 74880,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 12,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "DList_12",
+          "Address": 75184,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 13,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        }
+      ],
+      "DisplayListColors": [],
+      "Messages": [
+        {
+          "Name": "Message",
+          "MessageText": "<NS>Whoosh to black!<FADE:15>",
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Message2",
+          "MessageText": "Yeah, we just had, an, uh, eclipse.\r\nYeah, that's it.\r\nSaving your game now.",
+          "Type": 0,
+          "Position": 0
+        }
+      ],
+      "DEBUGShowCols": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false
+    },
+    {
+      "NPCName": "Talon",
+      "IsNull": false,
+      "ObjectID": 17,
+      "Hierarchy": 47032,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": true,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 15,
+      "CollisionHeight": 3,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": true,
+      "ShadowRadius": 39,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": true,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 14,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 7316,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "Text": "::basic_talk Message",
+          "ParseErrors": [],
+          "Name": "Talk"
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 30400,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 29376,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 15,
+      "TalkSegment": 15,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [
+        {
+          "Name": "DList_0",
+          "Address": 38608,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 6000,
+          "RotY": 0,
+          "RotZ": 3000,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 14,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        }
+      ],
+      "DisplayListColors": [],
+      "Messages": [
+        {
+          "Name": "Message",
+          "MessageText": "Wa ha ha ha ha ha ha~!\r\n<New box>\r\nYou can't get rid of me that easily!\r\n<New box>\r\nTalon's got some <G>special mushrooms<W>\r\nto bring him back.",
+          "Type": 0,
+          "Position": 0
+        }
+      ],
+      "DEBUGShowCols": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false
+    },
+    {
+      "NPCName": "Epona",
+      "IsNull": false,
+      "ObjectID": 160,
+      "Hierarchy": 31520,
+      "FileStart": 0,
+      "HierarchyType": 4,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.005,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": true,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 12,
+      "CollisionHeight": 3,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": true,
+      "ShadowRadius": 87,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": true,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 17380,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "Text": "::basic_talk Message",
+          "ParseErrors": [],
+          "Name": "Message"
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 7464,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 7464,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 15,
+      "TalkSegment": 15,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [
+        {
+          "Name": "Message",
+          "MessageText": "Neeeeeigh~!\r\n<B>(I'm a horse, if you haven't noticed)\r\n<New box>\r\nNeeeigh, neeeeeigh!\r\n<B>(Nice to meet you, though...)",
+          "Type": 0,
+          "Position": 0
+        }
+      ],
+      "DEBUGShowCols": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false
+    },
+    {
+      "NPCName": "Malon",
+      "IsNull": false,
+      "ObjectID": 224,
+      "Hierarchy": 33888,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": true,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 18,
+      "CollisionHeight": 3,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": true,
+      "ShadowRadius": 18,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": true,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 14,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 36196,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "Text": "::basic_talk Message",
+          "ParseErrors": [],
+          "Name": "Talk"
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 6936,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 15,
+      "TalkSegment": 15,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [
+        {
+          "Name": "Message",
+          "MessageText": "Ingo's not inherently a bad person, \r\nyou know.\r\n<New box>\r\nSometimes, when people bottle up\r\ntheir grievances, it takes just one\r\nlittle push for them to snap.\r\n<New box>\r\nBe honest about your feelings.",
+          "Type": 0,
+          "Position": 0
+        }
+      ],
+      "DEBUGShowCols": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false
+    }
+  ],
+  "GlobalHeaders": [
+    {
+      "Text": "#define actor.posX actorf.0x24\r\n#define actor.posY actorf.0x28 \r\n#define actor.posZ actorf.0x2C \r\n#define actor.dirX actor16.0x30 \r\n#define actor.dirY actor16.0x32 \r\n#define actor.dirZ actor16.0x34 \r\n\r\n#define actor.homePosX actorf.0x8 \r\n#define actor.homePosY actorf.0xC \r\n#define actor.homePosZ actorf.0x10 \r\n#define actor.homeDirX actor16.0x12 \r\n#define actor.homeDirY actor16.0x14 \r\n#define actor.homeDirZ actor16.0x16 \r\n                \r\n#define actor.scaleX actorf.0x50 \r\n#define actor.scaleY actorf.0x54 \r\n#define actor.scaleZ actorf.0x58 \r\n\r\n#define actor.velocityX actorf.0x5C \r\n#define actor.velocityY actorf.0x60 \r\n#define actor.velocityZ actorf.0x64 \r\n\r\n#define actor.rotX actor16.0xB4 \r\n#define actor.rotY actor16.0xB6 \r\n#define actor.rotZ actor16.0xB8\r\n",
+      "ParseErrors": [],
+      "Name": "Definitions"
+    },
+    {
+      "Text": "proc basic_talk textbox\r\n    talk textbox\r\n        set talk_mode true\r\n        set animation 0\r\n        face self towards player\r\n        await talking_end\r\n        set talk_mode false\r\n    endtalk\r\nendproc\r\n\r\n\r\nproc talk_with_anim textbox talk_animation\r\n    talk textbox\r\n        set talk_mode true\r\n        set animation talk_animation\r\n        face self towards player\r\n        await talking_end\r\n        set animation 0\r\n        set talk_mode false\r\n    endtalk\r\nendproc\r\n",
+      "ParseErrors": [],
+      "Name": "Macros"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+# Blender MTL File: 'HF.blend'
+# Material Count: 42
+
+newmtl Cliff
+map_Kd textures\\spot00_dl_spot00_sceneTex_024818_ci4_png_ci4.png
+
+newmtl DirtEnd
+map_Kd textures\\spot00_dl_spot00_sceneTex_024018_i4_png_i4.png
+
+newmtl DirtPath
+map_Kd textures\\spot00_dl_spot00_sceneTex_025018_i4_png_i4.png
+
+newmtl DirtSplit
+map_Kd textures\\spot00_dl_spot00_sceneTex_023818_i4_png_i4.png
+tags_0 #ClampX#ClampY
+
+newmtl Gate
+map_Kd textures\\Gate.png
+tags_0 #MirrorX#ClampY
+
+newmtl Grass
+map_Kd textures\\spot00_dl_spot00_sceneTex_01AB98_rgba16_png_rgba16.png
+map_Ks textures\\spot00_dl_spot00_sceneTex_01B398_rgba16_png_rgba16.png
+
+newmtl LHWall
+map_Kd textures\\spot00_dl_spot00_sceneTex_021818_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.001
+map_Kd textures\\spot00_dl_spot00_sceneTex_014D98_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.002
+map_Kd textures\\spot00_dl_spot00_sceneTex_026998_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.006
+map_Kd textures\\spot00_dl_spot00_sceneTex_022018_ia4_png_ia4.png
+
+newmtl f3dlite_material.007
+map_Kd textures\\spot00_dl_spot00_sceneTex_020818_rgba16_png_rgba16.png
+map_Ks textures\\spot00_dl_spot00_sceneTex_020818_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.009
+map_Kd textures\\spot00_dl_spot00_sceneTex_016698_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.010
+map_Kd textures\\spot00_dl_spot00_sceneTex_01BD98_rgba16_png_rgba16.png
+tags_0 #MirrorX
+
+newmtl f3dlite_material.011
+map_Kd textures\\spot00_dl_spot00_sceneTex_025818_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.012
+map_Kd textures\\spot00_dl_spot00_sceneTex_01BB98_rgba16_png_rgba16.png
+tags_0 #MirrorX
+
+newmtl f3dlite_material.013
+map_Kd textures\\spot00_dl_spot00_sceneTex_029F98_i4_png_i4.png
+
+newmtl f3dlite_material.014
+map_Kd textures\\spot00_dl_spot00_sceneTex_01F618_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.015
+map_Kd textures\\spot00_dl_spot00_sceneTex_019398_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.021
+map_Kd textures\\spot00_dl_spot00_sceneTex_01D998_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.027
+map_Kd textures\\spot00_dl_spot00_sceneTex_023018_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.028
+map_Kd textures\\spot00_dl_spot00_sceneTex_022818_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.029
+map_Kd textures\\spot00_dl_spot00_sceneTex_01C198_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.030
+map_Kd textures\\spot00_dl_spot00_sceneTex_021018_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.032
+map_Kd textures\\spot00_dl_spot00_sceneTex_026898_ia4_png_ia4.png
+
+newmtl f3dlite_material.033
+map_Kd textures\\spot00_dl_spot00_sceneTex_016A98_ia4_png_ia4.png
+
+newmtl f3dlite_material.037
+map_Kd textures\\spot00_dl_spot00_sceneTex_014998_rgba16_png_rgba16.png
+tags_0 #MirrorX
+
+newmtl f3dlite_material.038
+map_Kd textures\\spot00_dl_spot00_sceneTex_025818_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.043
+map_Kd textures\\spot00_dl_spot00_sceneTex_019B98_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.044
+map_Kd textures\\spot00_dl_spot00_sceneTex_013D98_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.048
+map_Kd textures\\spot00_dl_spot00_sceneTex_018B98_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.049
+map_Kd textures\\spot00_dl_spot00_sceneTex_017B98_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.051
+map_Kd textures\\spot00_dl_spot00_sceneTex_016B98_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.052
+map_Kd textures\\spot00_dl_spot00_sceneTex_015E98_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.053
+map_Kd textures\\spot00_dl_spot00_sceneTex_015D98_rgba16_png_rgba16.png
+tags_0 #ClampX#ClampY
+
+newmtl f3dlite_material.068
+map_Kd textures\\spot00_dl_spot00_sceneTex_022818_rgba16_png_rgba16.png
+
+newmtl f3dlite_material.077
+map_Kd textures\\spot00_dl_spot00_sceneTex_027D98_i4_png_i4.png
+
+newmtl f3dlite_material.078
+map_Kd textures\\spot00_dl_spot00_sceneTex_029598_i4_png_i4.png
+
+newmtl f3dlite_material.079
+map_Kd textures\\spot00_dl_spot00_sceneTex_029D98_i4_png_i4.png
+
+newmtl f3dlite_material.080
+map_Kd textures\\spot00_dl_spot00_sceneTex_029F98_i4_png_i4.png
+
+newmtl f3dlite_material.081
+map_Kd textures\\spot00_dl_spot00_sceneTex_029F98_i4_png_i4.png
+
+newmtl f3dlite_material.082
+map_Kd textures\\spot00_dl_spot00_sceneTex_027998_i4_png_i4.png
+
+newmtl f3dlite_material.083
+map_Kd textures\\spot00_dl_spot00_sceneTex_028598_rgba16_png_rgba16.png
+tags_0 #MirrorX

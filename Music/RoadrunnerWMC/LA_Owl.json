@@ -1,0 +1,46 @@
+{
+    "daw": "musescore",
+    "loop_start": 2.0,
+    "time_signatures": {
+        "1": "3/4"
+    },
+    "volume_scale": 0.85,
+    "pan_scale": 2.5,
+    "cc11_regions": [
+        {"track": "normal strings 1", "start": 1.0, "end": 30.0},
+        {"track": "normal strings 2", "start": 1.0, "end": 30.0},
+        {"track": "normal strings 3", "start": 1.0, "end": 30.0},
+        {"track": "thinking strings 1", "start": 1.0, "end": 30.0},
+        {"track": "thinking strings 2", "start": 1.0, "end": 30.0},
+        {"track": "thinking strings 3", "start": 1.0, "end": 30.0},
+        {"track": "oboe", "start": 28.0, "end": 29.5}
+    ],
+    "tracks": [
+        {"name": "bell pad 0", "volume_scale": 0.9},
+        {"name": "harp 1", "volume_scale": 0.9},
+        {"name": "harp 2", "volume_scale": 0.9},
+        {"name": "harp 3", "volume_scale": 0.9},
+        {"name": "harp 4", "volume_scale": 0.9},
+        {"name": "harp 5", "volume_scale": 0.9},
+        {"name": "bell pad 1"},
+        {"name": "bell pad 2"},
+        {"name": "bell pad 3"},
+        {"name": "bell pad 4"},
+        {"name": "bell pad 5"},
+        {"name": "oboe", "volume_scale": 0.9},
+        {"name": "voice pad", "volume_scale": 0.9},
+        {"name": "pizz strings 1"},
+        {"name": "pizz strings 2"},
+        {"name": "pizz strings 3"},
+        {"name": "normal strings 1"},
+        {"name": "normal strings 2"},
+        {"name": "normal strings 3"},
+        {"name": "thinking strings 1"},
+        {"name": "thinking strings 2"},
+        {"name": "thinking strings 3"},
+        {"name": "bass strings"},
+        {"name": "pad 1"},
+        {"name": "pad 2"},
+        {"name": "wood chime"}
+    ]
+}

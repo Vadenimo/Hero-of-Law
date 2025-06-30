@@ -1,0 +1,80 @@
+Replace list:
+limb_XX			fk_XX
+Hand.IK.L		Control.Arm.IK.L
+Hand.pole.IK.L		Arm.Pole.L
+Leg.01.track.L.001	Control.Leg.Pole.L
+Hand.IK.R		Control.Arm.IK.R
+Hand.pole.IK.R		Arm.Pole.R
+Leg.01.track.R.001	Control.Leg.Pole.R
+Pelvis			IkRig.Waist
+LegConnect.R		IkRig.Leg.Connect.L
+Leg.01.R		IkRig.Thigh.L
+Leg.02.R		IkRig.Shin.L
+Leg.03.R		IkRig.Foot.L
+LegConnect.L		IkRig.Leg.Connect.R
+Leg.01.L		IkRig.Thigh.R
+Leg.02.L		IkRig.Shin.R
+Leg.03.L		IkRig.Foot.R
+Spine			IkRig.Upperbody
+Hat			IkRig.Hat
+Shoulder.L		IkRig.Shoulder.L
+Hand.01.L		IkRig.Upperarm.L
+Hand.02.L		IkRig.Forearm.L
+Hand.03.L		IkRig.Hand.L
+Shoulder.R		IkRig.Shoulder.R
+Hand.01.R		IkRig.Upperarm.R
+Hand.02.R		IkRig.Forearm.R
+Hand.03.R		IkRig.Hand.R
+Sheath			IkRig.Sheath.Connect
+Sheath.Track		Control.Sheath
+ROOT			Control.Root (Make sure you enable case senstive)
+Root.Track		IkRig.Root.Track
+HeadIK			LIGMA
+Head			BALLS
+LIGMA			Control.HeadIK
+BALLS			IkRig.Head
+
+Unchanged:
+Leg.IK.L
+Leg.IK.R
+
+Proper List:
+limb_XX			fk_XX
+Hand.IK.L		Control.Arm.IK.L
+Hand.pole.IK.L		Arm.Pole.L
+Leg.01.track.L.001	Control.Leg.Pole.L
+Hand.IK.R		Control.Arm.IK.R
+Hand.pole.IK.R		Arm.Pole.R
+Leg.01.track.R.001	Control.Leg.Pole.R
+HeadIK			Control.HeadIK
+ROOT			Control.Root
+Pelvis			IkRig.Waist
+LegConnect.R		IkRig.Leg.Connect.L
+Leg.01.R		IkRig.Thigh.L
+Leg.02.R		IkRig.Shin.L
+Leg.03.R		IkRig.Foot.L
+LegConnect.L		IkRig.Leg.Connect.R
+Leg.01.L		IkRig.Thigh.R
+Leg.02.L		IkRig.Shin.R
+Leg.03.L		IkRig.Foot.R
+Spine			IkRig.Upperbody
+Head			IkRig.Head
+Hat			IkRig.Hat
+Shoulder.L		IkRig.Shoulder.L
+Hand.01.L		IkRig.Upperarm.L
+Hand.02.L		IkRig.Forearm.L
+Hand.03.L		IkRig.Hand.L
+Shoulder.R		IkRig.Shoulder.R
+Hand.01.R		IkRig.Upperarm.R
+Hand.02.R		IkRig.Forearm.R
+Hand.03.R		IkRig.Hand.R
+Sheath			IkRig.Sheath.Connect
+Sheath.Track		Control.Sheath
+Root.Track		IkRig.Root.Track
+
+Unchanged:
+Leg.IK.L
+Leg.IK.R		Leg.IK.R
+
+
+

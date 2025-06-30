@@ -1,0 +1,190 @@
+import json
+from pathlib import Path
+import sys
+
+path = Path(sys.argv[1])
+
+with path.open('r', encoding='utf-8') as f:
+    start = f.read(1000)
+newline = '\n' if '\r\n' not in start else '\r\n'
+
+with path.open('r', encoding='utf-8') as f:
+    data = json.load(f)
+
+all_sfx = set()
+
+# None = "infinite"
+SFX_LENGTHS = {
+    'CARD_SHUFFLE': 10,
+    'CHEER': 180,
+    'CLUE': 30,
+    'CROWD': 70,
+    'DESKSLAM': 20,
+    'DON': 30,
+    'EVID_SHOW': 10,
+    'EXPLOSION': 30,
+    'EXPLOSION_NOSHAKE': 30,
+    'GAVEL': 20,
+    'HINT': 30,
+    'INGO_ACT_SPIN': 10,
+    'ITEMGET': 50,
+    'NA_SE_EN_DEKU_WAKEUP': 20,
+    'NA_SE_EN_GANON_ATTACK_DEMO': None,
+    'NA_SE_EN_GANON_DAMAGE1': 20,
+    'NA_SE_EN_GANON_DAMAGE2': 30,
+    'NA_SE_EN_GANON_HIT_GND': 20,
+    'NA_SE_EN_GANON_LAUGH': 120,
+    'NA_SE_EN_GANON_RESTORE': 20,
+    'NA_SE_EN_GANON_THROW': 20,
+    'NA_SE_EN_MONBLIN_HAM_LAND': 30,
+    'NA_SE_EN_OWL_FLUTTER': 20,
+    'NA_SE_EN_PO_APPEAR': 30,
+    'NA_SE_EV_CHICKEN_CRY_A': 20,
+    'NA_SE_EV_CHICKEN_CRY_M': 60,  # should be 40, but I've increased it to 60 to accommodate the 0.7x speed version
+    'NA_SE_EV_CHICKEN_CRY_N': 40,
+    'NA_SE_EV_COW_CRY_LV': 40,
+    'NA_SE_EV_DOOR_CLOSE': 20,
+    'NA_SE_EV_DOOR_OPEN': 20,
+    'NA_SE_EV_EARTHQUAKE': None,  # also takes maybe 20f to fade out when cancelled...
+    'NA_SE_EV_GANON_MANTLE': 20,
+    'NA_SE_EV_GOD_FLYING': None,
+    'NA_SE_EV_GOD_LIGHTBALL_2': None,
+    'NA_SE_EV_HAMMER_SWITCH': 20,
+    'NA_SE_EV_KAKASHI_ROLL': 20,
+    'NA_SE_EV_LINK_WARP': 200,
+    'NA_SE_EV_STONE_LAUNCH': None,
+    'NA_SE_EV_TORCH': None,  # I think
+    'NA_SE_EV_WALL_BROKEN': 60,
+    'NA_SE_IT_DM_FLYING_GOD_DASH': 20,
+    'NA_SE_IT_DM_FLYING_GOD_PASS': 20,
+    'NA_SE_IT_DM_RING_EXPLOSION': 50,
+    'NA_SE_IT_HAMMER_HIT': 10,
+    'NA_SE_IT_STONE_HIT': 20,
+    'NA_SE_OC_SECRET_HOLE_OUT': None,  # AND can't be stopped??
+    'NA_SE_PL_BOUND': 10,
+    'NA_SE_PL_BOUND_IRON': 10,
+    'NA_SE_PL_BOUND_LADDER': 10,
+    'NA_SE_PL_LAND_GRASS': 10,
+    'NA_SE_PL_WALK_GRASS': 20,  # seems to be silent...? shrug
+    'NA_SE_SY_CAMERA_ZOOM_DOWN': 10,
+    'NA_SE_SY_CORRECT_CHIME': 30,
+    'NA_SE_SY_FIVE_COUNT_LUPY': 30,
+    'NA_SE_SY_FSEL_ERROR': 20,
+    'NA_SE_SY_GET_ITEM': 30,
+    'NA_SE_SY_HP_RECOVER': 10,
+    'NA_SE_SY_PIECE_OF_HEART': 30,
+    'NA_SE_SY_WARNING_COUNT_E': 10,
+    'NA_SE_SY_WARNING_COUNT_N': 10,
+    'NA_SE_SY_WIN_CLOSE': 20,
+    'NA_SE_SY_WIN_OPEN': 30,
+    'NA_SE_VO_IN_CRY_0': 30,
+    'NA_SE_VO_IN_LASH_0': 20,
+    'NA_SE_VO_IN_LASH_1': 20,
+    'NA_SE_VO_IN_LOST': 30,
+    'NA_SE_VO_LI_DRINK': 10,  # infinite -- repeats every 5/6 of a second
+    'NA_SE_VO_LI_LASH': 10,
+    'NA_SE_VO_LI_SWORD_L': 20,
+    'NA_SE_VO_LI_SWORD_N': 10,
+    'NA_SE_VO_TA_CRY_0': 20,
+    'NA_SE_VO_TA_SURPRISE': 20,
+    'NA_SE_VO_Z0_SIGH_0': 20,
+    'NA_SE_VO_Z1_PAIN': 20,
+    'NA_SE_VO_Z1_SURPRISE': 10,
+    'OBJECTIONCRY': 30,
+    'OWLHOOT': 10,
+    'PERFUME_SPRAY': 10,
+    'SHOCK': 30,
+    'STAB': 20,
+    'TESTIMONY': 90,
+    'TXT_FEMALE': 10,
+    'TXT_MALE': 10,
+    'TYPEWRITER': 10,
+    'WHAP': 20,
+}
+DEFAULT_SFX_LENGTH = 100
+SFX_FADE_LENGTHS = {
+    'NA_SE_EV_EARTHQUAKE': 20,
+}
+DEFAULT_FADE_LENGTH = 3
+
+
+def scan_script(lines: list[str]) -> list[str]:
+    for line in lines:
+        line = line.split('//')[0].strip()
+        if line.startswith('play sfx') and line not in all_sfx:
+            all_sfx.add(line)
+
+
+def scan_message(lines: list[str]) -> list[str]:
+    for line in lines:
+        line = line.upper()
+        place = -1
+        while True:
+            place = line.find('<SOUND:', place + 1)
+            if place == -1:
+                break
+            end = line.find('>', place)
+
+            name = line[place+7:end]
+
+            if name != '0':
+                all_sfx.add(f'play sfx_global {name}')
+
+
+for npc in data['Entries']:
+    if npc['NPCName'] == 'SCENE_TEST':
+        continue
+    # print(npc['NPCName'])
+    for script in npc['Scripts']:
+        scan_script(script['TextLines'])
+    for message in npc['Messages']:
+        scan_message(message['MessageTextLines'])
+
+
+def sorting_key(line: str):
+    sfx_name = line.split()[2].upper()
+
+    # this sfx can't be cancelled, so force it to the end of the list
+    if sfx_name == 'NA_SE_OC_SECRET_HOLE_OUT':
+        return 'ZZZZZZZZZZZZZZ'
+    else:
+        return sfx_name
+
+
+if False:  # for copying into npcm
+    PREFIX = '    '
+    SUFFIX = ''
+else:  # for copying into the json
+    PREFIX = '            "    '
+    SUFFIX = '",'
+
+for line in sorted(all_sfx, key=sorting_key):
+    sfx_name = line.split()[2]
+    if sfx_name.upper() not in SFX_LENGTHS:
+        print(f'WARNING: "{line}" has no known length')
+
+print('Note: to find the sound test script in the json or SCENE_TEST, search for "elif var.3 == 27"')
+print()
+
+EQUALS = '=' * 50
+print(f'{PREFIX}// {EQUALS}{SUFFIX}')
+print(f'{PREFIX}// Sound test script generated by create_sound_test.py{SUFFIX}')
+
+frame = 0
+for line in sorted(all_sfx, key=sorting_key):
+    current_time = round(frame / 20 * 280/274)
+    current_time_min = current_time // 60
+    current_time_sec = current_time % 60
+    print(f'{PREFIX}{line}  // {current_time_min}:{current_time_sec:02d}{SUFFIX}')
+
+    sfx_name = line.split()[2]
+    frames = SFX_LENGTHS.get(sfx_name.upper())
+    if frames is None: frames = DEFAULT_SFX_LENGTH
+    fade = SFX_FADE_LENGTHS.get(sfx_name.upper(), DEFAULT_FADE_LENGTH)
+    print(f'{PREFIX}await frames {frames}{SUFFIX}')
+    print(f'{PREFIX}stop sfx {sfx_name}{SUFFIX}')
+    print(f'{PREFIX}await frames {fade}{SUFFIX}')
+    frame += frames + fade
+
+print(f'{PREFIX}return{SUFFIX}')
+print(f'{PREFIX}// {EQUALS}{SUFFIX}')

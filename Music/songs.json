@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Trial_1",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_GANON_TOWER",
+        "seq_slot_num": 46
+    },
+    {
+        "name": "Trial_2",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_JABU_JABU",
+        "seq_slot_num": 38
+    },
+    {
+        "name": "Title",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_TITLE",
+        "seq_slot_num": 30
+    },
+    {
+        "name": "Lobby",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_DUNGEON",
+        "seq_slot_num": 24
+    },
+    {
+        "name": "CrossExam_Moderato",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_WINDMILL",
+        "seq_slot_num": 76
+    },
+    {
+        "name": "CrossExam_Allegro",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_MINI_GAME",
+        "seq_slot_num": 78
+    },
+    {
+        "name": "Zeldas_Theme",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_ZORA_DOMAIN",
+        "seq_slot_num": 80
+    },
+    {
+        "name": "Ingo_1_Normal",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_INGO",
+        "seq_slot_num": 66
+    },
+    {
+        "name": "Ingo_2_Mad",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_WATER_TEMPLE",
+        "seq_slot_num": 92
+    },
+    {
+        "name": "Ingo_3_Evil",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_BOSS",
+        "seq_slot_num": 27
+    },
+    {
+        "name": "Ingo_4_Sad",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_ICE_CAVERN",
+        "seq_slot_num": 88
+    },
+    {
+        "name": "MarioWonder",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_LONLON",
+        "seq_slot_num": 47
+    },
+    {
+        "name": "Pursuit",
+        "composer": "Meatball132",
+        "seq_slot_name": "NA_BGM_INSIDE_DEKU_TREE",
+        "seq_slot_num": 28
+    },
+    {
+        "name": "Tutorial",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_KOKIRI",
+        "seq_slot_num": 60
+    },
+    {
+        "name": "CrossExam_Presto",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_GANONDORF_BOSS",
+        "seq_slot_num": 100
+    },
+    {
+        "name": "Suspense",
+        "composer": "Meatball132",
+        "seq_slot_name": "NA_BGM_SARIA_THEME",
+        "seq_slot_num": 62
+    },
+    {
+        "name": "Case_01_Opening_Cutscene",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_OCA_BOLERO",
+        "seq_slot_num": 51
+    },
+    {
+        "name": "Objection",
+        "composer": "Meatball132",
+        "seq_slot_name": "NA_BGM_SHOP",
+        "seq_slot_num": 85
+    },
+    {
+        "name": "LA_Owl",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_OWL",
+        "seq_slot_num": 90
+    },
+    {
+        "name": "HappyEnd",
+        "composer": "Meatball132",
+        "seq_slot_name": "NA_BGM_GORON_CITY",
+        "seq_slot_num": 48
+    },
+    {
+        "name": "Incident",
+        "composer": "Meatball132",
+        "seq_slot_name": "NA_BGM_FOREST_TEMPLE",
+        "seq_slot_num": 44
+    },
+    {
+        "name": "Credits",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_SPIRIT_TEMPLE",
+        "seq_slot_num": 63
+    },
+    {
+        "name": "Thonk",
+        "composer": "Meatball132",
+        "seq_slot_name": "NA_BGM_POTION_SHOP",
+        "seq_slot_num": 96
+    },
+    {
+        "name": "Case_01_Breakdown",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_FIRE_TEMPLE",
+        "seq_slot_num": 42
+    },
+    {
+        "name": "Case_01_Breakdown_End",
+        "composer": "RoadrunnerWMC",
+        "seq_slot_name": "NA_BGM_OCA_FAIRY_GET",
+        "seq_slot_num": 61
+    }
+]

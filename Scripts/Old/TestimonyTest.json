@@ -1,0 +1,294 @@
+{
+  "Version": 3,
+  "Entries": [
+    {
+      "NPCName": "Test",
+      "IsNull": false,
+      "ObjectID": 0,
+      "Hierarchy": 0,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 4.0,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": true,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "Text": "talk_mode true\r\nscale set self 0\r\nvar.1 = 0\r\n\r\nawait frames 20\r\n\r\nshow_textbox wit\r\nawait textbox_on_screen false\r\nawait frames 10\r\n\r\nplay bgm NA_BGM_FUSHA\r\n\r\nscript_start tex1\r\nreturn\r\n\r\ntex1:\r\n    var.1 = 0\r\n    show_textbox msg1\r\n    await frames 5\r\n    script_start tex1_checks\r\n    tex1_checks:\r\n    if textbox_on_screen false\r\n        goto tex2\r\n    endif\r\n\r\n    if button_pressed btn_a\r\n        play sfx NA_SE_SY_WIN_SCROLL_RIGHT\r\n        goto tex2\r\n    endif\r\n\r\n    goto check_objection\r\n\r\nreturn\r\n\r\ntex2:\r\n    var.1 = 1\r\n    show_textbox msg2\r\n    await frames 5\r\n    script_start tex2_checks\r\n    tex2_checks:\r\n    if textbox_on_screen false\r\n        goto tex3\r\n    endif\r\n\r\n    if button_pressed btn_a\r\n        play sfx NA_SE_SY_WIN_SCROLL_RIGHT\r\n        goto tex3\r\n    endif\r\n\r\n    if button_pressed btn_b\r\n        play sfx NA_SE_SY_WIN_SCROLL_LEFT\r\n        goto tex1\r\n    endif\r\n\r\n    goto check_objection\r\n\r\nreturn\r\n\r\n\r\ntex3:\r\n    var.1 = 2\r\n    show_textbox msg3\r\n    await frames 5\r\n    script_start tex3_checks\r\n    tex3_checks:\r\n\r\n    if button_pressed btn_a\r\n        play sfx NA_SE_SY_WIN_SCROLL_RIGHT\r\n        goto tex4\r\n    endif\r\n\r\n    if button_pressed btn_b\r\n        play sfx NA_SE_SY_WIN_SCROLL_LEFT\r\n        goto tex2\r\n    endif\r\n\r\n    goto check_objection\r\n\r\nreturn\r\n\r\n\r\ntex4:\r\n    show_textbox Midtbanter\r\n    await textbox_on_screen false\r\n    goto tex1\r\n\r\nreturn\r\n\r\n\r\ncheck_objection:\r\n\r\nif BUTTON_PRESSED BTN_L\r\n\r\n    set dlist_visibility test with_limb\r\n\r\n    global8.0x103DC = 0x36\r\n    play sfx NA_SE_VO_LI_LASH\r\n    invisible false\r\n    scale scale_to self 1 0.2\r\n    await frames 30\r\n    scale set self 0 \r\n\r\n    set dlist_visibility test NOT_VISIBLE\r\n\r\n    if var.1 = 0\r\n        show_textbox wasit1\r\n        await textbox_on_screen false\r\n        goto tex1\r\n    elif var.1 = 1\r\n        show_textbox wasit2\r\n        await textbox_on_screen false\r\n        goto tex2\r\n    elif var.1 = 2\r\n        show_textbox wasit3\r\n        await textbox_on_screen false\r\n        goto tex3\r\n    endif\r\n\r\nendif\r\n\r\n\r\nif BUTTON_PRESSED BTN_R\r\n\r\n    set dlist_visibility test2 with_limb\r\n\r\n    global8.0x103DC = 0x36\r\n    play sfx NA_SE_VO_LI_MAGIC_ATTACK\r\n    invisible false\r\n    scale scale_to self 1 0.2\r\n    await frames 30\r\n    scale set self 0 \r\n\r\n    set dlist_visibility test NOT_VISIBLE\r\n\r\n    if var.1 = 1\r\n        show_textbox wrong\r\n        await textbox_on_screen false\r\n        show_textbox witend\r\n        await textbox_on_screen false\r\n        goto end\r\n    else\r\n        show_textbox imwrong\r\n        await textbox_on_screen false\r\n        set player_health -= 1\r\n        play sfx NA_SE_IT_BOMB_EXPLOSION\r\n        goto tex1\r\n    endif\r\nendif\r\n\r\nreturn\r\n\r\nend:\r\n    await frames 20\r\n    play bgm NA_BGM_ITEM_GET \r\n    script_start end2\r\nend2:\r\n    return",
+          "ParseErrors": [],
+          "Name": ""
+        },
+        {
+          "Text": "set time_of_day = 04:00",
+          "ParseErrors": [],
+          "Name": "f"
+        }
+      ],
+      "EnvironmentColor": "255, 255, 255",
+      "Segments": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 8,
+      "TalkSegment": 8,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [
+        {
+          "Name": "Test",
+          "Address": 13384,
+          "TransX": 2.0,
+          "TransY": -3.0,
+          "TransZ": 27.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 0.01,
+          "ShowType": 0,
+          "Limb": -3,
+          "Color": "White",
+          "ObjectID": 413,
+          "FileStart": -1
+        },
+        {
+          "Name": "Test2",
+          "Address": 11992,
+          "TransX": 0.0,
+          "TransY": -5.0,
+          "TransZ": 50.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 0.01,
+          "ShowType": 0,
+          "Limb": -3,
+          "Color": "White",
+          "ObjectID": 414,
+          "FileStart": -1
+        }
+      ],
+      "DisplayListColors": [],
+      "Messages": [
+        {
+          "Name": "msg1",
+          "MessageText": "<DI>I am a textbox<PERSISTENT>",
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "msg2",
+          "MessageText": "<DI><R>This colour is green.<W><PERSISTENT>",
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "msg3",
+          "MessageText": "<DI>You're wearing green.<PERSISTENT>",
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "wrong",
+          "MessageText": "Objection correct",
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "imwrong",
+          "MessageText": "Objection fail",
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "wit",
+          "MessageText": "Testimony start!",
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Midtbanter",
+          "MessageText": "Mid testimony banter",
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "witend",
+          "MessageText": "Witness testimony end",
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "wasit1",
+          "MessageText": "Are you really a textbox?\r\n<New box>\r\nThat's a dumb question. Can't you see?\r\n<New box>\r\nRight. Carry on.",
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "wasit2",
+          "MessageText": "Green, huh?\r\n<New box>\r\nUh, yeah. I am definitely not colour-\r\nblind, by the way.\r\n<New box>\r\nGood to know.",
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "wasit3",
+          "MessageText": "I am?!\r\n<New box>\r\nYep, you are.\r\n<New box>\r\nOh. So I am.",
+          "Type": 0,
+          "Position": 0
+        }
+      ],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "EmbeddedOverlayCode": {
+        "Code": "",
+        "Functions": [],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ]
+      }
+    }
+  ],
+  "GlobalHeaders": [
+    {
+      "Text": "#define actor.posX actorf.0x24\r\n#define actor.posY actorf.0x28 \r\n#define actor.posZ actorf.0x2C \r\n#define actor.dirX actor16.0x30 \r\n#define actor.dirY actor16.0x32 \r\n#define actor.dirZ actor16.0x34 \r\n\r\n#define actor.homePosX actorf.0x8 \r\n#define actor.homePosY actorf.0xC \r\n#define actor.homePosZ actorf.0x10 \r\n#define actor.homeDirX actor16.0x12 \r\n#define actor.homeDirY actor16.0x14 \r\n#define actor.homeDirZ actor16.0x16 \r\n                \r\n#define actor.scaleX actorf.0x50 \r\n#define actor.scaleY actorf.0x54 \r\n#define actor.scaleZ actorf.0x58 \r\n\r\n#define actor.velocityX actorf.0x5C \r\n#define actor.velocityY actorf.0x60 \r\n#define actor.velocityZ actorf.0x64 \r\n\r\n#define actor.rotX actor16.0xB4 \r\n#define actor.rotY actor16.0xB6 \r\n#define actor.rotZ actor16.0xB8\r\n",
+      "ParseErrors": [],
+      "Name": "Definitions"
+    },
+    {
+      "Text": "proc basic_talk textbox\r\n    talk textbox\r\n        set talk_mode true\r\n        set animation 0\r\n        face self towards player\r\n        await talking_end\r\n        set talk_mode false\r\n    endtalk\r\nendproc\r\n\r\n\r\nproc talk_with_anim textbox talk_animation\r\n    talk textbox\r\n        set talk_mode true\r\n        set animation talk_animation\r\n        face self towards player\r\n        await talking_end\r\n        set animation 0\r\n        set talk_mode false\r\n    endtalk\r\nendproc\r\n",
+      "ParseErrors": [],
+      "Name": "Macros"
+    }
+  ]
+}

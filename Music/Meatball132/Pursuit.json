@@ -1,0 +1,23 @@
+{
+    "daw": "fl_studio",
+    "loop_start": 0,
+    "force_end": 41.0,
+    "volume_scale": 1.0,
+    "tracks": [
+        {"name": "Trumpet"},
+        {"name": "Oboe 1"},
+        {"name": "Oboe 2"},
+        {"name": "Strings"},
+        {"name": "Synth Strings"},
+        {"name": "Synth Strings 2"},
+        {"name": "Orchestra Kit"},
+        {"name": "Flute"},
+        {"name": "Glockenspiel"},
+        {"name": "Strings 2"},
+        {"name": "Bright Piano"},
+        {"name": "Ethnic Flute"},
+        {"name": "Alto Sax", "vibrato": 2},
+        {"name": "Timpani"},
+        {"name": "Bright Piano 2"}
+    ]
+}

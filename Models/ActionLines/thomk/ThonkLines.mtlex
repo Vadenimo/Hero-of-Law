@@ -1,0 +1,48 @@
+# Blender MTL File: 'ThonkLines.blend'
+# Material Count: 2
+exportid 1728533164.204083
+newtex "1t.png"
+map objex_textures\1t.png
+newtex "2t.png"
+map objex_textures\2t.png
+newmtl "NoiseWMC"
+vertexshading color
+texel0 "1t.png"
+texel1 "2t.png"
+gbi gsSPTexture(qu016(0.500000), qu016(0.700000), 0, G_TX_RENDERTILE, G_ON)
+gbi gsDPPipeSync()
+gbi gsSPSetOtherModeLo(G_MDSFT_RENDERMODE, G_MDSIZ_RENDERMODE, AA_EN | Z_CMP | Z_UPD | IM_RD | CLR_ON_CVG | CVG_DST_WRAP | ZMODE_XLU | CVG_X_ALPHA | FORCE_BL | GBL_c1(G_BL_CLR_IN, G_BL_A_IN, G_BL_CLR_MEM, G_BL_1MA) | GBL_c2(G_BL_CLR_IN, G_BL_A_IN, G_BL_CLR_MEM, G_BL_1MA))
+gbi gsSPSetOtherModeHi(G_MDSFT_TEXTFILT, G_MDSIZ_TEXTFILT, G_TF_BILERP)
+gbi gsDPSetCombineLERP(TEXEL0, TEXEL1, ENV_ALPHA, TEXEL1, TEXEL0, TEXEL1, ENVIRONMENT, TEXEL1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED)
+gbi gsDPSetPrimColor(0, qu08(0), 0, 143, 255, 255)
+gbi gsDPSetEnvColor(255, 255, 255, 50)
+gbi gsSPGeometryMode(G_SHADE | G_SHADING_SMOOTH | G_LIGHTING_POSITIONAL | G_CULL_FRONT | G_TEXTURE_GEN | G_TEXTURE_GEN_LINEAR | G_FOG | G_LIGHTING, G_CULL_BACK | G_ZBUFFER)
+gbivar cms0 "G_TX_WRAP | G_TX_NOMIRROR"
+gbivar cmt0 "G_TX_WRAP | G_TX_NOMIRROR"
+gbivar shifts0 14
+gbivar shiftt0 14
+gbivar cms1 "G_TX_WRAP | G_TX_NOMIRROR"
+gbivar cmt1 "G_TX_WRAP | G_TX_NOMIRROR"
+gbivar shifts1 0
+gbivar shiftt1 0
+gbi _loadtexels
+gbi gsSPDisplayList(0x09000000)
+newtex "Multitexture1.png"
+map objex_textures\Multitexture1.png
+newmtl "Lines"
+vertexshading color
+texel0 "Multitexture1.png"
+gbi gsSPTexture(qu016(0.999985), qu016(0.999985), 0, G_TX_RENDERTILE, G_ON)
+gbi gsDPPipeSync()
+gbi gsSPSetOtherModeLo(G_MDSFT_RENDERMODE, G_MDSIZ_RENDERMODE, AA_EN | Z_CMP | Z_UPD | IM_RD | CLR_ON_CVG | CVG_DST_WRAP | ZMODE_XLU | CVG_X_ALPHA | FORCE_BL | GBL_c1(G_BL_CLR_IN, G_BL_A_IN, G_BL_CLR_MEM, G_BL_1MA) | GBL_c2(G_BL_CLR_IN, G_BL_A_IN, G_BL_CLR_MEM, G_BL_1MA))
+gbi gsSPSetOtherModeHi(G_MDSFT_TEXTFILT, G_MDSIZ_TEXTFILT, G_TF_BILERP)
+gbi gsDPSetCombineLERP(TEXEL0, 0, PRIMITIVE, 0, TEXEL0, 0, ENVIRONMENT, 0, COMBINED, 0, SHADE, 0, 0, 0, 0, COMBINED)
+gbi gsDPSetPrimColor(0, qu08(0), 255, 255, 255, 255)
+gbi gsDPSetEnvColor(255, 255, 255, 101)
+gbi gsSPGeometryMode(G_LIGHTING_POSITIONAL | G_CULL_FRONT | G_TEXTURE_GEN | G_TEXTURE_GEN_LINEAR | G_FOG | G_LIGHTING, G_SHADE | G_SHADING_SMOOTH | G_CULL_BACK | G_ZBUFFER)
+gbivar cms0 "G_TX_WRAP | G_TX_NOMIRROR"
+gbivar cmt0 "G_TX_WRAP | G_TX_NOMIRROR"
+gbivar shifts0 1
+gbivar shiftt0 0
+gbi _loadtexels
+gbi gsSPDisplayList(0x0A000000)

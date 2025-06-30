@@ -1,0 +1,89 @@
+# Blender MTL File: 'Courtroom_inGameOptimized.blend'
+# Material Count: 29
+
+newmtl AudienceWall_png
+map_Kd textures\\AudienceWall.png
+
+newmtl Audience_Floor_png
+map_Kd textures\\Audience Floor.png
+
+newmtl Door_png
+map_Kd textures\\Door.png
+
+newmtl Door_png.001
+map_Kd textures\\Door.png
+
+newmtl Doornob
+map_Kd textures\\doornob.png
+
+newmtl Edge_png
+map_Kd textures\\Edge.png
+
+newmtl Flag1_png_001
+map_Kd textures\\Flag1.png.001.png
+
+newmtl Flag2_png_001
+map_Kd textures\\Flag2.png.001.png
+
+newmtl Floortile_png
+map_Kd textures\\Floortile.png
+
+newmtl Judge_Back_png
+map_Kd textures\\Judge Back.png
+
+newmtl Judge_Back_png.001
+map_Kd textures\\Judge Back.png
+
+newmtl Judge_Top_png
+map_Kd textures\\Judge Top.png
+
+newmtl Judge_Top_png.001
+map_Kd textures\\Judge Top.png
+
+newmtl LobbyDoor
+map_Kd textures\\doortexture.png
+
+newmtl Prosecution_Bench_png
+map_Kd textures\\Prosecution Bench.png
+
+newmtl Prosecution_Top_png
+map_Kd textures\\Prosecution Top.png
+
+newmtl Railing_png
+map_Kd textures\\Railing.png
+
+newmtl ST-0x270F8_16x128_CI8_png
+map_Kd textures\\ST-0x270F8_16x128_CI8.png
+
+newmtl ST-0x270F8_16x128_CI8_png.001
+map_Kd textures\\ST-0x270F8_16x128_CI8.png
+
+newmtl ST-0x53048_32x32_RGBA16_png
+map_Kd textures\\ST-0x53048_32x32_RGBA16.png
+
+newmtl TriforceMat
+map_Kd textures\\metalsm64.png
+
+newmtl Wall_png
+map_Kd textures\\Wall.png
+
+newmtl Wall_png.001
+map_Kd textures\\Wall.png
+
+newmtl _0009B90_32x64_rgba16_png
+map_Kd textures\\00009B90_32x64_rgba16.png
+
+newmtl _000A320_64x32_rgba16_png
+map_Kd textures\\0000A320_64x32_rgba16.png
+
+newmtl _000BD90_64x32_rgba16_png
+map_Kd textures\\0000BD90_64x32_rgba16.png
+
+newmtl _0012EB8_32x128_i4_png
+map_Kd textures\\00012EB8_32x128_i4.png
+
+newmtl _auto_14_png
+map_Kd textures\\_auto_14.png
+
+newmtl ceiling_png
+map_Kd textures\\ceiling.png

@@ -1,0 +1,80 @@
+0x0000 CR Base Pal
+0x0020 CR Base 256x96
+0x3020 CR Big Border 64x64 IA4
+0x3820 CR Border 16x16 IA4
+0x38A0 CR Light Pal
+0x38B0 CR Light 16x16
+0x3930 CR Dark Pal
+0x3940 CR Dark 16x16
+
+======================
+
+0x39B8 Close Pal
+0x39B8 + 0xA0 Close 
+0x3E58 R Evidence Pal
+0x3E58 + 0xA0 R Evidence 
+0x42F8 R Profiles
+0x42F8 + 0xA0 Profiles
+0x4798 Left Arrow Pal
+0x4798 + 0x20 Left Arrow
+0x4838 Right Arrow Pal
+0x4838 + 0x20 Right Arrow
+0x48D8 Court Record Pal
+0x48D8 + 0x20 Court Record
+0x4D98 Press Pal
+0x4D98 + 0x020 Press 
+0x5258 Present Pal
+0x5258 + 0x1A8 Present
+0x5D00 Close Ind Pal
+0x5D00 + 0xA0 Close Ind
+0x61A0 Consult Pal
+0x61A0 + 0xF8 Consult
+
+======================
+
+0x6698 + 0x78 Heart
+0x6698 Heart
+0x6810 Explosion Pal(s)
+0x6810 + 0x1F8 Explosion
+
+======================
+
+0x7208 Evidence Popup Pal
+0x7208 + 0x20 Evidence Popup
+0x76A8 Pointer Hand Pal
+0x76A8 + 0x20 Pointer Hand
+0x78C8 Checkmark Pal
+0x78C8 + 0x20 Checkmark
+0x7968 Triforce Pal
+0x7968 + 0x130 Triforce
+
+=========================
+
+0x7E98 Case 2 Pic first part pal
+0x7E98 + 0x88 Case 2 Pic 128x240 first part
+
+0xF720 Case 2 Pic second part pal
+0xF720 + 0x88 Case 2 Pic 128x240 second part
+
+0x16FA8 Case 2 Pic third part pal
+0x16FA8 + 0x88 Case 2 Pix 64x240 third part
+
+========================
+
+0x1AC30 The Moon
+0x1EA50 Action Lines
+0x20680 Link Pointer Hand
+0x23E80 Crate
+0x24F40 Exclamations
+
+========================
+
+0x35860 cutin link 1
+0x3CA90 cutin link 2
+0x3FFB8 cutin ganon 1
+0x471E8 cutin ganon 2
+0x4A710 testimony
+
+========================
+0x51D10 Gavel + Hands
+

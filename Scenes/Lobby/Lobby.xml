@@ -1,0 +1,2358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created with SharpOcarina 1.60-->
+<ZScene cloneid="0" xmlns="clr-namespace:SharpOcarina;assembly=SharpOcarina">
+  <Name>Lobby</Name>
+  <Scale>1</Scale>
+  <Music>0</Music>
+  <NightSFX>25</NightSFX>
+  <Skybox>0</Skybox>
+  <Weather>0</Weather>
+  <SpecialObject>3</SpecialObject>
+  <ElfMessage>0</ElfMessage>
+  <InjectOffset>49618944</InjectOffset>
+  <SceneNumber>53</SceneNumber>
+  <Reverb>0</Reverb>
+  <CameraMovement>0</CameraMovement>
+  <WorldMap>0</WorldMap>
+  <SceneSettings>0</SceneSettings>
+  <OutdoorLight>true</OutdoorLight>
+  <FixedCameraXPos>0</FixedCameraXPos>
+  <FixedCameraYPos>0</FixedCameraYPos>
+  <FixedCameraZPos>0</FixedCameraZPos>
+  <FixedCameraXRot>0</FixedCameraXRot>
+  <FixedCameraYRot>0</FixedCameraYRot>
+  <FixedCameraZRot>0</FixedCameraZRot>
+  <TimeCtrl>0</TimeCtrl>
+  <SkyboxType>0</SkyboxType>
+  <Cloudy>false</Cloudy>
+  <ContinualInject>true</ContinualInject>
+  <NewRoomMode>false</NewRoomMode>
+  <Prerendered>false</Prerendered>
+  <PregeneratedMesh>false</PregeneratedMesh>
+  <JFIFpath></JFIFpath>
+  <CutsceneEntrance>0</CutsceneEntrance>
+  <CutsceneEntranceNum>0</CutsceneEntranceNum>
+  <CutsceneFlag>0</CutsceneFlag>
+  <CutsceneTableRow>-1</CutsceneTableRow>
+  <version>5632</version>
+  <SegmentFunctions>
+    <Capacity>8</Capacity>
+    <ZSegmentFunction>
+      <Functions>
+        <Capacity>0</Capacity>
+      </Functions>
+    </ZSegmentFunction>
+    <ZSegmentFunction>
+      <Functions>
+        <Capacity>0</Capacity>
+      </Functions>
+    </ZSegmentFunction>
+    <ZSegmentFunction>
+      <Functions>
+        <Capacity>0</Capacity>
+      </Functions>
+    </ZSegmentFunction>
+    <ZSegmentFunction>
+      <Functions>
+        <Capacity>0</Capacity>
+      </Functions>
+    </ZSegmentFunction>
+    <ZSegmentFunction>
+      <Functions>
+        <Capacity>0</Capacity>
+      </Functions>
+    </ZSegmentFunction>
+    <ZSegmentFunction>
+      <Functions>
+        <Capacity>0</Capacity>
+      </Functions>
+    </ZSegmentFunction>
+    <ZSegmentFunction>
+      <Functions>
+        <Capacity>0</Capacity>
+      </Functions>
+    </ZSegmentFunction>
+    <ZSegmentFunction>
+      <Functions>
+        <Capacity>0</Capacity>
+      </Functions>
+    </ZSegmentFunction>
+  </SegmentFunctions>
+  <prerenderimages xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:identity="1">
+    <Capacity>0</Capacity>
+  </prerenderimages>
+  <inherittextureanims>true</inherittextureanims>
+  <RestrictionFlags>0</RestrictionFlags>
+  <TitleCard></TitleCard>
+  <CollisionFilename>..\Courtroom\Scene\Collision\Untitled.obj</CollisionFilename>
+  <ZObjects xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:identity="2">
+    <Capacity>0</Capacity>
+  </ZObjects>
+  <Transitions>
+    <Capacity>0</Capacity>
+  </Transitions>
+  <SpawnPoints>
+    <Capacity>4</Capacity>
+    <ZActor>
+      <Number>0</Number>
+      <XPos>-375</XPos>
+      <YPos>60</YPos>
+      <ZPos>578</ZPos>
+      <XRot>0</XRot>
+      <YRot>-1440</YRot>
+      <ZRot>0</ZRot>
+      <Variable>3840</Variable>
+      <FrontSwitchTo>0</FrontSwitchTo>
+      <FrontCamera>255</FrontCamera>
+      <BackSwitchTo>1</BackSwitchTo>
+      <BackCamera>255</BackCamera>
+      <SpawnRoom>255</SpawnRoom>
+      <IgnoreMMRot>
+        <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+        <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+        <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+      </IgnoreMMRot>
+    </ZActor>
+  </SpawnPoints>
+  <Environments>
+    <Capacity>8</Capacity>
+    <ZEnvironment>
+      <C1>-12178119</C1>
+      <C2>4802889</C2>
+      <C3>-4941174</C3>
+      <C4>12040119</C4>
+      <C5>-15461316</C5>
+      <FogColor>-7571346</FogColor>
+      <FogDistance>993</FogDistance>
+      <DrawDistance>512</DrawDistance>
+      <FogUnknown>1</FogUnknown>
+    </ZEnvironment>
+    <ZEnvironment>
+      <C1>-9872806</C1>
+      <C2>4802889</C2>
+      <C3>-16</C3>
+      <C4>12040119</C4>
+      <C5>-13487526</C5>
+      <FogColor>-10197896</FogColor>
+      <FogDistance>996</FogDistance>
+      <DrawDistance>512</DrawDistance>
+      <FogUnknown>1</FogUnknown>
+    </ZEnvironment>
+    <ZEnvironment>
+      <C1>-8889856</C1>
+      <C2>4802889</C2>
+      <C3>-358606</C3>
+      <C4>12040119</C4>
+      <C5>-14803396</C5>
+      <FogColor>-8894926</FogColor>
+      <FogDistance>995</FogDistance>
+      <DrawDistance>512</DrawDistance>
+      <FogUnknown>1</FogUnknown>
+    </ZEnvironment>
+    <ZEnvironment>
+      <C1>-14137756</C1>
+      <C2>4802889</C2>
+      <C3>-15461341</C3>
+      <C4>12040119</C4>
+      <C5>-13487516</C5>
+      <FogColor>-16777186</FogColor>
+      <FogDistance>992</FogDistance>
+      <DrawDistance>512</DrawDistance>
+      <FogUnknown>1</FogUnknown>
+    </ZEnvironment>
+    <ZEnvironment>
+      <C1>-12834746</C1>
+      <C2>4802889</C2>
+      <C3>-11526596</C3>
+      <C4>12040119</C4>
+      <C5>-11521386</C5>
+      <FogColor>-12178643</FogColor>
+      <FogDistance>978</FogDistance>
+      <DrawDistance>512</DrawDistance>
+      <FogUnknown>63</FogUnknown>
+    </ZEnvironment>
+    <ZEnvironment>
+      <C1>-11838876</C1>
+      <C2>4802889</C2>
+      <C3>-13107216</C3>
+      <C4>12040119</C4>
+      <C5>-16083266</C5>
+      <FogColor>-15443346</FogColor>
+      <FogDistance>978</FogDistance>
+      <DrawDistance>512</DrawDistance>
+      <FogUnknown>63</FogUnknown>
+    </ZEnvironment>
+    <ZEnvironment>
+      <C1>-12834736</C1>
+      <C2>4802889</C2>
+      <C3>-12825706</C3>
+      <C4>12040119</C4>
+      <C5>-12830826</C5>
+      <FogColor>-13492706</FogColor>
+      <FogDistance>978</FogDistance>
+      <DrawDistance>512</DrawDistance>
+      <FogUnknown>63</FogUnknown>
+    </ZEnvironment>
+    <ZEnvironment>
+      <C1>-16766896</C1>
+      <C2>4802889</C2>
+      <C3>-15453621</C3>
+      <C4>12040119</C4>
+      <C5>-13474666</C5>
+      <FogColor>-16774636</FogColor>
+      <FogDistance>978</FogDistance>
+      <DrawDistance>512</DrawDistance>
+      <FogUnknown>63</FogUnknown>
+    </ZEnvironment>
+  </Environments>
+  <Waterboxes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:identity="3">
+    <Capacity>0</Capacity>
+  </Waterboxes>
+  <PolyTypes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:identity="4">
+    <Capacity>4</Capacity>
+    <ZColPolyType>
+      <Raw>0</Raw>
+      <PolyFlagA>0</PolyFlagA>
+      <PolyFlagB>0</PolyFlagB>
+    </ZColPolyType>
+  </PolyTypes>
+  <ExitList xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:identity="5">
+    <Capacity>0</Capacity>
+  </ExitList>
+  <ExitListV2 xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:identity="6">
+    <Capacity>0</Capacity>
+  </ExitListV2>
+  <Pathways>
+    <Capacity>0</Capacity>
+  </Pathways>
+  <Cutscene>
+    <Capacity>4</Capacity>
+    <ZCutscene>
+      <Marker>1</Marker>
+      <Data>
+        <unsignedShort xmlns="https://extendedxmlserializer.github.io/system">0</unsignedShort>
+        <unsignedShort xmlns="https://extendedxmlserializer.github.io/system">0</unsignedShort>
+        <unsignedShort xmlns="https://extendedxmlserializer.github.io/system">0</unsignedShort>
+        <unsignedShort xmlns="https://extendedxmlserializer.github.io/system">0</unsignedShort>
+      </Data>
+      <Points>
+        <Capacity>8</Capacity>
+        <ZCutscenePosition>
+          <Cameraroll>0</Cameraroll>
+          <Frames>50</Frames>
+          <Angle>50</Angle>
+          <Position>
+            <X>-19.7705612</X>
+            <Y>49.07943</Y>
+            <Z>143.563675</Z>
+          </Position>
+          <Position2>
+            <X>-310.13855</X>
+            <Y>73.1143</Y>
+            <Z>-263.48233</Z>
+          </Position2>
+        </ZCutscenePosition>
+        <ZCutscenePosition>
+          <Cameraroll>0</Cameraroll>
+          <Frames>1</Frames>
+          <Angle>50</Angle>
+          <Position>
+            <X>-19.7705612</X>
+            <Y>49.07943</Y>
+            <Z>143.563675</Z>
+          </Position>
+          <Position2>
+            <X>-310.13855</X>
+            <Y>73.1143</Y>
+            <Z>-263.48233</Z>
+          </Position2>
+        </ZCutscenePosition>
+        <ZCutscenePosition>
+          <Cameraroll>0</Cameraroll>
+          <Frames>1</Frames>
+          <Angle>50</Angle>
+          <Position>
+            <X>-19.7705612</X>
+            <Y>49.07943</Y>
+            <Z>143.563675</Z>
+          </Position>
+          <Position2>
+            <X>-310.13855</X>
+            <Y>73.1143</Y>
+            <Z>-263.48233</Z>
+          </Position2>
+        </ZCutscenePosition>
+        <ZCutscenePosition>
+          <Cameraroll>0</Cameraroll>
+          <Frames>1</Frames>
+          <Angle>50</Angle>
+          <Position>
+            <X>-19.7705612</X>
+            <Y>49.07943</Y>
+            <Z>143.563675</Z>
+          </Position>
+          <Position2>
+            <X>-310.13855</X>
+            <Y>73.1143</Y>
+            <Z>-263.48233</Z>
+          </Position2>
+        </ZCutscenePosition>
+      </Points>
+      <Textboxes>
+        <Capacity>0</Capacity>
+      </Textboxes>
+      <CutsceneActors>
+        <Capacity>0</Capacity>
+      </CutsceneActors>
+      <StartFrame>0</StartFrame>
+      <EndFrame>53</EndFrame>
+    </ZCutscene>
+    <ZCutscene>
+      <Marker>1</Marker>
+      <Data>
+        <unsignedShort xmlns="https://extendedxmlserializer.github.io/system">0</unsignedShort>
+        <unsignedShort xmlns="https://extendedxmlserializer.github.io/system">0</unsignedShort>
+        <unsignedShort xmlns="https://extendedxmlserializer.github.io/system">0</unsignedShort>
+        <unsignedShort xmlns="https://extendedxmlserializer.github.io/system">0</unsignedShort>
+      </Data>
+      <Points>
+        <Capacity>8</Capacity>
+        <ZCutscenePosition>
+          <Cameraroll>0</Cameraroll>
+          <Frames>50</Frames>
+          <Angle>43</Angle>
+          <Position>
+            <X>-63.0804939</X>
+            <Y>71.3981552</Y>
+            <Z>76.93034</Z>
+          </Position>
+          <Position2>
+            <X>-543.7169</X>
+            <Y>-44.0168724</Y>
+            <Z>-60.8688469</Z>
+          </Position2>
+        </ZCutscenePosition>
+        <ZCutscenePosition>
+          <Cameraroll>0</Cameraroll>
+          <Frames>1</Frames>
+          <Angle>43</Angle>
+          <Position>
+            <X>-63.0804939</X>
+            <Y>71.3981552</Y>
+            <Z>76.93034</Z>
+          </Position>
+          <Position2>
+            <X>-543.7169</X>
+            <Y>-44.0168724</Y>
+            <Z>-60.8688469</Z>
+          </Position2>
+        </ZCutscenePosition>
+        <ZCutscenePosition>
+          <Cameraroll>0</Cameraroll>
+          <Frames>1</Frames>
+          <Angle>43</Angle>
+          <Position>
+            <X>-63.0804939</X>
+            <Y>71.3981552</Y>
+            <Z>76.93034</Z>
+          </Position>
+          <Position2>
+            <X>-543.7169</X>
+            <Y>-44.0168724</Y>
+            <Z>-60.8688469</Z>
+          </Position2>
+        </ZCutscenePosition>
+        <ZCutscenePosition>
+          <Cameraroll>0</Cameraroll>
+          <Frames>1</Frames>
+          <Angle>43</Angle>
+          <Position>
+            <X>-63.0804939</X>
+            <Y>71.3981552</Y>
+            <Z>76.93034</Z>
+          </Position>
+          <Position2>
+            <X>-543.7169</X>
+            <Y>-44.0168724</Y>
+            <Z>-60.8688469</Z>
+          </Position2>
+        </ZCutscenePosition>
+      </Points>
+      <Textboxes>
+        <Capacity>0</Capacity>
+      </Textboxes>
+      <CutsceneActors>
+        <Capacity>0</Capacity>
+      </CutsceneActors>
+      <StartFrame>100</StartFrame>
+      <EndFrame>153</EndFrame>
+    </ZCutscene>
+    <ZCutscene>
+      <Marker>1</Marker>
+      <Data>
+        <unsignedShort xmlns="https://extendedxmlserializer.github.io/system">0</unsignedShort>
+        <unsignedShort xmlns="https://extendedxmlserializer.github.io/system">0</unsignedShort>
+        <unsignedShort xmlns="https://extendedxmlserializer.github.io/system">0</unsignedShort>
+        <unsignedShort xmlns="https://extendedxmlserializer.github.io/system">0</unsignedShort>
+      </Data>
+      <Points>
+        <Capacity>8</Capacity>
+        <ZCutscenePosition>
+          <Cameraroll>0</Cameraroll>
+          <Frames>50</Frames>
+          <Angle>45</Angle>
+          <Position>
+            <X>-115.479622</X>
+            <Y>235.46991</Y>
+            <Z>51.9664764</Z>
+          </Position>
+          <Position2>
+            <X>-195</X>
+            <Y>235</Y>
+            <Z>-42</Z>
+          </Position2>
+        </ZCutscenePosition>
+        <ZCutscenePosition>
+          <Cameraroll>0</Cameraroll>
+          <Frames>1</Frames>
+          <Angle>45</Angle>
+          <Position>
+            <X>-115.479622</X>
+            <Y>235.46991</Y>
+            <Z>51.9664764</Z>
+          </Position>
+          <Position2>
+            <X>-195</X>
+            <Y>235</Y>
+            <Z>-42</Z>
+          </Position2>
+        </ZCutscenePosition>
+        <ZCutscenePosition>
+          <Cameraroll>0</Cameraroll>
+          <Frames>1</Frames>
+          <Angle>45</Angle>
+          <Position>
+            <X>-115.479622</X>
+            <Y>235.46991</Y>
+            <Z>51.9664764</Z>
+          </Position>
+          <Position2>
+            <X>-195</X>
+            <Y>235</Y>
+            <Z>-42</Z>
+          </Position2>
+        </ZCutscenePosition>
+        <ZCutscenePosition>
+          <Cameraroll>0</Cameraroll>
+          <Frames>1</Frames>
+          <Angle>45</Angle>
+          <Position>
+            <X>-115.479622</X>
+            <Y>235.46991</Y>
+            <Z>51.9664764</Z>
+          </Position>
+          <Position2>
+            <X>-195</X>
+            <Y>235</Y>
+            <Z>-42</Z>
+          </Position2>
+        </ZCutscenePosition>
+      </Points>
+      <Textboxes>
+        <Capacity>0</Capacity>
+      </Textboxes>
+      <CutsceneActors>
+        <Capacity>0</Capacity>
+      </CutsceneActors>
+      <StartFrame>200</StartFrame>
+      <EndFrame>253</EndFrame>
+    </ZCutscene>
+  </Cutscene>
+  <Cameras xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:identity="7">
+    <Capacity>4</Capacity>
+    <ZCamera>
+      <XPos>-115</XPos>
+      <YPos>-75</YPos>
+      <ZPos>92</ZPos>
+      <XRot>3595</XRot>
+      <YRot>29445</YRot>
+      <ZRot>0</ZRot>
+      <Type>20</Type>
+      <Fov>225</Fov>
+      <Unk1>65535</Unk1>
+      <Unk2>65535</Unk2>
+      <Unk12>0</Unk12>
+      <Unk14>0</Unk14>
+      <Unk16>0</Unk16>
+      <Unk18>0</Unk18>
+      <Unk1A>0</Unk1A>
+      <Unk1C>0</Unk1C>
+      <Unk1E>0</Unk1E>
+      <Unk20>0</Unk20>
+      <Unk22>0</Unk22>
+    </ZCamera>
+  </Cameras>
+  <SceneHeaders>
+    <Capacity>8</Capacity>
+    <ZSceneHeader>
+      <SameAsPrevious>false</SameAsPrevious>
+      <CloneFromHeader>0</CloneFromHeader>
+      <Scene cloneid="1">
+        <Name>Lobby</Name>
+        <Scale>1</Scale>
+        <Music>0</Music>
+        <NightSFX>25</NightSFX>
+        <Skybox>0</Skybox>
+        <Weather>0</Weather>
+        <SpecialObject>3</SpecialObject>
+        <ElfMessage>0</ElfMessage>
+        <InjectOffset>49618944</InjectOffset>
+        <SceneNumber>53</SceneNumber>
+        <Reverb>0</Reverb>
+        <CameraMovement>0</CameraMovement>
+        <WorldMap>0</WorldMap>
+        <SceneSettings>0</SceneSettings>
+        <OutdoorLight>true</OutdoorLight>
+        <FixedCameraXPos>0</FixedCameraXPos>
+        <FixedCameraYPos>0</FixedCameraYPos>
+        <FixedCameraZPos>0</FixedCameraZPos>
+        <FixedCameraXRot>0</FixedCameraXRot>
+        <FixedCameraYRot>0</FixedCameraYRot>
+        <FixedCameraZRot>0</FixedCameraZRot>
+        <TimeCtrl>0</TimeCtrl>
+        <SkyboxType>0</SkyboxType>
+        <Cloudy>false</Cloudy>
+        <ContinualInject>true</ContinualInject>
+        <NewRoomMode>false</NewRoomMode>
+        <Prerendered>false</Prerendered>
+        <PregeneratedMesh>false</PregeneratedMesh>
+        <JFIFpath></JFIFpath>
+        <CutsceneEntrance>0</CutsceneEntrance>
+        <CutsceneEntranceNum>0</CutsceneEntranceNum>
+        <CutsceneFlag>0</CutsceneFlag>
+        <CutsceneTableRow>-1</CutsceneTableRow>
+        <version>4864</version>
+        <SegmentFunctions>
+          <Capacity>4</Capacity>
+          <ZSegmentFunction>
+            <Functions>
+              <Capacity>0</Capacity>
+            </Functions>
+          </ZSegmentFunction>
+        </SegmentFunctions>
+        <prerenderimages xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="1" />
+        <inherittextureanims>true</inherittextureanims>
+        <RestrictionFlags>0</RestrictionFlags>
+        <TitleCard></TitleCard>
+        <CollisionFilename>D:\GIT\HeroOfLaw\Scenes\Lobby\..\Courtroom\Scene\Collision\Untitled.obj</CollisionFilename>
+        <ZObjects xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="2" />
+        <Transitions>
+          <Capacity>0</Capacity>
+        </Transitions>
+        <SpawnPoints>
+          <Capacity>1</Capacity>
+          <ZActor>
+            <Number>0</Number>
+            <XPos>-375</XPos>
+            <YPos>60</YPos>
+            <ZPos>578</ZPos>
+            <XRot>0</XRot>
+            <YRot>-1440</YRot>
+            <ZRot>0</ZRot>
+            <Variable>3840</Variable>
+            <FrontSwitchTo>0</FrontSwitchTo>
+            <FrontCamera>255</FrontCamera>
+            <BackSwitchTo>1</BackSwitchTo>
+            <BackCamera>255</BackCamera>
+            <SpawnRoom>255</SpawnRoom>
+            <IgnoreMMRot>
+              <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+            </IgnoreMMRot>
+          </ZActor>
+        </SpawnPoints>
+        <Environments>
+          <Capacity>8</Capacity>
+          <ZEnvironment>
+            <C1>-12178119</C1>
+            <C2>4802889</C2>
+            <C3>-4941174</C3>
+            <C4>12040119</C4>
+            <C5>-15461316</C5>
+            <FogColor>-7571346</FogColor>
+            <FogDistance>993</FogDistance>
+            <DrawDistance>512</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-9872806</C1>
+            <C2>4802889</C2>
+            <C3>-16</C3>
+            <C4>12040119</C4>
+            <C5>-13487526</C5>
+            <FogColor>-10197896</FogColor>
+            <FogDistance>996</FogDistance>
+            <DrawDistance>512</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-8889856</C1>
+            <C2>4802889</C2>
+            <C3>-358606</C3>
+            <C4>12040119</C4>
+            <C5>-14803396</C5>
+            <FogColor>-8894926</FogColor>
+            <FogDistance>995</FogDistance>
+            <DrawDistance>512</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-14137756</C1>
+            <C2>4802889</C2>
+            <C3>-15461341</C3>
+            <C4>12040119</C4>
+            <C5>-13487516</C5>
+            <FogColor>-16777186</FogColor>
+            <FogDistance>992</FogDistance>
+            <DrawDistance>512</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-12834746</C1>
+            <C2>4802889</C2>
+            <C3>-11526596</C3>
+            <C4>12040119</C4>
+            <C5>-11521386</C5>
+            <FogColor>-12178643</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>512</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-11838876</C1>
+            <C2>4802889</C2>
+            <C3>-13107216</C3>
+            <C4>12040119</C4>
+            <C5>-16083266</C5>
+            <FogColor>-15443346</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>512</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-12834736</C1>
+            <C2>4802889</C2>
+            <C3>-12825706</C3>
+            <C4>12040119</C4>
+            <C5>-12830826</C5>
+            <FogColor>-13492706</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>512</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-16766896</C1>
+            <C2>4802889</C2>
+            <C3>-15453621</C3>
+            <C4>12040119</C4>
+            <C5>-13474666</C5>
+            <FogColor>-16774636</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>512</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+        </Environments>
+        <Waterboxes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="3" />
+        <PolyTypes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="4" />
+        <ExitList xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="5" />
+        <ExitListV2 xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="6" />
+        <Pathways>
+          <Capacity>0</Capacity>
+        </Pathways>
+        <Cutscene>
+          <Capacity>4</Capacity>
+          <ZCutscene>
+            <Marker>1</Marker>
+            <Data>
+              <unsignedShort xmlns="https://extendedxmlserializer.github.io/system">0</unsignedShort>
+              <unsignedShort xmlns="https://extendedxmlserializer.github.io/system">0</unsignedShort>
+              <unsignedShort xmlns="https://extendedxmlserializer.github.io/system">0</unsignedShort>
+              <unsignedShort xmlns="https://extendedxmlserializer.github.io/system">0</unsignedShort>
+            </Data>
+            <Points>
+              <Capacity>8</Capacity>
+              <ZCutscenePosition>
+                <Cameraroll>0</Cameraroll>
+                <Frames>50</Frames>
+                <Angle>60</Angle>
+                <Position>
+                  <X>35.08026</X>
+                  <Y>72.04335</Y>
+                  <Z>41.07241</Z>
+                </Position>
+                <Position2>
+                  <X>-407.413574</X>
+                  <Y>30.4965553</Y>
+                  <Z>-191.734879</Z>
+                </Position2>
+              </ZCutscenePosition>
+              <ZCutscenePosition>
+                <Cameraroll>0</Cameraroll>
+                <Frames>50</Frames>
+                <Angle>60</Angle>
+                <Position>
+                  <X>-76.9351654</X>
+                  <Y>57.07646</Y>
+                  <Z>26.6705837</Z>
+                </Position>
+                <Position2>
+                  <X>-518.409</X>
+                  <Y>6.72910833</Y>
+                  <Z>-208.065186</Z>
+                </Position2>
+              </ZCutscenePosition>
+              <ZCutscenePosition>
+                <Cameraroll>0</Cameraroll>
+                <Frames>50</Frames>
+                <Angle>60</Angle>
+                <Position>
+                  <X>-76.9351654</X>
+                  <Y>57.07646</Y>
+                  <Z>26.6705837</Z>
+                </Position>
+                <Position2>
+                  <X>-551.7847</X>
+                  <Y>-6.53157473</Y>
+                  <Z>-129.9113</Z>
+                </Position2>
+              </ZCutscenePosition>
+              <ZCutscenePosition>
+                <Cameraroll>0</Cameraroll>
+                <Frames>1000</Frames>
+                <Angle>60</Angle>
+                <Position>
+                  <X>-83.68563</X>
+                  <Y>53.4163971</Y>
+                  <Z>-52.8482933</Z>
+                </Position>
+                <Position2>
+                  <X>-578.511353</X>
+                  <Y>7.47284126</Y>
+                  <Z>18.8980427</Z>
+                </Position2>
+              </ZCutscenePosition>
+            </Points>
+            <Textboxes>
+              <Capacity>0</Capacity>
+            </Textboxes>
+            <CutsceneActors>
+              <Capacity>0</Capacity>
+            </CutsceneActors>
+            <StartFrame>0</StartFrame>
+            <EndFrame>1150</EndFrame>
+          </ZCutscene>
+        </Cutscene>
+        <Cameras xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="7" />
+        <SceneHeaders>
+          <Capacity>0</Capacity>
+        </SceneHeaders>
+        <AdditionalTextures xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:identity="8">
+          <Capacity>0</Capacity>
+        </AdditionalTextures>
+        <TextureAnims xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:identity="9">
+          <Capacity>0</Capacity>
+        </TextureAnims>
+        <ActorCutscenes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:identity="10">
+          <Capacity>0</Capacity>
+        </ActorCutscenes>
+        <Rooms>
+          <Capacity>1</Capacity>
+          <ZScene-ZRoom>
+            <ModelFilename>D:\GIT\HeroOfLaw\Scenes\Lobby\Export\untitled.obj</ModelFilename>
+            <StartTime>3072</StartTime>
+            <TimeSpeed>0</TimeSpeed>
+            <DisableSkybox>true</DisableSkybox>
+            <DisableSunMoon>true</DisableSunMoon>
+            <WindWest>15</WindWest>
+            <WindVertical>40</WindVertical>
+            <WindSouth>109</WindSouth>
+            <WindStrength>190</WindStrength>
+            <Restriction>0</Restriction>
+            <IdleAnim>0</IdleAnim>
+            <ShowInvisibleActors>false</ShowInvisibleActors>
+            <DisableWarpSongs>false</DisableWarpSongs>
+            <Echo>0</Echo>
+            <AffectedByPointLight>false</AffectedByPointLight>
+            <AdditionalLights>
+              <Capacity>0</Capacity>
+            </AdditionalLights>
+            <InjectOffset>47185920</InjectOffset>
+            <ZObjects>
+              <Capacity>0</Capacity>
+            </ZObjects>
+            <ZActors>
+              <Capacity>4</Capacity>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-195</XPos>
+                <YPos>2</YPos>
+                <ZPos>-30</ZPos>
+                <XRot>0</XRot>
+                <YRot>9908</YRot>
+                <ZRot>52</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>255</FrontCamera>
+                <BackSwitchTo>1</BackSwitchTo>
+                <BackCamera>255</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-167</XPos>
+                <YPos>2</YPos>
+                <ZPos>3</ZPos>
+                <XRot>0</XRot>
+                <YRot>-23647</YRot>
+                <ZRot>15</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>255</FrontCamera>
+                <BackSwitchTo>1</BackSwitchTo>
+                <BackCamera>255</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>0</XPos>
+                <YPos>0</YPos>
+                <ZPos>0</ZPos>
+                <XRot>0</XRot>
+                <YRot>0</YRot>
+                <ZRot>59</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>0</FrontCamera>
+                <BackSwitchTo>0</BackSwitchTo>
+                <BackCamera>0</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-164</XPos>
+                <YPos>2</YPos>
+                <ZPos>-46</ZPos>
+                <XRot>1</XRot>
+                <YRot>-11520</YRot>
+                <ZRot>15</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>255</FrontCamera>
+                <BackSwitchTo>1</BackSwitchTo>
+                <BackCamera>255</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+            </ZActors>
+            <GroupSettings xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:identity="11">
+              <TintAlpha>
+                <unsignedInt xmlns="https://extendedxmlserializer.github.io/system">4294967295</unsignedInt>
+                <unsignedInt xmlns="https://extendedxmlserializer.github.io/system">4294967295</unsignedInt>
+              </TintAlpha>
+              <TileS>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+              </TileS>
+              <TileT>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+              </TileT>
+              <PolyType>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+              </PolyType>
+              <BackfaceCulling>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">true</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </BackfaceCulling>
+              <Animated>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </Animated>
+              <Metallic>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </Metallic>
+              <EnvColor>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </EnvColor>
+              <Decal>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </Decal>
+              <IgnoreFog>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </IgnoreFog>
+              <SmoothRGBAEdges>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </SmoothRGBAEdges>
+              <Pixelated>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </Pixelated>
+              <Billboard>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </Billboard>
+              <TwoAxisBillboard>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </TwoAxisBillboard>
+              <MultiTexMaterial>
+                <int xmlns="https://extendedxmlserializer.github.io/system">-1</int>
+                <int xmlns="https://extendedxmlserializer.github.io/system">-1</int>
+              </MultiTexMaterial>
+              <MultiTexMaterialName>
+                <string xmlns="https://extendedxmlserializer.github.io/system"></string>
+                <string xmlns="https://extendedxmlserializer.github.io/system"></string>
+              </MultiTexMaterialName>
+              <ShiftS>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+              </ShiftS>
+              <ShiftT>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+              </ShiftT>
+              <BaseShiftS>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+              </BaseShiftS>
+              <BaseShiftT>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+              </BaseShiftT>
+              <MultiTexAlpha>
+                <unsignedInt xmlns="https://extendedxmlserializer.github.io/system">4294967295</unsignedInt>
+                <unsignedInt xmlns="https://extendedxmlserializer.github.io/system">4294967295</unsignedInt>
+              </MultiTexAlpha>
+              <ReverseLight>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">true</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">true</boolean>
+              </ReverseLight>
+              <AnimationBank>
+                <int xmlns="https://extendedxmlserializer.github.io/system">8</int>
+                <int xmlns="https://extendedxmlserializer.github.io/system">8</int>
+              </AnimationBank>
+              <LodGroup>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+              </LodGroup>
+              <LodDistance>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+                <int xmlns="https://extendedxmlserializer.github.io/system">0</int>
+              </LodDistance>
+              <LOD>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </LOD>
+              <AlphaMask>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </AlphaMask>
+              <RenderLast>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </RenderLast>
+              <VertexNormals>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </VertexNormals>
+              <Custom>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </Custom>
+              <CustomDL exs:map="2,4">
+                <unsignedLong xmlns="https://extendedxmlserializer.github.io/system">0</unsignedLong>
+                <unsignedLong xmlns="https://extendedxmlserializer.github.io/system">0</unsignedLong>
+                <unsignedLong xmlns="https://extendedxmlserializer.github.io/system">0</unsignedLong>
+                <unsignedLong xmlns="https://extendedxmlserializer.github.io/system">0</unsignedLong>
+                <unsignedLong xmlns="https://extendedxmlserializer.github.io/system">0</unsignedLong>
+                <unsignedLong xmlns="https://extendedxmlserializer.github.io/system">0</unsignedLong>
+                <unsignedLong xmlns="https://extendedxmlserializer.github.io/system">0</unsignedLong>
+                <unsignedLong xmlns="https://extendedxmlserializer.github.io/system">0</unsignedLong>
+              </CustomDL>
+              <ScaledNormals>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </ScaledNormals>
+              <TexPointerPlus1>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </TexPointerPlus1>
+              <Vibrant>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              </Vibrant>
+            </GroupSettings>
+            <OriginalMeshHeaderOffset>0</OriginalMeshHeaderOffset>
+            <ModelShortFilename>untitled</ModelShortFilename>
+          </ZScene-ZRoom>
+        </Rooms>
+      </Scene>
+    </ZSceneHeader>
+    <ZSceneHeader>
+      <SameAsPrevious>true</SameAsPrevious>
+      <CloneFromHeader>0</CloneFromHeader>
+      <Scene cloneid="2">
+        <Name>Lobby</Name>
+        <Scale>1</Scale>
+        <Music>0</Music>
+        <NightSFX>25</NightSFX>
+        <Skybox>0</Skybox>
+        <Weather>0</Weather>
+        <SpecialObject>3</SpecialObject>
+        <ElfMessage>0</ElfMessage>
+        <InjectOffset>49618944</InjectOffset>
+        <SceneNumber>53</SceneNumber>
+        <Reverb>0</Reverb>
+        <CameraMovement>0</CameraMovement>
+        <WorldMap>0</WorldMap>
+        <SceneSettings>0</SceneSettings>
+        <OutdoorLight>true</OutdoorLight>
+        <FixedCameraXPos>0</FixedCameraXPos>
+        <FixedCameraYPos>0</FixedCameraYPos>
+        <FixedCameraZPos>0</FixedCameraZPos>
+        <FixedCameraXRot>0</FixedCameraXRot>
+        <FixedCameraYRot>0</FixedCameraYRot>
+        <FixedCameraZRot>0</FixedCameraZRot>
+        <TimeCtrl>0</TimeCtrl>
+        <SkyboxType>0</SkyboxType>
+        <Cloudy>false</Cloudy>
+        <ContinualInject>true</ContinualInject>
+        <NewRoomMode>false</NewRoomMode>
+        <Prerendered>false</Prerendered>
+        <PregeneratedMesh>false</PregeneratedMesh>
+        <JFIFpath></JFIFpath>
+        <CutsceneEntrance>0</CutsceneEntrance>
+        <CutsceneEntranceNum>0</CutsceneEntranceNum>
+        <CutsceneFlag>0</CutsceneFlag>
+        <CutsceneTableRow>-1</CutsceneTableRow>
+        <version>4864</version>
+        <SegmentFunctions>
+          <Capacity>4</Capacity>
+          <ZSegmentFunction>
+            <Functions>
+              <Capacity>0</Capacity>
+            </Functions>
+          </ZSegmentFunction>
+        </SegmentFunctions>
+        <prerenderimages xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="1" />
+        <inherittextureanims>true</inherittextureanims>
+        <RestrictionFlags>0</RestrictionFlags>
+        <TitleCard></TitleCard>
+        <CollisionFilename>D:\GIT\HeroOfLaw\Scenes\Lobby\..\Courtroom\Scene\Collision\Untitled.obj</CollisionFilename>
+        <ZObjects xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="2" />
+        <Transitions>
+          <Capacity>0</Capacity>
+        </Transitions>
+        <SpawnPoints>
+          <Capacity>1</Capacity>
+          <ZActor>
+            <Number>0</Number>
+            <XPos>-375</XPos>
+            <YPos>60</YPos>
+            <ZPos>578</ZPos>
+            <XRot>0</XRot>
+            <YRot>-1440</YRot>
+            <ZRot>0</ZRot>
+            <Variable>3840</Variable>
+            <FrontSwitchTo>0</FrontSwitchTo>
+            <FrontCamera>255</FrontCamera>
+            <BackSwitchTo>1</BackSwitchTo>
+            <BackCamera>255</BackCamera>
+            <SpawnRoom>255</SpawnRoom>
+            <IgnoreMMRot>
+              <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+            </IgnoreMMRot>
+          </ZActor>
+        </SpawnPoints>
+        <Environments>
+          <Capacity>8</Capacity>
+          <ZEnvironment>
+            <C1>-12178119</C1>
+            <C2>4802889</C2>
+            <C3>-4941174</C3>
+            <C4>12040119</C4>
+            <C5>-15461316</C5>
+            <FogColor>-7571346</FogColor>
+            <FogDistance>993</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-9872806</C1>
+            <C2>4802889</C2>
+            <C3>-16</C3>
+            <C4>12040119</C4>
+            <C5>-13487526</C5>
+            <FogColor>-10197896</FogColor>
+            <FogDistance>996</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-8889856</C1>
+            <C2>4802889</C2>
+            <C3>-358606</C3>
+            <C4>12040119</C4>
+            <C5>-14803396</C5>
+            <FogColor>-8894926</FogColor>
+            <FogDistance>995</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-14137756</C1>
+            <C2>4802889</C2>
+            <C3>-15461341</C3>
+            <C4>12040119</C4>
+            <C5>-13487516</C5>
+            <FogColor>-16777186</FogColor>
+            <FogDistance>992</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-12834746</C1>
+            <C2>4802889</C2>
+            <C3>-11526596</C3>
+            <C4>12040119</C4>
+            <C5>-11521386</C5>
+            <FogColor>-12178643</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-11838876</C1>
+            <C2>4802889</C2>
+            <C3>-13107216</C3>
+            <C4>12040119</C4>
+            <C5>-16083266</C5>
+            <FogColor>-15443346</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-12834736</C1>
+            <C2>4802889</C2>
+            <C3>-12825706</C3>
+            <C4>12040119</C4>
+            <C5>-12830826</C5>
+            <FogColor>-13492706</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-16766896</C1>
+            <C2>4802889</C2>
+            <C3>-15453621</C3>
+            <C4>12040119</C4>
+            <C5>-13474666</C5>
+            <FogColor>-16774636</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+        </Environments>
+        <Waterboxes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="3" />
+        <PolyTypes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="4" />
+        <ExitList xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="5" />
+        <ExitListV2 xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="6" />
+        <Pathways>
+          <Capacity>0</Capacity>
+        </Pathways>
+        <Cutscene>
+          <Capacity>0</Capacity>
+        </Cutscene>
+        <Cameras xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="7" />
+        <SceneHeaders>
+          <Capacity>0</Capacity>
+        </SceneHeaders>
+        <AdditionalTextures xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="8" />
+        <TextureAnims xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="9" />
+        <ActorCutscenes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="10" />
+        <Rooms>
+          <Capacity>1</Capacity>
+          <ZScene-ZRoom>
+            <ModelFilename>D:\GIT\HeroOfLaw\Scenes\Lobby\Export\untitled.obj</ModelFilename>
+            <StartTime>3072</StartTime>
+            <TimeSpeed>0</TimeSpeed>
+            <DisableSkybox>true</DisableSkybox>
+            <DisableSunMoon>true</DisableSunMoon>
+            <WindWest>15</WindWest>
+            <WindVertical>40</WindVertical>
+            <WindSouth>109</WindSouth>
+            <WindStrength>190</WindStrength>
+            <Restriction>0</Restriction>
+            <IdleAnim>0</IdleAnim>
+            <ShowInvisibleActors>false</ShowInvisibleActors>
+            <DisableWarpSongs>false</DisableWarpSongs>
+            <Echo>0</Echo>
+            <AffectedByPointLight>false</AffectedByPointLight>
+            <AdditionalLights>
+              <Capacity>0</Capacity>
+            </AdditionalLights>
+            <InjectOffset>47185920</InjectOffset>
+            <ZObjects>
+              <Capacity>0</Capacity>
+            </ZObjects>
+            <ZActors>
+              <Capacity>4</Capacity>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-53</XPos>
+                <YPos>0</YPos>
+                <ZPos>95</ZPos>
+                <XRot>1</XRot>
+                <YRot>6720</YRot>
+                <ZRot>10</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>0</FrontCamera>
+                <BackSwitchTo>0</BackSwitchTo>
+                <BackCamera>0</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-191</XPos>
+                <YPos>0</YPos>
+                <ZPos>-79</ZPos>
+                <XRot>0</XRot>
+                <YRot>15840</YRot>
+                <ZRot>16</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>255</FrontCamera>
+                <BackSwitchTo>1</BackSwitchTo>
+                <BackCamera>255</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-189</XPos>
+                <YPos>0</YPos>
+                <ZPos>42</ZPos>
+                <XRot>1</XRot>
+                <YRot>16320</YRot>
+                <ZRot>15</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>255</FrontCamera>
+                <BackSwitchTo>1</BackSwitchTo>
+                <BackCamera>255</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-53</XPos>
+                <YPos>0</YPos>
+                <ZPos>95</ZPos>
+                <XRot>1</XRot>
+                <YRot>6720</YRot>
+                <ZRot>14</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>255</FrontCamera>
+                <BackSwitchTo>1</BackSwitchTo>
+                <BackCamera>255</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+            </ZActors>
+            <GroupSettings xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="11" />
+            <OriginalMeshHeaderOffset>0</OriginalMeshHeaderOffset>
+            <ModelShortFilename>untitled</ModelShortFilename>
+          </ZScene-ZRoom>
+        </Rooms>
+      </Scene>
+    </ZSceneHeader>
+    <ZSceneHeader>
+      <SameAsPrevious>true</SameAsPrevious>
+      <CloneFromHeader>0</CloneFromHeader>
+      <Scene cloneid="3">
+        <Name>Lobby</Name>
+        <Scale>1</Scale>
+        <Music>0</Music>
+        <NightSFX>25</NightSFX>
+        <Skybox>0</Skybox>
+        <Weather>0</Weather>
+        <SpecialObject>3</SpecialObject>
+        <ElfMessage>0</ElfMessage>
+        <InjectOffset>49618944</InjectOffset>
+        <SceneNumber>53</SceneNumber>
+        <Reverb>0</Reverb>
+        <CameraMovement>0</CameraMovement>
+        <WorldMap>0</WorldMap>
+        <SceneSettings>0</SceneSettings>
+        <OutdoorLight>true</OutdoorLight>
+        <FixedCameraXPos>0</FixedCameraXPos>
+        <FixedCameraYPos>0</FixedCameraYPos>
+        <FixedCameraZPos>0</FixedCameraZPos>
+        <FixedCameraXRot>0</FixedCameraXRot>
+        <FixedCameraYRot>0</FixedCameraYRot>
+        <FixedCameraZRot>0</FixedCameraZRot>
+        <TimeCtrl>0</TimeCtrl>
+        <SkyboxType>0</SkyboxType>
+        <Cloudy>false</Cloudy>
+        <ContinualInject>true</ContinualInject>
+        <NewRoomMode>false</NewRoomMode>
+        <Prerendered>false</Prerendered>
+        <PregeneratedMesh>false</PregeneratedMesh>
+        <JFIFpath></JFIFpath>
+        <CutsceneEntrance>0</CutsceneEntrance>
+        <CutsceneEntranceNum>0</CutsceneEntranceNum>
+        <CutsceneFlag>0</CutsceneFlag>
+        <CutsceneTableRow>-1</CutsceneTableRow>
+        <version>4864</version>
+        <SegmentFunctions>
+          <Capacity>4</Capacity>
+          <ZSegmentFunction>
+            <Functions>
+              <Capacity>0</Capacity>
+            </Functions>
+          </ZSegmentFunction>
+        </SegmentFunctions>
+        <prerenderimages xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="1" />
+        <inherittextureanims>true</inherittextureanims>
+        <RestrictionFlags>0</RestrictionFlags>
+        <TitleCard></TitleCard>
+        <CollisionFilename>D:\GIT\HeroOfLaw\Scenes\Lobby\..\Courtroom\Scene\Collision\Untitled.obj</CollisionFilename>
+        <ZObjects xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="2" />
+        <Transitions>
+          <Capacity>0</Capacity>
+        </Transitions>
+        <SpawnPoints>
+          <Capacity>1</Capacity>
+          <ZActor>
+            <Number>0</Number>
+            <XPos>-375</XPos>
+            <YPos>60</YPos>
+            <ZPos>578</ZPos>
+            <XRot>0</XRot>
+            <YRot>-1440</YRot>
+            <ZRot>0</ZRot>
+            <Variable>3840</Variable>
+            <FrontSwitchTo>0</FrontSwitchTo>
+            <FrontCamera>255</FrontCamera>
+            <BackSwitchTo>1</BackSwitchTo>
+            <BackCamera>255</BackCamera>
+            <SpawnRoom>255</SpawnRoom>
+            <IgnoreMMRot>
+              <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+            </IgnoreMMRot>
+          </ZActor>
+        </SpawnPoints>
+        <Environments>
+          <Capacity>8</Capacity>
+          <ZEnvironment>
+            <C1>-12178119</C1>
+            <C2>4802889</C2>
+            <C3>-4941174</C3>
+            <C4>12040119</C4>
+            <C5>-15461316</C5>
+            <FogColor>-7571346</FogColor>
+            <FogDistance>993</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-9872806</C1>
+            <C2>4802889</C2>
+            <C3>-16</C3>
+            <C4>12040119</C4>
+            <C5>-13487526</C5>
+            <FogColor>-10197896</FogColor>
+            <FogDistance>996</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-8889856</C1>
+            <C2>4802889</C2>
+            <C3>-358606</C3>
+            <C4>12040119</C4>
+            <C5>-14803396</C5>
+            <FogColor>-8894926</FogColor>
+            <FogDistance>995</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-14137756</C1>
+            <C2>4802889</C2>
+            <C3>-15461341</C3>
+            <C4>12040119</C4>
+            <C5>-13487516</C5>
+            <FogColor>-16777186</FogColor>
+            <FogDistance>992</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-12834746</C1>
+            <C2>4802889</C2>
+            <C3>-11526596</C3>
+            <C4>12040119</C4>
+            <C5>-11521386</C5>
+            <FogColor>-12178643</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-11838876</C1>
+            <C2>4802889</C2>
+            <C3>-13107216</C3>
+            <C4>12040119</C4>
+            <C5>-16083266</C5>
+            <FogColor>-15443346</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-12834736</C1>
+            <C2>4802889</C2>
+            <C3>-12825706</C3>
+            <C4>12040119</C4>
+            <C5>-12830826</C5>
+            <FogColor>-13492706</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-16766896</C1>
+            <C2>4802889</C2>
+            <C3>-15453621</C3>
+            <C4>12040119</C4>
+            <C5>-13474666</C5>
+            <FogColor>-16774636</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+        </Environments>
+        <Waterboxes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="3" />
+        <PolyTypes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="4" />
+        <ExitList xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="5" />
+        <ExitListV2 xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="6" />
+        <Pathways>
+          <Capacity>0</Capacity>
+        </Pathways>
+        <Cutscene>
+          <Capacity>0</Capacity>
+        </Cutscene>
+        <Cameras xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="7" />
+        <SceneHeaders>
+          <Capacity>0</Capacity>
+        </SceneHeaders>
+        <AdditionalTextures xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="8" />
+        <TextureAnims xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="9" />
+        <ActorCutscenes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="10" />
+        <Rooms>
+          <Capacity>1</Capacity>
+          <ZScene-ZRoom>
+            <ModelFilename>D:\GIT\HeroOfLaw\Scenes\Lobby\Export\untitled.obj</ModelFilename>
+            <StartTime>3072</StartTime>
+            <TimeSpeed>0</TimeSpeed>
+            <DisableSkybox>true</DisableSkybox>
+            <DisableSunMoon>true</DisableSunMoon>
+            <WindWest>15</WindWest>
+            <WindVertical>40</WindVertical>
+            <WindSouth>109</WindSouth>
+            <WindStrength>190</WindStrength>
+            <Restriction>0</Restriction>
+            <IdleAnim>0</IdleAnim>
+            <ShowInvisibleActors>false</ShowInvisibleActors>
+            <DisableWarpSongs>false</DisableWarpSongs>
+            <Echo>0</Echo>
+            <AffectedByPointLight>false</AffectedByPointLight>
+            <AdditionalLights>
+              <Capacity>0</Capacity>
+            </AdditionalLights>
+            <InjectOffset>47185920</InjectOffset>
+            <ZObjects>
+              <Capacity>0</Capacity>
+            </ZObjects>
+            <ZActors>
+              <Capacity>4</Capacity>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-53</XPos>
+                <YPos>0</YPos>
+                <ZPos>95</ZPos>
+                <XRot>1</XRot>
+                <YRot>6720</YRot>
+                <ZRot>10</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>0</FrontCamera>
+                <BackSwitchTo>0</BackSwitchTo>
+                <BackCamera>0</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-191</XPos>
+                <YPos>0</YPos>
+                <ZPos>-79</ZPos>
+                <XRot>0</XRot>
+                <YRot>15840</YRot>
+                <ZRot>16</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>255</FrontCamera>
+                <BackSwitchTo>1</BackSwitchTo>
+                <BackCamera>255</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-189</XPos>
+                <YPos>0</YPos>
+                <ZPos>42</ZPos>
+                <XRot>1</XRot>
+                <YRot>16320</YRot>
+                <ZRot>15</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>255</FrontCamera>
+                <BackSwitchTo>1</BackSwitchTo>
+                <BackCamera>255</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-53</XPos>
+                <YPos>0</YPos>
+                <ZPos>95</ZPos>
+                <XRot>1</XRot>
+                <YRot>6720</YRot>
+                <ZRot>14</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>255</FrontCamera>
+                <BackSwitchTo>1</BackSwitchTo>
+                <BackCamera>255</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+            </ZActors>
+            <GroupSettings xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="11" />
+            <OriginalMeshHeaderOffset>0</OriginalMeshHeaderOffset>
+            <ModelShortFilename>untitled</ModelShortFilename>
+          </ZScene-ZRoom>
+        </Rooms>
+      </Scene>
+    </ZSceneHeader>
+    <ZSceneHeader>
+      <SameAsPrevious>true</SameAsPrevious>
+      <CloneFromHeader>0</CloneFromHeader>
+      <Scene cloneid="4">
+        <Name>Lobby</Name>
+        <Scale>1</Scale>
+        <Music>0</Music>
+        <NightSFX>25</NightSFX>
+        <Skybox>0</Skybox>
+        <Weather>0</Weather>
+        <SpecialObject>3</SpecialObject>
+        <ElfMessage>0</ElfMessage>
+        <InjectOffset>49618944</InjectOffset>
+        <SceneNumber>53</SceneNumber>
+        <Reverb>0</Reverb>
+        <CameraMovement>0</CameraMovement>
+        <WorldMap>0</WorldMap>
+        <SceneSettings>0</SceneSettings>
+        <OutdoorLight>true</OutdoorLight>
+        <FixedCameraXPos>0</FixedCameraXPos>
+        <FixedCameraYPos>0</FixedCameraYPos>
+        <FixedCameraZPos>0</FixedCameraZPos>
+        <FixedCameraXRot>0</FixedCameraXRot>
+        <FixedCameraYRot>0</FixedCameraYRot>
+        <FixedCameraZRot>0</FixedCameraZRot>
+        <TimeCtrl>0</TimeCtrl>
+        <SkyboxType>0</SkyboxType>
+        <Cloudy>false</Cloudy>
+        <ContinualInject>true</ContinualInject>
+        <NewRoomMode>false</NewRoomMode>
+        <Prerendered>false</Prerendered>
+        <PregeneratedMesh>false</PregeneratedMesh>
+        <JFIFpath></JFIFpath>
+        <CutsceneEntrance>0</CutsceneEntrance>
+        <CutsceneEntranceNum>0</CutsceneEntranceNum>
+        <CutsceneFlag>0</CutsceneFlag>
+        <CutsceneTableRow>-1</CutsceneTableRow>
+        <version>4864</version>
+        <SegmentFunctions>
+          <Capacity>4</Capacity>
+          <ZSegmentFunction>
+            <Functions>
+              <Capacity>0</Capacity>
+            </Functions>
+          </ZSegmentFunction>
+        </SegmentFunctions>
+        <prerenderimages xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="1" />
+        <inherittextureanims>true</inherittextureanims>
+        <RestrictionFlags>0</RestrictionFlags>
+        <TitleCard></TitleCard>
+        <CollisionFilename>D:\GIT\HeroOfLaw\Scenes\Lobby\..\Courtroom\Scene\Collision\Untitled.obj</CollisionFilename>
+        <ZObjects xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="2" />
+        <Transitions>
+          <Capacity>0</Capacity>
+        </Transitions>
+        <SpawnPoints>
+          <Capacity>1</Capacity>
+          <ZActor>
+            <Number>0</Number>
+            <XPos>-375</XPos>
+            <YPos>60</YPos>
+            <ZPos>578</ZPos>
+            <XRot>0</XRot>
+            <YRot>-1440</YRot>
+            <ZRot>0</ZRot>
+            <Variable>3840</Variable>
+            <FrontSwitchTo>0</FrontSwitchTo>
+            <FrontCamera>255</FrontCamera>
+            <BackSwitchTo>1</BackSwitchTo>
+            <BackCamera>255</BackCamera>
+            <SpawnRoom>255</SpawnRoom>
+            <IgnoreMMRot>
+              <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+            </IgnoreMMRot>
+          </ZActor>
+        </SpawnPoints>
+        <Environments>
+          <Capacity>8</Capacity>
+          <ZEnvironment>
+            <C1>-12178119</C1>
+            <C2>4802889</C2>
+            <C3>-4941174</C3>
+            <C4>12040119</C4>
+            <C5>-15461316</C5>
+            <FogColor>-7571346</FogColor>
+            <FogDistance>993</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-9872806</C1>
+            <C2>4802889</C2>
+            <C3>-16</C3>
+            <C4>12040119</C4>
+            <C5>-13487526</C5>
+            <FogColor>-10197896</FogColor>
+            <FogDistance>996</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-8889856</C1>
+            <C2>4802889</C2>
+            <C3>-358606</C3>
+            <C4>12040119</C4>
+            <C5>-14803396</C5>
+            <FogColor>-8894926</FogColor>
+            <FogDistance>995</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-14137756</C1>
+            <C2>4802889</C2>
+            <C3>-15461341</C3>
+            <C4>12040119</C4>
+            <C5>-13487516</C5>
+            <FogColor>-16777186</FogColor>
+            <FogDistance>992</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-12834746</C1>
+            <C2>4802889</C2>
+            <C3>-11526596</C3>
+            <C4>12040119</C4>
+            <C5>-11521386</C5>
+            <FogColor>-12178643</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-11838876</C1>
+            <C2>4802889</C2>
+            <C3>-13107216</C3>
+            <C4>12040119</C4>
+            <C5>-16083266</C5>
+            <FogColor>-15443346</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-12834736</C1>
+            <C2>4802889</C2>
+            <C3>-12825706</C3>
+            <C4>12040119</C4>
+            <C5>-12830826</C5>
+            <FogColor>-13492706</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-16766896</C1>
+            <C2>4802889</C2>
+            <C3>-15453621</C3>
+            <C4>12040119</C4>
+            <C5>-13474666</C5>
+            <FogColor>-16774636</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+        </Environments>
+        <Waterboxes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="3" />
+        <PolyTypes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="4" />
+        <ExitList xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="5" />
+        <ExitListV2 xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="6" />
+        <Pathways>
+          <Capacity>0</Capacity>
+        </Pathways>
+        <Cutscene>
+          <Capacity>0</Capacity>
+        </Cutscene>
+        <Cameras xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="7" />
+        <SceneHeaders>
+          <Capacity>0</Capacity>
+        </SceneHeaders>
+        <AdditionalTextures xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="8" />
+        <TextureAnims xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="9" />
+        <ActorCutscenes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="10" />
+        <Rooms>
+          <Capacity>1</Capacity>
+          <ZScene-ZRoom>
+            <ModelFilename>D:\GIT\HeroOfLaw\Scenes\Lobby\Export\untitled.obj</ModelFilename>
+            <StartTime>3072</StartTime>
+            <TimeSpeed>0</TimeSpeed>
+            <DisableSkybox>true</DisableSkybox>
+            <DisableSunMoon>true</DisableSunMoon>
+            <WindWest>15</WindWest>
+            <WindVertical>40</WindVertical>
+            <WindSouth>109</WindSouth>
+            <WindStrength>190</WindStrength>
+            <Restriction>0</Restriction>
+            <IdleAnim>0</IdleAnim>
+            <ShowInvisibleActors>false</ShowInvisibleActors>
+            <DisableWarpSongs>false</DisableWarpSongs>
+            <Echo>0</Echo>
+            <AffectedByPointLight>false</AffectedByPointLight>
+            <AdditionalLights>
+              <Capacity>0</Capacity>
+            </AdditionalLights>
+            <InjectOffset>47185920</InjectOffset>
+            <ZObjects>
+              <Capacity>0</Capacity>
+            </ZObjects>
+            <ZActors>
+              <Capacity>4</Capacity>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-53</XPos>
+                <YPos>0</YPos>
+                <ZPos>95</ZPos>
+                <XRot>1</XRot>
+                <YRot>6720</YRot>
+                <ZRot>10</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>0</FrontCamera>
+                <BackSwitchTo>0</BackSwitchTo>
+                <BackCamera>0</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-191</XPos>
+                <YPos>0</YPos>
+                <ZPos>-79</ZPos>
+                <XRot>0</XRot>
+                <YRot>15840</YRot>
+                <ZRot>16</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>255</FrontCamera>
+                <BackSwitchTo>1</BackSwitchTo>
+                <BackCamera>255</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-189</XPos>
+                <YPos>0</YPos>
+                <ZPos>42</ZPos>
+                <XRot>1</XRot>
+                <YRot>16320</YRot>
+                <ZRot>15</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>255</FrontCamera>
+                <BackSwitchTo>1</BackSwitchTo>
+                <BackCamera>255</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-53</XPos>
+                <YPos>0</YPos>
+                <ZPos>95</ZPos>
+                <XRot>1</XRot>
+                <YRot>6720</YRot>
+                <ZRot>14</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>255</FrontCamera>
+                <BackSwitchTo>1</BackSwitchTo>
+                <BackCamera>255</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+            </ZActors>
+            <GroupSettings xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="11" />
+            <OriginalMeshHeaderOffset>0</OriginalMeshHeaderOffset>
+            <ModelShortFilename>untitled</ModelShortFilename>
+          </ZScene-ZRoom>
+        </Rooms>
+      </Scene>
+    </ZSceneHeader>
+    <ZSceneHeader>
+      <SameAsPrevious>true</SameAsPrevious>
+      <CloneFromHeader>1</CloneFromHeader>
+      <Scene cloneid="5">
+        <Name>Lobby</Name>
+        <Scale>1</Scale>
+        <Music>0</Music>
+        <NightSFX>25</NightSFX>
+        <Skybox>0</Skybox>
+        <Weather>0</Weather>
+        <SpecialObject>3</SpecialObject>
+        <ElfMessage>0</ElfMessage>
+        <InjectOffset>49618944</InjectOffset>
+        <SceneNumber>53</SceneNumber>
+        <Reverb>0</Reverb>
+        <CameraMovement>0</CameraMovement>
+        <WorldMap>0</WorldMap>
+        <SceneSettings>0</SceneSettings>
+        <OutdoorLight>true</OutdoorLight>
+        <FixedCameraXPos>0</FixedCameraXPos>
+        <FixedCameraYPos>0</FixedCameraYPos>
+        <FixedCameraZPos>0</FixedCameraZPos>
+        <FixedCameraXRot>0</FixedCameraXRot>
+        <FixedCameraYRot>0</FixedCameraYRot>
+        <FixedCameraZRot>0</FixedCameraZRot>
+        <TimeCtrl>0</TimeCtrl>
+        <SkyboxType>0</SkyboxType>
+        <Cloudy>false</Cloudy>
+        <ContinualInject>true</ContinualInject>
+        <NewRoomMode>false</NewRoomMode>
+        <Prerendered>false</Prerendered>
+        <PregeneratedMesh>false</PregeneratedMesh>
+        <JFIFpath></JFIFpath>
+        <CutsceneEntrance>0</CutsceneEntrance>
+        <CutsceneEntranceNum>0</CutsceneEntranceNum>
+        <CutsceneFlag>0</CutsceneFlag>
+        <CutsceneTableRow>-1</CutsceneTableRow>
+        <version>4864</version>
+        <SegmentFunctions>
+          <Capacity>4</Capacity>
+          <ZSegmentFunction>
+            <Functions>
+              <Capacity>0</Capacity>
+            </Functions>
+          </ZSegmentFunction>
+        </SegmentFunctions>
+        <prerenderimages xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="1" />
+        <inherittextureanims>true</inherittextureanims>
+        <RestrictionFlags>0</RestrictionFlags>
+        <TitleCard></TitleCard>
+        <CollisionFilename>D:\GIT\HeroOfLaw\Scenes\Lobby\..\Courtroom\Scene\Collision\Untitled.obj</CollisionFilename>
+        <ZObjects xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="2" />
+        <Transitions>
+          <Capacity>0</Capacity>
+        </Transitions>
+        <SpawnPoints>
+          <Capacity>1</Capacity>
+          <ZActor>
+            <Number>0</Number>
+            <XPos>-375</XPos>
+            <YPos>60</YPos>
+            <ZPos>578</ZPos>
+            <XRot>0</XRot>
+            <YRot>-1440</YRot>
+            <ZRot>0</ZRot>
+            <Variable>3840</Variable>
+            <FrontSwitchTo>0</FrontSwitchTo>
+            <FrontCamera>255</FrontCamera>
+            <BackSwitchTo>1</BackSwitchTo>
+            <BackCamera>255</BackCamera>
+            <SpawnRoom>255</SpawnRoom>
+            <IgnoreMMRot>
+              <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+              <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+            </IgnoreMMRot>
+          </ZActor>
+        </SpawnPoints>
+        <Environments>
+          <Capacity>8</Capacity>
+          <ZEnvironment>
+            <C1>-12178119</C1>
+            <C2>4802889</C2>
+            <C3>-4941174</C3>
+            <C4>12040119</C4>
+            <C5>-15461316</C5>
+            <FogColor>-7571346</FogColor>
+            <FogDistance>993</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-9872806</C1>
+            <C2>4802889</C2>
+            <C3>-16</C3>
+            <C4>12040119</C4>
+            <C5>-13487526</C5>
+            <FogColor>-10197896</FogColor>
+            <FogDistance>996</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-8889856</C1>
+            <C2>4802889</C2>
+            <C3>-358606</C3>
+            <C4>12040119</C4>
+            <C5>-14803396</C5>
+            <FogColor>-8894926</FogColor>
+            <FogDistance>995</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-14137756</C1>
+            <C2>4802889</C2>
+            <C3>-15461341</C3>
+            <C4>12040119</C4>
+            <C5>-13487516</C5>
+            <FogColor>-16777186</FogColor>
+            <FogDistance>992</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>1</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-12834746</C1>
+            <C2>4802889</C2>
+            <C3>-11526596</C3>
+            <C4>12040119</C4>
+            <C5>-11521386</C5>
+            <FogColor>-12178643</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-11838876</C1>
+            <C2>4802889</C2>
+            <C3>-13107216</C3>
+            <C4>12040119</C4>
+            <C5>-16083266</C5>
+            <FogColor>-15443346</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-12834736</C1>
+            <C2>4802889</C2>
+            <C3>-12825706</C3>
+            <C4>12040119</C4>
+            <C5>-12830826</C5>
+            <FogColor>-13492706</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+          <ZEnvironment>
+            <C1>-16766896</C1>
+            <C2>4802889</C2>
+            <C3>-15453621</C3>
+            <C4>12040119</C4>
+            <C5>-13474666</C5>
+            <FogColor>-16774636</FogColor>
+            <FogDistance>978</FogDistance>
+            <DrawDistance>12800</DrawDistance>
+            <FogUnknown>63</FogUnknown>
+          </ZEnvironment>
+        </Environments>
+        <Waterboxes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="3" />
+        <PolyTypes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="4" />
+        <ExitList xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="5" />
+        <ExitListV2 xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="6" />
+        <Pathways>
+          <Capacity>0</Capacity>
+        </Pathways>
+        <Cutscene>
+          <Capacity>0</Capacity>
+        </Cutscene>
+        <Cameras xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="7" />
+        <SceneHeaders>
+          <Capacity>0</Capacity>
+        </SceneHeaders>
+        <AdditionalTextures xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="8" />
+        <TextureAnims xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="9" />
+        <ActorCutscenes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="10" />
+        <Rooms>
+          <Capacity>1</Capacity>
+          <ZScene-ZRoom>
+            <ModelFilename>D:\GIT\HeroOfLaw\Scenes\Lobby\Export\untitled.obj</ModelFilename>
+            <StartTime>3072</StartTime>
+            <TimeSpeed>0</TimeSpeed>
+            <DisableSkybox>true</DisableSkybox>
+            <DisableSunMoon>true</DisableSunMoon>
+            <WindWest>15</WindWest>
+            <WindVertical>40</WindVertical>
+            <WindSouth>109</WindSouth>
+            <WindStrength>190</WindStrength>
+            <Restriction>0</Restriction>
+            <IdleAnim>0</IdleAnim>
+            <ShowInvisibleActors>false</ShowInvisibleActors>
+            <DisableWarpSongs>false</DisableWarpSongs>
+            <Echo>0</Echo>
+            <AffectedByPointLight>false</AffectedByPointLight>
+            <AdditionalLights>
+              <Capacity>0</Capacity>
+            </AdditionalLights>
+            <InjectOffset>47185920</InjectOffset>
+            <ZObjects>
+              <Capacity>0</Capacity>
+            </ZObjects>
+            <ZActors>
+              <Capacity>4</Capacity>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-53</XPos>
+                <YPos>0</YPos>
+                <ZPos>95</ZPos>
+                <XRot>1</XRot>
+                <YRot>6720</YRot>
+                <ZRot>10</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>0</FrontCamera>
+                <BackSwitchTo>0</BackSwitchTo>
+                <BackCamera>0</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-191</XPos>
+                <YPos>0</YPos>
+                <ZPos>-79</ZPos>
+                <XRot>0</XRot>
+                <YRot>15840</YRot>
+                <ZRot>16</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>255</FrontCamera>
+                <BackSwitchTo>1</BackSwitchTo>
+                <BackCamera>255</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-189</XPos>
+                <YPos>0</YPos>
+                <ZPos>42</ZPos>
+                <XRot>1</XRot>
+                <YRot>16320</YRot>
+                <ZRot>15</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>255</FrontCamera>
+                <BackSwitchTo>1</BackSwitchTo>
+                <BackCamera>255</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+              <ZActor>
+                <Number>3</Number>
+                <XPos>-53</XPos>
+                <YPos>0</YPos>
+                <ZPos>95</ZPos>
+                <XRot>1</XRot>
+                <YRot>6720</YRot>
+                <ZRot>14</ZRot>
+                <Variable>120</Variable>
+                <FrontSwitchTo>0</FrontSwitchTo>
+                <FrontCamera>255</FrontCamera>
+                <BackSwitchTo>1</BackSwitchTo>
+                <BackCamera>255</BackCamera>
+                <SpawnRoom>255</SpawnRoom>
+                <IgnoreMMRot>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                  <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+                </IgnoreMMRot>
+              </ZActor>
+            </ZActors>
+            <GroupSettings xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="11" />
+            <OriginalMeshHeaderOffset>0</OriginalMeshHeaderOffset>
+            <ModelShortFilename>untitled</ModelShortFilename>
+          </ZScene-ZRoom>
+        </Rooms>
+      </Scene>
+    </ZSceneHeader>
+  </SceneHeaders>
+  <AdditionalTextures xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="8" />
+  <TextureAnims xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="9" />
+  <ActorCutscenes xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="10" />
+  <Rooms>
+    <Capacity>4</Capacity>
+    <ZScene-ZRoom>
+      <ModelFilename>Export\untitled.obj</ModelFilename>
+      <StartTime>3072</StartTime>
+      <TimeSpeed>0</TimeSpeed>
+      <DisableSkybox>true</DisableSkybox>
+      <DisableSunMoon>true</DisableSunMoon>
+      <WindWest>15</WindWest>
+      <WindVertical>40</WindVertical>
+      <WindSouth>109</WindSouth>
+      <WindStrength>190</WindStrength>
+      <Restriction>0</Restriction>
+      <IdleAnim>0</IdleAnim>
+      <ShowInvisibleActors>false</ShowInvisibleActors>
+      <DisableWarpSongs>false</DisableWarpSongs>
+      <Echo>0</Echo>
+      <AffectedByPointLight>false</AffectedByPointLight>
+      <AdditionalLights>
+        <Capacity>4</Capacity>
+        <ZAdditionalLight>
+          <XPos>-20</XPos>
+          <YPos>53</YPos>
+          <ZPos>202</ZPos>
+          <PointLight>true</PointLight>
+          <NSdirection>0</NSdirection>
+          <EWdirection>0</EWdirection>
+          <Radius>1</Radius>
+          <Color>-4347489</Color>
+        </ZAdditionalLight>
+      </AdditionalLights>
+      <InjectOffset>47185920</InjectOffset>
+      <ZObjects>
+        <Capacity>4</Capacity>
+      </ZObjects>
+      <ZActors>
+        <Capacity>4</Capacity>
+        <ZActor>
+          <Number>3</Number>
+          <XPos>-53</XPos>
+          <YPos>0</YPos>
+          <ZPos>95</ZPos>
+          <XRot>1</XRot>
+          <YRot>6720</YRot>
+          <ZRot>10</ZRot>
+          <Variable>120</Variable>
+          <FrontSwitchTo>0</FrontSwitchTo>
+          <FrontCamera>0</FrontCamera>
+          <BackSwitchTo>0</BackSwitchTo>
+          <BackCamera>0</BackCamera>
+          <SpawnRoom>255</SpawnRoom>
+          <IgnoreMMRot>
+            <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+            <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+            <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+          </IgnoreMMRot>
+        </ZActor>
+        <ZActor>
+          <Number>3</Number>
+          <XPos>-191</XPos>
+          <YPos>1</YPos>
+          <ZPos>-79</ZPos>
+          <XRot>1</XRot>
+          <YRot>15840</YRot>
+          <ZRot>15</ZRot>
+          <Variable>120</Variable>
+          <FrontSwitchTo>0</FrontSwitchTo>
+          <FrontCamera>255</FrontCamera>
+          <BackSwitchTo>1</BackSwitchTo>
+          <BackCamera>255</BackCamera>
+          <SpawnRoom>255</SpawnRoom>
+          <IgnoreMMRot>
+            <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+            <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+            <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+          </IgnoreMMRot>
+        </ZActor>
+        <ZActor>
+          <Number>3</Number>
+          <XPos>-189</XPos>
+          <YPos>1</YPos>
+          <ZPos>42</ZPos>
+          <XRot>0</XRot>
+          <YRot>16320</YRot>
+          <ZRot>15</ZRot>
+          <Variable>120</Variable>
+          <FrontSwitchTo>0</FrontSwitchTo>
+          <FrontCamera>255</FrontCamera>
+          <BackSwitchTo>1</BackSwitchTo>
+          <BackCamera>255</BackCamera>
+          <SpawnRoom>255</SpawnRoom>
+          <IgnoreMMRot>
+            <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+            <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+            <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+          </IgnoreMMRot>
+        </ZActor>
+        <ZActor>
+          <Number>3</Number>
+          <XPos>-53</XPos>
+          <YPos>0</YPos>
+          <ZPos>95</ZPos>
+          <XRot>1</XRot>
+          <YRot>6720</YRot>
+          <ZRot>14</ZRot>
+          <Variable>120</Variable>
+          <FrontSwitchTo>0</FrontSwitchTo>
+          <FrontCamera>255</FrontCamera>
+          <BackSwitchTo>1</BackSwitchTo>
+          <BackCamera>255</BackCamera>
+          <SpawnRoom>255</SpawnRoom>
+          <IgnoreMMRot>
+            <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+            <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+            <boolean xmlns="https://extendedxmlserializer.github.io/system">false</boolean>
+          </IgnoreMMRot>
+        </ZActor>
+      </ZActors>
+      <GroupSettings xmlns:exs="https://extendedxmlserializer.github.io/v2" exs:reference="11" />
+      <OriginalMeshHeaderOffset>0</OriginalMeshHeaderOffset>
+      <ModelShortFilename>untitled</ModelShortFilename>
+    </ZScene-ZRoom>
+  </Rooms>
+</ZScene>

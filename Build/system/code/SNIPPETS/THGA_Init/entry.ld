@@ -1,0 +1,2 @@
+ENTRY_POINT = 0x800A1130;
+gGfxPools = 0x8016A640;

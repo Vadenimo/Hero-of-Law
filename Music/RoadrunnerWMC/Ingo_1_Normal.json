@@ -1,0 +1,17 @@
+{
+    "daw": "musescore",
+    "loop_start": 9.0,
+    "volume_scale": 0.75,
+    "ingo_whistle_hack": true,
+    "tracks": [
+        {"name": "whistle"},
+        {"name": "harmonica 1"},
+        {"name": "harmonica 2"},
+        {"name": "harmonica 3"},
+        {"name": "banjo"},
+        {"name": "guitar"},
+        {"name": "cowbell", "volume_scale": 1.1},
+        {"name": "clap 1"},
+        {"name": "clap 2"}
+    ]
+}

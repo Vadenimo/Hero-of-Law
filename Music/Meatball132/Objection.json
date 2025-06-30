@@ -1,0 +1,23 @@
+{
+    "daw": "fl_studio",
+    "time_signatures": {
+        "1": "1/4",
+        "2": "4/4"
+    },
+    "loop_start": 2.0,
+    "volume_scale": 0.9,
+    "tracks": [
+        {"name": "Strings"},
+        {"name": "Oboe"},
+        {"name": "Trumpet"},
+        {"name": "Jazz Guitar"},
+        {"name": "Clap"},
+        {"name": "Orchestra Kit", "force_instrument_id": 69},
+        {"name": "Orchestra Kit (Timpani)", "force_instrument_id": 69},
+        {"name": "Drum", "force_instrument_id": 69},
+        {"name": "Harpsichord"},
+        {"name": "Ocarina"},
+        {"name": "Trumpet 2"},
+        {"name": "Flute"}
+    ]
+}

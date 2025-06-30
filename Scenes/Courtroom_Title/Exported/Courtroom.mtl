@@ -1,0 +1,77 @@
+# Blender MTL File: 'Courtroom_Sharpocarina_Warm_3.0.1.blend'
+# Material Count: 25
+
+newmtl AudienceWall_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\AudienceWall.png
+
+newmtl Audience_Floor_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\Audience Floor.png
+
+newmtl Door_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\Door.png
+
+newmtl Edge_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\Edge.png
+
+newmtl Flag1_png_001
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\Flag1.png.001.png
+
+newmtl Flag2_png_001
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\Flag2.png.001.png
+
+newmtl Floortile_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\Floortile.png
+
+newmtl Judge_Back_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\Judge Back.png
+
+newmtl Judge_Top_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\Judge Top.png
+
+newmtl Prosecution_Bench_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\Prosecution Bench.png
+
+newmtl Prosecution_Top_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\Prosecution Top.png
+
+newmtl Railing_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\Railing.png
+
+newmtl ST-0x270F8_16x128_CI8_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\ST-0x270F8_16x128_CI8.png
+
+newmtl ST-0x53048_32x32_RGBA16_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\ST-0x53048_32x32_RGBA16.png
+
+newmtl Stairs_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\Stairs.png
+
+newmtl TriforceMat
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\metalsm64.png
+
+newmtl Wall_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\Wall.png
+
+newmtl _0009B90_32x64_rgba16_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\00009B90_32x64_rgba16.png
+
+newmtl _000A320_64x32_rgba16_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\0000A320_64x32_rgba16.png
+
+newmtl _000BD90_64x32_rgba16_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\0000BD90_64x32_rgba16.png
+
+newmtl _0012EB8_32x128_i4_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\00012EB8_32x128_i4.png
+
+newmtl _5_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\_5.png
+
+newmtl _7_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\_7.png
+
+newmtl _auto_14_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\_auto_14.png
+
+newmtl ceiling_png
+map_Kd D:\\GIT\\HeroOfLaw\\Scenes\\Courtroom_Title\\textures\\ceiling.png

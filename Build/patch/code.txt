@@ -1,0 +1,69 @@
+# Disable cutscene bars by default
+0x25E44,0000202000002020
+0x4142B,00
+0x41497,00
+0x45B37,00
+0x45B3F,00
+
+# Change PlayState allocation size 
+0x89708,3C05005D
+
+# Always return true from FrameAdvance (so it's always disabled)
+0x6814C,240200010000102503E000080000000000000000 
+
+# Do not clear pads 2 and 4 
+0x91594,0000000024050006260402A200000000
+
+# Disable loading MAP_GRAND_STATIC and ICON_I_STATIC (8006BF04)
+0x5AE64,03E000080000000000000000
+
+# Disable N64DD OVL load (800AD410)
+0x9C370,03E000080000000000000000
+
+# Fade to actual white instead of gray
+0x8A1BA,FFFF34A5FF
+
+# Adjust "wooden" messagebox colors
+0xCBC9C,240C0000240D004B240E006E
+
+# Disable Player
+0xEB4A0,800177D0800177D0800177D0800177D0
+
+# New font widths
+0x101EA0,"assets//font.width_table"
+
+# Move graphics THGA Graphics Checks to account for increased PolyOpa space
+0x90708,3C1900030322C8219739E408
+0x906C4,3C0E000235CEE41001CD001800007012000000000000000000000000
+
+# Increase audioheap size and pools
+0xF9114,0003BF00000120E00000FCE0
+
+# Increase pool settings
+0xF36FC,00008000
+0xF3734,00007800
+0xF376C,00007800
+0xF37A4,00007800
+0xF37DC,00007800
+0xF3814,00007800
+0xF384C,00007800
+0xF3884,00007800
+0xF38BC,00007800
+0xF38F4,00007800
+0xF392C,00006800
+0xF3964,00008000
+0xF399C,00008000
+0xF39D4,00007800
+0xF3A0C,00007800
+0xF3A44,00007800
+0xF3A7C,00007800
+0xF3AB4,00007600
+
+# Remove NA_SE_SY_DECIDE sfx when closing textboxes
+0xD0260,24040000
+
+# Adjust Y position of text in three-line textboxes (original: 0010)
+0xCA582,000E
+
+# Increase priority of NA_SE_EV_EARTHQUAKE to max, so it doesn't get cut out during breakdown cutscene
+0xF2DDC,FF

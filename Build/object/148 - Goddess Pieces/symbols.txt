@@ -1,0 +1,1142 @@
+mips64-objdump --syms Build.elf
+
+Build.elf:     file format elf32-bigmips
+
+SYMBOL TABLE:
+06000000 l    d  .text	00000000 .text
+06000000 l    d  .data	00000000 .data
+0600aa80 l    d  .rodata	00000000 .rodata
+0600aa80 l    d  .MIPS.abiflags	00000000 .MIPS.abiflags
+0600aa98 l    d  .bss	00000000 .bss
+00000000 l    d  .reginfo	00000000 .reginfo
+00000000 l    d  .pdr	00000000 .pdr
+00000000 l    d  .mdebug.abi32	00000000 .mdebug.abi32
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .gnu.attributes	00000000 .gnu.attributes
+00000000 l    df *ABS*	00000000 Build.c
+06003428 g     O .data	00000070 mat_Head_GoddessFast64_layerOpaque
+060046b8 g     O .data	00000400 Head_eff_unknown_10_i8_i8
+06006b60 g     O .data	00000080 Feet_Feet_mesh_layer_Opaque_vtx_cull
+06000e78 g     O .data	00000038 Torso
+06004af0 g     O .data	00000070 mat_Hand_Left_GoddessFast64_layerOpaque
+06008bb8 g     O .data	00000070 mat_Arm_RightLower_GoddessFast64_layerOpaque
+06006510 g     O .data	00000650 Feet_Feet_mesh_layer_Opaque_vtx_0
+06006be0 g     O .data	00000400 Feet_eff_unknown_10_i8_i8
+06005e40 g     O .data	00000020 Hair_Lower_Hair_Lower_mesh_layer_Opaque_tri_0
+0600aa78 g       .data	00000000 _gp
+06000000 g       .text	00000000 __text_start
+06005030 g     O .data	00000400 Hand_Left_eff_unknown_10_i8_i8
+06001c78 g     O .data	00000038 Legs_Upper
+060000a8 g     O .data	00000100 Waist_Waist_mesh_layer_Opaque_tri_0
+060009f8 g     O .data	00000080 Waist_Waist_mesh_layer_Opaque_vtx_cull
+06009cc0 g     O .data	00000080 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_cull
+0600aa80 g       .rodata	00000000 __rodata_end
+06003498 g     O .data	000001c0 Head_Head_mesh_layer_Opaque_tri_0
+06006448 g     O .data	000000c8 Feet_Feet_mesh_layer_Opaque_tri_0
+06001cb0 g     O .data	00000070 mat_Legs_Upper_GoddessFast64_layerOpaque
+06000eb0 g     O .data	00000070 mat_Torso_GoddessFast64_layerOpaque
+06007ef8 g     O .data	00000038 Arm_RightUpper
+060054d8 g     O .data	00000070 Hand_Right_Hand_Right_mesh_layer_Opaque_tri_0
+06000000 g     O .data	00000038 Waist
+060094a8 g     O .data	00000038 Arm_LeftUpper
+06008c28 g     O .data	00000070 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_tri_0
+060017f8 g     O .data	00000080 Torso_Torso_mesh_layer_Opaque_vtx_cull
+06000f20 g     O .data	000000e8 Torso_Torso_mesh_layer_Opaque_tri_0
+06005d98 g     O .data	00000038 Hair_Lower
+06002ff0 g     O .data	00000400 Legs_Lower_eff_unknown_10_i8_i8
+06002780 g     O .data	00000070 mat_Legs_Lower_GoddessFast64_layerOpaque
+0600aa98 g       .bss	00000000 __bss_end
+06009550 g     O .data	000000c0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_tri_0
+06007af8 g     O .data	00000400 Chest_eff_unknown_10_i8_i8
+06008700 g     O .data	00000080 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_cull
+06008c98 g     O .data	00000390 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_0
+06003658 g     O .data	00000fe0 Head_Head_mesh_layer_Opaque_vtx_0
+0600a678 g     O .data	00000400 Arm_LeftLower_eff_unknown_10_i8_i8
+06008780 g     O .data	00000400 Arm_RightUpper_eff_unknown_10_i8_i8
+0600aa98 g       .bss	00000000 end
+06008060 g     O .data	000006a0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_0
+06001878 g     O .data	00000400 Torso_eff_unknown_10_i8_i8
+0600aa80 g       .rodata	00000000 __rodata_start
+06001d20 g     O .data	00000098 Legs_Upper_Legs_Upper_mesh_layer_Opaque_tri_0
+0600aa80 g       .data	00000000 __data_end
+06005e60 g     O .data	000000c0 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_0
+06004b60 g     O .data	00000070 Hand_Left_Hand_Left_mesh_layer_Opaque_tri_0
+06007088 g     O .data	00000100 Chest_Chest_mesh_layer_Opaque_tri_0
+06005dd0 g     O .data	00000070 mat_Hair_Lower_GoddessFast64_layerOpaque
+060063a0 g     O .data	00000038 Feet
+06007a78 g     O .data	00000080 Chest_Chest_mesh_layer_Opaque_vtx_cull
+06004fb0 g     O .data	00000080 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_cull
+06006fe0 g     O .data	00000038 Chest
+06000000 g       .text	00000000 __text_end
+06000038 g     O .data	00000070 mat_Waist_GoddessFast64_layerOpaque
+060001a8 g     O .data	00000850 Waist_Waist_mesh_layer_Opaque_vtx_0
+06005430 g     O .data	00000038 Hand_Right
+0600aa98 g       .bss	00000000 __bss_start
+06001db8 g     O .data	00000510 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_0
+06005998 g     O .data	00000400 Hand_Right_eff_unknown_10_i8_i8
+06007f30 g     O .data	00000070 mat_Arm_RightUpper_GoddessFast64_layerOpaque
+060063d8 g     O .data	00000070 mat_Feet_GoddessFast64_layerOpaque
+06005468 g     O .data	00000070 mat_Hand_Right_GoddessFast64_layerOpaque
+06009610 g     O .data	000006b0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_0
+06008b80 g     O .data	00000038 Arm_RightLower
+06007018 g     O .data	00000070 mat_Chest_GoddessFast64_layerOpaque
+06002348 g     O .data	00000400 Legs_Upper_eff_unknown_10_i8_i8
+060033f0 g     O .data	00000038 Head
+06009028 g     O .data	00000080 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_cull
+06009d40 g     O .data	00000400 Arm_LeftUpper_eff_unknown_10_i8_i8
+06004bd0 g     O .data	000003e0 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_0
+06004638 g     O .data	00000080 Head_Head_mesh_layer_Opaque_vtx_cull
+06000a78 g     O .data	00000400 Waist_eff_unknown_10_i8_i8
+06002748 g     O .data	00000038 Legs_Lower
+060094e0 g     O .data	00000070 mat_Arm_LeftUpper_GoddessFast64_layerOpaque
+060090a8 g     O .data	00000400 Arm_RightLower_eff_unknown_10_i8_i8
+06005548 g     O .data	000003d0 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_0
+06007fa0 g     O .data	000000c0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_tri_0
+060028c0 g     O .data	000006b0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_0
+060022c8 g     O .data	00000080 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_cull
+06005918 g     O .data	00000080 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_cull
+06002f70 g     O .data	00000080 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_cull
+0600a1e8 g     O .data	00000070 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_tri_0
+0600a178 g     O .data	00000070 mat_Arm_LeftLower_GoddessFast64_layerOpaque
+06005fa0 g     O .data	00000400 Hair_Lower_eff_unknown_10_i8_i8
+060027f0 g     O .data	000000d0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_tri_0
+0600a5f8 g     O .data	00000080 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_cull
+06005f20 g     O .data	00000080 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_cull
+0600a258 g     O .data	000003a0 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_0
+06007188 g     O .data	000008f0 Chest_Chest_mesh_layer_Opaque_vtx_0
+06001008 g     O .data	000007f0 Torso_Torso_mesh_layer_Opaque_vtx_0
+06000000 g       .data	00000000 __data_start
+0600a140 g     O .data	00000038 Arm_LeftLower
+06004ab8 g     O .data	00000038 Hand_Left
+06000000 g       *ABS*	00000000 ENTRY_POINT
+
+
+
+Build.elf:     file format elf32-bigmips
+
+SYMBOL TABLE:
+06000000 l    d  .text	00000000 .text
+06000000 l    d  .data	00000000 .data
+0600aa80 l    d  .rodata	00000000 .rodata
+0600aa80 l    d  .MIPS.abiflags	00000000 .MIPS.abiflags
+0600aa98 l    d  .bss	00000000 .bss
+00000000 l    d  .reginfo	00000000 .reginfo
+00000000 l    d  .pdr	00000000 .pdr
+00000000 l    d  .mdebug.abi32	00000000 .mdebug.abi32
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .gnu.attributes	00000000 .gnu.attributes
+00000000 l    df *ABS*	00000000 Build.c
+06003428 g     O .data	00000070 mat_Head_GoddessFast64_layerOpaque
+060046b8 g     O .data	00000400 Head_eff_unknown_10_i8_i8
+06006b60 g     O .data	00000080 Feet_Feet_mesh_layer_Opaque_vtx_cull
+06000e78 g     O .data	00000038 Torso
+06004af0 g     O .data	00000070 mat_Hand_Left_GoddessFast64_layerOpaque
+06008bb8 g     O .data	00000070 mat_Arm_RightLower_GoddessFast64_layerOpaque
+06006510 g     O .data	00000650 Feet_Feet_mesh_layer_Opaque_vtx_0
+06006be0 g     O .data	00000400 Feet_eff_unknown_10_i8_i8
+06005e40 g     O .data	00000020 Hair_Lower_Hair_Lower_mesh_layer_Opaque_tri_0
+0600aa78 g       .data	00000000 _gp
+06000000 g       .text	00000000 __text_start
+06005030 g     O .data	00000400 Hand_Left_eff_unknown_10_i8_i8
+06001c78 g     O .data	00000038 Legs_Upper
+060000a8 g     O .data	00000100 Waist_Waist_mesh_layer_Opaque_tri_0
+060009f8 g     O .data	00000080 Waist_Waist_mesh_layer_Opaque_vtx_cull
+06009cc0 g     O .data	00000080 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_cull
+0600aa80 g       .rodata	00000000 __rodata_end
+06003498 g     O .data	000001c0 Head_Head_mesh_layer_Opaque_tri_0
+06006448 g     O .data	000000c8 Feet_Feet_mesh_layer_Opaque_tri_0
+06001cb0 g     O .data	00000070 mat_Legs_Upper_GoddessFast64_layerOpaque
+06000eb0 g     O .data	00000070 mat_Torso_GoddessFast64_layerOpaque
+06007ef8 g     O .data	00000038 Arm_RightUpper
+060054d8 g     O .data	00000070 Hand_Right_Hand_Right_mesh_layer_Opaque_tri_0
+06000000 g     O .data	00000038 Waist
+060094a8 g     O .data	00000038 Arm_LeftUpper
+06008c28 g     O .data	00000070 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_tri_0
+060017f8 g     O .data	00000080 Torso_Torso_mesh_layer_Opaque_vtx_cull
+06000f20 g     O .data	000000e8 Torso_Torso_mesh_layer_Opaque_tri_0
+06005d98 g     O .data	00000038 Hair_Lower
+06002ff0 g     O .data	00000400 Legs_Lower_eff_unknown_10_i8_i8
+06002780 g     O .data	00000070 mat_Legs_Lower_GoddessFast64_layerOpaque
+0600aa98 g       .bss	00000000 __bss_end
+06009550 g     O .data	000000c0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_tri_0
+06007af8 g     O .data	00000400 Chest_eff_unknown_10_i8_i8
+06008700 g     O .data	00000080 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_cull
+06008c98 g     O .data	00000390 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_0
+06003658 g     O .data	00000fe0 Head_Head_mesh_layer_Opaque_vtx_0
+0600a678 g     O .data	00000400 Arm_LeftLower_eff_unknown_10_i8_i8
+06008780 g     O .data	00000400 Arm_RightUpper_eff_unknown_10_i8_i8
+0600aa98 g       .bss	00000000 end
+06008060 g     O .data	000006a0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_0
+06001878 g     O .data	00000400 Torso_eff_unknown_10_i8_i8
+0600aa80 g       .rodata	00000000 __rodata_start
+06001d20 g     O .data	00000098 Legs_Upper_Legs_Upper_mesh_layer_Opaque_tri_0
+0600aa80 g       .data	00000000 __data_end
+06005e60 g     O .data	000000c0 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_0
+06004b60 g     O .data	00000070 Hand_Left_Hand_Left_mesh_layer_Opaque_tri_0
+06007088 g     O .data	00000100 Chest_Chest_mesh_layer_Opaque_tri_0
+06005dd0 g     O .data	00000070 mat_Hair_Lower_GoddessFast64_layerOpaque
+060063a0 g     O .data	00000038 Feet
+06007a78 g     O .data	00000080 Chest_Chest_mesh_layer_Opaque_vtx_cull
+06004fb0 g     O .data	00000080 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_cull
+06006fe0 g     O .data	00000038 Chest
+06000000 g       .text	00000000 __text_end
+06000038 g     O .data	00000070 mat_Waist_GoddessFast64_layerOpaque
+060001a8 g     O .data	00000850 Waist_Waist_mesh_layer_Opaque_vtx_0
+06005430 g     O .data	00000038 Hand_Right
+0600aa98 g       .bss	00000000 __bss_start
+06001db8 g     O .data	00000510 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_0
+06005998 g     O .data	00000400 Hand_Right_eff_unknown_10_i8_i8
+06007f30 g     O .data	00000070 mat_Arm_RightUpper_GoddessFast64_layerOpaque
+060063d8 g     O .data	00000070 mat_Feet_GoddessFast64_layerOpaque
+06005468 g     O .data	00000070 mat_Hand_Right_GoddessFast64_layerOpaque
+06009610 g     O .data	000006b0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_0
+06008b80 g     O .data	00000038 Arm_RightLower
+06007018 g     O .data	00000070 mat_Chest_GoddessFast64_layerOpaque
+06002348 g     O .data	00000400 Legs_Upper_eff_unknown_10_i8_i8
+060033f0 g     O .data	00000038 Head
+06009028 g     O .data	00000080 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_cull
+06009d40 g     O .data	00000400 Arm_LeftUpper_eff_unknown_10_i8_i8
+06004bd0 g     O .data	000003e0 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_0
+06004638 g     O .data	00000080 Head_Head_mesh_layer_Opaque_vtx_cull
+06000a78 g     O .data	00000400 Waist_eff_unknown_10_i8_i8
+06002748 g     O .data	00000038 Legs_Lower
+060094e0 g     O .data	00000070 mat_Arm_LeftUpper_GoddessFast64_layerOpaque
+060090a8 g     O .data	00000400 Arm_RightLower_eff_unknown_10_i8_i8
+06005548 g     O .data	000003d0 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_0
+06007fa0 g     O .data	000000c0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_tri_0
+060028c0 g     O .data	000006b0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_0
+060022c8 g     O .data	00000080 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_cull
+06005918 g     O .data	00000080 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_cull
+06002f70 g     O .data	00000080 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_cull
+0600a1e8 g     O .data	00000070 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_tri_0
+0600a178 g     O .data	00000070 mat_Arm_LeftLower_GoddessFast64_layerOpaque
+06005fa0 g     O .data	00000400 Hair_Lower_eff_unknown_10_i8_i8
+060027f0 g     O .data	000000d0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_tri_0
+0600a5f8 g     O .data	00000080 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_cull
+06005f20 g     O .data	00000080 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_cull
+0600a258 g     O .data	000003a0 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_0
+06007188 g     O .data	000008f0 Chest_Chest_mesh_layer_Opaque_vtx_0
+06001008 g     O .data	000007f0 Torso_Torso_mesh_layer_Opaque_vtx_0
+06000000 g       .data	00000000 __data_start
+0600a140 g     O .data	00000038 Arm_LeftLower
+06004ab8 g     O .data	00000038 Hand_Left
+06000000 g       *ABS*	00000000 ENTRY_POINT
+
+
+
+Build.elf:     file format elf32-bigmips
+
+SYMBOL TABLE:
+06000000 l    d  .text	00000000 .text
+06000000 l    d  .data	00000000 .data
+0600aa80 l    d  .rodata	00000000 .rodata
+0600aa80 l    d  .MIPS.abiflags	00000000 .MIPS.abiflags
+0600aa98 l    d  .bss	00000000 .bss
+00000000 l    d  .reginfo	00000000 .reginfo
+00000000 l    d  .pdr	00000000 .pdr
+00000000 l    d  .mdebug.abi32	00000000 .mdebug.abi32
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .gnu.attributes	00000000 .gnu.attributes
+00000000 l    df *ABS*	00000000 Build.c
+06003428 g     O .data	00000070 mat_Head_GoddessFast64_layerOpaque
+060046b8 g     O .data	00000400 Head_eff_unknown_10_i8_i8
+06006b60 g     O .data	00000080 Feet_Feet_mesh_layer_Opaque_vtx_cull
+06000e78 g     O .data	00000038 Torso
+06004af0 g     O .data	00000070 mat_Hand_Left_GoddessFast64_layerOpaque
+06008bb8 g     O .data	00000070 mat_Arm_RightLower_GoddessFast64_layerOpaque
+06006510 g     O .data	00000650 Feet_Feet_mesh_layer_Opaque_vtx_0
+06006be0 g     O .data	00000400 Feet_eff_unknown_10_i8_i8
+06005e40 g     O .data	00000020 Hair_Lower_Hair_Lower_mesh_layer_Opaque_tri_0
+0600aa78 g       .data	00000000 _gp
+06000000 g       .text	00000000 __text_start
+06005030 g     O .data	00000400 Hand_Left_eff_unknown_10_i8_i8
+06001c78 g     O .data	00000038 Legs_Upper
+060000a8 g     O .data	00000100 Waist_Waist_mesh_layer_Opaque_tri_0
+060009f8 g     O .data	00000080 Waist_Waist_mesh_layer_Opaque_vtx_cull
+06009cc0 g     O .data	00000080 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_cull
+0600aa80 g       .rodata	00000000 __rodata_end
+06003498 g     O .data	000001c0 Head_Head_mesh_layer_Opaque_tri_0
+06006448 g     O .data	000000c8 Feet_Feet_mesh_layer_Opaque_tri_0
+06001cb0 g     O .data	00000070 mat_Legs_Upper_GoddessFast64_layerOpaque
+06000eb0 g     O .data	00000070 mat_Torso_GoddessFast64_layerOpaque
+06007ef8 g     O .data	00000038 Arm_RightUpper
+060054d8 g     O .data	00000070 Hand_Right_Hand_Right_mesh_layer_Opaque_tri_0
+06000000 g     O .data	00000038 Waist
+060094a8 g     O .data	00000038 Arm_LeftUpper
+06008c28 g     O .data	00000070 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_tri_0
+060017f8 g     O .data	00000080 Torso_Torso_mesh_layer_Opaque_vtx_cull
+06000f20 g     O .data	000000e8 Torso_Torso_mesh_layer_Opaque_tri_0
+06005d98 g     O .data	00000038 Hair_Lower
+06002ff0 g     O .data	00000400 Legs_Lower_eff_unknown_10_i8_i8
+06002780 g     O .data	00000070 mat_Legs_Lower_GoddessFast64_layerOpaque
+0600aa98 g       .bss	00000000 __bss_end
+06009550 g     O .data	000000c0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_tri_0
+06007af8 g     O .data	00000400 Chest_eff_unknown_10_i8_i8
+06008700 g     O .data	00000080 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_cull
+06008c98 g     O .data	00000390 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_0
+06003658 g     O .data	00000fe0 Head_Head_mesh_layer_Opaque_vtx_0
+0600a678 g     O .data	00000400 Arm_LeftLower_eff_unknown_10_i8_i8
+06008780 g     O .data	00000400 Arm_RightUpper_eff_unknown_10_i8_i8
+0600aa98 g       .bss	00000000 end
+06008060 g     O .data	000006a0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_0
+06001878 g     O .data	00000400 Torso_eff_unknown_10_i8_i8
+0600aa80 g       .rodata	00000000 __rodata_start
+06001d20 g     O .data	00000098 Legs_Upper_Legs_Upper_mesh_layer_Opaque_tri_0
+0600aa80 g       .data	00000000 __data_end
+06005e60 g     O .data	000000c0 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_0
+06004b60 g     O .data	00000070 Hand_Left_Hand_Left_mesh_layer_Opaque_tri_0
+06007088 g     O .data	00000100 Chest_Chest_mesh_layer_Opaque_tri_0
+06005dd0 g     O .data	00000070 mat_Hair_Lower_GoddessFast64_layerOpaque
+060063a0 g     O .data	00000038 Feet
+06007a78 g     O .data	00000080 Chest_Chest_mesh_layer_Opaque_vtx_cull
+06004fb0 g     O .data	00000080 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_cull
+06006fe0 g     O .data	00000038 Chest
+06000000 g       .text	00000000 __text_end
+06000038 g     O .data	00000070 mat_Waist_GoddessFast64_layerOpaque
+060001a8 g     O .data	00000850 Waist_Waist_mesh_layer_Opaque_vtx_0
+06005430 g     O .data	00000038 Hand_Right
+0600aa98 g       .bss	00000000 __bss_start
+06001db8 g     O .data	00000510 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_0
+06005998 g     O .data	00000400 Hand_Right_eff_unknown_10_i8_i8
+06007f30 g     O .data	00000070 mat_Arm_RightUpper_GoddessFast64_layerOpaque
+060063d8 g     O .data	00000070 mat_Feet_GoddessFast64_layerOpaque
+06005468 g     O .data	00000070 mat_Hand_Right_GoddessFast64_layerOpaque
+06009610 g     O .data	000006b0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_0
+06008b80 g     O .data	00000038 Arm_RightLower
+06007018 g     O .data	00000070 mat_Chest_GoddessFast64_layerOpaque
+06002348 g     O .data	00000400 Legs_Upper_eff_unknown_10_i8_i8
+060033f0 g     O .data	00000038 Head
+06009028 g     O .data	00000080 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_cull
+06009d40 g     O .data	00000400 Arm_LeftUpper_eff_unknown_10_i8_i8
+06004bd0 g     O .data	000003e0 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_0
+06004638 g     O .data	00000080 Head_Head_mesh_layer_Opaque_vtx_cull
+06000a78 g     O .data	00000400 Waist_eff_unknown_10_i8_i8
+06002748 g     O .data	00000038 Legs_Lower
+060094e0 g     O .data	00000070 mat_Arm_LeftUpper_GoddessFast64_layerOpaque
+060090a8 g     O .data	00000400 Arm_RightLower_eff_unknown_10_i8_i8
+06005548 g     O .data	000003d0 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_0
+06007fa0 g     O .data	000000c0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_tri_0
+060028c0 g     O .data	000006b0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_0
+060022c8 g     O .data	00000080 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_cull
+06005918 g     O .data	00000080 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_cull
+06002f70 g     O .data	00000080 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_cull
+0600a1e8 g     O .data	00000070 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_tri_0
+0600a178 g     O .data	00000070 mat_Arm_LeftLower_GoddessFast64_layerOpaque
+06005fa0 g     O .data	00000400 Hair_Lower_eff_unknown_10_i8_i8
+060027f0 g     O .data	000000d0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_tri_0
+0600a5f8 g     O .data	00000080 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_cull
+06005f20 g     O .data	00000080 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_cull
+0600a258 g     O .data	000003a0 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_0
+06007188 g     O .data	000008f0 Chest_Chest_mesh_layer_Opaque_vtx_0
+06001008 g     O .data	000007f0 Torso_Torso_mesh_layer_Opaque_vtx_0
+06000000 g       .data	00000000 __data_start
+0600a140 g     O .data	00000038 Arm_LeftLower
+06004ab8 g     O .data	00000038 Hand_Left
+06000000 g       *ABS*	00000000 ENTRY_POINT
+
+
+
+Build.elf:     file format elf32-bigmips
+
+SYMBOL TABLE:
+06000000 l    d  .text	00000000 .text
+06000000 l    d  .data	00000000 .data
+0600aa80 l    d  .rodata	00000000 .rodata
+0600aa80 l    d  .MIPS.abiflags	00000000 .MIPS.abiflags
+0600aa98 l    d  .bss	00000000 .bss
+00000000 l    d  .reginfo	00000000 .reginfo
+00000000 l    d  .pdr	00000000 .pdr
+00000000 l    d  .mdebug.abi32	00000000 .mdebug.abi32
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .gnu.attributes	00000000 .gnu.attributes
+00000000 l    df *ABS*	00000000 Build.c
+06003428 g     O .data	00000070 mat_Head_GoddessFast64_layerOpaque
+060046b8 g     O .data	00000400 Head_eff_unknown_10_i8_i8
+06006b60 g     O .data	00000080 Feet_Feet_mesh_layer_Opaque_vtx_cull
+06000e78 g     O .data	00000038 Torso
+06004af0 g     O .data	00000070 mat_Hand_Left_GoddessFast64_layerOpaque
+06008bb8 g     O .data	00000070 mat_Arm_RightLower_GoddessFast64_layerOpaque
+06006510 g     O .data	00000650 Feet_Feet_mesh_layer_Opaque_vtx_0
+06006be0 g     O .data	00000400 Feet_eff_unknown_10_i8_i8
+06005e40 g     O .data	00000020 Hair_Lower_Hair_Lower_mesh_layer_Opaque_tri_0
+0600aa78 g       .data	00000000 _gp
+06000000 g       .text	00000000 __text_start
+06005030 g     O .data	00000400 Hand_Left_eff_unknown_10_i8_i8
+06001c78 g     O .data	00000038 Legs_Upper
+060000a8 g     O .data	00000100 Waist_Waist_mesh_layer_Opaque_tri_0
+060009f8 g     O .data	00000080 Waist_Waist_mesh_layer_Opaque_vtx_cull
+06009cc0 g     O .data	00000080 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_cull
+0600aa80 g       .rodata	00000000 __rodata_end
+06003498 g     O .data	000001c0 Head_Head_mesh_layer_Opaque_tri_0
+06006448 g     O .data	000000c8 Feet_Feet_mesh_layer_Opaque_tri_0
+06001cb0 g     O .data	00000070 mat_Legs_Upper_GoddessFast64_layerOpaque
+06000eb0 g     O .data	00000070 mat_Torso_GoddessFast64_layerOpaque
+06007ef8 g     O .data	00000038 Arm_RightUpper
+060054d8 g     O .data	00000070 Hand_Right_Hand_Right_mesh_layer_Opaque_tri_0
+06000000 g     O .data	00000038 Waist
+060094a8 g     O .data	00000038 Arm_LeftUpper
+06008c28 g     O .data	00000070 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_tri_0
+060017f8 g     O .data	00000080 Torso_Torso_mesh_layer_Opaque_vtx_cull
+06000f20 g     O .data	000000e8 Torso_Torso_mesh_layer_Opaque_tri_0
+06005d98 g     O .data	00000038 Hair_Lower
+06002ff0 g     O .data	00000400 Legs_Lower_eff_unknown_10_i8_i8
+06002780 g     O .data	00000070 mat_Legs_Lower_GoddessFast64_layerOpaque
+0600aa98 g       .bss	00000000 __bss_end
+06009550 g     O .data	000000c0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_tri_0
+06007af8 g     O .data	00000400 Chest_eff_unknown_10_i8_i8
+06008700 g     O .data	00000080 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_cull
+06008c98 g     O .data	00000390 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_0
+06003658 g     O .data	00000fe0 Head_Head_mesh_layer_Opaque_vtx_0
+0600a678 g     O .data	00000400 Arm_LeftLower_eff_unknown_10_i8_i8
+06008780 g     O .data	00000400 Arm_RightUpper_eff_unknown_10_i8_i8
+0600aa98 g       .bss	00000000 end
+06008060 g     O .data	000006a0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_0
+06001878 g     O .data	00000400 Torso_eff_unknown_10_i8_i8
+0600aa80 g       .rodata	00000000 __rodata_start
+06001d20 g     O .data	00000098 Legs_Upper_Legs_Upper_mesh_layer_Opaque_tri_0
+0600aa80 g       .data	00000000 __data_end
+06005e60 g     O .data	000000c0 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_0
+06004b60 g     O .data	00000070 Hand_Left_Hand_Left_mesh_layer_Opaque_tri_0
+06007088 g     O .data	00000100 Chest_Chest_mesh_layer_Opaque_tri_0
+06005dd0 g     O .data	00000070 mat_Hair_Lower_GoddessFast64_layerOpaque
+060063a0 g     O .data	00000038 Feet
+06007a78 g     O .data	00000080 Chest_Chest_mesh_layer_Opaque_vtx_cull
+06004fb0 g     O .data	00000080 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_cull
+06006fe0 g     O .data	00000038 Chest
+06000000 g       .text	00000000 __text_end
+06000038 g     O .data	00000070 mat_Waist_GoddessFast64_layerOpaque
+060001a8 g     O .data	00000850 Waist_Waist_mesh_layer_Opaque_vtx_0
+06005430 g     O .data	00000038 Hand_Right
+0600aa98 g       .bss	00000000 __bss_start
+06001db8 g     O .data	00000510 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_0
+06005998 g     O .data	00000400 Hand_Right_eff_unknown_10_i8_i8
+06007f30 g     O .data	00000070 mat_Arm_RightUpper_GoddessFast64_layerOpaque
+060063d8 g     O .data	00000070 mat_Feet_GoddessFast64_layerOpaque
+06005468 g     O .data	00000070 mat_Hand_Right_GoddessFast64_layerOpaque
+06009610 g     O .data	000006b0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_0
+06008b80 g     O .data	00000038 Arm_RightLower
+06007018 g     O .data	00000070 mat_Chest_GoddessFast64_layerOpaque
+06002348 g     O .data	00000400 Legs_Upper_eff_unknown_10_i8_i8
+060033f0 g     O .data	00000038 Head
+06009028 g     O .data	00000080 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_cull
+06009d40 g     O .data	00000400 Arm_LeftUpper_eff_unknown_10_i8_i8
+06004bd0 g     O .data	000003e0 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_0
+06004638 g     O .data	00000080 Head_Head_mesh_layer_Opaque_vtx_cull
+06000a78 g     O .data	00000400 Waist_eff_unknown_10_i8_i8
+06002748 g     O .data	00000038 Legs_Lower
+060094e0 g     O .data	00000070 mat_Arm_LeftUpper_GoddessFast64_layerOpaque
+060090a8 g     O .data	00000400 Arm_RightLower_eff_unknown_10_i8_i8
+06005548 g     O .data	000003d0 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_0
+06007fa0 g     O .data	000000c0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_tri_0
+060028c0 g     O .data	000006b0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_0
+060022c8 g     O .data	00000080 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_cull
+06005918 g     O .data	00000080 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_cull
+06002f70 g     O .data	00000080 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_cull
+0600a1e8 g     O .data	00000070 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_tri_0
+0600a178 g     O .data	00000070 mat_Arm_LeftLower_GoddessFast64_layerOpaque
+06005fa0 g     O .data	00000400 Hair_Lower_eff_unknown_10_i8_i8
+060027f0 g     O .data	000000d0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_tri_0
+0600a5f8 g     O .data	00000080 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_cull
+06005f20 g     O .data	00000080 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_cull
+0600a258 g     O .data	000003a0 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_0
+06007188 g     O .data	000008f0 Chest_Chest_mesh_layer_Opaque_vtx_0
+06001008 g     O .data	000007f0 Torso_Torso_mesh_layer_Opaque_vtx_0
+06000000 g       .data	00000000 __data_start
+0600a140 g     O .data	00000038 Arm_LeftLower
+06004ab8 g     O .data	00000038 Hand_Left
+06000000 g       *ABS*	00000000 ENTRY_POINT
+
+
+
+Build.elf:     file format elf32-bigmips
+
+SYMBOL TABLE:
+06000000 l    d  .text	00000000 .text
+06000000 l    d  .data	00000000 .data
+06007680 l    d  .rodata	00000000 .rodata
+06007680 l    d  .MIPS.abiflags	00000000 .MIPS.abiflags
+06007698 l    d  .bss	00000000 .bss
+00000000 l    d  .reginfo	00000000 .reginfo
+00000000 l    d  .pdr	00000000 .pdr
+00000000 l    d  .mdebug.abi32	00000000 .mdebug.abi32
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .gnu.attributes	00000000 .gnu.attributes
+00000000 l    df *ABS*	00000000 Build.c
+06002428 g     O .data	00000070 mat_Head_GoddessFast64_layerOpaque
+06004b60 g     O .data	00000080 Feet_Feet_mesh_layer_Opaque_vtx_cull
+06000a78 g     O .data	00000038 Torso
+060036f0 g     O .data	00000070 mat_Hand_Left_GoddessFast64_layerOpaque
+06005fb8 g     O .data	00000070 mat_Arm_RightLower_GoddessFast64_layerOpaque
+06004510 g     O .data	00000650 Feet_Feet_mesh_layer_Opaque_vtx_0
+06004240 g     O .data	00000020 Hair_Lower_Hair_Lower_mesh_layer_Opaque_tri_0
+06007278 g     O .data	00000400 texturei8
+06007678 g       .data	00000000 _gp
+06000000 g       .text	00000000 __text_start
+06001478 g     O .data	00000038 Legs_Upper
+060000a8 g     O .data	00000100 Waist_Waist_mesh_layer_Opaque_tri_0
+060009f8 g     O .data	00000080 Waist_Waist_mesh_layer_Opaque_vtx_cull
+06006cc0 g     O .data	00000080 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_cull
+06007680 g       .rodata	00000000 __rodata_end
+06002498 g     O .data	000001c0 Head_Head_mesh_layer_Opaque_tri_0
+06004448 g     O .data	000000c8 Feet_Feet_mesh_layer_Opaque_tri_0
+060014b0 g     O .data	00000070 mat_Legs_Upper_GoddessFast64_layerOpaque
+06000ab0 g     O .data	00000070 mat_Torso_GoddessFast64_layerOpaque
+060056f8 g     O .data	00000038 Arm_RightUpper
+06003cd8 g     O .data	00000070 Hand_Right_Hand_Right_mesh_layer_Opaque_tri_0
+06000000 g     O .data	00000038 Waist
+060064a8 g     O .data	00000038 Arm_LeftUpper
+06006028 g     O .data	00000070 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_tri_0
+060013f8 g     O .data	00000080 Torso_Torso_mesh_layer_Opaque_vtx_cull
+06000b20 g     O .data	000000e8 Torso_Torso_mesh_layer_Opaque_tri_0
+06004198 g     O .data	00000038 Hair_Lower
+06001b80 g     O .data	00000070 mat_Legs_Lower_GoddessFast64_layerOpaque
+06007698 g       .bss	00000000 __bss_end
+06006550 g     O .data	000000c0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_tri_0
+06005f00 g     O .data	00000080 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_cull
+06006098 g     O .data	00000390 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_0
+06002658 g     O .data	00000fe0 Head_Head_mesh_layer_Opaque_vtx_0
+06007698 g       .bss	00000000 end
+06005860 g     O .data	000006a0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_0
+06007680 g       .rodata	00000000 __rodata_start
+06001520 g     O .data	00000098 Legs_Upper_Legs_Upper_mesh_layer_Opaque_tri_0
+06007680 g       .data	00000000 __data_end
+06004260 g     O .data	000000c0 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_0
+06003760 g     O .data	00000070 Hand_Left_Hand_Left_mesh_layer_Opaque_tri_0
+06004c88 g     O .data	00000100 Chest_Chest_mesh_layer_Opaque_tri_0
+060041d0 g     O .data	00000070 mat_Hair_Lower_GoddessFast64_layerOpaque
+060043a0 g     O .data	00000038 Feet
+06005678 g     O .data	00000080 Chest_Chest_mesh_layer_Opaque_vtx_cull
+06003bb0 g     O .data	00000080 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_cull
+06004be0 g     O .data	00000038 Chest
+06000000 g       .text	00000000 __text_end
+06000038 g     O .data	00000070 mat_Waist_GoddessFast64_layerOpaque
+060001a8 g     O .data	00000850 Waist_Waist_mesh_layer_Opaque_vtx_0
+06003c30 g     O .data	00000038 Hand_Right
+06007698 g       .bss	00000000 __bss_start
+060015b8 g     O .data	00000510 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_0
+06005730 g     O .data	00000070 mat_Arm_RightUpper_GoddessFast64_layerOpaque
+060043d8 g     O .data	00000070 mat_Feet_GoddessFast64_layerOpaque
+06003c68 g     O .data	00000070 mat_Hand_Right_GoddessFast64_layerOpaque
+06006610 g     O .data	000006b0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_0
+06005f80 g     O .data	00000038 Arm_RightLower
+06004c18 g     O .data	00000070 mat_Chest_GoddessFast64_layerOpaque
+060023f0 g     O .data	00000038 Head
+06006428 g     O .data	00000080 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_cull
+060037d0 g     O .data	000003e0 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_0
+06003638 g     O .data	00000080 Head_Head_mesh_layer_Opaque_vtx_cull
+06001b48 g     O .data	00000038 Legs_Lower
+060064e0 g     O .data	00000070 mat_Arm_LeftUpper_GoddessFast64_layerOpaque
+06003d48 g     O .data	000003d0 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_0
+060057a0 g     O .data	000000c0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_tri_0
+06001cc0 g     O .data	000006b0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_0
+06001ac8 g     O .data	00000080 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_cull
+06004118 g     O .data	00000080 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_cull
+06002370 g     O .data	00000080 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_cull
+06006de8 g     O .data	00000070 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_tri_0
+06006d78 g     O .data	00000070 mat_Arm_LeftLower_GoddessFast64_layerOpaque
+06001bf0 g     O .data	000000d0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_tri_0
+060071f8 g     O .data	00000080 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_cull
+06004320 g     O .data	00000080 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_cull
+06006e58 g     O .data	000003a0 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_0
+06004d88 g     O .data	000008f0 Chest_Chest_mesh_layer_Opaque_vtx_0
+06000c08 g     O .data	000007f0 Torso_Torso_mesh_layer_Opaque_vtx_0
+06000000 g       .data	00000000 __data_start
+06006d40 g     O .data	00000038 Arm_LeftLower
+060036b8 g     O .data	00000038 Hand_Left
+06000000 g       *ABS*	00000000 ENTRY_POINT
+
+
+
+Build.elf:     file format elf32-bigmips
+
+SYMBOL TABLE:
+06000000 l    d  .text	00000000 .text
+06000000 l    d  .data	00000000 .data
+06007680 l    d  .rodata	00000000 .rodata
+06007680 l    d  .MIPS.abiflags	00000000 .MIPS.abiflags
+06007698 l    d  .bss	00000000 .bss
+00000000 l    d  .reginfo	00000000 .reginfo
+00000000 l    d  .pdr	00000000 .pdr
+00000000 l    d  .mdebug.abi32	00000000 .mdebug.abi32
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .gnu.attributes	00000000 .gnu.attributes
+00000000 l    df *ABS*	00000000 Build.c
+06005fe8 g     O .data	00000070 mat_Head_GoddessFast64_layerOpaque
+060007c0 g     O .data	00000080 Feet_Feet_mesh_layer_Opaque_vtx_cull
+06002230 g     O .data	00000038 Torso
+06003780 g     O .data	00000070 mat_Hand_Left_GoddessFast64_layerOpaque
+06004ae8 g     O .data	00000070 mat_Arm_RightLower_GoddessFast64_layerOpaque
+06000170 g     O .data	00000650 Feet_Feet_mesh_layer_Opaque_vtx_0
+06005e50 g     O .data	00000020 Hair_Lower_Hair_Lower_mesh_layer_Opaque_tri_0
+06007278 g     O .data	00000400 texturei8
+06007678 g       .data	00000000 _gp
+06000000 g       .text	00000000 __text_start
+06000840 g     O .data	00000038 Legs_Upper
+06001860 g     O .data	00000100 Waist_Waist_mesh_layer_Opaque_tri_0
+060021b0 g     O .data	00000080 Waist_Waist_mesh_layer_Opaque_vtx_cull
+060057f0 g     O .data	00000080 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_cull
+06007680 g       .rodata	00000000 __rodata_end
+06006058 g     O .data	000001c0 Head_Head_mesh_layer_Opaque_tri_0
+060000a8 g     O .data	000000c8 Feet_Feet_mesh_layer_Opaque_tri_0
+06000878 g     O .data	00000070 mat_Legs_Upper_GoddessFast64_layerOpaque
+06002268 g     O .data	00000070 mat_Torso_GoddessFast64_layerOpaque
+06004228 g     O .data	00000038 Arm_RightUpper
+06003d68 g     O .data	00000070 Hand_Right_Hand_Right_mesh_layer_Opaque_tri_0
+060017b8 g     O .data	00000038 Waist
+06004fd8 g     O .data	00000038 Arm_LeftUpper
+06004b58 g     O .data	00000070 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_tri_0
+06002bb0 g     O .data	00000080 Torso_Torso_mesh_layer_Opaque_vtx_cull
+060022d8 g     O .data	000000e8 Torso_Torso_mesh_layer_Opaque_tri_0
+06005da8 g     O .data	00000038 Hair_Lower
+06000f48 g     O .data	00000070 mat_Legs_Lower_GoddessFast64_layerOpaque
+06007698 g       .bss	00000000 __bss_end
+06005080 g     O .data	000000c0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_tri_0
+06004a30 g     O .data	00000080 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_cull
+06004bc8 g     O .data	00000390 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_0
+06006218 g     O .data	00000fe0 Head_Head_mesh_layer_Opaque_vtx_0
+06007698 g       .bss	00000000 end
+06004390 g     O .data	000006a0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_0
+06007680 g       .rodata	00000000 __rodata_start
+060008e8 g     O .data	00000098 Legs_Upper_Legs_Upper_mesh_layer_Opaque_tri_0
+06007680 g       .data	00000000 __data_end
+06005e70 g     O .data	000000c0 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_0
+060037f0 g     O .data	00000070 Hand_Left_Hand_Left_mesh_layer_Opaque_tri_0
+06002cd8 g     O .data	00000100 Chest_Chest_mesh_layer_Opaque_tri_0
+06005de0 g     O .data	00000070 mat_Hair_Lower_GoddessFast64_layerOpaque
+06000000 g     O .data	00000038 Feet
+060036c8 g     O .data	00000080 Chest_Chest_mesh_layer_Opaque_vtx_cull
+06003c40 g     O .data	00000080 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_cull
+06002c30 g     O .data	00000038 Chest
+06000000 g       .text	00000000 __text_end
+060017f0 g     O .data	00000070 mat_Waist_GoddessFast64_layerOpaque
+06001960 g     O .data	00000850 Waist_Waist_mesh_layer_Opaque_vtx_0
+06003cc0 g     O .data	00000038 Hand_Right
+06007698 g       .bss	00000000 __bss_start
+06000980 g     O .data	00000510 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_0
+06004260 g     O .data	00000070 mat_Arm_RightUpper_GoddessFast64_layerOpaque
+06000038 g     O .data	00000070 mat_Feet_GoddessFast64_layerOpaque
+06003cf8 g     O .data	00000070 mat_Hand_Right_GoddessFast64_layerOpaque
+06005140 g     O .data	000006b0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_0
+06004ab0 g     O .data	00000038 Arm_RightLower
+06002c68 g     O .data	00000070 mat_Chest_GoddessFast64_layerOpaque
+06005fb0 g     O .data	00000038 Head
+06004f58 g     O .data	00000080 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_cull
+06003860 g     O .data	000003e0 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_0
+060071f8 g     O .data	00000080 Head_Head_mesh_layer_Opaque_vtx_cull
+06000f10 g     O .data	00000038 Legs_Lower
+06005010 g     O .data	00000070 mat_Arm_LeftUpper_GoddessFast64_layerOpaque
+06003dd8 g     O .data	000003d0 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_0
+060042d0 g     O .data	000000c0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_tri_0
+06001088 g     O .data	000006b0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_0
+06000e90 g     O .data	00000080 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_cull
+060041a8 g     O .data	00000080 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_cull
+06001738 g     O .data	00000080 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_cull
+06005918 g     O .data	00000070 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_tri_0
+060058a8 g     O .data	00000070 mat_Arm_LeftLower_GoddessFast64_layerOpaque
+06000fb8 g     O .data	000000d0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_tri_0
+06005d28 g     O .data	00000080 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_cull
+06005f30 g     O .data	00000080 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_cull
+06005988 g     O .data	000003a0 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_0
+06002dd8 g     O .data	000008f0 Chest_Chest_mesh_layer_Opaque_vtx_0
+060023c0 g     O .data	000007f0 Torso_Torso_mesh_layer_Opaque_vtx_0
+06000000 g       .data	00000000 __data_start
+06005870 g     O .data	00000038 Arm_LeftLower
+06003748 g     O .data	00000038 Hand_Left
+06000000 g       *ABS*	00000000 ENTRY_POINT
+
+
+
+Build.elf:     file format elf32-bigmips
+
+SYMBOL TABLE:
+06000000 l    d  .text	00000000 .text
+06000000 l    d  .data	00000000 .data
+06007680 l    d  .rodata	00000000 .rodata
+06007680 l    d  .MIPS.abiflags	00000000 .MIPS.abiflags
+06007698 l    d  .bss	00000000 .bss
+00000000 l    d  .reginfo	00000000 .reginfo
+00000000 l    d  .pdr	00000000 .pdr
+00000000 l    d  .mdebug.abi32	00000000 .mdebug.abi32
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .gnu.attributes	00000000 .gnu.attributes
+00000000 l    df *ABS*	00000000 Build.c
+06000038 g     O .data	00000070 mat_Head_GoddessFast64_layerOpaque
+060071f8 g     O .data	00000080 Feet_Feet_mesh_layer_Opaque_vtx_cull
+06004648 g     O .data	00000038 Torso
+06003088 g     O .data	00000070 mat_Hand_Left_GoddessFast64_layerOpaque
+06001d90 g     O .data	00000070 mat_Arm_RightLower_GoddessFast64_layerOpaque
+06006ba8 g     O .data	00000650 Feet_Feet_mesh_layer_Opaque_vtx_0
+06001370 g     O .data	00000020 Hair_Lower_Hair_Lower_mesh_layer_Opaque_tri_0
+06007278 g     O .data	00000400 texturei8
+06007678 g       .data	00000000 _gp
+06000000 g       .text	00000000 __text_start
+06005ac0 g     O .data	00000038 Legs_Upper
+060050f0 g     O .data	00000100 Waist_Waist_mesh_layer_Opaque_tri_0
+06005a40 g     O .data	00000080 Waist_Waist_mesh_layer_Opaque_vtx_cull
+06002a98 g     O .data	00000080 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_cull
+06007680 g       .rodata	00000000 __rodata_end
+060000a8 g     O .data	000001c0 Head_Head_mesh_layer_Opaque_tri_0
+06006ae0 g     O .data	000000c8 Feet_Feet_mesh_layer_Opaque_tri_0
+06005af8 g     O .data	00000070 mat_Legs_Upper_GoddessFast64_layerOpaque
+06004680 g     O .data	00000070 mat_Torso_GoddessFast64_layerOpaque
+060014d0 g     O .data	00000038 Arm_RightUpper
+06003670 g     O .data	00000070 Hand_Right_Hand_Right_mesh_layer_Opaque_tri_0
+06005048 g     O .data	00000038 Waist
+06002280 g     O .data	00000038 Arm_LeftUpper
+06001e00 g     O .data	00000070 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_tri_0
+06004fc8 g     O .data	00000080 Torso_Torso_mesh_layer_Opaque_vtx_cull
+060046f0 g     O .data	000000e8 Torso_Torso_mesh_layer_Opaque_tri_0
+060012c8 g     O .data	00000038 Hair_Lower
+060061c8 g     O .data	00000070 mat_Legs_Lower_GoddessFast64_layerOpaque
+06007698 g       .bss	00000000 __bss_end
+06002328 g     O .data	000000c0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_tri_0
+06001cd8 g     O .data	00000080 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_cull
+06001e70 g     O .data	00000390 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_0
+06000268 g     O .data	00000fe0 Head_Head_mesh_layer_Opaque_vtx_0
+06007698 g       .bss	00000000 end
+06001638 g     O .data	000006a0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_0
+06007680 g       .rodata	00000000 __rodata_start
+06005b68 g     O .data	00000098 Legs_Upper_Legs_Upper_mesh_layer_Opaque_tri_0
+06007680 g       .data	00000000 __data_end
+06001390 g     O .data	000000c0 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_0
+060030f8 g     O .data	00000070 Hand_Left_Hand_Left_mesh_layer_Opaque_tri_0
+06003bd8 g     O .data	00000100 Chest_Chest_mesh_layer_Opaque_tri_0
+06001300 g     O .data	00000070 mat_Hair_Lower_GoddessFast64_layerOpaque
+06006a38 g     O .data	00000038 Feet
+060045c8 g     O .data	00000080 Chest_Chest_mesh_layer_Opaque_vtx_cull
+06003548 g     O .data	00000080 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_cull
+06003b30 g     O .data	00000038 Chest
+06000000 g       .text	00000000 __text_end
+06005080 g     O .data	00000070 mat_Waist_GoddessFast64_layerOpaque
+060051f0 g     O .data	00000850 Waist_Waist_mesh_layer_Opaque_vtx_0
+060035c8 g     O .data	00000038 Hand_Right
+06007698 g       .bss	00000000 __bss_start
+06005c00 g     O .data	00000510 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_0
+06001508 g     O .data	00000070 mat_Arm_RightUpper_GoddessFast64_layerOpaque
+06006a70 g     O .data	00000070 mat_Feet_GoddessFast64_layerOpaque
+06003600 g     O .data	00000070 mat_Hand_Right_GoddessFast64_layerOpaque
+060023e8 g     O .data	000006b0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_0
+06001d58 g     O .data	00000038 Arm_RightLower
+06003b68 g     O .data	00000070 mat_Chest_GoddessFast64_layerOpaque
+06000000 g     O .data	00000038 Head
+06002200 g     O .data	00000080 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_cull
+06003168 g     O .data	000003e0 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_0
+06001248 g     O .data	00000080 Head_Head_mesh_layer_Opaque_vtx_cull
+06006190 g     O .data	00000038 Legs_Lower
+060022b8 g     O .data	00000070 mat_Arm_LeftUpper_GoddessFast64_layerOpaque
+060036e0 g     O .data	000003d0 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_0
+06001578 g     O .data	000000c0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_tri_0
+06006308 g     O .data	000006b0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_0
+06006110 g     O .data	00000080 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_cull
+06003ab0 g     O .data	00000080 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_cull
+060069b8 g     O .data	00000080 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_cull
+06002bc0 g     O .data	00000070 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_tri_0
+06002b50 g     O .data	00000070 mat_Arm_LeftLower_GoddessFast64_layerOpaque
+06006238 g     O .data	000000d0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_tri_0
+06002fd0 g     O .data	00000080 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_cull
+06001450 g     O .data	00000080 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_cull
+06002c30 g     O .data	000003a0 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_0
+06003cd8 g     O .data	000008f0 Chest_Chest_mesh_layer_Opaque_vtx_0
+060047d8 g     O .data	000007f0 Torso_Torso_mesh_layer_Opaque_vtx_0
+06000000 g       .data	00000000 __data_start
+06002b18 g     O .data	00000038 Arm_LeftLower
+06003050 g     O .data	00000038 Hand_Left
+06000000 g       *ABS*	00000000 ENTRY_POINT
+
+
+
+Build.elf:     file format elf32-bigmips
+
+SYMBOL TABLE:
+06000000 l    d  .text	00000000 .text
+06000000 l    d  .data	00000000 .data
+06007680 l    d  .rodata	00000000 .rodata
+06007680 l    d  .MIPS.abiflags	00000000 .MIPS.abiflags
+06007698 l    d  .bss	00000000 .bss
+00000000 l    d  .reginfo	00000000 .reginfo
+00000000 l    d  .pdr	00000000 .pdr
+00000000 l    d  .mdebug.abi32	00000000 .mdebug.abi32
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .gnu.attributes	00000000 .gnu.attributes
+00000000 l    df *ABS*	00000000 Build.c
+06000038 g     O .data	00000070 mat_Head_GoddessFast64_layerOpaque
+060071f8 g     O .data	00000080 Feet_Feet_mesh_layer_Opaque_vtx_cull
+06004648 g     O .data	00000038 Torso
+06003088 g     O .data	00000070 mat_Hand_Left_GoddessFast64_layerOpaque
+06001d90 g     O .data	00000070 mat_Arm_RightLower_GoddessFast64_layerOpaque
+06006ba8 g     O .data	00000650 Feet_Feet_mesh_layer_Opaque_vtx_0
+06001370 g     O .data	00000020 Hair_Lower_Hair_Lower_mesh_layer_Opaque_tri_0
+06007278 g     O .data	00000400 texturei8
+06007678 g       .data	00000000 _gp
+06000000 g       .text	00000000 __text_start
+06005ac0 g     O .data	00000038 Legs_Upper
+060050f0 g     O .data	00000100 Waist_Waist_mesh_layer_Opaque_tri_0
+06005a40 g     O .data	00000080 Waist_Waist_mesh_layer_Opaque_vtx_cull
+06002a98 g     O .data	00000080 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_cull
+06007680 g       .rodata	00000000 __rodata_end
+060000a8 g     O .data	000001c0 Head_Head_mesh_layer_Opaque_tri_0
+06006ae0 g     O .data	000000c8 Feet_Feet_mesh_layer_Opaque_tri_0
+06005af8 g     O .data	00000070 mat_Legs_Upper_GoddessFast64_layerOpaque
+06004680 g     O .data	00000070 mat_Torso_GoddessFast64_layerOpaque
+060014d0 g     O .data	00000038 Arm_RightUpper
+06003670 g     O .data	00000070 Hand_Right_Hand_Right_mesh_layer_Opaque_tri_0
+06005048 g     O .data	00000038 Waist
+06002280 g     O .data	00000038 Arm_LeftUpper
+06001e00 g     O .data	00000070 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_tri_0
+06004fc8 g     O .data	00000080 Torso_Torso_mesh_layer_Opaque_vtx_cull
+060046f0 g     O .data	000000e8 Torso_Torso_mesh_layer_Opaque_tri_0
+060012c8 g     O .data	00000038 Hair_Lower
+060061c8 g     O .data	00000070 mat_Legs_Lower_GoddessFast64_layerOpaque
+06007698 g       .bss	00000000 __bss_end
+06002328 g     O .data	000000c0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_tri_0
+06001cd8 g     O .data	00000080 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_cull
+06001e70 g     O .data	00000390 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_0
+06000268 g     O .data	00000fe0 Head_Head_mesh_layer_Opaque_vtx_0
+06007698 g       .bss	00000000 end
+06001638 g     O .data	000006a0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_0
+06007680 g       .rodata	00000000 __rodata_start
+06005b68 g     O .data	00000098 Legs_Upper_Legs_Upper_mesh_layer_Opaque_tri_0
+06007680 g       .data	00000000 __data_end
+06001390 g     O .data	000000c0 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_0
+060030f8 g     O .data	00000070 Hand_Left_Hand_Left_mesh_layer_Opaque_tri_0
+06003bd8 g     O .data	00000100 Chest_Chest_mesh_layer_Opaque_tri_0
+06001300 g     O .data	00000070 mat_Hair_Lower_GoddessFast64_layerOpaque
+06006a38 g     O .data	00000038 Feet
+060045c8 g     O .data	00000080 Chest_Chest_mesh_layer_Opaque_vtx_cull
+06003548 g     O .data	00000080 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_cull
+06003b30 g     O .data	00000038 Chest
+06000000 g       .text	00000000 __text_end
+06005080 g     O .data	00000070 mat_Waist_GoddessFast64_layerOpaque
+060051f0 g     O .data	00000850 Waist_Waist_mesh_layer_Opaque_vtx_0
+060035c8 g     O .data	00000038 Hand_Right
+06007698 g       .bss	00000000 __bss_start
+06005c00 g     O .data	00000510 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_0
+06001508 g     O .data	00000070 mat_Arm_RightUpper_GoddessFast64_layerOpaque
+06006a70 g     O .data	00000070 mat_Feet_GoddessFast64_layerOpaque
+06003600 g     O .data	00000070 mat_Hand_Right_GoddessFast64_layerOpaque
+060023e8 g     O .data	000006b0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_0
+06001d58 g     O .data	00000038 Arm_RightLower
+06003b68 g     O .data	00000070 mat_Chest_GoddessFast64_layerOpaque
+06000000 g     O .data	00000038 Head
+06002200 g     O .data	00000080 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_cull
+06003168 g     O .data	000003e0 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_0
+06001248 g     O .data	00000080 Head_Head_mesh_layer_Opaque_vtx_cull
+06006190 g     O .data	00000038 Legs_Lower
+060022b8 g     O .data	00000070 mat_Arm_LeftUpper_GoddessFast64_layerOpaque
+060036e0 g     O .data	000003d0 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_0
+06001578 g     O .data	000000c0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_tri_0
+06006308 g     O .data	000006b0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_0
+06006110 g     O .data	00000080 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_cull
+06003ab0 g     O .data	00000080 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_cull
+060069b8 g     O .data	00000080 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_cull
+06002bc0 g     O .data	00000070 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_tri_0
+06002b50 g     O .data	00000070 mat_Arm_LeftLower_GoddessFast64_layerOpaque
+06006238 g     O .data	000000d0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_tri_0
+06002fd0 g     O .data	00000080 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_cull
+06001450 g     O .data	00000080 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_cull
+06002c30 g     O .data	000003a0 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_0
+06003cd8 g     O .data	000008f0 Chest_Chest_mesh_layer_Opaque_vtx_0
+060047d8 g     O .data	000007f0 Torso_Torso_mesh_layer_Opaque_vtx_0
+06000000 g       .data	00000000 __data_start
+06002b18 g     O .data	00000038 Arm_LeftLower
+06003050 g     O .data	00000038 Hand_Left
+06000000 g       *ABS*	00000000 ENTRY_POINT
+
+
+
+Build.elf:     file format elf32-bigmips
+
+SYMBOL TABLE:
+06000000 l    d  .text	00000000 .text
+06000000 l    d  .data	00000000 .data
+06007680 l    d  .rodata	00000000 .rodata
+06007680 l    d  .MIPS.abiflags	00000000 .MIPS.abiflags
+06007698 l    d  .bss	00000000 .bss
+00000000 l    d  .reginfo	00000000 .reginfo
+00000000 l    d  .pdr	00000000 .pdr
+00000000 l    d  .mdebug.abi32	00000000 .mdebug.abi32
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .gnu.attributes	00000000 .gnu.attributes
+00000000 l    df *ABS*	00000000 Build.c
+06000038 g     O .data	00000070 mat_Head_GoddessFast64_layerOpaque
+060071f8 g     O .data	00000080 Feet_Feet_mesh_layer_Opaque_vtx_cull
+06004648 g     O .data	00000038 Torso
+06003088 g     O .data	00000070 mat_Hand_Left_GoddessFast64_layerOpaque
+06001d90 g     O .data	00000070 mat_Arm_RightLower_GoddessFast64_layerOpaque
+06006ba8 g     O .data	00000650 Feet_Feet_mesh_layer_Opaque_vtx_0
+06001370 g     O .data	00000020 Hair_Lower_Hair_Lower_mesh_layer_Opaque_tri_0
+06007278 g     O .data	00000400 texturei8
+06007678 g       .data	00000000 _gp
+06000000 g       .text	00000000 __text_start
+06005ac0 g     O .data	00000038 Legs_Upper
+060050f0 g     O .data	00000100 Waist_Waist_mesh_layer_Opaque_tri_0
+06005a40 g     O .data	00000080 Waist_Waist_mesh_layer_Opaque_vtx_cull
+06002a98 g     O .data	00000080 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_cull
+06007680 g       .rodata	00000000 __rodata_end
+060000a8 g     O .data	000001c0 Head_Head_mesh_layer_Opaque_tri_0
+06006ae0 g     O .data	000000c8 Feet_Feet_mesh_layer_Opaque_tri_0
+06005af8 g     O .data	00000070 mat_Legs_Upper_GoddessFast64_layerOpaque
+06004680 g     O .data	00000070 mat_Torso_GoddessFast64_layerOpaque
+060014d0 g     O .data	00000038 Arm_RightUpper
+06003670 g     O .data	00000070 Hand_Right_Hand_Right_mesh_layer_Opaque_tri_0
+06005048 g     O .data	00000038 Waist
+06002280 g     O .data	00000038 Arm_LeftUpper
+06001e00 g     O .data	00000070 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_tri_0
+06004fc8 g     O .data	00000080 Torso_Torso_mesh_layer_Opaque_vtx_cull
+060046f0 g     O .data	000000e8 Torso_Torso_mesh_layer_Opaque_tri_0
+060012c8 g     O .data	00000038 Hair_Lower
+060061c8 g     O .data	00000070 mat_Legs_Lower_GoddessFast64_layerOpaque
+06007698 g       .bss	00000000 __bss_end
+06002328 g     O .data	000000c0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_tri_0
+06001cd8 g     O .data	00000080 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_cull
+06001e70 g     O .data	00000390 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_0
+06000268 g     O .data	00000fe0 Head_Head_mesh_layer_Opaque_vtx_0
+06007698 g       .bss	00000000 end
+06001638 g     O .data	000006a0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_0
+06007680 g       .rodata	00000000 __rodata_start
+06005b68 g     O .data	00000098 Legs_Upper_Legs_Upper_mesh_layer_Opaque_tri_0
+06007680 g       .data	00000000 __data_end
+06001390 g     O .data	000000c0 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_0
+060030f8 g     O .data	00000070 Hand_Left_Hand_Left_mesh_layer_Opaque_tri_0
+06003bd8 g     O .data	00000100 Chest_Chest_mesh_layer_Opaque_tri_0
+06001300 g     O .data	00000070 mat_Hair_Lower_GoddessFast64_layerOpaque
+06006a38 g     O .data	00000038 Feet
+060045c8 g     O .data	00000080 Chest_Chest_mesh_layer_Opaque_vtx_cull
+06003548 g     O .data	00000080 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_cull
+06003b30 g     O .data	00000038 Chest
+06000000 g       .text	00000000 __text_end
+06005080 g     O .data	00000070 mat_Waist_GoddessFast64_layerOpaque
+060051f0 g     O .data	00000850 Waist_Waist_mesh_layer_Opaque_vtx_0
+060035c8 g     O .data	00000038 Hand_Right
+06007698 g       .bss	00000000 __bss_start
+06005c00 g     O .data	00000510 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_0
+06001508 g     O .data	00000070 mat_Arm_RightUpper_GoddessFast64_layerOpaque
+06006a70 g     O .data	00000070 mat_Feet_GoddessFast64_layerOpaque
+06003600 g     O .data	00000070 mat_Hand_Right_GoddessFast64_layerOpaque
+060023e8 g     O .data	000006b0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_0
+06001d58 g     O .data	00000038 Arm_RightLower
+06003b68 g     O .data	00000070 mat_Chest_GoddessFast64_layerOpaque
+06000000 g     O .data	00000038 Head
+06002200 g     O .data	00000080 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_cull
+06003168 g     O .data	000003e0 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_0
+06001248 g     O .data	00000080 Head_Head_mesh_layer_Opaque_vtx_cull
+06006190 g     O .data	00000038 Legs_Lower
+060022b8 g     O .data	00000070 mat_Arm_LeftUpper_GoddessFast64_layerOpaque
+060036e0 g     O .data	000003d0 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_0
+06001578 g     O .data	000000c0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_tri_0
+06006308 g     O .data	000006b0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_0
+06006110 g     O .data	00000080 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_cull
+06003ab0 g     O .data	00000080 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_cull
+060069b8 g     O .data	00000080 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_cull
+06002bc0 g     O .data	00000070 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_tri_0
+06002b50 g     O .data	00000070 mat_Arm_LeftLower_GoddessFast64_layerOpaque
+06006238 g     O .data	000000d0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_tri_0
+06002fd0 g     O .data	00000080 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_cull
+06001450 g     O .data	00000080 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_cull
+06002c30 g     O .data	000003a0 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_0
+06003cd8 g     O .data	000008f0 Chest_Chest_mesh_layer_Opaque_vtx_0
+060047d8 g     O .data	000007f0 Torso_Torso_mesh_layer_Opaque_vtx_0
+06000000 g       .data	00000000 __data_start
+06002b18 g     O .data	00000038 Arm_LeftLower
+06003050 g     O .data	00000038 Hand_Left
+06000000 g       *ABS*	00000000 ENTRY_POINT
+
+
+
+Build.elf:     file format elf32-bigmips
+
+SYMBOL TABLE:
+06000000 l    d  .text	00000000 .text
+06000000 l    d  .data	00000000 .data
+06007680 l    d  .rodata	00000000 .rodata
+06007680 l    d  .MIPS.abiflags	00000000 .MIPS.abiflags
+06007698 l    d  .bss	00000000 .bss
+00000000 l    d  .reginfo	00000000 .reginfo
+00000000 l    d  .pdr	00000000 .pdr
+00000000 l    d  .mdebug.abi32	00000000 .mdebug.abi32
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .gnu.attributes	00000000 .gnu.attributes
+00000000 l    df *ABS*	00000000 Build.c
+06000038 g     O .data	00000070 mat_Head_GoddessFast64_layerOpaque
+060071f8 g     O .data	00000080 Feet_Feet_mesh_layer_Opaque_vtx_cull
+06004648 g     O .data	00000038 Torso
+06003088 g     O .data	00000070 mat_Hand_Left_GoddessFast64_layerOpaque
+06001d90 g     O .data	00000070 mat_Arm_RightLower_GoddessFast64_layerOpaque
+06006ba8 g     O .data	00000650 Feet_Feet_mesh_layer_Opaque_vtx_0
+06001370 g     O .data	00000020 Hair_Lower_Hair_Lower_mesh_layer_Opaque_tri_0
+06007278 g     O .data	00000400 texturei8
+06007678 g       .data	00000000 _gp
+06000000 g       .text	00000000 __text_start
+06005ac0 g     O .data	00000038 Legs_Upper
+060050f0 g     O .data	00000100 Waist_Waist_mesh_layer_Opaque_tri_0
+06005a40 g     O .data	00000080 Waist_Waist_mesh_layer_Opaque_vtx_cull
+06002a98 g     O .data	00000080 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_cull
+06007680 g       .rodata	00000000 __rodata_end
+060000a8 g     O .data	000001c0 Head_Head_mesh_layer_Opaque_tri_0
+06006ae0 g     O .data	000000c8 Feet_Feet_mesh_layer_Opaque_tri_0
+06005af8 g     O .data	00000070 mat_Legs_Upper_GoddessFast64_layerOpaque
+06004680 g     O .data	00000070 mat_Torso_GoddessFast64_layerOpaque
+060014d0 g     O .data	00000038 Arm_RightUpper
+06003670 g     O .data	00000070 Hand_Right_Hand_Right_mesh_layer_Opaque_tri_0
+06005048 g     O .data	00000038 Waist
+06002280 g     O .data	00000038 Arm_LeftUpper
+06001e00 g     O .data	00000070 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_tri_0
+06004fc8 g     O .data	00000080 Torso_Torso_mesh_layer_Opaque_vtx_cull
+060046f0 g     O .data	000000e8 Torso_Torso_mesh_layer_Opaque_tri_0
+060012c8 g     O .data	00000038 Hair_Lower
+060061c8 g     O .data	00000070 mat_Legs_Lower_GoddessFast64_layerOpaque
+06007698 g       .bss	00000000 __bss_end
+06002328 g     O .data	000000c0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_tri_0
+06001cd8 g     O .data	00000080 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_cull
+06001e70 g     O .data	00000390 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_0
+06000268 g     O .data	00000fe0 Head_Head_mesh_layer_Opaque_vtx_0
+06007698 g       .bss	00000000 end
+06001638 g     O .data	000006a0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_0
+06007680 g       .rodata	00000000 __rodata_start
+06005b68 g     O .data	00000098 Legs_Upper_Legs_Upper_mesh_layer_Opaque_tri_0
+06007680 g       .data	00000000 __data_end
+06001390 g     O .data	000000c0 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_0
+060030f8 g     O .data	00000070 Hand_Left_Hand_Left_mesh_layer_Opaque_tri_0
+06003bd8 g     O .data	00000100 Chest_Chest_mesh_layer_Opaque_tri_0
+06001300 g     O .data	00000070 mat_Hair_Lower_GoddessFast64_layerOpaque
+06006a38 g     O .data	00000038 Feet
+060045c8 g     O .data	00000080 Chest_Chest_mesh_layer_Opaque_vtx_cull
+06003548 g     O .data	00000080 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_cull
+06003b30 g     O .data	00000038 Chest
+06000000 g       .text	00000000 __text_end
+06005080 g     O .data	00000070 mat_Waist_GoddessFast64_layerOpaque
+060051f0 g     O .data	00000850 Waist_Waist_mesh_layer_Opaque_vtx_0
+060035c8 g     O .data	00000038 Hand_Right
+06007698 g       .bss	00000000 __bss_start
+06005c00 g     O .data	00000510 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_0
+06001508 g     O .data	00000070 mat_Arm_RightUpper_GoddessFast64_layerOpaque
+06006a70 g     O .data	00000070 mat_Feet_GoddessFast64_layerOpaque
+06003600 g     O .data	00000070 mat_Hand_Right_GoddessFast64_layerOpaque
+060023e8 g     O .data	000006b0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_0
+06001d58 g     O .data	00000038 Arm_RightLower
+06003b68 g     O .data	00000070 mat_Chest_GoddessFast64_layerOpaque
+06000000 g     O .data	00000038 Head
+06002200 g     O .data	00000080 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_cull
+06003168 g     O .data	000003e0 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_0
+06001248 g     O .data	00000080 Head_Head_mesh_layer_Opaque_vtx_cull
+06006190 g     O .data	00000038 Legs_Lower
+060022b8 g     O .data	00000070 mat_Arm_LeftUpper_GoddessFast64_layerOpaque
+060036e0 g     O .data	000003d0 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_0
+06001578 g     O .data	000000c0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_tri_0
+06006308 g     O .data	000006b0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_0
+06006110 g     O .data	00000080 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_cull
+06003ab0 g     O .data	00000080 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_cull
+060069b8 g     O .data	00000080 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_cull
+06002bc0 g     O .data	00000070 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_tri_0
+06002b50 g     O .data	00000070 mat_Arm_LeftLower_GoddessFast64_layerOpaque
+06006238 g     O .data	000000d0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_tri_0
+06002fd0 g     O .data	00000080 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_cull
+06001450 g     O .data	00000080 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_cull
+06002c30 g     O .data	000003a0 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_0
+06003cd8 g     O .data	000008f0 Chest_Chest_mesh_layer_Opaque_vtx_0
+060047d8 g     O .data	000007f0 Torso_Torso_mesh_layer_Opaque_vtx_0
+06000000 g       .data	00000000 __data_start
+06002b18 g     O .data	00000038 Arm_LeftLower
+06003050 g     O .data	00000038 Hand_Left
+06000000 g       *ABS*	00000000 ENTRY_POINT
+
+
+
+Build.elf:     file format elf32-bigmips
+
+SYMBOL TABLE:
+06000000 l    d  .text	00000000 .text
+06000000 l    d  .data	00000000 .data
+06007680 l    d  .rodata	00000000 .rodata
+06007680 l    d  .MIPS.abiflags	00000000 .MIPS.abiflags
+06007698 l    d  .bss	00000000 .bss
+00000000 l    d  .reginfo	00000000 .reginfo
+00000000 l    d  .pdr	00000000 .pdr
+00000000 l    d  .mdebug.abi32	00000000 .mdebug.abi32
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .gnu.attributes	00000000 .gnu.attributes
+00000000 l    df *ABS*	00000000 Build.c
+06000038 g     O .data	00000070 mat_Head_GoddessFast64_layerOpaque
+060071f8 g     O .data	00000080 Feet_Feet_mesh_layer_Opaque_vtx_cull
+06004648 g     O .data	00000038 Torso
+06003088 g     O .data	00000070 mat_Hand_Left_GoddessFast64_layerOpaque
+06001d90 g     O .data	00000070 mat_Arm_RightLower_GoddessFast64_layerOpaque
+06006ba8 g     O .data	00000650 Feet_Feet_mesh_layer_Opaque_vtx_0
+06001370 g     O .data	00000020 Hair_Lower_Hair_Lower_mesh_layer_Opaque_tri_0
+06007278 g     O .data	00000400 texturei8
+06007678 g       .data	00000000 _gp
+06000000 g       .text	00000000 __text_start
+06005ac0 g     O .data	00000038 Legs_Upper
+060050f0 g     O .data	00000100 Waist_Waist_mesh_layer_Opaque_tri_0
+06005a40 g     O .data	00000080 Waist_Waist_mesh_layer_Opaque_vtx_cull
+06002a98 g     O .data	00000080 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_cull
+06007680 g       .rodata	00000000 __rodata_end
+060000a8 g     O .data	000001c0 Head_Head_mesh_layer_Opaque_tri_0
+06006ae0 g     O .data	000000c8 Feet_Feet_mesh_layer_Opaque_tri_0
+06005af8 g     O .data	00000070 mat_Legs_Upper_GoddessFast64_layerOpaque
+06004680 g     O .data	00000070 mat_Torso_GoddessFast64_layerOpaque
+060014d0 g     O .data	00000038 Arm_RightUpper
+06003670 g     O .data	00000070 Hand_Right_Hand_Right_mesh_layer_Opaque_tri_0
+06005048 g     O .data	00000038 Waist
+06002280 g     O .data	00000038 Arm_LeftUpper
+06001e00 g     O .data	00000070 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_tri_0
+06004fc8 g     O .data	00000080 Torso_Torso_mesh_layer_Opaque_vtx_cull
+060046f0 g     O .data	000000e8 Torso_Torso_mesh_layer_Opaque_tri_0
+060012c8 g     O .data	00000038 Hair_Lower
+060061c8 g     O .data	00000070 mat_Legs_Lower_GoddessFast64_layerOpaque
+06007698 g       .bss	00000000 __bss_end
+06002328 g     O .data	000000c0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_tri_0
+06001cd8 g     O .data	00000080 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_cull
+06001e70 g     O .data	00000390 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_0
+06000268 g     O .data	00000fe0 Head_Head_mesh_layer_Opaque_vtx_0
+06007698 g       .bss	00000000 end
+06001638 g     O .data	000006a0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_vtx_0
+06007680 g       .rodata	00000000 __rodata_start
+06005b68 g     O .data	00000098 Legs_Upper_Legs_Upper_mesh_layer_Opaque_tri_0
+06007680 g       .data	00000000 __data_end
+06001390 g     O .data	000000c0 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_0
+060030f8 g     O .data	00000070 Hand_Left_Hand_Left_mesh_layer_Opaque_tri_0
+06003bd8 g     O .data	00000100 Chest_Chest_mesh_layer_Opaque_tri_0
+06001300 g     O .data	00000070 mat_Hair_Lower_GoddessFast64_layerOpaque
+06006a38 g     O .data	00000038 Feet
+060045c8 g     O .data	00000080 Chest_Chest_mesh_layer_Opaque_vtx_cull
+06003548 g     O .data	00000080 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_cull
+06003b30 g     O .data	00000038 Chest
+06000000 g       .text	00000000 __text_end
+06005080 g     O .data	00000070 mat_Waist_GoddessFast64_layerOpaque
+060051f0 g     O .data	00000850 Waist_Waist_mesh_layer_Opaque_vtx_0
+060035c8 g     O .data	00000038 Hand_Right
+06007698 g       .bss	00000000 __bss_start
+06005c00 g     O .data	00000510 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_0
+06001508 g     O .data	00000070 mat_Arm_RightUpper_GoddessFast64_layerOpaque
+06006a70 g     O .data	00000070 mat_Feet_GoddessFast64_layerOpaque
+06003600 g     O .data	00000070 mat_Hand_Right_GoddessFast64_layerOpaque
+060023e8 g     O .data	000006b0 Arm_LeftUpper_Arm_LeftUpper_mesh_layer_Opaque_vtx_0
+06001d58 g     O .data	00000038 Arm_RightLower
+06003b68 g     O .data	00000070 mat_Chest_GoddessFast64_layerOpaque
+06000000 g     O .data	00000038 Head
+06002200 g     O .data	00000080 Arm_RightLower_Arm_RightLower_mesh_layer_Opaque_vtx_cull
+06003168 g     O .data	000003e0 Hand_Left_Hand_Left_mesh_layer_Opaque_vtx_0
+06001248 g     O .data	00000080 Head_Head_mesh_layer_Opaque_vtx_cull
+06006190 g     O .data	00000038 Legs_Lower
+060022b8 g     O .data	00000070 mat_Arm_LeftUpper_GoddessFast64_layerOpaque
+060036e0 g     O .data	000003d0 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_0
+06001578 g     O .data	000000c0 Arm_RightUpper_Arm_RightUpper_mesh_layer_Opaque_tri_0
+06006308 g     O .data	000006b0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_0
+06006110 g     O .data	00000080 Legs_Upper_Legs_Upper_mesh_layer_Opaque_vtx_cull
+06003ab0 g     O .data	00000080 Hand_Right_Hand_Right_mesh_layer_Opaque_vtx_cull
+060069b8 g     O .data	00000080 Legs_Lower_Legs_Lower_mesh_layer_Opaque_vtx_cull
+06002bc0 g     O .data	00000070 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_tri_0
+06002b50 g     O .data	00000070 mat_Arm_LeftLower_GoddessFast64_layerOpaque
+06006238 g     O .data	000000d0 Legs_Lower_Legs_Lower_mesh_layer_Opaque_tri_0
+06002fd0 g     O .data	00000080 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_cull
+06001450 g     O .data	00000080 Hair_Lower_Hair_Lower_mesh_layer_Opaque_vtx_cull
+06002c30 g     O .data	000003a0 Arm_LeftLower_Arm_LeftLower_mesh_layer_Opaque_vtx_0
+06003cd8 g     O .data	000008f0 Chest_Chest_mesh_layer_Opaque_vtx_0
+060047d8 g     O .data	000007f0 Torso_Torso_mesh_layer_Opaque_vtx_0
+06000000 g       .data	00000000 __data_start
+06002b18 g     O .data	00000038 Arm_LeftLower
+06003050 g     O .data	00000038 Hand_Left
+06000000 g       *ABS*	00000000 ENTRY_POINT
+
+

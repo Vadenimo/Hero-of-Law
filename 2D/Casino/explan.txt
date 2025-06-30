@@ -1,0 +1,8 @@
+0 back
+BC0 rupee
+1780 link
+2340 zelda
+2F00 ganon
+3AC0 tingle
+4680 heart
+5240 rupeeicon

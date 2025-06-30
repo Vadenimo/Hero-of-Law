@@ -1,0 +1,1478 @@
+{
+  "Version": 2,
+  "Entries": [
+    {
+      "NPCName": "Malon",
+      "IsNull": false,
+      "ObjectID": 208,
+      "Hierarchy": 36240,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 2004,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        }
+      ],
+      "Scripts": [],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "1",
+            "Address": 9584,
+            "ObjectID": -1
+          }
+        ],
+        [
+          {
+            "Name": "A",
+            "Address": 13680,
+            "ObjectID": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 15,
+      "TalkSegment": 15,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [
+        {
+          "Name": "DList_0",
+          "Address": 19424,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 17,
+          "Color": "255, 255, 255",
+          "ObjectID": -1
+        }
+      ],
+      "DisplayListColors": [],
+      "Messages": [],
+      "DEBUGShowCols": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false
+    },
+    {
+      "NPCName": "Rauru",
+      "IsNull": false,
+      "ObjectID": 167,
+      "Hierarchy": 31544,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 2620,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        }
+      ],
+      "Scripts": [],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "1",
+            "Address": 14688,
+            "ObjectID": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 8,
+      "TalkSegment": 9,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [],
+      "DEBUGShowCols": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false
+    },
+    {
+      "NPCName": "Zelda",
+      "IsNull": false,
+      "ObjectID": 96,
+      "Hierarchy": 68976,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 956,
+          "ObjID": 334,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        }
+      ],
+      "Scripts": [],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "1",
+            "Address": 12488,
+            "ObjectID": -1
+          },
+          {
+            "Name": "2",
+            "Address": 15432,
+            "ObjectID": -1
+          },
+          {
+            "Name": "3",
+            "Address": 16456,
+            "ObjectID": -1
+          }
+        ],
+        [
+          {
+            "Name": "1",
+            "Address": 12488,
+            "ObjectID": -1
+          },
+          {
+            "Name": "2",
+            "Address": 15432,
+            "ObjectID": -1
+          },
+          {
+            "Name": "3",
+            "Address": 16456,
+            "ObjectID": -1
+          }
+        ],
+        [
+          {
+            "Name": "1",
+            "Address": 21832,
+            "ObjectID": -1
+          },
+          {
+            "Name": "2",
+            "Address": 22856,
+            "ObjectID": -1
+          },
+          {
+            "Name": "3",
+            "Address": 13576,
+            "ObjectID": -1
+          }
+        ],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 0,
+            "ObjectID": -5
+          }
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "1,2,3",
+      "TalkPattern": "",
+      "BlinkSegment": 8,
+      "TalkSegment": 10,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [],
+      "DEBUGShowCols": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false
+    },
+    {
+      "NPCName": "Ganon",
+      "IsNull": false,
+      "ObjectID": 155,
+      "Hierarchy": 72168,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 16992,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        }
+      ],
+      "Scripts": [],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 62328,
+            "ObjectID": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 8,
+      "TalkSegment": 8,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [],
+      "DEBUGShowCols": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false
+    },
+    {
+      "NPCName": "AudienceGoron",
+      "IsNull": false,
+      "ObjectID": 201,
+      "Hierarchy": 65264,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 8656,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        }
+      ],
+      "Scripts": [
+        {
+          "Text": "\r\n\r\n",
+          "ParseErrors": [],
+          "Name": ""
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "1",
+            "Address": 52864,
+            "ObjectID": -1
+          },
+          {
+            "Name": "2",
+            "Address": 53888,
+            "ObjectID": -1
+          },
+          {
+            "Name": "3",
+            "Address": 54912,
+            "ObjectID": -1
+          }
+        ],
+        [
+          {
+            "Name": "1",
+            "Address": 56960,
+            "ObjectID": -1
+          }
+        ],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 0,
+            "ObjectID": -5
+          }
+        ],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 0,
+            "ObjectID": -5
+          }
+        ],
+        [],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 0,
+            "ObjectID": -5
+          }
+        ],
+        [],
+        []
+      ],
+      "BlinkPattern": "1,2,3",
+      "TalkPattern": "1",
+      "BlinkSegment": 8,
+      "TalkSegment": 9,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [],
+      "DEBUGShowCols": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false
+    },
+    {
+      "NPCName": "AudienceZora",
+      "IsNull": false,
+      "ObjectID": 254,
+      "Hierarchy": 49064,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 1432,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        }
+      ],
+      "Scripts": [
+        {
+          "Text": "\r\n",
+          "ParseErrors": [],
+          "Name": ""
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "1",
+            "Address": 15936,
+            "ObjectID": -1
+          },
+          {
+            "Name": "2",
+            "Address": 17984,
+            "ObjectID": -1
+          },
+          {
+            "Name": "3",
+            "Address": 20032,
+            "ObjectID": -1
+          }
+        ],
+        [],
+        [
+          {
+            "Name": "",
+            "Address": 0,
+            "ObjectID": -5
+          }
+        ],
+        [],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 0,
+            "ObjectID": -5
+          }
+        ],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "1,2,3",
+      "TalkPattern": "",
+      "BlinkSegment": 8,
+      "TalkSegment": 8,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [],
+      "DEBUGShowCols": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false
+    },
+    {
+      "NPCName": "AudienceMan",
+      "IsNull": false,
+      "ObjectID": 263,
+      "Hierarchy": 240,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 7804,
+          "ObjID": 197,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        }
+      ],
+      "Scripts": [
+        {
+          "Text": "\r\n",
+          "ParseErrors": [],
+          "Name": ""
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 0,
+            "ObjectID": -5
+          }
+        ],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 0,
+            "ObjectID": -5
+          }
+        ],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 1404,
+            "ObjectID": -1
+          }
+        ],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 0,
+            "ObjectID": -5
+          }
+        ],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 0,
+            "ObjectID": -5
+          }
+        ],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 0,
+            "ObjectID": -5
+          }
+        ],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 8,
+      "TalkSegment": 8,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [],
+      "DEBUGShowCols": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false
+    },
+    {
+      "NPCName": "AudienceMan",
+      "IsNull": false,
+      "ObjectID": 261,
+      "Hierarchy": 240,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 3068,
+          "ObjID": 197,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        }
+      ],
+      "Scripts": [
+        {
+          "Text": "",
+          "ParseErrors": [],
+          "Name": ""
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 1480,
+            "ObjectID": -1
+          }
+        ],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 1480,
+            "ObjectID": -1
+          }
+        ],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 1480,
+            "ObjectID": -1
+          }
+        ],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 1480,
+            "ObjectID": -1
+          }
+        ],
+        [],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 0,
+            "ObjectID": -5
+          }
+        ],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 8,
+      "TalkSegment": 8,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [],
+      "DEBUGShowCols": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false
+    },
+    {
+      "NPCName": "Link",
+      "IsNull": false,
+      "ObjectID": 20,
+      "Hierarchy": 227316,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "255, 255, 255",
+      "LightRadius": 0,
+      "AnimationType": 1,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 12712,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255
+        }
+      ],
+      "Scripts": [],
+      "EnvironmentColor": "0, 0, 255",
+      "Segments": [
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 0,
+            "ObjectID": -1
+          }
+        ],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 16384,
+            "ObjectID": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 8,
+      "TalkSegment": 8,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [],
+      "DEBUGShowCols": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false
+    }
+  ],
+  "GlobalHeaders": [
+    {
+      "Text": "#define actor.posX actorf.0x24\r\n#define actor.posY actorf.0x28 \r\n#define actor.posZ actorf.0x2C \r\n#define actor.dirX actor16.0x30 \r\n#define actor.dirY actor16.0x32 \r\n#define actor.dirZ actor16.0x34 \r\n\r\n#define actor.homePosX actorf.0x8 \r\n#define actor.homePosY actorf.0xC \r\n#define actor.homePosZ actorf.0x10 \r\n#define actor.homeDirX actor16.0x12 \r\n#define actor.homeDirY actor16.0x14 \r\n#define actor.homeDirZ actor16.0x16 \r\n                \r\n#define actor.scaleX actorf.0x50 \r\n#define actor.scaleY actorf.0x54 \r\n#define actor.scaleZ actorf.0x58 \r\n\r\n#define actor.velocityX actorf.0x5C \r\n#define actor.velocityY actorf.0x60 \r\n#define actor.velocityZ actorf.0x64 \r\n\r\n#define actor.rotX actor16.0xB4 \r\n#define actor.rotY actor16.0xB6 \r\n#define actor.rotZ actor16.0xB8\r\n",
+      "ParseErrors": [],
+      "Name": "Definitions"
+    },
+    {
+      "Text": "proc basic_talk textbox\r\n    talk textbox\r\n        set talk_mode true\r\n        set animation 0\r\n        face self towards player\r\n        await talking_end\r\n        set talk_mode false\r\n    endtalk\r\nendproc\r\n\r\n\r\nproc talk_with_anim textbox talk_animation\r\n    talk textbox\r\n        set talk_mode true\r\n        set animation talk_animation\r\n        face self towards player\r\n        await talking_end\r\n        set animation 0\r\n        set talk_mode false\r\n    endtalk\r\nendproc\r\n",
+      "ParseErrors": [],
+      "Name": "Macros"
+    }
+  ]
+}

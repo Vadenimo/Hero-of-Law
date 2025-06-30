@@ -1,0 +1,5 @@
+0x8E7000,"assets//msgbox.bin"
+0x20,484C5A454C4441204D4153544552205155455354                                                       
+
+#Game always thinks it is US region
+0x1EA0,3C048000240F0002AC8F628003E00008

@@ -1,0 +1,3 @@
+ENTRY_POINT = 0x800A42F0;
+sSysCfbEnd = 0x80120FD8;
+sSysCfbFbPtr = 0x80120FD0;

@@ -1,0 +1,32 @@
+{
+    "daw": "musescore",
+    "time_signatures": {
+        "1": "1/4",
+        "2": "4/4"
+    },
+    "volume_scale": 0.78,
+    "pan_scale": 2.5,
+    "loop_start": 4.0,
+    "cc11_regions": [
+        {"track": "ocarina", "start": 32, "end": 33.5}
+    ],
+    "tracks": [
+        {"name": "flute"},
+        {"name": "oboe"},
+        {"name": "clarinet"},
+        {"name": "ocarina"},
+        {"name": "harp"},
+        {"name": "strings 1"},
+        {"name": "strings 2"},
+        {"name": "strings 3"},
+        {"name": "strings thinking 1"},
+        {"name": "strings thinking 2"},
+        {"name": "pizz strings"},
+        {"name": "bass strings"},
+        {"name": "snares 1"},
+        {"name": "snares 2"},
+        {"name": "timpani"},
+        {"name": "cymbal 1"},
+        {"name": "cymbal 2"}
+    ]
+}

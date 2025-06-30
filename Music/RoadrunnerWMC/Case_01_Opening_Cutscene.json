@@ -1,0 +1,41 @@
+{
+    "daw": "musescore",
+    "time_signatures": {
+        "1": "1/16",
+        "2": "6/8",
+        "5": "9/8"
+    },
+    "volume_scale": 0.70,
+    "loop_start": null,
+    "cc11_regions": [
+        {"track": "flute", "start": 4.0, "end": 7.0},
+        {"track": "horn 1", "start": 4.0, "end": 7.0},
+        {"track": "horn 2", "start": 4.0, "end": 7.0},
+        {"track": "horn 3", "start": 4.0, "end": 7.0},
+        {"track": "trumpet 1", "start": 4.0, "end": 7.0},
+        {"track": "trumpet 2", "start": 4.0, "end": 7.0},
+        {"track": "trumpet 3", "start": 4.0, "end": 7.0},
+        {"track": "tuba", "start": 4.0, "end": 7.0}
+    ],
+    "tracks": [
+        {"name": "flute"},
+        {"name": "horn 1"},
+        {"name": "horn 2"},
+        {"name": "horn 3"},
+        {"name": "trumpet 1"},
+        {"name": "trumpet 2"},
+        {"name": "trumpet 3"},
+        {"name": "harp 6"},
+        {"name": "harp 5"},
+        {"name": "harp 4"},
+        {"name": "harp 3"},
+        {"name": "harp 2"},
+        {"name": "harp 1"},
+        {"name": "tuba"},
+        {"name": "cymbal"},
+        {"name": "timpani 1"},
+        {"name": "timpani 2"},
+        {"name": "drum roll 1"},
+        {"name": "drum roll 2"}
+    ]
+}

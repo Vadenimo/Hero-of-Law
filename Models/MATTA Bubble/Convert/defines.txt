@@ -1,0 +1,4 @@
+
+#define  TEX_DARK_RED_PNG               0x06000000
+#define  PAL_0                          0x06000080
+#define  DL_MATTA                       0x06003448

@@ -1,0 +1,22 @@
+Track,Start Measures (1-indexed),,,,,,,,,,,,,,,,,,,,,,
+,1,8 3/4,12,12 3/4,13,14,20 1/2,21,24 7/8,28 3/4,29,32,36 1/2,36 13/16,37,37 3/4,39,40 1/2,40 3/4,41,41 1/2,42,
+1,clocktown bell,ocarina: a section,x,strings: b-d sections 2,x,x,x,glockenspiel,x,x,x,x,x,x,voice pad 1,x,x,x,x,clocktown bell,x,,clocktown bell
+2,glockenspiel,x,x,strings: b-d sections 3,x,x,x,x,trumpet: c section,x,wood chime,x,x,piano 1,x,x,x,x,x,x,,,glockenspiel
+3,trumpet: a section,x,x,strings: b-d sections 1,x,x,x,x,trombone: c section,x,harp: fairy fountain 1,x,x,x,harp: oot title arp 1,x,x,x,trumpet: a section,x,x,,trumpet: a section
+4,melody horn: a+d sections,x,x,tambourine kit 1,harp: fairy fountain 3,x,strings: a+c sections 4,x,x,x,harp: fairy fountain 3,x,melody horn: a+d sections,x,x,harp: oot title arp 4,x,x,melody horn: a+d sections,x,x,,melody horn: a+d sections
+5,melody horn: a section alt,x,"harp: fairy fountain {3,2,4}",x,harp: fairy fountain 4,x,"harp: fairy fountain {4,3}",,,"harp: fairy fountain {3,1,2,4}",harp: fairy fountain 4,x,x,x,,,,,,pizz strings,x,,melody horn: a section alt
+6,trombone: a section,x,x,,tambourine kit 4,x,strings: a+c sections 3,x,x,"bell pad {4,1 echo,3,2 echo}","bell pad {4,1 echo}",x,x,x,x,harp: oot title arp 3,x,x,trombone: a section,x,x,,trombone: a section
+7,strings: a+c sections 1,x,x,x,tambourine kit 3,x,x,tambourine kit 1,x,x,x,ocarina: d section,x,"harp: oot title arp {5,6}",x,harp: oot title arp 6,x,strings: b-d sections 1,x,strings: a+c sections 1,x,,strings: a+c sections 1
+8,strings: a+c sections 2,x,x,x,clocktown bell,,pizz strings,x,x,x,harp: fairy fountain 2,x,"harp: fairy fountain {2,3}",x,harp: oot title arp 2,x,x,x,,strings: a+c sections 2,x,,strings: a+c sections 2
+9,strings: a+c sections 3,x,x,x,harp: fairy fountain 2,x,x,tambourine kit 2,x,x,x,strings: b-d sections 2,x,piano 2,x,x,x,x,x,x,,,strings: a+c sections 3
+10,strings: a+c sections 4,x,x,x,,,strings: a+c sections 2,x,x,x,"bell pad {1,2 echo}",x,x,x,x,x,strings: a+c sections 4,x,x,x,x,,strings: a+c sections 4
+11,pizz strings,x,x,x,,,strings: a+c sections 1,x,x,x,"bell pad {3,4 echo}",x,x,x,"harp: oot title arp {3,4}",,strings: a+c sections 3,x,x,x,x,,pizz strings
+12,harmony horn,x,x,x,,,melody horn: c section 1,x,melody horn: c section 2,x,clocktown bell,"strings: b-d sections {1,3}",x,x,voice pad 2,x,x,x,x,harmony horn,x,,harmony horn
+13,tambourine kit 1,x,harp: fairy fountain 1,x,x,x,x,clocktown bell,harmony horn,"bell pad {2,3 echo,1,2 echo}","bell pad {2,3 echo}",x,x,x,clocktown bell,harp: oot title arp 5,x,tambourine kit 1,x,x,x,,tambourine kit 1
+14,toms,x,x,x,x,timpani 2,toms,x,x,x,x,,,,,,toms,x,x,x,x,,toms
+15,timpani 1,x,x,x,x,x,"timpani {1,2}",x,x,x,x,,,,,,timpani 1,x,x,x,x,,timpani 1
+16,"cymbal {1,2}",x,x,x,x,x,x,x,x,x,x,,,,cymbal 2,,,,"cymbal {1,2}",x,x,,"cymbal {1,2}"
+comments,intro; A sec brass part,"A sec, ocarina part","A sec, harps entering","A sec, brass ended",B sec,B sec (after cymbal),B sec ending,C sec start,C sec brass part,C sec last beat,D sec start,D sec second half,D sec horn start,D sec piano start,E sec start,E sec before second arp,E sec timpani start,E sec second-to-last beat,E sec last beat,Loop first measure,Loop first measure + .5,(end),Beginning (for reference)
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,"“{3,2,4}” so they’re all panned with 3 (in the middle)",,,,"“{4,3}” so 4’s note from the previous section isn’t interrupted",,,,FF 4 needs to carry over from the previous section so its note isn’t interrupted,,,,,,VP1 needs to stay on one track for its full duration,,,,,,
+,,,,,"FF {3,2,4} needs to become 4 or else a note gets chopped in half",,,,,,Same for BP 4 and 3E,,,,,,,,,,,,

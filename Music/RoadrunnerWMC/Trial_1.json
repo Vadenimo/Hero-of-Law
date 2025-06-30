@@ -1,0 +1,24 @@
+{
+    "daw": "musescore",
+    "loop_start": 3.0,
+    "volume_scale": 0.88,
+    "pan_scale": 3.0,
+    "tracks": [
+        {"name": "horn", "volume_scale": 0.98},
+        {"name": "flute", "volume_scale": 0.98},
+        {"name": "pizz strings", "pan_scale": 0.5},
+        {"name": "guitar 1"},
+        {"name": "guitar 2"},
+        {"name": "koto"},
+        {"name": "synth strings 1"},
+        {"name": "synth strings 2"},
+        {"name": "synth strings 3"},
+        {"name": "synth strings 4"},
+        {"name": "timpani 1", "force_instrument_id": 70},
+        {"name": "timpani 2", "force_instrument_id": 70},
+        {"name": "timpani 3", "force_instrument_id": 70},
+        {"name": "pitched drum", "force_instrument_id": 70},
+        {"name": "timpani 4", "force_instrument_id": 70},
+        {"name": "cymbal", "force_instrument_id": 70}
+    ]
+}

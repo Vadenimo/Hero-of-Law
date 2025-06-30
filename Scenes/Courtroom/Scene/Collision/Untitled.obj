@@ -1,0 +1,17 @@
+# Blender v3.0.1 OBJ File: 'Courtroom_Sharpocarina_Warm_3.0.1.blend'
+# www.blender.org
+mtllib Untitled.mtl
+g Collection#__LinkSpot#__Plane
+v -398.099640 58.877068 599.170044
+v -334.310089 58.877068 599.170044
+v -398.099640 58.877068 535.380493
+vt 1.674833 -2.349666
+vt 1.674833 3.349666
+vt -1.174833 0.500000
+vn 0.0000 1.0000 0.0000
+vc 0.6196 0.6196 0.6196 1.0000
+vc 0.6157 0.6157 0.6157 1.0000
+vc 0.6118 0.6118 0.6118 1.0000
+usemtl LinkSpot
+f 2/1/1 3/2/1 1/3/1
+fc 1 2 3

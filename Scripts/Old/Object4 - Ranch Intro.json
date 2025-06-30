@@ -1,0 +1,3452 @@
+{
+  "Version": 5,
+  "Entries": [
+    {
+      "NPCName": "Wallmaster Test",
+      "IsNull": false,
+      "ObjectID": 11,
+      "Hierarchy": 36784,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 1,
+      "LookAtType": 0,
+      "HeadLimb": 10,
+      "HeadHorizAxis": 2,
+      "HeadVertAxis": 4,
+      "WaistLimb": 9,
+      "WaistHorizAxis": 1,
+      "WaistVertAxis": 3,
+      "LookAtDegreesVertical": 60,
+      "LookAtDegreesHorizontal": 80,
+      "LookAtPositionOffsets": [
+        0.0,
+        490.0,
+        0.0
+      ],
+      "HasCollision": true,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": true,
+      "IsAlwaysDrawn": true,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": true,
+      "SfxIfAttacked": 14761,
+      "EffectIfAttacked": 7,
+      "OpensDoors": true,
+      "CollisionRadius": 33,
+      "CollisionHeight": 30,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": true,
+      "ShadowRadius": 41,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": true,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 9,
+      "TargetLimb": 10,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 50.0,
+      "MovementType": 1,
+      "MovementDistance": 100,
+      "MovementSpeed": 2.0,
+      "GravityForce": 1.0,
+      "PathID": 1,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": true,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 8.4,
+      "TimedPathStart": 8738,
+      "TimedPathEnd": 58345,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "0, 0, 0, 0",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 40368,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "Address": 16884,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "Address": 1424,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Talking",
+          "Address": 14768,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 5,
+          "EndFrame": 10,
+          "FileStart": -1
+        },
+        {
+          "Name": "Surprise",
+          "Address": 8536,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 4,
+          "EndFrame": 5,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "Text": "",
+          "TextLines": [
+            "INIT:",
+            "    ::spawnSpeakerbox",
+            "    set script_start AFTER_INIT",
+            "",
+            "AFTER_INIT:",
+            "    talk intro",
+            "       talk_mode true",
+            "",
+            "       ::setTextSpeed 1",
+            "       ::setSpeakerInternal SPEAKER_NONE",
+            "       face self towards player",
+            "       await talking_end",
+            "",
+            "       ::setTextSpeed 3",
+            "       ::setSpeakerInternal SPEAKER_LINK",
+            "       force_talk talking",
+            "       face self towards player",
+            "",
+            "       await textbox_num 2",
+            "       ::setSpeakerInternal SPEAKER_MALON",
+            "",
+            "       await textbox_num 3",
+            "       ::setSpeakerInternal SPEAKER_ZELDA",
+            "",
+            "       await textbox_num 4",
+            "       ::setSpeakerInternal SPEAKER_INGO",
+            "",
+            "       await textbox_num 5",
+            "       ::setSpeakerInternal SPEAKER_DRAGMIRE",
+            "",
+            "       await textbox_num 6",
+            "       ::setSpeakerInternal SPEAKER_JUDGE",
+            "",
+            "       await textbox_num 7",
+            "       ::setSpeakerInternal SPEAKER_IMPA",
+            "",
+            "       await textbox_num 8",
+            "       ::setSpeakerInternal SPEAKER_SOLDIER",
+            "",
+            "       await textbox_num 9",
+            "       ::setSpeakerInternal SPEAKER_NONE",
+            "",
+            "       await talking_end",
+            "",
+            "       animation idle",
+            "       talk_mode false",
+            "",
+            "    endtalk",
+            "",
+            ""
+          ],
+          "ParseErrors": [],
+          "Name": "Test"
+        },
+        {
+          "Text": "",
+          "TextLines": [
+            "",
+            "if is_talking and textbox_drawing and var.2 == 0",
+            "    set animation Talking once",
+            "    await animation_end",
+            "endif"
+          ],
+          "ParseErrors": [],
+          "Name": "TextTalkAnim"
+        }
+      ],
+      "EnvironmentColor": "Transparent",
+      "Segments": [
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 0,
+            "ObjectID": -4,
+            "FileStart": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 8,
+      "TalkSegment": 8,
+      "BlinkSpeed": 0,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [
+        {
+          "Color": "White",
+          "Limbs": "2"
+        },
+        {
+          "Color": "White",
+          "Limbs": "18"
+        },
+        {
+          "Color": "White",
+          "Limbs": "19"
+        },
+        {
+          "Color": "Red",
+          "Limbs": "20"
+        }
+      ],
+      "Messages": [
+        {
+          "Name": "talking",
+          "MessageText": "",
+          "MessageTextLines": [
+            "I am the great hero of law!",
+            "<New box>",
+            "No you aren't, you big doofus.",
+            "<New box>",
+            "Experts still divided on that one.",
+            "<New box>",
+            "Can it, you annoying brats!",
+            "<New box>",
+            "This is most pathetic.",
+            "<New box>",
+            "Order, order! I want a large pizza",
+            "with pepperoni.",
+            "<New box>",
+            "Humpf. I don't think I can afford that",
+            "on my salary. Noodles, maybe?",
+            "<New box>",
+            "You are all under arrest!",
+            "<New box>",
+            "<SOUND:NA_SE_IT_LASH>WHAAAAT?"
+          ],
+          "Type": 0,
+          "Position": 2
+        },
+        {
+          "Name": "intro",
+          "MessageText": "",
+          "MessageTextLines": [
+            "<SPEED:3><DC><G><PIXELS_RIGHT:50><SOUND:TYPEWRITER>March 1, XXXX",
+            "<PIXELS_RIGHT:53>Testing Level",
+            "<PIXELS_RIGHT:25>Goodness Knows Where<SOUND:0>"
+          ],
+          "Type": 0,
+          "Position": 0
+        }
+      ],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 8,
+      "NumFVars": 0,
+      "ExistInAllRooms": false,
+      "EmbeddedOverlayCode": {
+        "Code": "",
+        "CodeLines": [
+          ""
+        ],
+        "Functions": [],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ]
+      }
+    },
+    {
+      "NPCName": "CutsceneTalon",
+      "IsNull": false,
+      "ObjectID": 136,
+      "Hierarchy": 47032,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": true,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 20,
+      "CollisionHeight": 20,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": true,
+      "ShadowRadius": 60,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.0,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 6120,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 43,
+          "EndFrame": 43,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "Text": "",
+          "TextLines": [
+            "play cutscene",
+            "set script_start AFTER_INIT",
+            "set vSCENE_CUTSCENE_BARS = 1",
+            "",
+            "AFTER_INIT:",
+            "    if cutscene_frame == 45",
+            "        show_textbox_sp Mes1",
+            "    elif cutscene_frame == 130",
+            "        show_textbox_sp Mes2",
+            "    elif cutscene_frame == 275",
+            "        show_textbox_sp Mes3",
+            "    elif cutscene_frame == 510",
+            "        show_textbox_sp Mes4",
+            "    elif cutscene_frame == 651",
+            "        play sfx NA_SE_EV_WALL_BROKEN",
+            "    elif cutscene_frame == 720",
+            "        set SAVE_PROGRESS = PROGRESS_LOBBY_INTRO",
+            "        save",
+            "        warp 0x9 TRANS_TYPE_FADE_BLACK",
+            "    endif",
+            ""
+          ],
+          "ParseErrors": [],
+          "Name": "CutsceneScript"
+        },
+        {
+          "Text": "",
+          "TextLines": [
+            "::setCutsceneBars"
+          ],
+          "ParseErrors": [],
+          "Name": "CutsceneBars"
+        },
+        {
+          "Text": "",
+          "TextLines": [
+            "if cutscene_frame == 222",
+            "    play sfx NA_SE_EV_COW_CRY_LV",
+            "elif cutscene_frame == 555",
+            "    play sfx NA_SE_EV_CHICKEN_CRY_N 0.6",
+            "elif cutscene_frame == 600",
+            "    stop sfx NA_SE_EV_COW_CRY_LV",
+            "    stop sfx NA_SE_EV_CHICKEN_CRY_N",
+            "endif",
+            ""
+          ],
+          "ParseErrors": [],
+          "Name": "Snd"
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "Eyes",
+            "Address": 29376,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [
+          {
+            "Name": "Nose",
+            "Address": 29376,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 8,
+      "TalkSegment": 9,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [
+        {
+          "Name": "Bottle",
+          "Address": 1896,
+          "TransX": 187.0,
+          "TransY": 47.0,
+          "TransZ": -87.0,
+          "RotX": 0,
+          "RotY": 10030,
+          "RotZ": 0,
+          "Scale": 26.0,
+          "ShowType": 1,
+          "Limb": -2,
+          "Color": "White",
+          "ObjectID": 319,
+          "FileStart": -1
+        },
+        {
+          "Name": "Cap",
+          "Address": 1664,
+          "TransX": 187.0,
+          "TransY": 47.0,
+          "TransZ": -87.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 26.0,
+          "ShowType": 1,
+          "Limb": -2,
+          "Color": "White",
+          "ObjectID": 319,
+          "FileStart": -1
+        }
+      ],
+      "DisplayListColors": [],
+      "Messages": [
+        {
+          "Name": "Mes1",
+          "MessageText": "",
+          "MessageTextLines": [
+            "It's so quiet...<FADE:50>"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Mes2",
+          "MessageText": "",
+          "MessageTextLines": [
+            "Do you think they forgot?<FADE:60>"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Mes3",
+          "MessageText": "",
+          "MessageTextLines": [
+            "Forget a royal visitation? No one",
+            "could make such a blunder, princess.<FADE:80>"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Mes4",
+          "MessageText": "",
+          "MessageTextLines": [
+            "Well, I guess I should just go",
+            "in, then...<FADE:60>"
+          ],
+          "Type": 0,
+          "Position": 0
+        }
+      ],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 5,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "EmbeddedOverlayCode": {
+        "Code": "",
+        "CodeLines": [
+          ""
+        ],
+        "Functions": [],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ]
+      }
+    },
+    {
+      "NPCName": "CutsceneMalon",
+      "IsNull": false,
+      "ObjectID": 208,
+      "Hierarchy": 36240,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        300
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": true,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 20,
+      "CollisionHeight": 20,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": true,
+      "ShadowRadius": 30,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 2004,
+          "ObjID": -1,
+          "Speed": 0.5,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "Text": "",
+          "TextLines": [
+            "set actor.rotX = DEG_-90"
+          ],
+          "ParseErrors": [],
+          "Name": "Main"
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 12400,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [
+          {
+            "Name": "Texture_0",
+            "Address": 13680,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 8,
+      "TalkSegment": 8,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [
+        {
+          "Name": "Saw",
+          "Address": 2016,
+          "TransX": 1301.0,
+          "TransY": -99.0,
+          "TransZ": 0.0,
+          "RotX": 9010,
+          "RotY": -8800,
+          "RotZ": -28010,
+          "Scale": 28.0,
+          "ShowType": 1,
+          "Limb": 16,
+          "Color": "White",
+          "ObjectID": 245,
+          "FileStart": -1
+        },
+        {
+          "Name": "Shoulder",
+          "Address": 31104,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 3000,
+          "RotY": 13910,
+          "RotZ": -27000,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 14,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "ShoulderLeft",
+          "Address": 32320,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": -7000,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 3,
+          "Limb": 11,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        }
+      ],
+      "DisplayListColors": [],
+      "Messages": [],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "EmbeddedOverlayCode": {
+        "Code": "",
+        "CodeLines": [
+          ""
+        ],
+        "Functions": [],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ]
+      }
+    },
+    {
+      "NPCName": "CutsceneZelda",
+      "IsNull": false,
+      "ObjectID": 29,
+      "Hierarchy": 55072,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.011,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": true,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 3,
+      "CollisionHeight": 12,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": true,
+      "ShadowRadius": 33,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": -2.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": true,
+      "Glow": false,
+      "LightLimb": 12,
+      "LightPositionOffsets": [
+        0,
+        0,
+        66
+      ],
+      "LightColor": "189, 166, 151",
+      "LightRadius": 183,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 72020,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "Address": 104652,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Horror",
+          "Address": 92128,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 28,
+          "FileStart": -1
+        },
+        {
+          "Name": "HorrorLoop",
+          "Address": 92128,
+          "ObjID": -1,
+          "Speed": 0.4,
+          "StartFrame": 28,
+          "EndFrame": 50,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "Text": "",
+          "TextLines": [
+            "if cutscene_frame == 580",
+            "    set OPEN_DOORS true",
+            "    position direction_move_by self 0 0 40 1",
+            "",
+            "    play bgm NA_BGM_FIELD_ENEMY_4",
+            "    play sfx NA_SE_VO_Z1_SURPRISE",
+            "    show_textbox_sp Mes5",
+            "    set SEGMENT_ENTRY SEGMENT_8 EyeScared",
+            "    set SEGMENT_ENTRY SEGMENT_9 MouthOpen",
+            "    set animation Horror once",
+            "    await animation_end",
+            "    set animation HorrorLoop",
+            "    play sfx NA_SE_VO_Z1_PAIN",
+            "",
+            "endif",
+            ""
+          ],
+          "ParseErrors": [],
+          "Name": "Walk forward"
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "EyeOpen",
+            "Address": 6016,
+            "ObjectID": -1,
+            "FileStart": -1
+          },
+          {
+            "Name": "EyeHalf",
+            "Address": 8064,
+            "ObjectID": -1,
+            "FileStart": -1
+          },
+          {
+            "Name": "EyeShut",
+            "Address": 10112,
+            "ObjectID": -1,
+            "FileStart": -1
+          },
+          {
+            "Name": "EyeScared",
+            "Address": 18304,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [
+          {
+            "Name": "MouthIdle",
+            "Address": 22400,
+            "ObjectID": -1,
+            "FileStart": -1
+          },
+          {
+            "Name": "MouthOpen",
+            "Address": 27520,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [],
+        [
+          {
+            "Name": "Stub",
+            "Address": 0,
+            "ObjectID": -5,
+            "FileStart": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 8,
+      "TalkSegment": 9,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [
+        {
+          "Name": "Mes5",
+          "MessageText": "",
+          "MessageTextLines": [
+            "<DI>...!<FADE:30>"
+          ],
+          "Type": 0,
+          "Position": 0
+        }
+      ],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 11,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "EmbeddedOverlayCode": {
+        "Code": "",
+        "CodeLines": [
+          ""
+        ],
+        "Functions": [
+          {
+            "Key": "NpcM_DestroyZelda",
+            "Value": 48
+          },
+          {
+            "Key": "NpcM_InitZelda",
+            "Value": 0
+          },
+          {
+            "Key": "NpcM_ZeldaHairNonsense",
+            "Value": 2692
+          }
+        ],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ]
+      }
+    },
+    {
+      "NPCName": "",
+      "IsNull": true,
+      "ObjectID": 0,
+      "Hierarchy": 0,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [],
+      "Scripts": [],
+      "EnvironmentColor": "White",
+      "Segments": [],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 7,
+      "TalkSegment": 7,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "EmbeddedOverlayCode": {
+        "Code": "",
+        "CodeLines": [
+          ""
+        ],
+        "Functions": [],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ]
+      }
+    },
+    {
+      "NPCName": "MalonLobby_OLD",
+      "IsNull": false,
+      "ObjectID": 16,
+      "Hierarchy": 89128,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": true,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": true,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 3,
+      "CollisionHeight": 3,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": true,
+      "ShadowRadius": 20,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": true,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 41332,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Shrug",
+          "Address": 44924,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Waving",
+          "Address": 37864,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Pensive",
+          "Address": 21268,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Clapping",
+          "Address": 17264,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 13,
+          "EndFrame": 13,
+          "FileStart": -1
+        },
+        {
+          "Name": "Sad",
+          "Address": 21268,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "WideArms",
+          "Address": 3264,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "Text": "",
+          "TextLines": [
+            "if vACTOR_SET_ANIMATION == NONE",
+            "    return",
+            "elif vACTOR_SET_ANIMATION = MALON_SAD",
+            "    goto SET_SAD",
+            "elif vACTOR_SET_ANIMATION = MALON_PENSIVE",
+            "    goto SET_PENSIVE",
+            "elif vACTOR_SET_ANIMATION = MALON_NORMAL",
+            "    goto SET_NORMAL",
+            "elif vACTOR_SET_ANIMATION = MALON_ANGRY",
+            "    goto SET_ANGRY",
+            "elif vACTOR_SET_ANIMATION = MALON_CLAPPING",
+            "    goto SET_CLAPPING",
+            "elif vACTOR_SET_ANIMATION = MALON_PHOTO_VISIBLE",
+            "    goto SET_PHOTO_VISIBLE",
+            "elif vACTOR_SET_ANIMATION = MALON_PHOTO_INVISIBLE",
+            "    goto SET_PHOTO_INVISIBLE",
+            "elif vACTOR_SET_ANIMATION = MALON_MOVE_HEAD_UP",
+            "    goto SET_MOVE_HEAD_UP",
+            "elif vACTOR_SET_ANIMATION = MALON_GIVE_PHOTO",
+            "    goto SET_GIVE_PHOTO",
+            "elif vACTOR_SET_ANIMATION = MALON_NORMALSAD",
+            "    goto SET_NORMALSAD",
+            "endif",
+            "",
+            "return",
+            "",
+            "SET_MOVE_HEAD_UP:",
+            "    var.3 = 0",
+            "    while var.3 != 10",
+            "        set DLIST_ROT_Z Head -= 400",
+            "        var.3 += 1",
+            "        await frames 0",
+            "    endwhile",
+            "    set vACTOR_SET_ANIMATION = NONE",
+            "    return",
+            "",
+            "SET_GIVE_PHOTO:",
+            "    var.3 = 0",
+            "    while var.3 != 10",
+            "        set DLIST_ROT_Z Hand -= 1400",
+            "        var.3 += 1",
+            "        await frames 0",
+            "    endwhile",
+            "",
+            "    var.3 = 0",
+            "    set DLIST_VISIBILITY Pictograph NOT_VISIBLE",
+            "",
+            "    while var.3 != 10",
+            "        set DLIST_ROT_Z Hand += 1400",
+            "        var.3 += 1",
+            "        await frames 0",
+            "    endwhile",
+            "",
+            "    set vACTOR_SET_ANIMATION = NONE",
+            "    return",
+            "",
+            "SET_PHOTO_VISIBLE:",
+            "    set DLIST_VISIBILITY Pictograph WITH_LIMB",
+            "    set vACTOR_SET_ANIMATION = NONE",
+            "    return",
+            "",
+            "SET_PHOTO_INVISIBLE:",
+            "    set DLIST_VISIBILITY Pictograph NOT_VISIBLE",
+            "    set vACTOR_SET_ANIMATION = NONE",
+            "    return",
+            "",
+            "",
+            "SET_SAD:",
+            "    set DO_BLINKING_ANIMATIONS false",
+            "    set SEGMENT_ENTRY SEGMENT_8 Cry",
+            "    set TALK_PATTERN MouthSad,MouthOpen,MouthOpenMore",
+            "    set ref_actor self",
+            "    set actor.rotY = 6720",
+            "    set animation Sad",
+            "    set vACTOR_SET_ANIMATION = NONE",
+            "    return",
+            "",
+            "SET_PENSIVE:",
+            "    set DO_BLINKING_ANIMATIONS false",
+            "    set SEGMENT_ENTRY SEGMENT_8 Cry",
+            "    set TALK_PATTERN MouthSad,MouthOpen,MouthOpenMore",
+            "    set ref_actor self",
+            "    set actor.rotY = 6720",
+            "    set animation Pensive",
+            "    set vACTOR_SET_ANIMATION = NONE",
+            "    return",
+            "",
+            "SET_NORMAL:",
+            "    set DO_BLINKING_ANIMATIONS true",
+            "    set TALK_PATTERN MouthIdle,MouthOpen,MouthOpenMore",
+            "    set BLINK_PATTERN EyeOpen EyeMid EyeClosed",
+            "    set ref_actor self",
+            "    set actor.rotY = 6720",
+            "    set animation Idle",
+            "    set DLIST_ROT_Z Head = 0",
+            "    set vACTOR_SET_ANIMATION = NONE",
+            "    return",
+            "",
+            "SET_NORMALSAD:",
+            "    set DO_BLINKING_ANIMATIONS false",
+            "    set SEGMENT_ENTRY SEGMENT_8 Cry",
+            "    set TALK_PATTERN MouthSad,MouthOpen,MouthOpenMore",
+            "    set ref_actor self",
+            "    set actor.rotY = 6720",
+            "    set animation Idle",
+            "    set DLIST_ROT_Z Head = 0",
+            "    set vACTOR_SET_ANIMATION = NONE",
+            "    return",
+            "",
+            "SET_ANGRY:",
+            "    set DO_BLINKING_ANIMATIONS true",
+            "    set TALK_PATTERN MouthSad,MouthOpen,MouthOpenMore",
+            "    set BLINK_PATTERN Angry AngryClosed",
+            "    set ref_actor self",
+            "    set actor.rotY = 6720",
+            "    set animation WideArms",
+            "    set vACTOR_SET_ANIMATION = NONE",
+            "    return",
+            "",
+            "SET_CLAPPING:",
+            "    set DO_BLINKING_ANIMATIONS true",
+            "    set TALK_PATTERN MouthIdle,MouthOpen,MouthOpenMore",
+            "    set BLINK_PATTERN EyeOpen EyeMid EyeClosed",
+            "    set ref_actor self",
+            "    set actor.rotY = 6720",
+            "    set animation Clapping",
+            "    set vACTOR_SET_ANIMATION = NONE",
+            "    return"
+          ],
+          "ParseErrors": [],
+          "Name": "AnimationSet"
+        },
+        {
+          "Text": "",
+          "TextLines": [
+            "::setSelfAsSpeaker SPEAKER_MALON"
+          ],
+          "ParseErrors": [],
+          "Name": "SpeakerSet"
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "EyeOpen",
+            "Address": 72408,
+            "ObjectID": -1,
+            "FileStart": -1
+          },
+          {
+            "Name": "EyeMid",
+            "Address": 74456,
+            "ObjectID": -1,
+            "FileStart": -1
+          },
+          {
+            "Name": "EyeClosed",
+            "Address": 76504,
+            "ObjectID": -1,
+            "FileStart": -1
+          },
+          {
+            "Name": "AngryClosed",
+            "Address": 78552,
+            "ObjectID": -1,
+            "FileStart": -1
+          },
+          {
+            "Name": "Angry",
+            "Address": 80600,
+            "ObjectID": -1,
+            "FileStart": -1
+          },
+          {
+            "Name": "Cry",
+            "Address": 82648,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [
+          {
+            "Name": "MouthIdle",
+            "Address": 84696,
+            "ObjectID": -1,
+            "FileStart": -1
+          },
+          {
+            "Name": "MouthOpen",
+            "Address": 85720,
+            "ObjectID": -1,
+            "FileStart": -1
+          },
+          {
+            "Name": "MouthSad",
+            "Address": 86744,
+            "ObjectID": -1,
+            "FileStart": -1
+          },
+          {
+            "Name": "MouthOpenMore",
+            "Address": 87768,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "EyeOpen,EyeMid,EyeClosed",
+      "TalkPattern": "MouthIdle,MouthOpen,MouthOpenMore",
+      "BlinkSegment": 8,
+      "TalkSegment": 9,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [
+        {
+          "Name": "Pictograph",
+          "Address": 2496,
+          "TransX": 665.0,
+          "TransY": -200.0,
+          "TransZ": -100.0,
+          "RotX": 2000,
+          "RotY": -2000,
+          "RotZ": 16000,
+          "Scale": 10.0,
+          "ShowType": 0,
+          "Limb": 4,
+          "Color": "White",
+          "ObjectID": 326,
+          "FileStart": -1
+        },
+        {
+          "Name": "Head",
+          "Address": 0,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 4,
+          "Limb": 8,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "Hand",
+          "Address": 0,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 4,
+          "Limb": 2,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        }
+      ],
+      "DisplayListColors": [],
+      "Messages": [],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 3,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "EmbeddedOverlayCode": {
+        "Code": "",
+        "CodeLines": [
+          ""
+        ],
+        "Functions": [],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ]
+      }
+    },
+    {
+      "NPCName": "Soldier1Lobby_OLD",
+      "IsNull": false,
+      "ObjectID": 151,
+      "Hierarchy": 47816,
+      "FileStart": 0,
+      "HierarchyType": 2,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": true,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 6,
+      "CollisionHeight": 6,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": true,
+      "ShadowRadius": 30,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 23600,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "Address": 22656,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "SpearSlam",
+          "Address": 21760,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "Text": "",
+          "TextLines": [
+            "if vACTOR_SET_ANIMATION == NONE",
+            "    return",
+            "elif vACTOR_SET_ANIMATION = SOLDIER_SPEAR_SLAM",
+            "    goto SET_SPEAR_SLAM",
+            "endif",
+            "",
+            "return",
+            "",
+            "SET_SPEAR_SLAM:",
+            "    set animation SpearSlam once",
+            "    await animation_frame = 10",
+            "    play sfx NA_SE_IT_STONE_HIT",
+            "    await animation_end",
+            "    set animation Idle",
+            "    set vACTOR_SET_ANIMATION = NONE",
+            "    return"
+          ],
+          "ParseErrors": [],
+          "Name": "AnimSet"
+        },
+        {
+          "Text": "",
+          "TextLines": [
+            "::setSelfAsSpeaker SPEAKER_SOLDIER"
+          ],
+          "ParseErrors": [],
+          "Name": "SpeakerSet"
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 8,
+      "TalkSegment": 8,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "EmbeddedOverlayCode": {
+        "Code": "",
+        "CodeLines": [
+          ""
+        ],
+        "Functions": [],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ]
+      }
+    },
+    {
+      "NPCName": "Soldier2Lobby_OLD",
+      "IsNull": false,
+      "ObjectID": 151,
+      "Hierarchy": 47816,
+      "FileStart": 0,
+      "HierarchyType": 2,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": true,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 6,
+      "CollisionHeight": 6,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": true,
+      "ShadowRadius": 30,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 23600,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "Address": 22656,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "SpearSlam",
+          "Address": 21760,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 8,
+      "TalkSegment": 8,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "EmbeddedOverlayCode": {
+        "Code": "",
+        "CodeLines": [
+          ""
+        ],
+        "Functions": [],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ]
+      }
+    },
+    {
+      "NPCName": "LobbyController_OLD",
+      "IsNull": false,
+      "ObjectID": 0,
+      "Hierarchy": 0,
+      "FileStart": 0,
+      "HierarchyType": 2,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": true,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": true,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "Text": "",
+          "TextLines": [
+            "#define CAMERA_MAIN 1",
+            "#define CAMERA_SOLDIER 421",
+            "#define CAMERA_BG 623",
+            "",
+            "#define CURRENT_TEXT_POS var.1",
+            "#define CURRENT_TEXT_ID var.2",
+            "#define CURRENT_SPEAKER var.3",
+            "#define CAN_OPEN_COURTRECORD var.4",
+            "",
+            "INIT:",
+            "    SAVE_PROGRESS = 1",
+            "    EVIDENCE = EVIDENCE_START",
+            "    SAVE_TEMP = 0",
+            "    ::spawnSpeakerbox",
+            "    ::spawnMusicThonker",
+            "",
+            "    ::INV_CR_CLOSED",
+            "",
+            "    play cutscene",
+            "    set pause_cutscene true",
+            "    set save16.0x13EA = 0",
+            "    set script_start AFTER_INIT",
+            "",
+            "AFTER_INIT:",
+            "    await frames 10",
+            "    ::setTextSpeed 1",
+            "    ::textboxSpeaker EntryText SPEAKER_NONE",
+            "    ::setTextSpeed 3",
+            "",
+            "AFTER_INTRO_TEXT:",
+            "    play bgm NA_BGM_DUNGEON",
+            "",
+            "    ::INV_CR_OPEN",
+            "",
+            "    ::textboxLink Link_1",
+            "    await frames 20",
+            "    ::textboxLink Link_1b",
+            "    ::setCamera CAMERA_SOLDIER",
+            "    ::rotate LOBBY_SOLDIER1 0 DEG_20 0 DEG_5",
+            "    ::setActorAnim LOBBY_SOLDIER1 SOLDIER_SPEAR_SLAM",
+            "    ::textboxSoldier Soldier_1",
+            "    ::textboxLink Link_2",
+            "    ::textboxSoldier Soldier_2",
+            "    ::rotate LOBBY_SOLDIER1 0 DEG_-20 0 DEG_5",
+            "    play SFX_GLOBAL NA_SE_EV_DOOR_CLOSE",
+            "    ::textboxSoldier Soldier_3",
+            "",
+            "MALON_APPEARS:",
+            "    ::setActorAnim LOBBY_MALON MALON_SAD",
+            "    await frames 5",
+            "    ::setNpcMakerVisible LOBBY_MALON",
+            "    ::setCamera CAMERA_MAIN",
+            "",
+            "    await frames 10",
+            "    ::textboxMalon Malon_1",
+            "    ::textboxLink Link_3",
+            "    ::textboxMalon Malon_2",
+            "",
+            "    ::INV_CR_CLOSED",
+            "",
+            "    set vSCENE_CUTSCENE_BARS = 1",
+            "    ::textboxLink Link_4",
+            "    set vSCENE_CUTSCENE_BARS = 0",
+            "",
+            "    ::INV_CR_OPEN",
+            "",
+            "    ::setActorAnim LOBBY_MALON MALON_PENSIVE",
+            "    ::textboxMalon Malon_3",
+            "    ::textboxLink Link_5",
+            "    ::setActorAnim LOBBY_MALON MALON_CLAPPING",
+            "    ::textboxMalon Malon_4",
+            "    ::textboxLink Link_6",
+            "",
+            "    await frames 3",
+            "    ::setSpeakerInternal SPEAKER_LINK",
+            "    show_textbox_sp Link_7",
+            "    await textbox_drawing false",
+            "    ::setActorAnim LOBBY_MALON MALON_SAD",
+            "    await textbox_on_screen false",
+            "",
+            "CHOICE:",
+            "",
+            "    set RESPONSE_ACTIONS LINK_BELIEVES LINK_DISBELIEVES",
+            "    ::textboxMalon Malon_5",
+            "    await response",
+            "",
+            "LINK_BELIEVES:",
+            "    ::textboxLink Link_8_Choice1",
+            "    goto AFTER_CHOICE",
+            "",
+            "LINK_DISBELIEVES:",
+            "    ::textboxLink Link_8_Choice2",
+            "    ::setActorAnim LOBBY_MALON MALON_ANGRY",
+            "    ::textboxMalon Malon_7_Choice2",
+            "    ::textboxLink Link_9_Choice2",
+            "",
+            "AFTER_CHOICE:",
+            "    ::setActorAnim LOBBY_MALON MALON_NORMALSAD",
+            "    await frames 15",
+            "    ::setActorAnim LOBBY_MALON MALON_PHOTO_VISIBLE",
+            "    await frames 2",
+            "    ::setActorAnim LOBBY_MALON MALON_SAD",
+            "    await frames 20",
+            "",
+            "    ::setTextSpeed 1",
+            "    ::textboxMalon Malon_8",
+            "    ::setTextSpeed 3",
+            "",
+            "    ::textboxLink Link_10",
+            "    ::setActorAnim LOBBY_MALON MALON_NORMAL",
+            "    ::textboxMalon Malon_9",
+            "",
+            "PICTURE:",
+            "    ::INV_CR_CLOSED",
+            "",
+            "    FADEOUT 0 0 0 15",
+            "    ::setCamera CAMERA_BG",
+            "",
+            "    ::setUIStyle GUI_PHOTO",
+            "",
+            "    FADEIN 35",
+            "    ::textboxMalon Malon_10",
+            "    ::setActorAnim LOBBY_MALON MALON_SAD",
+            "    FADEOUT 0 0 0 25",
+            "",
+            "    ::setUIStyle GUI_NONE",
+            "",
+            "    ::setCamera CAMERA_MAIN",
+            "    FADEIN 25",
+            "",
+            "    ::INV_CR_OPEN",
+            "",
+            "AFTER_PICTURE:",
+            "    ::textboxLink Link_11",
+            "    ::setActorAnim LOBBY_MALON MALON_PENSIVE",
+            "    ::textboxMalon Malon_11",
+            "    ::textboxLink Link_12",
+            "    ::setActorAnim LOBBY_MALON MALON_MOVE_HEAD_UP",
+            "    await frames 15",
+            "    ::textboxMalon Malon_12",
+            "    ::setActorAnim LOBBY_MALON MALON_NORMAL",
+            "    ::textboxMalon Malon_12b",
+            "",
+            "    ::setActorAnim LOBBY_MALON MALON_GIVE_PHOTO",
+            "",
+            "    ::INV_CR_CLOSED",
+            "",
+            "    EVIDENCE = EVIDENCE_GOTPHOTO",
+            "",
+            "    ::textboxSpeaker Court_Record_1 SPEAKER_NONE",
+            "",
+            "    ::INV_CR_OPEN",
+            "",
+            "    ::textboxLink Link_13",
+            "    ::setActorAnim LOBBY_MALON MALON_PENSIVE",
+            "    ::textboxMalon Malon_13",
+            "",
+            "ENTER_COURT:",
+            "",
+            "    ::INV_CR_CLOSED",
+            "",
+            "    play bgm 0",
+            "    ::setTextSpeed 5",
+            "    ::setCamera CAMERA_SOLDIER",
+            "    ::rotate LOBBY_SOLDIER1 0 DEG_20 0 DEG_20",
+            "    ::setActorAnim LOBBY_SOLDIER1 SOLDIER_SPEAR_SLAM",
+            "    ::textboxSoldier Soldier_4",
+            "    ::setTextSpeed 3",
+            "",
+            "    ::setCamera CAMERA_MAIN",
+            "    ::setActorAnim LOBBY_MALON MALON_SAD",
+            "    ::textboxLink Link_14",
+            "",
+            "",
+            "    FADEOUT 0 0 0 5",
+            "",
+            "    ::textboxLink Link_15",
+            "",
+            "    set SAVE_PROGRESS = 2",
+            "    save",
+            "    warp 0x15"
+          ],
+          "ParseErrors": [],
+          "Name": "LobbyCutscene"
+        },
+        {
+          "Text": "",
+          "TextLines": [
+            "#define CURRENT_TEXT_POS var.1",
+            "#define CURRENT_TEXT_ID var.2",
+            "#define CURRENT_SPEAKER var.3",
+            "#define CAN_OPEN_COURTRECORD var.4",
+            "#define CURRENT_TEXT_POSDRAW var.5",
+            "",
+            "#define COURTRECORD_MODE_VAR var.1",
+            "",
+            "#define COURTRECORD_MODE_EVIDENCE 0",
+            "#define COURTRECORD_MODE_PROFILES 1",
+            "#define COURTRECORD_MODE_PRESENT 2",
+            "",
+            "Start:",
+            "",
+            "set ref_actor self",
+            "npcmaker.isSpeaking = 1",
+            "",
+            "ccall NpcM_GetTextboxResumePos",
+            "",
+            "::setCutsceneBars",
+            "",
+            "if TEXTBOX_DRAWING false and TEXTBOX_ON_SCREEN true and CAN_OPEN_COURTRECORD == 1 and gTextboxDrawPos > 0",
+            "",
+            "    if BUTTON_PRESSED BTN_R",
+            "        script stop 0",
+            "        CURRENT_TEXT_ID = npcmaker.curtextId",
+            "        CURRENT_TEXT_ID += 0x8000",
+            "        CURRENT_TEXT_POSDRAW = gTextboxDrawPos",
+            "        npcmaker.curtextId = -1",
+            "",
+            "        set REF_ACTOR ACTOR_ID 1",
+            "        set CURRENT_SPEAKER = UIACTOR_SPEAKER",
+            "",
+            "        CLOSE_TEXTBOX",
+            "        ::setSpeakerInternal SPEAKER_NONE",
+            "        PLAY SFX NA_SE_SY_WIN_OPEN",
+            "",
+            "        if EVIDENCE == EVIDENCE_START",
+            "            ::setUIStyleArrows GUI_COURTRECORD_EVIDENCE GUI_ARROWS_NONE",
+            "        else",
+            "            ::setUIStyleArrows GUI_COURTRECORD_EVIDENCE GUI_ARROWS_BOTH",
+            "        endif",
+            "",
+            "        ::spawnCourtRecord",
+            "",
+            "        await frames 2",
+            "",
+            "        set ext_var 50 1 = COURTRECORD_MODE_EVIDENCE",
+            "",
+            "        set SCRIPT_START Await_CourtRecord_End",
+            "",
+            "        Await_CourtRecord_End:",
+            "            SET REF_ACTOR NPCMAKER 50",
+            "            if REF_ACTOR_EXISTS true",
+            "                return",
+            "            else",
+            "                goto CourtRecord_Closed",
+            "            endif",
+            "",
+            "        CourtRecord_Closed:",
+            "            close_textbox",
+            "           await frames 3",
+            "",
+            "            //await textbox_on_screen false",
+            "            show_textbox_sp CURRENT_TEXT_ID",
+            "            gTextBufPos = CURRENT_TEXT_POS",
+            "            await TEXTBOX_DRAWING true",
+            "",
+            "            gTextboxDrawPos = CURRENT_TEXT_POSDRAW",
+            "",
+            "            ::setSpeakerInternal CURRENT_SPEAKER",
+            "",
+            "            set SCRIPT_START Start",
+            "",
+            "            ::setUIStyleArrows GUI_INVESTIGATION GUI_ARROWS_NONE",
+            "            script start 0",
+            "    endif",
+            "endif",
+            "",
+            "",
+            ""
+          ],
+          "ParseErrors": [],
+          "Name": "Always"
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 8,
+      "TalkSegment": 8,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [
+        {
+          "Name": "EntryText",
+          "MessageText": "",
+          "MessageTextLines": [
+            "<SPEED:1><G><PIXELS_RIGHT:43><SOUND:TYPEWRITER>March 17, 9:47 AM",
+            "<PIXELS_RIGHT:45>Hyrule Grand Court",
+            "<PIXELS_RIGHT:37>Defendant Lobby No. 3<SOUND:0>"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Link_1",
+          "MessageText": "",
+          "MessageTextLines": [
+            "<SOUND:0><C>(Another day, another court case...",
+            "This should be easy, after all I've",
+            "been through.)",
+            "<New_box>",
+            "<C><SOUND:EXPLOSION>(...so why am I shaking?!)",
+            "<New_box>",
+            "<C>(Gah.<PAUSE> I guess it's a lot more stressful",
+            "when your friend's life is on the line.)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Link_2",
+          "MessageText": "",
+          "MessageTextLines": [
+            "Well, yes, I believe it is!",
+            "<NEW BOX><DI><SOUND:EXPLOSION>My client's not here yet,",
+            "and the trial's about to start!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Link_3",
+          "MessageText": "",
+          "MessageTextLines": [
+            "Ah!<PAUSE> Hello!<PAUSE> No, no. Don't worry!<PAUSE>",
+            "Everything's fine."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Link_4",
+          "MessageText": "",
+          "MessageTextLines": [
+            "<SOUND:0><C>(This is <R>Malon<C>.",
+            "Ever since we met in Hyrule Castle",
+            "Town all those years ago, we've",
+            "been great friends.)",
+            "<New_box>",
+            "<C>(Her heart's in the right place.",
+            "I know she cared deeply about",
+            "her father.)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Soldier_1",
+          "MessageText": "",
+          "MessageTextLines": [
+            "H-huh?<PAUSE> Yes? Is something the matter?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Soldier_2",
+          "MessageText": "",
+          "MessageTextLines": [
+            "W-well, I, uh...<Fade:20>"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Malon_1",
+          "MessageText": "",
+          "MessageTextLines": [
+            "...Did I hear shouting?",
+            "Is something wrong?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Malon_2",
+          "MessageText": "",
+          "MessageTextLines": [
+            "Hmm..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Malon_3",
+          "MessageText": "",
+          "MessageTextLines": [
+            "If everything's fine...<PAUSE><SOUND:CLUE> why do you",
+            "look so worried?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Malon_4",
+          "MessageText": "",
+          "MessageTextLines": [
+            "How did the investigation go?",
+            "Did you find anything?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Malon_5",
+          "MessageText": "",
+          "MessageTextLines": [
+            "You believe in me, right?<PAUSE>",
+            "I didn't do it. I'd never!",
+            "<SOUND:0><TWO CHOICES><G>Of course I believe you!",
+            "Well..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Soldier_3",
+          "MessageText": "",
+          "MessageTextLines": [
+            "Ah, see, there she is.<PAUSE> ",
+            "No need to get all upset.<PAUSE>",
+            "Patience is a virtue, y'know?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Link_5",
+          "MessageText": "",
+          "MessageTextLines": [
+            "Well..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Link_6",
+          "MessageText": "",
+          "MessageTextLines": [
+            "Um, yes.<PAUSE> The investigation.",
+            "I found tons of,<PAUSE:2> uh,<PAUSE:2><SOUND:HINT> groundbreaking",
+            "stuff."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Link_7",
+          "MessageText": "",
+          "MessageTextLines": [
+            "<SOUND:0><C>(Particularly that the prosecutor's a",
+            "<SOUND:EXPLOSION>jerk who doesn't let anyone else",
+            "investigate!)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Link_8_Choice1",
+          "MessageText": "",
+          "MessageTextLines": [
+            "<DI><SOUND:WHAP>Of course I believe you!",
+            "<New_box>",
+            "...Although, I'll be honest, things",
+            "aren't looking very good right now."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Link_8_Choice2",
+          "MessageText": "",
+          "MessageTextLines": [
+            "Well, I might be a<PAUSE> little<PAUSE> suspicious..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Malon_7_Choice2",
+          "MessageText": "",
+          "MessageTextLines": [
+            "<DI><SOUND:WHAP>Hey! <DC>Very funny, Link..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Link_9_Choice2",
+          "MessageText": "",
+          "MessageTextLines": [
+            "Sorry, I'm just kidding.",
+            "Of course I believe you!",
+            "<New_box>",
+            "Although, I'll be honest, things",
+            "aren't looking very good for you."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Malon_8",
+          "MessageText": "",
+          "MessageTextLines": [
+            "<SOUND:NA_SE_VO_Z0_SIGH_0><SOUND:0>Hmaaah...<SPEED:3>"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Link_10",
+          "MessageText": "",
+          "MessageTextLines": [
+            "What's that you've got there?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Malon_9",
+          "MessageText": "",
+          "MessageTextLines": [
+            "Oh, this is just a pictograph of",
+            "father I carry around."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Malon_10",
+          "MessageText": "",
+          "MessageTextLines": [
+            "I just can't believe he's gone..."
+          ],
+          "Type": 2,
+          "Position": 0
+        },
+        {
+          "Name": "Link_11",
+          "MessageText": "",
+          "MessageTextLines": [
+            "<SOUND:0><C>(I really wish I knew how",
+            "to cheer her up...)",
+            "<New_box>",
+            "Hmm, y-you know,<PAUSE:2> that pictograph",
+            "could come in handy during the",
+            "trial...!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Link_12",
+          "MessageText": "",
+          "MessageTextLines": [
+            "Uh, well, you look so happy together...",
+            "<New_box>Maybe it will help convince the",
+            "judge that you couldn't have done it!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Malon_11",
+          "MessageText": "",
+          "MessageTextLines": [
+            "Oh? How so?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Malon_12",
+          "MessageText": "",
+          "MessageTextLines": [
+            "You really think so?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Court_Record_1",
+          "MessageText": "",
+          "MessageTextLines": [
+            "<SOUND:ITEMGET><SOUND:0><ICON:PRESCRIPTION><DI><R>Malon's Pictograph<G> added to the",
+            "Court Record."
+          ],
+          "Type": 1,
+          "Position": 2
+        },
+        {
+          "Name": "Link_13",
+          "MessageText": "",
+          "MessageTextLines": [
+            "Anyway, I know it's going to be",
+            "hard, but could you tell me",
+            "everything you know?",
+            "<New_box>",
+            "It's the only way I'll be able to defend",
+            "you.<PAUSE> Otherwise, we have no chance."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Malon_13",
+          "MessageText": "",
+          "MessageTextLines": [
+            "I understand...<PAUSE> It's just...<FADE:5>"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Soldier_4",
+          "MessageText": "",
+          "MessageTextLines": [
+            "<SOUND:EXPLOSION><DI>The trial is starting!<DC><PAUSE> ",
+            "The defendant and their attorney,",
+            "please enter the courtroom immediately!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Link_14",
+          "MessageText": "",
+          "MessageTextLines": [
+            "<SOUND:0><C>(Uh oh. Shouldn't have said those",
+            "things about having no chance.)",
+            "<New_box>",
+            "All right. Everything will be fine.",
+            "<New_box>",
+            "The prosecutor has been playing me",
+            "for a fool since this began, but",
+            "sooner or later, his arrogance will be",
+            "his undoing."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Link_15",
+          "MessageText": "",
+          "MessageTextLines": [
+            "<SOUND:0><C>(My name is <R>Link<C>.",
+            "I've been a defence attorney",
+            "for the last seven years.)",
+            "<New_box>",
+            "<C>(I've won my fair share of cases...",
+            "and lost some, too.",
+            "But this one is personal.)",
+            "<New_box><C>(There's so much at stake here!",
+            "Not only do I have to save Malon's",
+            "life, I've gotta find out who did this",
+            "to Talon!)",
+            "<New_box><C>(Talon...<PAUSE> He was always so kind.",
+            "He didn't deserve this.",
+            "I need to do him justice.)",
+            "<New_box><C><DI>(I can't lose this!)"
+          ],
+          "Type": 2,
+          "Position": 0
+        },
+        {
+          "Name": "Malon_12b",
+          "MessageText": "",
+          "MessageTextLines": [
+            "Ah, well, here you go, then!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "Link_1b",
+          "MessageText": "",
+          "MessageTextLines": [
+            "<C>(Hm. Speaking of which...)",
+            "<New_box>",
+            "<C>(Where is she, anyway?)",
+            "<New_box>",
+            "<SOUND:WHAP>Hey, you, over there!"
+          ],
+          "Type": 0,
+          "Position": 0
+        }
+      ],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 10,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "EmbeddedOverlayCode": {
+        "Code": "",
+        "CodeLines": [
+          "#include <z64hdr/oot_u10/z64hdr.h>",
+          "",
+          "// ^ Change the above to",
+          "// #include <z64hdr/oot_u10/z64hdr.h>",
+          "// if compiling for OoT 1.0",
+          "",
+          "#include <npcmaker/npc_maker_types.h>",
+          "",
+          "/*",
+          "To make NPC Maker able to use your function, it must have the following form:",
+          "",
+          "1. Its name must have a NpcM_ prefix (eg. NpcM_Function),",
+          "2. Must have two parameters: NpcMaker* and PlayState*",
+          "3. If you plan to pass the result to scripts, the return type must be float",
+          "4. A unique name",
+          "",
+          "Examples of valid function signatures are thus:",
+          "",
+          "void NpcM_Function(NpcMaker* npc, PlayState* play)",
+          "float NpcM_Function2(NpcMaker* npc, PlayState* play)",
+          "float NpcM_DoAThing(NpcMaker* npc, PlayState* play)",
+          "",
+          "The exception for this is functions which should run \"On limb\", their signature is as follows:",
+          "",
+          "int NpcM_Function(NpcMaker* npc, PlayState* playState, s32 limbNumber, Gfx** dListPtr, Vec3f* translation, Vec3s* rotation, void* instance, Gfx** gfxP)",
+          "",
+          "This function should return 0 if the limb is meant to be drawn, and 1 if it is not.",
+          "",
+          "Warning; When using these functions from scripts, make sure",
+          "the return type is valid.",
+          "*/",
+          "",
+          "void NpcM_GetTextboxResumePos(NpcMaker* npc, PlayState* playState)",
+          "{",
+          "    if (playState->msgCtx.msgMode == MSGMODE_TEXT_NEXT_MSG)",
+          "        npc->scriptVars[0] = playState->msgCtx.msgBufPos;",
+          "}",
+          ""
+        ],
+        "Functions": [
+          {
+            "Key": "NpcM_GetTextboxResumePos",
+            "Value": 0
+          }
+        ],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ]
+      }
+    }
+  ],
+  "GlobalHeaders": [
+    {
+      "Text": "",
+      "TextLines": [
+        "#define actor.posX actorf.0x24",
+        "#define actor.posY actorf.0x28",
+        "#define actor.posZ actorf.0x2C",
+        "#define actor.dirX actor16.0x30",
+        "#define actor.dirY actor16.0x32",
+        "#define actor.dirZ actor16.0x34",
+        "",
+        "#define actor.homePosX actorf.0x8",
+        "#define actor.homePosY actorf.0xC",
+        "#define actor.homePosZ actorf.0x10",
+        "#define actor.homeDirX actor16.0x12",
+        "#define actor.homeDirY actor16.0x14",
+        "#define actor.homeDirZ actor16.0x16",
+        "",
+        "#define actor.scaleX actorf.0x50",
+        "#define actor.scaleY actorf.0x54",
+        "#define actor.scaleZ actorf.0x58",
+        "",
+        "#define actor.velocityX actorf.0x5C",
+        "#define actor.velocityY actorf.0x60",
+        "#define actor.velocityZ actorf.0x64",
+        "",
+        "#define actor.rotX actor16.0xB4",
+        "#define actor.rotY actor16.0xB6",
+        "#define actor.rotZ actor16.0xB8",
+        "",
+        "#define npcmaker.isSpeaking actor8.0x202",
+        "#define npcmaker.invisible actor8.0x169",
+        "#define npcmaker.curTextPos actor16.0x370",
+        "#define npcmaker.curtextId actor32.0x35c",
+        "#define npcmaker.curTextboxNum actor8.0x20A",
+        "",
+        "#define gTextBufPos global16.0x104A6",
+        "#define gTextboxPos global8.0x103D6",
+        "#define gTextboxType global8.0x103D5",
+        "#define gTextboxProperties global8.0x103D4",
+        "#define gTextboxDrawPos global16.0x104AA",
+        "",
+        "#define SAVE_PROGRESS save32.0x18",
+        "#define SAVE_HEALTH save32.0x2E",
+        "#define SAVE_TEMP save8.0x141C",
+        "#define EVIDENCE save16.0x36",
+        "",
+        "#define UIACTOR_SPEAKER actor8.0x13C",
+        "#define UIACTOR_SELECTEDUI actor8.0x13D",
+        "#define UIACTOR_ARROWS actor8.0x13E",
+        "",
+        "#define GUI_NONE 0",
+        "#define GUI_INVESTIGATION 1",
+        "#define GUI_COURTRECORD_EVIDENCE 2",
+        "#define GUI_COURTRECORD_PROFILES 3",
+        "#define GUI_CROSS_EXAMINATION 4",
+        "#define GUI_PRESENT 5",
+        "#define GUI_PHOTO 6",
+        "#define GUI_PHOTO_EVIDENCE 7",
+        "",
+        "#define GUI_ARROWS_NONE 0",
+        "#define GUI_ARROWS_LEFT 1",
+        "#define GUI_ARROWS_RIGHT 2",
+        "#define GUI_ARROWS_BOTH 3",
+        "",
+        "#define ACTOR_GUI 1",
+        "#define ACTOR_NPCMAKER 3"
+      ],
+      "ParseErrors": [],
+      "Name": "Definitions"
+    },
+    {
+      "Text": "",
+      "TextLines": [
+        "/*---------------------------------------*/",
+        "proc spawnMusicThonker",
+        "    set ref_actor npcmaker 51",
+        "",
+        "    if ref_actor_exists false",
+        "        SPAWN ACTOR_NPCMAKER",
+        "            POSITION RELATIVE 0 0 0",
+        "            VARIABLE 58",
+        "            ROTATION 0 0 51",
+        "        ENDSPAWN",
+        "    endif",
+        "endproc",
+        "/*---------------------------------------*/",
+        "proc spawnCourtRecord",
+        "    set ref_actor npcmaker 50",
+        "",
+        "    if ref_actor_exists false",
+        "        SPAWN ACTOR_NPCMAKER",
+        "            POSITION RELATIVE 0 0 0",
+        "            VARIABLE 58",
+        "            ROTATION 0 0 50",
+        "        ENDSPAWN",
+        "    endif",
+        "endproc",
+        "/*---------------------------------------*/",
+        "proc spawnSpeakerbox",
+        "    set ref_actor actor_id ACTOR_GUI",
+        "",
+        "    if ref_actor_exists false",
+        "        spawn ACTOR_GUI",
+        "        endspawn",
+        "    endif",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "",
+        "proc textboxActor txtbox_num speaker_actor",
+        "    await frames 3",
+        "    ::setSpeaker speaker_actor",
+        "    show_textbox_sp txtbox_num",
+        "    await textbox_on_screen false",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "",
+        "proc textboxSpeaker txtbox_num speaker",
+        "    await frames 3",
+        "    ::setSpeakerInternal speaker",
+        "    show_textbox_sp txtbox_num",
+        "    await textbox_on_screen false",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "",
+        "proc setSelfAsSpeaker speaker",
+        "    if vACTOR_SET_SELF_AS_SPEAKER == 0",
+        "        return",
+        "    else",
+        "        ::setSpeakerInternal speaker",
+        "        set ref_actor self",
+        "        set npcmaker.isSpeaking = 1",
+        "        set vACTOR_SET_SELF_AS_SPEAKER = 0",
+        "    endif",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "",
+        "proc setSpeakerInternal speaker",
+        "    set ref_actor actor_id 1",
+        "    set UIACTOR_SPEAKER = speaker",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "",
+        "proc setUIStyle style",
+        "    set ref_actor actor_id 1",
+        "    set UIACTOR_SELECTEDUI = style",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "",
+        "proc setUIStyleArrows style arrows",
+        "    set ref_actor actor_id 1",
+        "    set UIACTOR_SELECTEDUI = style",
+        "    set UIACTOR_ARROWS = arrows",
+        "",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "",
+        "proc setUIArrows arrows",
+        "    set ref_actor actor_id 1",
+        "    set UIACTOR_ARROWS = arrows",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "",
+        "proc setActorAnim actor_id anim_id",
+        "    set ext_var actor_id nACTOR_SET_ANIMATION = anim_id",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "",
+        "proc setSpeaker speaker_actor",
+        "    set ext_var speaker_actor nACTOR_SET_SELF_AS_SPEAKER = 1",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "",
+        "proc setTextSpeed speed",
+        "    set ram 32 0x80114B54 speed",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "",
+        "proc setTextSound sound",
+        "    set ram 32 0x80114B58 sound",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "",
+        "proc setNpcMakerVisible actor_id",
+        "    set ref_actor npcmaker actor_id",
+        "    set npcmaker.invisible = 0",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "",
+        "proc setNpcMakerInvisible actor_id",
+        "    set ref_actor npcmaker actor_id",
+        "    set npcmaker.invisible = 1",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "",
+        "proc setCamera frame",
+        "    set cutscene_frame = frame",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "",
+        "proc setCutsceneBars",
+        "    if vSCENE_CUTSCENE_BARS == 1",
+        "        set ram 32 0x800FE474 0x20",
+        "        //set ram 32 0x800FE478 0x20",
+        "    else",
+        "        set ram 32 0x800FE474 0",
+        "        //set ram 32 0x800FE478 0",
+        "    endif",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "",
+        "proc rotate actor_id x y z sp",
+        "    set ref_actor npcmaker actor_id",
+        "    rotation rotate_by ref_actor x y z sp",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "proc INV_CR_OPEN",
+        "    CAN_OPEN_COURTRECORD = 1",
+        "    ::setUIStyle GUI_INVESTIGATION",
+        "endproc",
+        "",
+        "/*---------------------------------------*/",
+        "proc INV_CR_CLOSED",
+        "    CAN_OPEN_COURTRECORD = 0",
+        "    ::setUIStyle GUI_NONE",
+        "endproc",
+        "",
+        "",
+        ""
+      ],
+      "ParseErrors": [],
+      "Name": "Macros"
+    },
+    {
+      "Text": "",
+      "TextLines": [
+        "#define vSCENE_STATE var.4",
+        "#define vSCENE_CUTSCENE_BARS var.5",
+        "#define nSCENE_STATE var.4",
+        "#define nSCENE_CUTSCENE_BARS var.5",
+        "",
+        "#define vACTOR_SET_ANIMATION var.1",
+        "#define vACTOR_SET_SELF_AS_SPEAKER var.2",
+        "#define nACTOR_SET_ANIMATION 1",
+        "#define nACTOR_SET_SELF_AS_SPEAKER 2"
+      ],
+      "ParseErrors": [],
+      "Name": "ControlActorVars"
+    },
+    {
+      "Text": "",
+      "TextLines": [
+        "#define NONE 0",
+        "",
+        "#define MALON_SAD 1",
+        "#define MALON_PENSIVE 2",
+        "#define MALON_NORMAL 3",
+        "#define MALON_ANGRY 4",
+        "#define MALON_CLAPPING 5",
+        "#define MALON_PHOTO_VISIBLE 6",
+        "#define MALON_PHOTO_INVISIBLE 7",
+        "#define MALON_MOVE_HEAD_UP 8",
+        "#define MALON_GIVE_PHOTO 9",
+        "#define MALON_NORMALSAD 10",
+        "",
+        "#define SOLDIER_SPEAR_SLAM 1"
+      ],
+      "ParseErrors": [],
+      "Name": "Animations"
+    },
+    {
+      "Text": "",
+      "TextLines": [
+        "#define SPEAKER_LINK 0",
+        "#define SPEAKER_MALON 1",
+        "#define SPEAKER_ZELDA 2",
+        "#define SPEAKER_INGO 3",
+        "#define SPEAKER_DRAGMIRE 4",
+        "#define SPEAKER_JUDGE 5",
+        "#define SPEAKER_IMPA 6",
+        "#define SPEAKER_SOLDIER 7",
+        "#define SPEAKER_UNKNOWN 8",
+        "#define SPEAKER_NONE 255",
+        "",
+        "",
+        "#define LOBBY_MALON 5",
+        "#define LOBBY_SOLDIER1 6",
+        "#define LOBBY_SOLDIER2 7",
+        "#define LOBBY_CONTROLLER 8",
+        ""
+      ],
+      "ParseErrors": [],
+      "Name": "ActorIds"
+    },
+    {
+      "Text": "",
+      "TextLines": [
+        "proc textboxLink txtbox_num",
+        "    ::textboxSpeaker txtbox_num SPEAKER_LINK",
+        "endproc",
+        "",
+        "proc textboxMalon txtbox_num",
+        "    ::textboxActor txtbox_num LOBBY_MALON",
+        "endproc",
+        "",
+        "proc textboxSoldier txtbox_num",
+        "    ::textboxActor txtbox_num LOBBY_SOLDIER1",
+        "endproc",
+        "",
+        "proc textboxUnknown txtbox_num",
+        "    ::textboxSpeaker txtbox_num SPEAKER_UNKNOWN",
+        "endproc",
+        "",
+        "proc textboxNone txtbox_num",
+        "    ::textboxSpeaker txtbox_num SPEAKER_NONE",
+        "endproc",
+        ""
+      ],
+      "ParseErrors": [],
+      "Name": "LobbyTextboxMacros"
+    },
+    {
+      "Text": "",
+      "TextLines": [
+        "#define IDX_ATTORNEYBADGE 0",
+        "#define IDX_MALONPICTOGRAPH 1",
+        "#define IDX_AUTOPSY 2",
+        "#define IDX_POACHERSAW 3",
+        "#define IDX_PERFUME 4",
+        "#define IDX_BLOODYCLOTH 5",
+        "#define IDX_OILBOTTLE 6",
+        "#define IDX_RANCHINHERITANCE 7",
+        "#define IDX_INGOCLOTHES 8",
+        "#define IDX_MALON 100",
+        "#define IDX_TALON 101",
+        "#define IDX_DRAGMIRE 102",
+        "#define IDX_JUDGE 103",
+        "#define IDX_IMPA 104",
+        "#define IDX_ZELDA 105",
+        "#define IDX_INGO 106",
+        "",
+        "#define EVIDENCE_START 0",
+        "#define EVIDENCE_GOTMALON 1",
+        "#define EVIDENCE_GOTPHOTO 2",
+        "#define EVIDENCE_GOTJUDGE 3",
+        "#define EVIDENCE_GOTDRAGMIRE 4",
+        "#define EVIDENCE_GOTIMPA 5",
+        "#define EVIDENCE_GOTAUTOPSY 6",
+        "#define EVIDENCE_GOTSAW 7",
+        "#define EVIDENCE_GOTPERFUME 8",
+        "#define EVIDENCE_GOTCLOTH 9",
+        "#define EVIDENCE_GOTZELDA 10",
+        "#define EVIDENCE_GOTOILBOTTLE 11",
+        "#define EVIDENCE_GOTINGO 12",
+        "#define EVIDENCE_GOTINGOCLOTHES 13",
+        "#define EVIDENCE_GOTINHERITANCE 14"
+      ],
+      "ParseErrors": [],
+      "Name": "Evidence"
+    },
+    {
+      "Text": "",
+      "TextLines": [
+        "#define PROGRESS_START 0",
+        "#define PROGRESS_LOBBY_INTRO 1",
+        "#define PROGRESS_COURT_OPENINGSTATEMENT 2",
+        "#define PROGRESS_COURT_IMPAENTERS 3",
+        "#define PROGRESS_COURT_IMPA1 4",
+        "#define PROGRESS_COURT_IMPA1_POST 5",
+        "#define PROGRESS_COURT_IMPA_CE 6",
+        "#define PROGRESS_COURT_ZELDAENTERS 7",
+        "#define PROGRESS_COURT_ZELDA1 8",
+        "#define PROGRESS_COURT_ZELDA1_POST 9",
+        "#define PROGRESS_COURT_ZELDA1_CE 10",
+        "#define PROGRESS_COURT_ZELDA2 11",
+        "#define PROGRESS_COURT_ZELDA2_POST 12",
+        "#define PROGRESS_COURT_ZELDA2_CE 13",
+        "#define PROGRESS_COURT_ZELDANEWEVIDENCE 14",
+        "#define PROGRESS_COURT_ZELDA3 15",
+        "#define PROGRESS_COURT_ZELDA3_POST 16",
+        "#define PROGRESS_COURT_ZELDA3_CE 17",
+        "#define PROGRESS_LOBBY_RECESS 18",
+        "#define PROGRESS_COURT_INGOENTERS 19",
+        "#define PROGRESS_COURT_INGO1 20",
+        "#define PROGRESS_COURT_INGO1_POST 21",
+        "#define PROGRESS_COURT_INGO1_CE 22"
+      ],
+      "ParseErrors": [],
+      "Name": "Progress"
+    }
+  ]
+}

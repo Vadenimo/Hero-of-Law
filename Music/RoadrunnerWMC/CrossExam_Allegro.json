@@ -1,0 +1,33 @@
+{
+    "daw": "musescore",
+    "loop_start": 12.0,
+    "volume_scale": 0.75,
+    "pan_scale": 2.5,
+    "cc11_regions": [
+        {"track": "trombone", "start": 16.0, "end": 17.0},
+        {"track": "trombone", "start": 21.0, "end": 21.75}
+    ],
+    "tracks": [
+        {"name": "oboe 1"},
+        {"name": "oboe 2"},
+        {"name": "oboe 3"},
+        {"name": "jazz guitar 1"},
+        {"name": "jazz guitar 2"},
+        {"name": "trombone"},
+        {"name": "ocarina 1"},
+        {"name": "ocarina 2"},
+        {"name": "glockenspiel"},
+        {"name": "harp"},
+        {"name": "strings 1"},
+        {"name": "strings 2"},
+        {"name": "pizz strings 1"},
+        {"name": "pizz strings 2"},
+        {"name": "koto"},
+        {"name": "bassoon"},
+        {"name": "tambourine kit 1"},
+        {"name": "tambourine kit 2"},
+        {"name": "tambourine kit 3"},
+        {"name": "tambourine kit 4"},
+        {"name": "cymbal"}
+    ]
+}

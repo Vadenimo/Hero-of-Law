@@ -1,0 +1,18 @@
+Track,Start Measures (1-indexed),,,,,,
+,1,28,33,34,41 3/4,45,
+1,oboe 1,oboe 3,oboe 2,x,oboe 1,,oboe 1
+2,jazz guitar 1,x,x,x,x,,jazz guitar 1
+3,jazz guitar 2,x,x,x,x,,jazz guitar 2
+4,trombone,x,x,x,x,,trombone
+5,ocarina 1,ocarina 2,x,ocarina 1,x,,ocarina 1
+6,glockenspiel,x,x,x,x,,glockenspiel
+7,strings 1,x,x,x,x,,strings 1
+8,strings 2,x,harp,strings 2,x,,strings 2
+9,pizz strings 1,x,x,x,x,,pizz strings 1
+10,pizz strings 2,x,x,x,x,,pizz strings 2
+11,koto,x,x,x,x,,koto
+12,bassoon,x,x,x,x,,bassoon
+13,tambourine kit 1,x,x,x,x,,tambourine kit 1
+14,tambourine kit 2,x,x,x,x,,tambourine kit 2
+15,"tambourine kit {3,4}",x,x,x,x,,"tambourine kit {3,4}"
+16,cymbal,x,x,x,x,,cymbal

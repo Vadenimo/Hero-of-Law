@@ -1,0 +1,2 @@
+Rename NonEmpty_ obj and mtl to see the model in sharp ocarina
+it goes into the game with the empty model, though

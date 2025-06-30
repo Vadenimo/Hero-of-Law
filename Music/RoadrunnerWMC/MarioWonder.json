@@ -1,0 +1,23 @@
+{
+    "daw": "musescore",
+    "loop_start": 5.0,
+    "volume_scale": 0.7,
+    "cc11_regions": [
+        {"track": "wind chimes", "start": 1.0, "end": 4.0}
+    ],
+    "tracks": [
+        {"name": "ocarina"},
+        {"name": "39"},
+        {"name": "flute 1"},
+        {"name": "flute 2"},
+        {"name": "guitar 1"},
+        {"name": "guitar 2"},
+        {"name": "guitar 3"},
+        {"name": "guitar 4"},
+        {"name": "guitar 5"},
+        {"name": "wind chimes"},
+        {"name": "drum", "volume_scale": 0.9},
+        {"name": "tambourine 1", "volume_scale": 1.2},
+        {"name": "tambourine 2", "volume_scale": 1.2}
+    ]
+}

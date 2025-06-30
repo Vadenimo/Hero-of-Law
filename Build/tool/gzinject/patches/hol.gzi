@@ -1,0 +1,14 @@
+#unused, was for mario 64
+# 00000001.app (aka main.dol)
+#0000 00000000 00000001
+# map dpad
+#0304 00168698 08000000
+#0304 0016869C 04000000
+#0304 001686A0 02000000
+#0304 001686A4 01000000
+
+
+# 00000005.app (U8 archive containing the rom and other things)
+0000 00000000 00000005
+# write "REVO" to 0x18 in rom header
+0304 001505B8 5245564F

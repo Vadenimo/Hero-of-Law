@@ -1,0 +1,59 @@
+# Blender MTL File: 'OrganRoom.blend'
+# Material Count: 19
+
+newmtl Ceiling
+map_Kd ..\\textures\\ganon_room_9Tex_003120.ci8.png
+
+newmtl CeilingRed
+map_Kd ..\\textures\\ganon_room_9Tex_004520.ci8.png
+
+newmtl CeilingShaded
+map_Kd ..\\textures\\ganon_room_9Tex_002D20.ci8.png
+
+newmtl FloorCorners
+map_Kd ..\\textures\\ganon_room_9Tex_002920.ci8.png
+
+newmtl Floortile
+map_Kd ..\\textures\\ganon_room_9Tex_003920.ci8.png
+
+newmtl OrganCarpet
+map_Kd ..\\textures\\room_carpet.rgba16.png
+
+newmtl OrganKeyboardFront
+map_Kd ..\\textures\\room_organ_key_end.rgba16.png
+
+newmtl OrganKeyboardIn
+map_Kd ..\\textures\\room_organ_keyboard.rgba16.png
+
+newmtl OrganKeyboardOut
+map_Kd ..\\textures\\room_metal_edging.rgba16.png
+
+newmtl OrganPipes
+map_Kd ..\\textures\\room_organ_pipe.i4.png
+
+newmtl OrganSquare
+map_Kd ..\\textures\\room_organ_grill.rgba16.png
+
+newmtl OrganStairs
+map_Kd ..\\textures\\room_step.i4.png
+
+newmtl OrganStoneArch
+map_Kd ..\\textures\\room_column_frieze_and_canopy.i4.png
+
+newmtl OrganStoneDesign
+map_Kd ..\\textures\\room_crest_frieze.i4.png
+
+newmtl OrganStonePillar
+map_Kd ..\\textures\\room_pillar.i8.png
+
+newmtl OrganWings
+map_Kd ..\\textures\\room_statue_wing.rgba16.png
+
+newmtl Window
+map_Kd ..\\textures\\ganon_room_9Tex_002120.ci8.png
+
+newmtl WindowDoor
+map_Kd ..\\textures\\ganon_room_9Tex_005120.ci8.png
+
+newmtl WindowRed
+map_Kd ..\\textures\\ganon_room_9Tex_003D20.ci8.png

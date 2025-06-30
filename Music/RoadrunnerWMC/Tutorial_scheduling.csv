@@ -1,0 +1,18 @@
+Track,Start Measures (1-indexed),,,,,,,
+,1,5,7,9,9 3/4,40 3/4,49,
+1,glockenspiel 2,x,x,x,glockenspiel 1,glockenspiel 2,,glockenspiel 2
+2,harp 1,harp 2,harp 3,harp 4,x,x,,harp 1
+3,bell pad,x,x,x,x,x,,bell pad
+4,oboe,x,x,x,x,x,,oboe
+5,bassoon,x,x,x,x,x,,bassoon
+6,voice pad,x,x,x,x,x,,voice pad
+7,synth strings 1,x,x,x,x,x,,synth strings 1
+8,synth strings 2,x,x,x,x,x,,synth strings 2
+9,bass guitar,x,x,x,x,x,,bass guitar
+10,thinking synth strings,x,x,x,x,x,,thinking synth strings
+11,thinking bass guitar,x,x,x,x,x,,thinking bass guitar
+12,tambourine kit,x,x,x,x,x,,tambourine kit
+13,shaker 1,x,x,x,x,x,,shaker 1
+14,shaker 2,x,x,x,x,x,,shaker 2
+15,tap,x,x,x,x,x,,tap
+comments,start,pan harp left,pan harp further left,finish panning harp left,pan glock left,reset glock pan,(end),Beginning (for reference)

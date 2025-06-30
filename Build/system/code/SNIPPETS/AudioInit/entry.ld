@@ -1,0 +1,11 @@
+ENTRY_POINT = 0x800A04C4;
+sSysCfbEnd = 0x80120FD8;
+sSysCfbFbPtr = 0x80120FD0;
+DmaMgr_AudioDmaHandler = 0x800009E0;
+AudioLoad_SetDmaHandler = 0x800B85DC;
+Audio_InitSound = 0x800C7DF8;
+IrqMgr_AddClient = 0x800ACE90;
+AudioMgr_HandleRetrace = 0x800A0318;
+AudioMgr_HandlePreNMI = 0x800A04A0;
+Audio_Init = 0x800C7DD4;
+AudioLoad_Init = 0x800B8654;

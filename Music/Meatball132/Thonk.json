@@ -1,0 +1,26 @@
+{
+    "daw": "fl_studio",
+    "time_signatures": {
+        "1": "3/4"
+    },
+    "loop_start": 5.0,
+    "force_end": 38.0,
+    "volume_scale": 1.0,
+    "tracks": [
+        {"name": "Oboe"},
+        {"name": "Orchestra Kit"},
+        {"name": "Horn"},
+        {"name": "Harpsichord"},
+        {"name": "Strings"},
+        {"name": "Acoustic Bass"},
+        {"name": "Harp"},
+        {"name": "Tuba"},
+        {"name": "Piano"},
+        {"name": "Piano 2"},
+        {"name": "Bright Piano"},
+        {"name": "Slow Strings"},
+        {"name": "Fantasia"},
+        {"name": "Glockenspiel"},
+        {"name": "Tambourine"}
+    ]
+}

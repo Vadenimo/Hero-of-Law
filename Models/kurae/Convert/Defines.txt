@@ -1,0 +1,17 @@
+#define  TEX_DARK_RED_PNG               	   0x06000000
+#define  PAL_0                          	   0x06000080
+#define  MTL_DARKRED                    	   0x06000088
+#define  MTL_DARKRED_TEXEL0_W                  16
+#define  MTL_DARKRED_TEXEL0_H                  16
+#define  MTL_DARKRED_ENVCOLOR                  0x060000A8
+#define  MTL_DARKRED_TIMG0                     0x060000B8
+#define  MTL_DARKRED_TILESIZE0                 0x060000E8
+#define  MTL_DARKRED_TIMG1                     0x060000F0
+#define  MTL_DARKRED_TILESIZE1                 0x06000128
+#define  MTL_RED                        	   0x06000138
+#define  MTL_RED_PRIMCOLOR                 	   0x06000150
+#define  MTL_WHITE                      	   0x06000168
+#define  MTL_WHITE_PRIMCOLOR                   0x06000180
+#define  MTL_BLACK                             0x06000198
+#define  MTL_BLACK_PRIMCOLOR                   0x060001B0
+#define  DL_IGIARI                             0x06002ED8

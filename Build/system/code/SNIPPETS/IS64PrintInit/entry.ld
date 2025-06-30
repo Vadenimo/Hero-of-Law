@@ -1,0 +1,1 @@
+ENTRY_POINT = 0x800d5ef0;
