@@ -573,6 +573,13 @@ void Opening_Init(GameState* thisx)
 {
     TitleSetupState* this = (TitleSetupState*)thisx;
     
+    // Delay the proceedings for a frame so that emulators have time to register the L + R 50hz input
+    if (this->state.main != Opening_Init)
+    {
+        this->state.main = Opening_Init;
+        return;
+    }
+    
     _isPrintfInit();
     is64Printf("=== HERO OF LAW ===\n");     
     

@@ -47,50 +47,63 @@ OSPiHandle** sISVHandle = (OSPiHandle**)0x8019894C;
 #define SAVE_AUDIOSETTING gSaveContext.scarecrowLongSong[24]        // Saved twice because it's less annoying than writing to the header
 #define SAVE_WIDESCREEN gSaveContext.scarecrowLongSong[25]
 
+#define SCREENSIZE_DEFAULT 225
+#define SCREENPOSX_DEFAULT 0
+#define SCREENPOSY_DEFAULT 0
+#define WIDESCREEN_DEFAULT 0
+
+#ifndef MAX
+    #define MAX(a, b) ((a) > (b) ? (a) : (b))
+#endif
+
+#ifndef MIN
+    #define MIN(a, b) ((a) < (b) ? (a) : (b))
+#endif
+
 #ifdef SAVE_STUFF
 
-#define SAVE_OK 0
-#define SAVE_CORRUPTED 0x5
-#define SAVE_NOT_HOL 0x12
+    #define SAVE_OK 0
+    #define SAVE_CORRUPTED 0x5
+    #define SAVE_NOT_HOL 0x12
 
-#define SRAM_SIZE 0x8000
-#define SRAM_HEADER_SIZE 0x10
-#define SLOT_SIZE (sizeof(SaveContext) + 0x28)
-#define SLOT_OFFSET(index) (SRAM_HEADER_SIZE + 0x10 + (index * SLOT_SIZE))
-#define SAVESTRUCT_SIZE 0x1354
-#define CHECKSUM_SIZE (SAVESTRUCT_SIZE / 2)
+    #define SRAM_SIZE 0x8000
+    #define SRAM_HEADER_SIZE 0x10
+    #define SLOT_SIZE (sizeof(SaveContext) + 0x28)
+    #define SLOT_OFFSET(index) (SRAM_HEADER_SIZE + 0x10 + (index * SLOT_SIZE))
+    #define SAVESTRUCT_SIZE 0x1354
+    #define CHECKSUM_SIZE (SAVESTRUCT_SIZE / 2)
 
-char sSaveDefaultMagic[] = {0x98, 0x09, 0x10, 0x21, 'Z', 'E', 'L', 'D', 'A'};
-char sHeroOfLawMagic[] = {'H', 'E', 'R', 'O', '+', 'L', 'A', 'W'};
+    char sSaveDefaultMagic[] = {0x98, 0x09, 0x10, 0x21, 'Z', 'E', 'L', 'D', 'A'};
+    char sHeroOfLawMagic[] = {'H', 'E', 'R', 'O', '+', 'L', 'A', 'W'};
 
-int LoadSaveAndVerify(int slot)
-{
-    gSaveContext.fileNum = 0;
-    
-    u16 i, j, oldChecksum, newChecksum, offset;
-    u16* ptr;
-      
-    SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(slot), &gSaveContext, SAVESTRUCT_SIZE, OS_READ);
-    
-    if (bcmp(sHeroOfLawMagic, &gSaveContext.playerName, ARRAY_COUNTU(sHeroOfLawMagic)))
-        return SAVE_NOT_HOL;     
-    
-    oldChecksum = gSaveContext.checksum;
-    gSaveContext.checksum = 0;  
-    ptr = (u16*)&gSaveContext;
-
-    for (i = newChecksum = j = 0; i < CHECKSUM_SIZE; i++, offset += 2) 
+    int LoadSaveAndVerify(int slot)
     {
-        j += 2;
+        gSaveContext.fileNum = 0;
         
-        if (j == 0x20) 
-            j = 0;
+        u16 i, j, oldChecksum, newChecksum, offset;
+        u16* ptr;
+          
+        SsSram_ReadWrite(OS_K1_TO_PHYSICAL(0xA8000000) + SLOT_OFFSET(slot), &gSaveContext, SAVESTRUCT_SIZE, OS_READ);
         
-        newChecksum += *ptr++;
-    } 
-    
-    return oldChecksum == newChecksum ? SAVE_OK : SAVE_CORRUPTED;
-}
+        if (bcmp(sHeroOfLawMagic, &gSaveContext.playerName, ARRAY_COUNTU(sHeroOfLawMagic)))
+            return SAVE_NOT_HOL;     
+        
+        oldChecksum = gSaveContext.checksum;
+        gSaveContext.checksum = 0;  
+        ptr = (u16*)&gSaveContext;
+
+        for (i = newChecksum = j = 0; i < CHECKSUM_SIZE; i++, offset += 2) 
+        {
+            j += 2;
+            
+            if (j == 0x20) 
+                j = 0;
+            
+            newChecksum += *ptr++;
+        } 
+        
+        return oldChecksum == newChecksum ? SAVE_OK : SAVE_CORRUPTED;
+    }
 
 #endif
 

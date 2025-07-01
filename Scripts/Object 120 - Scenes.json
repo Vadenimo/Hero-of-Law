@@ -9814,6 +9814,9 @@
             "FuncName": "NpcM_GetRouteIDFromProgess"
           },
           {
+            "FuncName": "NpcM_GetSkipTpak"
+          },
+          {
             "FuncName": "NpcM_GetTextboxResumePos"
           },
           {
@@ -28451,8 +28454,8 @@
           "Name": "2_JUDGE30",
           "MessageTextLines": [
             "...the princess's statement that she",
-            "found it somewhere away from the",
-            "scene has to be<SOUND:CLUE> <R>admitted as testimony<W>."
+            "found it must be<SOUND:CLUE> <R>admitted as testimony<W>,",
+            "along with everything else she might say."
           ],
           "Type": 0,
           "Position": 0
@@ -43572,7 +43575,7 @@
             "    set SAVE_LASTDIEDONSCENE = 0",
             "",
             "    // Unlock all extra scenes on Wii/U VC (since TPak can't be used there anyway)",
-            "    if ext_var OBJ_CONTROLLER CONTROLLER_PLATFORM != PLATFORM_N64",
+            "    if ccall NpcM_GetSkipTpak == 1",
             "        SAVE_EXTRASCENES = 0xFF",
             "    endif",
             "",
@@ -44417,9 +44420,47 @@
       "AnimInterpFrames": 4,
       "EmbeddedOverlayCode": {
         "CodeLines": [
-          ""
+          "#define VC_CHECKS",
+          "",
+          "#include \"npc_maker_header.h\"",
+          "#include <npcmaker/npc_maker_types.h>",
+          "",
+          "/*",
+          "To make NPC Maker able to use your function, it must have the following form:",
+          "",
+          "1. Its name must have a NpcM_ prefix (eg. NpcM_Function),",
+          "2. Must have at least two parameters: NpcMaker* and PlayState*. Up to 8 additional float arguments can be passed on from scripts.",
+          "3. If you plan to pass the result to scripts, the return type must be float",
+          "5. A unique name",
+          "",
+          "Examples of valid function signatures are thus, for example:",
+          "",
+          "void NpcM_Function(NpcMaker* npc, PlayState* play, float argument, float argument1)",
+          "float NpcM_Function2(NpcMaker* npc, PlayState* play)",
+          "float NpcM_DoAThing(NpcMaker* npc, PlayState* play)",
+          "",
+          "The exception for this is functions which should run \"On limb\", their signature is as follows:",
+          "",
+          "float NpcM_Function(NpcMaker* npc, PlayState* playState, s32 limbNumber, Gfx** dListPtr, Vec3f* translation, Vec3s* rotation, void* instance, Gfx** gfxP)",
+          "",
+          "This function should return 0 if the limb is meant to be drawn, and 1 if it is not.",
+          "",
+          "For \"post limb\" functions, the signature is the same, but some of the arguments might be NULL, and the function doesn't return anything.",
+          "For \"Skin\" models, only the limb number is available.",
+          "For others, everything but the translation is available.",
+          "",
+          "Warning; When using these functions from scripts, make sure",
+          "the return type is valid.",
+          "*/"
         ],
-        "Functions": [],
+        "Functions": [
+          {
+            "FuncName": "NpcM_GetPlatform"
+          },
+          {
+            "FuncName": "NpcM_GetSkipTpak"
+          }
+        ],
         "FuncsRunWhen": [
           [
             -1,
@@ -44447,11 +44488,11 @@
           ]
         ],
         "SetFuncNames": [
-          null,
-          null,
-          null,
-          null,
-          null,
+          "",
+          "",
+          "",
+          "",
+          "",
           ""
         ]
       }
@@ -48437,7 +48478,7 @@
             "            await textbox_on_screen false",
             "            await frames 10",
             "",
-            "            if ccall NpcM_GetPlatform == PLATFORM_N64",
+            "            if ccall NpcM_GetSkipTpak == 0",
             "                show_textbox_sp Unlocked2",
             "            else",
             "                show_textbox_sp UnlockedWiiUGCN",
@@ -49661,6 +49702,9 @@
           },
           {
             "FuncName": "NpcM_GetSeqio"
+          },
+          {
+            "FuncName": "NpcM_GetSkipTpak"
           },
           {
             "FuncName": "NpcM_InitCredits"
@@ -78158,6 +78202,9 @@
             "FuncName": "NpcM_GetPlatform"
           },
           {
+            "FuncName": "NpcM_GetSkipTpak"
+          },
+          {
             "FuncName": "NpcM_Init"
           },
           {
@@ -79856,6 +79903,7 @@
             "endif",
             "",
             "await ccall NpcM_SetCurOption var.1 == 1",
+            "var.1 = 0",
             "::AwaitResponseOrReturn End",
             "",
             "Sound:",
@@ -79913,7 +79961,7 @@
             "    return",
             "",
             "WideToggle:",
-            "    var.1 = 2        ",
+            "    var.1 = 2",
             "    play sfx NA_SE_SY_ATTENTION_ON",
             "",
             "    if SAVE_WIDESCREEN == 1",
@@ -79931,6 +79979,52 @@
           ],
           "ParseErrors": [],
           "Name": "Script"
+        },
+        {
+          "TextLines": [
+            "// Unlock scene select if A CDOWN CUP A CDOWN CUP",
+            "",
+            "#define SETTINGS_CODE var.5",
+            "",
+            "proc CheckButtonNext btn",
+            "    set SETTINGS_CODE = 0",
+            "    DEBUG_VAR = 0",
+            "    set script_start here",
+            "",
+            "    if var.1 = 1",
+            "        if BUTTON_PRESSED btn",
+            "            await frames 1",
+            "            DEBUG_VAR +=1",
+            "        else",
+            "            set SETTINGS_CODE += 1",
+            "            if SETTINGS_CODE = 20",
+            "                set script_start nosecret",
+            "            endif",
+            "            return",
+            "        endif",
+            "    else",
+            "        set script_start nosecret",
+            "        return",
+            "    endif",
+            "endproc",
+            "",
+            "",
+            "nosecret:",
+            "::CheckButtonNext BTN_A",
+            "::CheckButtonNext BTN_CDOWN",
+            "::CheckButtonNext BTN_CUP",
+            "::CheckButtonNext BTN_A",
+            "::CheckButtonNext BTN_CDOWN",
+            "::CheckButtonNext BTN_CUP",
+            "",
+            "play sfx_global NA_SE_SY_GET_ITEM",
+            "set SAVE_HASBEATENGAME = 125",
+            "SAVE_EXTRASCENES = 0xFF",
+            "save",
+            "set script_start nosecret"
+          ],
+          "ParseErrors": [],
+          "Name": "sceneSelectUnlock"
         }
       ],
       "EnvironmentColor": "White",
@@ -80072,7 +80166,7 @@
       "DEBUGPrintToScreen": false,
       "DEBUGLookAtEditor": false,
       "DEBUGExDlistEditor": false,
-      "NumVars": 2,
+      "NumVars": 5,
       "NumFVars": 2,
       "ExistInAllRooms": false,
       "CullForward": 1000.0,
@@ -80362,6 +80456,9 @@
             "FuncName": "NpcM_GetPlatform"
           },
           {
+            "FuncName": "NpcM_GetSkipTpak"
+          },
+          {
             "FuncName": "NpcM_Init"
           },
           {
@@ -80388,7 +80485,7 @@
         ],
         "FuncsRunWhen": [
           [
-            3,
+            4,
             -1
           ],
           [
@@ -85102,11 +85199,29 @@
     "#define GCN_CHECK_MAGIC 0x47434E45",
     "#define WII_CHECK_MAGIC 0x5245564F",
     "#define WIIU_CHECK_MAGIC 0x43414645",
+    "#define TPAK_CHECK_MAGIC 0x5450414B",
     "",
     "#define PLATFORM_N64 0",
     "#define PLATFORM_GAMECUBE 1",
     "#define PLATFORM_WII 2",
     "#define PLATFORM_WIIU_NS 3",
+    "",
+    "float NpcM_GetSkipTpak(NpcMaker* npc, PlayState* play)",
+    "{",
+    "    if (*emuIdentifier == GCN_CHECK_MAGIC)",
+    "        return 1;",
+    "",
+    "    if (*emuIdentifier == WII_CHECK_MAGIC)",
+    "        return 1;",
+    "",
+    "    if (*emuIdentifier == WIIU_CHECK_MAGIC)",
+    "        return 1;",
+    "",
+    "    if (*emuIdentifier == TPAK_CHECK_MAGIC)",
+    "        return 1;",
+    "",
+    "    return 0;",
+    "}",
     "",
     "float NpcM_GetPlatform(NpcMaker* npc, PlayState* play)",
     "{",

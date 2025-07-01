@@ -251,7 +251,8 @@ int HoL_DrawMessageTextInternal(PlayState* play, u8* fontBuf, Gfx** gfxp, Color_
                 } 
                 else if (operation == OPERATION_EVALUATE_LINE_XSIZE) 
                 {
-                    TexPosX += (s32)(fontWidths[curChar - ' '] * (scale / 100.0f));
+                    float width = (curChar > 0xAB) ? 13 : fontWidths[curChar - ' ']; 
+                    TexPosX += (s32)(width * (scale / 100.0f));
                 }
             }
         }

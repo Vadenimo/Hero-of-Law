@@ -7,23 +7,6 @@
 extern ViMode sViMode;
 extern PreNmiBuff* gAppNmiBufferPtr;
 
-#define SAVE_SCREENXPOS gSaveContext.scarecrowLongSong[20]
-#define SAVE_SCREENYPOS gSaveContext.scarecrowLongSong[21]
-#define SAVE_SCREENSIZEX gSaveContext.scarecrowLongSong[22]
-#define SAVE_SCREENSIZEY gSaveContext.scarecrowLongSong[23]
-
-#ifndef MAX
-    #define MAX(a, b) ((a) > (b) ? (a) : (b))
-#endif
-
-#ifndef MIN
-    #define MIN(a, b) ((a) < (b) ? (a) : (b))
-#endif
-
-#define SCREENSIZE_DEFAULT 225
-#define SCREENPOSX_DEFAULT 0
-#define SCREENPOSY_DEFAULT 0
-
 void Minimap_Draw(PlayState* play)
 {
 }
@@ -71,7 +54,12 @@ void Screen_Adjust(GameState* state, View* view)
         SAVE_SCREENSIZEY = SCREENSIZE_DEFAULT;
         SAVE_SCREENXPOS = SCREENPOSX_DEFAULT;
         SAVE_SCREENYPOS = SCREENPOSY_DEFAULT;
-        SAVE_WIDESCREEN = 0;
+        
+        if (SAVE_DEBUGMODE)
+            SAVE_WIDESCREEN = SAVE_WIDESCREEN ? 0 : 1;
+        else
+            SAVE_WIDESCREEN = WIDESCREEN_DEFAULT;
+        
         upd = true;
     }
     
