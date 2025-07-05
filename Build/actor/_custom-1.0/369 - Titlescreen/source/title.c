@@ -1040,6 +1040,7 @@ void TitleLogo_InitNewSave()
     SAVE_SCREENSIZEX = 225;
     SAVE_SCREENSIZEY = 225;
     SAVE_WIDESCREEN = 0;
+    SAVE_ANTIALIASOFF = 0;
     
     bcopy("ZELDA", &SAVE_LANAME, 5);
     bcopy(&sHeroOfLawMagic, &gSaveContext.playerName, ARRAY_COUNTU(sHeroOfLawMagic));

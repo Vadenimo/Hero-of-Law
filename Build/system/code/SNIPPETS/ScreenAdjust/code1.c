@@ -25,7 +25,7 @@ void Screen_Adjust(GameState* state, View* view)
     if (gAppNmiBufferPtr->resetting)
     {
         Gfx* gfxRef = state->gfxCtx->overlay.p;
-        Gfx* gfx = gfxRef;
+        Gfx* gfx = gfxRef; 
         
         gAppNmiBufferPtr->resetCount++;
         
@@ -54,6 +54,7 @@ void Screen_Adjust(GameState* state, View* view)
         SAVE_SCREENSIZEY = SCREENSIZE_DEFAULT;
         SAVE_SCREENXPOS = SCREENPOSX_DEFAULT;
         SAVE_SCREENYPOS = SCREENPOSY_DEFAULT;
+        SAVE_ANTIALIASOFF = ANTIALIASOFF_DEFAULT;
         
         if (SAVE_DEBUGMODE)
             SAVE_WIDESCREEN = SAVE_WIDESCREEN ? 0 : 1;
@@ -83,9 +84,6 @@ void Screen_Adjust(GameState* state, View* view)
         SAVE_SCREENYPOS = SCREENPOSY_DEFAULT;
         upd = true;
     }
-    
-    if (xPos == 0 && yPos == 0 && SAVE_SCREENSIZEX == SCREENSIZE_DEFAULT && SAVE_SCREENSIZEY == SCREENSIZE_DEFAULT && !upd)
-        return;
     
     float sizeOffs = SCREENSIZE_DEFAULT - SAVE_SCREENSIZEX;
     float sizeOffsY = SCREENSIZE_DEFAULT - SAVE_SCREENSIZEY;
@@ -134,9 +132,15 @@ void Screen_Adjust(GameState* state, View* view)
         scale = 1.0f;
     }
     
-    ViMode_Configure(&sViMode, viType, tvType, 1, 0, 1, 1, SCREEN_WIDTH, SCREEN_HEIGHT, leftAdjust, rightAdjust, upperAdjust, lowerAdjust);
+    ViMode_Configure(&sViMode, viType, tvType, 1, SAVE_ANTIALIASOFF, 1, 1, SCREEN_WIDTH, SCREEN_HEIGHT, leftAdjust, rightAdjust, upperAdjust, lowerAdjust);
     gViConfigMode = sViMode.customViMode;
     osViSetYScale(scale);
+    
+    if (SAVE_ANTIALIASOFF)
+        osViSetSpecialFeatures(OS_VI_DITHER_FILTER_OFF);
+    else
+        osViSetSpecialFeatures(OS_VI_DITHER_FILTER_ON);     
+    
     return;
 }
 
