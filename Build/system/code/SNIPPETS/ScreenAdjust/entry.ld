@@ -21,3 +21,7 @@ osViClock = 0x80006358;
 osTvType = 0x80000300;
 gAppNmiBufferPtr = 0x8011D2A0;
 Play_SetupTransition = 0x8009A2B0;
+osViSetSpecialFeatures = 0x800D2E40;
+__osDisableInt = 0x80005130;
+__osViNext = 0x800064C4;
+__osRestoreInt = 0x800051A0;
