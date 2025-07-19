@@ -41,7 +41,7 @@ gcc -o novl -s -Os -DNOVL_DEBUG=1 -flto src/*.c `pkg-config --cflags --libs libe
 sudo mv novl /opt/n64/bin/novl
 </pre>
 
-3. Run <pre>sudo nano ~/.bashrc</pre> and add export <pre>PATH="/opt/n64/bin/:$PATH"</pre> at the end of the file. 
+3. Run <pre>sudo nano ~/.bashrc</pre> and add <pre>export PATH="/opt/n64/bin/:$PATH"</pre> at the end of the file. 
 4. Run <code>git clone https://github.com/Newer-Team/Hero-of-Law.git</code>
 5. Go into /Build and place <code>oot-1.0-dec.z64</code> there. This has to be a 1.0 US Zelda Ocarina of Time ROM, decompressed.
 6. Run <code>python3 prepare.py</code>
