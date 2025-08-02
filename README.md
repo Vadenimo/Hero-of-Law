@@ -1,5 +1,7 @@
 <h1>Hero of Law Source Code</h1>
 
+# Instructions
+
 Tested on WSL.
 
 To build a ROM:
