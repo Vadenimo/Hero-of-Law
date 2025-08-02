@@ -2,7 +2,7 @@
 
 # Disclaimer
 This is the Hero of Law German localization fork. 
-To track the German localization, please open up this [spreadsheet](url).
+To track the German localization, please open up this [spreadsheet](https://docs.google.com/spreadsheets/d/1GmBUzVS5q3erHlEM9_02HuKCNVjEyocrMBe8Dap7Bnk/edit?usp=sharing).
 
 # German Translation Team:
 - Vadenimo
