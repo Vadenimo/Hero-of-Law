@@ -1,8 +1,10 @@
 <h1>Hero of Law Source Code</h1>
-This is the Hero of Law German localization fork.
+
+# Disclaimer
+This is the Hero of Law German localization fork. It's used to translate this Hack to the German language.
 To track the German localization, please open up this spreadsheet.
 
-German Translation Team:
+# German Translation Team:
 - Vadenimo
 - Luckyfini
 - Professional Gopnik
