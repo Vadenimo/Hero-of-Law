@@ -1,4 +1,11 @@
 <h1>Hero of Law Source Code</h1>
+This is the Hero of Law German localization fork.
+To track the German localization, please open up this spreadsheet.
+
+German Translation Team:
+- Vadenimo
+- Luckyfini
+- Professional Gopnik
 
 # Instructions
 
