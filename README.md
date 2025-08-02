@@ -3,7 +3,7 @@
 # Disclaimer
 This is the Hero of Law German localization fork. 
 It's used to translate this hack into German.
-To track the German localization, please open up this spreadsheet.
+To track the German localization, please open up this [spreadsheet](url).
 
 # German Translation Team:
 - Vadenimo
