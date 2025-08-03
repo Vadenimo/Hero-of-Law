@@ -899,7 +899,7 @@
             {
               "Name": "Koholink",
               "MessageTextLines": [
-                "<Y>DIEB<W> (Alter: ??)",
+                "<Y><FONT_TOGGLE>DIEB<FONT_TOGGLE><W> (Alter: ??)",
                 "Mein kleptomanisches Ich aus der",
                 "anderen Welt...?<PERSISTENT>"
               ],
@@ -929,7 +929,7 @@
             {
               "Name": "Koholink2",
               "MessageTextLines": [
-                "<Y><FONT_TOGGLE>$$$$$<FONT_TOGGLE><W> (Age: ??)",
+                "<Y><FONT_TOGGLE>$$$$<FONT_TOGGLE><W> (Alter: ??)",
                 "Mein kleptomanisches Ich aus der",
                 "anderen Welt...?<PERSISTENT>"
               ],
@@ -68286,7 +68286,7 @@
                 "",
                 "",
                 "",
-                "<Shift:150><R>PROJECT LEAD<W>",
+                "<Shift:140><R>PROJEKTLEITUNG<W>",
                 "",
                 "",
                 "<Shift:220>Skawo",
@@ -68301,19 +68301,7 @@
                 "",
                 "",
                 "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "<Shift:140><R>SCENARIO<W>",
+                "<Shift:140><R>SZENARIO<W>",
                 "",
                 "",
                 "<Shift:180>Skawo",
@@ -68325,6 +68313,20 @@
                 "<Shift:180>LuigiXHero",
                 "",
                 "<Shift:180>Meatball132",
+                "",
+                "",
+                "",
+                "<Shift:150><R>DEUTSCHE ",
+                "",
+                "<Shift:140>ÜBERSETZUNG<W>",
+                "",
+                "",
+                "<Shift:180>Vadenimo",
+                "",
+                "<Shift:180>Luckyfini",
+                "",
+                "<Shift:180>Professional Gopnik",
+                "",
                 "<PERSISTENT>"
               ],
               "Type": 6,
@@ -68351,7 +68353,7 @@
                 "",
                 "",
                 "",
-                "<Shift:140><R>SCENE MODELING<W>",
+                "<Shift:110><R>SZENENMODELLIERUNG<W>",
                 "",
                 "",
                 "<Shift:200>LuigiXHero",
@@ -68385,7 +68387,7 @@
                 "",
                 "",
                 "",
-                "<Shift:120><R>CHARACTER MODELING<W>",
+                "<Shift:95><R>CHARAKTERMODELLIERUNG<W>",
                 "",
                 "",
                 "<Shift:200>oonga",
@@ -68421,7 +68423,7 @@
                 "",
                 "",
                 "",
-                "<Shift:120><R>CHARACTER ANIMATION<W>",
+                "<Shift:120><R>CHARAKTERANIMIERUNG<W>",
                 "",
                 "",
                 "<Shift:200>Jimbo Slim",
@@ -68493,7 +68495,7 @@
                 "",
                 "",
                 "",
-                "<Shift:140><R>PROGRAMMING<W>",
+                "<Shift:120><R>PROGRAMMIERUNG<W>",
                 "",
                 "",
                 "<Shift:180>Skawo",
@@ -68528,7 +68530,7 @@
                 "",
                 "",
                 "",
-                "<Shift:150><R>SCRIPTING<W>",
+                "<Shift:150><R>SKRIPT<W>",
                 "",
                 "",
                 "<Shift:180>Skawo",
@@ -68563,7 +68565,7 @@
                 "",
                 "",
                 "",
-                "<Shift:170><R>MUSIC<W>",
+                "<Shift:170><R>MUSIK<W>",
                 "",
                 "",
                 "<Shift:180>RoadrunnerWMC",
@@ -68577,7 +68579,7 @@
             {
               "Name": "Tools1",
               "MessageTextLines": [
-                "<Shift:72><R>TOOL PROGRAMMING<W>",
+                "<Shift:60><R>WERKZEUGPROGRAMMIERUNG<W>",
                 "",
                 "",
                 "<Shift:5>Skawo",
@@ -68649,7 +68651,7 @@
                 "",
                 "",
                 "",
-                "<Shift:140><R>CREATED USING<W>",
+                "<Shift:100><R>ERSTELLT MITHIFLE VOM<W>",
                 "",
                 "",
                 "<Shift:180>OoT NPC Maker",
@@ -68769,7 +68771,7 @@
             {
               "Name": "SpecialThanks1",
               "MessageTextLines": [
-                "<Shift:130><R>SPECIAL THANKS<W>",
+                "<Shift:130><R>BESONDERER DANK AN<W>",
                 "",
                 "<PERSISTENT>"
               ],
@@ -68848,7 +68850,7 @@
                 "",
                 "",
                 "",
-                "<Shift:165>And...",
+                "<Shift:150>Und...",
                 "",
                 "<PERSISTENT>"
               ],
@@ -68863,7 +68865,7 @@
                 "",
                 "",
                 "",
-                "<Shift:175>You, for playing.",
+                "<Shift:150>dir, danke fürs Spielen.",
                 "",
                 "<PERSISTENT>"
               ],
@@ -68883,7 +68885,7 @@
                 "",
                 "",
                 "",
-                "<Shift:86><R>THE END",
+                "<Shift:86><R>ENDE",
                 "",
                 "",
                 "",
@@ -68904,7 +68906,7 @@
             {
               "Name": "Unlocked1",
               "MessageTextLines": [
-                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Scene Select<W> is now unlocked!<SQUARE>"
+                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC>Die <R>Szenenauswahl<W> wurde freigeschaltet!<SQUARE>"
               ],
               "Type": 1,
               "Position": 2
@@ -68912,9 +68914,9 @@
             {
               "Name": "Unlocked2",
               "MessageTextLines": [
-                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Extra 1<W> is now unlocked!",
+                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC>Das <R>Extra 1<W> wurde freigeschaltet!",
                 "",
-                "<LC>Check it out in the Scene Select!<SQUARE>"
+                "<LC>Schau einfach in die Szenenauswahl hinein!<SQUARE>"
               ],
               "Type": 1,
               "Position": 2
@@ -68922,10 +68924,10 @@
             {
               "Name": "UnlockedWiiUGCN",
               "MessageTextLines": [
-                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC><R>Extra 1<W>, <R>Extra 2<W> and <R>Extra 3<W>",
-                "<LC>are now unlocked!",
+                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC>Das <R>Extra 1<W>, <R>Extra 2<W> und <R>Extra 3<W>",
+                "<LC>wurden freigeschaltet!",
                 "",
-                "<LC>Check them out in the Scene Select!<SQUARE>"
+                "<LC>Schau einfach in die Szenenauswahl hinein!<SQUARE>"
               ],
               "Type": 1,
               "Position": 2
@@ -102699,7 +102701,7 @@
             {
               "Name": "msgPause",
               "MessageTextLines": [
-                "<BYTE:0xF8> Pause / See rules"
+                "<BYTE:0xF8> Pause / Lese die Regeln"
               ],
               "Type": 0,
               "Position": 0
@@ -102707,7 +102709,7 @@
             {
               "Name": "msgChangeMus",
               "MessageTextLines": [
-                "<Y><C_Up><W>/<Y><C_Down><W> Change music"
+                "<Y><C_Up><W>/<Y><C_Down><W> Ändere die Musik"
               ],
               "Type": 0,
               "Position": 0
@@ -102715,7 +102717,7 @@
             {
               "Name": "msgRulesTitle",
               "MessageTextLines": [
-                "<R>RULES"
+                "<R>REGELN"
               ],
               "Type": 0,
               "Position": 0
@@ -102727,10 +102729,10 @@
                 "",
                 "",
                 "1. Die Karten werden gezogen...",
-                "2. Du kannst aussuchen, wie viel du beim",
-                "Auswählen der Rubine verwettest",
-                "und welche Karten du ersetzen möchtest,",
-                "in dem du auf sie klickst..."
+                "2. Du entscheidest, wie viel du",
+                "beim Anklicken der Rubine ver-",
+                "wettest und welche Karten beim",
+                "Aussuchen getauscht werden"
               ],
               "Type": 6,
               "Position": 0
@@ -102746,9 +102748,9 @@
                 "",
                 "",
                 "",
-                "3. Basil entscheidet seine Wette und",
-                "Karten, die ersetzt werden sollen...",
-                "4. Alles oder nichts, der Gewinner kriegt alles doppelt!"
+                "3. Dann wettet Basil und",
+                "entscheidet seinen Kartentausch",
+                "4. Gewinner erhält alles doppelt!"
               ],
               "Type": 6,
               "Position": 0
@@ -102756,7 +102758,7 @@
             {
               "Name": "msgRulesBack",
               "MessageTextLines": [
-                "<G><B_BUTTON><W> Back"
+                "<G><B_BUTTON><W> Zurück"
               ],
               "Type": 0,
               "Position": 0
@@ -102772,7 +102774,7 @@
             {
               "Name": "msgBtnHold",
               "MessageTextLines": [
-                "H O L D"
+                "H A L T E N"
               ],
               "Type": 0,
               "Position": 0
@@ -102780,7 +102782,7 @@
             {
               "Name": "msgBtnDraw",
               "MessageTextLines": [
-                "D R A W"
+                "T A U S C H E N"
               ],
               "Type": 0,
               "Position": 0
@@ -102788,7 +102790,7 @@
             {
               "Name": "figureNothing",
               "MessageTextLines": [
-                "Nothing"
+                "Nichts"
               ],
               "Type": 0,
               "Position": 0
@@ -102796,7 +102798,7 @@
             {
               "Name": "figureOnePair",
               "MessageTextLines": [
-                "One Pair"
+                "Ein Paar"
               ],
               "Type": 0,
               "Position": 0
@@ -102804,7 +102806,7 @@
             {
               "Name": "figureTwoPairs",
               "MessageTextLines": [
-                "Two Pairs"
+                "Zwei Paare"
               ],
               "Type": 0,
               "Position": 0
@@ -102812,7 +102814,7 @@
             {
               "Name": "figureThreeOfAKind",
               "MessageTextLines": [
-                "Three of a Kind"
+                "Drei gleiche Karten"
               ],
               "Type": 0,
               "Position": 0
@@ -102820,7 +102822,7 @@
             {
               "Name": "figureFullHouse",
               "MessageTextLines": [
-                "Full House"
+                "Volles Haus"
               ],
               "Type": 0,
               "Position": 0
@@ -102828,7 +102830,7 @@
             {
               "Name": "figureFourOfAKind",
               "MessageTextLines": [
-                "Four of a Kind"
+                "Vier gleiche Karten"
               ],
               "Type": 0,
               "Position": 0
@@ -102836,7 +102838,7 @@
             {
               "Name": "figureFiveOfaKind",
               "MessageTextLines": [
-                "Five of a Kind"
+                "Fünf gleiche Karten"
               ],
               "Type": 0,
               "Position": 0
@@ -102852,7 +102854,7 @@
             {
               "Name": "resultWin",
               "MessageTextLines": [
-                "You won!"
+                "Du hast gewonnen!"
               ],
               "Type": 0,
               "Position": 0
@@ -102860,7 +102862,7 @@
             {
               "Name": "resultLose",
               "MessageTextLines": [
-                "You lost..."
+                "Du hast verloren..."
               ],
               "Type": 0,
               "Position": 0
@@ -102868,7 +102870,7 @@
             {
               "Name": "resultDraw",
               "MessageTextLines": [
-                "It's a draw!"
+                "Es ist ein Unentschieden!"
               ],
               "Type": 0,
               "Position": 0
@@ -102931,7 +102933,7 @@
                 "zeichen passten) im Song, war es nicht ",
                 "leicht, den für uns passenden Stil zu finden.",
                 "<NEW_BOX>",
-                "<SOUND:0>Stattdessen, basiert der Song (offensicht-",
+                "<SOUND:0>Stattdessen basiert der Song (offensicht-",
                 "lich) auf <R>Kaepora Gaebora's Theme<W>.",
                 "<NEW_BOX>",
                 "<SOUND:0>Die neue Melodie wurde so entworfen,",
@@ -102940,7 +102942,7 @@
                 "abwärts läuft, dann auch im neuen Song.",
                 "<NEW_BOX>",
                 "<SOUND:0>Die Akkorde fließen etwas ziellos um ",
-                "herum, ohne viel Logik dahinter.",
+                "sich herum, ohne viel Logik dahinter.",
                 "<PAUSE:3>Ich habe meist die Noten varriert, damit",
                 "es besser klingen soll.",
                 "<NEW_BOX>",
@@ -102958,43 +102960,45 @@
                 "<SOUND:0><LC><R>Title Theme",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>This song had a bit of an unusual",
-                "history.",
+                "<SOUND:0>Dieser Song hat eine etwas ",
+                "ungewöhnliche Geschichte.",
                 "<NEW_BOX>",
-                "<SOUND:0>I was able to write the first 30 seconds",
-                "of it <EMDASH> a rearrangement of the original",
-                "game's <R>Title Theme<W> <EMDASH> on my first try...",
+                "<SOUND:0>Ich war in der Lage die ersten 30 Sek.",
+                "von diesem Theme <EMDASH> eine Neuinter-",
+                "pretation des <R>Title Theme<W> vom Original <EMDASH>",
+                "in meinem ersten Versuch zu arrangieren.",
                 "<NEW_BOX>",
-                "<SOUND:0>...but then I got writer's block",
-                "(\"composer's block\"?), and couldn't",
-                "figure out how to continue it.",
+                "<SOUND:0>...aber dann bekam ich eine Schreib-",
+                "blockade und konnte nicht herausfinden,",
+                "wie ich weitermachen soll.",
                 "<NEW_BOX>",
-                "<SOUND:0>So I started a second attempt from",
-                "scratch.<PAUSE:3> I soon saw that it wasn't as",
-                "good, but I found it easier to think of",
-                "ideas for because it was more energetic.",
+                "<SOUND:0>Also fing ich beim zweiten Mal komplett",
+                "von neu an.<PAUSE:3> Ich bemerkte schnell, dass es",
+                "nicht so gut, aber einfacher, war, Ideen ",
+                "wegen der energischen Musik zu finden.",
                 "<NEW_BOX>",
-                "<SOUND:0>Then I adapted many of those ideas",
-                "back into the first version, to get the",
-                "best of both!",
+                "<SOUND:0>Danach adaptierte ich viele dieser Ideen",
+                "in die erste Version des Songs, um das",
+                "beste Ergebnis beider Songs zu erzielen.",
                 "<NEW_BOX>",
-                "<SOUND:0>The sections based on <R>Great Fairy's",
-                "Fountain<W>, <R>The Legend of Zelda<W> main",
-                "theme, and the <R>Title Theme<W> from <R>Newer",
-                "Super Mario Bros. Wii<W> are from there...",
+                "<SOUND:0>Die Sektionen basieren auf <R>Great Fairy's",
+                "Fountain<W>, <R>The Legend of Zelda<W> Main",
+                "Theme, und das <R>Title Theme<W> von <R>Newer",
+                "Super Mario Bros. Wii<W>...",
                 "<NEW_BOX>",
-                "<SOUND:0>...but a section based on <R>Ganondorf's",
-                "Theme<W> didn't make the cut.",
+                "<SOUND:0>...aber die Sektion basierend auf ",
+                "<R>Ganondorf's Theme<W> schaffte es nicht ins",
+                "Spiel.",
                 "<NEW_BOX>",
-                "<SOUND:0>(Also, yes, you read that right.<PAUSE:3> ",
-                "There's a Newer Super Mario Bros. Wii",
-                "reference near the end of the song,",
-                "if you hadn't caught it!)",
+                "<SOUND:0>(Und ja, richtig gelesen.<PAUSE:3> Es gibt eine",
+                "Newer Super Mario Bros. Wii Referenz,",
+                "kurz vorm Ende des Songs, sofern du",
+                "es überhört hast!)",
                 "<NEW_BOX>",
-                "<SOUND:0>Something else you might not have",
-                "noticed is that the harp near the end",
-                "plays mostly the same notes as the piano",
-                "from the original game's Title Theme.",
+                "<SOUND:0>Etwas Anderes, was du vielleicht nicht be-",
+                "merkt haben könntest ist, dass die Harfe",
+                "gegen Ende genauso klingt, wie das Kla-",
+                "vier des Originalspiels Title Theme.",
                 "<NEW_BOX>",
                 "<PERSISTENT>"
               ],
@@ -106440,7 +106444,7 @@
             {
               "Name": "msg_entry",
               "MessageTextLines": [
-                "<SHIFT:53><DRÜCKE START!<W>",
+                "<SHIFT:53><R>DRÜCKE START!<W>",
                 "",
                 "<SHIFT:22><C><D_PAD><W> Bewegen<SHIFT:12><G><B BUTTON><W> Rennen<SHIFT:12><B><A BUTTON><W> Springen",
                 "<PERSISTENT>",
@@ -109584,8 +109588,9 @@
             {
               "Name": "Msg1",
               "MessageTextLines": [
-                "It appears that the defence is unable",
-                "to attend the trial.<FADE:50>"
+                "Es scheint so als sei die Verteidigung",
+                "nicht in der Lage, an der Verhandlung",
+                "teilzunehmen.<FADE:50>"
               ],
               "Type": 0,
               "Position": 0
@@ -109593,8 +109598,8 @@
             {
               "Name": "Msg2",
               "MessageTextLines": [
-                "As such,<PAUSE:3> I pronounce Malon of Lon",
-                "Lon Ranch...<FADE:20>"
+                "Daher<PAUSE:3> spreche ich Malon aus der Lon",
+                "Lon-Farm für...<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -110483,7 +110488,7 @@
             {
               "Name": "SceneSelectString",
               "MessageTextLines": [
-                "<LC><R>SCENE SELECT / EXTRAS"
+                "<LC><R>SZENENAUSWAHL / EXTRAS"
               ],
               "Type": 0,
               "Position": 0
@@ -110491,7 +110496,7 @@
             {
               "Name": "Scene1",
               "MessageTextLines": [
-                "<LC>Intro Scene"
+                "<LC>Anfangsszene"
               ],
               "Type": 0,
               "Position": 0
@@ -110499,7 +110504,7 @@
             {
               "Name": "Scene2",
               "MessageTextLines": [
-                "<LC>Before the Trial"
+                "<LC>Vor der Verhandlung"
               ],
               "Type": 0,
               "Position": 0
@@ -110507,7 +110512,7 @@
             {
               "Name": "Scene3",
               "MessageTextLines": [
-                "<LC>The Trial Begins"
+                "<LC>Beginn der Verhandlung"
               ],
               "Type": 0,
               "Position": 0
@@ -110515,7 +110520,7 @@
             {
               "Name": "Scene4",
               "MessageTextLines": [
-                "<LC>Impa Enters"
+                "<LC>Impas Erscheinen"
               ],
               "Type": 0,
               "Position": 0
@@ -110523,7 +110528,7 @@
             {
               "Name": "Scene5",
               "MessageTextLines": [
-                "<LC>Impa's Testimony"
+                "<LC>Impas Aussage"
               ],
               "Type": 0,
               "Position": 0
@@ -110531,7 +110536,7 @@
             {
               "Name": "Scene6",
               "MessageTextLines": [
-                "<LC>Zelda Enters"
+                "<LC>Zeldas Erscheinen"
               ],
               "Type": 0,
               "Position": 0
@@ -110539,7 +110544,7 @@
             {
               "Name": "Scene7",
               "MessageTextLines": [
-                "<LC>Zelda's First Testimony"
+                "<LC>Zeldas erste Aussage"
               ],
               "Type": 0,
               "Position": 0
@@ -110547,7 +110552,7 @@
             {
               "Name": "Scene8",
               "MessageTextLines": [
-                "<LC>Zelda's Second Testimony"
+                "<LC>Zeldas zweite Aussage"
               ],
               "Type": 0,
               "Position": 0
@@ -110555,7 +110560,7 @@
             {
               "Name": "Scene9",
               "MessageTextLines": [
-                "<LC>Zelda's New Evidence"
+                "<LC>Zeldas neues Beweisstück"
               ],
               "Type": 0,
               "Position": 0
@@ -110563,7 +110568,7 @@
             {
               "Name": "Scene10",
               "MessageTextLines": [
-                "<LC>Zelda's Third Testimony"
+                "<LC>Zeldas dritte Aussage"
               ],
               "Type": 0,
               "Position": 0
@@ -110571,7 +110576,7 @@
             {
               "Name": "Scene11",
               "MessageTextLines": [
-                "<LC>Recess"
+                "<LC>Pause"
               ],
               "Type": 0,
               "Position": 0
@@ -110579,7 +110584,7 @@
             {
               "Name": "Scene12",
               "MessageTextLines": [
-                "<LC>Ingo Enters"
+                "<LC>Basils Erscheinen"
               ],
               "Type": 0,
               "Position": 0
@@ -110587,7 +110592,7 @@
             {
               "Name": "Scene13",
               "MessageTextLines": [
-                "<LC>Ingo's First Testimony"
+                "<LC>Basils erste Aussage"
               ],
               "Type": 0,
               "Position": 0
@@ -110595,7 +110600,7 @@
             {
               "Name": "Scene14",
               "MessageTextLines": [
-                "<LC>Ingo's Second Testimony"
+                "<LC>Basils zweite Aussage"
               ],
               "Type": 0,
               "Position": 0
@@ -110603,7 +110608,7 @@
             {
               "Name": "Scene15",
               "MessageTextLines": [
-                "<LC>Deep Thought"
+                "<LC>Tiefgründiger Gedanke"
               ],
               "Type": 0,
               "Position": 0
@@ -110611,7 +110616,7 @@
             {
               "Name": "Scene16",
               "MessageTextLines": [
-                "<LC>Accusing Ingo"
+                "<LC>Basil beschuldigen"
               ],
               "Type": 0,
               "Position": 0
@@ -110619,7 +110624,7 @@
             {
               "Name": "Scene17",
               "MessageTextLines": [
-                "<LC>Ingo's Third Testimony"
+                "<LC>Basils dritte Aussage"
               ],
               "Type": 0,
               "Position": 0
@@ -110627,7 +110632,7 @@
             {
               "Name": "Scene18",
               "MessageTextLines": [
-                "<LC>Dragmire's Rebuttal"
+                "<LC>Dragmire's Widerlegung"
               ],
               "Type": 0,
               "Position": 0
@@ -110635,7 +110640,7 @@
             {
               "Name": "Scene19",
               "MessageTextLines": [
-                "<LC>The Truth Revealed"
+                "<LC>Die enthüllte Wahrheit"
               ],
               "Type": 0,
               "Position": 0
@@ -110643,7 +110648,7 @@
             {
               "Name": "Scene20",
               "MessageTextLines": [
-                "<LC>A Flashback"
+                "<LC>Eine Rückblende"
               ],
               "Type": 0,
               "Position": 0
@@ -110651,7 +110656,7 @@
             {
               "Name": "Scene21",
               "MessageTextLines": [
-                "<LC>The Verdict"
+                "<LC>Das Urteil"
               ],
               "Type": 0,
               "Position": 0
@@ -110659,7 +110664,7 @@
             {
               "Name": "Scene22",
               "MessageTextLines": [
-                "<LC>Epilogue"
+                "<LC>Epilog"
               ],
               "Type": 0,
               "Position": 0
@@ -110667,7 +110672,7 @@
             {
               "Name": "Scene23",
               "MessageTextLines": [
-                "<LC>Credits"
+                "<LC>Credits / Abspann"
               ],
               "Type": 0,
               "Position": 0
@@ -110675,7 +110680,7 @@
             {
               "Name": "Scene24",
               "MessageTextLines": [
-                "<LC>EXTRA 1: Meanwhile, Somewhere Else..."
+                "<LC>EXTRA 1: In der Zwischenzeit, woanders..."
               ],
               "Type": 0,
               "Position": 0
@@ -110683,7 +110688,7 @@
             {
               "Name": "Scene25",
               "MessageTextLines": [
-                "<LC>EXTRA 2: Ingo's Casino"
+                "<LC>EXTRA 2: Basils Casino"
               ],
               "Type": 0,
               "Position": 0
@@ -110691,7 +110696,7 @@
             {
               "Name": "Scene26",
               "MessageTextLines": [
-                "<LC>EXTRA 3: Turnabout Thief"
+                "<LC>EXTRA 3: Der Wandel des Diebs"
               ],
               "Type": 0,
               "Position": 0
