@@ -18,7 +18,7 @@ cd n64
 
 sudo make toolchain-all
 
-sudo make install-toolchain
+sudo make toolchain-install
 
 sudo make install-sys
 
