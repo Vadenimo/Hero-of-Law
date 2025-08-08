@@ -16,7 +16,7 @@ cd n64
 
 ./configure --prefix=/opt/n64 --enable-vc
 
-sudo make all-toolchain
+sudo make toolchain-all
 
 sudo make install-toolchain
 
