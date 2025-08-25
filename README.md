@@ -27,9 +27,9 @@ cd n64
 
 ./configure --prefix=/opt/n64 --enable-vc
 
-sudo make all-toolchain
+sudo make toolchain-all
 
-sudo make install-toolchain
+sudo make toolchain-install
 
 sudo make install-sys
 
@@ -49,7 +49,7 @@ cd nOVL
 
 gcc -o novl -s -Os -DNOVL_DEBUG=1 -flto src/*.c `pkg-config --cflags --libs libelf glib-2.0`
 
-sudo mv novl /opt/n64/bin/novl
+sudo cp novl /opt/n64/bin/
 </pre>
 
 3. Run <pre>sudo nano ~/.bashrc</pre> and add <pre>export PATH="/opt/n64/bin/:$PATH"</pre> at the end of the file. 
