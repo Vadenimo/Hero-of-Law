@@ -4,6 +4,7 @@ desktop.ini
 *.yaz
 *.aplib
 *.raw
+*.wad
 build.z64
 build-yaz.z64
 build-aplib.z64

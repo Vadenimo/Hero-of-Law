@@ -6,6 +6,7 @@
 #include "../include/h_scene.h"
 #include "../include/h_scripts.h"
 #include "../include/update.h"
+#include "../include/npc_maker_user.h"
 
 static ColliderCylinderInit npcMakerCollision =
 {
@@ -134,7 +135,7 @@ u32 Setup_LoadSection(NpcMaker* en, PlayState* playState, u8* buffer, u32 offset
         if (en->getSettingsFromRAMObject & noCopy)
         {
             void* ptr = Rom_GetObjectDataPtr(en->actor.params, playState);
-            *allocDest = (u32)AADDR(ptr, 4 + entryAddress + offset);
+            *allocDest = (u32)AADDR(ptr, entryAddress + offset);
         }
         else
         {
@@ -239,6 +240,9 @@ static u8* Setup_LoadEmbeddedOverlay(NpcMaker* en, PlayState* playState, u8* buf
 
 bool Setup_LoadSetup(NpcMaker* en, PlayState* playState)
 {
+    static u32 buf[4]; // has to be static, or Wii VC explodes
+    bzero(&buf, 16);
+    
     u16 settingsObjectId = en->actor.params;
 
     #if LOGGING > 0
@@ -264,13 +268,11 @@ bool Setup_LoadSetup(NpcMaker* en, PlayState* playState)
     }
     
     en->npcId = en->actor.shape.rot.z;  
-   
-    u32 buf;
-
+    
     // Load number of entries from ROM...
     Rom_LoadDataFromObject(playState, settingsObjectId, &buf, 0, 4, en->getSettingsFromRAMObject);
-    u32 numEntries = buf;
-
+    u32 numEntries = buf[0];
+    
     // If the selected entry id is bigger than the number of entries, exit.
     if (en->npcId >= numEntries)
     {
@@ -281,13 +283,19 @@ bool Setup_LoadSetup(NpcMaker* en, PlayState* playState)
         Actor_Kill(&en->actor);
         return false;
     }
-
+    
+    bzero(&buf, 16);
+    
     // Load the entry offset...
-    Rom_LoadDataFromObject(playState, settingsObjectId, &buf, 4 + (4 * en->npcId), 4, en->getSettingsFromRAMObject);
-    u32 entryAddress = buf;
+    Rom_LoadDataFromObject(playState, settingsObjectId, &buf, 4 + (12 * en->npcId), 16, en->getSettingsFromRAMObject);
 
+    u32 entryAddress = buf[0];
+    u32 entrySizeCompr = buf[1];
+    u32 entrySize = buf[2];
+    u8* buffer;
+    
     // If the entry offset is 0, the actor was nulled.
-    if (entryAddress == 0)
+    if (entryAddress == 0 || entrySize == 0)
     {
         #if LOGGING > 0
             is64Printf("_NPC Entry %2d is null.\n", en->npcId);
@@ -296,19 +304,36 @@ bool Setup_LoadSetup(NpcMaker* en, PlayState* playState)
         Actor_Kill(&en->actor);
         return false;
     }
+    
+    // If compressed size is 0, then the actor is not compressed.
+    if (entrySizeCompr)
+    {
+        Yaz0Header* bufferCompr = (Yaz0Header*)ZeldaArena_Malloc(entrySizeCompr);
 
-    // Get entry size...
-    Rom_LoadDataFromObject(playState, settingsObjectId, &buf, entryAddress, 4, en->getSettingsFromRAMObject);
-    u32 entrySize = buf;
+        #if LOGGING > 0
+            is64Printf("_%2d: Loading compressed entry, size bytes: 0x%08x\n", en->npcId, entrySizeCompr);
+        #endif
 
-    // We load the whole entry here to avoid multiple tiny reads from ROM.
-    u8* buffer = ZeldaArena_Malloc(entrySize);
+        Rom_LoadDataFromObject(playState, settingsObjectId, bufferCompr, entryAddress, entrySizeCompr, en->getSettingsFromRAMObject);
+        entrySize = bufferCompr->decSize;
 
-    #if LOGGING > 0
-        is64Printf("_%2d: Loading entry size bytes: 0x%08x\n", en->npcId, entrySize);
-    #endif
+        #if LOGGING > 0
+            is64Printf("_%2d: Decompressed entry size: 0x%08x\n", en->npcId, entrySize);
+        #endif
 
-    Rom_LoadDataFromObject(playState, settingsObjectId, buffer, entryAddress + 4, entrySize, en->getSettingsFromRAMObject);
+        buffer = ZeldaArena_Malloc(entrySize);
+        Yaz0_DecompressImpl(bufferCompr, buffer);
+        ZeldaArena_Free(bufferCompr);
+    }
+    else
+    {
+        #if LOGGING > 0
+            is64Printf("_%2d: Loading entry size bytes: 0x%08x\n", en->npcId, entrySize);
+        #endif
+
+        buffer = ZeldaArena_Malloc(entrySize);
+        Rom_LoadDataFromObject(playState, settingsObjectId, buffer, entryAddress, entrySize, en->getSettingsFromRAMObject);
+    }
 
     // Copy data from the entry...
     bcopy(buffer, &en->settings, sizeof(NpcSettings));
@@ -316,17 +341,69 @@ bool Setup_LoadSetup(NpcMaker* en, PlayState* playState)
 
     if (en->getSettingsFromRAMObject)
     {
-        en->messagesDataOffset = AVAL(buffer, u32, offset + 4);
-        offset += AVAL(buffer, u32, offset);
+        u32 len = AVAL(buffer, u32, offset);
+        en->messagesDataOffset = entryAddress + offset + 16;
+        en->numLanguages = AVAL(buffer, u32, offset + 8); 
+        en->numMessages = AVAL(buffer, u32, offset + 12);         
+        offset += len;
     }
     else
     {
-        u32 len = AVAL(buffer, u32, offset);
-        u8* msgBuf = ZeldaArena_Malloc(len - 8);
-        bcopy(buffer + offset + 8, msgBuf, len - 8);
-        en->messagesDataOffset = (u32)msgBuf;
+        u8* msgBuf = NULL;
+        u32 sectionLen = AVAL(buffer, u32, offset);
+        en->numLanguages = AVAL(buffer, u32, offset + 8); 
+        en->numMessages = AVAL(buffer, u32, offset + 12); 
 
-        offset += len;
+        u8* dataStart = buffer + offset + 16;
+
+        if (en->numMessages != 0)
+        {
+            int currentLang = NpcM_GetLanguage();
+            
+            if (currentLang >= en->numLanguages)
+                currentLang = 0;
+
+            if (en->numLanguages == 1)
+            {
+                // Single language: copy all data as-is
+                u32 dataSize = sectionLen - 16;
+                msgBuf = ZeldaArena_Malloc(dataSize);
+                bcopy(dataStart, msgBuf, dataSize);
+            }
+            else
+            {
+                // Multiple languages: copy only the data for that language
+                u32 headerSize = en->numMessages * sizeof(InternalMsgEntry);
+                u32 langDataOffset = currentLang * headerSize;                
+
+                InternalMsgEntry* langHeaders = (InternalMsgEntry*)(dataStart + langDataOffset);
+                InternalMsgEntry* firstMsg = &langHeaders[0];
+                InternalMsgEntry* lastMsg = &langHeaders[en->numMessages - 1];
+                
+                u32 msgDataSize = (lastMsg->offset + lastMsg->msgLen) - firstMsg->offset;
+                u32 allocLen = headerSize + msgDataSize;
+
+                msgBuf = ZeldaArena_Malloc(allocLen);
+
+                // Copy headers
+                bcopy(langHeaders, msgBuf, headerSize);
+
+                // Copy message data
+                u8* srcMsgData = dataStart + firstMsg->offset;
+                bcopy(srcMsgData, msgBuf + headerSize, msgDataSize);
+
+                // Adjust header offsets to account for new layout
+                u32 offsetAdjustment = firstMsg->offset - headerSize;
+                InternalMsgEntry* newHeaders = (InternalMsgEntry*)msgBuf;
+
+                for (int i = 0; i < en->numMessages; i++)
+                    newHeaders[i].offset -= offsetAdjustment;
+            }
+            
+            en->messagesDataOffset = (u32)msgBuf;    
+        }      
+
+        offset += sectionLen;
     }
 
     SectionLoad sLoadList[] = 

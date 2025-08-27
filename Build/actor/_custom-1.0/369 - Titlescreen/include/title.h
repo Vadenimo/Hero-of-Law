@@ -2,6 +2,7 @@
 #define _Z_TITLE_H_
 
 #define SAVE_STUFF
+#define GET_DIMENSIONS_FUNCS
 
 #include <z64hdr/oot_u10/z64hdr.h>
 #include "../../draw2D.h"
@@ -22,9 +23,6 @@
 #define FLAGS 0x00000030
 #define LOGO_OFFSET 0x0
 #define COPYRIGHT_OFFSET 0x19000
-#define TEXT_SCALE_TITLE 100
-
-#define SAVE_MSGLOG
 
 #define FADEIN_SPEED 6
 #define TEXT_FADE_SPEED 15
@@ -50,13 +48,42 @@
 #define NPCMAKER_ACTOR_SETTINGS 108
 #define NPCMAKER_ACTOR_OVERWRITEQ 110
 #define NPCMAKER_ACTOR_CORRUPTED 111
+#define NPCMAKER_ACTOR_SCENE_SELECT 112
+
+#define COLOR_HIGHLIGHT      (Color_RGB8) {0xFF, 0xFF, 0x43}
+#define COLOR_NO_HIGHLIGHT   (Color_RGB8) {0xA6, 0xA6, 0xA6}
+
+#define TEXT_SCALE_TITLE 100
+#define TEXT_SCALE_OPTIONS 65
 
 char sDebugVersion[] = "DEBUG VERSION";
-char NewGameString[] = "NEW GAME";
-char ContinueString[] = "CONTINUE";
-char SceneSelectString[] = "SCENE SELECT / EXTRAS";
-char StringVERSION[] = "v1.04";
-char StringSETTINGS[] = "\xA3"" Settings";
+
+char* ContinueString[] =
+{
+    "CONTINUE",
+    "CONTINUER"
+};
+
+char* NewGameString[] = 
+{
+    "NEW GAME",
+    "NOUVELLE PARTIE"
+};
+
+char* SceneSelectString[] = 
+{
+    "SCENE SELECT / EXTRAS",
+    "CHOIX DE LA SC\x94""NE / EXTRAS"
+};
+
+char StringVERSION[] = "v1.10";
+
+char* StringSETTINGS[] = 
+{
+    "Settings  \xA3""",
+    "Param\x85""tres  \xA3""",
+};
+
 char BUILDUSERSTRING[] = "BUILDUSERBUILDUSERBUILDUSERBUILDUSE";
 char* gbCamEasterEggStrings[] = 
 {
@@ -65,8 +92,24 @@ char* gbCamEasterEggStrings[] =
     "Lights, camera, action!",
     "Be not afraid...",
     "KONAMI Code + Dragmire",
-    "Very very interesting...",
+    "Very, very interesting...",
+    
+    "Que faites-vous... ?",
+    "Oh, bonjour !",
+    "Silence, on tourne !\x01""Moteur... Action !",
+    "N'ayez crainte...",
+    "Code KONAMI + Dragmire",
+    "Int\x84""ressant. Tr\x85""s int\x84""ressant...",
+
 };
+
+char* languageStrings[] = 
+{
+    "\xA2""  Language\x02",
+    "\xA2""  Langue\x02"
+};
+
+#define FONT_RELOAD_LENGTH 5
 
 void TitleLogo_DrawSceneSelect(Actor* thisx, PlayState* play);
 void TitleLogo_Draw(Actor* thisx, PlayState* play);
@@ -76,10 +119,18 @@ void TitleLogo_GoIngoCasino(Actor* thisx, PlayState* play);
 void TitleLogo_GoTalonGame(Actor* thisx, PlayState* play);
 void TitleLogo_Draw_Settings(Actor* thisx, PlayState* play);
 
+void TitleLogo_Update_SceneSelect(Actor* thisx, PlayState* play);
 void TitleLogo_Update_SaveCorrupted(Actor* thisx, PlayState* play);
 void TitleLogo_Update_Overwrite(Actor* thisx, PlayState* play);
 void TitleLogo_Update_Settings(Actor* thisx, PlayState* play);
 void SetTrsPakDisableStatus(Actor* thisx, bool status);
+
+
+void HaltCutscene(PlayState* play);
+
+#define SCENE_SELECT_CHOICE_CANCEL 0x8000
+#define SCENE_SELECT_CHOICE_TALONGAME 0x8001
+#define SCENE_SELECT_CHOICE_CASINO 0x8002
 
 typedef struct TitleLogo
 {
@@ -97,14 +148,11 @@ typedef struct TitleLogo
     u8 highlightedOption;
     u8 stopTextAlphaCounter;
     s8 selectedScene;
-    s8 selectedSceneId;
-    u8 numScenesVisible;
-    u8 scenesDisplayed[30];
     u8 sceneSelectRed;
     u8 drawGbCamEasterEgg;
     u8 stringSlot;
-    u8 firstInput;
     u8 initialTimer;
+    u8 fontReloadTimer;
     bool saveCorrupted;
     s16 gbCamEasterEggAlpha;
     TrsPakMgr* trsPak;
