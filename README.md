@@ -1,6 +1,6 @@
 <h1>Hero of Law German Localization Source Code</h1>
 
-German team members
+German team members:
 - Vadenimo
 - Luckyfini
 - Professional Gopnik
