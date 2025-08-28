@@ -1,5 +1,10 @@
-<h1>Hero of Law Source Code</h1>
+<h1>Hero of Law German Localization Source Code</h1>
+# German team members
+- Vadenimo
+- Luckyfini
+- Professional Gopnik
 
+# Instructions for building a ROM
 Tested on WSL.
 
 To build a ROM:
