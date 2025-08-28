@@ -6,8 +6,8 @@ German team members:
 - Professional Gopnik
 
 # Important Documents
-- (Spritesheet)[https://docs.google.com/spreadsheets/d/1GmBUzVS5q3erHlEM9_02HuKCNVjEyocrMBe8Dap7Bnk/edit?gid=0#gid=0]
-- (Concept Document)[https://docs.google.com/document/d/1kYpRnn8Hbgjbe2NfaLw3wIjJIYqyZMcS2RxrwGWU4mE/edit?tab=t.0]
+- [Spritesheet](https://docs.google.com/spreadsheets/d/1GmBUzVS5q3erHlEM9_02HuKCNVjEyocrMBe8Dap7Bnk/edit?gid=0#gid=0)
+- ]Concept Document](https://docs.google.com/document/d/1kYpRnn8Hbgjbe2NfaLw3wIjJIYqyZMcS2RxrwGWU4mE/edit?tab=t.0)
 
 # Instructions for building a ROM
 Tested on WSL.
