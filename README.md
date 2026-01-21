@@ -31,3 +31,6 @@ To build a ROM:
 6. [Optional] Obtain a WAD of Hero of Law by patching an Ocarina of Time WAD on [our website](https://newerteam.com/hol/) and put it into `/Build/tool/gzinject` as "`Zelda Ocarina N64 NTSC.wad`".
 7. [Optional] Obtain the Wii common key, and put it as `common_key.bin` in `/Build/tool/gzinject`.
 8. Run `./rebuild.sh -a -r`
+
+[German Localization Tracking File](https://docs.google.com/spreadsheets/d/1GmBUzVS5q3erHlEM9_02HuKCNVjEyocrMBe8Dap7Bnk/edit?gid=0#gid=0)
+[German Notes](https://docs.google.com/document/d/1kYpRnn8Hbgjbe2NfaLw3wIjJIYqyZMcS2RxrwGWU4mE/edit?tab=t.0#heading=h.w605ano177vc)
