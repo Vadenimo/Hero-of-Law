@@ -14749,7 +14749,7 @@
             {
               "Name": "Subtitle_Testimony",
               "MessageTextLines": [
-                "(Testimony)"
+                "(Aussage)"
               ],
               "Type": 0,
               "Position": 0
@@ -83034,7 +83034,7 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "<SOUND:HINT>Diebstahl...?<PAUSE:5> Führen einen Prozess durch?"
+                "<SOUND:HINT>Diebstahl...?<PAUSE:5> Führen wir einen Prozess durch?"
               ],
               "Type": 0,
               "Position": 0
