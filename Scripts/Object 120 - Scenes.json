@@ -65177,7 +65177,7 @@
             {
               "Name": "DRAGMIRE1",
               "MessageTextLines": [
-                "<G>Dir fehlt die Mordwaffe!<PAUSE:5> ",
+                "<G>Ihnen fehlt die Mordwaffe!<PAUSE:5> ",
                 "Wenn Ingo doch der Mörder ist,",
                 "dann hätte er nicht die Säge verwendet!<PERSISTENT>"
               ],
@@ -65187,7 +65187,7 @@
             {
               "Name": "DI_DRAGMIRE1",
               "MessageTextLines": [
-                "<G><DI>Dir fehlt die Mordwaffe!<PAUSE:5> ",
+                "<G><DI>Ihnen fehlt die Mordwaffe!<PAUSE:5> ",
                 "Wenn Ingo doch der Mörder ist,",
                 "dann hätte er nicht die Säge verwendet!<PERSISTENT>"
               ],
@@ -107198,7 +107198,7 @@
               "Name": "courseclear",
               "Comment": "",
               "MessageTextLines": [
-                ""
+                "<LC><R>LEVEL BEENDET"
               ],
               "Type": 0,
               "Position": 0
