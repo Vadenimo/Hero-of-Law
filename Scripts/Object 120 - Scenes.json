@@ -65444,7 +65444,7 @@
             {
               "Name": "2_LINK2",
               "MessageTextLines": [
-                "<SOUND:0><C>(Kein Grund, deswegen alles zu überdenken.)"
+                "<SOUND:0><C>(Kein Grund deswegen alles zu überdenken.)"
               ],
               "Type": 0,
               "Position": 0
@@ -66356,7 +66356,7 @@
               "Name": "5_2_LINK50",
               "MessageTextLines": [
                 "Sie müssen wissen, ich habe eine ",
-                "interessante Gesichte in der Pause",
+                "interessante Geschichte in der Pause",
                 "gehört...",
                 "<NEW_BOX>",
                 "Auf der Farm munkelte man, dass vor nicht ",
