@@ -73237,7 +73237,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Too Busy for Murder\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Zu beschäftigt, um zu morden\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -73245,8 +73245,9 @@
             {
               "Name": "INGO1",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Everything you've said is wrong!<PAUSE:8> ",
-                "I have no idea what you're on about!"
+                "<SOUND:EXPLOSION><DI>Alles worüber du gesprochen hast ist",
+                "faktisch falsch! Ich habe keinen Plan,",
+                "worauf du dich da beziehst!"
               ],
               "Type": 0,
               "Position": 0
@@ -73254,8 +73255,8 @@
             {
               "Name": "INGO2",
               "MessageTextLines": [
-                "I have an alibi for the time of the",
-                "crime!<PAUSE:6> <SOUND:WHAP><DI>I just couldn't have done it!"
+                "Ich habe ein Alibi am Zeitpunkt der Tat!",
+                "<PAUSE:6><SOUND:WHAP><DI>Ich hätte nie das so umsetzen können!"
               ],
               "Type": 0,
               "Position": 0
@@ -73263,9 +73264,9 @@
             {
               "Name": "INGO3",
               "MessageTextLines": [
-                "There's no way I could've completed",
-                "those milk shipments, killed Talon,",
-                "AND tried to hide my involvement!"
+                "Nimeals hätte ich die Milch liefern,",
+                "Talon umbringen können, und dann",
+                "versucht, diese Tat zu verheimlichen!"
               ],
               "Type": 0,
               "Position": 0
@@ -73273,8 +73274,9 @@
             {
               "Name": "INGO4",
               "MessageTextLines": [
-                "The fire was just made for a quick",
-                "breakfast!<PAUSE:5> There's no mystery there!"
+                "Das Feuer wurde für ein schnelles",
+                "Frühstück gemacht!<PAUSE:5> Daran ist nichts",
+                "mysteriös!"
               ],
               "Type": 0,
               "Position": 0
@@ -73282,8 +73284,8 @@
             {
               "Name": "INGO5",
               "MessageTextLines": [
-                "Stop trying to pin this on poor,",
-                "innocent Ingo!<SQUARE>"
+                "Als hör auf, den armen Basil zu ",
+                "beschuldigen!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -73592,10 +73594,10 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "Now, I shouldn't have to remind you,",
-                "Defence, but you yourself were",
-                "surprised that Ingo was able to",
-                "complete the shipment in time."
+                "Nun, ich sollte Sie eigentlich nicht daran",
+                "erinern, aber vergessen Sie nicht, dass",
+                "Sie selbst überrascht waren, als Basil die",
+                "Milch pünktlich ausgeliefert hat.."
               ],
               "Type": 0,
               "Position": 0
@@ -73603,8 +73605,8 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "Adding even more things for him to",
-                "do in that time is preposterous!"
+                "Ihm in dieser Zeit noch mehr Aufgaben ",
+                "aufzubürden, ist absurd!"
               ],
               "Type": 0,
               "Position": 0
@@ -73612,8 +73614,9 @@
             {
               "Name": "INGO10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>That's right!<PAUSE:8> The great Ingo is efficient",
-                "at his job...<PAUSE:5> <SPEED:103>but not <SOUND:WHAP>THAT efficient!<SPEED:102>"
+                "<SOUND:WHAP><DI>Das stimmt!<PAUSE:8> Der großartige Basil ist bei",
+                "seiner Arbeit effizient...<PAUSE:5><SPEED:103>jedoch nicht <SOUND:WHAP>SO ",
+                "effizient wie von dir gedacht!<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -73621,11 +73624,11 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "<C>(No,<PAUSE:3> it had to have been him!<PAUSE:6> <SOUND:WHAP>I'm sure",
-                "of it!)",
+                "<C>(Nö,<PAUSE:3> er ist auf jeden Fall der Täter!<PAUSE:6> <SOUND:WHAP>Da bin",
+                "ich mir absolut sicher!)",
                 "<NEW_BOX>",
-                "<SOUND:0><C>(There must be some trick at play",
-                "here!<PAUSE:7> Some kind of <SOUND:CLUE><R>shortcut<C>...)"
+                "<SOUND:0><C>(Es muss da einen Trick gegeben haben!",
+                "<PAUSE:7>Sowas wie eine <SOUND:CLUE><R>Abkürzung<C>...)"
               ],
               "Type": 0,
               "Position": 0
@@ -73633,7 +73636,7 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "<C>(I must find it!)<SQUARE>"
+                "<C>(Diese Abkürzung muss ich finden!)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
