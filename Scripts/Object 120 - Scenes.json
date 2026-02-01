@@ -408,7 +408,8 @@
             "another world...?<PERSISTENT>"
           ],
           "Type": 1,
-          "Position": 2
+          "Position": 2,
+          "Comment": "Should mostly match the \"Koholink2\" message"
         },
         {
           "Name": "Shopkeeper",
@@ -428,7 +429,8 @@
             "on Koholint Island.<PERSISTENT>"
           ],
           "Type": 1,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Should mostly match the \"Owl2\" message"
         },
         {
           "Name": "Koholink2",
@@ -438,7 +440,8 @@
             "another world...?<PERSISTENT>"
           ],
           "Type": 1,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Should mostly match the \"Koholink\" message"
         },
         {
           "Name": "Owl2",
@@ -448,7 +451,8 @@
             "on Koholint Island.<PERSISTENT>"
           ],
           "Type": 1,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Should mostly match the \"Owl\" message"
         },
         {
           "Name": "Speaker_Link",
@@ -544,7 +548,8 @@
             "Argument<BYTE:0>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is used for the Rebuttal scene (\"Argument <N>\")"
         },
         {
           "Name": "Speaker_Unknown",
@@ -9482,7 +9487,8 @@
             "EVIDENCE UNWORTHY."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This and the next message are part of an Easter egg:\n\n1. Enter a cross-examination\n2. Input \"up up down down left right left right B\" while Dragmire is on-screen\n3. Present incorrect evidence"
         },
         {
           "Name": "FMOON_LINK",
@@ -9499,7 +9505,8 @@
             "open!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The fact that there's a \"<SOUND:EXPLOSION>\" in this message about \"blowing the case wide open\" is just a coincidence, not an intentional joke. Feel free to translate this line in a way that doesn't reference explosives, if it'd sound more natural."
         },
         {
           "Name": "FA_JUDGE10",
@@ -9525,7 +9532,8 @@
             "everything he says."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Sarcasm"
         },
         {
           "Name": "FA_JUDGE20",
@@ -9586,7 +9594,8 @@
             "for I am the great<SOUND:CLUE> <R>Hero of Law<W>!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The \"F6\" dialogue is shown if you present the Attorney's Badge on any Argument during the Rebuttal scene"
         },
         {
           "Name": "F6_JUDGE10",
@@ -9745,7 +9754,8 @@
             "the proof!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The \"F3\" dialogue is only used during Zelda cross-examinations"
         },
         {
           "Name": "F3_DRAGMIRE10",
@@ -9814,7 +9824,8 @@
             "<SOUND:WHAP><DI>Hah!<PAUSE:3> I've got you now!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The \"F4\" dialogue is only used during Ingo cross-examinations"
         },
         {
           "Name": "F4_INGO10",
@@ -9876,7 +9887,8 @@
             "the argument!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The \"F5\" dialogue is only used during the Rebuttal scene (so perhaps the word \"argument\" here should match the word used to describe Dragmire's arguments)"
         },
         {
           "Name": "F5_JUDGE10",
@@ -14739,7 +14751,8 @@
             "(Testimony)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This subtitle is displayed under the Hylian text flashing in the top-left corner during each testimony"
         }
       ],
       "Localization": [
@@ -16068,7 +16081,8 @@
             "exchange a word with her now."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "To clarify: \"But it will be [starting] soon, right?\""
         },
         {
           "Name": "SOLDIER20",
@@ -16120,7 +16134,8 @@
             "indeed...)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Sarcasm"
         },
         {
           "Name": "LINK27a",
@@ -16297,7 +16312,8 @@
             "looking very good right now."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The fact that the second textbox here starts with \"...\" whereas the almost-identical one in 2_LINK20 doesn't is intentional"
         },
         {
           "Name": "2_LINK10",
@@ -16650,7 +16666,8 @@
             "Let's head inside."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"that stuff about having no chance\" is referring to the LINK110 message"
         },
         {
           "Name": "LINK130",
@@ -20391,7 +20408,8 @@
             "of your hair,<SOUND:WHAP> vile woman."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Dragmire and Malon both have red hair"
         },
         {
           "Name": "DRAGMIRE25",
@@ -20554,7 +20572,8 @@
             "the court, including the judge!)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "We intentionally changed the name of the area from \"Gerudo Valley\" (OoT name) to \"Gerudo Province\" to imply more of a political/governmental division than a strictly geographical one. Please do something similar in each translation since, although the distinction doesn't matter right now, it might in Case 2."
         },
         {
           "Name": "LINK52",
@@ -20563,7 +20582,8 @@
             "to him as the<SOUND:CLUE><R> King of Evil<C>...)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Ganondorf is often (5 times, in English) called by this title in Ocarina of Time. If possible, use the equivalent term from other localizations of Ocarina of Time. It is also equivalent to his nickname in Tears of the Kingdom, \"Demon King\", so for languages without an Ocarina of Time localization, you can reference that term instead if available."
         },
         {
           "Name": "LINK60",
@@ -20608,7 +20628,8 @@
             "stand!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"Sheikah Force\" is a combination of the word \"Sheikah\" and \"police force\" (a term used often in Ace Attorney -- maybe check how they translate it as a reference)"
         },
         {
           "Name": "LINK70",
@@ -21373,7 +21394,8 @@
             "kingdom?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This isn't intended to be a reference to Breath of the Wild's Great Calamity -- just a coincidence"
         },
         {
           "Name": "IMPA_n10",
@@ -23296,7 +23318,8 @@
             "question."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"Press\" here should ideally match the wording on the button prompt in the top-left corner of the screen during cross-examinations"
         },
         {
           "Name": "1_MALON20",
@@ -23500,7 +23523,8 @@
             "Darn multilingualism."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is shown if the user unplugs their VRU (English) during the tutorial and plugs in a VRS (Japanese) instead"
         },
         {
           "Name": "VRSU_CONFUSION_JPN",
@@ -23509,7 +23533,8 @@
             "Darn multilingualism."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is shown if the user unplugs their VRS (Japanese) during the tutorial and plugs in a VRU (English) instead"
         },
         {
           "Name": "1_JUDGE_VRS",
@@ -23553,7 +23578,8 @@
             "whispering?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is displayed instead of 1_DRAGMIRE10 if the VRS/VRU tutorial happened"
         },
         {
           "Name": "1_DRAGMIRE10",
@@ -24990,7 +25016,8 @@
             "be something on it if it was?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Malon is referring to blood"
         },
         {
           "Name": "CONS_LINK30",
@@ -25037,7 +25064,8 @@
             "thing."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is a pretty blatant hint expressed through English wordplay: the highlighting of the word \"saw\" is trying to tell the player that the Saw is the piece of evidence to present. You'll probably have to get creative when trying to preserve the hint while translating"
         },
         {
           "Name": "BANTER_MALON20",
@@ -25264,7 +25292,8 @@
             "little murder."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is funny because of understatement"
         },
         {
           "Name": "3_DRAGMIRE25",
@@ -25422,7 +25451,8 @@
             "the body."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"Look like\" is highlighted for verbal emphasis -- as if Dragmire is saying \"Trying to make it *LOOK* like she had merely found the body\". Using actual all-caps there felt like too much to me"
         },
         {
           "Name": "4_IMPA30",
@@ -25793,7 +25823,8 @@
             "<SOUND:WHAP><DI>Oh goddesses!<PAUSE:3> Are you okay?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"Goddesses\" as in Din, Nayru and Farore (but feel free to change this exclamation as necessary to sound relatively natural)"
         },
         {
           "Name": "MALON10",
@@ -25875,7 +25906,8 @@
             "such important things.)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Sarcasm"
         },
         {
           "Name": "LINK110",
@@ -27347,7 +27379,8 @@
             "trouble...)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"Glaring daggers\" is an English idiom meaning \"glaring angrily\""
         },
         {
           "Name": "JUDGE10",
@@ -27401,7 +27434,8 @@
             "<SOUND:CLUE>Why is everyone quiet all of a sudden?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(Not sure where to put this, so...) A notable aspect of Zelda's dialogue, throughout the entire game, is that she never uses contractions. Makes her sound more formal/royal."
         },
         {
           "Name": "JUDGE40",
@@ -27548,7 +27582,8 @@
             "the kingdom in their image..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is meant to be ominous but ambiguous - it's implied, but not stated, that he's now talking about himself here more than about Zelda"
         },
         {
           "Name": "LINK40",
@@ -29004,7 +29039,8 @@
             "...There you go!<PAUSE:10> Decisive testimony!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Dragmire is as shocked as everyone else that Zelda is claiming to have seen the exact moment of the murder, since he knows that that's not really possible, but is trying to quickly recover and make the most of it"
         },
         {
           "Name": "DRAGMIRE30",
@@ -29314,7 +29350,8 @@
             "<SOUND:CLUE>No skin off my teeth."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is a somewhat obscure but nevertheless standard English idiom"
         },
         {
           "Name": "JUDGE70",
@@ -30417,7 +30454,8 @@
             "cards this early.)<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is displayed if the player presents the Saw or Bloodied Cloth to the statement ZELDA5"
         },
         {
           "Name": "CONS_LINK10",
@@ -30444,7 +30482,8 @@
             "after me!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is the major hint for this Consult, since it implies that Zelda couldn't have seen the actual moment of the crime as she claims"
         },
         {
           "Name": "CONS_MALON30",
@@ -30470,7 +30509,8 @@
             "like this!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "There are no actual hints in this Banter dialogue"
         },
         {
           "Name": "B_LINK10",
@@ -30580,7 +30620,8 @@
             "thrilled with this order.)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Sarcasm"
         },
         {
           "Name": "1_JUDGE10",
@@ -31198,7 +31239,8 @@
             "defendant must be innocent!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Sarcasm"
         },
         {
           "Name": "6_JUDGE10",
@@ -33967,7 +34009,8 @@
             "wiped away?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This message is a hint based on wordplay: Link says \"wiped away\" to remind the player about how the prosecution rebutted the first testimony's contradiction by showing that the blood on the saw had been *wiped away* with the Bloodied Cloth. That fact is what leads to the contradiction in this new testimony."
         },
         {
           "Name": "CONS_MALON30",
@@ -34013,7 +34056,8 @@
             "out like a sore thumb...)<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Link saying \"sticks out\" here is a subtle hint: it refers to Zelda's testimony that \"The murder weapon was still stuck into [aka: was sticking out of] the victim's body\", which is the key piece of testimony for this cross-examination"
         },
         {
           "Name": "1_LINK10",
@@ -34096,7 +34140,8 @@
             "evidence pointing to the defendant!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is setup for a joke in the message 2_LINK20"
         },
         {
           "Name": "2_DRAGMIRE30",
@@ -34115,7 +34160,8 @@
             "Mountain out of a Death Molehill...)<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is a joke: \"making a mountain out of a molehill\" is an English idiom, so here we've added \"death\" to both of those words, creating \"Death Mountain\" (as in the Zelda series, especially the OoT one) and \"Death Molehill\" (which doesn't exist but is a funny concept)."
         },
         {
           "Name": "3_LINK10",
@@ -34331,7 +34377,8 @@
             "person on the scene!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This fail dialogue sequence (6 messages) has a small joke in it: the characters keep using the word \"trace\" in different ways"
         },
         {
           "Name": "4_1_DRAGMIRE10",
@@ -34348,7 +34395,8 @@
             "evidence to go on!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(Continues the joke from 4_1_LINK20)"
         },
         {
           "Name": "4_1_JUDGE10",
@@ -34357,7 +34405,8 @@
             "trace your logic..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(Continues the joke from 4_1_LINK20)"
         },
         {
           "Name": "4_1_LINK30",
@@ -34374,7 +34423,8 @@
             "amount of credibility.<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(Continues the joke from 4_1_LINK20)"
         },
         {
           "Name": "4_2_LINK10",
@@ -34517,7 +34567,8 @@
             "was left intact..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"Saw the saw\" is just an unlucky accidental duplication of words, not a joke or anything -- we couldn't come up with an alternative wording that didn't sound even more awkward"
         },
         {
           "Name": "LINK50",
@@ -36170,7 +36221,8 @@
             "<SOUND:0><PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:3><SOUND:0>Hmph.<PAUSE:10> Of course I did."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(Impa is lying, hence the pause at the start of this message)"
         },
         {
           "Name": "ZELDA50",
@@ -36178,7 +36230,8 @@
             "<SOUND:CLUE>You did<SOUND:0><PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:3>?<PAUSE:5> "
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(Zelda is confused about Impa's lie at first, but pretty quickly realizes that she had better play along)"
         },
         {
           "Name": "DRAGMIRE50",
@@ -36583,7 +36636,8 @@
             "same, of course."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Starting here, a bunch of messages in this bad-ending dialogue exactly match the ending of SCENE_ZELDA_3_CROSSEXAM. We have a tool (check_script_consistency.py) to compare all the messages to make sure that they match, but we'll also mark each pair of matching messages in these notes, too.\n\n(this message) <-> SCENE_ZELDA_3_CROSSEXAM/DRAGMIRE40"
         },
         {
           "Name": "1_DRAGMIRE70",
@@ -36592,7 +36646,8 @@
             "own is enough to convict the defendant."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60)\n\n(this message) <-> SCENE_ZELDA_3_CROSSEXAM/DRAGMIRE50"
         },
         {
           "Name": "1_JUDGE50",
@@ -36601,7 +36656,8 @@
             "to hand down my<SOUND:HINT> verdict..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60)\n\n(this message) <-> SCENE_ZELDA_3_CROSSEXAM/JUDGE50"
         },
         {
           "Name": "1_LINK40",
@@ -36611,7 +36667,8 @@
             "committed the crime!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60)\n\n(this message) <-> SCENE_ZELDA_3_CROSSEXAM/LINK30"
         },
         {
           "Name": "1_LINK50",
@@ -36621,7 +36678,8 @@
             "father!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60)\n\n(this message) <-> SCENE_ZELDA_3_CROSSEXAM/LINK40"
         },
         {
           "Name": "1_JUDGE60",
@@ -36629,7 +36687,8 @@
             "Ah, that is an<SOUND:HINT> excellent point, Defence!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60)\n\n(this message) <-> SCENE_ZELDA_3_CROSSEXAM/JUDGE60"
         },
         {
           "Name": "1_JUDGE70",
@@ -36638,7 +36697,8 @@
             "on the defendant's motive!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60)\n\n(this message) <-> SCENE_ZELDA_3_CROSSEXAM/JUDGE70"
         },
         {
           "Name": "1_JUDGE80",
@@ -36647,7 +36707,8 @@
             "<SOUND:CLUE>commits lightly..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60)\n\n(this message) <-> SCENE_ZELDA_3_CROSSEXAM/JUDGE80"
         },
         {
           "Name": "1_DRAGMIRE80",
@@ -36656,7 +36717,8 @@
             "during my opening statement..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60)\n\n(this message) <-> SCENE_ZELDA_3_CROSSEXAM/DRAGMIRE60"
         },
         {
           "Name": "1_DRAGMIRE85",
@@ -36665,7 +36727,8 @@
             "prepared to elaborate on the matter."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60)\n\n(this message) <-> SCENE_ZELDA_3_CROSSEXAM/DRAGMIRE70"
         },
         {
           "Name": "1_DRAGMIRE90",
@@ -36673,7 +36736,8 @@
             "I would like to call in my third witness!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60)\n\n(this message) <-> SCENE_ZELDA_3_CROSSEXAM/DRAGMIRE80"
         },
         {
           "Name": "1_LINK60",
@@ -36681,7 +36745,8 @@
             "<DI><SOUND:DON>You have a third witness?!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is where the dialogue starts to diverge from SCENE_ZELDA_3_CROSSEXAM"
         },
         {
           "Name": "1_DRAGMIRE100",
@@ -37986,7 +38051,8 @@
             "to the head detective.<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The \"er, of course\" is because this particular sentence is a lie"
         }
       ],
       "Localization": [
@@ -38436,7 +38502,8 @@
             "on the premises suspicious?!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(Sarcasm)"
         },
         {
           "Name": "ZELDA30",
@@ -38487,7 +38554,8 @@
             "<SOUND:0><C>(Some straws have been grasped...)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is a modified version of the English idiom \"grasping at straws\""
         },
         {
           "Name": "DRAGMIRE40",
@@ -38519,7 +38587,8 @@
             "evidence into the case."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The \"Ah, uh\" is because he's grasping at straws / bluffing"
         },
         {
           "Name": "DRAGMIRE70",
@@ -39469,7 +39538,8 @@
             "much info as possible<C> is my best bet.)<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is intended to imply \"you should press every statement\" without saying it explicitly"
         },
         {
           "Name": "1_DRAGMIRE10",
@@ -39759,7 +39829,8 @@
             "that time!<PAUSE:3> Running backwards, even!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is a joke about how running backwards in Ocarina of Time is faster than running forwards"
         },
         {
           "Name": "4_DRAGMIRE20",
@@ -39854,7 +39925,8 @@
             "death early in the morn."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The second message here just means \"early mornings can be cold\", but phrased kind of poetically for no particular reason"
         },
         {
           "Name": "6_LINK20",
@@ -39874,7 +39946,8 @@
             "put out recently!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(This is not a reference to Case 5 of Ace Attorney 1, \"Rise from the Ashes\" -- just a coincidence)"
         },
         {
           "Name": "6_LINK30",
@@ -40140,7 +40213,8 @@
             "same, of course."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60 from SCENE_ZELDAS_NEW_EVIDENCE)\n\nSCENE_ZELDAS_NEW_EVIDENCE/1_DRAGMIRE60 <-> (this message)"
         },
         {
           "Name": "DRAGMIRE50",
@@ -40149,7 +40223,8 @@
             "own is enough to convict the defendant."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60 from SCENE_ZELDAS_NEW_EVIDENCE)\n\nSCENE_ZELDAS_NEW_EVIDENCE/1_DRAGMIRE70 <-> (this message)"
         },
         {
           "Name": "JUDGE50",
@@ -40158,7 +40233,8 @@
             "to hand down my<SOUND:HINT> verdict..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60 from SCENE_ZELDAS_NEW_EVIDENCE)\n\nSCENE_ZELDAS_NEW_EVIDENCE/1_JUDGE50 <-> (this message)"
         },
         {
           "Name": "LINK30",
@@ -40168,7 +40244,8 @@
             "committed the crime!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60 from SCENE_ZELDAS_NEW_EVIDENCE)\n\nSCENE_ZELDAS_NEW_EVIDENCE/1_LINK40 <-> (this message)"
         },
         {
           "Name": "LINK40",
@@ -40178,7 +40255,8 @@
             "father!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60 from SCENE_ZELDAS_NEW_EVIDENCE)\n\nSCENE_ZELDAS_NEW_EVIDENCE/1_LINK50 <-> (this message)"
         },
         {
           "Name": "JUDGE60",
@@ -40186,7 +40264,8 @@
             "Ah, that is an<SOUND:HINT> excellent point, Defence!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60 from SCENE_ZELDAS_NEW_EVIDENCE)\n\nSCENE_ZELDAS_NEW_EVIDENCE/1_JUDGE60 <-> (this message)"
         },
         {
           "Name": "JUDGE70",
@@ -40195,7 +40274,8 @@
             "on the defendant's motive!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60 from SCENE_ZELDAS_NEW_EVIDENCE)\n\nSCENE_ZELDAS_NEW_EVIDENCE/1_JUDGE70 <-> (this message)"
         },
         {
           "Name": "JUDGE80",
@@ -40204,7 +40284,8 @@
             "<SOUND:CLUE>commits lightly..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60 from SCENE_ZELDAS_NEW_EVIDENCE)\n\nSCENE_ZELDAS_NEW_EVIDENCE/1_JUDGE80 <-> (this message)"
         },
         {
           "Name": "DRAGMIRE60",
@@ -40213,7 +40294,8 @@
             "during my opening statement..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60 from SCENE_ZELDAS_NEW_EVIDENCE)\n\nSCENE_ZELDAS_NEW_EVIDENCE/1_DRAGMIRE80 <-> (this message)"
         },
         {
           "Name": "DRAGMIRE70",
@@ -40222,7 +40304,8 @@
             "prepared to elaborate on the matter."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60 from SCENE_ZELDAS_NEW_EVIDENCE)\n\nSCENE_ZELDAS_NEW_EVIDENCE/1_DRAGMIRE85 <-> (this message)"
         },
         {
           "Name": "DRAGMIRE80",
@@ -40230,7 +40313,8 @@
             "I would like to call in my third witness!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note in 1_DRAGMIRE60 from SCENE_ZELDAS_NEW_EVIDENCE)\n\nSCENE_ZELDAS_NEW_EVIDENCE/1_DRAGMIRE90 <-> (this message)"
         },
         {
           "Name": "LINK50",
@@ -40238,7 +40322,8 @@
             "<SOUND:DON><DI><C>(That has to be that ranch worker...)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is where the dialogue starts to diverge from SCENE_ZELDAS_NEW_EVIDENCE"
         },
         {
           "Name": "DRAGMIRE100",
@@ -41723,7 +41808,8 @@
             "<SOUND:WHAP>I mind Lon Lon Ranch!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "In OoT, Ingo introduces himself as \"I am Ingo and I mind the ranch.\" We use the same somewhat-uncommon word \"mind\" to match that."
         },
         {
           "Name": "JUDGE40",
@@ -42952,7 +43038,8 @@
             "<SOUND:HINT>I, the hard-working Ingo, can handle it!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Ingo refers to himself as \"the hard-working Ingo\" a couple times in OoT's dialogue. We do the same in a few places in his HoL dialogue."
         },
         {
           "Name": "JUDGE10",
@@ -44284,7 +44371,8 @@
             "everything he's saying is true..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The \"CONS1\" dialogue is used before any statements (INGO5 or INGO7) have been added to the testimony"
         },
         {
           "Name": "CONS1_MALON10",
@@ -44311,7 +44399,8 @@
             "Ingo a little bit on that point.)<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Hint that the player should press the INGO6 statement"
         },
         {
           "Name": "CONS2_LINK10",
@@ -44320,7 +44409,8 @@
             "again?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The \"CONS2\" dialogue is used after the INGO7 statement has been added to the testimony, whether or not INGO5 has been added"
         },
         {
           "Name": "CONS2_MALON10",
@@ -44354,7 +44444,8 @@
             "bit too much...)<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Hint that the player should be pointing out that Ingo had no way of knowing about the bottle to begin with"
         },
         {
           "Name": "CONS3_LINK10",
@@ -44363,7 +44454,8 @@
             "father had an argument..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The \"CONS3\" dialogue is used if INGO5, but not INGO7, has been added to the testimony"
         },
         {
           "Name": "CONS3_MALON10",
@@ -44400,7 +44492,8 @@
             "other statements?)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Hint that the player needs to unlock a different statment (INGO7)"
         },
         {
           "Name": "B_LINK10",
@@ -44507,7 +44600,8 @@
             "about a week ago."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "To be clear, Malon means that the scheduling took place about a week ago. As Ingo said a few messages ago, the visit itself was scheduled for \"three [or] four days ago\"."
         },
         {
           "Name": "1_LINK40",
@@ -44685,7 +44779,8 @@
             "Castle for an entire day once."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Reference to the first time you meet Talon in OoT, of course"
         },
         {
           "Name": "3_JUDGE20",
@@ -44794,7 +44889,8 @@
             "<SOUND:0><C>(Uh... that's all right.)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(in other words, \"no thanks\")"
         },
         {
           "Name": "4_LINK40",
@@ -44813,7 +44909,8 @@
             "<DI>Moo ha ha!<PAUSE:5> That's where you're wrong."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Ingo never says \"moo ha ha\" in his OoT or MM dialogue. We invented this laugh for him based on one of his sound effects."
         },
         {
           "Name": "4_INGO50",
@@ -45164,7 +45261,8 @@
             "<SPEED:103>He's pretty great, isn't he?\"<SPEED:102>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Ingo's blatantly inserting some shameless self-praise into his made-up argument here (and the next textbox), if that wasn't clear"
         },
         {
           "Name": "5_INGO90",
@@ -45233,7 +45331,8 @@
             "Record that could refute this story...?)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This line is a bit of a red herring, as the true answer to the question here is actually \"no\" (Link doesn't have anything in the CR to refute the story). The player needs to focus on something else to progress.\n\nAnother note: Normally we use all-caps for emphasis, but we had to use asterisks instead in this case because the word \"I\" is always written in all-caps in English anyway. In other languages that don't have that rule, you should use all-caps (or equivalent) instead."
         },
         {
           "Name": "5_DRAGMIRE30",
@@ -45437,7 +45536,8 @@
             "Do you mean this, witness?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The perfume evidence icon pops up on-screen during this textbox. \"This\" is referring to that (as if Link is holding up the bottle for Dragmire to see)."
         },
         {
           "Name": "7_INGO30",
@@ -45662,7 +45762,8 @@
             "<PAUSE:5><SOUND:CLUE>Does everyone truly...?<FADE:20>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "To clarify this line, and Dragmire's subsequent response in the next few textboxes, we're not trying to imply that either of them actually smells bad, even though it could be interpreted that way. If anything, it's more likely that people just don't have any better ideas for what to get them as gifts, so they're defaulting to this generic one. ...Not that any of this really matters :P"
         },
         {
           "Name": "A1_DRAGMIRE10",
@@ -45749,7 +45850,8 @@
             "problem!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is maybe the most subtle joke in the whole game.\n\nAll failure scenarios from this three-choice menu (\"This info puts one thing into question\") end with AF_LINK20_ALT, except for the one about Talon's poor taste in gifts. The difference is that AF_LINK20_ALT is worded such that Link admits that his argument was wrong (\"[You're right,] But even so...\"), whereas in this version (AF_LINK20), he doesn't admit that at all, and instead only tries to add more arguments to strengthen his case better (\"But that's not the only thing!\", ...\"causes an even bigger problem\"). In other words, Link still believes that his idea about Talon having bad taste in gifts is *correct*, and the only thing he's admitting to is that it was a bad idea to bring it up in court (both because it's irrelevant and because it offended everyone)."
         },
         {
           "Name": "AF_LINK30",
@@ -45823,7 +45925,8 @@
             "causes a big problem!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See the note for AF_LINK20)"
         },
         {
           "Name": "A2_LINK10",
@@ -45908,7 +46011,8 @@
             "<SOUND:EXPLOSION><DI>Wake up, will you?!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Most Zelda games begin with Link waking up from sleep. Since HoL doesn't, we included this dialogue asking him to \"wake up\" as a reference to that tradition."
         },
         {
           "Name": "A2_M_DRAGMIRE10",
@@ -46020,7 +46124,8 @@
             "for the princess at the ranch house."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"Eleventh-hour\" is just a somewhat obscure way of saying \"last-minute\""
         },
         {
           "Name": "A2_W_DRAGMIRE10",
@@ -46048,7 +46153,8 @@
             "different brush, then...)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "If it wasn't clear, Link is referring to the previous message, where the judge said it's not clear what \"picture\" Link is trying to \"paint\" (metaphorically)."
         },
         {
           "Name": "LINK90",
@@ -46286,7 +46392,8 @@
             "like a Kikwi's behind."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Kikwis are a race of NPC in Skyward Sword"
         },
         {
           "Name": "B4_DRAGMIRE30",
@@ -46425,7 +46532,8 @@
             "<C><SOUND:0>(*sniff*)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Is he sniffing because he really does think the courtroom smells bad? We never really decided, to be completely honest. But that is one possible interpretation."
         },
         {
           "Name": "LINK130",
@@ -46627,7 +46735,8 @@
             "One bottle of <R>\"Rosy Rupeeland\"<W>."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is a reference to \"Freshly-Picked Tingle's Rosy Rupeeland\", the Zelda spin-off game on Nintendo DS."
         },
         {
           "Name": "JUDGE190",
@@ -50178,7 +50287,8 @@
             "right?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is a reference to the English idiom \"the road to hell is paved with good intentions\", meaning that actions taken with good intentions can still lead to bad consequences.\n\n\"The Dark Realm\" is a term that shows up in a few different Zelda games (https://zeldawiki.wiki/wiki/Dark_Realm). If the term has been translated differently for different Zelda games in your language, you can pick whichever translation sounds best to you here."
         },
         {
           "Name": "IMPA150",
@@ -50351,7 +50461,8 @@
             "<SOUND:WHAP><DI>Roger!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "In case you're unfamiliar with this term, it essentially means \"I understand\" (https://dictionary.cambridge.org/dictionary/english/roger)"
         },
         {
           "Name": "IMPA_n10",
@@ -50502,7 +50613,8 @@
             "<G>added to the Court Record."
           ],
           "Type": 1,
-          "Position": 2
+          "Position": 2,
+          "Comment": "This is worded differently from the actual Court Record evidence title (\"Milk Shipment Return\") to make it a little clearer that the shipment isn't physically here."
         },
         {
           "Name": "COURTRECORD2",
@@ -50534,7 +50646,8 @@
             "<DI><SOUND:OBJECTIONCRY>Time to turn this situation around...!<SQUARE>"
           ],
           "Type": 2,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is, of course, a reference to the \"turnabout\" phrasing that the Ace Attorney series loves to use."
         }
       ],
       "Localization": [
@@ -51475,7 +51588,8 @@
             "<NS><SOUND:0><LC><R>\"My Non-Suspicious Movements\"<FADE:40>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"Unsuspicious\" would've been more grammatically correct, but we decided to go with \"Non-suspicious\" because it's sillier, more emphatic, and perhaps even implies poor education, which all make sense for Ingo's character."
         },
         {
           "Name": "INGO1",
@@ -52745,7 +52859,8 @@
             "to get myself a glass of water.<PERSISTENT>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "INGO2 is replaced with this version if the player presents the Oil Bottle on INGO3 (which leads to the \"T_\" dialogue sequence)"
         },
         {
           "Name": "INGO2",
@@ -52802,7 +52917,8 @@
             "things on purpose..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"CONS1\" dialogue is used before INGO5 is added to the testimony"
         },
         {
           "Name": "CONS1_MALON10",
@@ -52821,7 +52937,8 @@
             "force it out of you...)<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Hint that the player should press more statements"
         },
         {
           "Name": "CONS2_LINK10",
@@ -52831,7 +52948,8 @@
             "been a murder there?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"CONS2\" dialogue is used after INGO5 has been added to the testimony"
         },
         {
           "Name": "CONS2_MALON10",
@@ -52877,7 +52995,8 @@
             "make sure I haven't missed anything."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Hinting that you need to present Ingo's profile to show that he had no way to get his fancy clothes"
         },
         {
           "Name": "CONS2_MALON30",
@@ -52888,7 +53007,8 @@
             "making sure."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Very direct reminder here because this is the first time the player has been required to present a profile during a cross-examination, a mechanic that was only mentioned in the (optional) tutorial back at the beginning of the game"
         },
         {
           "Name": "CONS2_LINK40",
@@ -52947,7 +53067,8 @@
             "he's saying!)<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "General advice that the player needs to press these statements, and a reminder that you can present profiles in addition to evidence"
         },
         {
           "Name": "1_LINK10",
@@ -53090,7 +53211,8 @@
             "man's drink!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"Noble Pursuit\" is a presumably alcoholic drink from Breath of the Wild and Tears of the Kingdom (https://zeldawiki.wiki/wiki/Noble_Pursuit)"
         },
         {
           "Name": "1_LINK60",
@@ -53263,7 +53385,8 @@
             "It was like a puzzle in <SOUND:HINT>there!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Reference to the silo puzzle where you push crates around, in Lon Lon Ranch in OoT"
         },
         {
           "Name": "3_INGO50",
@@ -53334,7 +53457,8 @@
             "that house...?)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "If INGO5 has already been added to the testimony, this message and 4_A2_LINK20 are used to end the dialogue sequence.\n\nOtherwise, these two messages are skipped, and 4_INGO40 leads directly to 4_LINK30."
         },
         {
           "Name": "4_A2_LINK20",
@@ -53343,7 +53467,8 @@
             "then?<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "There are two ways this message can be reached:\n1. From 4_A2_LINK10 (i.e. the player choosing not to add INGO5 to the testimony)\n2. From 4_LINK_30_A (i.e. pressing statement 4 again after INGO5 has already been added to the testimony)"
         },
         {
           "Name": "4_LINK30",
@@ -53405,7 +53530,8 @@
             "<SOUND:0><C>(I don't see how that could help.)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "If we reach here, the next textbox is 4_A2_LINK20 (which is earlier in the message list), and then the dialogue sequence ends."
         },
         {
           "Name": "5_LINK10",
@@ -53450,7 +53576,8 @@
             "what he's wearing!)<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is another hint that the player ought to pay attention to Ingo's clothes, since that's how you solve this cross-examination"
         },
         {
           "Name": "6_LINK10",
@@ -53542,7 +53669,8 @@
             "that?!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is a rare dialogue sequence that's only used if the player presents the Milk Bottle to INGO2 *before* they've pressed that statement at all. It's a modified version of the INGO2 press dialogue that flows like this:\n\n2_F_LINK5\n2_INGOn10\n2_INGOn20\n2_INGOn30\n2_DRAGMIREn10\n2_F_LINK10\n2_F_JUDGE10\n(back to cross-examination)"
         },
         {
           "Name": "2_F_LINK10",
@@ -53568,7 +53696,8 @@
             "<DI>I don't think so!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This \"T_\" dialogue sequence is used if the player presents the Oil Bottle to INGO3. It results in INGO2 being replaced with INGO2_NEW in the testimony."
         },
         {
           "Name": "T_LINK20",
@@ -53893,7 +54022,8 @@
             "<SOUND:WHAP>This is my finest Zora Suit!)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is sort of a reference to the Zora Tunic from OoT. We changed it from \"Tunic\" to \"Suit\", though, because that's the type of clothing Link wears in this game, unlike in OoT."
         },
         {
           "Name": "LINK70",
@@ -53922,7 +54052,8 @@
             "No"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "If the player chooses to accept the explanation, all of the \"A1_\" dialogue plays before advancing to LINK90. Otherwise, all of the \"A1_\" dialogue is skipped."
         },
         {
           "Name": "A1_LINK10",
@@ -54073,7 +54204,8 @@
             "the clothes!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The \"FAIL_\" dialogue is used the first time the player chooses the wrong piece of evidence here. The second time and after, \"FAIL2_\", which contains a stronger hint, is used instead."
         },
         {
           "Name": "FAIL_JUDGE10",
@@ -54125,7 +54257,8 @@
             "the clothes today, because of this!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note on FAIL_LINK10)"
         },
         {
           "Name": "FAIL2_DRAGMIRE10",
@@ -54197,7 +54330,8 @@
             "Fishing Pond...<FADE:10>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Twilight Princess and Majora's Mask 3D call these \"Fishing Holes\", but the sign posted next to the door in Ocarina of Time calls it the \"Fishing Pond\", so that's the name we've used here."
         },
         {
           "Name": "DRAGMIRE50",
@@ -54358,7 +54492,8 @@
             "up on the spot!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"Kangaroo court\" is an English term that refers to a fake court that doesn't abide by the law (https://en.wikipedia.org/wiki/Kangaroo_court)\n\nAlso, yes, the Zelda universe technically has at least one kangaroo (https://zeldawiki.wiki/wiki/Ricky) which is why we left the term alone, but it isn't important to retain a reference to that"
         },
         {
           "Name": "LINK160",
@@ -57870,7 +58005,8 @@
             "have nothing!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is a joke about how, in-universe, Link must have just been standing there, silently thinking to himself, during the entire Revisualization sequence"
         },
         {
           "Name": "DRAGMIRE30",
@@ -60951,7 +61087,8 @@
             "worth in that."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Dragmire gets visibly less angry just before this message appears. It's meant to imply that he isn't a manifestation of evil or anything like in most Zelda games, just a normal (but rude) guy"
         },
         {
           "Name": "LINK160",
@@ -61010,7 +61147,8 @@
             "she's done for <SOUND:EXPLOSION>GENERATIONS."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "There's an implied reference here to Ganondorf swearing to exterminate Link's descendants after his seal is broken at the end of OoT. Also, a reference to the broader curse placed upon Link and Zelda by Demise in Skyward Sword - that an incarnation of Demise's hatred will follow their bloodline forever.\n\nTo be clear, this message isn't meant to literally refer to an existing curse or anything, it's just that Demise/Ganondorf has made similar threats in other games, essentially."
         },
         {
           "Name": "MALON120",
@@ -61136,7 +61274,8 @@
             "<NS>But that's a <R>legend<W> for another day...<FADE:50>"
           ],
           "Type": 2,
-          "Position": 0
+          "Position": 0,
+          "Comment": "A reference to The \"Legend\" of Zelda, of course"
         }
       ],
       "Localization": [
@@ -62896,7 +63035,8 @@
             "<NS>It's so quiet...<FADE:50>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Msg3 is spoken by one of the guards, and the rest are spoken by Zelda."
         },
         {
           "Name": "Msg2",
@@ -63965,7 +64105,8 @@
             "indisputable!<PERSISTENT>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "It's important that Dragmire specifically calls out the list as being indisputable, since this is a hint that the player should focus on whether or not the list is trustworthy"
         },
         {
           "Name": "DI_DRAGMIRE4",
@@ -64179,7 +64320,8 @@
             "the exact details later!)<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Hinting that it's OK to present the entire inventory list here, instead of any specific weapon"
         },
         {
           "Name": "2_LINK10",
@@ -64285,7 +64427,8 @@
             "I may have to rethink this.)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This message is used as part of both the \"3_1\" and \"3_3\" dialogue sequences. In the latter, it's the second-to-last message, between 3_3_DRAGMIRE50 and 3_3_LINK20."
         },
         {
           "Name": "3_1_LINK30",
@@ -64372,7 +64515,8 @@
             "out like a sore thumb!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "3_1_LINK20 is played between this message and the next one in the list (3_3_LINK20)"
         },
         {
           "Name": "3_3_LINK20",
@@ -64391,7 +64535,8 @@
             "..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This sequence is used if the player chooses \"Never mind\""
         },
         {
           "Name": "3_4_DRAGMIRE10",
@@ -64453,7 +64598,8 @@
             "triple-checked that list when he wrote it!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The ranch owner (Talon) isn't the one who wrote the list. This is a mistake on Dragmire's part, and from a game-design standpoint, it's a hint -- albeit a subtle one that the player might not notice -- that exactly who wrote the list is very important here."
         },
         {
           "Name": "4_LINK15",
@@ -64633,7 +64779,8 @@
             "now that I have a suspect in mind...)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is a moderately vague hint that the list is suspicious because it was Ingo who wrote it."
         },
         {
           "Name": "4_2_F_LINK30",
@@ -64716,7 +64863,8 @@
             "throw the item out over the fence?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This through 5_LINK20 is the press dialogue. 5_LINK30 and onward is the dialogue for correctly presenting the Milk Shipments."
         },
         {
           "Name": "5_DRAGMIRE10",
@@ -64751,7 +64899,8 @@
             "ranch?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is the start of the dialogue for correctly presenting the Milk Shipments."
         },
         {
           "Name": "5_LINK40",
@@ -64804,7 +64953,8 @@
             "into, are they?!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Din is one of the Golden Goddesses from the Ocarina of Time backstory. Specifically, the one associated with the Triforce of Power, which is Ganon's part of the Triforce. Thus why he refers to this particular goddess in his exclamation. (https://zeldawiki.wiki/wiki/Din)"
         },
         {
           "Name": "5_DRAGMIRE50",
@@ -64921,7 +65071,8 @@
             "Ah, right..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The ending of the \"5_1\" failure sequence, starting with 5_1_JUDGE10, is played after this message"
         },
         {
           "Name": "5_2_LINK10",
@@ -65021,7 +65172,8 @@
             "missing some vital information!)<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Hint that the solution is something Dragmire doesn't know about (the Milk Shipment Return)"
         },
         {
           "Name": "6_POST_LINK10",
@@ -67945,7 +68097,8 @@
             "<PERSISTENT>"
           ],
           "Type": 6,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is where we decided it would make the most sense to add the translators' names, for space reasons. See the French translation for an example."
         },
         {
           "Name": "SceneModeling",
@@ -72755,7 +72908,8 @@
             "<NS>We've had so much work recently...<FADE:30>"
           ],
           "Type": 0,
-          "Position": 1
+          "Position": 1,
+          "Comment": "Msg1 and Msg6 (the two with \"Position\" set to \"Top\") are spoken by Malon, and the rest are spoken by Talon."
         },
         {
           "Name": "Msg2",
@@ -73576,7 +73730,8 @@
             "here!<PAUSE:7> Some kind of <SOUND:CLUE><R>shortcut<C>...)"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The \"shortcut\" hinted at here is, of course, the milk being watered down"
         },
         {
           "Name": "LINK30",
@@ -74284,7 +74439,8 @@
             "<SOUND:0><C>(<SOUND:CLUE>High quality, huh...)<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Hint that the milk from yesterday's shipment wasn't exactly \"high-quality\""
         },
         {
           "Name": "B_LINK10",
@@ -74328,7 +74484,8 @@
             "<C>(Just what shortcut did you use, Ingo?)<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "No real hint here, other than that the answer is some sort of \"shortcut\" (which was already stated in SCENE_INGO_3_POST)"
         },
         {
           "Name": "1_LINK10",
@@ -74695,7 +74852,8 @@
             "<SOUND:WHAP><DI>Witness!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This \"F_\" dialogue sequence is used if the player presents the Milk Shipment Return to INGO3."
         },
         {
           "Name": "F_INGO10",
@@ -75194,7 +75352,8 @@
             "he definitely could've done it!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Emphasis would be on the word \"could've\", if this were spoken aloud"
         },
         {
           "Name": "LINK180",
@@ -77109,7 +77268,8 @@
             "nice music..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Reference to what happens if you play Epona's Song near a cow in Ocarina of Time"
         },
         {
           "Name": "F2_INGO30",
@@ -77160,7 +77320,8 @@
             "Never mind. Back to the topic at hand!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Loops back to LINK160 after this"
         },
         {
           "Name": "LINK170",
@@ -77421,7 +77582,8 @@
             "red tint to the milk!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(The failure and success cases rejoin at this message)"
         },
         {
           "Name": "LINK25",
@@ -77459,7 +77621,8 @@
             "this proves my theory right!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "A lot of players interpret \"slice\" as a murder pun, but that wasn't intended. So feel free to use a different phrasing in translations if you wish."
         },
         {
           "Name": "INGO96",
@@ -77601,7 +77764,8 @@
             "you called a father!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Ingo calls Talon a \"lazy bum\" in a couple places in his OoT dialogue. The wording here matches that."
         },
         {
           "Name": "INGO190",
@@ -79112,7 +79276,8 @@
             "Go back to the Title Screen"
           ],
           "Type": 0,
-          "Position": 2
+          "Position": 2,
+          "Comment": "In general throughout this case, when referencing specific phrases etc from Link's Awakening, prefer referring to the original Game Boy (and GBC) localizations when possible - those are the versions read by the Transfer Pak, after all. It is OK to refer to the 2019 remake if necessary, though, particularly in cases where that's the only version to get a localization in the given language."
         },
         {
           "Name": "Explanation",
@@ -79132,7 +79297,8 @@
             "default save details will be used.<SQUARE>"
           ],
           "Type": 1,
-          "Position": 2
+          "Position": 2,
+          "Comment": "Should match the wording of \"WiiUVCNotice\" apart from the console name"
         },
         {
           "Name": "WiiUVCNotice",
@@ -79142,7 +79308,8 @@
             "default save details will be used.<SQUARE>"
           ],
           "Type": 1,
-          "Position": 2
+          "Position": 2,
+          "Comment": "Should match the wording of \"WiiVCNotice\" apart from the console name"
         },
         {
           "Name": "GCNNotice",
@@ -79153,7 +79320,8 @@
             "default save details will be used.<SQUARE>"
           ],
           "Type": 1,
-          "Position": 2
+          "Position": 2,
+          "Comment": "Should match the wording of \"WiiVCNotice\" and \"WiiUVCNotice\" apart from mentioning the Legend of Zelda: Collector's Edition instead of the corresponding versions of Virtual Console"
         },
         {
           "Name": "InsertGamePak",
@@ -82363,7 +82531,8 @@
             "everybody!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Reference to the famous \"It's a secret to everybody\" line from Zelda 1"
         },
         {
           "Name": "LINK60",
@@ -82465,7 +82634,8 @@
             "the Goddess herself, <R>Hylia<W>.<SPEED:102><FADE:30>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"Hylia\" is, of course, a character prominently featured in Skyward Sword and mentioned in many other Zelda games"
         },
         {
           "Name": "LINK70",
@@ -82555,7 +82725,8 @@
             "completely lost his marbles."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(Idiom meaning \"has gone insane\")"
         },
         {
           "Name": "DRAGMIRE80",
@@ -82608,7 +82779,8 @@
             "possibly...)<FADE:30>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The second half of this message *\"How could that possibly...)\" normally gets cut off by the next textbox advancing automatically, but it can be briefly seen by pressing Skip at the right time, or by just checking the message history afterward."
         },
         {
           "Name": "LINK130",
@@ -82656,7 +82828,8 @@
             "W-w-whazzhappen?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "A very slurred \"what just happened?\""
         },
         {
           "Name": "DRAGMIRE130",
@@ -82722,7 +82895,8 @@
             "trial of..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Used instead of JUDGE200 if the LA save file name is a single letter long"
         },
         {
           "Name": "JUDGE200",
@@ -82739,7 +82913,8 @@
             "<SPEED:101>...of...<SPEED:103>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Used instead of JUDGE210 if the LA save file name is a single letter long"
         },
         {
           "Name": "JUDGE210",
@@ -82816,7 +82991,8 @@
             "own name anymore!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Normally we use all-caps for emphasis, but we had to use asterisks instead in this case because the word \"I\" is always written in all-caps in English anyway. In other languages that don't have that rule, you should use all-caps (or equivalent) instead."
         },
         {
           "Name": "DRAGMIRE155",
@@ -84052,7 +84228,8 @@
             "back on Koholint,<PAUSE:5> I do!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The shopkeeper has a pretty strong Scottish accent in HoL, but the \"aye caramba\" exclamation he sometimes says is technically Spanish -- we included it because he says it in Link's Awakening."
         },
         {
           "Name": "MUTOH20",
@@ -84552,7 +84729,8 @@
             "<SOUND:EXPLOSION>A $$$$$ blur, I tells yeh!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The colour of the player's tunic from their Link's Awakening DX save file replaces $$$$$ (it defaults to \"green\" if the original LA was used or no save file was imported)."
         },
         {
           "Name": "MUTOH3",
@@ -84604,7 +84782,8 @@
             "Everything's so cheap...!<PAUSE:5> Why, I oughta<EMDASH>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "MUTOH8 is used if the player in the Link's Awakening savefile has stolen from the shop multiple times, and MUTOH8A is used if the player has only stolen once."
         },
         {
           "Name": "MUTOH8A",
@@ -84623,7 +84802,8 @@
             "the ultimate price.<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Note 1: MUTOH9 is used if the player in the Link's Awakening savefile has gotten killed by the shopkeeper at least once (by re-entering the store), and MUTOH9A is used if they haven't been killed yet.\n\nNote 2: It's a bit hard to tell, but when the shopkeeper says certain intimidating statements such as this one, he drops his Scottish accent and speaks in normal English. (Other places where this happens will be marked in the translator notes.)\n\nNote 3: \"The ultimate price\" is an English phrase that normally means death, and that *is* what he means here too, though in his press dialogue, he'll lie and say he was only referring to the curse.\n\nNote 4: It's also something the shopkeeper says in his Link's Awakening dialogue just before he kills you (\"I wasn't kidding when I said pay! Now, you'll pay the ultimate price!!\"). If possible, please reference the corresponding Link's Awakening localization for an equivalent phrase."
         },
         {
           "Name": "MUTOH9A",
@@ -84632,7 +84812,8 @@
             "Ho, ho, hoh.<PAUSE:5> He's going to pay.<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is a message where the shopkeeper drops his Scottish accent in order to be more intimidating (see MUTOH9).\n\nAlso, he means \"going to pay\" as in \"going to get killed\", though in his press dialogue, he'll lie and say he meant it as in literally paying money for the stolen item."
         }
       ],
       "Localization": [
@@ -85072,7 +85253,8 @@
             "literally shoot deadly energy beams."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This message and KOHOLINK20 are skipped if the player in the LA savefile has never been killed by the shopkeeper before. (This technically changes who Link is addressing in the LINK30 message.)"
         },
         {
           "Name": "KOHOLINK20",
@@ -86046,7 +86228,8 @@
             "Everything's so cheap...! Why, I oughta<EMDASH><PERSISTENT>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note on MUTOH8 from SCENE_THIEF_SHOPK_TESTIMONY)"
         },
         {
           "Name": "MUTOH8A",
@@ -86065,7 +86248,8 @@
             "the ultimate price.<PERSISTENT>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "(See note on MUTOH9 from SCENE_THIEF_SHOPK_TESTIMONY)"
         },
         {
           "Name": "MUTOH9A",
@@ -86083,7 +86267,8 @@
             "in your defence?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The \"C\" dialogue is used before the Wares List is added to the Court Record (which happens automatically as part of pressing statement 3)"
         },
         {
           "Name": "C_KOHOLINK10",
@@ -86120,7 +86305,8 @@
             "asking the right questions...)<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Hinting that the player needs to press more statements"
         },
         {
           "Name": "C2_LINK10",
@@ -86130,7 +86316,8 @@
             "things are in your world, but..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The \"C2\" dialogue is used after the Wares List has been added to the Court Record"
         },
         {
           "Name": "C2_KOHOLINK10",
@@ -86157,7 +86344,8 @@
             "then, isn't it...?)<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Hinting that the contradiction has to do with how high the prices are, compared to what the shopkeeper claims"
         },
         {
           "Name": "BANTER_LINK10",
@@ -86245,7 +86433,8 @@
             "\"trendy game\"!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"Trendy Game\" is the in-game name of the crane game in Link's Awakening in English"
         },
         {
           "Name": "1_MUTOH40",
@@ -86254,7 +86443,8 @@
             "such an eyesore<EMDASH>!<SPEED:102>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"Four-eyed\" is a derogatory term in English for people who wear glasses"
         },
         {
           "Name": "1_LINK20",
@@ -86315,7 +86505,8 @@
             "hedgehog or nuttin'!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is used instead of 2_MUTOH10 specifically if the savefile is from LADX and the player is wearing the blue tunic. It's a joke about Sonic the Hedgehog."
         },
         {
           "Name": "2_MUTOH10",
@@ -86350,7 +86541,8 @@
             "doesn't she?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This \"BLUE\" dialogue sequence is used if the LA player is wearing the blue tunic. (The \"GREEN_RED\" message is for the other two tunic colors.)"
         },
         {
           "Name": "2_MUTOH40_BLUE",
@@ -86457,7 +86649,8 @@
             "Whatever that means..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "The reason why they can't talk about the specific item that was stolen is that the Link's Awakening save data doesn't include that information. That's what's meant by \"technical limitation\" here. It's a fourth-wall break."
         },
         {
           "Name": "3_LINK20",
@@ -86570,7 +86763,8 @@
             "I don't have a counter."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Despite what you might think, this is NOT one of the messages where shopkeeper drops his Scottish accent in order to be more intimidating (see SCENE_THIEF_SHOPK_TESTIMONY/MUTOH9). This message is just proper English by coincidence."
         },
         {
           "Name": "4_LINK20",
@@ -86708,7 +86902,8 @@
             "As I live!<PAUSE:5> The slimy rope!<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "A \"Rope\" is a snake-like animal from various Zelda games (https://zeldawiki.wiki/wiki/Rope)"
         },
         {
           "Name": "7_LINK10",
@@ -87037,7 +87232,8 @@
             "I set on him, didn't I?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This and the next message (9_MUTOH20) are ones where the shopkeeper drops his Scottish accent in order to be more intimidating (see SCENE_THIEF_SHOPK_TESTIMONY/MUTOH9)\n\nAlso, the shopkeeper is lying here. He really did mean death, not just the curse."
         },
         {
           "Name": "9_MUTOH20",
@@ -87045,7 +87241,8 @@
             "<SPEED:2><SPEED:101>...Yes...<SPEED:1><SPEED:102><PAUSE:2> That was it."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "See comment on 9_MUTOH10"
         },
         {
           "Name": "9_DRAGMIRE20",
@@ -87080,7 +87277,8 @@
             "<SPEED:101>Why would I do that...?<SPEED:102>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This and the next two messages, 9A_MUTOH20 and 9A_MUTOH30, are ones where the shopkeeper drops his Scottish accent in order to be more intimidating (see SCENE_THIEF_SHOPK_TESTIMONY/MUTOH9)"
         },
         {
           "Name": "9A_MUTOH20",
@@ -87089,7 +87287,8 @@
             "<SOUND:CLUE>pay for what he stole.<SPEED:102>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "See comment on 9A_MUTOH10.\n\nAlso, the shopkeeper is lying here. He really did mean \"pay\" as in \"death\"."
         },
         {
           "Name": "9A_MUTOH30",
@@ -87097,7 +87296,8 @@
             "<SPEED:101>That's all.<SPEED:102>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "See comment on 9A_MUTOH10"
         },
         {
           "Name": "9A_KOHOLINK10",
@@ -87545,7 +87745,8 @@
             "By Jove!<PAUSE:5> Is that a talking owl?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"By Jove\" is an English exclamation that technically refers to the Roman god Jupiter. It's debatable whether we should've included a phrase referencing a non-Zelda deity like this, but we figured it was acceptable since nowadays it's generally just used as a generic exclamation. Anyway, you can use any similar exclamation here -- doesn't need to reference Jupiter or anything."
         },
         {
           "Name": "OWL20",
@@ -87652,7 +87853,8 @@
             "cross-examine the bird!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This is a reference to when Phoenix Wright demands to cross-examine a bird in the first Ace Attorney game, though the wording of this textbox doesn't match any of the actual dialogue from that case."
         },
         {
           "Name": "DRAGMIRE110",
@@ -89768,7 +89970,8 @@
             "will wake the great one."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"Instruments of the Sirens\" is what they're officially called in Link's Awakening (https://zeldawiki.wiki/wiki/Instrument_of_the_Sirens).\n\nNote that, as indicated by the quote from the LA instruction manual on that wiki page, the word \"Sirens\" is in the sense of \"any of a group of female and partly human creatures in Greek mythology that lured mariners to destruction by their singing\" (https://www.merriam-webster.com/dictionary/siren)."
         },
         {
           "Name": "OWL4",
@@ -91159,7 +91362,8 @@
             "I shouldn't waste, then...)<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Hint that the player just needs to press everything"
         },
         {
           "Name": "1_LINK10",
@@ -91198,7 +91402,8 @@
             "it will always be."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Canonically, the Wind Fish isn't considered to be a member of the Zelda series's \"Leviathan\" species (https://zeldawiki.wiki/wiki/Leviathan) -- or at least, there's no specific evidence of it. Because of that, I've seen players, upon reading this line, wonder if we're establishing it as a fact here, as part of our modified canon.\n\nThe truth is that, no, the owl is just using the word in its generic sense of \"a large sea animal\" (https://www.merriam-webster.com/dictionary/leviathan)."
         },
         {
           "Name": "1_LINK30",
@@ -91256,7 +91461,8 @@
             "you started in no time."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Using \"infinite staircase\" as an analogy is a reference to Super Mario 64"
         },
         {
           "Name": "2_OWL30",
@@ -92052,7 +92258,8 @@
             "It would be too dangerous to go alone!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Reference to the famous \"It's dangerous to go alone! Take this.\" line from Zelda 1 (appropriate because the next conversation topic is about how Koholink had a sword)"
         },
         {
           "Name": "DRAGMIRE120",
@@ -92081,7 +92288,8 @@
             "will wake the great one."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Should match the \"OWL3\" message from SCENE_THIEF_OWL_TESTIMONY"
         },
         {
           "Name": "LINK100",
@@ -92112,7 +92320,8 @@
             "to keep all the treasure for himself...?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "We chose the word \"snake\" here instead of \"rope\" (the Zelda enemy we referenced earlier) because, in the previous case, it was just used as a generic insult, and it was fine if the player didn't understand exactly what it meant, as long as they got the gist. Here, though, it's important that the player understand what the subject of the sentence is referring to even if they've never heard of Ropes before."
         },
         {
           "Name": "KOHOLINK20",
@@ -92373,7 +92582,8 @@
             "before bed..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This was mentioned in the notes for the ranch case, but to reiterate: \"Noble Pursuit\" is a presumably alcoholic drink from Breath of the Wild and Tears of the Kingdom (https://zeldawiki.wiki/wiki/Noble_Pursuit)"
         },
         {
           "Name": "JUDGE80",
@@ -94983,7 +95193,8 @@
             "any sense at all!"
           ],
           "Type": 2,
-          "Position": 3
+          "Position": 3,
+          "Comment": "\"Ghost trick\" is a reference to the game Ghost Trick: Phantom Detective, which was made by the Ace Attorney developers."
         },
         {
           "Name": "TH2",
@@ -97288,7 +97499,8 @@
             "would not affect the outcome."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This needs to match JUDGE140 from SCENE_THIEF_TRIALSTART"
         },
         {
           "Name": "LINK100",
@@ -97340,7 +97552,8 @@
             "What kind of justice is<EMDASH><FADE:10>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This version of the message is used if the LA player has stolen from the shop more than once"
         },
         {
           "Name": "SHOPKEEPER20",
@@ -97349,7 +97562,8 @@
             "What kind of justice is<EMDASH><FADE:10>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This version of the message is used if the LA player has stolen from the shop one time"
         },
         {
           "Name": "LINK130",
@@ -97469,7 +97683,8 @@
             "I'm...<PAUSE:5> not sure how to pronounce that."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This ending is used if the LA name has any Japanese characters in it"
         },
         {
           "Name": "JPN_KOHOLINK10",
@@ -97505,7 +97720,8 @@
             "Your name is... <PAUSE:5><SOUND:CLUE><SPEED:101><R><FONT_TOGGLE>$$$$$<FONT_TOGGLE><W><SPEED:102>."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "All of the name-variant endings begin with this message, except for the Japanese-characters one"
         },
         {
           "Name": "LETTER_LINK10",
@@ -97513,7 +97729,8 @@
             "That's it?<PAUSE:5> Just \"<FONT_TOGGLE>$$$$$<FONT_TOGGLE>\"?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This ending is used if the LA name is one letter long"
         },
         {
           "Name": "LETTER_LINK15",
@@ -97530,7 +97747,8 @@
             "easy to write!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "A lot of people think this might be a reference to the famous Pokemon line \"Hi! I like shorts! They're comfy and easy to wear!\", but it's just a coincidence and wasn't intended. (Skawo mistakenly claimed otherwise during his developer-commentary YouTube series.)"
         },
         {
           "Name": "LETTER_LINK20",
@@ -97548,7 +97766,8 @@
             "Of course our names are the same."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This ending is used if the LA name is \"Link\""
         },
         {
           "Name": "LINK_KOHOLINK10",
@@ -97565,7 +97784,8 @@
             "I think you're a bit confused..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This ending is used if the LA name is \"Zelda\""
         },
         {
           "Name": "ZELDA_KOHOLINK10",
@@ -97574,7 +97794,8 @@
             "music when I named myself that!"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Reference to an Easter egg in Link's Awakening: typing \"ZELDA\" on the save file screen causes different music to play"
         },
         {
           "Name": "ZELDA_LINK20",
@@ -97593,7 +97814,8 @@
             "Feels... fitting, for some reason."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This ending is used if the LA name is \"Ravio\" (a character from A Link Between Worlds)"
         },
         {
           "Name": "RAVIO_KOHOLINK10",
@@ -97610,7 +97832,8 @@
             "And I just defended you??"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This ending is used if the LA name is \"Ganon\""
         },
         {
           "Name": "GANON_KOHOLINK10",
@@ -97638,7 +97861,8 @@
             "<SPEED:101>That's really weird.<SPEED:102>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This ending is used if the LA name is \"Malon\", \"Talon\", or \"Ingo\""
         },
         {
           "Name": "MALON_TALON_INGO_KOHOLINK10",
@@ -97656,7 +97880,8 @@
             "a kick out of this."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This ending is used if the LA name is \"Impa\""
         },
         {
           "Name": "IMPA_KOHOLINK10",
@@ -97674,7 +97899,8 @@
             "few moments ago?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This ending is used if the LA name is \"Marin\".\n\nAlso, Link is talking about the KOHOLINK10 message from earlier in this scene."
         },
         {
           "Name": "MARIN_KOHOLINK10",
@@ -97703,7 +97929,8 @@
             "and the judge back here now..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This ending is used if the LA name is \"Thief\""
         },
         {
           "Name": "THIEF_KOHOLINK10",
@@ -97756,7 +97983,8 @@
             "Now, c'mon, that's not true at all, is it?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This ending is used if the LA name is \"Skawo\" (the lead Hero of Law developer)"
         },
         {
           "Name": "SKAWO_KOHOLINK10",
@@ -97799,7 +98027,8 @@
             "familiar...?"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This ending is used if the LA name is \"WMC\" or \"RRWMC\" (referring to RoadrunnerWMC, a Hero of Law developer who wrote about 3/4 of the music, as well as most of the translator notes, including this one -- hello!)"
         },
         {
           "Name": "RRWMC_KOHOLINK10",
@@ -97829,7 +98058,8 @@
             "...Uh, let's just move on."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Link is talking about the \"banter\" messages from the shopkeeper cross-examination.\n\nBanter is optional dialogue, and this message wouldn't make sense if the player had skipped it. So the game keeps track of whether the player viewed that cross-examination's banter, and this message is skipped if they didn't."
         },
         {
           "Name": "AAAAA_KOHOLINK10",
@@ -97838,7 +98068,8 @@
             "It needs to come from deep down."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This ending is used if the LA name is \"AAAAA\""
         },
         {
           "Name": "AAAAA_KOHOLINK15",
@@ -97881,7 +98112,8 @@
             "geb' Dir meinen..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This ending is used if the LA name is \"Moyse\".\n\nThis is a reference to an Easter egg in the German version of Link's Awakening: typing \"MOYSE\" on the save file screen causes different music to play.\n\nClaude Moyse was the German translator for LA. He also famously \"translated\" a few things rather, uh, questionably, which we've just copied verbatim in this message and the next."
         },
         {
           "Name": "MOYSE_KOHOLINK10",
@@ -97898,7 +98130,8 @@
             "That's just immature..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This ending is used if the LA name is \"Lolo\".\n\nThis is a reference to an Easter egg in the French version of Link's Awakening: typing \"LOLO\" on the save file screen causes different music to play.\n\nAs far as we could tell, the most likely explanation is that \"lolo\" means \"boobs\" in French, and the translators were being silly. Hence why Link reacts the way he does in this HoL dialogue about it."
         },
         {
           "Name": "LOLO_KOHOLINK10",
@@ -97914,7 +98147,8 @@
             "\"<FONT_TOGGLE>$$$$$<FONT_TOGGLE>\"...<PAUSE:5> Interesting."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Default dialogue if the LA name doesn't match any of the specific ones we check for"
         },
         {
           "Name": "DEFAULT_LINK20",
@@ -97932,7 +98166,8 @@
             "getting back to your own world now."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "All of the different name dialogues converge here, except for the \"Thief\" one"
         },
         {
           "Name": "LINK180",
@@ -99799,7 +100034,8 @@
             "the player..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This scene is played if an EDGB flashcart is inserted into the Transfer Pak instead of one of the recognized games.\n\n\"It is a serious crime to copy video games\" is supposed to reference old 80s/90s corporate anti-piracy PSAs, and is in fact identical to the beginning of the message displayed in some SNES titles when the DRM is tripped.\n\nIt's almost identical to SCENE_ANTIPIRACY_EZJR."
         },
         {
           "Name": "JUDGE20",
@@ -101029,7 +101265,8 @@
             "the player..."
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "This scene is played if an EZ-Flash Junior flashcart is inserted into the Transfer Pak instead of one of the recognized games.\n\n\"It is a serious crime to copy video games\" is supposed to reference old 80s/90s corporate anti-piracy PSAs, and is in fact identical to the beginning of the message displayed in some SNES titles when the DRM is tripped.\n\nIt's almost identical to SCENE_ANTIPIRACY_EDGB."
         },
         {
           "Name": "JUDGE20",
@@ -101934,7 +102171,8 @@
             "Nothing"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "These \"figure\" messages are different types of poker hands, except this one, which is for when you aren't holding a poker hand.\n\nThis entire casino is a reference to Luigi's Picture Poker from Super Mario 64 DS and New Super Mario Bros. (https://www.mariowiki.com/Picture_Poker), so if your language has multiple terms for a poker hand, prefer to match the SM64DS/NSMB terminology when available."
         },
         {
           "Name": "figureOnePair",
@@ -102046,7 +102284,8 @@
             "No bet limit!<PAUSE:5> <DI><SOUND:WHAP>Go as high as you want!<SQUARE>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "Appears if the player reaches 50 Rupees"
         },
         {
           "Name": "bail",
@@ -102055,7 +102294,8 @@
             "You got enough money to pay bail!<SQUARE>"
           ],
           "Type": 1,
-          "Position": 2
+          "Position": 2,
+          "Comment": "Appears if the player reaches 9999 Rupees"
         },
         {
           "Name": "About_Tutorial",
@@ -102095,7 +102335,8 @@
             "theme from another attorney game...<SQUARE>"
           ],
           "Type": 2,
-          "Position": 2
+          "Position": 2,
+          "Comment": "General notes for all of these \"about\" messages:\n\n- Put the translated song title on the first line (red), the original English title in parentheses on the second line (white), and the composer name in parentheses on the third line (blue). See French for examples.\n\n- If you don't know the official title of a Nintendo or Capcom song in your language, feel free to ask us about it in the Discord server. We can help look for official song title localizations.\n\n- If the translation of a dialog box is too big to fit in one box, you can split it into two. Try to find a natural place in the sentence to split it at.\n\n- Due to the 1280-byte limit on message sizes, some of these text sequences are split into multiple messages, ending with \"_a\", \"_b\", etc. The \"_b\" and \"_c\" messages are at the bottom of the message list rather than next to the \"_a\" ones, for technical reasons.\n\n- If your translation of a message goes past the 1280-byte limit (there'll be an obvious error message if this happens), we may need to split it into more messages. Ask Skawo or RoadrunnerWMC for help with that."
         },
         {
           "Name": "About_Title_a",
@@ -102855,7 +103096,8 @@
             "14 times the length of the original!<SQUARE>"
           ],
           "Type": 2,
-          "Position": 2
+          "Position": 2,
+          "Comment": "In versions 1.10 and older, this entry was only available in the music player if Extra 3 was unlocked.\n\nIn versions after 1.10, the unlock condition has been changed to Extra 3 having been fully completed."
         },
         {
           "Name": "About_Title_b",
@@ -103100,7 +103342,8 @@
             ""
           ],
           "Type": 6,
-          "Position": 0
+          "Position": 0,
+          "Comment": "\"About_Rebuttal_c\" is currently only used by the French translation (because they needed extra space)."
         },
         {
           "Name": "About_HappyEnd_b",
@@ -109492,7 +109735,8 @@
             "Toggle widescreen<SHIFT:43><G><B_BUTTON><W> Back"
           ],
           "Type": 1,
-          "Position": 2
+          "Position": 2,
+          "Comment": "This version is used on Wii Virtual Console, which doesn't support the full \"screen adjustment\" feature"
         },
         {
           "Name": "SoundSettings",
@@ -110384,7 +110628,8 @@
             "to attend the trial.<FADE:50>"
           ],
           "Type": 0,
-          "Position": 0
+          "Position": 0,
+          "Comment": "We considered using these lines in the release trailer, but decided against it. No need to translate."
         },
         {
           "Name": "Msg2",
