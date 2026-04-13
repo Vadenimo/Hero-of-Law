@@ -1,0 +1,8 @@
+cd /mnt/c/Users/Vadim/home/repos/Hero-of-Law/Build
+
+export PATH="/opt/n64/bin/:$PATH"
+
+./rebuild.sh -a
+
+Release Mode:
+./rebuild.sh -a -r

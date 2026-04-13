@@ -1,0 +1,45 @@
+private bool IsKoreanChar(int chr)
+{
+    return (bool)Common.RunExtendFunc(65535, new object[] { chr }, "IsKoreanChar");
+}
+
+private float GetYScaleForCR(ZeldaMessage.MessagePreview msg, List<byte> BoxData)
+{
+    return (float)Common.RunExtendFunc(65535, new object[] { msg, BoxData }, "GetYScaleForCR");
+}  
+
+private int GetNumLinebreaks(ZeldaMessage.MessagePreview msg, List<byte> BoxData)
+{
+    return (int)Common.RunExtendFunc(65535, new object[] { msg, BoxData }, "GetNumLinebreaks");
+}
+
+private float GetNewScaleX(ZeldaMessage.MessagePreview msg, List<byte> BoxData, int charPos, float baseScaleX, int lineMaxX)
+{
+    return (float)Common.RunExtendFunc(65535, new object[] { msg, BoxData, charPos, baseScaleX, lineMaxX }, "GetNewScaleX");
+}
+
+private int GetLineXLen(ZeldaMessage.MessagePreview msg, List<byte> BoxData, int charPos, float scale)
+{
+    return (int)Common.RunExtendFunc(65535, new object[] { msg, BoxData, charPos, scale }, "GetLineXLen");
+}
+
+private void ToggleFont()
+{
+    Common.RunExtendFunc(65535, new object[] { }, "ToggleFont");
+}
+
+private bool IsFontToggled()
+{
+    return (bool)Common.RunExtendFunc(65535, new object[] { }, "IsFontToggled");
+}
+
+private Bitmap GetCharBitmap(ZeldaMessage.MessagePreview msg, int chr)
+{
+    return (Bitmap)Common.RunExtendFunc(65535, new object[] { msg, chr }, "GetCharBitmap");
+}
+
+
+private int GetCharWidth(ZeldaMessage.MessagePreview msg, int chr)
+{
+    return (int)Common.RunExtendFunc(65535, new object[] { msg, chr }, "GetCharWidth");
+}

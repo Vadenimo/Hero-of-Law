@@ -1,0 +1,292 @@
+include System.dll
+include System.Drawing.dll
+include System.Core.dll
+include System.Windows.Forms.dll
+include ZeldaMessage.dll
+include System.Runtime.dll
+
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.IO;
+using ZeldaMessage;
+
+namespace MsgExtend
+{
+    public class Function
+    {
+        public static int numLinebreaks;
+        public static bool fontToggled;
+        public static byte[] fontDataDefault;
+        public static float[] fontWidthsDefault;
+    
+        public void TagProcess(ZeldaMessage.MessagePreview msg, List<byte> BoxData)
+        {
+            numLinebreaks = _GetNumLinebreaks(msg, BoxData);
+            
+            if (msg.Lang != "Default" && fontDataDefault == null)
+            {
+                fontDataDefault = ZeldaMessage.MessagePreview.LoadFontData("msgextend/fontDefault/font.font_static");
+                fontWidthsDefault = new float[255];
+                ZeldaMessage.MessagePreview.LoadWidthTable("msgextend/fontDefault/font.width_table", fontWidthsDefault);
+            }
+            
+            fontToggled = false;
+        }
+        
+        public Bitmap GetCharBitmap(ZeldaMessage.MessagePreview msg, int chr)
+        {
+            try
+            {
+            int startByte = (chr - ' ') * 128;
+            string fn = "char_" + chr.ToString("X").ToLower();
+        
+            if (msg.Lang != "Default" && IsFontToggled() && startByte + 128 <= fontDataDefault.Length)
+                return Common.GetBitmapFromI4FontChar(fontDataDefault.Skip(startByte).Take(128).ToArray());
+            else
+            {
+                if (msg.FontData != null && startByte + 128 <= msg.FontData.Length)
+                    return Common.GetBitmapFromI4FontChar(msg.FontData.Skip(startByte).Take(128).ToArray());
+                else
+                    return (Bitmap)ZeldaMessage.Properties.Resources.ResourceManager.GetObject(fn);           
+            }
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show("Error in GetCharBitmap:" + ex.Message);
+                return new Bitmap(16, 16);
+            }
+        }
+        
+        public int GetCharWidth(ZeldaMessage.MessagePreview msg, int chr)
+        {
+            int width = 13;
+
+            if (IsKoreanChar(chr) && msg.Lang == "Korean")
+                width = 14;
+            else
+            {
+                if (msg.Lang != "Default" && IsFontToggled())
+                    width = (int)fontWidthsDefault[chr - 0x20];
+                else
+                    width = (int)Data.FontWidths[chr - 0x20];
+            }
+
+            return width;
+        }        
+        
+        public void ToggleFont()
+        {
+            fontToggled = !fontToggled;
+        }
+       
+        public bool IsFontToggled()
+        {
+            return fontToggled;
+        }
+    
+        public int GetLineXLen(ZeldaMessage.MessagePreview msg, List<byte> BoxData, int charPos, float scale)
+        {
+            float Len = 0;
+            int pos = charPos;
+            byte curChar = BoxData[pos]; 
+        
+            try
+            {
+                while (curChar != (byte)ZeldaMessage.Data.MsgControlCode.LINE_BREAK &&
+                       curChar != (byte)ZeldaMessage.Data.MsgControlCode.END &&
+                       curChar != (byte)ZeldaMessage.Data.MsgControlCode.NEW_BOX &&
+                       curChar != (byte)ZeldaMessage.Data.MsgControlCode.PERSISTENT &&
+                       curChar != (byte)ZeldaMessage.Data.MsgControlCode.EVENT &&
+                       curChar != (byte)ZeldaMessage.Data.MsgControlCode.FADE &&
+                       curChar != (byte)ZeldaMessage.Data.MsgControlCode.FADE2 &&
+                       curChar != (byte)ZeldaMessage.Data.MsgControlCode.DELAY &&
+                       curChar != (byte)ZeldaMessage.Data.MsgControlCode.JUMP &&
+                       curChar != 0 && pos != BoxData.Count())
+                       {
+                            switch (curChar)
+                            {
+                                case (byte)ZeldaMessage.Data.MsgControlCode.HIGH_SCORE:
+                                case (byte)ZeldaMessage.Data.MsgControlCode.SPEED:
+                                case (byte)ZeldaMessage.Data.MsgControlCode.SHIFT:
+                                case (byte)ZeldaMessage.Data.MsgControlCode.COLOR:
+                                case (byte)ZeldaMessage.Data.MsgControlCode.ICON:
+                                {
+                                    pos += 1;
+                                    break;
+                                }
+                                case (byte)ZeldaMessage.Data.MsgControlCode.SOUND:
+                                {
+                                    pos += 2;
+                                    break;
+                                }
+                                case (byte)ZeldaMessage.Data.MsgControlCode.BACKGROUND:
+                                {
+                                    pos += 3;
+                                    break;
+                                }               
+                                default:
+                                {
+                                    if (curChar >= 0x20 && curChar < 0xFC)
+                                    {
+                                        int width = GetCharWidth(msg, curChar);
+                                        int scaleInt = (int)(scale * 100);
+                                        Len += (int)((width * scaleInt) / 100);
+                                    
+                                        if (msg.Lang == "Korean" && IsKoreanChar(curChar))
+                                            pos++;
+                                    }
+                                    break;
+                                }
+                            }
+
+                            pos++;
+                            
+                            if (pos != BoxData.Count())
+                                curChar = BoxData[pos];
+                       }
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show("ERROR IN GetLineXLen: " + ex.Message);
+            }   
+            
+            return (int)Len;
+        }    
+    
+        public float GetNewScaleX(ZeldaMessage.MessagePreview msg, List<byte> BoxData, int charPos, float baseScaleX, int lineMaxX)
+        {
+            int dimX = GetLineXLen(msg, BoxData, charPos, baseScaleX);
+            
+            if (dimX <= lineMaxX || dimX == 0)
+                return baseScaleX;
+            
+            // Calculate initial scaled value, capped at baseScaleX
+            float ret = Math.Min(baseScaleX, baseScaleX * (float)lineMaxX / dimX);
+            
+            // Calculate the size at that scale
+            int dimXNew = GetLineXLen(msg, BoxData, charPos, ret);
+            
+            // Adjust downward if still too large
+            while (dimXNew > lineMaxX && ret > 0)
+            {
+                ret -= 0.01f;
+                dimXNew = GetLineXLen(msg, BoxData, charPos, ret);
+            }
+            
+            // Try to adjust upward if there's room
+            while (ret < baseScaleX) 
+            {
+                int nextDim = GetLineXLen(msg, BoxData, charPos, ret + 0.01f);
+                if (nextDim <= lineMaxX)
+                    ret += 0.01f;
+                else
+                    break;
+            }
+            
+            return ret;
+        }        
+    
+        public float GetYScaleForCR(ZeldaMessage.MessagePreview msg, List<byte> BoxData)
+        {
+            float yScale = ((int)msg.Box > (int)Data.BoxType.None_Black) ? 0.85f : Data.SCALE_DEFAULT;
+                
+            if (msg.Box == Data.BoxType.Ocarina)
+            {
+                int lineBrk = GetNumLinebreaks(msg, BoxData);
+                int dimY = lineBrk * (int)(16 * yScale);
+                
+                yScale = Math.Min(yScale, yScale * ((float)58 / (float)dimY));
+            }        
+            
+            return yScale;
+        }
+        
+        private int GetNumLinebreaks(ZeldaMessage.MessagePreview msg, List<byte> BoxData)
+        {
+            return numLinebreaks;
+        }
+        
+        private int _GetNumLinebreaks(ZeldaMessage.MessagePreview msg, List<byte> BoxData)
+        {
+            int lines = 1;
+            int pos = 0;
+            byte curChar = BoxData[pos]; 
+        
+            try
+            {
+                while (curChar != (byte)Data.MsgControlCode.END &&
+                       curChar != (byte)Data.MsgControlCode.NEW_BOX &&
+                       curChar != (byte)Data.MsgControlCode.PERSISTENT &&
+                       curChar != (byte)Data.MsgControlCode.EVENT &&
+                       curChar != (byte)Data.MsgControlCode.FADE &&
+                       curChar != (byte)Data.MsgControlCode.FADE2 &&
+                       curChar != (byte)Data.MsgControlCode.DELAY &&
+                       curChar != (byte)Data.MsgControlCode.JUMP &&
+                       curChar != 0 && pos != BoxData.Count())
+                       {
+                            switch (curChar)
+                            {
+                                case (byte)Data.MsgControlCode.HIGH_SCORE:
+                                case (byte)Data.MsgControlCode.SPEED:
+                                case (byte)Data.MsgControlCode.SHIFT:
+                                case (byte)Data.MsgControlCode.COLOR:
+                                case (byte)Data.MsgControlCode.ICON:
+                                {
+                                    pos += 1;
+                                    break;
+                                }
+                                case (byte)Data.MsgControlCode.SOUND:
+                                {
+                                    pos += 2;
+                                    break;
+                                }
+                                case (byte)Data.MsgControlCode.BACKGROUND:
+                                {
+                                    pos += 3;
+                                    break;
+                                }            
+                                case (byte)Data.MsgControlCode.LINE_BREAK:
+                                {
+                                    lines += 1;
+                                    break;
+                                }   
+                                default:
+                                {
+                                    if (curChar >= 0x20 && curChar < 0xFC)
+                                    {
+                                        if (msg.Lang == "Korean" && IsKoreanChar(curChar))
+                                            pos++;                                        
+                                    }
+
+                                    break;
+                                }
+                            }
+
+                            pos++;
+                            
+                            if (pos != BoxData.Count())
+                                curChar = BoxData[pos];
+                       }
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show("ERROR IN _GetNumLinebreaks: " + ex.Message);
+            }   
+            
+            return lines;
+        }  
+        
+        public  bool IsKoreanChar(int chr)
+        {
+            return !IsFontToggled() && (chr >= 0xB0 && chr <= 0xC9);
+        }
+    }
+}
+
+

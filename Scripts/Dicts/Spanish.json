@@ -1,0 +1,105 @@
+{
+  "Entries": [
+    {
+      "Token": "Á",
+      "Value": "0x80",
+      "Description": "",
+      "ContextGroup": ""
+    },
+    {
+      "Token": "É",
+      "Value": "0x81",
+      "Description": ""
+    },
+    {
+      "Token": "Í",
+      "Value": "0x82",
+      "Description": ""
+    },
+    {
+      "Token": "Ñ",
+      "Value": "0x83",
+      "Description": ""
+    },
+    {
+      "Token": "Ó",
+      "Value": "0x84",
+      "Description": ""
+    },
+    {
+      "Token": "Ú",
+      "Value": "0x85",
+      "Description": ""
+    },
+    {
+      "Token": "Ü",
+      "Value": "0x86",
+      "Description": ""
+    },
+    {
+      "Token": "á",
+      "Value": "0x87",
+      "Description": ""
+    },
+    {
+      "Token": "é",
+      "Value": "0x88",
+      "Description": ""
+    },
+    {
+      "Token": "í",
+      "Value": "0x89",
+      "Description": ""
+    },
+    {
+      "Token": "ñ",
+      "Value": "0x8A",
+      "Description": ""
+    },
+    {
+      "Token": "ó",
+      "Value": "0x8B",
+      "Description": ""
+    },
+    {
+      "Token": "ú",
+      "Value": "0x8C",
+      "Description": ""
+    },
+    {
+      "Token": "ü",
+      "Value": "0x8D",
+      "Description": ""
+    },
+    {
+      "Token": "¡",
+      "Value": "0x8E",
+      "Description": ""
+    },
+    {
+      "Token": "¿",
+      "Value": "0x8F",
+      "Description": ""
+    },
+    {
+      "Token": "«",
+      "Value": "0x90",
+      "Description": ""
+    },
+    {
+      "Token": "»",
+      "Value": "0x91",
+      "Description": ""
+    },
+    {
+      "Token": "ª",
+      "Value": "0x92",
+      "Description": ""
+    },
+    {
+      "Token": "º",
+      "Value": "0x93",
+      "Description": ""
+    },
+  ],
+}

@@ -1,0 +1,142 @@
+include System.dll
+include System.Drawing.dll
+include System.Core.dll
+include System.Windows.Forms.dll
+include ZeldaMessage.dll
+include System.Runtime.dll
+
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.IO;
+using System.Reflection;
+using ZeldaMessage;
+
+namespace MsgExtend
+{
+    public class Function
+    {
+        ##FSHARED##  
+        
+        public object TagProcess(ZeldaMessage.MessagePreview msg, Bitmap bmp, List<byte> BoxData, int charPos, Color textColor, float scale, float xPos, float yPos)
+        {
+            object[] ret = new object[8];
+            
+            try
+            {           
+                ret[0] = (object)bmp;
+                ret[1] = (object)BoxData;
+                ret[2] = (object)charPos;
+                ret[3] = (object)textColor;
+                ret[4] = (object)scale;
+                ret[5] = (object)xPos;
+                ret[6] = (object)yPos;        
+                ret[7] = (object)true; 
+                
+                byte chr = BoxData[charPos];
+                
+                if (chr == ' ')
+                {
+                    xPos += (msg.UseRealSpaceWidth ? (int)(Data.FontWidths[0] * scale) : 6.0f);
+                    ret[5] = (object)xPos;
+                    ret[7] = (object)false; 
+                    return ret;
+                }                
+                
+                Bitmap img;
+                bool isCharWide = false;
+                            
+                if (msg.Lang == "Korean" && IsKoreanChar(BoxData[charPos]))
+                {           
+                    isCharWide = true;
+                    int curChar = BoxData[charPos];
+                    curChar = BoxData[charPos] << 8 | BoxData[charPos + 1];
+
+                    byte rr = (byte)((curChar >> 8) & 0xFF);
+                    byte ry = (byte)((curChar & 0xFF));
+                    int startByte = 128 * ((rr - 0xB0) * 94 + (ry - 0xA1));
+
+                    if (msg.FontData2 != null && startByte + 128 <= msg.FontData2.Length)
+                    {
+                        img = Common.GetBitmapFromI4FontChar(msg.FontData2.Skip(startByte).Take(128).ToArray());
+                    }
+                    else
+                    {
+                        ret[7] = (object)false; 
+                        return ret;                        
+                    }
+                }
+                else
+                {
+                    img = GetCharBitmap(msg, chr);
+
+                    if (img == null)
+                    {
+                        ret[7] = (object)false; 
+                        return ret;                        
+                    }              
+                }
+                
+
+                img = Common.ReverseAlphaMask(img, msg.BrightenText);
+                Bitmap shadow = img;
+                img = Common.Colorize(img, textColor);
+                float yScale = GetYScaleForCR(msg, BoxData);
+
+                using (Graphics g = Graphics.FromImage(bmp))
+                {
+                    if (msg.Box != Data.BoxType.None_Black)
+                    {
+                        shadow = Common.Colorize(shadow, Color.Black);
+                        shadow.SetResolution(g.DpiX, g.DpiY);
+                        g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.High;
+
+                        g.DrawImage(shadow, new Rectangle((int)xPos + 1, (int)yPos + 1, (int)(16 * scale), (int)(16 * yScale)));
+                    }
+
+                    img.SetResolution(g.DpiX, g.DpiY);
+                   
+                    g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.High;    
+                    g.DrawImage(img, new Rectangle((int)xPos, (int)yPos, (int)(16 * scale), (int)(16 * yScale)));
+                }
+                
+                try
+                {
+                    int width = GetCharWidth(msg, chr);
+                    int scaleInt = (int)(scale * 100);
+                    xPos += (int)((width * scaleInt) / 100);
+                }
+                catch (Exception)
+                {
+                    xPos += 16 * scale;
+                    // Lazy way to ensure the program does not crash if exported message data doesn't have data for all the characters.
+                }                
+                
+                if (isCharWide)
+                    charPos++;
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show("ERROR IN TAG PROCESS 300: " + ex.Message + Environment.NewLine + ex.StackTrace);
+            }
+            
+            ret[0] = (object)bmp;
+            ret[1] = (object)BoxData;
+            ret[2] = (object)charPos;
+            ret[3] = (object)textColor;
+            ret[4] = (object)scale;
+            ret[5] = (object)xPos;
+            ret[6] = (object)yPos;     
+            ret[7] = (object)false; 
+            return ret;
+           
+        }
+    }
+}
+
+

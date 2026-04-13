@@ -1,0 +1,35 @@
+[
+    {
+      "Identifier": "Icons",
+      "ValueType": "x",
+      "Entries": {
+        "ATTORNEY_BADGE": 0,
+        "MALONPICTOGRAPH": 1,
+        "AUTOPSY": 2,
+        "SAW": 3,
+        "RANCHINVENTORY": 4,
+        "PERFUME": 5,
+        "SHIPMENT": 6,
+        "BLOODYCLOTH": 7,
+        "OILBOTTLE": 8,
+        "SHIPMENTRETURNED": 9,
+        "MILK": 10,
+        "RANCHINHERITANCE": 11,
+        "KNIFE": 12,
+        "MALON": 13,
+        "TALON": 14,
+        "DRAGMIRE": 15,
+        "JUDGE": 16,
+        "IMPA": 17,
+        "ZELDA": 18,
+        "INGO": 19,
+        "KOHOLINK": 20,
+        "SHOPKEEPER": 21,
+        "OWL": 22,
+        "SHOPLIST": 23,
+        "FULLMILK": 24,
+        "KOHOLINK_RED": 25,
+        "KOHOLINK_BLUE": 26
+      }
+    }
+]

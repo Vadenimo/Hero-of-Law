@@ -1,0 +1,160 @@
+{
+  "Entries": [
+    {
+      "Token": "à",
+      "Value": "0x80",
+      "Description": "",
+      "ContextGroup": ""
+    },
+    {
+      "Token": "â",
+      "Value": "0x81",
+      "Description": ""
+    },
+    {
+      "Token": "æ",
+      "Value": "0x82",
+      "Description": ""
+    },
+    {
+      "Token": "ç",
+      "Value": "0x83",
+      "Description": ""
+    },
+    {
+      "Token": "é",
+      "Value": "0x84",
+      "Description": ""
+    },
+    {
+      "Token": "è",
+      "Value": "0x85",
+      "Description": ""
+    },
+    {
+      "Token": "ê",
+      "Value": "0x86",
+      "Description": ""
+    },
+    {
+      "Token": "ë",
+      "Value": "0x87",
+      "Description": ""
+    },
+    {
+      "Token": "î",
+      "Value": "0x88",
+      "Description": ""
+    },
+    {
+      "Token": "ï",
+      "Value": "0x89",
+      "Description": ""
+    },
+    {
+      "Token": "ô",
+      "Value": "0x8A",
+      "Description": ""
+    },
+    {
+      "Token": "œ",
+      "Value": "0x8B",
+      "Description": ""
+    },
+    {
+      "Token": "ù",
+      "Value": "0x8C",
+      "Description": ""
+    },
+    {
+      "Token": "û",
+      "Value": "0x8D",
+      "Description": ""
+    },
+    {
+      "Token": "ü",
+      "Value": "0x8E",
+      "Description": ""
+    },
+    {
+      "Token": "À",
+      "Value": "0x8F",
+      "Description": ""
+    },
+    {
+      "Token": "Â",
+      "Value": "0x90",
+      "Description": ""
+    },
+    {
+      "Token": "Æ",
+      "Value": "0x91",
+      "Description": ""
+    },
+    {
+      "Token": "Ç",
+      "Value": "0x92",
+      "Description": ""
+    },
+    {
+      "Token": "É",
+      "Value": "0x93",
+      "Description": ""
+    },
+    {
+      "Token": "È",
+      "Value": "0x94",
+      "Description": ""
+    },
+    {
+      "Token": "Ê",
+      "Value": "0x95",
+      "Description": ""
+    },
+    {
+      "Token": "Ë",
+      "Value": "0x96",
+      "Description": ""
+    },
+    {
+      "Token": "Î",
+      "Value": "0x97",
+      "Description": ""
+    },
+    {
+      "Token": "Ï",
+      "Value": "0x98",
+      "Description": ""
+    },
+    {
+      "Token": "Ô",
+      "Value": "0x99",
+      "Description": ""
+    },
+    {
+      "Token": "Œ",
+      "Value": "0x9A",
+      "Description": ""
+    },
+    {
+      "Token": "Ù",
+      "Value": "0x9B",
+      "Description": ""
+    },
+    {
+      "Token": "Û",
+      "Value": "0x9C",
+      "Description": ""
+    },
+    {
+      "Token": "Ü",
+      "Value": "0x9D",
+      "Description": ""
+    },
+    {
+      "Token": "°",
+      "Value": "0x9E",
+      "Description": ""
+    },
+  ],
+}

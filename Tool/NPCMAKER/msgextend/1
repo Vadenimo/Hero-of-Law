@@ -1,0 +1,77 @@
+include System.dll
+include System.Drawing.dll
+include System.Core.dll
+include System.Windows.Forms.dll
+include ZeldaMessage.dll
+include System.Runtime.dll
+
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.IO;
+using ZeldaMessage;
+
+namespace MsgExtend
+{
+    public class Function
+    {
+        ##FSHARED##            
+    
+        public object TagProcess(ZeldaMessage.MessagePreview msg, Bitmap bmp, List<byte> BoxData, Color textColor, float scale, float xPos, float yPos, int charPos, ZeldaMessage.Data.BoxType BoxType, int choiceType, int iconType)
+        {
+            try
+            {
+                if ((int)msg.Box > (int)Data.BoxType.None_Black)
+                {
+                    xPos = 20;
+                    yPos += 6;
+                }
+                else
+                {
+                    xPos = Data.XPOS_DEFAULT;
+                    yPos += (int)(16 * scale);
+                }
+
+                if ((choiceType == 2 && yPos >= 32) || (choiceType == 3 && yPos >= 20) || iconType != -1 && yPos > 12)
+                    xPos = 2 * ZeldaMessage.Data.XPOS_DEFAULT;
+                    
+                if (msg.Box == ZeldaMessage.Data.BoxType.Ocarina)
+                {
+                    xPos = 128 - 52;
+                    yPos -= (int)(16 * scale);
+                    
+                    float yScale = GetYScaleForCR(msg, BoxData);
+                    yPos += (float)(16 * yScale);
+
+                    scale = ((int)msg.Box > (int)Data.BoxType.None_Black) ? 0.85f : ZeldaMessage.Data.SCALE_DEFAULT;
+                    scale = GetNewScaleX(msg, BoxData, charPos + 1, scale, 169);
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show("ERROR IN TAG PROCESS 1: " + ex.Message + Environment.NewLine + ex.StackTrace);
+            }               
+            
+            object[] ret = new object[9];
+           
+            ret[0] = (object)bmp;
+            ret[1] = (object)BoxData;
+            ret[2] = (object)textColor;
+            ret[3] = (object)scale;
+            ret[4] = (object)xPos;
+            ret[5] = (object)yPos;
+            ret[6] = (object)charPos;
+            ret[7] = (object)choiceType;
+            ret[8] = (object)iconType;
+            
+            return ret;
+        }
+    }
+}
+
+

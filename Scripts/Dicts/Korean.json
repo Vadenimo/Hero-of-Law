@@ -1,0 +1,11755 @@
+{
+  "ExtraFont": "hangul",
+  "Entries": [
+  {
+    "Token": "가",
+    "Value": "0xB0;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "각",
+    "Value": "0xB0;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "간",
+    "Value": "0xB0;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "갇",
+    "Value": "0xB0;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "갈",
+    "Value": "0xB0;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "갉",
+    "Value": "0xB0;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "갊",
+    "Value": "0xB0;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "감",
+    "Value": "0xB0;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "갑",
+    "Value": "0xB0;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "값",
+    "Value": "0xB0;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "갓",
+    "Value": "0xB0;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "갔",
+    "Value": "0xB0;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "강",
+    "Value": "0xB0;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "갖",
+    "Value": "0xB0;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "갗",
+    "Value": "0xB0;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "같",
+    "Value": "0xB0;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "갚",
+    "Value": "0xB0;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "갛",
+    "Value": "0xB0;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "개",
+    "Value": "0xB0;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "객",
+    "Value": "0xB0;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "갠",
+    "Value": "0xB0;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "갤",
+    "Value": "0xB0;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "갬",
+    "Value": "0xB0;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "갭",
+    "Value": "0xB0;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "갯",
+    "Value": "0xB0;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "갰",
+    "Value": "0xB0;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "갱",
+    "Value": "0xB0;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "갸",
+    "Value": "0xB0;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "갹",
+    "Value": "0xB0;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "갼",
+    "Value": "0xB0;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "걀",
+    "Value": "0xB0;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "걋",
+    "Value": "0xB0;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "걍",
+    "Value": "0xB0;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "걔",
+    "Value": "0xB0;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "걘",
+    "Value": "0xB0;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "걜",
+    "Value": "0xB0;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "거",
+    "Value": "0xB0;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "걱",
+    "Value": "0xB0;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "건",
+    "Value": "0xB0;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "걷",
+    "Value": "0xB0;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "걸",
+    "Value": "0xB0;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "걺",
+    "Value": "0xB0;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "검",
+    "Value": "0xB0;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "겁",
+    "Value": "0xB0;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "것",
+    "Value": "0xB0;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "겄",
+    "Value": "0xB0;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "겅",
+    "Value": "0xB0;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "겆",
+    "Value": "0xB0;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "겉",
+    "Value": "0xB0;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "겊",
+    "Value": "0xB0;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "겋",
+    "Value": "0xB0;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "게",
+    "Value": "0xB0;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "겐",
+    "Value": "0xB0;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "겔",
+    "Value": "0xB0;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "겜",
+    "Value": "0xB0;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "겝",
+    "Value": "0xB0;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "겟",
+    "Value": "0xB0;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "겠",
+    "Value": "0xB0;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "겡",
+    "Value": "0xB0;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "겨",
+    "Value": "0xB0;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "격",
+    "Value": "0xB0;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "겪",
+    "Value": "0xB0;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "견",
+    "Value": "0xB0;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "겯",
+    "Value": "0xB0;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "결",
+    "Value": "0xB0;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "겸",
+    "Value": "0xB0;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "겹",
+    "Value": "0xB0;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "겻",
+    "Value": "0xB0;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "겼",
+    "Value": "0xB0;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "경",
+    "Value": "0xB0;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "곁",
+    "Value": "0xB0;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "계",
+    "Value": "0xB0;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "곈",
+    "Value": "0xB0;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "곌",
+    "Value": "0xB0;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "곕",
+    "Value": "0xB0;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "곗",
+    "Value": "0xB0;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "고",
+    "Value": "0xB0;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "곡",
+    "Value": "0xB0;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "곤",
+    "Value": "0xB0;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "곧",
+    "Value": "0xB0;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "골",
+    "Value": "0xB0;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "곪",
+    "Value": "0xB0;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "곬",
+    "Value": "0xB0;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "곯",
+    "Value": "0xB0;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "곰",
+    "Value": "0xB0;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "곱",
+    "Value": "0xB0;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "곳",
+    "Value": "0xB0;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "공",
+    "Value": "0xB0;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "곶",
+    "Value": "0xB0;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "과",
+    "Value": "0xB0;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "곽",
+    "Value": "0xB0;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "관",
+    "Value": "0xB0;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "괄",
+    "Value": "0xB0;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "괆",
+    "Value": "0xB0;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "괌",
+    "Value": "0xB1;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "괍",
+    "Value": "0xB1;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "괏",
+    "Value": "0xB1;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "광",
+    "Value": "0xB1;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "괘",
+    "Value": "0xB1;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "괜",
+    "Value": "0xB1;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "괠",
+    "Value": "0xB1;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "괩",
+    "Value": "0xB1;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "괬",
+    "Value": "0xB1;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "괭",
+    "Value": "0xB1;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "괴",
+    "Value": "0xB1;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "괵",
+    "Value": "0xB1;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "괸",
+    "Value": "0xB1;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "괼",
+    "Value": "0xB1;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "굄",
+    "Value": "0xB1;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "굅",
+    "Value": "0xB1;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "굇",
+    "Value": "0xB1;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "굉",
+    "Value": "0xB1;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "교",
+    "Value": "0xB1;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "굔",
+    "Value": "0xB1;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "굘",
+    "Value": "0xB1;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "굡",
+    "Value": "0xB1;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "굣",
+    "Value": "0xB1;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "구",
+    "Value": "0xB1;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "국",
+    "Value": "0xB1;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "군",
+    "Value": "0xB1;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "굳",
+    "Value": "0xB1;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "굴",
+    "Value": "0xB1;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "굵",
+    "Value": "0xB1;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "굶",
+    "Value": "0xB1;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "굻",
+    "Value": "0xB1;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "굼",
+    "Value": "0xB1;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "굽",
+    "Value": "0xB1;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "굿",
+    "Value": "0xB1;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "궁",
+    "Value": "0xB1;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "궂",
+    "Value": "0xB1;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "궈",
+    "Value": "0xB1;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "궉",
+    "Value": "0xB1;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "권",
+    "Value": "0xB1;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "궐",
+    "Value": "0xB1;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "궜",
+    "Value": "0xB1;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "궝",
+    "Value": "0xB1;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "궤",
+    "Value": "0xB1;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "궷",
+    "Value": "0xB1;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "귀",
+    "Value": "0xB1;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "귁",
+    "Value": "0xB1;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "귄",
+    "Value": "0xB1;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "귈",
+    "Value": "0xB1;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "귐",
+    "Value": "0xB1;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "귑",
+    "Value": "0xB1;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "귓",
+    "Value": "0xB1;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "규",
+    "Value": "0xB1;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "균",
+    "Value": "0xB1;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "귤",
+    "Value": "0xB1;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "그",
+    "Value": "0xB1;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "극",
+    "Value": "0xB1;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "근",
+    "Value": "0xB1;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "귿",
+    "Value": "0xB1;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "글",
+    "Value": "0xB1;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "긁",
+    "Value": "0xB1;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "금",
+    "Value": "0xB1;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "급",
+    "Value": "0xB1;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "긋",
+    "Value": "0xB1;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "긍",
+    "Value": "0xB1;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "긔",
+    "Value": "0xB1;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "기",
+    "Value": "0xB1;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "긱",
+    "Value": "0xB1;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "긴",
+    "Value": "0xB1;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "긷",
+    "Value": "0xB1;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "길",
+    "Value": "0xB1;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "긺",
+    "Value": "0xB1;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "김",
+    "Value": "0xB1;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "깁",
+    "Value": "0xB1;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "깃",
+    "Value": "0xB1;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "깅",
+    "Value": "0xB1;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "깆",
+    "Value": "0xB1;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "깊",
+    "Value": "0xB1;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "까",
+    "Value": "0xB1;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "깍",
+    "Value": "0xB1;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "깎",
+    "Value": "0xB1;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "깐",
+    "Value": "0xB1;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "깔",
+    "Value": "0xB1;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "깖",
+    "Value": "0xB1;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "깜",
+    "Value": "0xB1;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "깝",
+    "Value": "0xB1;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "깟",
+    "Value": "0xB1;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "깠",
+    "Value": "0xB1;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "깡",
+    "Value": "0xB1;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "깥",
+    "Value": "0xB1;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "깨",
+    "Value": "0xB1;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "깩",
+    "Value": "0xB1;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "깬",
+    "Value": "0xB1;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "깰",
+    "Value": "0xB1;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "깸",
+    "Value": "0xB1;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "깹",
+    "Value": "0xB2;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "깻",
+    "Value": "0xB2;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "깼",
+    "Value": "0xB2;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "깽",
+    "Value": "0xB2;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "꺄",
+    "Value": "0xB2;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "꺅",
+    "Value": "0xB2;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "꺌",
+    "Value": "0xB2;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "꺼",
+    "Value": "0xB2;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "꺽",
+    "Value": "0xB2;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "꺾",
+    "Value": "0xB2;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "껀",
+    "Value": "0xB2;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "껄",
+    "Value": "0xB2;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "껌",
+    "Value": "0xB2;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "껍",
+    "Value": "0xB2;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "껏",
+    "Value": "0xB2;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "껐",
+    "Value": "0xB2;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "껑",
+    "Value": "0xB2;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "께",
+    "Value": "0xB2;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "껙",
+    "Value": "0xB2;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "껜",
+    "Value": "0xB2;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "껨",
+    "Value": "0xB2;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "껫",
+    "Value": "0xB2;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "껭",
+    "Value": "0xB2;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "껴",
+    "Value": "0xB2;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "껸",
+    "Value": "0xB2;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "껼",
+    "Value": "0xB2;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "꼇",
+    "Value": "0xB2;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "꼈",
+    "Value": "0xB2;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "꼍",
+    "Value": "0xB2;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "꼐",
+    "Value": "0xB2;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "꼬",
+    "Value": "0xB2;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "꼭",
+    "Value": "0xB2;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "꼰",
+    "Value": "0xB2;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "꼲",
+    "Value": "0xB2;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "꼴",
+    "Value": "0xB2;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "꼼",
+    "Value": "0xB2;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "꼽",
+    "Value": "0xB2;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "꼿",
+    "Value": "0xB2;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "꽁",
+    "Value": "0xB2;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "꽂",
+    "Value": "0xB2;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "꽃",
+    "Value": "0xB2;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "꽈",
+    "Value": "0xB2;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "꽉",
+    "Value": "0xB2;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "꽐",
+    "Value": "0xB2;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "꽜",
+    "Value": "0xB2;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "꽝",
+    "Value": "0xB2;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "꽤",
+    "Value": "0xB2;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "꽥",
+    "Value": "0xB2;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "꽹",
+    "Value": "0xB2;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "꾀",
+    "Value": "0xB2;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "꾄",
+    "Value": "0xB2;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "꾈",
+    "Value": "0xB2;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "꾐",
+    "Value": "0xB2;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "꾑",
+    "Value": "0xB2;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "꾕",
+    "Value": "0xB2;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "꾜",
+    "Value": "0xB2;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "꾸",
+    "Value": "0xB2;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "꾹",
+    "Value": "0xB2;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "꾼",
+    "Value": "0xB2;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "꿀",
+    "Value": "0xB2;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "꿇",
+    "Value": "0xB2;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "꿈",
+    "Value": "0xB2;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "꿉",
+    "Value": "0xB2;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "꿋",
+    "Value": "0xB2;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "꿍",
+    "Value": "0xB2;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "꿎",
+    "Value": "0xB2;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "꿔",
+    "Value": "0xB2;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "꿜",
+    "Value": "0xB2;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "꿨",
+    "Value": "0xB2;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "꿩",
+    "Value": "0xB2;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "꿰",
+    "Value": "0xB2;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "꿱",
+    "Value": "0xB2;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "꿴",
+    "Value": "0xB2;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "꿸",
+    "Value": "0xB2;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "뀀",
+    "Value": "0xB2;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "뀁",
+    "Value": "0xB2;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "뀄",
+    "Value": "0xB2;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "뀌",
+    "Value": "0xB2;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "뀐",
+    "Value": "0xB2;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "뀔",
+    "Value": "0xB2;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "뀜",
+    "Value": "0xB2;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "뀝",
+    "Value": "0xB2;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "뀨",
+    "Value": "0xB2;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "끄",
+    "Value": "0xB2;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "끅",
+    "Value": "0xB2;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "끈",
+    "Value": "0xB2;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "끊",
+    "Value": "0xB2;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "끌",
+    "Value": "0xB2;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "끎",
+    "Value": "0xB2;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "끓",
+    "Value": "0xB2;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "끔",
+    "Value": "0xB2;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "끕",
+    "Value": "0xB2;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "끗",
+    "Value": "0xB2;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "끙",
+    "Value": "0xB2;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "끝",
+    "Value": "0xB3;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "끼",
+    "Value": "0xB3;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "끽",
+    "Value": "0xB3;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "낀",
+    "Value": "0xB3;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "낄",
+    "Value": "0xB3;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "낌",
+    "Value": "0xB3;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "낍",
+    "Value": "0xB3;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "낏",
+    "Value": "0xB3;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "낑",
+    "Value": "0xB3;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "나",
+    "Value": "0xB3;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "낙",
+    "Value": "0xB3;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "낚",
+    "Value": "0xB3;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "난",
+    "Value": "0xB3;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "낟",
+    "Value": "0xB3;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "날",
+    "Value": "0xB3;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "낡",
+    "Value": "0xB3;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "낢",
+    "Value": "0xB3;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "남",
+    "Value": "0xB3;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "납",
+    "Value": "0xB3;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "낫",
+    "Value": "0xB3;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "났",
+    "Value": "0xB3;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "낭",
+    "Value": "0xB3;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "낮",
+    "Value": "0xB3;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "낯",
+    "Value": "0xB3;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "낱",
+    "Value": "0xB3;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "낳",
+    "Value": "0xB3;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "내",
+    "Value": "0xB3;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "낵",
+    "Value": "0xB3;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "낸",
+    "Value": "0xB3;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "낼",
+    "Value": "0xB3;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "냄",
+    "Value": "0xB3;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "냅",
+    "Value": "0xB3;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "냇",
+    "Value": "0xB3;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "냈",
+    "Value": "0xB3;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "냉",
+    "Value": "0xB3;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "냐",
+    "Value": "0xB3;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "냑",
+    "Value": "0xB3;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "냔",
+    "Value": "0xB3;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "냘",
+    "Value": "0xB3;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "냠",
+    "Value": "0xB3;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "냥",
+    "Value": "0xB3;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "너",
+    "Value": "0xB3;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "넉",
+    "Value": "0xB3;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "넋",
+    "Value": "0xB3;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "넌",
+    "Value": "0xB3;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "널",
+    "Value": "0xB3;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "넒",
+    "Value": "0xB3;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "넓",
+    "Value": "0xB3;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "넘",
+    "Value": "0xB3;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "넙",
+    "Value": "0xB3;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "넛",
+    "Value": "0xB3;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "넜",
+    "Value": "0xB3;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "넝",
+    "Value": "0xB3;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "넣",
+    "Value": "0xB3;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "네",
+    "Value": "0xB3;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "넥",
+    "Value": "0xB3;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "넨",
+    "Value": "0xB3;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "넬",
+    "Value": "0xB3;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "넴",
+    "Value": "0xB3;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "넵",
+    "Value": "0xB3;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "넷",
+    "Value": "0xB3;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "넸",
+    "Value": "0xB3;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "넹",
+    "Value": "0xB3;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "녀",
+    "Value": "0xB3;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "녁",
+    "Value": "0xB3;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "년",
+    "Value": "0xB3;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "녈",
+    "Value": "0xB3;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "념",
+    "Value": "0xB3;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "녑",
+    "Value": "0xB3;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "녔",
+    "Value": "0xB3;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "녕",
+    "Value": "0xB3;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "녘",
+    "Value": "0xB3;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "녜",
+    "Value": "0xB3;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "녠",
+    "Value": "0xB3;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "노",
+    "Value": "0xB3;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "녹",
+    "Value": "0xB3;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "논",
+    "Value": "0xB3;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "놀",
+    "Value": "0xB3;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "놂",
+    "Value": "0xB3;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "놈",
+    "Value": "0xB3;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "놉",
+    "Value": "0xB3;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "놋",
+    "Value": "0xB3;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "농",
+    "Value": "0xB3;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "높",
+    "Value": "0xB3;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "놓",
+    "Value": "0xB3;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "놔",
+    "Value": "0xB3;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "놘",
+    "Value": "0xB3;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "놜",
+    "Value": "0xB3;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "놨",
+    "Value": "0xB3;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "뇌",
+    "Value": "0xB3;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "뇐",
+    "Value": "0xB3;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "뇔",
+    "Value": "0xB3;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "뇜",
+    "Value": "0xB3;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "뇝",
+    "Value": "0xB3;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "뇟",
+    "Value": "0xB4;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "뇨",
+    "Value": "0xB4;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "뇩",
+    "Value": "0xB4;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "뇬",
+    "Value": "0xB4;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "뇰",
+    "Value": "0xB4;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "뇹",
+    "Value": "0xB4;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "뇻",
+    "Value": "0xB4;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "뇽",
+    "Value": "0xB4;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "누",
+    "Value": "0xB4;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "눅",
+    "Value": "0xB4;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "눈",
+    "Value": "0xB4;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "눋",
+    "Value": "0xB4;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "눌",
+    "Value": "0xB4;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "눔",
+    "Value": "0xB4;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "눕",
+    "Value": "0xB4;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "눗",
+    "Value": "0xB4;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "눙",
+    "Value": "0xB4;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "눠",
+    "Value": "0xB4;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "눴",
+    "Value": "0xB4;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "눼",
+    "Value": "0xB4;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "뉘",
+    "Value": "0xB4;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "뉜",
+    "Value": "0xB4;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "뉠",
+    "Value": "0xB4;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "뉨",
+    "Value": "0xB4;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "뉩",
+    "Value": "0xB4;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "뉴",
+    "Value": "0xB4;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "뉵",
+    "Value": "0xB4;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "뉼",
+    "Value": "0xB4;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "늄",
+    "Value": "0xB4;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "늅",
+    "Value": "0xB4;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "늉",
+    "Value": "0xB4;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "느",
+    "Value": "0xB4;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "늑",
+    "Value": "0xB4;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "는",
+    "Value": "0xB4;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "늘",
+    "Value": "0xB4;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "늙",
+    "Value": "0xB4;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "늚",
+    "Value": "0xB4;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "늠",
+    "Value": "0xB4;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "늡",
+    "Value": "0xB4;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "늣",
+    "Value": "0xB4;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "능",
+    "Value": "0xB4;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "늦",
+    "Value": "0xB4;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "늪",
+    "Value": "0xB4;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "늬",
+    "Value": "0xB4;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "늰",
+    "Value": "0xB4;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "늴",
+    "Value": "0xB4;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "니",
+    "Value": "0xB4;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "닉",
+    "Value": "0xB4;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "닌",
+    "Value": "0xB4;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "닐",
+    "Value": "0xB4;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "닒",
+    "Value": "0xB4;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "님",
+    "Value": "0xB4;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "닙",
+    "Value": "0xB4;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "닛",
+    "Value": "0xB4;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "닝",
+    "Value": "0xB4;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "닢",
+    "Value": "0xB4;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "다",
+    "Value": "0xB4;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "닥",
+    "Value": "0xB4;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "닦",
+    "Value": "0xB4;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "단",
+    "Value": "0xB4;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "닫",
+    "Value": "0xB4;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "달",
+    "Value": "0xB4;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "닭",
+    "Value": "0xB4;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "닮",
+    "Value": "0xB4;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "닯",
+    "Value": "0xB4;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "닳",
+    "Value": "0xB4;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "담",
+    "Value": "0xB4;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "답",
+    "Value": "0xB4;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "닷",
+    "Value": "0xB4;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "닸",
+    "Value": "0xB4;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "당",
+    "Value": "0xB4;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "닺",
+    "Value": "0xB4;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "닻",
+    "Value": "0xB4;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "닿",
+    "Value": "0xB4;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "대",
+    "Value": "0xB4;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "댁",
+    "Value": "0xB4;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "댄",
+    "Value": "0xB4;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "댈",
+    "Value": "0xB4;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "댐",
+    "Value": "0xB4;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "댑",
+    "Value": "0xB4;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "댓",
+    "Value": "0xB4;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "댔",
+    "Value": "0xB4;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "댕",
+    "Value": "0xB4;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "댜",
+    "Value": "0xB4;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "더",
+    "Value": "0xB4;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "덕",
+    "Value": "0xB4;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "덖",
+    "Value": "0xB4;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "던",
+    "Value": "0xB4;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "덛",
+    "Value": "0xB4;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "덜",
+    "Value": "0xB4;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "덞",
+    "Value": "0xB4;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "덟",
+    "Value": "0xB4;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "덤",
+    "Value": "0xB4;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "덥",
+    "Value": "0xB4;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "덧",
+    "Value": "0xB5;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "덩",
+    "Value": "0xB5;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "덫",
+    "Value": "0xB5;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "덮",
+    "Value": "0xB5;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "데",
+    "Value": "0xB5;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "덱",
+    "Value": "0xB5;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "덴",
+    "Value": "0xB5;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "델",
+    "Value": "0xB5;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "뎀",
+    "Value": "0xB5;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "뎁",
+    "Value": "0xB5;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "뎃",
+    "Value": "0xB5;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "뎄",
+    "Value": "0xB5;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "뎅",
+    "Value": "0xB5;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "뎌",
+    "Value": "0xB5;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "뎐",
+    "Value": "0xB5;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "뎔",
+    "Value": "0xB5;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "뎠",
+    "Value": "0xB5;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "뎡",
+    "Value": "0xB5;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "뎨",
+    "Value": "0xB5;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "뎬",
+    "Value": "0xB5;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "도",
+    "Value": "0xB5;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "독",
+    "Value": "0xB5;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "돈",
+    "Value": "0xB5;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "돋",
+    "Value": "0xB5;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "돌",
+    "Value": "0xB5;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "돎",
+    "Value": "0xB5;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "돐",
+    "Value": "0xB5;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "돔",
+    "Value": "0xB5;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "돕",
+    "Value": "0xB5;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "돗",
+    "Value": "0xB5;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "동",
+    "Value": "0xB5;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "돛",
+    "Value": "0xB5;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "돝",
+    "Value": "0xB5;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "돠",
+    "Value": "0xB5;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "돤",
+    "Value": "0xB5;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "돨",
+    "Value": "0xB5;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "돼",
+    "Value": "0xB5;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "됐",
+    "Value": "0xB5;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "되",
+    "Value": "0xB5;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "된",
+    "Value": "0xB5;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "될",
+    "Value": "0xB5;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "됨",
+    "Value": "0xB5;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "됩",
+    "Value": "0xB5;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "됫",
+    "Value": "0xB5;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "됴",
+    "Value": "0xB5;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "두",
+    "Value": "0xB5;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "둑",
+    "Value": "0xB5;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "둔",
+    "Value": "0xB5;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "둘",
+    "Value": "0xB5;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "둠",
+    "Value": "0xB5;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "둡",
+    "Value": "0xB5;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "둣",
+    "Value": "0xB5;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "둥",
+    "Value": "0xB5;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "둬",
+    "Value": "0xB5;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "뒀",
+    "Value": "0xB5;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "뒈",
+    "Value": "0xB5;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "뒝",
+    "Value": "0xB5;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "뒤",
+    "Value": "0xB5;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "뒨",
+    "Value": "0xB5;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "뒬",
+    "Value": "0xB5;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "뒵",
+    "Value": "0xB5;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "뒷",
+    "Value": "0xB5;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "뒹",
+    "Value": "0xB5;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "듀",
+    "Value": "0xB5;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "듄",
+    "Value": "0xB5;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "듈",
+    "Value": "0xB5;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "듐",
+    "Value": "0xB5;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "듕",
+    "Value": "0xB5;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "드",
+    "Value": "0xB5;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "득",
+    "Value": "0xB5;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "든",
+    "Value": "0xB5;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "듣",
+    "Value": "0xB5;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "들",
+    "Value": "0xB5;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "듦",
+    "Value": "0xB5;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "듬",
+    "Value": "0xB5;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "듭",
+    "Value": "0xB5;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "듯",
+    "Value": "0xB5;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "등",
+    "Value": "0xB5;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "듸",
+    "Value": "0xB5;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "디",
+    "Value": "0xB5;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "딕",
+    "Value": "0xB5;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "딘",
+    "Value": "0xB5;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "딛",
+    "Value": "0xB5;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "딜",
+    "Value": "0xB5;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "딤",
+    "Value": "0xB5;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "딥",
+    "Value": "0xB5;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "딧",
+    "Value": "0xB5;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "딨",
+    "Value": "0xB5;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "딩",
+    "Value": "0xB5;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "딪",
+    "Value": "0xB5;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "따",
+    "Value": "0xB5;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "딱",
+    "Value": "0xB5;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "딴",
+    "Value": "0xB5;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "딸",
+    "Value": "0xB5;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "땀",
+    "Value": "0xB6;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "땁",
+    "Value": "0xB6;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "땃",
+    "Value": "0xB6;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "땄",
+    "Value": "0xB6;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "땅",
+    "Value": "0xB6;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "땋",
+    "Value": "0xB6;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "때",
+    "Value": "0xB6;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "땍",
+    "Value": "0xB6;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "땐",
+    "Value": "0xB6;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "땔",
+    "Value": "0xB6;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "땜",
+    "Value": "0xB6;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "땝",
+    "Value": "0xB6;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "땟",
+    "Value": "0xB6;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "땠",
+    "Value": "0xB6;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "땡",
+    "Value": "0xB6;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "떠",
+    "Value": "0xB6;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "떡",
+    "Value": "0xB6;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "떤",
+    "Value": "0xB6;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "떨",
+    "Value": "0xB6;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "떪",
+    "Value": "0xB6;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "떫",
+    "Value": "0xB6;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "떰",
+    "Value": "0xB6;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "떱",
+    "Value": "0xB6;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "떳",
+    "Value": "0xB6;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "떴",
+    "Value": "0xB6;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "떵",
+    "Value": "0xB6;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "떻",
+    "Value": "0xB6;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "떼",
+    "Value": "0xB6;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "떽",
+    "Value": "0xB6;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "뗀",
+    "Value": "0xB6;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "뗄",
+    "Value": "0xB6;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "뗌",
+    "Value": "0xB6;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "뗍",
+    "Value": "0xB6;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "뗏",
+    "Value": "0xB6;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "뗐",
+    "Value": "0xB6;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "뗑",
+    "Value": "0xB6;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "뗘",
+    "Value": "0xB6;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "뗬",
+    "Value": "0xB6;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "또",
+    "Value": "0xB6;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "똑",
+    "Value": "0xB6;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "똔",
+    "Value": "0xB6;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "똘",
+    "Value": "0xB6;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "똥",
+    "Value": "0xB6;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "똬",
+    "Value": "0xB6;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "똴",
+    "Value": "0xB6;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "뙈",
+    "Value": "0xB6;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "뙤",
+    "Value": "0xB6;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "뙨",
+    "Value": "0xB6;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "뚜",
+    "Value": "0xB6;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "뚝",
+    "Value": "0xB6;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "뚠",
+    "Value": "0xB6;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "뚤",
+    "Value": "0xB6;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "뚫",
+    "Value": "0xB6;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "뚬",
+    "Value": "0xB6;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "뚱",
+    "Value": "0xB6;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "뛔",
+    "Value": "0xB6;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "뛰",
+    "Value": "0xB6;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "뛴",
+    "Value": "0xB6;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "뛸",
+    "Value": "0xB6;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "뜀",
+    "Value": "0xB6;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "뜁",
+    "Value": "0xB6;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "뜅",
+    "Value": "0xB6;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "뜨",
+    "Value": "0xB6;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "뜩",
+    "Value": "0xB6;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "뜬",
+    "Value": "0xB6;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "뜯",
+    "Value": "0xB6;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "뜰",
+    "Value": "0xB6;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "뜸",
+    "Value": "0xB6;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "뜹",
+    "Value": "0xB6;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "뜻",
+    "Value": "0xB6;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "띄",
+    "Value": "0xB6;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "띈",
+    "Value": "0xB6;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "띌",
+    "Value": "0xB6;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "띔",
+    "Value": "0xB6;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "띕",
+    "Value": "0xB6;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "띠",
+    "Value": "0xB6;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "띤",
+    "Value": "0xB6;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "띨",
+    "Value": "0xB6;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "띰",
+    "Value": "0xB6;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "띱",
+    "Value": "0xB6;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "띳",
+    "Value": "0xB6;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "띵",
+    "Value": "0xB6;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "라",
+    "Value": "0xB6;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "락",
+    "Value": "0xB6;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "란",
+    "Value": "0xB6;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "랄",
+    "Value": "0xB6;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "람",
+    "Value": "0xB6;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "랍",
+    "Value": "0xB6;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "랏",
+    "Value": "0xB6;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "랐",
+    "Value": "0xB6;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "랑",
+    "Value": "0xB6;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "랒",
+    "Value": "0xB6;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "랖",
+    "Value": "0xB6;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "랗",
+    "Value": "0xB6;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "래",
+    "Value": "0xB7;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "랙",
+    "Value": "0xB7;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "랜",
+    "Value": "0xB7;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "랠",
+    "Value": "0xB7;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "램",
+    "Value": "0xB7;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "랩",
+    "Value": "0xB7;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "랫",
+    "Value": "0xB7;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "랬",
+    "Value": "0xB7;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "랭",
+    "Value": "0xB7;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "랴",
+    "Value": "0xB7;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "략",
+    "Value": "0xB7;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "랸",
+    "Value": "0xB7;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "럇",
+    "Value": "0xB7;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "량",
+    "Value": "0xB7;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "러",
+    "Value": "0xB7;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "럭",
+    "Value": "0xB7;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "런",
+    "Value": "0xB7;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "럴",
+    "Value": "0xB7;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "럼",
+    "Value": "0xB7;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "럽",
+    "Value": "0xB7;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "럿",
+    "Value": "0xB7;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "렀",
+    "Value": "0xB7;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "렁",
+    "Value": "0xB7;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "렇",
+    "Value": "0xB7;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "레",
+    "Value": "0xB7;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "렉",
+    "Value": "0xB7;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "렌",
+    "Value": "0xB7;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "렐",
+    "Value": "0xB7;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "렘",
+    "Value": "0xB7;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "렙",
+    "Value": "0xB7;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "렛",
+    "Value": "0xB7;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "렝",
+    "Value": "0xB7;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "려",
+    "Value": "0xB7;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "력",
+    "Value": "0xB7;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "련",
+    "Value": "0xB7;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "렬",
+    "Value": "0xB7;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "렴",
+    "Value": "0xB7;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "렵",
+    "Value": "0xB7;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "렷",
+    "Value": "0xB7;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "렸",
+    "Value": "0xB7;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "령",
+    "Value": "0xB7;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "례",
+    "Value": "0xB7;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "롄",
+    "Value": "0xB7;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "롑",
+    "Value": "0xB7;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "롓",
+    "Value": "0xB7;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "로",
+    "Value": "0xB7;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "록",
+    "Value": "0xB7;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "론",
+    "Value": "0xB7;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "롤",
+    "Value": "0xB7;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "롬",
+    "Value": "0xB7;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "롭",
+    "Value": "0xB7;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "롯",
+    "Value": "0xB7;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "롱",
+    "Value": "0xB7;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "롸",
+    "Value": "0xB7;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "롼",
+    "Value": "0xB7;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "뢍",
+    "Value": "0xB7;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "뢨",
+    "Value": "0xB7;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "뢰",
+    "Value": "0xB7;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "뢴",
+    "Value": "0xB7;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "뢸",
+    "Value": "0xB7;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "룀",
+    "Value": "0xB7;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "룁",
+    "Value": "0xB7;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "룃",
+    "Value": "0xB7;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "룅",
+    "Value": "0xB7;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "료",
+    "Value": "0xB7;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "룐",
+    "Value": "0xB7;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "룔",
+    "Value": "0xB7;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "룝",
+    "Value": "0xB7;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "룟",
+    "Value": "0xB7;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "룡",
+    "Value": "0xB7;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "루",
+    "Value": "0xB7;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "룩",
+    "Value": "0xB7;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "룬",
+    "Value": "0xB7;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "룰",
+    "Value": "0xB7;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "룸",
+    "Value": "0xB7;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "룹",
+    "Value": "0xB7;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "룻",
+    "Value": "0xB7;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "룽",
+    "Value": "0xB7;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "뤄",
+    "Value": "0xB7;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "뤘",
+    "Value": "0xB7;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "뤠",
+    "Value": "0xB7;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "뤼",
+    "Value": "0xB7;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "뤽",
+    "Value": "0xB7;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "륀",
+    "Value": "0xB7;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "륄",
+    "Value": "0xB7;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "륌",
+    "Value": "0xB7;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "륏",
+    "Value": "0xB7;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "륑",
+    "Value": "0xB7;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "류",
+    "Value": "0xB7;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "륙",
+    "Value": "0xB7;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "륜",
+    "Value": "0xB7;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "률",
+    "Value": "0xB7;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "륨",
+    "Value": "0xB7;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "륩",
+    "Value": "0xB7;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "륫",
+    "Value": "0xB8;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "륭",
+    "Value": "0xB8;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "르",
+    "Value": "0xB8;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "륵",
+    "Value": "0xB8;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "른",
+    "Value": "0xB8;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "를",
+    "Value": "0xB8;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "름",
+    "Value": "0xB8;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "릅",
+    "Value": "0xB8;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "릇",
+    "Value": "0xB8;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "릉",
+    "Value": "0xB8;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "릊",
+    "Value": "0xB8;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "릍",
+    "Value": "0xB8;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "릎",
+    "Value": "0xB8;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "리",
+    "Value": "0xB8;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "릭",
+    "Value": "0xB8;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "린",
+    "Value": "0xB8;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "릴",
+    "Value": "0xB8;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "림",
+    "Value": "0xB8;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "립",
+    "Value": "0xB8;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "릿",
+    "Value": "0xB8;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "링",
+    "Value": "0xB8;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "마",
+    "Value": "0xB8;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "막",
+    "Value": "0xB8;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "만",
+    "Value": "0xB8;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "많",
+    "Value": "0xB8;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "맏",
+    "Value": "0xB8;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "말",
+    "Value": "0xB8;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "맑",
+    "Value": "0xB8;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "맒",
+    "Value": "0xB8;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "맘",
+    "Value": "0xB8;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "맙",
+    "Value": "0xB8;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "맛",
+    "Value": "0xB8;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "망",
+    "Value": "0xB8;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "맞",
+    "Value": "0xB8;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "맡",
+    "Value": "0xB8;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "맣",
+    "Value": "0xB8;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "매",
+    "Value": "0xB8;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "맥",
+    "Value": "0xB8;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "맨",
+    "Value": "0xB8;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "맬",
+    "Value": "0xB8;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "맴",
+    "Value": "0xB8;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "맵",
+    "Value": "0xB8;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "맷",
+    "Value": "0xB8;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "맸",
+    "Value": "0xB8;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "맹",
+    "Value": "0xB8;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "맺",
+    "Value": "0xB8;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "먀",
+    "Value": "0xB8;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "먁",
+    "Value": "0xB8;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "먈",
+    "Value": "0xB8;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "먕",
+    "Value": "0xB8;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "머",
+    "Value": "0xB8;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "먹",
+    "Value": "0xB8;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "먼",
+    "Value": "0xB8;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "멀",
+    "Value": "0xB8;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "멂",
+    "Value": "0xB8;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "멈",
+    "Value": "0xB8;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "멉",
+    "Value": "0xB8;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "멋",
+    "Value": "0xB8;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "멍",
+    "Value": "0xB8;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "멎",
+    "Value": "0xB8;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "멓",
+    "Value": "0xB8;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "메",
+    "Value": "0xB8;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "멕",
+    "Value": "0xB8;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "멘",
+    "Value": "0xB8;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "멜",
+    "Value": "0xB8;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "멤",
+    "Value": "0xB8;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "멥",
+    "Value": "0xB8;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "멧",
+    "Value": "0xB8;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "멨",
+    "Value": "0xB8;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "멩",
+    "Value": "0xB8;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "며",
+    "Value": "0xB8;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "멱",
+    "Value": "0xB8;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "면",
+    "Value": "0xB8;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "멸",
+    "Value": "0xB8;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "몃",
+    "Value": "0xB8;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "몄",
+    "Value": "0xB8;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "명",
+    "Value": "0xB8;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "몇",
+    "Value": "0xB8;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "몌",
+    "Value": "0xB8;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "모",
+    "Value": "0xB8;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "목",
+    "Value": "0xB8;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "몫",
+    "Value": "0xB8;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "몬",
+    "Value": "0xB8;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "몰",
+    "Value": "0xB8;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "몲",
+    "Value": "0xB8;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "몸",
+    "Value": "0xB8;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "몹",
+    "Value": "0xB8;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "못",
+    "Value": "0xB8;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "몽",
+    "Value": "0xB8;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "뫄",
+    "Value": "0xB8;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "뫈",
+    "Value": "0xB8;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "뫘",
+    "Value": "0xB8;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "뫙",
+    "Value": "0xB8;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "뫼",
+    "Value": "0xB8;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "묀",
+    "Value": "0xB9;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "묄",
+    "Value": "0xB9;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "묍",
+    "Value": "0xB9;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "묏",
+    "Value": "0xB9;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "묑",
+    "Value": "0xB9;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "묘",
+    "Value": "0xB9;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "묜",
+    "Value": "0xB9;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "묠",
+    "Value": "0xB9;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "묩",
+    "Value": "0xB9;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "묫",
+    "Value": "0xB9;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "무",
+    "Value": "0xB9;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "묵",
+    "Value": "0xB9;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "묶",
+    "Value": "0xB9;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "문",
+    "Value": "0xB9;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "묻",
+    "Value": "0xB9;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "물",
+    "Value": "0xB9;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "묽",
+    "Value": "0xB9;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "묾",
+    "Value": "0xB9;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "뭄",
+    "Value": "0xB9;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "뭅",
+    "Value": "0xB9;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "뭇",
+    "Value": "0xB9;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "뭉",
+    "Value": "0xB9;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "뭍",
+    "Value": "0xB9;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "뭏",
+    "Value": "0xB9;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "뭐",
+    "Value": "0xB9;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "뭔",
+    "Value": "0xB9;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "뭘",
+    "Value": "0xB9;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "뭡",
+    "Value": "0xB9;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "뭣",
+    "Value": "0xB9;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "뭬",
+    "Value": "0xB9;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "뮈",
+    "Value": "0xB9;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "뮌",
+    "Value": "0xB9;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "뮐",
+    "Value": "0xB9;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "뮤",
+    "Value": "0xB9;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "뮨",
+    "Value": "0xB9;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "뮬",
+    "Value": "0xB9;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "뮴",
+    "Value": "0xB9;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "뮷",
+    "Value": "0xB9;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "므",
+    "Value": "0xB9;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "믄",
+    "Value": "0xB9;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "믈",
+    "Value": "0xB9;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "믐",
+    "Value": "0xB9;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "믓",
+    "Value": "0xB9;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "미",
+    "Value": "0xB9;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "믹",
+    "Value": "0xB9;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "민",
+    "Value": "0xB9;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "믿",
+    "Value": "0xB9;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "밀",
+    "Value": "0xB9;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "밂",
+    "Value": "0xB9;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "밈",
+    "Value": "0xB9;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "밉",
+    "Value": "0xB9;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "밋",
+    "Value": "0xB9;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "밌",
+    "Value": "0xB9;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "밍",
+    "Value": "0xB9;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "및",
+    "Value": "0xB9;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "밑",
+    "Value": "0xB9;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "바",
+    "Value": "0xB9;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "박",
+    "Value": "0xB9;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "밖",
+    "Value": "0xB9;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "밗",
+    "Value": "0xB9;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "반",
+    "Value": "0xB9;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "받",
+    "Value": "0xB9;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "발",
+    "Value": "0xB9;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "밝",
+    "Value": "0xB9;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "밞",
+    "Value": "0xB9;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "밟",
+    "Value": "0xB9;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "밤",
+    "Value": "0xB9;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "밥",
+    "Value": "0xB9;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "밧",
+    "Value": "0xB9;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "방",
+    "Value": "0xB9;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "밭",
+    "Value": "0xB9;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "배",
+    "Value": "0xB9;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "백",
+    "Value": "0xB9;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "밴",
+    "Value": "0xB9;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "밸",
+    "Value": "0xB9;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "뱀",
+    "Value": "0xB9;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "뱁",
+    "Value": "0xB9;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "뱃",
+    "Value": "0xB9;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "뱄",
+    "Value": "0xB9;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "뱅",
+    "Value": "0xB9;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "뱉",
+    "Value": "0xB9;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "뱌",
+    "Value": "0xB9;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "뱍",
+    "Value": "0xB9;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "뱐",
+    "Value": "0xB9;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "뱝",
+    "Value": "0xB9;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "버",
+    "Value": "0xB9;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "벅",
+    "Value": "0xB9;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "번",
+    "Value": "0xB9;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "벋",
+    "Value": "0xB9;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "벌",
+    "Value": "0xB9;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "벎",
+    "Value": "0xB9;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "범",
+    "Value": "0xB9;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "법",
+    "Value": "0xB9;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "벗",
+    "Value": "0xB9;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "벙",
+    "Value": "0xBA;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "벚",
+    "Value": "0xBA;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "베",
+    "Value": "0xBA;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "벡",
+    "Value": "0xBA;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "벤",
+    "Value": "0xBA;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "벧",
+    "Value": "0xBA;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "벨",
+    "Value": "0xBA;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "벰",
+    "Value": "0xBA;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "벱",
+    "Value": "0xBA;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "벳",
+    "Value": "0xBA;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "벴",
+    "Value": "0xBA;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "벵",
+    "Value": "0xBA;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "벼",
+    "Value": "0xBA;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "벽",
+    "Value": "0xBA;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "변",
+    "Value": "0xBA;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "별",
+    "Value": "0xBA;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "볍",
+    "Value": "0xBA;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "볏",
+    "Value": "0xBA;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "볐",
+    "Value": "0xBA;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "병",
+    "Value": "0xBA;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "볕",
+    "Value": "0xBA;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "볘",
+    "Value": "0xBA;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "볜",
+    "Value": "0xBA;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "보",
+    "Value": "0xBA;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "복",
+    "Value": "0xBA;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "볶",
+    "Value": "0xBA;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "본",
+    "Value": "0xBA;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "볼",
+    "Value": "0xBA;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "봄",
+    "Value": "0xBA;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "봅",
+    "Value": "0xBA;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "봇",
+    "Value": "0xBA;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "봉",
+    "Value": "0xBA;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "봐",
+    "Value": "0xBA;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "봔",
+    "Value": "0xBA;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "봤",
+    "Value": "0xBA;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "봬",
+    "Value": "0xBA;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "뵀",
+    "Value": "0xBA;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "뵈",
+    "Value": "0xBA;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "뵉",
+    "Value": "0xBA;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "뵌",
+    "Value": "0xBA;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "뵐",
+    "Value": "0xBA;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "뵘",
+    "Value": "0xBA;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "뵙",
+    "Value": "0xBA;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "뵤",
+    "Value": "0xBA;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "뵨",
+    "Value": "0xBA;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "부",
+    "Value": "0xBA;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "북",
+    "Value": "0xBA;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "분",
+    "Value": "0xBA;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "붇",
+    "Value": "0xBA;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "불",
+    "Value": "0xBA;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "붉",
+    "Value": "0xBA;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "붊",
+    "Value": "0xBA;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "붐",
+    "Value": "0xBA;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "붑",
+    "Value": "0xBA;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "붓",
+    "Value": "0xBA;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "붕",
+    "Value": "0xBA;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "붙",
+    "Value": "0xBA;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "붚",
+    "Value": "0xBA;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "붜",
+    "Value": "0xBA;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "붤",
+    "Value": "0xBA;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "붰",
+    "Value": "0xBA;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "붸",
+    "Value": "0xBA;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "뷔",
+    "Value": "0xBA;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "뷕",
+    "Value": "0xBA;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "뷘",
+    "Value": "0xBA;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "뷜",
+    "Value": "0xBA;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "뷩",
+    "Value": "0xBA;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "뷰",
+    "Value": "0xBA;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "뷴",
+    "Value": "0xBA;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "뷸",
+    "Value": "0xBA;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "븀",
+    "Value": "0xBA;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "븃",
+    "Value": "0xBA;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "븅",
+    "Value": "0xBA;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "브",
+    "Value": "0xBA;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "븍",
+    "Value": "0xBA;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "븐",
+    "Value": "0xBA;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "블",
+    "Value": "0xBA;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "븜",
+    "Value": "0xBA;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "븝",
+    "Value": "0xBA;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "븟",
+    "Value": "0xBA;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "비",
+    "Value": "0xBA;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "빅",
+    "Value": "0xBA;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "빈",
+    "Value": "0xBA;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "빌",
+    "Value": "0xBA;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "빎",
+    "Value": "0xBA;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "빔",
+    "Value": "0xBA;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "빕",
+    "Value": "0xBA;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "빗",
+    "Value": "0xBA;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "빙",
+    "Value": "0xBA;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "빚",
+    "Value": "0xBA;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "빛",
+    "Value": "0xBA;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "빠",
+    "Value": "0xBA;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "빡",
+    "Value": "0xBA;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "빤",
+    "Value": "0xBA;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "빨",
+    "Value": "0xBB;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "빪",
+    "Value": "0xBB;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "빰",
+    "Value": "0xBB;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "빱",
+    "Value": "0xBB;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "빳",
+    "Value": "0xBB;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "빴",
+    "Value": "0xBB;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "빵",
+    "Value": "0xBB;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "빻",
+    "Value": "0xBB;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "빼",
+    "Value": "0xBB;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "빽",
+    "Value": "0xBB;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "뺀",
+    "Value": "0xBB;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "뺄",
+    "Value": "0xBB;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "뺌",
+    "Value": "0xBB;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "뺍",
+    "Value": "0xBB;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "뺏",
+    "Value": "0xBB;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "뺐",
+    "Value": "0xBB;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "뺑",
+    "Value": "0xBB;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "뺘",
+    "Value": "0xBB;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "뺙",
+    "Value": "0xBB;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "뺨",
+    "Value": "0xBB;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "뻐",
+    "Value": "0xBB;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "뻑",
+    "Value": "0xBB;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "뻔",
+    "Value": "0xBB;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "뻗",
+    "Value": "0xBB;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "뻘",
+    "Value": "0xBB;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "뻠",
+    "Value": "0xBB;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "뻣",
+    "Value": "0xBB;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "뻤",
+    "Value": "0xBB;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "뻥",
+    "Value": "0xBB;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "뻬",
+    "Value": "0xBB;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "뼁",
+    "Value": "0xBB;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "뼈",
+    "Value": "0xBB;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "뼉",
+    "Value": "0xBB;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "뼘",
+    "Value": "0xBB;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "뼙",
+    "Value": "0xBB;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "뼛",
+    "Value": "0xBB;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "뼜",
+    "Value": "0xBB;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "뼝",
+    "Value": "0xBB;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "뽀",
+    "Value": "0xBB;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "뽁",
+    "Value": "0xBB;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "뽄",
+    "Value": "0xBB;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "뽈",
+    "Value": "0xBB;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "뽐",
+    "Value": "0xBB;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "뽑",
+    "Value": "0xBB;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "뽕",
+    "Value": "0xBB;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "뾔",
+    "Value": "0xBB;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "뾰",
+    "Value": "0xBB;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "뿅",
+    "Value": "0xBB;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "뿌",
+    "Value": "0xBB;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "뿍",
+    "Value": "0xBB;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "뿐",
+    "Value": "0xBB;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "뿔",
+    "Value": "0xBB;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "뿜",
+    "Value": "0xBB;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "뿟",
+    "Value": "0xBB;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "뿡",
+    "Value": "0xBB;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "쀼",
+    "Value": "0xBB;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "쁑",
+    "Value": "0xBB;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "쁘",
+    "Value": "0xBB;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "쁜",
+    "Value": "0xBB;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "쁠",
+    "Value": "0xBB;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "쁨",
+    "Value": "0xBB;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "쁩",
+    "Value": "0xBB;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "삐",
+    "Value": "0xBB;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "삑",
+    "Value": "0xBB;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "삔",
+    "Value": "0xBB;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "삘",
+    "Value": "0xBB;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "삠",
+    "Value": "0xBB;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "삡",
+    "Value": "0xBB;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "삣",
+    "Value": "0xBB;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "삥",
+    "Value": "0xBB;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "사",
+    "Value": "0xBB;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "삭",
+    "Value": "0xBB;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "삯",
+    "Value": "0xBB;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "산",
+    "Value": "0xBB;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "삳",
+    "Value": "0xBB;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "살",
+    "Value": "0xBB;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "삵",
+    "Value": "0xBB;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "삶",
+    "Value": "0xBB;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "삼",
+    "Value": "0xBB;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "삽",
+    "Value": "0xBB;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "삿",
+    "Value": "0xBB;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "샀",
+    "Value": "0xBB;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "상",
+    "Value": "0xBB;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "샅",
+    "Value": "0xBB;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "새",
+    "Value": "0xBB;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "색",
+    "Value": "0xBB;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "샌",
+    "Value": "0xBB;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "샐",
+    "Value": "0xBB;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "샘",
+    "Value": "0xBB;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "샙",
+    "Value": "0xBB;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "샛",
+    "Value": "0xBB;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "샜",
+    "Value": "0xBB;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "생",
+    "Value": "0xBB;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "샤",
+    "Value": "0xBB;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "샥",
+    "Value": "0xBC;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "샨",
+    "Value": "0xBC;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "샬",
+    "Value": "0xBC;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "샴",
+    "Value": "0xBC;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "샵",
+    "Value": "0xBC;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "샷",
+    "Value": "0xBC;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "샹",
+    "Value": "0xBC;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "섀",
+    "Value": "0xBC;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "섄",
+    "Value": "0xBC;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "섈",
+    "Value": "0xBC;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "섐",
+    "Value": "0xBC;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "섕",
+    "Value": "0xBC;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "서",
+    "Value": "0xBC;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "석",
+    "Value": "0xBC;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "섞",
+    "Value": "0xBC;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "섟",
+    "Value": "0xBC;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "선",
+    "Value": "0xBC;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "섣",
+    "Value": "0xBC;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "설",
+    "Value": "0xBC;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "섦",
+    "Value": "0xBC;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "섧",
+    "Value": "0xBC;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "섬",
+    "Value": "0xBC;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "섭",
+    "Value": "0xBC;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "섯",
+    "Value": "0xBC;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "섰",
+    "Value": "0xBC;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "성",
+    "Value": "0xBC;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "섶",
+    "Value": "0xBC;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "세",
+    "Value": "0xBC;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "섹",
+    "Value": "0xBC;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "센",
+    "Value": "0xBC;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "셀",
+    "Value": "0xBC;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "셈",
+    "Value": "0xBC;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "셉",
+    "Value": "0xBC;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "셋",
+    "Value": "0xBC;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "셌",
+    "Value": "0xBC;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "셍",
+    "Value": "0xBC;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "셔",
+    "Value": "0xBC;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "셕",
+    "Value": "0xBC;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "션",
+    "Value": "0xBC;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "셜",
+    "Value": "0xBC;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "셤",
+    "Value": "0xBC;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "셥",
+    "Value": "0xBC;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "셧",
+    "Value": "0xBC;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "셨",
+    "Value": "0xBC;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "셩",
+    "Value": "0xBC;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "셰",
+    "Value": "0xBC;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "셴",
+    "Value": "0xBC;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "셸",
+    "Value": "0xBC;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "솅",
+    "Value": "0xBC;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "소",
+    "Value": "0xBC;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "속",
+    "Value": "0xBC;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "솎",
+    "Value": "0xBC;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "손",
+    "Value": "0xBC;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "솔",
+    "Value": "0xBC;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "솖",
+    "Value": "0xBC;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "솜",
+    "Value": "0xBC;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "솝",
+    "Value": "0xBC;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "솟",
+    "Value": "0xBC;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "송",
+    "Value": "0xBC;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "솥",
+    "Value": "0xBC;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "솨",
+    "Value": "0xBC;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "솩",
+    "Value": "0xBC;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "솬",
+    "Value": "0xBC;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "솰",
+    "Value": "0xBC;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "솽",
+    "Value": "0xBC;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "쇄",
+    "Value": "0xBC;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "쇈",
+    "Value": "0xBC;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "쇌",
+    "Value": "0xBC;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "쇔",
+    "Value": "0xBC;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "쇗",
+    "Value": "0xBC;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "쇘",
+    "Value": "0xBC;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "쇠",
+    "Value": "0xBC;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "쇤",
+    "Value": "0xBC;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "쇨",
+    "Value": "0xBC;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "쇰",
+    "Value": "0xBC;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "쇱",
+    "Value": "0xBC;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "쇳",
+    "Value": "0xBC;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "쇼",
+    "Value": "0xBC;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "쇽",
+    "Value": "0xBC;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "숀",
+    "Value": "0xBC;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "숄",
+    "Value": "0xBC;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "숌",
+    "Value": "0xBC;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "숍",
+    "Value": "0xBC;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "숏",
+    "Value": "0xBC;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "숑",
+    "Value": "0xBC;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "수",
+    "Value": "0xBC;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "숙",
+    "Value": "0xBC;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "순",
+    "Value": "0xBC;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "숟",
+    "Value": "0xBC;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "술",
+    "Value": "0xBC;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "숨",
+    "Value": "0xBC;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "숩",
+    "Value": "0xBC;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "숫",
+    "Value": "0xBC;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "숭",
+    "Value": "0xBC;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "숯",
+    "Value": "0xBD;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "숱",
+    "Value": "0xBD;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "숲",
+    "Value": "0xBD;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "숴",
+    "Value": "0xBD;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "쉈",
+    "Value": "0xBD;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "쉐",
+    "Value": "0xBD;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "쉑",
+    "Value": "0xBD;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "쉔",
+    "Value": "0xBD;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "쉘",
+    "Value": "0xBD;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "쉠",
+    "Value": "0xBD;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "쉥",
+    "Value": "0xBD;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "쉬",
+    "Value": "0xBD;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "쉭",
+    "Value": "0xBD;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "쉰",
+    "Value": "0xBD;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "쉴",
+    "Value": "0xBD;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "쉼",
+    "Value": "0xBD;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "쉽",
+    "Value": "0xBD;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "쉿",
+    "Value": "0xBD;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "슁",
+    "Value": "0xBD;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "슈",
+    "Value": "0xBD;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "슉",
+    "Value": "0xBD;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "슐",
+    "Value": "0xBD;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "슘",
+    "Value": "0xBD;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "슛",
+    "Value": "0xBD;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "슝",
+    "Value": "0xBD;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "스",
+    "Value": "0xBD;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "슥",
+    "Value": "0xBD;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "슨",
+    "Value": "0xBD;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "슬",
+    "Value": "0xBD;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "슭",
+    "Value": "0xBD;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "슴",
+    "Value": "0xBD;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "습",
+    "Value": "0xBD;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "슷",
+    "Value": "0xBD;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "승",
+    "Value": "0xBD;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "시",
+    "Value": "0xBD;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "식",
+    "Value": "0xBD;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "신",
+    "Value": "0xBD;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "싣",
+    "Value": "0xBD;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "실",
+    "Value": "0xBD;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "싫",
+    "Value": "0xBD;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "심",
+    "Value": "0xBD;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "십",
+    "Value": "0xBD;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "싯",
+    "Value": "0xBD;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "싱",
+    "Value": "0xBD;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "싶",
+    "Value": "0xBD;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "싸",
+    "Value": "0xBD;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "싹",
+    "Value": "0xBD;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "싻",
+    "Value": "0xBD;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "싼",
+    "Value": "0xBD;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "쌀",
+    "Value": "0xBD;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "쌈",
+    "Value": "0xBD;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "쌉",
+    "Value": "0xBD;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "쌌",
+    "Value": "0xBD;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "쌍",
+    "Value": "0xBD;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "쌓",
+    "Value": "0xBD;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "쌔",
+    "Value": "0xBD;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "쌕",
+    "Value": "0xBD;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "쌘",
+    "Value": "0xBD;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "쌜",
+    "Value": "0xBD;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "쌤",
+    "Value": "0xBD;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "쌥",
+    "Value": "0xBD;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "쌨",
+    "Value": "0xBD;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "쌩",
+    "Value": "0xBD;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "썅",
+    "Value": "0xBD;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "써",
+    "Value": "0xBD;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "썩",
+    "Value": "0xBD;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "썬",
+    "Value": "0xBD;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "썰",
+    "Value": "0xBD;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "썲",
+    "Value": "0xBD;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "썸",
+    "Value": "0xBD;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "썹",
+    "Value": "0xBD;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "썼",
+    "Value": "0xBD;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "썽",
+    "Value": "0xBD;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "쎄",
+    "Value": "0xBD;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "쎈",
+    "Value": "0xBD;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "쎌",
+    "Value": "0xBD;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "쏀",
+    "Value": "0xBD;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "쏘",
+    "Value": "0xBD;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "쏙",
+    "Value": "0xBD;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "쏜",
+    "Value": "0xBD;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "쏟",
+    "Value": "0xBD;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "쏠",
+    "Value": "0xBD;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "쏢",
+    "Value": "0xBD;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "쏨",
+    "Value": "0xBD;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "쏩",
+    "Value": "0xBD;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "쏭",
+    "Value": "0xBD;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "쏴",
+    "Value": "0xBD;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "쏵",
+    "Value": "0xBD;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "쏸",
+    "Value": "0xBD;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "쐈",
+    "Value": "0xBD;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "쐐",
+    "Value": "0xBD;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "쐤",
+    "Value": "0xBD;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "쐬",
+    "Value": "0xBD;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "쐰",
+    "Value": "0xBD;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "쐴",
+    "Value": "0xBE;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "쐼",
+    "Value": "0xBE;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "쐽",
+    "Value": "0xBE;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "쑈",
+    "Value": "0xBE;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "쑤",
+    "Value": "0xBE;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "쑥",
+    "Value": "0xBE;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "쑨",
+    "Value": "0xBE;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "쑬",
+    "Value": "0xBE;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "쑴",
+    "Value": "0xBE;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "쑵",
+    "Value": "0xBE;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "쑹",
+    "Value": "0xBE;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "쒀",
+    "Value": "0xBE;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "쒔",
+    "Value": "0xBE;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "쒜",
+    "Value": "0xBE;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "쒸",
+    "Value": "0xBE;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "쒼",
+    "Value": "0xBE;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "쓩",
+    "Value": "0xBE;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "쓰",
+    "Value": "0xBE;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "쓱",
+    "Value": "0xBE;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "쓴",
+    "Value": "0xBE;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "쓸",
+    "Value": "0xBE;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "쓺",
+    "Value": "0xBE;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "쓿",
+    "Value": "0xBE;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "씀",
+    "Value": "0xBE;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "씁",
+    "Value": "0xBE;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "씌",
+    "Value": "0xBE;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "씐",
+    "Value": "0xBE;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "씔",
+    "Value": "0xBE;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "씜",
+    "Value": "0xBE;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "씨",
+    "Value": "0xBE;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "씩",
+    "Value": "0xBE;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "씬",
+    "Value": "0xBE;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "씰",
+    "Value": "0xBE;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "씸",
+    "Value": "0xBE;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "씹",
+    "Value": "0xBE;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "씻",
+    "Value": "0xBE;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "씽",
+    "Value": "0xBE;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "아",
+    "Value": "0xBE;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "악",
+    "Value": "0xBE;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "안",
+    "Value": "0xBE;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "앉",
+    "Value": "0xBE;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "않",
+    "Value": "0xBE;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "알",
+    "Value": "0xBE;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "앍",
+    "Value": "0xBE;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "앎",
+    "Value": "0xBE;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "앓",
+    "Value": "0xBE;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "암",
+    "Value": "0xBE;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "압",
+    "Value": "0xBE;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "앗",
+    "Value": "0xBE;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "았",
+    "Value": "0xBE;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "앙",
+    "Value": "0xBE;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "앝",
+    "Value": "0xBE;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "앞",
+    "Value": "0xBE;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "애",
+    "Value": "0xBE;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "액",
+    "Value": "0xBE;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "앤",
+    "Value": "0xBE;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "앨",
+    "Value": "0xBE;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "앰",
+    "Value": "0xBE;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "앱",
+    "Value": "0xBE;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "앳",
+    "Value": "0xBE;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "앴",
+    "Value": "0xBE;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "앵",
+    "Value": "0xBE;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "야",
+    "Value": "0xBE;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "약",
+    "Value": "0xBE;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "얀",
+    "Value": "0xBE;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "얄",
+    "Value": "0xBE;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "얇",
+    "Value": "0xBE;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "얌",
+    "Value": "0xBE;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "얍",
+    "Value": "0xBE;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "얏",
+    "Value": "0xBE;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "양",
+    "Value": "0xBE;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "얕",
+    "Value": "0xBE;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "얗",
+    "Value": "0xBE;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "얘",
+    "Value": "0xBE;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "얜",
+    "Value": "0xBE;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "얠",
+    "Value": "0xBE;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "얩",
+    "Value": "0xBE;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "어",
+    "Value": "0xBE;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "억",
+    "Value": "0xBE;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "언",
+    "Value": "0xBE;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "얹",
+    "Value": "0xBE;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "얻",
+    "Value": "0xBE;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "얼",
+    "Value": "0xBE;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "얽",
+    "Value": "0xBE;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "얾",
+    "Value": "0xBE;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "엄",
+    "Value": "0xBE;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "업",
+    "Value": "0xBE;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "없",
+    "Value": "0xBE;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "엇",
+    "Value": "0xBE;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "었",
+    "Value": "0xBE;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "엉",
+    "Value": "0xBE;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "엊",
+    "Value": "0xBE;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "엌",
+    "Value": "0xBE;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "엎",
+    "Value": "0xBE;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "에",
+    "Value": "0xBF;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "엑",
+    "Value": "0xBF;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "엔",
+    "Value": "0xBF;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "엘",
+    "Value": "0xBF;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "엠",
+    "Value": "0xBF;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "엡",
+    "Value": "0xBF;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "엣",
+    "Value": "0xBF;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "엥",
+    "Value": "0xBF;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "여",
+    "Value": "0xBF;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "역",
+    "Value": "0xBF;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "엮",
+    "Value": "0xBF;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "연",
+    "Value": "0xBF;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "열",
+    "Value": "0xBF;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "엶",
+    "Value": "0xBF;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "엷",
+    "Value": "0xBF;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "염",
+    "Value": "0xBF;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "엽",
+    "Value": "0xBF;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "엾",
+    "Value": "0xBF;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "엿",
+    "Value": "0xBF;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "였",
+    "Value": "0xBF;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "영",
+    "Value": "0xBF;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "옅",
+    "Value": "0xBF;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "옆",
+    "Value": "0xBF;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "옇",
+    "Value": "0xBF;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "예",
+    "Value": "0xBF;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "옌",
+    "Value": "0xBF;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "옐",
+    "Value": "0xBF;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "옘",
+    "Value": "0xBF;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "옙",
+    "Value": "0xBF;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "옛",
+    "Value": "0xBF;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "옜",
+    "Value": "0xBF;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "오",
+    "Value": "0xBF;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "옥",
+    "Value": "0xBF;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "온",
+    "Value": "0xBF;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "올",
+    "Value": "0xBF;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "옭",
+    "Value": "0xBF;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "옮",
+    "Value": "0xBF;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "옰",
+    "Value": "0xBF;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "옳",
+    "Value": "0xBF;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "옴",
+    "Value": "0xBF;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "옵",
+    "Value": "0xBF;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "옷",
+    "Value": "0xBF;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "옹",
+    "Value": "0xBF;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "옻",
+    "Value": "0xBF;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "와",
+    "Value": "0xBF;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "왁",
+    "Value": "0xBF;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "완",
+    "Value": "0xBF;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "왈",
+    "Value": "0xBF;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "왐",
+    "Value": "0xBF;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "왑",
+    "Value": "0xBF;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "왓",
+    "Value": "0xBF;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "왔",
+    "Value": "0xBF;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "왕",
+    "Value": "0xBF;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "왜",
+    "Value": "0xBF;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "왝",
+    "Value": "0xBF;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "왠",
+    "Value": "0xBF;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "왬",
+    "Value": "0xBF;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "왯",
+    "Value": "0xBF;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "왱",
+    "Value": "0xBF;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "외",
+    "Value": "0xBF;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "왹",
+    "Value": "0xBF;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "왼",
+    "Value": "0xBF;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "욀",
+    "Value": "0xBF;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "욈",
+    "Value": "0xBF;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "욉",
+    "Value": "0xBF;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "욋",
+    "Value": "0xBF;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "욍",
+    "Value": "0xBF;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "요",
+    "Value": "0xBF;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "욕",
+    "Value": "0xBF;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "욘",
+    "Value": "0xBF;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "욜",
+    "Value": "0xBF;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "욤",
+    "Value": "0xBF;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "욥",
+    "Value": "0xBF;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "욧",
+    "Value": "0xBF;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "용",
+    "Value": "0xBF;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "우",
+    "Value": "0xBF;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "욱",
+    "Value": "0xBF;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "운",
+    "Value": "0xBF;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "울",
+    "Value": "0xBF;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "욹",
+    "Value": "0xBF;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "욺",
+    "Value": "0xBF;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "움",
+    "Value": "0xBF;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "웁",
+    "Value": "0xBF;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "웃",
+    "Value": "0xBF;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "웅",
+    "Value": "0xBF;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "워",
+    "Value": "0xBF;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "웍",
+    "Value": "0xBF;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "원",
+    "Value": "0xBF;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "월",
+    "Value": "0xBF;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "웜",
+    "Value": "0xBF;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "웝",
+    "Value": "0xBF;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "웠",
+    "Value": "0xBF;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "웡",
+    "Value": "0xBF;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "웨",
+    "Value": "0xBF;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "웩",
+    "Value": "0xC0;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "웬",
+    "Value": "0xC0;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "웰",
+    "Value": "0xC0;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "웸",
+    "Value": "0xC0;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "웹",
+    "Value": "0xC0;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "웽",
+    "Value": "0xC0;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "위",
+    "Value": "0xC0;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "윅",
+    "Value": "0xC0;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "윈",
+    "Value": "0xC0;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "윌",
+    "Value": "0xC0;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "윔",
+    "Value": "0xC0;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "윕",
+    "Value": "0xC0;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "윗",
+    "Value": "0xC0;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "윙",
+    "Value": "0xC0;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "유",
+    "Value": "0xC0;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "육",
+    "Value": "0xC0;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "윤",
+    "Value": "0xC0;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "율",
+    "Value": "0xC0;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "윰",
+    "Value": "0xC0;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "윱",
+    "Value": "0xC0;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "윳",
+    "Value": "0xC0;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "융",
+    "Value": "0xC0;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "윷",
+    "Value": "0xC0;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "으",
+    "Value": "0xC0;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "윽",
+    "Value": "0xC0;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "은",
+    "Value": "0xC0;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "을",
+    "Value": "0xC0;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "읊",
+    "Value": "0xC0;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "음",
+    "Value": "0xC0;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "읍",
+    "Value": "0xC0;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "읏",
+    "Value": "0xC0;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "응",
+    "Value": "0xC0;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "읒",
+    "Value": "0xC0;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "읓",
+    "Value": "0xC0;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "읔",
+    "Value": "0xC0;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "읕",
+    "Value": "0xC0;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "읖",
+    "Value": "0xC0;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "읗",
+    "Value": "0xC0;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "의",
+    "Value": "0xC0;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "읜",
+    "Value": "0xC0;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "읠",
+    "Value": "0xC0;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "읨",
+    "Value": "0xC0;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "읫",
+    "Value": "0xC0;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "이",
+    "Value": "0xC0;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "익",
+    "Value": "0xC0;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "인",
+    "Value": "0xC0;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "일",
+    "Value": "0xC0;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "읽",
+    "Value": "0xC0;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "읾",
+    "Value": "0xC0;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "잃",
+    "Value": "0xC0;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "임",
+    "Value": "0xC0;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "입",
+    "Value": "0xC0;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "잇",
+    "Value": "0xC0;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "있",
+    "Value": "0xC0;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "잉",
+    "Value": "0xC0;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "잊",
+    "Value": "0xC0;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "잎",
+    "Value": "0xC0;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "자",
+    "Value": "0xC0;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "작",
+    "Value": "0xC0;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "잔",
+    "Value": "0xC0;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "잖",
+    "Value": "0xC0;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "잗",
+    "Value": "0xC0;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "잘",
+    "Value": "0xC0;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "잚",
+    "Value": "0xC0;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "잠",
+    "Value": "0xC0;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "잡",
+    "Value": "0xC0;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "잣",
+    "Value": "0xC0;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "잤",
+    "Value": "0xC0;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "장",
+    "Value": "0xC0;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "잦",
+    "Value": "0xC0;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "재",
+    "Value": "0xC0;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "잭",
+    "Value": "0xC0;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "잰",
+    "Value": "0xC0;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "잴",
+    "Value": "0xC0;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "잼",
+    "Value": "0xC0;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "잽",
+    "Value": "0xC0;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "잿",
+    "Value": "0xC0;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "쟀",
+    "Value": "0xC0;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "쟁",
+    "Value": "0xC0;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "쟈",
+    "Value": "0xC0;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "쟉",
+    "Value": "0xC0;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "쟌",
+    "Value": "0xC0;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "쟎",
+    "Value": "0xC0;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "쟐",
+    "Value": "0xC0;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "쟘",
+    "Value": "0xC0;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "쟝",
+    "Value": "0xC0;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "쟤",
+    "Value": "0xC0;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "쟨",
+    "Value": "0xC0;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "쟬",
+    "Value": "0xC0;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "저",
+    "Value": "0xC0;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "적",
+    "Value": "0xC0;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "전",
+    "Value": "0xC0;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "절",
+    "Value": "0xC0;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "젊",
+    "Value": "0xC0;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "점",
+    "Value": "0xC1;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "접",
+    "Value": "0xC1;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "젓",
+    "Value": "0xC1;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "정",
+    "Value": "0xC1;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "젖",
+    "Value": "0xC1;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "제",
+    "Value": "0xC1;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "젝",
+    "Value": "0xC1;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "젠",
+    "Value": "0xC1;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "젤",
+    "Value": "0xC1;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "젬",
+    "Value": "0xC1;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "젭",
+    "Value": "0xC1;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "젯",
+    "Value": "0xC1;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "젱",
+    "Value": "0xC1;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "져",
+    "Value": "0xC1;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "젼",
+    "Value": "0xC1;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "졀",
+    "Value": "0xC1;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "졈",
+    "Value": "0xC1;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "졉",
+    "Value": "0xC1;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "졌",
+    "Value": "0xC1;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "졍",
+    "Value": "0xC1;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "졔",
+    "Value": "0xC1;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "조",
+    "Value": "0xC1;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "족",
+    "Value": "0xC1;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "존",
+    "Value": "0xC1;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "졸",
+    "Value": "0xC1;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "졺",
+    "Value": "0xC1;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "좀",
+    "Value": "0xC1;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "좁",
+    "Value": "0xC1;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "좃",
+    "Value": "0xC1;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "종",
+    "Value": "0xC1;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "좆",
+    "Value": "0xC1;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "좇",
+    "Value": "0xC1;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "좋",
+    "Value": "0xC1;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "좌",
+    "Value": "0xC1;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "좍",
+    "Value": "0xC1;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "좔",
+    "Value": "0xC1;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "좝",
+    "Value": "0xC1;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "좟",
+    "Value": "0xC1;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "좡",
+    "Value": "0xC1;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "좨",
+    "Value": "0xC1;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "좼",
+    "Value": "0xC1;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "좽",
+    "Value": "0xC1;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "죄",
+    "Value": "0xC1;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "죈",
+    "Value": "0xC1;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "죌",
+    "Value": "0xC1;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "죔",
+    "Value": "0xC1;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "죕",
+    "Value": "0xC1;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "죗",
+    "Value": "0xC1;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "죙",
+    "Value": "0xC1;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "죠",
+    "Value": "0xC1;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "죡",
+    "Value": "0xC1;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "죤",
+    "Value": "0xC1;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "죵",
+    "Value": "0xC1;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "주",
+    "Value": "0xC1;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "죽",
+    "Value": "0xC1;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "준",
+    "Value": "0xC1;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "줄",
+    "Value": "0xC1;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "줅",
+    "Value": "0xC1;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "줆",
+    "Value": "0xC1;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "줌",
+    "Value": "0xC1;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "줍",
+    "Value": "0xC1;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "줏",
+    "Value": "0xC1;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "중",
+    "Value": "0xC1;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "줘",
+    "Value": "0xC1;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "줬",
+    "Value": "0xC1;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "줴",
+    "Value": "0xC1;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "쥐",
+    "Value": "0xC1;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "쥑",
+    "Value": "0xC1;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "쥔",
+    "Value": "0xC1;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "쥘",
+    "Value": "0xC1;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "쥠",
+    "Value": "0xC1;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "쥡",
+    "Value": "0xC1;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "쥣",
+    "Value": "0xC1;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "쥬",
+    "Value": "0xC1;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "쥰",
+    "Value": "0xC1;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "쥴",
+    "Value": "0xC1;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "쥼",
+    "Value": "0xC1;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "즈",
+    "Value": "0xC1;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "즉",
+    "Value": "0xC1;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "즌",
+    "Value": "0xC1;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "즐",
+    "Value": "0xC1;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "즘",
+    "Value": "0xC1;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "즙",
+    "Value": "0xC1;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "즛",
+    "Value": "0xC1;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "증",
+    "Value": "0xC1;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "지",
+    "Value": "0xC1;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "직",
+    "Value": "0xC1;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "진",
+    "Value": "0xC1;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "짇",
+    "Value": "0xC1;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "질",
+    "Value": "0xC1;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "짊",
+    "Value": "0xC1;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "짐",
+    "Value": "0xC1;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "집",
+    "Value": "0xC1;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "짓",
+    "Value": "0xC1;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "징",
+    "Value": "0xC2;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "짖",
+    "Value": "0xC2;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "짙",
+    "Value": "0xC2;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "짚",
+    "Value": "0xC2;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "짜",
+    "Value": "0xC2;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "짝",
+    "Value": "0xC2;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "짠",
+    "Value": "0xC2;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "짢",
+    "Value": "0xC2;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "짤",
+    "Value": "0xC2;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "짧",
+    "Value": "0xC2;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "짬",
+    "Value": "0xC2;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "짭",
+    "Value": "0xC2;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "짯",
+    "Value": "0xC2;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "짰",
+    "Value": "0xC2;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "짱",
+    "Value": "0xC2;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "째",
+    "Value": "0xC2;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "짹",
+    "Value": "0xC2;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "짼",
+    "Value": "0xC2;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "쨀",
+    "Value": "0xC2;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "쨈",
+    "Value": "0xC2;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "쨉",
+    "Value": "0xC2;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "쨋",
+    "Value": "0xC2;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "쨌",
+    "Value": "0xC2;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "쨍",
+    "Value": "0xC2;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "쨔",
+    "Value": "0xC2;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "쨘",
+    "Value": "0xC2;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "쨩",
+    "Value": "0xC2;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "쩌",
+    "Value": "0xC2;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "쩍",
+    "Value": "0xC2;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "쩐",
+    "Value": "0xC2;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "쩔",
+    "Value": "0xC2;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "쩜",
+    "Value": "0xC2;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "쩝",
+    "Value": "0xC2;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "쩟",
+    "Value": "0xC2;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "쩠",
+    "Value": "0xC2;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "쩡",
+    "Value": "0xC2;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "쩨",
+    "Value": "0xC2;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "쩽",
+    "Value": "0xC2;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "쪄",
+    "Value": "0xC2;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "쪘",
+    "Value": "0xC2;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "쪼",
+    "Value": "0xC2;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "쪽",
+    "Value": "0xC2;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "쫀",
+    "Value": "0xC2;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "쫄",
+    "Value": "0xC2;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "쫌",
+    "Value": "0xC2;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "쫍",
+    "Value": "0xC2;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "쫏",
+    "Value": "0xC2;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "쫑",
+    "Value": "0xC2;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "쫓",
+    "Value": "0xC2;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "쫘",
+    "Value": "0xC2;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "쫙",
+    "Value": "0xC2;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "쫠",
+    "Value": "0xC2;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "쫬",
+    "Value": "0xC2;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "쫴",
+    "Value": "0xC2;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "쬈",
+    "Value": "0xC2;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "쬐",
+    "Value": "0xC2;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "쬔",
+    "Value": "0xC2;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "쬘",
+    "Value": "0xC2;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "쬠",
+    "Value": "0xC2;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "쬡",
+    "Value": "0xC2;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "쭁",
+    "Value": "0xC2;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "쭈",
+    "Value": "0xC2;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "쭉",
+    "Value": "0xC2;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "쭌",
+    "Value": "0xC2;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "쭐",
+    "Value": "0xC2;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "쭘",
+    "Value": "0xC2;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "쭙",
+    "Value": "0xC2;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "쭝",
+    "Value": "0xC2;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "쭤",
+    "Value": "0xC2;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "쭸",
+    "Value": "0xC2;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "쭹",
+    "Value": "0xC2;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "쮜",
+    "Value": "0xC2;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "쮸",
+    "Value": "0xC2;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "쯔",
+    "Value": "0xC2;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "쯤",
+    "Value": "0xC2;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "쯧",
+    "Value": "0xC2;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "쯩",
+    "Value": "0xC2;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "찌",
+    "Value": "0xC2;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "찍",
+    "Value": "0xC2;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "찐",
+    "Value": "0xC2;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "찔",
+    "Value": "0xC2;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "찜",
+    "Value": "0xC2;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "찝",
+    "Value": "0xC2;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "찡",
+    "Value": "0xC2;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "찢",
+    "Value": "0xC2;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "찧",
+    "Value": "0xC2;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "차",
+    "Value": "0xC2;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "착",
+    "Value": "0xC2;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "찬",
+    "Value": "0xC2;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "찮",
+    "Value": "0xC2;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "찰",
+    "Value": "0xC2;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "참",
+    "Value": "0xC2;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "찹",
+    "Value": "0xC2;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "찻",
+    "Value": "0xC2;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "찼",
+    "Value": "0xC3;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "창",
+    "Value": "0xC3;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "찾",
+    "Value": "0xC3;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "채",
+    "Value": "0xC3;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "책",
+    "Value": "0xC3;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "챈",
+    "Value": "0xC3;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "챌",
+    "Value": "0xC3;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "챔",
+    "Value": "0xC3;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "챕",
+    "Value": "0xC3;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "챗",
+    "Value": "0xC3;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "챘",
+    "Value": "0xC3;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "챙",
+    "Value": "0xC3;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "챠",
+    "Value": "0xC3;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "챤",
+    "Value": "0xC3;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "챦",
+    "Value": "0xC3;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "챨",
+    "Value": "0xC3;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "챰",
+    "Value": "0xC3;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "챵",
+    "Value": "0xC3;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "처",
+    "Value": "0xC3;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "척",
+    "Value": "0xC3;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "천",
+    "Value": "0xC3;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "철",
+    "Value": "0xC3;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "첨",
+    "Value": "0xC3;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "첩",
+    "Value": "0xC3;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "첫",
+    "Value": "0xC3;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "첬",
+    "Value": "0xC3;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "청",
+    "Value": "0xC3;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "체",
+    "Value": "0xC3;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "첵",
+    "Value": "0xC3;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "첸",
+    "Value": "0xC3;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "첼",
+    "Value": "0xC3;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "쳄",
+    "Value": "0xC3;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "쳅",
+    "Value": "0xC3;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "쳇",
+    "Value": "0xC3;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "쳉",
+    "Value": "0xC3;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "쳐",
+    "Value": "0xC3;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "쳔",
+    "Value": "0xC3;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "쳤",
+    "Value": "0xC3;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "쳬",
+    "Value": "0xC3;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "쳰",
+    "Value": "0xC3;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "촁",
+    "Value": "0xC3;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "초",
+    "Value": "0xC3;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "촉",
+    "Value": "0xC3;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "촌",
+    "Value": "0xC3;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "촐",
+    "Value": "0xC3;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "촘",
+    "Value": "0xC3;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "촙",
+    "Value": "0xC3;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "촛",
+    "Value": "0xC3;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "총",
+    "Value": "0xC3;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "촤",
+    "Value": "0xC3;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "촨",
+    "Value": "0xC3;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "촬",
+    "Value": "0xC3;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "촹",
+    "Value": "0xC3;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "최",
+    "Value": "0xC3;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "쵠",
+    "Value": "0xC3;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "쵤",
+    "Value": "0xC3;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "쵬",
+    "Value": "0xC3;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "쵭",
+    "Value": "0xC3;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "쵯",
+    "Value": "0xC3;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "쵱",
+    "Value": "0xC3;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "쵸",
+    "Value": "0xC3;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "춈",
+    "Value": "0xC3;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "추",
+    "Value": "0xC3;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "축",
+    "Value": "0xC3;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "춘",
+    "Value": "0xC3;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "출",
+    "Value": "0xC3;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "춤",
+    "Value": "0xC3;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "춥",
+    "Value": "0xC3;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "춧",
+    "Value": "0xC3;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "충",
+    "Value": "0xC3;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "춰",
+    "Value": "0xC3;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "췄",
+    "Value": "0xC3;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "췌",
+    "Value": "0xC3;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "췐",
+    "Value": "0xC3;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "취",
+    "Value": "0xC3;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "췬",
+    "Value": "0xC3;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "췰",
+    "Value": "0xC3;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "췸",
+    "Value": "0xC3;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "췹",
+    "Value": "0xC3;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "췻",
+    "Value": "0xC3;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "췽",
+    "Value": "0xC3;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "츄",
+    "Value": "0xC3;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "츈",
+    "Value": "0xC3;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "츌",
+    "Value": "0xC3;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "츔",
+    "Value": "0xC3;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "츙",
+    "Value": "0xC3;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "츠",
+    "Value": "0xC3;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "측",
+    "Value": "0xC3;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "츤",
+    "Value": "0xC3;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "츨",
+    "Value": "0xC3;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "츰",
+    "Value": "0xC3;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "츱",
+    "Value": "0xC3;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "츳",
+    "Value": "0xC3;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "층",
+    "Value": "0xC3;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "치",
+    "Value": "0xC4;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "칙",
+    "Value": "0xC4;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "친",
+    "Value": "0xC4;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "칟",
+    "Value": "0xC4;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "칠",
+    "Value": "0xC4;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "칡",
+    "Value": "0xC4;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "침",
+    "Value": "0xC4;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "칩",
+    "Value": "0xC4;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "칫",
+    "Value": "0xC4;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "칭",
+    "Value": "0xC4;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "카",
+    "Value": "0xC4;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "칵",
+    "Value": "0xC4;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "칸",
+    "Value": "0xC4;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "칼",
+    "Value": "0xC4;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "캄",
+    "Value": "0xC4;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "캅",
+    "Value": "0xC4;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "캇",
+    "Value": "0xC4;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "캉",
+    "Value": "0xC4;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "캐",
+    "Value": "0xC4;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "캑",
+    "Value": "0xC4;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "캔",
+    "Value": "0xC4;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "캘",
+    "Value": "0xC4;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "캠",
+    "Value": "0xC4;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "캡",
+    "Value": "0xC4;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "캣",
+    "Value": "0xC4;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "캤",
+    "Value": "0xC4;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "캥",
+    "Value": "0xC4;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "캬",
+    "Value": "0xC4;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "캭",
+    "Value": "0xC4;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "컁",
+    "Value": "0xC4;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "커",
+    "Value": "0xC4;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "컥",
+    "Value": "0xC4;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "컨",
+    "Value": "0xC4;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "컫",
+    "Value": "0xC4;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "컬",
+    "Value": "0xC4;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "컴",
+    "Value": "0xC4;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "컵",
+    "Value": "0xC4;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "컷",
+    "Value": "0xC4;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "컸",
+    "Value": "0xC4;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "컹",
+    "Value": "0xC4;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "케",
+    "Value": "0xC4;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "켁",
+    "Value": "0xC4;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "켄",
+    "Value": "0xC4;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "켈",
+    "Value": "0xC4;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "켐",
+    "Value": "0xC4;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "켑",
+    "Value": "0xC4;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "켓",
+    "Value": "0xC4;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "켕",
+    "Value": "0xC4;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "켜",
+    "Value": "0xC4;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "켠",
+    "Value": "0xC4;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "켤",
+    "Value": "0xC4;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "켬",
+    "Value": "0xC4;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "켭",
+    "Value": "0xC4;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "켯",
+    "Value": "0xC4;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "켰",
+    "Value": "0xC4;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "켱",
+    "Value": "0xC4;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "켸",
+    "Value": "0xC4;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "코",
+    "Value": "0xC4;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "콕",
+    "Value": "0xC4;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "콘",
+    "Value": "0xC4;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "콜",
+    "Value": "0xC4;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "콤",
+    "Value": "0xC4;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "콥",
+    "Value": "0xC4;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "콧",
+    "Value": "0xC4;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "콩",
+    "Value": "0xC4;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "콰",
+    "Value": "0xC4;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "콱",
+    "Value": "0xC4;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "콴",
+    "Value": "0xC4;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "콸",
+    "Value": "0xC4;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "쾀",
+    "Value": "0xC4;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "쾅",
+    "Value": "0xC4;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "쾌",
+    "Value": "0xC4;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "쾡",
+    "Value": "0xC4;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "쾨",
+    "Value": "0xC4;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "쾰",
+    "Value": "0xC4;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "쿄",
+    "Value": "0xC4;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "쿠",
+    "Value": "0xC4;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "쿡",
+    "Value": "0xC4;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "쿤",
+    "Value": "0xC4;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "쿨",
+    "Value": "0xC4;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "쿰",
+    "Value": "0xC4;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "쿱",
+    "Value": "0xC4;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "쿳",
+    "Value": "0xC4;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "쿵",
+    "Value": "0xC4;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "쿼",
+    "Value": "0xC4;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "퀀",
+    "Value": "0xC4;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "퀄",
+    "Value": "0xC4;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "퀑",
+    "Value": "0xC4;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "퀘",
+    "Value": "0xC4;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "퀭",
+    "Value": "0xC4;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "퀴",
+    "Value": "0xC4;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "퀵",
+    "Value": "0xC4;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "퀸",
+    "Value": "0xC4;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "퀼",
+    "Value": "0xC4;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "큄",
+    "Value": "0xC5;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "큅",
+    "Value": "0xC5;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "큇",
+    "Value": "0xC5;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "큉",
+    "Value": "0xC5;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "큐",
+    "Value": "0xC5;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "큔",
+    "Value": "0xC5;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "큘",
+    "Value": "0xC5;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "큠",
+    "Value": "0xC5;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "크",
+    "Value": "0xC5;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "큭",
+    "Value": "0xC5;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "큰",
+    "Value": "0xC5;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "클",
+    "Value": "0xC5;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "큼",
+    "Value": "0xC5;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "큽",
+    "Value": "0xC5;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "킁",
+    "Value": "0xC5;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "키",
+    "Value": "0xC5;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "킥",
+    "Value": "0xC5;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "킨",
+    "Value": "0xC5;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "킬",
+    "Value": "0xC5;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "킴",
+    "Value": "0xC5;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "킵",
+    "Value": "0xC5;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "킷",
+    "Value": "0xC5;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "킹",
+    "Value": "0xC5;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "타",
+    "Value": "0xC5;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "탁",
+    "Value": "0xC5;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "탄",
+    "Value": "0xC5;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "탈",
+    "Value": "0xC5;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "탉",
+    "Value": "0xC5;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "탐",
+    "Value": "0xC5;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "탑",
+    "Value": "0xC5;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "탓",
+    "Value": "0xC5;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "탔",
+    "Value": "0xC5;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "탕",
+    "Value": "0xC5;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "태",
+    "Value": "0xC5;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "택",
+    "Value": "0xC5;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "탠",
+    "Value": "0xC5;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "탤",
+    "Value": "0xC5;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "탬",
+    "Value": "0xC5;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "탭",
+    "Value": "0xC5;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "탯",
+    "Value": "0xC5;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "탰",
+    "Value": "0xC5;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "탱",
+    "Value": "0xC5;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "탸",
+    "Value": "0xC5;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "턍",
+    "Value": "0xC5;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "터",
+    "Value": "0xC5;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "턱",
+    "Value": "0xC5;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "턴",
+    "Value": "0xC5;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "털",
+    "Value": "0xC5;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "턺",
+    "Value": "0xC5;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "텀",
+    "Value": "0xC5;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "텁",
+    "Value": "0xC5;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "텃",
+    "Value": "0xC5;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "텄",
+    "Value": "0xC5;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "텅",
+    "Value": "0xC5;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "테",
+    "Value": "0xC5;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "텍",
+    "Value": "0xC5;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "텐",
+    "Value": "0xC5;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "텔",
+    "Value": "0xC5;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "템",
+    "Value": "0xC5;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "텝",
+    "Value": "0xC5;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "텟",
+    "Value": "0xC5;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "텡",
+    "Value": "0xC5;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "텨",
+    "Value": "0xC5;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "텬",
+    "Value": "0xC5;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "텼",
+    "Value": "0xC5;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "톄",
+    "Value": "0xC5;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "톈",
+    "Value": "0xC5;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "토",
+    "Value": "0xC5;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "톡",
+    "Value": "0xC5;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "톤",
+    "Value": "0xC5;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "톨",
+    "Value": "0xC5;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "톰",
+    "Value": "0xC5;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "톱",
+    "Value": "0xC5;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "톳",
+    "Value": "0xC5;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "통",
+    "Value": "0xC5;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "톺",
+    "Value": "0xC5;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "톼",
+    "Value": "0xC5;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "퇀",
+    "Value": "0xC5;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "퇘",
+    "Value": "0xC5;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "퇴",
+    "Value": "0xC5;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "퇸",
+    "Value": "0xC5;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "툇",
+    "Value": "0xC5;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "툉",
+    "Value": "0xC5;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "툐",
+    "Value": "0xC5;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "투",
+    "Value": "0xC5;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "툭",
+    "Value": "0xC5;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "툰",
+    "Value": "0xC5;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "툴",
+    "Value": "0xC5;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "툼",
+    "Value": "0xC5;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "툽",
+    "Value": "0xC5;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "툿",
+    "Value": "0xC5;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "퉁",
+    "Value": "0xC5;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "퉈",
+    "Value": "0xC5;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "퉜",
+    "Value": "0xC5;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "퉤",
+    "Value": "0xC6;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "튀",
+    "Value": "0xC6;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "튁",
+    "Value": "0xC6;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "튄",
+    "Value": "0xC6;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "튈",
+    "Value": "0xC6;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "튐",
+    "Value": "0xC6;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "튑",
+    "Value": "0xC6;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "튕",
+    "Value": "0xC6;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "튜",
+    "Value": "0xC6;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "튠",
+    "Value": "0xC6;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "튤",
+    "Value": "0xC6;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "튬",
+    "Value": "0xC6;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "튱",
+    "Value": "0xC6;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "트",
+    "Value": "0xC6;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "특",
+    "Value": "0xC6;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "튼",
+    "Value": "0xC6;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "튿",
+    "Value": "0xC6;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "틀",
+    "Value": "0xC6;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "틂",
+    "Value": "0xC6;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "틈",
+    "Value": "0xC6;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "틉",
+    "Value": "0xC6;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "틋",
+    "Value": "0xC6;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "틔",
+    "Value": "0xC6;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "틘",
+    "Value": "0xC6;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "틜",
+    "Value": "0xC6;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "틤",
+    "Value": "0xC6;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "틥",
+    "Value": "0xC6;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "티",
+    "Value": "0xC6;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "틱",
+    "Value": "0xC6;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "틴",
+    "Value": "0xC6;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "틸",
+    "Value": "0xC6;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "팀",
+    "Value": "0xC6;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "팁",
+    "Value": "0xC6;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "팃",
+    "Value": "0xC6;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "팅",
+    "Value": "0xC6;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "파",
+    "Value": "0xC6;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "팍",
+    "Value": "0xC6;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "팎",
+    "Value": "0xC6;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "판",
+    "Value": "0xC6;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "팔",
+    "Value": "0xC6;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "팖",
+    "Value": "0xC6;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "팜",
+    "Value": "0xC6;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "팝",
+    "Value": "0xC6;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "팟",
+    "Value": "0xC6;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "팠",
+    "Value": "0xC6;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "팡",
+    "Value": "0xC6;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "팥",
+    "Value": "0xC6;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "패",
+    "Value": "0xC6;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "팩",
+    "Value": "0xC6;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "팬",
+    "Value": "0xC6;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "팰",
+    "Value": "0xC6;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "팸",
+    "Value": "0xC6;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "팹",
+    "Value": "0xC6;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "팻",
+    "Value": "0xC6;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "팼",
+    "Value": "0xC6;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "팽",
+    "Value": "0xC6;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "퍄",
+    "Value": "0xC6;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "퍅",
+    "Value": "0xC6;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "퍼",
+    "Value": "0xC6;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "퍽",
+    "Value": "0xC6;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "펀",
+    "Value": "0xC6;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "펄",
+    "Value": "0xC6;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "펌",
+    "Value": "0xC6;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "펍",
+    "Value": "0xC6;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "펏",
+    "Value": "0xC6;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "펐",
+    "Value": "0xC6;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "펑",
+    "Value": "0xC6;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "페",
+    "Value": "0xC6;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "펙",
+    "Value": "0xC6;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "펜",
+    "Value": "0xC6;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "펠",
+    "Value": "0xC6;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "펨",
+    "Value": "0xC6;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "펩",
+    "Value": "0xC6;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "펫",
+    "Value": "0xC6;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "펭",
+    "Value": "0xC6;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "펴",
+    "Value": "0xC6;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "편",
+    "Value": "0xC6;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "펼",
+    "Value": "0xC6;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "폄",
+    "Value": "0xC6;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "폅",
+    "Value": "0xC6;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "폈",
+    "Value": "0xC6;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "평",
+    "Value": "0xC6;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "폐",
+    "Value": "0xC6;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "폘",
+    "Value": "0xC6;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "폡",
+    "Value": "0xC6;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "폣",
+    "Value": "0xC6;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "포",
+    "Value": "0xC6;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "폭",
+    "Value": "0xC6;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "폰",
+    "Value": "0xC6;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "폴",
+    "Value": "0xC6;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "폼",
+    "Value": "0xC6;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "폽",
+    "Value": "0xC6;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "폿",
+    "Value": "0xC6;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "퐁",
+    "Value": "0xC6;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "퐈",
+    "Value": "0xC7;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "퐝",
+    "Value": "0xC7;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "푀",
+    "Value": "0xC7;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "푄",
+    "Value": "0xC7;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "표",
+    "Value": "0xC7;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "푠",
+    "Value": "0xC7;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "푤",
+    "Value": "0xC7;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "푭",
+    "Value": "0xC7;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "푯",
+    "Value": "0xC7;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "푸",
+    "Value": "0xC7;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "푹",
+    "Value": "0xC7;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "푼",
+    "Value": "0xC7;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "푿",
+    "Value": "0xC7;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "풀",
+    "Value": "0xC7;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "풂",
+    "Value": "0xC7;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "품",
+    "Value": "0xC7;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "풉",
+    "Value": "0xC7;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "풋",
+    "Value": "0xC7;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "풍",
+    "Value": "0xC7;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "풔",
+    "Value": "0xC7;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "풩",
+    "Value": "0xC7;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "퓌",
+    "Value": "0xC7;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "퓐",
+    "Value": "0xC7;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "퓔",
+    "Value": "0xC7;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "퓜",
+    "Value": "0xC7;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "퓟",
+    "Value": "0xC7;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "퓨",
+    "Value": "0xC7;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "퓬",
+    "Value": "0xC7;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "퓰",
+    "Value": "0xC7;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "퓸",
+    "Value": "0xC7;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "퓻",
+    "Value": "0xC7;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "퓽",
+    "Value": "0xC7;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "프",
+    "Value": "0xC7;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "픈",
+    "Value": "0xC7;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "플",
+    "Value": "0xC7;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "픔",
+    "Value": "0xC7;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "픕",
+    "Value": "0xC7;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "픗",
+    "Value": "0xC7;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "피",
+    "Value": "0xC7;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "픽",
+    "Value": "0xC7;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "핀",
+    "Value": "0xC7;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "필",
+    "Value": "0xC7;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "핌",
+    "Value": "0xC7;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "핍",
+    "Value": "0xC7;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "핏",
+    "Value": "0xC7;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "핑",
+    "Value": "0xC7;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "하",
+    "Value": "0xC7;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "학",
+    "Value": "0xC7;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "한",
+    "Value": "0xC7;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "할",
+    "Value": "0xC7;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "핥",
+    "Value": "0xC7;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "함",
+    "Value": "0xC7;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "합",
+    "Value": "0xC7;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "핫",
+    "Value": "0xC7;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "항",
+    "Value": "0xC7;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "해",
+    "Value": "0xC7;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "핵",
+    "Value": "0xC7;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "핸",
+    "Value": "0xC7;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "핼",
+    "Value": "0xC7;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "햄",
+    "Value": "0xC7;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "햅",
+    "Value": "0xC7;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "햇",
+    "Value": "0xC7;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "했",
+    "Value": "0xC7;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "행",
+    "Value": "0xC7;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "햐",
+    "Value": "0xC7;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "향",
+    "Value": "0xC7;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "허",
+    "Value": "0xC7;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "헉",
+    "Value": "0xC7;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "헌",
+    "Value": "0xC7;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "헐",
+    "Value": "0xC7;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "헒",
+    "Value": "0xC7;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "험",
+    "Value": "0xC7;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "헙",
+    "Value": "0xC7;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "헛",
+    "Value": "0xC7;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "헝",
+    "Value": "0xC7;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "헤",
+    "Value": "0xC7;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "헥",
+    "Value": "0xC7;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "헨",
+    "Value": "0xC7;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "헬",
+    "Value": "0xC7;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "헴",
+    "Value": "0xC7;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "헵",
+    "Value": "0xC7;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "헷",
+    "Value": "0xC7;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "헹",
+    "Value": "0xC7;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "혀",
+    "Value": "0xC7;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "혁",
+    "Value": "0xC7;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "현",
+    "Value": "0xC7;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "혈",
+    "Value": "0xC7;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "혐",
+    "Value": "0xC7;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "협",
+    "Value": "0xC7;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "혓",
+    "Value": "0xC7;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "혔",
+    "Value": "0xC7;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "형",
+    "Value": "0xC7;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "혜",
+    "Value": "0xC7;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "혠",
+    "Value": "0xC7;0xFE",
+    "Description": ""
+  },
+  {
+    "Token": "혤",
+    "Value": "0xC8;0xA1",
+    "Description": ""
+  },
+  {
+    "Token": "혭",
+    "Value": "0xC8;0xA2",
+    "Description": ""
+  },
+  {
+    "Token": "호",
+    "Value": "0xC8;0xA3",
+    "Description": ""
+  },
+  {
+    "Token": "혹",
+    "Value": "0xC8;0xA4",
+    "Description": ""
+  },
+  {
+    "Token": "혼",
+    "Value": "0xC8;0xA5",
+    "Description": ""
+  },
+  {
+    "Token": "홀",
+    "Value": "0xC8;0xA6",
+    "Description": ""
+  },
+  {
+    "Token": "홅",
+    "Value": "0xC8;0xA7",
+    "Description": ""
+  },
+  {
+    "Token": "홈",
+    "Value": "0xC8;0xA8",
+    "Description": ""
+  },
+  {
+    "Token": "홉",
+    "Value": "0xC8;0xA9",
+    "Description": ""
+  },
+  {
+    "Token": "홋",
+    "Value": "0xC8;0xAA",
+    "Description": ""
+  },
+  {
+    "Token": "홍",
+    "Value": "0xC8;0xAB",
+    "Description": ""
+  },
+  {
+    "Token": "홑",
+    "Value": "0xC8;0xAC",
+    "Description": ""
+  },
+  {
+    "Token": "화",
+    "Value": "0xC8;0xAD",
+    "Description": ""
+  },
+  {
+    "Token": "확",
+    "Value": "0xC8;0xAE",
+    "Description": ""
+  },
+  {
+    "Token": "환",
+    "Value": "0xC8;0xAF",
+    "Description": ""
+  },
+  {
+    "Token": "활",
+    "Value": "0xC8;0xB0",
+    "Description": ""
+  },
+  {
+    "Token": "홧",
+    "Value": "0xC8;0xB1",
+    "Description": ""
+  },
+  {
+    "Token": "황",
+    "Value": "0xC8;0xB2",
+    "Description": ""
+  },
+  {
+    "Token": "홰",
+    "Value": "0xC8;0xB3",
+    "Description": ""
+  },
+  {
+    "Token": "홱",
+    "Value": "0xC8;0xB4",
+    "Description": ""
+  },
+  {
+    "Token": "홴",
+    "Value": "0xC8;0xB5",
+    "Description": ""
+  },
+  {
+    "Token": "횃",
+    "Value": "0xC8;0xB6",
+    "Description": ""
+  },
+  {
+    "Token": "횅",
+    "Value": "0xC8;0xB7",
+    "Description": ""
+  },
+  {
+    "Token": "회",
+    "Value": "0xC8;0xB8",
+    "Description": ""
+  },
+  {
+    "Token": "획",
+    "Value": "0xC8;0xB9",
+    "Description": ""
+  },
+  {
+    "Token": "횐",
+    "Value": "0xC8;0xBA",
+    "Description": ""
+  },
+  {
+    "Token": "횔",
+    "Value": "0xC8;0xBB",
+    "Description": ""
+  },
+  {
+    "Token": "횝",
+    "Value": "0xC8;0xBC",
+    "Description": ""
+  },
+  {
+    "Token": "횟",
+    "Value": "0xC8;0xBD",
+    "Description": ""
+  },
+  {
+    "Token": "횡",
+    "Value": "0xC8;0xBE",
+    "Description": ""
+  },
+  {
+    "Token": "효",
+    "Value": "0xC8;0xBF",
+    "Description": ""
+  },
+  {
+    "Token": "횬",
+    "Value": "0xC8;0xC0",
+    "Description": ""
+  },
+  {
+    "Token": "횰",
+    "Value": "0xC8;0xC1",
+    "Description": ""
+  },
+  {
+    "Token": "횹",
+    "Value": "0xC8;0xC2",
+    "Description": ""
+  },
+  {
+    "Token": "횻",
+    "Value": "0xC8;0xC3",
+    "Description": ""
+  },
+  {
+    "Token": "후",
+    "Value": "0xC8;0xC4",
+    "Description": ""
+  },
+  {
+    "Token": "훅",
+    "Value": "0xC8;0xC5",
+    "Description": ""
+  },
+  {
+    "Token": "훈",
+    "Value": "0xC8;0xC6",
+    "Description": ""
+  },
+  {
+    "Token": "훌",
+    "Value": "0xC8;0xC7",
+    "Description": ""
+  },
+  {
+    "Token": "훑",
+    "Value": "0xC8;0xC8",
+    "Description": ""
+  },
+  {
+    "Token": "훔",
+    "Value": "0xC8;0xC9",
+    "Description": ""
+  },
+  {
+    "Token": "훗",
+    "Value": "0xC8;0xCA",
+    "Description": ""
+  },
+  {
+    "Token": "훙",
+    "Value": "0xC8;0xCB",
+    "Description": ""
+  },
+  {
+    "Token": "훠",
+    "Value": "0xC8;0xCC",
+    "Description": ""
+  },
+  {
+    "Token": "훤",
+    "Value": "0xC8;0xCD",
+    "Description": ""
+  },
+  {
+    "Token": "훨",
+    "Value": "0xC8;0xCE",
+    "Description": ""
+  },
+  {
+    "Token": "훰",
+    "Value": "0xC8;0xCF",
+    "Description": ""
+  },
+  {
+    "Token": "훵",
+    "Value": "0xC8;0xD0",
+    "Description": ""
+  },
+  {
+    "Token": "훼",
+    "Value": "0xC8;0xD1",
+    "Description": ""
+  },
+  {
+    "Token": "훽",
+    "Value": "0xC8;0xD2",
+    "Description": ""
+  },
+  {
+    "Token": "휀",
+    "Value": "0xC8;0xD3",
+    "Description": ""
+  },
+  {
+    "Token": "휄",
+    "Value": "0xC8;0xD4",
+    "Description": ""
+  },
+  {
+    "Token": "휑",
+    "Value": "0xC8;0xD5",
+    "Description": ""
+  },
+  {
+    "Token": "휘",
+    "Value": "0xC8;0xD6",
+    "Description": ""
+  },
+  {
+    "Token": "휙",
+    "Value": "0xC8;0xD7",
+    "Description": ""
+  },
+  {
+    "Token": "휜",
+    "Value": "0xC8;0xD8",
+    "Description": ""
+  },
+  {
+    "Token": "휠",
+    "Value": "0xC8;0xD9",
+    "Description": ""
+  },
+  {
+    "Token": "휨",
+    "Value": "0xC8;0xDA",
+    "Description": ""
+  },
+  {
+    "Token": "휩",
+    "Value": "0xC8;0xDB",
+    "Description": ""
+  },
+  {
+    "Token": "휫",
+    "Value": "0xC8;0xDC",
+    "Description": ""
+  },
+  {
+    "Token": "휭",
+    "Value": "0xC8;0xDD",
+    "Description": ""
+  },
+  {
+    "Token": "휴",
+    "Value": "0xC8;0xDE",
+    "Description": ""
+  },
+  {
+    "Token": "휵",
+    "Value": "0xC8;0xDF",
+    "Description": ""
+  },
+  {
+    "Token": "휸",
+    "Value": "0xC8;0xE0",
+    "Description": ""
+  },
+  {
+    "Token": "휼",
+    "Value": "0xC8;0xE1",
+    "Description": ""
+  },
+  {
+    "Token": "흄",
+    "Value": "0xC8;0xE2",
+    "Description": ""
+  },
+  {
+    "Token": "흇",
+    "Value": "0xC8;0xE3",
+    "Description": ""
+  },
+  {
+    "Token": "흉",
+    "Value": "0xC8;0xE4",
+    "Description": ""
+  },
+  {
+    "Token": "흐",
+    "Value": "0xC8;0xE5",
+    "Description": ""
+  },
+  {
+    "Token": "흑",
+    "Value": "0xC8;0xE6",
+    "Description": ""
+  },
+  {
+    "Token": "흔",
+    "Value": "0xC8;0xE7",
+    "Description": ""
+  },
+  {
+    "Token": "흖",
+    "Value": "0xC8;0xE8",
+    "Description": ""
+  },
+  {
+    "Token": "흗",
+    "Value": "0xC8;0xE9",
+    "Description": ""
+  },
+  {
+    "Token": "흘",
+    "Value": "0xC8;0xEA",
+    "Description": ""
+  },
+  {
+    "Token": "흙",
+    "Value": "0xC8;0xEB",
+    "Description": ""
+  },
+  {
+    "Token": "흠",
+    "Value": "0xC8;0xEC",
+    "Description": ""
+  },
+  {
+    "Token": "흡",
+    "Value": "0xC8;0xED",
+    "Description": ""
+  },
+  {
+    "Token": "흣",
+    "Value": "0xC8;0xEE",
+    "Description": ""
+  },
+  {
+    "Token": "흥",
+    "Value": "0xC8;0xEF",
+    "Description": ""
+  },
+  {
+    "Token": "흩",
+    "Value": "0xC8;0xF0",
+    "Description": ""
+  },
+  {
+    "Token": "희",
+    "Value": "0xC8;0xF1",
+    "Description": ""
+  },
+  {
+    "Token": "흰",
+    "Value": "0xC8;0xF2",
+    "Description": ""
+  },
+  {
+    "Token": "흴",
+    "Value": "0xC8;0xF3",
+    "Description": ""
+  },
+  {
+    "Token": "흼",
+    "Value": "0xC8;0xF4",
+    "Description": ""
+  },
+  {
+    "Token": "흽",
+    "Value": "0xC8;0xF5",
+    "Description": ""
+  },
+  {
+    "Token": "힁",
+    "Value": "0xC8;0xF6",
+    "Description": ""
+  },
+  {
+    "Token": "히",
+    "Value": "0xC8;0xF7",
+    "Description": ""
+  },
+  {
+    "Token": "힉",
+    "Value": "0xC8;0xF8",
+    "Description": ""
+  },
+  {
+    "Token": "힌",
+    "Value": "0xC8;0xF9",
+    "Description": ""
+  },
+  {
+    "Token": "힐",
+    "Value": "0xC8;0xFA",
+    "Description": ""
+  },
+  {
+    "Token": "힘",
+    "Value": "0xC8;0xFB",
+    "Description": ""
+  },
+  {
+    "Token": "힙",
+    "Value": "0xC8;0xFC",
+    "Description": ""
+  },
+  {
+    "Token": "힛",
+    "Value": "0xC8;0xFD",
+    "Description": ""
+  },
+  {
+    "Token": "힝",
+    "Value": "0xC8;0xFE",
+    "Description": ""
+  }
+]
+}

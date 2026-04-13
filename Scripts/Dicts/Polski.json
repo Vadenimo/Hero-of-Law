@@ -1,0 +1,95 @@
+{
+  "Entries": [
+    {
+      "Token": "Ą",
+      "Value": "0x80",
+      "Description": "",
+      "ContextGroup": ""
+    },
+    {
+      "Token": "Ć",
+      "Value": "0x81",
+      "Description": ""
+    },
+    {
+      "Token": "Ę",
+      "Value": "0x82",
+      "Description": ""
+    },
+    {
+      "Token": "Ł",
+      "Value": "0x83",
+      "Description": ""
+    },
+    {
+      "Token": "Ń",
+      "Value": "0x84",
+      "Description": ""
+    },
+    {
+      "Token": "Ó",
+      "Value": "0x85",
+      "Description": ""
+    },
+    {
+      "Token": "Ś",
+      "Value": "0x86",
+      "Description": ""
+    },
+    {
+      "Token": "Ż",
+      "Value": "0x87",
+      "Description": ""
+    },
+    {
+      "Token": "Ź",
+      "Value": "0x88",
+      "Description": ""
+    },
+    {
+      "Token": "ą",
+      "Value": "0x89",
+      "Description": ""
+    },
+    {
+      "Token": "ć",
+      "Value": "0x8A",
+      "Description": ""
+    },
+    {
+      "Token": "ę",
+      "Value": "0x8B",
+      "Description": ""
+    },
+    {
+      "Token": "ł",
+      "Value": "0x8C",
+      "Description": ""
+    },
+    {
+      "Token": "ń",
+      "Value": "0x8D",
+      "Description": ""
+    },
+    {
+      "Token": "ó",
+      "Value": "0x8E",
+      "Description": ""
+    },
+    {
+      "Token": "ś",
+      "Value": "0x8F",
+      "Description": ""
+    },
+    {
+      "Token": "ż",
+      "Value": "0x90",
+      "Description": ""
+    },
+    {
+      "Token": "ź",
+      "Value": "0x91",
+      "Description": ""
+    },
+  ],
+}

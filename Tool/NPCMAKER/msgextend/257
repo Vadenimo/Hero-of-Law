@@ -1,0 +1,60 @@
+include System.dll
+include System.Drawing.dll
+include System.Core.dll
+include System.Windows.Forms.dll
+include ZeldaMessage.dll
+
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using ZeldaMessage;
+
+namespace MsgExtend
+{
+    public class Function
+    {
+        Bitmap systemBitmap = (System.Drawing.Bitmap)Bitmap.FromFile("msgextend/bitmaps/system.png");
+        Bitmap crBitmap = (System.Drawing.Bitmap)Bitmap.FromFile("msgextend/bitmaps/cr.png");
+        
+        public object TagProcess(ZeldaMessage.MessagePreview msg, Bitmap bmp, Bitmap boxBitmap, Color c, bool revAlpha, ZeldaMessage.Data.BoxType BoxType)
+        {
+            bool drawNormal = true;
+        
+            try
+            {
+                if (BoxType == ZeldaMessage.Data.BoxType.Wooden)
+                {
+                    boxBitmap = systemBitmap;
+                    c = Color.FromArgb(0xFF, 0x24, 0x4B, 0x6E);
+                }
+                else if (BoxType == ZeldaMessage.Data.BoxType.Ocarina)
+                {
+                    bmp = (Bitmap)crBitmap.Clone();
+                    drawNormal = false;
+                }
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show("ERROR IN TAG PROCESS 257: " + ex.Message + Environment.NewLine + ex.StackTrace);
+            }                
+            
+            
+            object[] ret = new object[5];
+            
+            ret[0] = (object)bmp;
+            ret[1] = (object)boxBitmap;
+            ret[2] = (object)c;
+            ret[3] = (object)revAlpha;
+            ret[4] = (object)drawNormal;
+            
+            return ret;
+        }
+    }
+}
+
+

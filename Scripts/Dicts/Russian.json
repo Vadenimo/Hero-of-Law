@@ -1,0 +1,379 @@
+{
+  "Entries": [
+    {
+      "Token": "А",
+      "Value": "0x41",
+      "Description": ""
+    },
+    {
+      "Token": "Б",
+      "Value": "0x42",
+      "Description": ""
+    },
+    {
+      "Token": "В",
+      "Value": "0x43",
+      "Description": ""
+    },
+    {
+      "Token": "Г",
+      "Value": "0x44",
+      "Description": ""
+    },
+    {
+      "Token": "Д",
+      "Value": "0x45",
+      "Description": ""
+    },
+    {
+      "Token": "Е",
+      "Value": "0x46",
+      "Description": ""
+    },
+    {
+      "Token": "Ё",
+      "Value": "0x47",
+      "Description": ""
+    },
+    {
+      "Token": "Ж",
+      "Value": "0x48",
+      "Description": ""
+    },
+    {
+      "Token": "З",
+      "Value": "0x49",
+      "Description": ""
+    },
+    {
+      "Token": "И",
+      "Value": "0x4A",
+      "Description": ""
+    },
+    {
+      "Token": "Й",
+      "Value": "0x4B",
+      "Description": ""
+    },
+    {
+      "Token": "К",
+      "Value": "0x4C",
+      "Description": ""
+    },
+    {
+      "Token": "Л",
+      "Value": "0x4D",
+      "Description": ""
+    },
+    {
+      "Token": "М",
+      "Value": "0x4E",
+      "Description": ""
+    },
+    {
+      "Token": "Н",
+      "Value": "0x4F",
+      "Description": ""
+    },
+    {
+      "Token": "О",
+      "Value": "0x50",
+      "Description": ""
+    },
+    {
+      "Token": "П",
+      "Value": "0x51",
+      "Description": ""
+    },
+    {
+      "Token": "Р",
+      "Value": "0x52",
+      "Description": ""
+    },
+    {
+      "Token": "С",
+      "Value": "0x53",
+      "Description": ""
+    },
+    {
+      "Token": "Т",
+      "Value": "0x54",
+      "Description": ""
+    },
+    {
+      "Token": "У",
+      "Value": "0x55",
+      "Description": ""
+    },
+    {
+      "Token": "Ф",
+      "Value": "0x56",
+      "Description": ""
+    },
+    {
+      "Token": "Х",
+      "Value": "0x57",
+      "Description": ""
+    },
+    {
+      "Token": "Ц",
+      "Value": "0x58",
+      "Description": ""
+    },
+    {
+      "Token": "Ч",
+      "Value": "0x59",
+      "Description": ""
+    },
+    {
+      "Token": "Ш",
+      "Value": "0x5A",
+      "Description": ""
+    },
+    {
+      "Token": "¥",
+      "Value": "0x5C",
+      "Description": ""
+    },
+    {
+      "Token": "а",
+      "Value": "0x61",
+      "Description": ""
+    },
+    {
+      "Token": "б",
+      "Value": "0x62",
+      "Description": ""
+    },
+    {
+      "Token": "в",
+      "Value": "0x63",
+      "Description": ""
+    },
+    {
+      "Token": "г",
+      "Value": "0x64",
+      "Description": ""
+    },
+    {
+      "Token": "д",
+      "Value": "0x65",
+      "Description": ""
+    },
+    {
+      "Token": "е",
+      "Value": "0x66",
+      "Description": ""
+    },
+    {
+      "Token": "ё",
+      "Value": "0x67",
+      "Description": ""
+    },
+    {
+      "Token": "ж",
+      "Value": "0x68",
+      "Description": ""
+    },
+    {
+      "Token": "з",
+      "Value": "0x69",
+      "Description": ""
+    },
+    {
+      "Token": "и",
+      "Value": "0x6A",
+      "Description": ""
+    },
+    {
+      "Token": "й",
+      "Value": "0x6B",
+      "Description": ""
+    },
+    {
+      "Token": "к",
+      "Value": "0x6C",
+      "Description": ""
+    },
+    {
+      "Token": "л",
+      "Value": "0x6D",
+      "Description": ""
+    },
+    {
+      "Token": "м",
+      "Value": "0x6E",
+      "Description": ""
+    },
+    {
+      "Token": "н",
+      "Value": "0x6F",
+      "Description": ""
+    },
+    {
+      "Token": "о",
+      "Value": "0x70",
+      "Description": ""
+    },
+    {
+      "Token": "п",
+      "Value": "0x71",
+      "Description": ""
+    },
+    {
+      "Token": "р",
+      "Value": "0x72",
+      "Description": ""
+    },
+    {
+      "Token": "с",
+      "Value": "0x73",
+      "Description": ""
+    },
+    {
+      "Token": "т",
+      "Value": "0x74",
+      "Description": ""
+    },
+    {
+      "Token": "у",
+      "Value": "0x75",
+      "Description": ""
+    },
+    {
+      "Token": "ф",
+      "Value": "0x76",
+      "Description": ""
+    },
+    {
+      "Token": "х",
+      "Value": "0x77",
+      "Description": ""
+    },
+    {
+      "Token": "ц",
+      "Value": "0x78",
+      "Description": ""
+    },
+    {
+      "Token": "ч",
+      "Value": "0x79",
+      "Description": ""
+    },
+    {
+      "Token": "ш",
+      "Value": "0x7A",
+      "Description": ""
+    },
+	{
+      "Token": "º",
+      "Value": "0x7F",
+      "Description": ""
+	},
+    {
+      "Token": "Щ",
+      "Value": "0x80",
+      "Description": ""
+    },
+    {
+      "Token": "Á",
+      "Value": "0x81",
+      "Description": ""
+    },
+    {
+      "Token": "Ы",
+      "Value": "0x82",
+      "Description": ""
+    },
+    {
+      "Token": "Ь",
+      "Value": "0x83",
+      "Description": ""
+    },
+    {
+      "Token": "Э",
+      "Value": "0x84",
+      "Description": ""
+    },
+    {
+      "Token": "Ю",
+      "Value": "0x85",
+      "Description": ""
+    },
+    {
+      "Token": "Я",
+      "Value": "0x86",
+      "Description": ""
+    },
+    {
+      "Token": "Ê",
+      "Value": "0x87",
+      "Description": ""
+    },
+    {
+      "Token": "Ë",
+      "Value": "0x88",
+      "Description": ""
+    },
+    {
+      "Token": "«",
+      "Value": "0x89",
+      "Description": ""
+    },
+    {
+      "Token": "»",
+      "Value": "0x8A",
+      "Description": ""
+    },
+    {
+      "Token": "Ъ",
+      "Value": "0x8B",
+      "Description": ""
+    },
+    {
+      "Token": "Ï",
+      "Value": "0x8C",
+      "Description": ""
+    },
+    {
+      "Token": "Ñ",
+      "Value": "0x8D",
+      "Description": ""
+    },
+    {
+      "Token": "щ",
+      "Value": "0x97",
+      "Description": ""
+    },
+    {
+      "Token": "ъ",
+      "Value": "0x98",
+      "Description": ""
+    },
+    {
+      "Token": "ы",
+      "Value": "0x99",
+      "Description": ""
+    },
+    {
+      "Token": "ь",
+      "Value": "0x9A",
+      "Description": ""
+    },
+    {
+      "Token": "э",
+      "Value": "0x9B",
+      "Description": ""
+    },
+    {
+      "Token": "ю",
+      "Value": "0x9C",
+      "Description": ""
+    },
+    {
+      "Token": "я",
+      "Value": "0x9D",
+      "Description": ""
+    }
+  ]
+}
