@@ -68770,6 +68770,8 @@
                 "",
                 "<Shift:180>Professional Gopnik",
                 "",
+                "<Shift:180>Jodocus",
+                "",
                 "<PERSISTENT>"
               ],
               "Type": 6,
@@ -79430,7 +79432,7 @@
                 "<NEW_BOX>",
                 "Möchtest du fortfahren?",
                 "<G><TWO_CHOICES>",
-                "Jap!",
+                "Jap",
                 "Kehre zurück zum Titelbildschirm"
               ],
               "Type": 0,
@@ -79518,10 +79520,10 @@
             {
               "Name": "NoThiefContinue",
               "MessageTextLines": [
-                "No saves are marked as THIEF. Continue",
-                "anyway? (Save in slot $ will be used.)",
-                "<TWO_CHOICES><G>Yes",
-                "No<W>"
+                "Kein DIEB-Spielstand gefunden. Trotzdem ",
+                "fortfahren? (Spiel $ wird verwendet.)",
+                "<TWO_CHOICES><G>Ja",
+                "Nein"
               ],
               "Type": 1,
               "Position": 2
@@ -79532,7 +79534,7 @@
                 "Kein DIEB-Spielstand gefunden. Trotzdem ",
                 "fortfahren? (Standards werden verwendet.)",
                 "<TWO_CHOICES><G>Ja",
-                ""
+                "Nein"
               ],
               "Type": 1,
               "Position": 2

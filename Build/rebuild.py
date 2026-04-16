@@ -284,12 +284,13 @@ def build_snippets():
     
     # Fix for MSYS2: use bash explicitly for shell scripts
     if is_msys2_environment():
-        run_command("bash build.sh")
+        run_command("bash build.py")
     else:
         # Make sure the script is executable
-        if os.path.exists("build.sh"):
-            os.chmod("build.sh", 0o755)
-        run_command("./build.sh")
+        if os.path.exists("build.py"):
+            os.chmod("build.py", 0o755)
+        cmd = f'{python_cmd} build.py'
+        run_command(cmd)
     
     os.chdir("../../..")
     

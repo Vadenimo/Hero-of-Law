@@ -2,7 +2,9 @@ cd /mnt/c/Users/Vadim/home/repos/Hero-of-Law/Build
 
 export PATH="/opt/n64/bin/:$PATH"
 
-./rebuild.sh -a
+python3 rebuild.py -a 
+
+// python3 rebuild.py -a -c
 
 Release Mode:
-./rebuild.sh -a -r
+python3 rebuild.py -a -r

@@ -86,6 +86,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -95,6 +96,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -104,6 +106,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -258,6 +261,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "DList_0",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -274,6 +278,7 @@
         },
         {
           "Name": "DList_1",
+          "HeaderDefinition": "",
           "Address": 0,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -307,7 +312,7 @@
         "CodeLines": [
           "#include <z64hdr/oot_u10/z64hdr.h>",
           "",
-          "// ^ Change the above to ",
+          "// ^ Change the above to",
           "// #include <z64hdr/oot_u10/z64hdr.h>",
           "// if compiling for OoT 1.0",
           "",
@@ -363,29 +368,29 @@
           "",
           "AudioContext* audioContext = (AudioContext*)0x80125630;",
           "",
-          "extern int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 Color, Color_RGB8 ShadowColor, ",
-          "                                   s16 alpha, s16 shadowAlpha, char* msgData, int posX, int posY, u8 shadowOffsetX, ",
-          "                                   u8 shadowOffsetY, Vec2s* positions, int scaleX, int scaleY, int lineMaxX, ",
+          "extern int HoL_DrawMessageTextImpl(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 Color, Color_RGB8 ShadowColor,",
+          "                                   s16 alpha, s16 shadowAlpha, char* msgData, int posX, int posY, u8 shadowOffsetX,",
+          "                                   u8 shadowOffsetY, Vec2s* positions, int scaleX, int scaleY, int lineMaxX,",
           "                                   bool noWidescreenAdjust, int operation);",
-          "    asm(\"HoL_DrawMessageTextImpl = 0x800756F0 + 0x8\");  ",
-          "    ",
-          "    ",
-          "static inline int HoL_DrawMessageTextInternal(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 Color, Color_RGB8 ShadowColor, ",
-          "                                              s16 alpha, s16 shadowAlpha, char* msgData, int posX, int posY, u8 shadowOffsetX, ",
+          "    asm(\"HoL_DrawMessageTextImpl = 0x800756F0 + 0x8\");",
+          "",
+          "",
+          "static inline int HoL_DrawMessageTextInternal(PlayState* play, Font* font, Gfx** gfxp, Color_RGB8 Color, Color_RGB8 ShadowColor,",
+          "                                              s16 alpha, s16 shadowAlpha, char* msgData, int posX, int posY, u8 shadowOffsetX,",
           "                                              u8 shadowOffsetY, Vec2s* positions, int scale, int operation)",
           "{",
-          "    return HoL_DrawMessageTextImpl(play, font, gfxp, Color, ShadowColor, ",
-          "                                   alpha, shadowAlpha, msgData, posX, posY, ",
-          "                                   shadowOffsetX, shadowOffsetY, positions, ",
+          "    return HoL_DrawMessageTextImpl(play, font, gfxp, Color, ShadowColor,",
+          "                                   alpha, shadowAlpha, msgData, posX, posY,",
+          "                                   shadowOffsetX, shadowOffsetY, positions,",
           "                                   scale, scale, 0, false, operation);",
           "}",
           "",
-          "static inline int HoL_DrawMessageText(PlayState* play, Gfx** gfxp, Color_RGB8 Color, Color_RGB8 ShadowColor, ",
-          "                                      s16 alpha, s16 shadowAlpha, char* msgData, int posX, int posY, ",
+          "static inline int HoL_DrawMessageText(PlayState* play, Gfx** gfxp, Color_RGB8 Color, Color_RGB8 ShadowColor,",
+          "                                      s16 alpha, s16 shadowAlpha, char* msgData, int posX, int posY,",
           "                                      u8 shadowOffsetX, u8 shadowOffsetY, Vec2s* positions, int scale, int operation)",
           "{",
-          "    return HoL_DrawMessageTextInternal(play, NULL, gfxp, Color, ShadowColor, alpha, ",
-          "                                       shadowAlpha, msgData, posX, posY, shadowOffsetX, ",
+          "    return HoL_DrawMessageTextInternal(play, NULL, gfxp, Color, ShadowColor, alpha,",
+          "                                       shadowAlpha, msgData, posX, posY, shadowOffsetX,",
           "                                       shadowOffsetY, positions, scale, operation);",
           "}",
           "#define RGBA16 0",
@@ -410,8 +415,8 @@
           "#define SCALE_DEFAULT 1.0",
           "",
           "extern void Draw2DScaled(u8 RGBAType, int object, PlayState* playState, Gfx** gfxp, s16 centerX, s16 centerY, u8* source, u8* sourcePal, u32 width, u32 height, u32 drawWidth, u32 drawHeight, s16 alpha);",
-          "\tasm(\"Draw2DScaled = 0x800755c8\"); ",
-          "    ",
+          "\tasm(\"Draw2DScaled = 0x800755c8\");",
+          "",
           "extern void Draw2DInternal(u8 RGBAType, u8* texture, u8* palette, Gfx** gfxp, s16 centerX, s16 centerY, u32 width, u32 height, u32 drawWidth, u32 drawHeight, s16 alpha);",
           "    asm(\"Draw2DInternal = 0x800D7B00\");",
           "",
@@ -420,7 +425,7 @@
           "\tDraw2DScaled(RGBAType, object, playState, gfxp, centerX, centerY, source, sourcePal, width, height, width, height, alpha);",
           "}",
           "",
-          "extern PadMgr gPadMgr;  ",
+          "extern PadMgr gPadMgr;",
           "    asm(\"gPadMgr = 0x8011D500\");",
           "",
           "#define POINTERHANDX 32",
@@ -430,7 +435,7 @@
           "void NpcM_Update(NpcMaker* npc, PlayState* play)",
           "{",
           "    u8 mouseSlot = 0;",
-          "    ",
+          "",
           "    for (int i = 1; i < MAXCONTROLLERS; i++)",
           "    {",
           "        if (gPadMgr.padStatus[i].errno == 0 && gPadMgr.padStatus[i].type == CONT_TYPE_MOUSE)",
@@ -439,13 +444,13 @@
           "            break;",
           "        }",
           "    }",
-          "    ",
-          "    if (mouseSlot != 0) ",
+          "",
+          "    if (mouseSlot != 0)",
           "    {",
-          "        if (gPadMgr.padStatus[mouseSlot].type == CONT_TYPE_MOUSE) ",
+          "        if (gPadMgr.padStatus[mouseSlot].type == CONT_TYPE_MOUSE)",
           "        {",
           "            npc->scriptVars[5] += gPadMgr.inputs[mouseSlot].cur.stick_x;",
-          "            npc->scriptVars[6] -= gPadMgr.inputs[mouseSlot].cur.stick_y;              ",
+          "            npc->scriptVars[6] -= gPadMgr.inputs[mouseSlot].cur.stick_y;",
           "        }",
           "    }",
           "",
@@ -459,7 +464,7 @@
           "            npc->scriptVars[5] += 6;",
           "",
           "        if (CHECK_BTN_ALL(play->state.input->cur.button, BTN_DLEFT))",
-          "            npc->scriptVars[5] -= 6;           ",
+          "            npc->scriptVars[5] -= 6;",
           "    }",
           "",
           "    if (ABS(play->state.input->cur.stick_y) > 5)",
@@ -472,11 +477,11 @@
           "            npc->scriptVars[6] -= 6;",
           "",
           "        if (CHECK_BTN_ALL(play->state.input->cur.button, BTN_DDOWN))",
-          "            npc->scriptVars[6] += 6;           ",
+          "            npc->scriptVars[6] += 6;",
           "    }",
           "",
           "    npc->scriptVars[5] = MAX(MIN(npc->scriptVars[5], 320 - 8), 0);",
-          "    npc->scriptVars[6] = MAX(MIN(npc->scriptVars[6], 240 - 8), 0);  ",
+          "    npc->scriptVars[6] = MAX(MIN(npc->scriptVars[6], 240 - 8), 0);",
           "",
           "",
           "}",
@@ -544,7 +549,7 @@
           "                    roundEffect2 = Rand_S16Offset(0, 5);",
           "                    roundEffect3 = Rand_S16Offset(0, 1);",
           "                    roundEffect4 = Rand_S16Offset(-3, 6);",
-          "    ",
+          "",
           "                    if (roundEffect4 == 0)",
           "                        roundEffect4 = 1;",
           "                }",
@@ -562,10 +567,10 @@
           "                            positions[i].x = -16;",
           "",
           "                        if (positions[i].x < -16)",
-          "                            positions[i].x = 336;                                ",
+          "                            positions[i].x = 336;",
           "",
           "                    }",
-          "                }    ",
+          "                }",
           "            }",
           "",
           "            if (roundEffect & 2)",
@@ -583,7 +588,7 @@
           "                            positions[i].y = 256;",
           "",
           "                    }",
-          "                }    ",
+          "                }",
           "            }",
           "",
           "            bool drawnTarget  = false;",
@@ -608,7 +613,7 @@
           "",
           "",
           "    Draw2D(CI4, 3, play, &gfx, npc->scriptVars[5] + (POINTERHANDX / 2),  npc->scriptVars[6]  + (POINTERHANDY / 2), (u8*)POINTERHAND + 0x20, (u8*)POINTERHAND, POINTERHANDX, POINTERHANDY, 255);",
-          "    ",
+          "",
           "",
           "    gSPEndDisplayList(gfx++);",
           "    Graph_BranchDlist(gfxRef, gfx);",
@@ -633,16 +638,16 @@
         ],
         "Functions": [
           {
-            "FuncName": "NpcM_ClickedRight"
+            "Symbol": "NpcM_ClickedRight"
           },
           {
-            "FuncName": "NpcM_Destroy"
+            "Symbol": "NpcM_Destroy"
           },
           {
-            "FuncName": "NpcM_DrawWanted"
+            "Symbol": "NpcM_DrawWanted"
           },
           {
-            "FuncName": "NpcM_Update"
+            "Symbol": "NpcM_Update"
           }
         ],
         "FuncsRunWhen": [
@@ -678,9 +683,13 @@
           "",
           "NpcM_Destroy",
           "NpcM_Update"
-        ]
+        ],
+        "HeaderPaths": []
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "INGO",
@@ -767,6 +776,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 71300,
           "ObjID": -1,
           "Speed": 1.0,
@@ -776,6 +786,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -785,6 +796,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -808,6 +820,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 0,
             "ObjectID": -1,
             "FileStart": -1
@@ -880,9 +893,13 @@
           null,
           null,
           ""
-        ]
+        ],
+        "HeaderPaths": []
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "TALON",
@@ -969,6 +986,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 7316,
           "ObjID": -1,
           "Speed": 1.0,
@@ -978,6 +996,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -987,6 +1006,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1010,6 +1030,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 32640,
             "ObjectID": -1,
             "FileStart": -1
@@ -1018,6 +1039,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 29376,
             "ObjectID": -1,
             "FileStart": -1
@@ -1089,9 +1111,13 @@
           null,
           null,
           ""
-        ]
+        ],
+        "HeaderPaths": []
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "LINK",
@@ -1178,6 +1204,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 80088,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1187,6 +1214,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1196,6 +1224,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1219,6 +1248,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 11520,
             "ObjectID": -1,
             "FileStart": -1
@@ -1227,6 +1257,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 29952,
             "ObjectID": -1,
             "FileStart": -1
@@ -1298,9 +1329,13 @@
           null,
           null,
           ""
-        ]
+        ],
+        "HeaderPaths": []
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     },
     {
       "NPCName": "GANON",
@@ -1387,6 +1422,7 @@
       "Animations": [
         {
           "Name": "Idle",
+          "HeaderDefinition": "",
           "Address": 94628,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1396,6 +1432,7 @@
         },
         {
           "Name": "Walking",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1405,6 +1442,7 @@
         },
         {
           "Name": "Attacked",
+          "HeaderDefinition": "",
           "Address": 0,
           "ObjID": -1,
           "Speed": 1.0,
@@ -1428,6 +1466,7 @@
         [
           {
             "Name": "Texture_0",
+            "HeaderDefinition": "",
             "Address": 3840,
             "ObjectID": -1,
             "FileStart": -1
@@ -1450,6 +1489,7 @@
       "ExtraDisplayLists": [
         {
           "Name": "DList_0",
+          "HeaderDefinition": "",
           "Address": 40712,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -1466,6 +1506,7 @@
         },
         {
           "Name": "DList_1",
+          "HeaderDefinition": "",
           "Address": 33320,
           "TransX": 0.0,
           "TransY": 0.0,
@@ -1562,9 +1603,13 @@
           null,
           null,
           ""
-        ]
+        ],
+        "HeaderPaths": []
       },
-      "Omitted": false
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
     }
   ],
   "GlobalHeaders": [
@@ -1822,6 +1867,7 @@
       "Name": "Definitions"
     }
   ],
+  "ExtScriptHeaderPath": "",
   "SpaceFromFont": true,
   "CHeaderLines": [
     "#include <z64hdr/oot_u10/z64hdr.h>",

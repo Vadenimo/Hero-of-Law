@@ -1342,7 +1342,7 @@
           "\t\t.textShadowColor = {.r = 255, .g = 255, .b = 255},",
           "\t\t.sndID = SOUND_TXT_MALE,",
           "\t\t.sndPitch = 0.7f,",
-          "\t},\t",
+          "\t},",
           "\t{",
           "\t\t// Dragmire",
           "\t\t.id = 5,",
@@ -1366,7 +1366,7 @@
           "\t{",
           "\t\t// ???? Impa",
           "\t\t.id = 7,",
-          "\t\t.textID = 12, ",
+          "\t\t.textID = 12,",
           "\t\t.textboxColor = {.r = 201, .g = 201, .b = 201},",
           "\t\t.textColor = {.r = 0, .g = 0, .b = 0},",
           "\t\t.textShadowColor = {.r = 255, .g = 255, .b = 255},",
@@ -1432,7 +1432,7 @@
           "\t\t.textShadowColor = {.r = 255, .g = 255, .b = 255},",
           "\t\t.sndID = SOUND_TXT_MALE,",
           "\t\t.sndPitch = 1.1f,",
-          "\t},\t",
+          "\t},",
           "\t{",
           "\t\t// THIEF",
           "\t\t.id = 21,",
@@ -1513,7 +1513,7 @@
           "\t\t.textShadowColor = {.r = 255, .g = 255, .b = 255},",
           "\t\t.sndID = 0,",
           "\t\t.sndPitch = 1.0f,",
-          "\t},\t",
+          "\t},",
           "};",
           "",
           "CourtRecordEntry thiefEvidence[] =",
@@ -1571,7 +1571,7 @@
           "\t},",
           "\t{",
           "\t\t.entry = thiefEvidence,",
-          "\t\t.numEntries = ARRAY_COUNT(thiefEvidence),\t\t",
+          "\t\t.numEntries = ARRAY_COUNT(thiefEvidence),",
           "\t}",
           "};",
           "",
@@ -1635,7 +1635,7 @@
           "\t\t{",
           "\t\t\tu8* LAName = (u8*)&SAVE_LANAME;",
           "\t\t\tu8* mesPtr = npc->GetInternalMsgPtrFunc(npc, play, case1Speakers[i].textID);",
-          "\t\t\t",
+          "",
           "\t\t\tmesPtr[0] = 0xFC;\t// FONT TOGGLE, name must begin and end with 0xFF",
           "\t\t\tmesPtr[6] = 0xFC;",
           "\t\t\tbcopy(LAName, &mesPtr[1], 5);",
@@ -1649,24 +1649,12 @@
           ""
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_FadeInPartial"
-          },
-          {
-            "FuncName": "NpcM_InitCourtRecordData"
-          },
-          {
-            "FuncName": "NpcM_OverwriteTHIEF"
-          },
-          {
-            "FuncName": "NpcM_OverwriteWithLAOGName"
-          },
-          {
-            "FuncName": "NpcM_OverwriteWithLASlot"
-          },
-          {
-            "FuncName": "NpcM_SetCourtRecordData"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -3857,9 +3845,7 @@
           ""
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_LookAt"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -5285,12 +5271,8 @@
           ""
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_AnimateCone"
-          },
-          {
-            "FuncName": "NpcM_PositionParticle"
-          }
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -6521,9 +6503,7 @@
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_SetMalonLimbsSpecial"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -8231,48 +8211,20 @@
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_AnimateCone"
-          },
-          {
-            "FuncName": "NpcM_Destroy"
-          },
-          {
-            "FuncName": "NpcM_DoModelTalkAnim"
-          },
-          {
-            "FuncName": "NpcM_GetLimbPositionsForCape"
-          },
-          {
-            "FuncName": "NpcM_GetNumFramesToAngrySfx"
-          },
-          {
-            "FuncName": "NpcM_GetNumFramesToSlam"
-          },
-          {
-            "FuncName": "NpcM_GetNumFramesToTakeOut"
-          },
-          {
-            "FuncName": "NpcM_GetSetTargetHead"
-          },
-          {
-            "FuncName": "NpcM_GetTargetAnimation"
-          },
-          {
-            "FuncName": "NpcM_GetTargetState"
-          },
-          {
-            "FuncName": "NpcM_GetTransitionAnimation"
-          },
-          {
-            "FuncName": "NpcM_Init"
-          },
-          {
-            "FuncName": "NpcM_SetEvidenceToHold"
-          },
-          {
-            "FuncName": "NpcM_Update"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -10593,7 +10545,7 @@
           "    else if (progress == PROGRESS_FLASHBACK)",
           "        return SCENE_ID_RANCH;",
           "    else if (progress == PROGRESS_EXTRA_THIEF_EPILOGUE)",
-          "        return SCENE_ID_OFFICE;       ",
+          "        return SCENE_ID_OFFICE;",
           "    else",
           "        return SCENE_ID_COURT;",
           "}",
@@ -11468,60 +11420,24 @@
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_ClearButtonPress"
-          },
-          {
-            "FuncName": "NpcM_DebugDraw"
-          },
-          {
-            "FuncName": "NpcM_DebugDrawPointerAreas"
-          },
-          {
-            "FuncName": "NpcM_DEBUGMoveLight"
-          },
-          {
-            "FuncName": "NpcM_DetectSlowdown"
-          },
-          {
-            "FuncName": "NpcM_GetActorSceneIDFromProgress"
-          },
-          {
-            "FuncName": "NpcM_GetLevelIDFromProgress"
-          },
-          {
-            "FuncName": "NpcM_GetPlatform"
-          },
-          {
-            "FuncName": "NpcM_GetRouteIDFromProgess"
-          },
-          {
-            "FuncName": "NpcM_GetSkipTpak"
-          },
-          {
-            "FuncName": "NpcM_GetTextboxResumePos"
-          },
-          {
-            "FuncName": "NpcM_GetWarpIDFromLevel"
-          },
-          {
-            "FuncName": "NpcM_ProcessTweening"
-          },
-          {
-            "FuncName": "NpcM_ReloadSave"
-          },
-          {
-            "FuncName": "NpcM_SceneSelection"
-          },
-          {
-            "FuncName": "NpcM_SetUpdateRate"
-          },
-          {
-            "FuncName": "NpcM_SwitchCameraBetween"
-          },
-          {
-            "FuncName": "NpcM_ThonkZoomOntoLink"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -12099,9 +12015,7 @@
           "#include <npcmaker/npc_maker_types.h>"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_DoModelTalkAnim"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -13864,9 +13778,7 @@
           "*/"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_DoModelTalkAnim"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -14933,8 +14845,8 @@
           "    #define TESTIMONY_POS_X 50",
           "    #define TESTIMONY_POS_Y 30",
           "",
-          "    Draw2DScaled(RGBA32, 3, play, &gfx, TESTIMONY_POS_X, TESTIMONY_POS_Y, (u8*)GRAPHIC_TESTIMONY, NULL, ",
-          "                GRAPHIC_TESTIMONY_WIDTH, GRAPHIC_TESTIMONY_HEIGHT, ",
+          "    Draw2DScaled(RGBA32, 3, play, &gfx, TESTIMONY_POS_X, TESTIMONY_POS_Y, (u8*)GRAPHIC_TESTIMONY, NULL,",
+          "                GRAPHIC_TESTIMONY_WIDTH, GRAPHIC_TESTIMONY_HEIGHT,",
           "                GRAPHIC_TESTIMONY_WIDTH / 2, GRAPHIC_TESTIMONY_HEIGHT / 2, 255);",
           "",
           "",
@@ -14944,7 +14856,7 @@
           "    int dimX = GetTextPxWidth(msgTestimony, TEXT_SCALE);",
           "    int maxDimX = GRAPHIC_TESTIMONY_WIDTH / 2 + TESTIMONY_WIDTH_EXTRA;",
           "",
-          "    int testimonyMsgScale = MIN(TEXT_SCALE, (int)(TEXT_SCALE * (float)maxDimX / dimX)); ",
+          "    int testimonyMsgScale = MIN(TEXT_SCALE, (int)(TEXT_SCALE * (float)maxDimX / dimX));",
           "    int testimonyPosOffset = TESTIMONY_WIDTH_EXTRA / 2;",
           "    int testimonyXInitial = TESTIMONY_POS_X - GRAPHIC_TESTIMONY_WIDTH / 4;",
           "",
@@ -14960,10 +14872,10 @@
           "    s32 textPosX = testimonyXInitial + ((maxDimX - testimonyPosOffset - GetTextPxWidth(msgTestimony, testimonyMsgScale)) / 2);",
           "    s32 textPosY = TESTIMONY_POS_Y + GRAPHIC_TESTIMONY_HEIGHT / 4 + 2;",
           "",
-          "    TextOperation(play, NULL, &gfx, COLOR_WHITE, COLOR_BLACK, 255, 255, ",
+          "    TextOperation(play, NULL, &gfx, COLOR_WHITE, COLOR_BLACK, 255, 255,",
           "                  npc->GetInternalMsgPtrFunc(npc, play, 0),",
           "                  textPosX, textPosY,",
-          "                  1, 1, ",
+          "                  1, 1,",
           "                  NULL, testimonyMsgScale, TEXT_SCALE, -1, true, OPERATION_DRAW_SHADOW);",
           "",
           "    gSPEndDisplayList(gfx++);",
@@ -15008,27 +14920,13 @@
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_DoGavelSlam"
-          },
-          {
-            "FuncName": "NpcM_DoMovePosAxis"
-          },
-          {
-            "FuncName": "NpcM_DoMoveRotAxis"
-          },
-          {
-            "FuncName": "NpcM_DoMoveScale"
-          },
-          {
-            "FuncName": "NpcM_DrawCutin"
-          },
-          {
-            "FuncName": "NpcM_DrawTestimony"
-          },
-          {
-            "FuncName": "NpcM_Init"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -19990,27 +19888,13 @@
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_AnimTest"
-          },
-          {
-            "FuncName": "NpcM_CameraEdit"
-          },
-          {
-            "FuncName": "NpcM_CharSelect"
-          },
-          {
-            "FuncName": "NpcM_EscapeScene"
-          },
-          {
-            "FuncName": "NpcM_PickerTest"
-          },
-          {
-            "FuncName": "NpcM_PlayMus"
-          },
-          {
-            "FuncName": "NpcM_SetCam"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -41975,8 +41859,9 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "Court is back in session for the trial",
-                "of Malon of Lon Lon Ranch."
+                "Das Gericht fährt nun mit dem",
+                "Verfahren gegen Malon von der",
+                "Lon Lon-Farm fort."
               ],
               "Type": 0,
               "Position": 0
@@ -41984,8 +41869,9 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "I trust that the prosecution's final",
-                "witness is ready?"
+                "Ich nehme an, die Anklage",
+                "ist bereit, ihren letzten Zeugen",
+                "aussagen zu lassen?"
               ],
               "Type": 0,
               "Position": 0
@@ -41993,9 +41879,9 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "Naturally. I have personally seen to",
-                "it that there will be no...<PAUSE:5> foolishness,",
-                "this time around."
+                "Selbstverständlich. Ich hab persönlich",
+                "dafür gesorgt, dass es dieses Mal keine...<PAUSE:5>",
+                "Narrheiten geben wird."
               ],
               "Type": 0,
               "Position": 0
@@ -42003,7 +41889,8 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hopefully his ears are intact...)"
+                "<SOUND:0><C>(Hoffentlich sind seine Ohren",
+                "noch ganz...)"
               ],
               "Type": 0,
               "Position": 0
@@ -42011,16 +41898,17 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "As we discussed before the recess...",
+                "Wie wir vor der Pause bereits",
+                "geklärt haben...",
                 "<NEW_BOX>",
-                "...having established the opportunity",
-                "and means for the defendant to have",
-                "committed the murder, only one matter",
-                "remains.",
+                "... verfügte die Angeklagte sowohl über",
+                "die Gelegenheit, als auch das Mittel, den",
+                "Mord zu begehen. Damit verbleibt noch",
+                "eine Frage.",
                 "<NEW_BOX>",
-                "The matter of motive.<PAUSE:5> For, naturally,",
-                "such a heinous crime couldn't be the",
-                "result of mere happenstance."
+                "Und zwar das Motiv.<PAUSE:5> Immerhin geschieht",
+                "ein solch schreckliches Verbrechen nicht",
+                "einfach ohne Grund."
               ],
               "Type": 0,
               "Position": 0
@@ -42028,12 +41916,12 @@
             {
               "Name": "DRAGMIRE40",
               "MessageTextLines": [
-                "The prosecution believes the",
-                "defendant had a deep desire that",
-                "pushed her to patricide.",
+                "Die Anklage ist der Ansicht, dass die",
+                "Angeklagte diesen Vatermord begang,",
+                "um ein bestimmtes Ziel zu verfolgen.",
                 "<NEW_BOX>",
-                "Our next witness can shed light on",
-                "the matter."
+                "Unser nächster Zeuge kann etwas",
+                "Licht in diese Angelegenheit bringen."
               ],
               "Type": 0,
               "Position": 0
@@ -42041,7 +41929,7 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "Fascinating.<PAUSE:5> Very well. Please proceed."
+                "Interessant.<PAUSE:5> Sehr wohl, fahren Sie fort."
               ],
               "Type": 0,
               "Position": 0
@@ -42049,8 +41937,8 @@
             {
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
-                "The prosecution calls the ranch",
-                "worker, <R>Ingo<W>, to the stand!<SQUARE>"
+                "Die Anklage ruft den Farmarbeiter,",
+                "<R>Basil<W>, in den Zeugenstand!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -42058,8 +41946,8 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Hah!<PAUSE:3><DC> It's funny to see Mr. Ingo in such",
-                "fancy clothes."
+                "<SOUND:WHAP><DI>Haha!<PAUSE:3><DC> Es ist komisch, Herrn Basil in solch",
+                "vornehmer Kleidung zu sehen!"
               ],
               "Type": 0,
               "Position": 0
@@ -42067,7 +41955,7 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<SOUND:CLUE>Oh?"
+                "<SOUND:CLUE>Ach?"
               ],
               "Type": 0,
               "Position": 0
@@ -42075,8 +41963,8 @@
             {
               "Name": "MALON20",
               "MessageTextLines": [
-                "Yeah. He almost always just wears his",
-                "<SOUND:CLUE>work dungarees."
+                "Ja. Er trägt sonst fast immer nur seine",
+                "<SOUND:CLUE>Arbeits-Latzhose."
               ],
               "Type": 0,
               "Position": 0
@@ -42084,8 +41972,8 @@
             {
               "Name": "MALON30",
               "MessageTextLines": [
-                "It's almost like looking at a <SOUND:HINT>different",
-                "person!"
+                "Er sieht fast schon wie eine ganz <SOUND:HINT>andere",
+                "Person aus!"
               ],
               "Type": 0,
               "Position": 0
@@ -42093,9 +41981,9 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Well, I guess he wanted to dress up",
-                "for court, and he wouldn't want to get",
-                "this nice outfit dirty by working in it...)"
+                "<SOUND:0><C>(Ich schätze, er wollte sich für das Gericht",
+                "fein machen und seine vornehme Kleidung",
+                "nicht bei der Arbeit verdrecken...)"
               ],
               "Type": 0,
               "Position": 0
@@ -42103,7 +41991,7 @@
             {
               "Name": "DRAGMIRE70",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Quiet, Defence!"
+                "<SOUND:EXPLOSION>Ruhe, Verteidigung!"
               ],
               "Type": 0,
               "Position": 0
@@ -42111,8 +41999,8 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "Witness!<PAUSE:5> State your name and",
-                "occupation."
+                "Zeuge!<PAUSE:5> Nennen Sie dem Gericht Ihren",
+                "Namen und Ihren Beruf!"
               ],
               "Type": 0,
               "Position": 0
@@ -42120,8 +42008,8 @@
             {
               "Name": "INGO10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Your Honour!<DC><PAUSE:5> ",
-                "<SOUND:DON><DI>Great honourable prosecutor!"
+                "<SOUND:WHAP><DI>Euer Ehren!<DC><PAUSE:5> ",
+                "<SOUND:DON><DI>Ehrwürdiger Herr Staatsanwalt!"
               ],
               "Type": 0,
               "Position": 0
@@ -42129,8 +42017,8 @@
             {
               "Name": "INGO20",
               "MessageTextLines": [
-                "My name is Ingo!",
-                "<SOUND:WHAP>I mind Lon Lon Ranch!"
+                "Mein Name ist Basil!",
+                "<SOUND:WHAP>Ich kümmere mich um die Lon Lon-Farm!"
               ],
               "Type": 0,
               "Position": 0
@@ -42138,7 +42026,8 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "<SOUND:HINT>\"Mind\"?<PAUSE:5> What does that entail, exactly?"
+                "<SOUND:HINT>Sie \"kümmern sich darum\"?<PAUSE:5>",
+                "Und was genau bedeutet das?"
               ],
               "Type": 0,
               "Position": 0
@@ -42146,12 +42035,11 @@
             {
               "Name": "INGO30",
               "MessageTextLines": [
-                "Ah, I'm mostly there to work on the",
-                "structures and equipment.",
+                "Nun, in erster Linie arbeite ich an den",
+                "Gebäuden und Arbeitsgeräten.",
                 "<NEW_BOX>",
-                "The owner and his daughter are the",
-                "ones who tend to the animals and take",
-                "care of orders."
+                "Der Besitzer und seine Tochter verpflegen",
+                "die Farmtiere und bearbeiten Bestellungen."
               ],
               "Type": 0,
               "Position": 0
@@ -42159,8 +42047,8 @@
             {
               "Name": "DRAGMIRE90",
               "MessageTextLines": [
-                "How long have you been working at",
-                "the ranch?"
+                "Wie lange arbeiten Sie schon auf",
+                "der Farm?"
               ],
               "Type": 0,
               "Position": 0
@@ -42168,7 +42056,8 @@
             {
               "Name": "INGO50",
               "MessageTextLines": [
-                "It'll be several years at this point."
+                "Es dürften inzwischen schon einige",
+                "Jahre sein."
               ],
               "Type": 0,
               "Position": 0
@@ -42176,9 +42065,9 @@
             {
               "Name": "INGO60",
               "MessageTextLines": [
-                "There have been others who came",
-                "and went, but I, Ingo, have",
-                "persevered through all the hardships!"
+                "Andere Arbeiter kamen und gingen,",
+                "doch ich, Basil, blieb über all die",
+                "Strapazen hinweg beständig!"
               ],
               "Type": 0,
               "Position": 0
@@ -42186,7 +42075,8 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "Sounds like he wants a medal for it..."
+                "Klingt, als ob er dafür eine Auszeichnung",
+                "erwartet..."
               ],
               "Type": 0,
               "Position": 0
@@ -42194,9 +42084,9 @@
             {
               "Name": "MALON40",
               "MessageTextLines": [
-                "Well, he does get a bit pompous at",
-                "times, but Mr. Ingo really is a great",
-                "help!"
+                "Er plustert sich zwar manchmal ganz",
+                "schön auf, aber Herr Basil ist uns wirklich",
+                "eine große Hilfe!"
               ],
               "Type": 0,
               "Position": 0
@@ -42204,7 +42094,8 @@
             {
               "Name": "MALON50",
               "MessageTextLines": [
-                "He built the ranch's silo singlehandedly!"
+                "Er hat unser Silo komplett alleine",
+                "aufgebaut!"
               ],
               "Type": 0,
               "Position": 0
@@ -42212,7 +42103,7 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "Whoa. That's some dedication."
+                "Wow. Das zeugt von Hingabe."
               ],
               "Type": 0,
               "Position": 0
@@ -42220,10 +42111,10 @@
             {
               "Name": "DRAGMIRE100",
               "MessageTextLines": [
-                "Very well.<PAUSE:3> Given that you're clearly",
-                "an important employee, you are privy",
-                "to some inside information, is that",
-                "correct?"
+                "Nun gut.<PAUSE:3> Da es sich bei Ihnen offenbar",
+                "um einen wichtigen Arbeiter handelt,",
+                "sind Sie sicherlich auch mit internen",
+                "Angelegenheiten vertraut."
               ],
               "Type": 0,
               "Position": 0
@@ -42231,9 +42122,9 @@
             {
               "Name": "INGO70",
               "MessageTextLines": [
-                "Yes. The ranch owner shared all the",
-                "big plans with me.<PAUSE:5> He trusted me",
-                "<SOUND:HINT>implicitly."
+                "Gewiss. Der Besitzer hat seine wichtigen",
+                "Entscheidungen stets mit mir geteilt.<PAUSE:5>",
+                "Er hat mir <SOUND:HINT>bedingungslos vertraut."
               ],
               "Type": 0,
               "Position": 0
@@ -42241,8 +42132,8 @@
             {
               "Name": "INGO80",
               "MessageTextLines": [
-                "He used to say that we're like a big",
-                "family."
+                "Er sagte immer, dass wir wie eine große",
+                "Familie sind."
               ],
               "Type": 0,
               "Position": 0
@@ -42250,7 +42141,7 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "That sounds lovely."
+                "Das hört sich doch entzückend an."
               ],
               "Type": 0,
               "Position": 0
@@ -42258,9 +42149,9 @@
             {
               "Name": "LINK60",
               "MessageTextLines": [
-                "<SOUND:0><C>(That sounds like a red flag that",
-                "you're gonna be getting loads of",
-                "unpaid overtime.)"
+                "<SOUND:0><C>(Das hört sich an, als hätte man einen",
+                "Haufen an unbezahlter Überzeit zu",
+                "erwarten.)"
               ],
               "Type": 0,
               "Position": 0
@@ -42268,9 +42159,9 @@
             {
               "Name": "DRAGMIRE110",
               "MessageTextLines": [
-                "Evidently, not every member of your",
-                "so-called family felt the same way,",
-                "though, did they?"
+                "Offensichtlich hat nicht jedes Mitglied",
+                "eurer sogenannten Familie diese Ansicht",
+                "geteilt, nicht wahr?"
               ],
               "Type": 0,
               "Position": 0
@@ -42278,7 +42169,8 @@
             {
               "Name": "INGO90",
               "MessageTextLines": [
-                "It hurts to do this, but I have no choice."
+                "So sehr es mich auch schmerzt, ich",
+                "habe keine Wahl."
               ],
               "Type": 0,
               "Position": 0
@@ -42286,7 +42178,8 @@
             {
               "Name": "INGO100",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Hear my story, honourable court of law!<SQUARE>"
+                "<SOUND:WHAP><DI>Verehrtes Gericht, höret, was ich zu",
+                "sagen habe!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -56690,9 +56583,7 @@
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_AnimateBg"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -57334,15 +57225,9 @@
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_SetGoddessType"
-          },
-          {
-            "FuncName": "NpcM_TextureAnimate"
-          },
-          {
-            "FuncName": "NpcM_YOsscillate"
-          }
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -57657,15 +57542,9 @@
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_DrawConclusion"
-          },
-          {
-            "FuncName": "NpcM_Init"
-          },
-          {
-            "FuncName": "NpcM_TextureAnimate"
-          }
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -59594,9 +59473,7 @@
           "*/"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_Is50Hz"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -60054,15 +59931,9 @@
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_DoMoveRotAxis"
-          },
-          {
-            "FuncName": "NpcM_FlapWing"
-          },
-          {
-            "FuncName": "NpcM_GetCuccoFlySpeed"
-          }
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -62126,12 +61997,8 @@
           "*/"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_GetPlatform"
-          },
-          {
-            "FuncName": "NpcM_GetSkipTpak"
-          }
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -62710,8 +62577,8 @@
           "    Gfx* gfxRef;",
           "    gfxRef = POLY_OPA_DISP;",
           "    gfx = Graph_GfxPlusOne(gfxRef);",
-          "    gSPDisplayList(OVERLAY_DISP++, gfx);        ",
-          "    ",
+          "    gSPDisplayList(OVERLAY_DISP++, gfx);",
+          "",
           "    curFrame++;",
           "",
           "    if (npc->scriptVars[0] != 0)",
@@ -62720,20 +62587,18 @@
           "        Math_ApproachS(&alpha, 0, 1, 25);",
           "",
           "    u8* offset = (u8*)OFFSET_AUTOSAVE_ICON;",
-          "    Draw2DScaled(CI8_Setup39, OBJECT_GAMEPLAY_KEEP, play, &gfx,    ",
+          "    Draw2DScaled(CI8_Setup39, OBJECT_GAMEPLAY_KEEP, play, &gfx,",
           "                AUTOSAVE_ICON_POSX - (SAVE_WIDESCREEN ? 8 : 0), AUTOSAVE_ICON_POSY,",
-          "                offset + 0x110 + (0x400 * (curFrame % 19)), offset,                      ",
+          "                offset + 0x110 + (0x400 * (curFrame % 19)), offset,",
           "                AUTOSAVE_ICON_X, AUTOSAVE_ICON_Y, 32, 32, alpha);",
-          "                    ",
+          "",
           "    gSPEndDisplayList(gfx++);",
           "    Graph_BranchDlist(gfxRef, gfx);",
-          "    POLY_OPA_DISP = gfx;  ",
+          "    POLY_OPA_DISP = gfx;",
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_DrawSavingIcon"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -66684,18 +66549,10 @@
           ""
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_GetSeqio"
-          },
-          {
-            "FuncName": "NpcM_Is50Hz"
-          },
-          {
-            "FuncName": "NpcM_PlayRupeeSFXTransposed"
-          },
-          {
-            "FuncName": "NpcM_SetSeqio"
-          }
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -67115,24 +66972,22 @@
           "            int decSize = (compBuf->decSize + 31) & ~31;",
           "            roomObject = ZeldaArena_Malloc(decSize);",
           "            Yaz0_DecompressImpl(compBuf, roomObject);",
-          "            ZeldaArena_Free(comprRoomObject);        ",
+          "            ZeldaArena_Free(comprRoomObject);",
           "        }",
           "        else",
           "            roomObject = comprRoomObject;",
-          "            ",
+          "",
           "        for (int i = 0; i < npc->numExDLists; i++)",
           "        {",
           "            npc->extraDLists[i].fileStart = (u32)roomObject;",
           "            npc->extraDLists[i].objectId = OBJECT_RAM;",
-          "        } ",
-          "    */       ",
+          "        }",
+          "    */",
           "}",
           ""
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_Setup"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -68770,6 +68625,8 @@
                 "",
                 "<Shift:180>Professional Gopnik",
                 "",
+                "<Shift:180>Jodocus",
+                "",
                 "<PERSISTENT>"
               ],
               "Type": 6,
@@ -69530,24 +69387,24 @@
           "",
           "        if (CurLoadedMsg[i] != textIds[i] && textIds[i] >= 0)",
           "        {",
-          "            TextOperation(play, NULL, NULL, ",
-          "                          COLOR_BLACK, COLOR_BLACK, ",
-          "                          0, 0, ",
-          "                          msg, ",
-          "                          x, y, ",
-          "                          0, 0, ",
+          "            TextOperation(play, NULL, NULL,",
+          "                          COLOR_BLACK, COLOR_BLACK,",
+          "                          0, 0,",
+          "                          msg,",
+          "                          x, y,",
+          "                          0, 0,",
           "                          textPositions[i], Scale, Scale, 0, false, OPERATION_SET_POSITIONS_CREDITS);",
-          "                          ",
+          "",
           "            CurLoadedMsg[i] = textIds[i];",
           "        }",
           "",
           "        if (textIds[i] >= 0 && Alpha[i] != 0)",
-          "            charDrawn &= TextOperation(play, NULL, &gfx, ",
-          "                                       COLOR_WHITE, COLOR_BLACK, ",
-          "                                       Alpha[i], Alpha[i], ",
-          "                                       msg, ",
-          "                                       x, y, ",
-          "                                       1, 1, ",
+          "            charDrawn &= TextOperation(play, NULL, &gfx,",
+          "                                       COLOR_WHITE, COLOR_BLACK,",
+          "                                       Alpha[i], Alpha[i],",
+          "                                       msg,",
+          "                                       x, y,",
+          "                                       1, 1,",
           "                                       textPositions[i], Scale, Scale, 0, false, OPERATION_DRAW_INDIVIDUAL_SHADOW);",
           "",
           "        if (textExplode)",
@@ -69586,14 +69443,14 @@
           "                      getSeqio(0), getSeqio(1), getSeqio(2), getSeqio(3),",
           "                      getSeqio(4), getSeqio(5), getSeqio(6), getSeqio(7));",
           "",
-          "    TextOperation(play, NULL, &gfx, ",
-          "                  COLOR_WHITE, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  text, ",
-          "                  12, 12, ",
-          "                  1, 1, ",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  text,",
+          "                  12, 12,",
+          "                  1, 1,",
           "                  NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);",
-          "                  ",
+          "",
           "    *gfxp = gfx;",
           "}",
           "",
@@ -69640,48 +69497,20 @@
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_CreditsDraw"
-          },
-          {
-            "FuncName": "NpcM_DestroyCredits"
-          },
-          {
-            "FuncName": "NpcM_DrawCreditsText"
-          },
-          {
-            "FuncName": "NpcM_DrawDebug"
-          },
-          {
-            "FuncName": "NpcM_DrawLogo"
-          },
-          {
-            "FuncName": "NpcM_ExplodeText"
-          },
-          {
-            "FuncName": "NpcM_FadeAlphaIn"
-          },
-          {
-            "FuncName": "NpcM_FadeAlphaOut"
-          },
-          {
-            "FuncName": "NpcM_GetPlatform"
-          },
-          {
-            "FuncName": "NpcM_GetSeqio"
-          },
-          {
-            "FuncName": "NpcM_GetSkipTpak"
-          },
-          {
-            "FuncName": "NpcM_InitCredits"
-          },
-          {
-            "FuncName": "NpcM_Is50Hz"
-          },
-          {
-            "FuncName": "NpcM_SetSeqio"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -79430,7 +79259,7 @@
                 "<NEW_BOX>",
                 "Möchtest du fortfahren?",
                 "<G><TWO_CHOICES>",
-                "Jap!",
+                "Jap",
                 "Kehre zurück zum Titelbildschirm"
               ],
               "Type": 0,
@@ -79518,10 +79347,10 @@
             {
               "Name": "NoThiefContinue",
               "MessageTextLines": [
-                "No saves are marked as THIEF. Continue",
-                "anyway? (Save in slot $ will be used.)",
-                "<TWO_CHOICES><G>Yes",
-                "No<W>"
+                "Kein DIEB-Spielstand gefunden. Trotzdem ",
+                "fortfahren? (Spiel $ wird verwendet.)",
+                "<TWO_CHOICES><G>Ja",
+                "Nein"
               ],
               "Type": 1,
               "Position": 2
@@ -79529,9 +79358,10 @@
             {
               "Name": "NoThiefNoSave",
               "MessageTextLines": [
-                "Kein DIEB-Spielstand gefunden. Trotzdem fortfahren? (Standard wird verwendet.)",
-                "<TWO_CHOICES><G>Yes",
-                "No<W>"
+                "Kein DIEB-Spielstand gefunden. Trotzdem ",
+                "fortfahren? (Standards werden verwendet.)",
+                "<TWO_CHOICES><G>Ja",
+                "Nein"
               ],
               "Type": 1,
               "Position": 2
@@ -79685,24 +79515,12 @@
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_FadeInPartial"
-          },
-          {
-            "FuncName": "NpcM_GetLAData"
-          },
-          {
-            "FuncName": "NpcM_OverwriteWithLAOGName"
-          },
-          {
-            "FuncName": "NpcM_OverwriteWithLASlot"
-          },
-          {
-            "FuncName": "NpcM_SetDefaultData"
-          },
-          {
-            "FuncName": "NpcM_SpawnTransferPak"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -80661,9 +80479,7 @@
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_SetLimbsSpecial"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -81433,15 +81249,9 @@
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_DoModelTalkAnim"
-          },
-          {
-            "FuncName": "NpcM_OverrideAnimationJoints"
-          },
-          {
-            "FuncName": "NpcM_PositionLight"
-          }
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -81908,12 +81718,8 @@
           ""
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_DoModelTalkAnim"
-          },
-          {
-            "FuncName": "NpcM_InterpolateBonesForScratchAnim"
-          }
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -83949,18 +83755,10 @@
           ""
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_EyesClosingWipe"
-          },
-          {
-            "FuncName": "NpcM_FadeInPartial"
-          },
-          {
-            "FuncName": "NpcM_OverwriteWithLAOGName"
-          },
-          {
-            "FuncName": "NpcM_OverwriteWithLASlot"
-          }
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -84951,9 +84749,7 @@
           "#include <npcmaker/npc_maker_types.h>"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_OverwriteWithTunicColor"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -89689,9 +89485,7 @@
           "*/"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_OverwriteWithTunicColor"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -94658,9 +94452,7 @@
           "#include <npcmaker/npc_maker_types.h>"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_OverwriteWithTunicColor"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -95008,7 +94800,7 @@
             "    stop sfx NA_SE_EN_GANON_ATTACK_DEMO",
             "    play sfx_global NA_SE_IT_DM_FLYING_GOD_DASH",
             "",
-            "    while (ROTATION_DIST != 0)",
+            "while ROTATION_DIST != 0",
             "        ROTATION_DIST -= 10",
             "        await frames 0",
             "    endwhile",
@@ -95544,19 +95336,19 @@
         ],
         "Functions": [
           {
-            "FuncName": "NpcM_ControlGoddesses"
+            "Symbol": "NpcM_ControlGoddesses"
           },
           {
-            "FuncName": "NpcM_GetSteps"
+            "Symbol": "NpcM_GetSteps"
           },
           {
-            "FuncName": "NpcM_GetStepsRotPoint"
+            "Symbol": "NpcM_GetStepsRotPoint"
           },
           {
-            "FuncName": "NpcM_MovePos"
+            "Symbol": "NpcM_MovePos"
           },
           {
-            "FuncName": "NpcM_MoveRotPoint"
+            "Symbol": "NpcM_MoveRotPoint"
           }
         ],
         "FuncsRunWhen": [
@@ -96361,21 +96153,11 @@
           "*/"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_ControlGoddesses"
-          },
-          {
-            "FuncName": "NpcM_GetSteps"
-          },
-          {
-            "FuncName": "NpcM_GetStepsRotPoint"
-          },
-          {
-            "FuncName": "NpcM_MovePos"
-          },
-          {
-            "FuncName": "NpcM_MoveRotPoint"
-          }
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -99256,24 +99038,12 @@
           ""
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_CheckThiefRemovalResult"
-          },
-          {
-            "FuncName": "NpcM_FadeInPartial"
-          },
-          {
-            "FuncName": "NpcM_GetNameIdx"
-          },
-          {
-            "FuncName": "NpcM_OverwriteWithLAOGName"
-          },
-          {
-            "FuncName": "NpcM_OverwriteWithLASlot"
-          },
-          {
-            "FuncName": "NpcM_SpawnTransferPakRemoveThiefMoniker"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -99784,12 +99554,12 @@
           "    if (textId >= 0)",
           "    {",
           "        Math_ApproachS(&Alpha, 255, 1, 5);",
-          "        TextOperation(play, NULL, &gfx, ",
-          "                      COLOR_WHITE, COLOR_BLACK, ",
-          "                      Alpha, Alpha, ",
-          "                      npc->GetInternalMsgPtrFunc(npc, play, textId), ",
-          "                      20, 48, ",
-          "                      1, 1, ",
+          "        TextOperation(play, NULL, &gfx,",
+          "                      COLOR_WHITE, COLOR_BLACK,",
+          "                      Alpha, Alpha,",
+          "                      npc->GetInternalMsgPtrFunc(npc, play, textId),",
+          "                      20, 48,",
+          "                      1, 1,",
           "                      NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_CREDITS_SHADOW);",
           "    }",
           "",
@@ -99802,18 +99572,10 @@
           ""
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_DrawTheEnd"
-          },
-          {
-            "FuncName": "NpcM_FadeInPartial"
-          },
-          {
-            "FuncName": "NpcM_OverwriteWithLAOGName"
-          },
-          {
-            "FuncName": "NpcM_OverwriteWithLASlot"
-          }
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -100749,15 +100511,9 @@
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_Destroy"
-          },
-          {
-            "FuncName": "NpcM_Draw"
-          },
-          {
-            "FuncName": "NpcM_Setup"
-          }
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -101041,12 +100797,8 @@
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_LogFrameBuf"
-          },
-          {
-            "FuncName": "NpcM_StartPrerenderSetup"
-          }
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -105070,7 +104822,7 @@
           "",
           "int msgRulesStart = 0;",
           "int msgBtnStart = 0;",
-          "int msgFiguresStart = 0; ",
+          "int msgFiguresStart = 0;",
           "int msgResultsStart = 0;",
           "",
           "u8 dontDrawCards = 0;",
@@ -105221,7 +104973,7 @@
           "    msgRulesStart = (int)idRulesStart - 0x8000;",
           "    msgBtnStart = (int)idBtnStart - 0x8000;",
           "    msgFiguresStart = (int)idFiguresStart - 0x8000;",
-          "    msgResultsStart = (int)idResultsStart - 0x8000;     ",
+          "    msgResultsStart = (int)idResultsStart - 0x8000;",
           "}",
           "",
           "void GameSetNextState(int WaitFrames, int NextState)",
@@ -105269,7 +105021,7 @@
           "            case 4: offs = 2; break;",
           "            default: offs = 0; break;",
           "        }",
-          "    }    ",
+          "    }",
           "",
           "    return offs;",
           "}",
@@ -105294,13 +105046,13 @@
           "        float yoffs = 2 * sinf(btnHover == 2 ? play->gameplayFrames : 0);",
           "",
           "        Draw2DScaled(RGBA16_Setup39, OBJECT_GRAPHICS_CASINO, play, &gfx, RUPEE_ICON_POS_X, RUPEE_ICON_POS_Y + yoffs, (u8*)RUPEEICON_OFFS, NULL, RUPEEICONX, RUPEEICONY, RUPEEICONDRAWX, RUPEEICONDRAWY, 255);",
-          "        TextOperation(play, NULL, &gfx, ",
-          "                      COLOR_WHITE, COLOR_BLACK, ",
-          "                      255, 255, ",
+          "        TextOperation(play, NULL, &gfx,",
+          "                      COLOR_WHITE, COLOR_BLACK,",
+          "                      255, 255,",
           "                      scoreBuf,",
-          "                      RUPEE_ICON_POS_X + (RUPEEICONDRAWX / 2) + 4, ",
-          "                      RUPEE_ICON_POS_Y - (RUPEEICONDRAWY / 4), ",
-          "                      1, 1, ",
+          "                      RUPEE_ICON_POS_X + (RUPEEICONDRAWX / 2) + 4,",
+          "                      RUPEE_ICON_POS_Y - (RUPEEICONDRAWY / 4),",
+          "                      1, 1,",
           "                      NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "        // Draw Hands",
@@ -105310,27 +105062,27 @@
           "            {",
           "                //hacky way to fix positioning due to scaling innacuracies;",
           "                int offs = GetWidescreenOffset(i);",
-          "                ",
+          "",
           "                DrawCard(play, &gfx, handIngo[i], ingoCardFrames[i], Ingo_CardPos[i].x - offs, Ingo_CardPos[i].y, CARDX, CARDY);",
           "                DrawCard(play, &gfx, handPlayer[i], playerCardFrames[i], Player_CardPos[i].x - offs, Player_CardPos[i].y, CARDX, CARDY);",
           "            }",
           "        }",
           "",
-          "        ",
+          "",
           "        int rupeeGraphics = (betRupees <= 5 ? betRupees : 1);",
           "        int width = rupeeGraphics * (BET_RUPEE_DRAWX);",
           "        width += (2 * (rupeeGraphics - 1));",
           "        char* numRupees = \"\\xFF\\xFF\\xFF\\xFF\\x00\";",
-          "        ",
+          "",
           "        if (betRupees > 5)",
           "        {",
           "            sprintf(numRupees, \"%d\", betRupees);",
-          "            width += TextOperation(NULL, NULL, NULL, ",
-          "                                   COLOR_WHITE, COLOR_WHITE, ",
-          "                                   0, 0, ",
-          "                                   numRupees, ",
-          "                                   0, 0, ",
-          "                                   0, 0, ",
+          "            width += TextOperation(NULL, NULL, NULL,",
+          "                                   COLOR_WHITE, COLOR_WHITE,",
+          "                                   0, 0,",
+          "                                   numRupees,",
+          "                                   0, 0,",
+          "                                   0, 0,",
           "                                   NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_EVALUATE_LINE_XSIZE);",
           "        }",
           "",
@@ -105345,14 +105097,14 @@
           "",
           "        if (betRupees > 5)",
           "        {",
-          "            TextOperation(play, NULL, &gfx, ",
-          "                          COLOR_WHITE, COLOR_BLACK, ",
-          "                          255, 255, ",
-          "                          numRupees, ",
-          "                          CenteredPosX + BET_RUPEE_DRAWX, ",
-          "                          BET_RUPEE_ICON_POS_Y_PLAYER - 5, ",
-          "                          1, 1, ",
-          "                          NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);            ",
+          "            TextOperation(play, NULL, &gfx,",
+          "                          COLOR_WHITE, COLOR_BLACK,",
+          "                          255, 255,",
+          "                          numRupees,",
+          "                          CenteredPosX + BET_RUPEE_DRAWX,",
+          "                          BET_RUPEE_ICON_POS_Y_PLAYER - 5,",
+          "                          1, 1,",
+          "                          NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);",
           "        }",
           "",
           "        rupeeGraphics = (betRupeesIngo <= 5 ? betRupeesIngo : 1);",
@@ -105363,12 +105115,12 @@
           "        if (betRupeesIngo > 5)",
           "        {",
           "            sprintf(numRupeesIngo, \"%d\", betRupeesIngo);",
-          "            width += TextOperation(NULL, NULL, NULL, ",
-          "                                   COLOR_WHITE, COLOR_WHITE, ",
-          "                                   0, 0, ",
-          "                                   numRupees, ",
-          "                                   0, 0, ",
-          "                                   0, 0, ",
+          "            width += TextOperation(NULL, NULL, NULL,",
+          "                                   COLOR_WHITE, COLOR_WHITE,",
+          "                                   0, 0,",
+          "                                   numRupees,",
+          "                                   0, 0,",
+          "                                   0, 0,",
           "                                   NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_EVALUATE_LINE_XSIZE);",
           "        }",
           "",
@@ -105382,14 +105134,14 @@
           "",
           "        if (betRupeesIngo > 5)",
           "        {",
-          "            TextOperation(play, NULL, &gfx, ",
-          "                          COLOR_WHITE, COLOR_BLACK, ",
+          "            TextOperation(play, NULL, &gfx,",
+          "                          COLOR_WHITE, COLOR_BLACK,",
           "                          255, 255,",
-          "                          numRupeesIngo, ",
-          "                          CenteredPosX + BET_RUPEE_DRAWX, ",
-          "                          BET_RUPEE_ICON_POS_Y_INGO - 5, ",
-          "                          1, 1, ",
-          "                          NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);             ",
+          "                          numRupeesIngo,",
+          "                          CenteredPosX + BET_RUPEE_DRAWX,",
+          "                          BET_RUPEE_ICON_POS_Y_INGO - 5,",
+          "                          1, 1,",
+          "                          NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);",
           "        }",
           "",
           "        // Draw Selection Button",
@@ -105403,13 +105155,13 @@
           "            Color_RGB8 cl = btnHover == 1 ? COLOR_RED : COLOR_WHITE;",
           "",
           "            Draw2D(RGBA16_Setup39, OBJECT_GRAPHICS_CASINO, play, &gfx, DRAW_BUTTON_POSX, DRAW_BUTTON_POSY, (u8*)btnOffset, NULL, DRAW_BUTTON_WIDTH, DRAW_BUTTON_HEIGHT, 255);",
-          "            ",
-          "            TextOperation(play, NULL, &gfx, ",
-          "                          cl, COLOR_BLACK, ",
+          "",
+          "            TextOperation(play, NULL, &gfx,",
+          "                          cl, COLOR_BLACK,",
           "                          255, 255,",
-          "                          selectionBtnText, ",
-          "                          posX, DRAW_BUTTON_POSY - 8, ",
-          "                          1, 1, ",
+          "                          selectionBtnText,",
+          "                          posX, DRAW_BUTTON_POSY - 8,",
+          "                          1, 1,",
           "                          NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);",
           "        }",
           "",
@@ -105421,30 +105173,30 @@
           "            void* resultPlayer = npc->GetInternalMsgPtrFunc(npc, play, resultFigurePlayer + msgFiguresStart);",
           "",
           "            s32 posX = GetStringCenterRelativeToCenterX(resultsText, 100, DRAW_BUTTON_POSX, DRAW_BUTTON_WIDTH);",
-          "            TextOperation(play, NULL, &gfx, ",
-          "                          COLOR_WHITE, COLOR_BLACK, ",
-          "                          255, 255, ",
-          "                          resultsText, ",
-          "                          posX, DRAW_BUTTON_POSY - 8, ",
-          "                          1, 1, ",
+          "            TextOperation(play, NULL, &gfx,",
+          "                          COLOR_WHITE, COLOR_BLACK,",
+          "                          255, 255,",
+          "                          resultsText,",
+          "                          posX, DRAW_BUTTON_POSY - 8,",
+          "                          1, 1,",
           "                          NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "            posX = GetStringCenterRelativeToCenterX(resultIngo, 100, DRAW_BUTTON_POSX, DRAW_BUTTON_WIDTH);",
-          "            TextOperation(play, NULL, &gfx, ",
-          "                          COLOR_GREEN, COLOR_BLACK, ",
-          "                          255, 255, ",
-          "                          resultIngo, ",
-          "                          posX, DRAW_BUTTON_POSY - 70, ",
-          "                          1, 1, ",
+          "            TextOperation(play, NULL, &gfx,",
+          "                          COLOR_GREEN, COLOR_BLACK,",
+          "                          255, 255,",
+          "                          resultIngo,",
+          "                          posX, DRAW_BUTTON_POSY - 70,",
+          "                          1, 1,",
           "                          NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "            posX = GetStringCenterRelativeToCenterX(resultPlayer, 100, DRAW_BUTTON_POSX, DRAW_BUTTON_WIDTH);",
-          "            TextOperation(play, NULL, &gfx, ",
-          "                          COLOR_GREEN, COLOR_BLACK, ",
-          "                          255, 255, ",
-          "                          resultPlayer, ",
-          "                          posX, DRAW_BUTTON_POSY + 52, ",
-          "                          1, 1, ",
+          "            TextOperation(play, NULL, &gfx,",
+          "                          COLOR_GREEN, COLOR_BLACK,",
+          "                          255, 255,",
+          "                          resultPlayer,",
+          "                          posX, DRAW_BUTTON_POSY + 52,",
+          "                          1, 1,",
           "                          NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);",
           "        }",
           "",
@@ -105466,12 +105218,12 @@
           "            Math_ApproachS(&curMsgAlpha, 255, 1, 5);",
           "",
           "        void* pauseText = npc->GetInternalMsgPtrFunc(npc, play, msgRulesStart + curMsg);",
-          "        TextOperation(play, NULL, &gfx, ",
-          "                        COLOR_WHITE, COLOR_BLACK, ",
-          "                        curMsgAlpha, curMsgAlpha, ",
-          "                        pauseText, ",
-          "                        30, 215, ",
-          "                        1, 1, ",
+          "        TextOperation(play, NULL, &gfx,",
+          "                        COLOR_WHITE, COLOR_BLACK,",
+          "                        curMsgAlpha, curMsgAlpha,",
+          "                        pauseText,",
+          "                        30, 215,",
+          "                        1, 1,",
           "                        NULL, 65, 65, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "        // Draw the pointer",
@@ -105483,25 +105235,25 @@
           "",
           "        // (B) Back",
           "        void* backText = npc->GetInternalMsgPtrFunc(npc, play, msgRulesStart + 5);",
-          "        TextOperation(play, NULL, &gfx, ",
-          "                        COLOR_WHITE, COLOR_BLACK, ",
-          "                        curMsgAlpha, curMsgAlpha, ",
-          "                        backText, ",
-          "                        RULES_FRAME_POSX + RULES_FRAME_DRAWWIDTH / 2 - GetTextPxWidth(backText, TEXT_SCALE) - 20, ",
-          "                        RULES_FRAME_POSY + RULES_FRAME_DRAWHEIGHT / 2 - 30, ",
-          "                        1, 1, ",
+          "        TextOperation(play, NULL, &gfx,",
+          "                        COLOR_WHITE, COLOR_BLACK,",
+          "                        curMsgAlpha, curMsgAlpha,",
+          "                        backText,",
+          "                        RULES_FRAME_POSX + RULES_FRAME_DRAWWIDTH / 2 - GetTextPxWidth(backText, TEXT_SCALE) - 20,",
+          "                        RULES_FRAME_POSY + RULES_FRAME_DRAWHEIGHT / 2 - 30,",
+          "                        1, 1,",
           "                        NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "        // RULES header",
           "        void* rulesHeader = npc->GetInternalMsgPtrFunc(npc, play, msgRulesStart + 2);",
           "        int posX = GetStringCenterRelativeToCenterX(rulesHeader, 100, RULES_FRAME_POSX, RULES_FRAME_DRAWWIDTH);",
-          "        TextOperation(play, NULL, &gfx, ",
-          "                        COLOR_RED, COLOR_BLACK, ",
-          "                        255, 255, ",
-          "                        rulesHeader, ",
-          "                        posX + 30, ",
-          "                        RULES_FRAME_POSY - RULES_FRAME_DRAWHEIGHT / 2 + 17, ",
-          "                        1, 1, ",
+          "        TextOperation(play, NULL, &gfx,",
+          "                        COLOR_RED, COLOR_BLACK,",
+          "                        255, 255,",
+          "                        rulesHeader,",
+          "                        posX + 30,",
+          "                        RULES_FRAME_POSY - RULES_FRAME_DRAWHEIGHT / 2 + 17,",
+          "                        1, 1,",
           "                        NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "        int rPosX;",
@@ -105535,11 +105287,11 @@
           "            {",
           "                rPosX += CARDX / 2 + 2;",
           "",
-          "                TextOperation(play, NULL, &gfx, ",
+          "                TextOperation(play, NULL, &gfx,",
           "                             COLOR_WHITE, COLOR_BLACK,",
           "                             255, 255, \">\",",
           "                             rPosX - 8, rPosY - 8,",
-          "                             1, 1, ",
+          "                             1, 1,",
           "                             NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "                rPosX += 12;",
@@ -105551,21 +105303,21 @@
           "        void* rules1 = npc->GetInternalMsgPtrFunc(npc, play, msgRulesStart + 3);",
           "        void* rules2 = npc->GetInternalMsgPtrFunc(npc, play, msgRulesStart + 4);",
           "",
-          "        TextOperation(play, NULL, &gfx, ",
+          "        TextOperation(play, NULL, &gfx,",
           "                      COLOR_WHITE, COLOR_BLACK,",
-          "                      255, 255, ",
+          "                      255, 255,",
           "                      rules1,",
           "                      RULES_FRAME_POSX - 37,",
           "                      RULES_FRAME_POSY - RULES_FRAME_DRAWHEIGHT / 2,",
-          "                      1, 1, ",
+          "                      1, 1,",
           "                      NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);",
-          "        TextOperation(play, NULL, &gfx, ",
+          "        TextOperation(play, NULL, &gfx,",
           "                      COLOR_WHITE, COLOR_BLACK,",
-          "                      255, 255, ",
+          "                      255, 255,",
           "                      rules2,",
           "                      RULES_FRAME_POSX - 37,",
           "                      RULES_FRAME_POSY - RULES_FRAME_DRAWHEIGHT / 2,",
-          "                      1, 1, ",
+          "                      1, 1,",
           "                      NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);",
           "    }",
           "",
@@ -105788,13 +105540,13 @@
           "            int step = (betRupeesHeldCounter == 20 ? ((*SAVE_CASINORUPEES * 10) / 100) : 1);",
           "",
           "            if (step == 0)",
-          "                step = 1;            ",
+          "                step = 1;",
           "",
           "            if (CHECK_BTN_ANY(play->state.input[0].cur.button, BTN_A) || CHECK_BTN_ANY(play->state.input[mouseSlot].cur.button, BTN_A))",
           "            {",
           "                if (betRupees < (SAVE_INGOHINT ? 9999 : 5) && *SAVE_CASINORUPEES)",
           "                {",
-          "                    if (step > *SAVE_CASINORUPEES) ",
+          "                    if (step > *SAVE_CASINORUPEES)",
           "                        step = *SAVE_CASINORUPEES;",
           "",
           "                    (*SAVE_CASINORUPEES) -= step;",
@@ -105809,7 +105561,7 @@
           "            {",
           "                if (betRupees > 1)",
           "                {",
-          "                    if (step > betRupees - 1) ",
+          "                    if (step > betRupees - 1)",
           "                        step = betRupees - 1;",
           "",
           "                    (*SAVE_CASINORUPEES) += step;",
@@ -105829,7 +105581,7 @@
           "",
           "                if (!betRupeesFirstInput && betRupeesHeldCounter < 20)",
           "                    betRupeesHeldCounter += 1;",
-          "                    ",
+          "",
           "                betRupeesFirstInput = false;",
           "            }",
           "        }",
@@ -106314,7 +106066,7 @@
           "",
           "                int step = (playerScoreCount * 15) / 100;",
           "                if (step < 1) step = 1;",
-          "                ",
+          "",
           "                (*SAVE_CASINORUPEES) += step;",
           "",
           "                if (*SAVE_CASINORUPEES > 9999)",
@@ -106424,33 +106176,15 @@
           ""
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_Destroy"
-          },
-          {
-            "FuncName": "NpcM_DrawCasino"
-          },
-          {
-            "FuncName": "NpcM_GetSeqio"
-          },
-          {
-            "FuncName": "NpcM_Init"
-          },
-          {
-            "FuncName": "NpcM_IsLACaseUnlocked"
-          },
-          {
-            "FuncName": "NpcM_JumpToMsg"
-          },
-          {
-            "FuncName": "NpcM_SetSeqio"
-          },
-          {
-            "FuncName": "NpcM_Update"
-          },
-          {
-            "FuncName": "NpcM_UpdateCursor"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -107641,11 +107375,11 @@
           "    char* msg = en->GetInternalMsgPtrFunc(en, play, (int)msgId - 0x8000);",
           "",
           "    TextOperation(play, NULL, &gfx,",
-          "                  COLOR_RED, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  msg, ",
-          "                  80, 40, ",
-          "                  1, 1, ",
+          "                  COLOR_RED, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  msg,",
+          "                  80, 40,",
+          "                  1, 1,",
           "                  NULL, 145, 145, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "    gSPEndDisplayList(gfx++);",
@@ -107668,12 +107402,12 @@
           "    char* score = \"AAAAAAAAAAAAAAAAAAAAAAAAA\";",
           "    sprintf(score, \"TALON x %d\", TALONSTATE > 0 ? 0 : -1);",
           "",
-          "    TextOperation(play, NULL, &gfx, ",
-          "                  COLOR_WHITE, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  score, ",
-          "                  25 - (SAVE_WIDESCREEN ? 25 : 0), 10, ",
-          "                  1, 1, ",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  score,",
+          "                  25 - (SAVE_WIDESCREEN ? 25 : 0), 10,",
+          "                  1, 1,",
           "                  NULL, 85, 85, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "    if (TIME != 0 && TALONSTATE != -1)",
@@ -107681,11 +107415,11 @@
           "",
           "    sprintf(score, \"TIME: %d\", TIME / 100);",
           "",
-          "    TextOperation(play, NULL, &gfx, ",
-          "                  COLOR_WHITE, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  score, 240 + (SAVE_WIDESCREEN ? 25 : 0), 10, ",
-          "                  1, 1, ",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  score, 240 + (SAVE_WIDESCREEN ? 25 : 0), 10,",
+          "                  1, 1,",
           "                  NULL, 85, 85, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "    gSPEndDisplayList(gfx++);",
@@ -107720,13 +107454,13 @@
           "    Draw2D(IA8_Setup39, 125, play, &gfx, SCREEN_WIDTH / 2, 100, (u8*)0, NULL, 300, 129, 255);",
           "",
           "    char* msg = npc->GetInternalMsgPtrFunc(npc, play, (int)msgId - 0x8000);",
-          "    ",
+          "",
           "    TextOperation(play, NULL, &gfx,",
-          "                  COLOR_WHITE, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  msg, ",
-          "                  60, 190, ",
-          "                  1, 1, ",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  msg,",
+          "                  60, 190,",
+          "                  1, 1,",
           "                  NULL, 85, 85, 0, false, OPERATION_DRAW_SHADOW);",
           "",
           "    gSPEndDisplayList(gfx++);",
@@ -107754,33 +107488,15 @@
           ""
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_CourseClear"
-          },
-          {
-            "FuncName": "NpcM_DoMoveCam"
-          },
-          {
-            "FuncName": "NpcM_DrawLogo"
-          },
-          {
-            "FuncName": "NpcM_GetPlatform"
-          },
-          {
-            "FuncName": "NpcM_GetSkipTpak"
-          },
-          {
-            "FuncName": "NpcM_Init"
-          },
-          {
-            "FuncName": "NpcM_MovePlatforms"
-          },
-          {
-            "FuncName": "NpcM_Score"
-          },
-          {
-            "FuncName": "NpcM_SetMusicTempo"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -108926,30 +108642,14 @@
           ""
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_FadeIntoThinkingMusic"
-          },
-          {
-            "FuncName": "NpcM_FadeOutOfThinkingMusic"
-          },
-          {
-            "FuncName": "NpcM_MusicControllerExec"
-          },
-          {
-            "FuncName": "NpcM_MusicControllerInit"
-          },
-          {
-            "FuncName": "NpcM_SetMusicPitch"
-          },
-          {
-            "FuncName": "NpcM_SetMusicSequence"
-          },
-          {
-            "FuncName": "NpcM_SetMusicTempo"
-          },
-          {
-            "FuncName": "NpcM_SetMusicVolume"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -110268,29 +109968,29 @@
           "    void* msgData3 = npc->GetInternalMsgPtrFunc(npc, play, (int)msg3 - 0x8000);",
           "    void* msgData4 = npc->GetInternalMsgPtrFunc(npc, play, (int)msg4 - 0x8000);",
           "",
-          "    TextOperation(play, NULL, &gfx, ",
-          "                  COLOR_WHITE, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  msgData, ",
-          "                  28, 22, ",
-          "                  1, 1, ",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  msgData,",
+          "                  28, 22,",
+          "                  1, 1,",
           "                  NULL, 85, 85, 0, false, OPERATION_DRAW_CREDITS_SHADOW);",
           "",
-          "    TextOperation(play, NULL, &gfx, ",
-          "                  COLOR_WHITE, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  msgData3, ",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  msgData3,",
           "                  28, 55,",
-          "                  1, 1, ",
+          "                  1, 1,",
           "                  NULL, 65, 65, 0, false, OPERATION_DRAW_CREDITS_SHADOW);",
-          "                  ",
-          "    TextOperation(play, NULL, &gfx, ",
-          "                  COLOR_WHITE, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  msgData4, ",
+          "",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  msgData4,",
           "                  28, 55,",
-          "                  1, 1, ",
-          "                  NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_CREDITS_SHADOW);                  ",
+          "                  1, 1,",
+          "                  NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_CREDITS_SHADOW);",
           "",
           "    u8 toggleablesMsg[200];",
           "    bcopy(msgData2, &toggleablesMsg, 200);",
@@ -110323,15 +110023,15 @@
           "                toggleablesMsg[i] = on[i - antiAliasstartedAt];",
           "            else",
           "                toggleablesMsg[i] = off[i - antiAliasstartedAt];",
-          "        }        ",
+          "        }",
           "    }",
           "",
-          "    TextOperation(play, NULL, &gfx, ",
-          "                  COLOR_WHITE, COLOR_BLACK, ",
-          "                  255, 255, ",
-          "                  toggleablesMsg, ",
-          "                  28, 55, ",
-          "                  1, 1, ",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  toggleablesMsg,",
+          "                  28, 55,",
+          "                  1, 1,",
           "                  NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_CREDITS_SHADOW);",
           "",
           "    gSPEndDisplayList(gfx++);",
@@ -110341,42 +110041,18 @@
           ""
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_Destroy"
-          },
-          {
-            "FuncName": "NpcM_DrawBrightnessBars"
-          },
-          {
-            "FuncName": "NpcM_GetPlatform"
-          },
-          {
-            "FuncName": "NpcM_GetSkipTpak"
-          },
-          {
-            "FuncName": "NpcM_Init"
-          },
-          {
-            "FuncName": "NpcM_Is50Hz"
-          },
-          {
-            "FuncName": "NpcM_ScreenAdjust"
-          },
-          {
-            "FuncName": "NpcM_SetAudioSetting"
-          },
-          {
-            "FuncName": "NpcM_SetAutoPlaySetting"
-          },
-          {
-            "FuncName": "NpcM_SetCurAudio"
-          },
-          {
-            "FuncName": "NpcM_SetCurAutoPlay"
-          },
-          {
-            "FuncName": "NpcM_SetCurOption"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -111823,7 +111499,7 @@
           "the return type is valid.",
           "*/",
           "",
-          "typedef struct ",
+          "typedef struct",
           "{",
           "    u8 idx;",
           "    u8 progress;",
@@ -111834,7 +111510,7 @@
           "#define EXTRA_ZELDA 25",
           "#define EXTRA_THIEF 26",
           "",
-          "sSelectEntry SceneSelectData[] = ",
+          "sSelectEntry SceneSelectData[] =",
           "{",
           "    {",
           "        .idx = 1,",
@@ -111875,72 +111551,72 @@
           "    {",
           "        .idx = 10,",
           "        .progress = PROGRESS_COURT_ZELDA3,",
-          "    },    ",
+          "    },",
           "    {",
           "        .idx = 11,",
           "        .progress = PROGRESS_LOBBY_RECESS,",
-          "    },      ",
+          "    },",
           "    {",
           "        .idx = 12,",
           "        .progress = PROGRESS_COURT_INGOENTERS,",
-          "    },     ",
+          "    },",
           "    {",
           "        .idx = 13,",
           "        .progress = PROGRESS_COURT_INGO1,",
-          "    },     ",
+          "    },",
           "    {",
           "        .idx = 14,",
           "        .progress = PROGRESS_COURT_INGO2,",
-          "    },     ",
+          "    },",
           "    {",
           "        .idx = 15,",
           "        .progress = PROGRESS_UBER_THONK,",
-          "    },     ",
+          "    },",
           "    {",
           "        .idx = 16,",
           "        .progress = PROGRESS_INGO_PURSUIT2,",
-          "    },                       ",
+          "    },",
           "    {",
           "        .idx = 17,",
           "        .progress = PROGRESS_COURT_INGO3,",
-          "    },      ",
+          "    },",
           "    {",
           "        .idx = 18,",
           "        .progress = PROGRESS_DRAGMIRE_REBUTTAL,",
-          "    },          ",
+          "    },",
           "    {",
           "        .idx = 19,",
           "        .progress = PROGRESS_DRAGMIRE_REBUTTAL_AFTER,",
-          "    },              ",
+          "    },",
           "    {",
           "        .idx = 20,",
           "        .progress = PROGRESS_FLASHBACK,",
-          "    },          ",
+          "    },",
           "    {",
           "        .idx = 21,",
           "        .progress = PROGRESS_VERDICT,",
-          "    },          ",
+          "    },",
           "    {",
           "        .idx = 22,",
           "        .progress = PROGRESS_EPILOGUE,",
-          "    },               ",
+          "    },",
           "    {",
           "        .idx = 23,",
           "        .progress = PROGRESS_CREDITS,",
-          "    },    ",
+          "    },",
           "    {",
           "        .idx = EXTRA_TALONGAME,",
           "        .extraScene = (1 << 0),",
-          "    },   ",
+          "    },",
           "    {",
           "        .idx = EXTRA_ZELDA,",
           "        .extraScene = (1 << 1),",
-          "    }, ",
+          "    },",
           "    {",
           "        .idx = EXTRA_THIEF,",
           "        .progress = PROGRESS_EXTRA_THIEF_TRSPAKCHECK,",
           "        .extraScene = (1 << 2),",
-          "    },     ",
+          "    },",
           "};",
           "",
           "u8 numScenesVisible;",
@@ -111963,7 +111639,7 @@
           "",
           "    numScenesVisible = 0;",
           "    bzero(&scenesDisplayed, 30);",
-          "    ",
+          "",
           "    // Count the number of scenes that will be shown...",
           "    for (int i = 0; i < ARRAY_COUNT(SceneSelectData); i++)",
           "    {",
@@ -111973,7 +111649,7 @@
           "            {",
           "                if (numScenesVisible == 0)",
           "                    selectedScene = SceneSelectData[i].idx;",
-          "                ",
+          "",
           "                scenesDisplayed[numScenesVisible] = SceneSelectData[i].idx;",
           "                numScenesVisible++;",
           "            }",
@@ -111993,15 +111669,15 @@
           "",
           "void NpcM_SceneSelectUpdate(NpcMaker* npc, PlayState* play)",
           "{",
-          "    bool scrollInputMade = false;   ",
-          "    ",
+          "    bool scrollInputMade = false;",
+          "",
           "    if (inputPauseTimer)",
           "        firstInput = false;",
           "    else",
           "        firstInput = true;",
           "",
           "    if (inputPauseTimer)",
-          "        inputPauseTimer--; ",
+          "        inputPauseTimer--;",
           "",
           "    if (ABS(play->state.input[0].cur.stick_y) > 20 || CHECK_BTN_ANY(play->state.input[0].cur.button, BTN_DUP | BTN_DDOWN))",
           "        scrollInputMade = true;",
@@ -112010,15 +111686,15 @@
           "        CHECK_BTN_ALL(play->state.input[0].press.button, BTN_A))",
           "    {",
           "        sSelectEntry* selectedEntry = &SceneSelectData[0];",
-          "        ",
+          "",
           "        for (int i = 0; i < ARRAY_COUNT(SceneSelectData); i++)",
           "        {",
           "            if (SceneSelectData[i].idx == selectedScene)",
           "                selectedEntry = &SceneSelectData[i];",
           "        }",
-          "        ",
+          "",
           "        Audio_PlaySfxGeneral(NA_SE_SY_PIECE_OF_HEART, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb);",
-          "        ",
+          "",
           "        switch (selectedEntry->idx)",
           "        {",
           "            case EXTRA_TALONGAME:",
@@ -112028,8 +111704,8 @@
           "            }",
           "            case EXTRA_ZELDA:",
           "            {",
-          "                RESULT = 0x8002;     ",
-          "                break;      ",
+          "                RESULT = 0x8002;",
+          "                break;",
           "            }",
           "            default:",
           "            {",
@@ -112037,44 +111713,44 @@
           "                break;",
           "            }",
           "        }",
-          "    }                ",
+          "    }",
           "    else if (!inputPauseTimer && (CHECK_BTN_ALL(play->state.input[0].cur.button, BTN_DDOWN) || play->state.input[0].cur.stick_y <= -20))",
-          "    {        ",
+          "    {",
           "        u8 before = selectedSceneId;",
           "        selectedSceneId++;",
-          "        ",
+          "",
           "        if (selectedSceneId >= numScenesVisible)",
           "            selectedSceneId = 0;",
-          "        ",
+          "",
           "        selectedScene = scenesDisplayed[selectedSceneId];",
-          "        ",
+          "",
           "        if (before != selectedSceneId)",
-          "            Audio_PlaySfxGeneral(NA_SE_SY_FSEL_CURSOR, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb); ",
+          "            Audio_PlaySfxGeneral(NA_SE_SY_FSEL_CURSOR, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb);",
           "    }",
           "    else if (!inputPauseTimer && (CHECK_BTN_ALL(play->state.input[0].cur.button, BTN_DUP) || play->state.input[0].cur.stick_y >= 20))",
-          "    {        ",
+          "    {",
           "        u8 before = selectedSceneId;",
           "        selectedSceneId--;",
-          "        ",
+          "",
           "        if (selectedSceneId < 0)",
           "            selectedSceneId = numScenesVisible - 1;",
-          "        ",
+          "",
           "        selectedScene = scenesDisplayed[selectedSceneId];",
-          "        ",
+          "",
           "        if (before != selectedSceneId)",
-          "            Audio_PlaySfxGeneral(NA_SE_SY_FSEL_CURSOR, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb); ",
-          "    } ",
+          "            Audio_PlaySfxGeneral(NA_SE_SY_FSEL_CURSOR, &gSfxDefaultPos, 4, &gSfxDefaultFreqAndVolScale, &gSfxDefaultFreqAndVolScale, &gSfxDefaultReverb);",
+          "    }",
           "    else if (CHECK_BTN_ALL(play->state.input[0].press.button, BTN_B))",
           "    {",
           "        RESULT = 0x8000;",
-          "    } ",
-          "    ",
+          "    }",
+          "",
           "    if (scrollInputMade)",
           "    {",
           "        if (!inputPauseTimer)",
           "        {",
           "            inputPauseTimer = 2;",
-          "            ",
+          "",
           "            if (firstInput)",
           "                inputPauseTimer *= 3;",
           "        }",
@@ -112096,67 +111772,59 @@
           "    gfxRef = POLY_OPA_DISP;",
           "    gfx = Graph_GfxPlusOne(gfxRef);",
           "    gSPDisplayList(OVERLAY_DISP++, gfx);",
-          "    ",
+          "",
           "    Gfx_SetupDL_39Ptr(&gfx);",
-          "    gDPPipeSync(gfx++);      ",
-          "       ",
+          "    gDPPipeSync(gfx++);",
+          "",
           "    Color_RGB8 cOutline = (Color_RGB8){0, 0, 0};",
           "    Color_RGB8 cEnabled = (Color_RGB8){0xFF, 0xFF, 0x43};",
-          "    Color_RGB8 cDisabled = (Color_RGB8){0xA6, 0xA6, 0xA6};    ",
-          "    Color_RGB8 cHeader = (Color_RGB8){0xFF, 0x00, 0x00}; ",
+          "    Color_RGB8 cDisabled = (Color_RGB8){0xA6, 0xA6, 0xA6};",
+          "    Color_RGB8 cHeader = (Color_RGB8){0xFF, 0x00, 0x00};",
           "",
-          "    TextOperation(play, NULL, &gfx, ",
-          "                  cHeader, cOutline, ",
-          "                  255, 255, ",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  cHeader, cOutline,",
+          "                  255, 255,",
           "                  npc->GetInternalMsgPtrFunc(npc, play, 0),",
-          "                  0, 20, ",
-          "                  1, 1, ",
-          "                  NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);     ",
-          "                        ",
-          "                        ",
-          "    int posY = 48;        ",
+          "                  0, 20,",
+          "                  1, 1,",
+          "                  NULL, 100, 100, 0, false, OPERATION_DRAW_SHADOW);",
+          "",
+          "",
+          "    int posY = 48;",
           "    int start = (selectedSceneId / 13) * 13;",
-          "    ",
+          "",
           "    for (int i = start; i < ARRAY_COUNT(SceneSelectData); i++)",
           "    {",
-          "        if ((SceneSelectData[i].extraScene == 0 && SAVE_HASBEATENGAME) || ",
-          "            (SAVE_EXTRASCENES & SceneSelectData[i].extraScene) || ",
-          "            (SAVE_HASBEATENGAME && SceneSelectData[i].extraScene == (1 << 0))) ",
+          "        if ((SceneSelectData[i].extraScene == 0 && SAVE_HASBEATENGAME) ||",
+          "            (SAVE_EXTRASCENES & SceneSelectData[i].extraScene) ||",
+          "            (SAVE_HASBEATENGAME && SceneSelectData[i].extraScene == (1 << 0)))",
           "        {",
           "            if (posY + 16 < 240)",
           "            {",
-          "                TextOperation(play, NULL, &gfx, ",
-          "                              selectedScene == SceneSelectData[i].idx ? cEnabled : cDisabled, ",
-          "                              cOutline, ",
-          "                              255, 255, ",
+          "                TextOperation(play, NULL, &gfx,",
+          "                              selectedScene == SceneSelectData[i].idx ? cEnabled : cDisabled,",
+          "                              cOutline,",
+          "                              255, 255,",
           "                              npc->GetInternalMsgPtrFunc(npc, play, 1 + i),",
-          "                              0, posY, ",
-          "                              1, 1, ",
-          "                              NULL, 85, 85, 0, false, OPERATION_DRAW_SHADOW); ",
+          "                              0, posY,",
+          "                              1, 1,",
+          "                              NULL, 85, 85, 0, false, OPERATION_DRAW_SHADOW);",
           "            }",
           "",
           "            posY += 14;",
           "        }",
-          "    }  ",
+          "    }",
           "",
           "    gSPEndDisplayList(gfx++);",
           "    Graph_BranchDlist(gfxRef, gfx);",
-          "    POLY_OPA_DISP = gfx;    ",
+          "    POLY_OPA_DISP = gfx;",
           "}"
         ],
         "Functions": [
-          {
-            "FuncName": "NpcM_Destroy"
-          },
-          {
-            "FuncName": "NpcM_DrawSceneSelect"
-          },
-          {
-            "FuncName": "NpcM_Init"
-          },
-          {
-            "FuncName": "NpcM_SceneSelectUpdate"
-          }
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [

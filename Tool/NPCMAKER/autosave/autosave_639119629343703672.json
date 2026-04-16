@@ -1649,24 +1649,12 @@
           ""
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_FadeInPartial"
-          },
-          {
-            "Symbol": "NpcM_InitCourtRecordData"
-          },
-          {
-            "Symbol": "NpcM_OverwriteTHIEF"
-          },
-          {
-            "Symbol": "NpcM_OverwriteWithLAOGName"
-          },
-          {
-            "Symbol": "NpcM_OverwriteWithLASlot"
-          },
-          {
-            "Symbol": "NpcM_SetCourtRecordData"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -3857,9 +3845,7 @@
           ""
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_LookAt"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -5285,12 +5271,8 @@
           ""
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_AnimateCone"
-          },
-          {
-            "Symbol": "NpcM_PositionParticle"
-          }
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -6521,9 +6503,7 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_SetMalonLimbsSpecial"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -8231,48 +8211,20 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_AnimateCone"
-          },
-          {
-            "Symbol": "NpcM_Destroy"
-          },
-          {
-            "Symbol": "NpcM_DoModelTalkAnim"
-          },
-          {
-            "Symbol": "NpcM_GetLimbPositionsForCape"
-          },
-          {
-            "Symbol": "NpcM_GetNumFramesToAngrySfx"
-          },
-          {
-            "Symbol": "NpcM_GetNumFramesToSlam"
-          },
-          {
-            "Symbol": "NpcM_GetNumFramesToTakeOut"
-          },
-          {
-            "Symbol": "NpcM_GetSetTargetHead"
-          },
-          {
-            "Symbol": "NpcM_GetTargetAnimation"
-          },
-          {
-            "Symbol": "NpcM_GetTargetState"
-          },
-          {
-            "Symbol": "NpcM_GetTransitionAnimation"
-          },
-          {
-            "Symbol": "NpcM_Init"
-          },
-          {
-            "Symbol": "NpcM_SetEvidenceToHold"
-          },
-          {
-            "Symbol": "NpcM_Update"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -11468,60 +11420,24 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_ClearButtonPress"
-          },
-          {
-            "Symbol": "NpcM_DebugDraw"
-          },
-          {
-            "Symbol": "NpcM_DebugDrawPointerAreas"
-          },
-          {
-            "Symbol": "NpcM_DEBUGMoveLight"
-          },
-          {
-            "Symbol": "NpcM_DetectSlowdown"
-          },
-          {
-            "Symbol": "NpcM_GetActorSceneIDFromProgress"
-          },
-          {
-            "Symbol": "NpcM_GetLevelIDFromProgress"
-          },
-          {
-            "Symbol": "NpcM_GetPlatform"
-          },
-          {
-            "Symbol": "NpcM_GetRouteIDFromProgess"
-          },
-          {
-            "Symbol": "NpcM_GetSkipTpak"
-          },
-          {
-            "Symbol": "NpcM_GetTextboxResumePos"
-          },
-          {
-            "Symbol": "NpcM_GetWarpIDFromLevel"
-          },
-          {
-            "Symbol": "NpcM_ProcessTweening"
-          },
-          {
-            "Symbol": "NpcM_ReloadSave"
-          },
-          {
-            "Symbol": "NpcM_SceneSelection"
-          },
-          {
-            "Symbol": "NpcM_SetUpdateRate"
-          },
-          {
-            "Symbol": "NpcM_SwitchCameraBetween"
-          },
-          {
-            "Symbol": "NpcM_ThonkZoomOntoLink"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -12099,9 +12015,7 @@
           "#include <npcmaker/npc_maker_types.h>"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_DoModelTalkAnim"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -13864,9 +13778,7 @@
           "*/"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_DoModelTalkAnim"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -15008,27 +14920,13 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_DoGavelSlam"
-          },
-          {
-            "Symbol": "NpcM_DoMovePosAxis"
-          },
-          {
-            "Symbol": "NpcM_DoMoveRotAxis"
-          },
-          {
-            "Symbol": "NpcM_DoMoveScale"
-          },
-          {
-            "Symbol": "NpcM_DrawCutin"
-          },
-          {
-            "Symbol": "NpcM_DrawTestimony"
-          },
-          {
-            "Symbol": "NpcM_Init"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -19990,27 +19888,13 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_AnimTest"
-          },
-          {
-            "Symbol": "NpcM_CameraEdit"
-          },
-          {
-            "Symbol": "NpcM_CharSelect"
-          },
-          {
-            "Symbol": "NpcM_EscapeScene"
-          },
-          {
-            "Symbol": "NpcM_PickerTest"
-          },
-          {
-            "Symbol": "NpcM_PlayMus"
-          },
-          {
-            "Symbol": "NpcM_SetCam"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -56699,9 +56583,7 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_AnimateBg"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -57343,15 +57225,9 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_SetGoddessType"
-          },
-          {
-            "Symbol": "NpcM_TextureAnimate"
-          },
-          {
-            "Symbol": "NpcM_YOsscillate"
-          }
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -57666,15 +57542,9 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_DrawConclusion"
-          },
-          {
-            "Symbol": "NpcM_Init"
-          },
-          {
-            "Symbol": "NpcM_TextureAnimate"
-          }
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -59603,9 +59473,7 @@
           "*/"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_Is50Hz"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -60063,15 +59931,9 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_DoMoveRotAxis"
-          },
-          {
-            "Symbol": "NpcM_FlapWing"
-          },
-          {
-            "Symbol": "NpcM_GetCuccoFlySpeed"
-          }
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -62135,12 +61997,8 @@
           "*/"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_GetPlatform"
-          },
-          {
-            "Symbol": "NpcM_GetSkipTpak"
-          }
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -62740,9 +62598,7 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_DrawSavingIcon"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -66693,18 +66549,10 @@
           ""
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_GetSeqio"
-          },
-          {
-            "Symbol": "NpcM_Is50Hz"
-          },
-          {
-            "Symbol": "NpcM_PlayRupeeSFXTransposed"
-          },
-          {
-            "Symbol": "NpcM_SetSeqio"
-          }
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -67139,9 +66987,7 @@
           ""
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_Setup"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -69651,48 +69497,20 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_CreditsDraw"
-          },
-          {
-            "Symbol": "NpcM_DestroyCredits"
-          },
-          {
-            "Symbol": "NpcM_DrawCreditsText"
-          },
-          {
-            "Symbol": "NpcM_DrawDebug"
-          },
-          {
-            "Symbol": "NpcM_DrawLogo"
-          },
-          {
-            "Symbol": "NpcM_ExplodeText"
-          },
-          {
-            "Symbol": "NpcM_FadeAlphaIn"
-          },
-          {
-            "Symbol": "NpcM_FadeAlphaOut"
-          },
-          {
-            "Symbol": "NpcM_GetPlatform"
-          },
-          {
-            "Symbol": "NpcM_GetSeqio"
-          },
-          {
-            "Symbol": "NpcM_GetSkipTpak"
-          },
-          {
-            "Symbol": "NpcM_InitCredits"
-          },
-          {
-            "Symbol": "NpcM_Is50Hz"
-          },
-          {
-            "Symbol": "NpcM_SetSeqio"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -79697,24 +79515,12 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_FadeInPartial"
-          },
-          {
-            "Symbol": "NpcM_GetLAData"
-          },
-          {
-            "Symbol": "NpcM_OverwriteWithLAOGName"
-          },
-          {
-            "Symbol": "NpcM_OverwriteWithLASlot"
-          },
-          {
-            "Symbol": "NpcM_SetDefaultData"
-          },
-          {
-            "Symbol": "NpcM_SpawnTransferPak"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -80673,9 +80479,7 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_SetLimbsSpecial"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -81445,15 +81249,9 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_DoModelTalkAnim"
-          },
-          {
-            "Symbol": "NpcM_OverrideAnimationJoints"
-          },
-          {
-            "Symbol": "NpcM_PositionLight"
-          }
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -81920,12 +81718,8 @@
           ""
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_DoModelTalkAnim"
-          },
-          {
-            "Symbol": "NpcM_InterpolateBonesForScratchAnim"
-          }
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -83961,18 +83755,10 @@
           ""
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_EyesClosingWipe"
-          },
-          {
-            "Symbol": "NpcM_FadeInPartial"
-          },
-          {
-            "Symbol": "NpcM_OverwriteWithLAOGName"
-          },
-          {
-            "Symbol": "NpcM_OverwriteWithLASlot"
-          }
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -84963,9 +84749,7 @@
           "#include <npcmaker/npc_maker_types.h>"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_OverwriteWithTunicColor"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -89701,9 +89485,7 @@
           "*/"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_OverwriteWithTunicColor"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -94670,9 +94452,7 @@
           "#include <npcmaker/npc_maker_types.h>"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_OverwriteWithTunicColor"
-          }
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -95908,7 +95688,7 @@
             "    stop sfx NA_SE_EN_GANON_ATTACK_DEMO",
             "    play sfx_global NA_SE_IT_DM_FLYING_GOD_DASH",
             "",
-            "    while ROTATION_DIST != 0",
+            "while ROTATION_DIST != 0",
             "        ROTATION_DIST -= 10",
             "        await frames 0",
             "    endwhile",
@@ -96373,21 +96153,11 @@
           "*/"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_ControlGoddesses"
-          },
-          {
-            "Symbol": "NpcM_GetSteps"
-          },
-          {
-            "Symbol": "NpcM_GetStepsRotPoint"
-          },
-          {
-            "Symbol": "NpcM_MovePos"
-          },
-          {
-            "Symbol": "NpcM_MoveRotPoint"
-          }
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -99268,24 +99038,12 @@
           ""
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_CheckThiefRemovalResult"
-          },
-          {
-            "Symbol": "NpcM_FadeInPartial"
-          },
-          {
-            "Symbol": "NpcM_GetNameIdx"
-          },
-          {
-            "Symbol": "NpcM_OverwriteWithLAOGName"
-          },
-          {
-            "Symbol": "NpcM_OverwriteWithLASlot"
-          },
-          {
-            "Symbol": "NpcM_SpawnTransferPakRemoveThiefMoniker"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -99814,18 +99572,10 @@
           ""
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_DrawTheEnd"
-          },
-          {
-            "Symbol": "NpcM_FadeInPartial"
-          },
-          {
-            "Symbol": "NpcM_OverwriteWithLAOGName"
-          },
-          {
-            "Symbol": "NpcM_OverwriteWithLASlot"
-          }
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -100761,15 +100511,9 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_Destroy"
-          },
-          {
-            "Symbol": "NpcM_Draw"
-          },
-          {
-            "Symbol": "NpcM_Setup"
-          }
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -101053,12 +100797,8 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_LogFrameBuf"
-          },
-          {
-            "Symbol": "NpcM_StartPrerenderSetup"
-          }
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -106436,33 +106176,15 @@
           ""
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_Destroy"
-          },
-          {
-            "Symbol": "NpcM_DrawCasino"
-          },
-          {
-            "Symbol": "NpcM_GetSeqio"
-          },
-          {
-            "Symbol": "NpcM_Init"
-          },
-          {
-            "Symbol": "NpcM_IsLACaseUnlocked"
-          },
-          {
-            "Symbol": "NpcM_JumpToMsg"
-          },
-          {
-            "Symbol": "NpcM_SetSeqio"
-          },
-          {
-            "Symbol": "NpcM_Update"
-          },
-          {
-            "Symbol": "NpcM_UpdateCursor"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -107766,33 +107488,15 @@
           ""
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_CourseClear"
-          },
-          {
-            "Symbol": "NpcM_DoMoveCam"
-          },
-          {
-            "Symbol": "NpcM_DrawLogo"
-          },
-          {
-            "Symbol": "NpcM_GetPlatform"
-          },
-          {
-            "Symbol": "NpcM_GetSkipTpak"
-          },
-          {
-            "Symbol": "NpcM_Init"
-          },
-          {
-            "Symbol": "NpcM_MovePlatforms"
-          },
-          {
-            "Symbol": "NpcM_Score"
-          },
-          {
-            "Symbol": "NpcM_SetMusicTempo"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -108938,30 +108642,14 @@
           ""
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_FadeIntoThinkingMusic"
-          },
-          {
-            "Symbol": "NpcM_FadeOutOfThinkingMusic"
-          },
-          {
-            "Symbol": "NpcM_MusicControllerExec"
-          },
-          {
-            "Symbol": "NpcM_MusicControllerInit"
-          },
-          {
-            "Symbol": "NpcM_SetMusicPitch"
-          },
-          {
-            "Symbol": "NpcM_SetMusicSequence"
-          },
-          {
-            "Symbol": "NpcM_SetMusicTempo"
-          },
-          {
-            "Symbol": "NpcM_SetMusicVolume"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -110353,42 +110041,18 @@
           ""
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_Destroy"
-          },
-          {
-            "Symbol": "NpcM_DrawBrightnessBars"
-          },
-          {
-            "Symbol": "NpcM_GetPlatform"
-          },
-          {
-            "Symbol": "NpcM_GetSkipTpak"
-          },
-          {
-            "Symbol": "NpcM_Init"
-          },
-          {
-            "Symbol": "NpcM_Is50Hz"
-          },
-          {
-            "Symbol": "NpcM_ScreenAdjust"
-          },
-          {
-            "Symbol": "NpcM_SetAudioSetting"
-          },
-          {
-            "Symbol": "NpcM_SetAutoPlaySetting"
-          },
-          {
-            "Symbol": "NpcM_SetCurAudio"
-          },
-          {
-            "Symbol": "NpcM_SetCurAutoPlay"
-          },
-          {
-            "Symbol": "NpcM_SetCurOption"
-          }
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
@@ -112157,18 +111821,10 @@
           "}"
         ],
         "Functions": [
-          {
-            "Symbol": "NpcM_Destroy"
-          },
-          {
-            "Symbol": "NpcM_DrawSceneSelect"
-          },
-          {
-            "Symbol": "NpcM_Init"
-          },
-          {
-            "Symbol": "NpcM_SceneSelectUpdate"
-          }
+          {},
+          {},
+          {},
+          {}
         ],
         "FuncsRunWhen": [
           [
