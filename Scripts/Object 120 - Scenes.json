@@ -41975,9 +41975,8 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "Das Gericht fährt nun mit dem",
-                "Verfahren gegen Malon von der",
-                "Lon Lon-Farm fort."
+                "Court is back in session for the trial",
+                "of Malon of Lon Lon Ranch."
               ],
               "Type": 0,
               "Position": 0
@@ -41985,9 +41984,8 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "Ich nehme an, die Anklage",
-                "ist bereit, ihren letzten Zeugen",
-                "aussagen zu lassen?"
+                "I trust that the prosecution's final",
+                "witness is ready?"
               ],
               "Type": 0,
               "Position": 0
@@ -41995,9 +41993,9 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "Selbstverständlich. Ich hab persönlich",
-                "dafür gesorgt, dass es dieses Mal keine...<PAUSE:5>",
-                "Narrheiten geben wird."
+                "Naturally. I have personally seen to",
+                "it that there will be no...<PAUSE:5> foolishness,",
+                "this time around."
               ],
               "Type": 0,
               "Position": 0
@@ -42005,8 +42003,7 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "<SOUND:0><C>(Hoffentlich sind seine Ohren",
-                "noch ganz...)"
+                "<SOUND:0><C>(Hopefully his ears are intact...)"
               ],
               "Type": 0,
               "Position": 0
@@ -42014,17 +42011,16 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "Wie wir vor der Pause bereits",
-                "geklärt haben...",
+                "As we discussed before the recess...",
                 "<NEW_BOX>",
-                "... verfügte die Angeklagte sowohl über",
-                "die Gelegenheit, als auch das Mittel, den",
-                "Mord zu begehen. Damit verbleibt noch",
-                "eine Frage.",
+                "...having established the opportunity",
+                "and means for the defendant to have",
+                "committed the murder, only one matter",
+                "remains.",
                 "<NEW_BOX>",
-                "Und zwar das Motiv.<PAUSE:5> Immerhin geschieht",
-                "ein solch schreckliches Verbrechen nicht",
-                "einfach ohne Grund."
+                "The matter of motive.<PAUSE:5> For, naturally,",
+                "such a heinous crime couldn't be the",
+                "result of mere happenstance."
               ],
               "Type": 0,
               "Position": 0
@@ -42032,12 +42028,12 @@
             {
               "Name": "DRAGMIRE40",
               "MessageTextLines": [
-                "Die Anklage ist der Ansicht, dass die",
-                "Angeklagte diesen Vatermord begang,",
-                "um ein bestimmtes Ziel zu verfolgen.",
+                "The prosecution believes the",
+                "defendant had a deep desire that",
+                "pushed her to patricide.",
                 "<NEW_BOX>",
-                "Unser nächster Zeuge kann etwas",
-                "Licht in diese Angelegenheit bringen."
+                "Our next witness can shed light on",
+                "the matter."
               ],
               "Type": 0,
               "Position": 0
@@ -42045,7 +42041,7 @@
             {
               "Name": "JUDGE30",
               "MessageTextLines": [
-                "Interessant.<PAUSE:5> Sehr wohl, fahren Sie fort."
+                "Fascinating.<PAUSE:5> Very well. Please proceed."
               ],
               "Type": 0,
               "Position": 0
@@ -42053,8 +42049,8 @@
             {
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
-                "Die Anklage ruft den Farmarbeiter,",
-                "<R>Basil<W>, in den Zeugenstand!<SQUARE>"
+                "The prosecution calls the ranch",
+                "worker, <R>Ingo<W>, to the stand!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -42062,8 +42058,8 @@
             {
               "Name": "MALON10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Haha!<PAUSE:3><DC> Es ist komisch, Herrn Basil in solch",
-                "vornehmer Kleidung zu sehen!"
+                "<SOUND:WHAP><DI>Hah!<PAUSE:3><DC> It's funny to see Mr. Ingo in such",
+                "fancy clothes."
               ],
               "Type": 0,
               "Position": 0
@@ -42071,7 +42067,7 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<SOUND:CLUE>Ach?"
+                "<SOUND:CLUE>Oh?"
               ],
               "Type": 0,
               "Position": 0
@@ -42079,8 +42075,8 @@
             {
               "Name": "MALON20",
               "MessageTextLines": [
-                "Ja. Er trägt sonst fast immer nur seine",
-                "<SOUND:CLUE>Arbeits-Latzhose."
+                "Yeah. He almost always just wears his",
+                "<SOUND:CLUE>work dungarees."
               ],
               "Type": 0,
               "Position": 0
@@ -42088,8 +42084,8 @@
             {
               "Name": "MALON30",
               "MessageTextLines": [
-                "Er sieht fast schon wie eine ganz <SOUND:HINT>andere",
-                "Person aus!"
+                "It's almost like looking at a <SOUND:HINT>different",
+                "person!"
               ],
               "Type": 0,
               "Position": 0
@@ -42097,9 +42093,9 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(Ich schätze, er wollte sich für das Gericht",
-                "fein machen und seine vornehme Kleidung",
-                "nicht bei der Arbeit verdrecken...)"
+                "<SOUND:0><C>(Well, I guess he wanted to dress up",
+                "for court, and he wouldn't want to get",
+                "this nice outfit dirty by working in it...)"
               ],
               "Type": 0,
               "Position": 0
@@ -42107,7 +42103,7 @@
             {
               "Name": "DRAGMIRE70",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION>Ruhe, Verteidigung!"
+                "<SOUND:EXPLOSION>Quiet, Defence!"
               ],
               "Type": 0,
               "Position": 0
@@ -42115,8 +42111,8 @@
             {
               "Name": "DRAGMIRE80",
               "MessageTextLines": [
-                "Zeuge!<PAUSE:5> Nennen Sie dem Gericht Ihren",
-                "Namen und Ihren Beruf!"
+                "Witness!<PAUSE:5> State your name and",
+                "occupation."
               ],
               "Type": 0,
               "Position": 0
@@ -42124,8 +42120,8 @@
             {
               "Name": "INGO10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Euer Ehren!<DC><PAUSE:5> ",
-                "<SOUND:DON><DI>Ehrwürdiger Herr Staatsanwalt!"
+                "<SOUND:WHAP><DI>Your Honour!<DC><PAUSE:5> ",
+                "<SOUND:DON><DI>Great honourable prosecutor!"
               ],
               "Type": 0,
               "Position": 0
@@ -42133,8 +42129,8 @@
             {
               "Name": "INGO20",
               "MessageTextLines": [
-                "Mein Name ist Basil!",
-                "<SOUND:WHAP>Ich kümmere mich um die Lon Lon-Farm!"
+                "My name is Ingo!",
+                "<SOUND:WHAP>I mind Lon Lon Ranch!"
               ],
               "Type": 0,
               "Position": 0
@@ -42142,8 +42138,7 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
-                "<SOUND:HINT>Sie \"kümmern sich darum\"?<PAUSE:5>",
-                "Und was genau bedeutet das?"
+                "<SOUND:HINT>\"Mind\"?<PAUSE:5> What does that entail, exactly?"
               ],
               "Type": 0,
               "Position": 0
@@ -42151,11 +42146,12 @@
             {
               "Name": "INGO30",
               "MessageTextLines": [
-                "Nun, in erster Linie arbeite ich an den",
-                "Gebäuden und Arbeitsgeräten.",
+                "Ah, I'm mostly there to work on the",
+                "structures and equipment.",
                 "<NEW_BOX>",
-                "Der Besitzer und seine Tochter verpflegen",
-                "die Farmtiere und bearbeiten Bestellungen."
+                "The owner and his daughter are the",
+                "ones who tend to the animals and take",
+                "care of orders."
               ],
               "Type": 0,
               "Position": 0
@@ -42163,8 +42159,8 @@
             {
               "Name": "DRAGMIRE90",
               "MessageTextLines": [
-                "Wie lange arbeiten Sie schon auf",
-                "der Farm?"
+                "How long have you been working at",
+                "the ranch?"
               ],
               "Type": 0,
               "Position": 0
@@ -42172,8 +42168,7 @@
             {
               "Name": "INGO50",
               "MessageTextLines": [
-                "Es dürften inzwischen schon einige",
-                "Jahre sein."
+                "It'll be several years at this point."
               ],
               "Type": 0,
               "Position": 0
@@ -42181,9 +42176,9 @@
             {
               "Name": "INGO60",
               "MessageTextLines": [
-                "Andere Arbeiter kamen und gingen,",
-                "doch ich, Basil, blieb über all die",
-                "Strapazen hinweg beständig!"
+                "There have been others who came",
+                "and went, but I, Ingo, have",
+                "persevered through all the hardships!"
               ],
               "Type": 0,
               "Position": 0
@@ -42191,8 +42186,7 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "Klingt, als ob er dafür eine Auszeichnung",
-                "erwartet..."
+                "Sounds like he wants a medal for it..."
               ],
               "Type": 0,
               "Position": 0
@@ -42200,9 +42194,9 @@
             {
               "Name": "MALON40",
               "MessageTextLines": [
-                "Er plustert sich zwar manchmal ganz",
-                "schön auf, aber Herr Basil ist uns wirklich",
-                "eine große Hilfe!"
+                "Well, he does get a bit pompous at",
+                "times, but Mr. Ingo really is a great",
+                "help!"
               ],
               "Type": 0,
               "Position": 0
@@ -42210,8 +42204,7 @@
             {
               "Name": "MALON50",
               "MessageTextLines": [
-                "Er hat unser Silo komplett alleine",
-                "aufgebaut!"
+                "He built the ranch's silo singlehandedly!"
               ],
               "Type": 0,
               "Position": 0
@@ -42219,7 +42212,7 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "Wow. Das zeugt von Hingabe."
+                "Whoa. That's some dedication."
               ],
               "Type": 0,
               "Position": 0
@@ -42227,10 +42220,10 @@
             {
               "Name": "DRAGMIRE100",
               "MessageTextLines": [
-                "Nun gut.<PAUSE:3> Da es sich bei Ihnen offenbar",
-                "um einen wichtigen Arbeiter handelt,",
-                "sind Sie sicherlich auch mit internen",
-                "Angelegenheiten vertraut."
+                "Very well.<PAUSE:3> Given that you're clearly",
+                "an important employee, you are privy",
+                "to some inside information, is that",
+                "correct?"
               ],
               "Type": 0,
               "Position": 0
@@ -42238,9 +42231,9 @@
             {
               "Name": "INGO70",
               "MessageTextLines": [
-                "Gewiss. Der Besitzer hat seine wichtigen",
-                "Entscheidungen stets mit mir geteilt.<PAUSE:5>",
-                "Er hat mir <SOUND:HINT>bedingungslos vertraut."
+                "Yes. The ranch owner shared all the",
+                "big plans with me.<PAUSE:5> He trusted me",
+                "<SOUND:HINT>implicitly."
               ],
               "Type": 0,
               "Position": 0
@@ -42248,8 +42241,8 @@
             {
               "Name": "INGO80",
               "MessageTextLines": [
-                "Er sagte immer, dass wir wie eine große",
-                "Familie sind."
+                "He used to say that we're like a big",
+                "family."
               ],
               "Type": 0,
               "Position": 0
@@ -42257,7 +42250,7 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "Das hört sich doch entzückend an."
+                "That sounds lovely."
               ],
               "Type": 0,
               "Position": 0
@@ -42265,9 +42258,9 @@
             {
               "Name": "LINK60",
               "MessageTextLines": [
-                "<SOUND:0><C>(Das hört sich an, als hätte man einen",
-                "Haufen an unbezahlter Überzeit zu",
-                "erwarten.)"
+                "<SOUND:0><C>(That sounds like a red flag that",
+                "you're gonna be getting loads of",
+                "unpaid overtime.)"
               ],
               "Type": 0,
               "Position": 0
@@ -42275,9 +42268,9 @@
             {
               "Name": "DRAGMIRE110",
               "MessageTextLines": [
-                "Offensichtlich hat nicht jedes Mitglied",
-                "eurer sogenannten Familie diese Ansicht",
-                "geteilt, nicht wahr?"
+                "Evidently, not every member of your",
+                "so-called family felt the same way,",
+                "though, did they?"
               ],
               "Type": 0,
               "Position": 0
@@ -42285,8 +42278,7 @@
             {
               "Name": "INGO90",
               "MessageTextLines": [
-                "So sehr es mich auch schmerzt, ich",
-                "habe keine Wahl."
+                "It hurts to do this, but I have no choice."
               ],
               "Type": 0,
               "Position": 0
@@ -42294,8 +42286,7 @@
             {
               "Name": "INGO100",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Verehrtes Gericht, höret, was ich zu",
-                "sagen habe!<SQUARE>"
+                "<SOUND:WHAP><DI>Hear my story, honourable court of law!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
