@@ -51795,8 +51795,9 @@
           "Messages": [
             {
               "Name": "Title",
+              "Comment": "Similarly to the English message, I translated \"non-suspicious\" as the somewhat awkward \"nicht verdächtig\", rather than the more common \"unverdächtig\". -Jodocus",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"My Non-Suspicious Movements\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Meine nicht verdächtigen Bewegungen\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -51804,8 +51805,8 @@
             {
               "Name": "INGO1",
               "MessageTextLines": [
-                "As was already stated, I had",
-                "volunteered to work in the silo."
+                "Wie bereits gesagt, hatte ich mich für",
+                "die Arbeit im Silo angeboten."
               ],
               "Type": 0,
               "Position": 0
@@ -51813,9 +51814,9 @@
             {
               "Name": "INGO2",
               "MessageTextLines": [
-                "At one point, I briefly went back to",
-                "the ranch house to get myself a glass",
-                "of water."
+                "Zwischenzeitlich bin ich kurz zum",
+                "Farmhaus gegangen, um mir ein Glas",
+                "Wasser zu holen."
               ],
               "Type": 0,
               "Position": 0
@@ -51823,8 +51824,9 @@
             {
               "Name": "INGO3",
               "MessageTextLines": [
-                "I went back to the silo right after that,",
-                "and stayed there until the courier came."
+                "Daraufhin kehrte ich sofort zum Silo",
+                "zurück, wo ich blieb, bis der Kurier",
+                "kam."
               ],
               "Type": 0,
               "Position": 0
@@ -51832,18 +51834,19 @@
             {
               "Name": "INGO4",
               "MessageTextLines": [
-                "I haven't been back to the ranch house",
-                "at all since then."
+                "Seitdem habe ich das Farmhaus nicht",
+                "ein einziges Mal betreten."
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "INGO6",
+              "Comment": "Side note: Was very tempted to translate \"fine woman\" as \"scharfe Braut\", which, while not *wrong*, would be a vastly more inappropriate way of saying it. Decided it was too silly and didn't really match Ingo's character, though. -Jodocus",
               "MessageTextLines": [
-                "At some point, the detective came and",
-                "told me what happened.<PAUSE:5> And wow, was",
-                "that detective one fine woman!<SQUARE>"
+                "Irgendwann kam dann die Inspektorin",
+                "und erzählte mir, was passiert war.<PAUSE:5>",
+                "Und wow, war das eine tolle Frau!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -52134,16 +52137,17 @@
             {
               "Name": "INGO10",
               "MessageTextLines": [
-                "<SOUND:WHAP>See?<PAUSE:5> I haven't done anything to",
-                "warrant suspicion!"
+                "<SOUND:WHAP>Sehen Sie?<PAUSE:5> Ich habe nichts getan, was",
+                "mich verdächtig machen könnte!"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "INGO20",
+              "Comment": "The first time Link talks to Ingo as a child in the German translation of OoT, Ingo calls him \"armseliger Wicht\" (roughly, \"pathetic runt\") for trespassing on the farm. Apparently, they changed it for the 3D remake, but I still decided to use it for this translation.\nAlso, for this one message, I'm having Ingo drop the formal \"Sie\" he otherwise uses with Link in HoL (see SCENE_INGO_ENTERS/MALON10 for more detail). Feels a bit strange for him to suddenly drop it for just one instance; but it would read rather awkward for him to speak so formally while telling him to eat his boots and insulting him. -Jodocus",
               "MessageTextLines": [
-                "<SOUND:NA_SE_VO_IN_LOST><DI>Eat my shoes, you brat!"
+                "<SOUND:NA_SE_VO_IN_LOST><DI>Friss meine Stiefel, armseliger Wicht!"
               ],
               "Type": 0,
               "Position": 0
@@ -52151,7 +52155,7 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "I'll... pass."
+                "Ich... verzichte."
               ],
               "Type": 0,
               "Position": 0
@@ -52159,9 +52163,9 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(There has to be something wrong in",
-                "there!<PAUSE:3> <SOUND:HINT>You can't put a flawless story",
-                "together that quickly!)<SQUARE>"
+                "<SOUND:0><C>(Da muss irgendwo ein Fehler sein!<PAUSE:3>",
+                "<SOUND:HINT>Man denkt sich so auf die Schnelle",
+                "keine einwandfreie Geschichte aus!)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -54764,7 +54768,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"My Non-Suspicious Movements\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"Meine nicht verdächtigen Bewegungen\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -54772,8 +54776,8 @@
             {
               "Name": "INGO1",
               "MessageTextLines": [
-                "<DI><G>As was already stated, I had",
-                "volunteered to work in the silo.<PERSISTENT>"
+                "<DI><G>Wie bereits gesagt, hatte ich mich für",
+                "die Arbeit im Silo angeboten.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -54791,9 +54795,9 @@
             {
               "Name": "INGO2",
               "MessageTextLines": [
-                "<DI><G>At one point, I briefly went back to",
-                "the ranch house to get myself a glass",
-                "of water.<PERSISTENT>"
+                "<DI><G>Zwischenzeitlich bin ich kurz zum",
+                "Farmhaus gegangen, um mir ein Glas",
+                "Wasser zu holen.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -54801,8 +54805,9 @@
             {
               "Name": "INGO3",
               "MessageTextLines": [
-                "<DI><G>I went back to the silo right after that,",
-                "and stayed there until the courier came.<PERSISTENT>"
+                "<DI><G>Daraufhin kehrte ich sofort zum Silo",
+                "zurück, wo ich blieb, bis der Kurier",
+                "kam.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -54810,8 +54815,8 @@
             {
               "Name": "INGO4",
               "MessageTextLines": [
-                "<DI><G>I haven't been back to the ranch house",
-                "at all since then.<PERSISTENT>"
+                "<DI><G>Seitdem habe ich das Farmhaus nicht",
+                "ein einziges Mal betreten.<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -54829,9 +54834,9 @@
             {
               "Name": "INGO6",
               "MessageTextLines": [
-                "<DI><G>At some point, the detective came and",
-                "told me what happened. And wow, was",
-                "that detective one fine woman!<PERSISTENT>"
+                "<DI><G>Irgendwann kam dann die Inspektorin",
+                "und erzählte mir, was passiert war.",
+                "Und wow, war das eine tolle Frau!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -55470,6 +55475,7 @@
             },
             {
               "Name": "5_INGO20",
+              "Comment": "Note to self: Reference \"Fleissner Porzellan\"? -Jodocus",
               "MessageTextLines": [
                 "<SOUND:WHAP><DI>Pweh!<PAUSE:3> You lawyers, always flaunting",
                 "your wealth!"
@@ -56393,6 +56399,7 @@
             },
             {
               "Name": "LINK150",
+              "Comment": "Note to self: \"Schaugericht\"/\"Schauprouess\"? Or \"Abgekartetes Spiel\". -Jodocus",
               "MessageTextLines": [
                 "<SOUND:DON><DI>Wait a minute!<PAUSE:5> This is insane!<PAUSE:5> ",
                 "What kind of kangaroo court is this?<PAUSE:5> ",
