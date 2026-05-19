@@ -42054,8 +42054,8 @@
             {
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
-                "Die Anklage ruft den Farmarbeiter,",
-                "<R>Basil<W>, in den Zeugenstand!<SQUARE>"
+                "Die Anklage ruft den Knecht <R>Basil<W> in",
+                "den Zeugenstand!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -48071,7 +48071,6 @@
             },
             {
               "Name": "5_DRAGMIRE50",
-              "Comment": "\"Knecht\", while the correct word, is often associated with lowly servitude. It would fit Dragmire in my eyes, having a low opinion of the people around him (including his own witness). -Jodocus",
               "MessageTextLines": [
                 "Wie dem auch sei.<PAUSE:5> Fahren Sie mit der",
                 "Aussage fort, Knecht.<PAUSE:5> Zeigen Sie uns",
@@ -51835,7 +51834,7 @@
               "Name": "INGO4",
               "MessageTextLines": [
                 "Seitdem habe ich das Farmhaus nicht",
-                "ein einziges Mal betreten."
+                "ein einziges Mal betreten!"
               ],
               "Type": 0,
               "Position": 0
@@ -54816,7 +54815,7 @@
               "Name": "INGO4",
               "MessageTextLines": [
                 "<DI><G>Seitdem habe ich das Farmhaus nicht",
-                "ein einziges Mal betreten.<PERSISTENT>"
+                "ein einziges Mal betreten!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -54862,6 +54861,7 @@
             },
             {
               "Name": "CONS1_LINK20",
+              "Comment": "Link normally uses the formal \"Sie\" when talking to Ingo (see SCENE_INGO_ENTERS/MALON10); however, as he is \"addressing\" him in his thoughts, it sounds more natural to use the casual \"Du\" instead. (There are examples of this happening in Ace Attorney, as well.) Compare 1_LINK50. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:0><C>(Nun, Basil, wenn du von dir aus keine",
                 "Details preisgeben möchtest, muss ich",
@@ -54875,7 +54875,7 @@
               "MessageTextLines": [
                 "Warum sollte Basil überhaupt zurück ins",
                 "Farmhaus wollen, wenn er doch wusste,",
-                "dass dort ein Mord verübt wurde?"
+                "dass dort ein Mord verübt worden war?"
               ],
               "Type": 0,
               "Position": 0
@@ -54897,7 +54897,7 @@
               "Name": "CONS2_LINK20",
               "MessageTextLines": [
                 "Er wird doch nicht wirklich erwartet",
-                "haben, dass man ihn noch bei laufender",
+                "haben, dass man ihn bei noch laufender",
                 "Untersuchung am Tatort schlafen lässt?"
               ],
               "Type": 0,
@@ -54915,12 +54915,12 @@
             },
             {
               "Name": "CONS2_LINK30",
-              "Comment": "I... really don't like that first message; such a convoluted sentence. I'll see if I can make it less messy later. -Jodocus",
+              "Comment": "A direct translation of the first message box turned out very convoluted and hard to follow in German, so I rephrased it to make it clearer: \"If he had something on him that he shouldn't have, it would be easy to prove he went back to the scene of the crime.\" The clue sound tag still occurs right before the \"something on him\" part in the sentence. -Jodocus",
               "MessageTextLines": [
-                "Wirklich alles?<PAUSE:3> Es wäre also einfach, zu",
-                "beweisen, dass er nochmal am Tatort",
-                "war, wenn er nur <SOUND:CLUE>etwas bei sich hätte,",
-                "was er sonst nicht haben könnte...",
+                "Wirklich alles?<PAUSE:3> Wenn er also <SOUND:CLUE>etwas bei",
+                "sich hätte, was er gar nicht haben sollte,",
+                "wäre es ein Leichtes, zu beweisen, dass",
+                "er nochmal beim Tatort war...",
                 "<NEW_BOX>",
                 "Vielleicht sollte ich mir sein Profil",
                 "ansehen, um sicherzustellen, dass",
@@ -55014,9 +55014,10 @@
             },
             {
               "Name": "1_INGO10",
+              "Comment": "Need to retranslate this. Reads unnatural, and doesn't really make clear what he was working on. -Jodocus",
               "MessageTextLines": [
-                "Lieferungen fertiggestellt und Bestellungen",
-                "bearbeitet."
+                "An den Lieferungen und Bestellungen",
+                "gearbeitet."
               ],
               "Type": 0,
               "Position": 0
@@ -55051,11 +55052,11 @@
             },
             {
               "Name": "1_INGO40",
-              "Comment": "Translated \"best there is\" as \"best in the Kingdom\" for a more natural sounding sentence. -Jodocus",
+              "Comment": "Translated \"best there is\" as \"best in the Kingdom\" and \"others\" as \"other farms\" for a more natural sounding message. -Jodocus",
               "MessageTextLines": [
                 "Und unsere Milch ist als die beste im",
-                "Königreich bekannt!<PAUSE:3> Bei anderen wird",
-                "sie anscheinend verdünnt.<PAUSE:3> <SOUND:WHAP><DI>Abscheulich!"
+                "Reich bekannt!<PAUSE:3> Andere Farmen panschen",
+                "sie wohl mit Wasser.<PAUSE:3> <SOUND:WHAP><DI>Abscheulich!"
               ],
               "Type": 0,
               "Position": 0
@@ -55099,8 +55100,8 @@
               "MessageTextLines": [
                 "Nach dem Mord hatte ich Sorge, dass",
                 "sich durch die Untersuchung der Shiekah",
-                "die Lieferung verzögern könnte, und ich",
-                "der große Basil, <SOUND:CLUE>die Schuld bekomme!"
+                "die Lieferung verzögern könnte, und ich,",
+                "der große Basil, <SOUND:CLUE>die Schuld bekäme!"
               ],
               "Type": 0,
               "Position": 0
@@ -55115,12 +55116,12 @@
             },
             {
               "Name": "1_LINK50",
-              "Comment": "Link uses the formal \"Sie\" with Ingo (see SCENE_INGO_ENTERS/MALON10), but in this message where he addresses him somewhat impolitely in his thoughts, using formal speech felt... unnaturally stiff? But switching to \"Du\" for this message would be strange, as well (moreso than in SCNE_INGO_2_POST/INGO20). I wrote around this by changing it to the third person, instead.\nI think there might be instances of Phoenix \"thinking\" about people in the second person and using \"Du\", even though he addresses them out loud using \"Sie\". I'll see if I can find an example of that; if so, I'll consider changing this message accordingly. -Jodocus",
+              "Comment": "Link uses the casual \"Du\" with Ingo here, see CONS1_LINK20. -Jodocus",
               "MessageTextLines": [
-                "<SOUND:0><C>(Klar, und es war ihm so wichtig, die",
+                "<SOUND:0><C>(Klar, und es war dir so wichtig, die",
                 "Lieferung schnellstmöglich abzuschicken,",
-                "dass er die <SOUND:EXPLOSION>FALSCHE LIEFERADRESSE",
-                "draufgeschrieben hat...!)"
+                "dass du die <SOUND:EXPLOSION>FALSCHE LIEFERADRESSE",
+                "draufgeschrieben hast...!)"
               ],
               "Type": 0,
               "Position": 0
@@ -55233,9 +55234,9 @@
             },
             {
               "Name": "2_LINK10",
-              "Comment": "Note to self: Check how the \"oookay\" reads with Link's expression. -Jodocus",
+              "Comment": "\"Schon klar\" can have different meanings depending on context; here, it is meant in a sarcastic, dismissive sense, similar to \"yeah, right\". -Jodocus",
               "MessageTextLines": [
-                "<SPEED:101>...Oookay.<SPEED:103><PAUSE:6> ",
+                "<SPEED:101>...Schon klar.<SPEED:103><PAUSE:6> ",
                 "Und was haben Sie im Haus gesehen?"
               ],
               "Type": 0,
@@ -55271,7 +55272,7 @@
             {
               "Name": "2_INGO40",
               "MessageTextLines": [
-                "Sie lag dort gut sichtbar auf dem Tisch",
+                "Sie lag dort gut sichtbar auf dem Tisch!",
                 "Muh ha ha!"
               ],
               "Type": 0,
@@ -55314,25 +55315,24 @@
             },
             {
               "Name": "3_INGO20",
-              "Comment": "Leaving this untranslated for now; gotta look up what the German translartion of those sounds in BotW was. -Jodocus",
+              "Comment": "According to the developer commentary of HoL, these sounds are supposed to be based on what you hear when you upgrade your house in BotW - but rather than try to mimick them in a, uh, \"German way\", I'm just going for generic German onomatopoeia that fit here. (It's already a loose reference, anyways.)\nThough I'm not entirely sure I like the sound of this. I might revisit this later and change it. -Jodocus",
               "MessageTextLines": [
-                "<SOUND:WHAP>Hut!<PAUSE:5> <SOUND:WHAP>Hya! <PAUSE:5><SOUND:WHAP>Pow! <PAUSE:5><SOUND:WHAP>Wham!<PAUSE:5> ",
-                "<SOUND:WHAP><SPEED:105>I get things done in no time!<SPEED:102>"
+                "<SOUND:WHAP>Schwupp!<PAUSE:5> <SOUND:WHAP>Zack! <PAUSE:5><SOUND:WHAP>Peng! <PAUSE:5><SOUND:WHAP>Bumm!<PAUSE:5> ",
+                "<SOUND:WHAP><SPEED:105>Sowas mache ich mit links!<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "3_INGO30",
-              "Comment": "Translated \"puzzle\" as \"Schieberätsel\", the most commong (in my experience) German word for block pushing puzzles. -Jodocus",
+              "Comment": "Translated \"puzzle\" as \"Schieberätsel\", the most common (in my experience) German word for block pushing puzzles. (Alternatively, \"Schiebepuzzle\" is also oftenly used, but I think that \"Schieberätsel\" sounds besser and avoids a noticably English loan word.) -Jodocus",
               "MessageTextLines": [
                 "Ich habe mir beim Versuch, die Kisten",
                 "aus dem Silo zu schaffen, allerdings",
                 "beinahe den Rücken gebrochen...",
                 "<NEW_BOX>",
                 "Es waren so viele!<PAUSE:3> Und alle so schwer!<PAUSE:3> ",
-                "Es war das reinste Schiebepuzzel <SOUND:HINT>da",
-                "drin!"
+                "Es war das reinste Schieberätsel <SOUND:HINT>da drin!"
               ],
               "Type": 0,
               "Position": 0
@@ -55365,8 +55365,8 @@
             {
               "Name": "4_LINK20",
               "MessageTextLines": [
-                "Sie sind nie zurückgegangen, auch, nach",
-                "der Entdeckung des Verbrechens!"
+                "Sie sind auch, nachdem das Verbrechen",
+                "entdeckt wurde, nicht zurückgegangen?"
               ],
               "Type": 0,
               "Position": 0
@@ -55439,7 +55439,7 @@
               "Name": "4_A1_LINK20",
               "MessageTextLines": [
                 "Ich beantrage, dass der Zeuge dieses",
-                "Details zu seiner Aussage hinzufügt."
+                "Detail zu seiner Aussage hinzufügt."
               ],
               "Type": 0,
               "Position": 0
@@ -55529,7 +55529,7 @@
             {
               "Name": "6_LINK10",
               "MessageTextLines": [
-                "Could you elaborate?"
+                "Können Sie das näher ausführen?"
               ],
               "Type": 0,
               "Position": 0
@@ -55537,9 +55537,9 @@
             {
               "Name": "6_INGO10",
               "MessageTextLines": [
-                "<SOUND:HINT>She's a hard-working woman who",
-                "gets to the point and takes what",
-                "she wants!"
+                "<SOUND:HINT>Sie ist eine hart arbeitende Frau, die",
+                "nicht lange fackelt und sich nimmt, was",
+                "sie will!"
               ],
               "Type": 0,
               "Position": 0
@@ -55547,8 +55547,9 @@
             {
               "Name": "6_INGO20",
               "MessageTextLines": [
-                "Not to mention her<SOUND:HINT> impeccable fashion",
-                "sense...<PAUSE:3> What's not to love?"
+                "Nicht zu vergessen ihr<SOUND:HINT> makelloser Sinn",
+                "für Mode...<PAUSE:3> Wer wäre da nicht hin und",
+                "weg?"
               ],
               "Type": 0,
               "Position": 0
@@ -55556,8 +55557,8 @@
             {
               "Name": "6_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(That's not the part I wanted him to",
-                "elaborate on...)"
+                "<SOUND:0><C>(Das ist nicht der Teil, den ich näher",
+                "ausgeführt haben wollte...)"
               ],
               "Type": 0,
               "Position": 0
@@ -55565,16 +55566,18 @@
             {
               "Name": "6_MALON10",
               "MessageTextLines": [
-                "Wow, he seems totally smitten with her!"
+                "Wow, er scheint ja richtig verrückt",
+                "nach ihr zu sein!"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "6_LINK30",
+              "Comment": "Added a pause tag; the message felt a bit too quick without it. -Jodocus",
               "MessageTextLines": [
-                "Sure does. I wonder how Impa feels",
-                "about it..."
+                "Sieht so aus.<PAUSE:3> Ich frage mich, was Impa",
+                "wohl davon hält..."
               ],
               "Type": 0,
               "Position": 0
@@ -55582,8 +55585,8 @@
             {
               "Name": "6_INGO30",
               "MessageTextLines": [
-                "Perhaps,<PAUSE:3> when this chore of a trial is",
-                "over,<SOUND:CLUE> I could...<FADE:20>"
+                "Vielleicht,<PAUSE:3> wenn dieser lästige Prozess",
+                "vorbei ist,<SOUND:CLUE> könnte ich...<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -55591,7 +55594,7 @@
             {
               "Name": "6_INGO40",
               "MessageTextLines": [
-                "But no.<PAUSE:3> It will have to wait."
+                "Aber nein.<PAUSE:3> Das muss erstmal warten."
               ],
               "Type": 0,
               "Position": 0
@@ -55599,9 +55602,9 @@
             {
               "Name": "6_INGO50",
               "MessageTextLines": [
-                "<DI>You thought you could distract me,",
-                "did you?<PAUSE:8> I, the genius ranch worker",
-                "Ingo, see through your schemes!<SQUARE>"
+                "<DI>Sie dachten, Sie könnten mich ablenken,",
+                "was?<PAUSE:8> Mich, den genialen Knecht Basil,",
+                "legen Sie nicht auf's Kreuz!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -55609,11 +55612,12 @@
             {
               "Name": "2_F_LINK5",
               "MessageTextLines": [
-                "<DI><SOUND:WHAP>Witness!<PAUSE:5> Why would you need a glass",
-                "of water with so much milk around?",
+                "<DI><SOUND:WHAP>Zeuge!<PAUSE:5> Wozu brauchten Sie ein Glas",
+                "Wasser, wenn doch literweise Milch um",
+                "Sie herumstand?",
                 "<NEW_BOX>",
-                "Couldn't you have just taken a sip of",
-                "that?!"
+                "Hätten Sie nicht einfach einen Schluck",
+                "davon nehmen können?!"
               ],
               "Type": 0,
               "Position": 0
@@ -55621,7 +55625,7 @@
             {
               "Name": "2_F_LINK10",
               "MessageTextLines": [
-                "...Riiight."
+                "...Schon klar."
               ],
               "Type": 0,
               "Position": 0
@@ -55629,8 +55633,8 @@
             {
               "Name": "2_F_JUDGE10",
               "MessageTextLines": [
-                "Since we got that cleared up, witness,",
-                "please continue your testimony."
+                "Da wir das geklärt haben, Zeuge, fahren",
+                "Sie bitte mit ihrer Aussage fort."
               ],
               "Type": 0,
               "Position": 0
@@ -55638,18 +55642,19 @@
             {
               "Name": "T_LINK10",
               "MessageTextLines": [
-                "You stayed at the silo the whole time?<PAUSE:3> ",
-                "<DI>I don't think so!"
+                "Sie sind danach die gesamte Zeit im",
+                "Silo geblieben?<PAUSE:3> <DI>Das glaube ich nicht!"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "T_LINK20",
+              "Comment": "Not satisfied with this translation. -Jodocus",
               "MessageTextLines": [
-                "We know someone made a fire around",
-                "the time of the crime, and the only one",
-                "it could've been is you!"
+                "Wir wissen, dass jemand ungefähr zur",
+                "Tatzeit ein Feuer entfacht hat, und das",
+                "können nur Sie gewesen sein!"
               ],
               "Type": 0,
               "Position": 0
@@ -55657,7 +55662,7 @@
             {
               "Name": "T_INGO10",
               "MessageTextLines": [
-                "A <SOUND:CLUE>fire?"
+                "Ein <SOUND:CLUE>Feuer?"
               ],
               "Type": 0,
               "Position": 0
@@ -55665,7 +55670,7 @@
             {
               "Name": "T_INGO20",
               "MessageTextLines": [
-                "Hoh, hoh.<PAUSE:3> Yes.<PAUSE:3> The fire."
+                "Ho, ho.<PAUSE:3> Richtig.<PAUSE:3> Das Feuer."
               ],
               "Type": 0,
               "Position": 0
@@ -55673,8 +55678,8 @@
             {
               "Name": "T_INGO25",
               "MessageTextLines": [
-                "I suppose I did forget to mention that,",
-                "didn't I?"
+                "Ich hatte wohl vergessen, das zu",
+                "erwähnen, nicht wahr?"
               ],
               "Type": 0,
               "Position": 0
@@ -55682,7 +55687,7 @@
             {
               "Name": "T_LINK30",
               "MessageTextLines": [
-                "Huh?"
+                "Hö?"
               ],
               "Type": 0,
               "Position": 0
@@ -55690,12 +55695,12 @@
             {
               "Name": "T_INGO30",
               "MessageTextLines": [
-                "Yes. I did light a fire at one point,",
-                "I admit.",
+                "Gewiss. Ich gebe zu, dass ich zu der",
+                "Zeit ein Feuer gemacht hatte.",
                 "<NEW_BOX>",
-                "Everyone was busy preparing for the",
-                "visitation in the morning, and I didn't",
-                "have time to eat."
+                "Die Vorbereitung für die Besichtigung",
+                "hielt uns den ganzen Morgen auf Trab,",
+                "und ich hatte keine Zeit, etwas zu essen."
               ],
               "Type": 0,
               "Position": 0
@@ -55703,8 +55708,8 @@
             {
               "Name": "T_INGO40",
               "MessageTextLines": [
-                "So, I decided to make myself",
-                "something while I worked."
+                "Also wollte ich mir während der Arbeit",
+                "etwas zubereiten."
               ],
               "Type": 0,
               "Position": 0
@@ -55720,13 +55725,13 @@
             {
               "Name": "T_INGO60",
               "MessageTextLines": [
-                "In fact, that reminds me! Yes, that's",
-                "also part of why I went to get myself",
-                "that glass of water.",
+                "Ah, jetzt weiß ich wieder! Das war auch",
+                "mit der Grund, warum ich mir das Glas",
+                "Wasser holen ging.",
                 "<NEW_BOX>",
-                "The breakfast I was cooking burned a",
-                "little, and I needed something to wash",
-                "it down with."
+                "Das Frühstück war mir etwas verbrannt,",
+                "und ich brauchte etwas zu trinken, um",
+                "es herunterzuspülen."
               ],
               "Type": 0,
               "Position": 0
@@ -55734,7 +55739,8 @@
             {
               "Name": "T_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:HINT>See, Defence?<PAUSE:3> What did I tell you?"
+                "<SOUND:HINT>Sehen Sie, Verteidigung?<PAUSE:3> Was habe ich",
+                "Ihnen gesagt?"
               ],
               "Type": 0,
               "Position": 0
@@ -55742,7 +55748,7 @@
             {
               "Name": "T_DRAGMIRE20",
               "MessageTextLines": [
-                "The fire is completely irrelevant!"
+                "Das Feuer ist komplett irrelevant!"
               ],
               "Type": 0,
               "Position": 0
@@ -55750,9 +55756,9 @@
             {
               "Name": "T_LINK50",
               "MessageTextLines": [
-                "<SOUND:0><C>(He not only dismissed the",
-                "contradiction, but managed to",
-                "strengthen his story, too!)"
+                "<SOUND:0><C>(Nicht nur konnte er den Widerspruch",
+                "erklären, er hat damit auch noch seine",
+                "Geschichte bestärkt!)"
               ],
               "Type": 0,
               "Position": 0
@@ -55760,8 +55766,8 @@
             {
               "Name": "T_JUDGE10",
               "MessageTextLines": [
-                "I am glad we have finally laid that",
-                "mystery to rest."
+                "Schön, dass wir dieses Mysterium endlich",
+                "aufklären konnten."
               ],
               "Type": 0,
               "Position": 0
@@ -55769,8 +55775,8 @@
             {
               "Name": "T_JUDGE20",
               "MessageTextLines": [
-                "Defence, is that all you wished to",
-                "ask during this cross-examination?"
+                "Verteidigung, ist das alles, was Sie in",
+                "diesem Kreuzverhör erfragen wollten?"
               ],
               "Type": 0,
               "Position": 0
@@ -55778,7 +55784,7 @@
             {
               "Name": "T_LINK60",
               "MessageTextLines": [
-                "<SOUND:0><C>(Solved the mystery? No way!)"
+                "<SOUND:0><C>(Das Mysterium gelöst? Als ob!)"
               ],
               "Type": 0,
               "Position": 0
@@ -55786,9 +55792,9 @@
             {
               "Name": "T_LINK70",
               "MessageTextLines": [
-                "No, Your Honour!<PAUSE:3> ",
-                "I would like to keep cross-examining",
-                "for a bit longer."
+                "Nein, Euer Ehren!<PAUSE:3> ",
+                "Ich möchte das Kreuzverhör noch eine",
+                "Weile fortführen."
               ],
               "Type": 0,
               "Position": 0
@@ -55796,7 +55802,7 @@
             {
               "Name": "T_JUDGE30",
               "MessageTextLines": [
-                "Very well."
+                "Nun gut."
               ],
               "Type": 0,
               "Position": 0
@@ -55804,10 +55810,10 @@
             {
               "Name": "T_JUDGE40",
               "MessageTextLines": [
-                "The witness shall update his statement.",
+                "Der Zeuge soll seine Aussage ergänzen.",
                 "<NEW_BOX>",
-                "And in the future, please try to not",
-                "omit any details, no matter how small."
+                "Und für die Zukunft lassen Sie bitte keine",
+                "Details aus, egal, wie klein!"
               ],
               "Type": 0,
               "Position": 0
@@ -55815,8 +55821,8 @@
             {
               "Name": "T_INGO80",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Why, yes, of course, Your Honour!<PAUSE:3> ",
-                "Won't happen again!<SQUARE>"
+                "<SOUND:WHAP><DI>Selbstverständlich, Euer Ehren!<PAUSE:3> ",
+                "Es wird nicht wieder vorkommen!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -55824,8 +55830,8 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Witness!<PAUSE:3> There's something seriously",
-                "wrong with your testimony!"
+                "<SOUND:WHAP><DI>Zeuge!<PAUSE:3> An Ihrer Aussage stimmt etwas",
+                "ganz gewaltig nicht!"
               ],
               "Type": 0,
               "Position": 0
@@ -55833,21 +55839,21 @@
             {
               "Name": "INGO10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Wha-what?<PAUSE:5> What are you talking",
-                "about?"
+                "<SOUND:EXPLOSION><DI>Wa-was?<PAUSE:5> Was soll das bitte bedeuten?"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "LINK20",
+              "Comment": "Not sure about the beginning of the second message box - \"Dem Farmhaus\" is grammatically correct, since it refers to the first message box in which the dative is used in relation to the ranch house. \"Das Farmhaus\" would drop the dative case, which makes it grammatically *slightly* wrong, but sounds a bit more natural, I suppose? I'll keep the dative for now, but maybe I'll revisit this at some point with a fresh mind. -Jodocus",
               "MessageTextLines": [
-                "You say you couldn't get any of your",
-                "belongings, because they were all",
-                "at the ranch house, correct?",
+                "Sie sagen, Sie kamen nicht an Ihre",
+                "Habseligkeiten, da sie alle im Farmhaus",
+                "waren, korrekt?",
                 "<NEW_BOX>",
-                "A ranch house you were not allowed",
-                "to go in?"
+                "Dem Farmhaus, zu dem Ihnen der Zugang",
+                "versperrt war?"
               ],
               "Type": 0,
               "Position": 0
@@ -55855,7 +55861,7 @@
             {
               "Name": "INGO20",
               "MessageTextLines": [
-                "That's...<PAUSE:3> <SOUND:HINT>right?"
+                "Das ist...<PAUSE:3> <SOUND:HINT>richtig?"
               ],
               "Type": 0,
               "Position": 0
@@ -55863,8 +55869,8 @@
             {
               "Name": "LINK30",
               "MessageTextLines": [
-                "Well, that would imply you should still be",
-                "wearing your work clothes."
+                "Nun, in dem Fall müssten Sie noch Ihre",
+                "Arbeitskleidung tragen."
               ],
               "Type": 0,
               "Position": 0
@@ -55872,8 +55878,9 @@
             {
               "Name": "LINK40",
               "MessageTextLines": [
-                "Pardon me if I'm wrong,<PAUSE:5> <DI><SOUND:DON>but those don't",
-                "look like work clothes at all!"
+                "Korrigieren Sie mich, wenn ich falsch",
+                "liege, aber<PAUSE:5> <DI><SOUND:DON>das sieht mir ganz und gar",
+                "nicht nach Arbeitskleidung aus!"
               ],
               "Type": 0,
               "Position": 0
@@ -55889,17 +55896,18 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "The defence has a point!"
+                "Die Veteidigung macht einen guten Punkt!"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "JUDGE20",
+              "Comment": "Left out the \"for court\" part to shorten the message. Also leaving out the \"sully\" part, the judge now says he \"can't imagine [Ingo] would do ranch work in those clothes\". -Jodocus",
               "MessageTextLines": [
-                "The witness appears pretty well-dressed",
-                "for court! I can't imagine he would want",
-                "to sully those clothes during work!"
+                "Der Zeuge ist sehr adrett gekleidet! Ich",
+                "kann mir nicht vorstellen, dass er darin",
+                "Farmarbeit betreibt!"
               ],
               "Type": 0,
               "Position": 0
@@ -55907,7 +55915,7 @@
             {
               "Name": "LINK50",
               "MessageTextLines": [
-                "Well, what do you have to say to that?!"
+                "Nun, was sagen Sie dazu?!"
               ],
               "Type": 0,
               "Position": 0
@@ -55923,7 +55931,7 @@
             {
               "Name": "INGO50",
               "MessageTextLines": [
-                "<SOUND:HINT><DI>Oh!<PAUSE:3> Of course!"
+                "<SOUND:HINT><DI>Oh!<PAUSE:3> Natürlich!"
               ],
               "Type": 0,
               "Position": 0
@@ -55931,21 +55939,21 @@
             {
               "Name": "INGO60",
               "MessageTextLines": [
-                "I can explain!<PAUSE:3> It's simple!",
-                "<NEW_BOX>",
-                "These are brand new!<PAUSE:5> <SOUND:WHAP>Yeah!<PAUSE:5> ",
-                "On my way to the courthouse, I went",
-                "shopping for a nice new outfit."
+                "Ich kann alles erklären!<PAUSE:3> Kein Problem!",
+                "Die Kleidung ist brandneu!<PAUSE:5> <SOUND:WHAP>Genau!<PAUSE:5> ",
+                "Auf dem Weg zur Verhandlung habe ich",
+                "schnell neue Klamotten gekauft!"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "INGO70",
+              "Comment": "Translated \"bum\" as \"Landei\", \"hillbilly\". See also INGO140. -Jodocus",
               "MessageTextLines": [
-                "After all, I couldn't very well show up",
-                "to court dressed like a bum,",
-                "moo ho ho ho ho...!"
+                "Immerhin konnte ich nicht wie ein",
+                "Landei gekleidet vor Gericht auftreten,",
+                "muh huh huh huh huh...!"
               ],
               "Type": 0,
               "Position": 0
@@ -55953,9 +55961,9 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "Yes, Defence.<PAUSE:3> Certain people have a",
-                "modicum of respect for the court, and",
-                "show up dressed appropriately."
+                "Ganz recht, Verteidigung.<PAUSE:3> Manche Leute",
+                "haben einen gewissen Respekt für das",
+                "Gericht, und sind entsprechend gekleidet."
               ],
               "Type": 0,
               "Position": 0
@@ -55963,8 +55971,8 @@
             {
               "Name": "LINK60",
               "MessageTextLines": [
-                "<SOUND:0><C>(What's that supposed to mean?!<PAUSE:3> ",
-                "<SOUND:WHAP>This is my finest Zora Suit!)"
+                "<SOUND:0><C>(Was soll das denn heißen?!<PAUSE:3> ",
+                "<SOUND:WHAP>Das ist mein bester Zora-Anzug!)"
               ],
               "Type": 0,
               "Position": 0
@@ -55972,8 +55980,9 @@
             {
               "Name": "LINK70",
               "MessageTextLines": [
-                "So you claim you bought these clothes",
-                "after the crime? Is that correct?"
+                "Sie behaupten also, diese Kleidung nach",
+                "dem Verbrechen gekauft zu haben? Ist",
+                "das so richtig?"
               ],
               "Type": 0,
               "Position": 0
@@ -55981,8 +55990,8 @@
             {
               "Name": "INGO80",
               "MessageTextLines": [
-                "Very much so.<PAUSE:5> <SOUND:CLUE>This morning, in fact!<PAUSE:5> ",
-                "Why do I need to repeat myself?"
+                "So ist es.<PAUSE:5> <SOUND:CLUE>Heute morgen, um genau zu",
+                "sein!<PAUSE:5> Muss ich mich noch wiederholen?"
               ],
               "Type": 0,
               "Position": 0
@@ -55990,10 +55999,10 @@
             {
               "Name": "LINK80",
               "MessageTextLines": [
-                "<SOUND:0><C>(Do I accept that explanation?)",
+                "<SOUND:0><C>(Akzeptiere ich diese Erklärung?)",
                 "<TWO_CHOICES><G>",
-                "Yes",
-                "No"
+                "Ja",
+                "Nein"
               ],
               "Type": 0,
               "Position": 0
@@ -56001,7 +56010,8 @@
             {
               "Name": "A1_LINK10",
               "MessageTextLines": [
-                "The defence accepts this explanation."
+                "Die Verteidigung akzeptiert diese",
+                "Erklärung."
               ],
               "Type": 0,
               "Position": 0
@@ -56009,9 +56019,9 @@
             {
               "Name": "A1_DRAGMIRE10",
               "MessageTextLines": [
-                "Excellent.<PAUSE:3> Then this farce of a trial",
-                "is about to come to a long-delayed",
-                "conclusion."
+                "Ausgezeichnet.<PAUSE:3> Dann findet diese Farce",
+                "einer Verhandlung endlich ihr überfälliges",
+                "Ende."
               ],
               "Type": 0,
               "Position": 0
@@ -56019,10 +56029,10 @@
             {
               "Name": "A1_DRAGMIRE20",
               "MessageTextLines": [
-                "Now that the ranch worker's testimony",
-                "has been accepted by both the",
-                "prosecution and the defence, it is time",
-                "to announce the verdict!"
+                "Da die Aussage des Knechts sowohl von",
+                "der Anklage, als auch der Verteidigung",
+                "akzeptiert wurde, ist es an der Zeit, das",
+                "Urteil zu sprechen!"
               ],
               "Type": 0,
               "Position": 0
@@ -56030,9 +56040,9 @@
             {
               "Name": "A1_DRAGMIRE30",
               "MessageTextLines": [
-                "You put up a valiant effort, but you",
-                "can only go so far when your client",
-                "truly is guilty."
+                "Sie haben sich wacker geschlagen, doch",
+                "alle Bemühungen sind zwecklos, wenn",
+                "Ihre Mandantin nun einmal schuldig ist."
               ],
               "Type": 0,
               "Position": 0
@@ -56040,9 +56050,9 @@
             {
               "Name": "A1_JUDGE10",
               "MessageTextLines": [
-                "Very well.<PAUSE:5> In that case, I declare the",
-                "defendant, Malon of Lon Lon Ranch,<PAUSE:3> ",
-                "<R>G-<FADE:10>"
+                "Sehr wohl.<PAUSE:5> In diesem Fall erkläre ich",
+                "die Angeklagte, Malon von der Lon Lon-",
+                "Farm, für<PAUSE:3> <R>Sch-<FADE:10>"
               ],
               "Type": 0,
               "Position": 0
@@ -56050,21 +56060,22 @@
             {
               "Name": "A1_LINK20",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Errr, actually...<PAUSE:3> can I reconsider my",
-                "stance on the witness?"
+                "<SOUND:WHAP><DI>Ähm, eigentlich...<PAUSE:3> Kann ich meine Meinung",
+                "zur Zeugenaussage doch noch ändern?"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "A1_DRAGMIRE40",
+              "Comment": "Translated \"circus act\" as \"Theater\": literally \"theatre\", but often used as \"hassle\" or \"complications\". Not entirely sure about this translation, though. -Jodocus",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Foolishness!<PAUSE:5> Once again you waste",
-                "the court's valuable time with this",
-                "circus act!",
+                "<SOUND:EXPLOSION><DI>Lachhaft!<PAUSE:5> Erneut verschwenden Sie die",
+                "wertvolle Zeit des Gerichts mit Ihrem",
+                "Theater!",
                 "<NEW_BOX>",
-                "The prosecution insists the defence be",
-                "penalised!"
+                "Die Anklage besteht darauf, dass die",
+                "Verteidigung eine Strafe erhält!"
               ],
               "Type": 0,
               "Position": 0
@@ -56072,8 +56083,8 @@
             {
               "Name": "A1_JUDGE20",
               "MessageTextLines": [
-                "Indeed. Please consider your",
-                "statements before making them."
+                "In der Tat. Denken Sie bitte besser nach,",
+                "bevor Sie eine Aussage treffen."
               ],
               "Type": 0,
               "Position": 0
@@ -56081,9 +56092,9 @@
             {
               "Name": "A1_JUDGE30",
               "MessageTextLines": [
-                "Now, then, Defence. The witness has",
-                "explained that he bought the clothes",
-                "this morning.<PAUSE:3> Is there a problem?"
+                "Nun denn, Verteidigung. Der Zeuge sagt,",
+                "er habe die Kleidung heute Morgen",
+                "gekauft.<PAUSE:3> Gibt es da ein Problem?"
               ],
               "Type": 0,
               "Position": 0
@@ -56091,7 +56102,7 @@
             {
               "Name": "A1_LINK30",
               "MessageTextLines": [
-                "Naturally."
+                "Selbstverständlich."
               ],
               "Type": 0,
               "Position": 0
@@ -56099,8 +56110,8 @@
             {
               "Name": "LINK90",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>You buying those clothes today is",
-                "simply impossible!"
+                "<SOUND:WHAP><DI>Sie können diese Kleidung unmöglich",
+                "heute gekauft haben!"
               ],
               "Type": 0,
               "Position": 0
@@ -56108,7 +56119,7 @@
             {
               "Name": "INGO90",
               "MessageTextLines": [
-                "<SOUND:DON><DI>W-what?!"
+                "<SOUND:DON><DI>W-was?!"
               ],
               "Type": 0,
               "Position": 0
@@ -56116,7 +56127,8 @@
             {
               "Name": "DRAGMIRE20",
               "MessageTextLines": [
-                "Oh?<PAUSE:5> How can you claim so?"
+                "Oh?<PAUSE:5> Und wie kommen Sie zu dieser",
+                "Behauptung?"
               ],
               "Type": 0,
               "Position": 0
@@ -56124,8 +56136,8 @@
             {
               "Name": "DRAGMIRE30",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Defence!<PAUSE:5> As you know, evidence is",
-                "everything in court!"
+                "<SOUND:WHAP><DI>Verteidigung!<PAUSE:5> Wie Sie wissen, zählen",
+                "vor Gericht nur Beweise!"
               ],
               "Type": 0,
               "Position": 0
@@ -56133,9 +56145,9 @@
             {
               "Name": "DRAGMIRE35",
               "MessageTextLines": [
-                "<G>Either prove that the witness couldn't",
-                "have bought these clothes today,<PAUSE:5> <SOUND:WHAP>or",
-                "get out!<PERSISTENT>"
+                "<G>Entweder beweisen Sie, dass der Zeuge",
+                "die Kleidung nicht heute gekauft haben",
+                "kann,<PAUSE:5> <SOUND:WHAP>oder verschwinden Sie!<PERSISTENT>"
               ],
               "Type": 0,
               "Position": 0
@@ -56143,8 +56155,8 @@
             {
               "Name": "FAIL_LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>This proves you couldn't have bought",
-                "the clothes!"
+                "<SOUND:WHAP><DI>Das hier beweist, dass Sie die Kleidung",
+                "nicht gekauft haben können!"
               ],
               "Type": 0,
               "Position": 0
@@ -56160,8 +56172,8 @@
             {
               "Name": "FAIL_JUDGE20",
               "MessageTextLines": [
-                "I must admit, I don't see the connection",
-                "here."
+                "Ich muss gestehen, ich sehe da keinen",
+                "Zusammenhang."
               ],
               "Type": 0,
               "Position": 0
@@ -56169,9 +56181,9 @@
             {
               "Name": "FAIL_DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Bah!<PAUSE:3> Because there is none!<PAUSE:3> ",
-                "The defence is just wasting our time,",
-                "as usual!"
+                "<SOUND:WHAP><DI>Pah!<PAUSE:3> Weil es keinen gibt!<PAUSE:3> ",
+                "Die Verteidigung verschwendet nur",
+                "unsere Zeit, wie üblich!"
               ],
               "Type": 0,
               "Position": 0
@@ -56179,7 +56191,8 @@
             {
               "Name": "FAIL_INGO10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Hah!<PAUSE:3> I needn't have worried!"
+                "<SOUND:WHAP><DI>Ha!<PAUSE:3> Hätte ich mir gar keine Sorgen",
+                "machen brauchen!"
               ],
               "Type": 0,
               "Position": 0
@@ -56187,7 +56200,8 @@
             {
               "Name": "FAIL_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Gah. I need to rethink this...)"
+                "<SOUND:0><C>(Uff. Ich muss noch einmal darüber",
+                "nachdenken...)"
               ],
               "Type": 0,
               "Position": 0
@@ -56195,8 +56209,8 @@
             {
               "Name": "FAIL2_LINK10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>There's no way you could've bought",
-                "the clothes today, because of this!"
+                "<SOUND:WHAP><DI>Sie können die Kleidung nicht heute",
+                "gekauft haben, und das ist der Beweis!"
               ],
               "Type": 0,
               "Position": 0
@@ -56204,8 +56218,9 @@
             {
               "Name": "FAIL2_DRAGMIRE10",
               "MessageTextLines": [
-                "I told you to stop wasting our time!<PAUSE:3> ",
-                "That also proves nothing!"
+                "Ich habe Ihnen gesagt, Sie sollen unsere",
+                "Zeit nicht verschwenden!<PAUSE:3> ",
+                "Auch das beweist gar nichts!"
               ],
               "Type": 0,
               "Position": 0
@@ -56213,7 +56228,7 @@
             {
               "Name": "FAIL2_LINK20",
               "MessageTextLines": [
-                "<SOUND:0><C>(Argh.)"
+                "<SOUND:0><C>(Uff.)"
               ],
               "Type": 0,
               "Position": 0
@@ -56221,9 +56236,9 @@
             {
               "Name": "FAIL2_LINK30",
               "MessageTextLines": [
-                "<SOUND:0><C>(How could I even prove that?<PAUSE:3> ",
-                "<SOUND:HINT>I don't know anything about Ingo's",
-                "schedule this morning!)"
+                "<SOUND:0><C>(Wie soll ich das überhaupt beweisen?<PAUSE:3> ",
+                "<SOUND:HINT>Es ist ja nicht so, als ob ich wüsste,",
+                "wie Basil seinen Morgen verbracht hat!)"
               ],
               "Type": 0,
               "Position": 0
@@ -56231,8 +56246,9 @@
             {
               "Name": "FAIL2_LINK40",
               "MessageTextLines": [
-                "<SOUND:0><C>(Maybe if I could show he already",
-                "had these clothes <SOUND:CLUE>BEFORE today...?)"
+                "<SOUND:0><C>(Vielleicht kann ich irgendwie zeigen,",
+                "dass er die Kleidung schon <SOUND:CLUE>VORHER",
+                "besessen hat...?)"
               ],
               "Type": 0,
               "Position": 0
@@ -56240,8 +56256,8 @@
             {
               "Name": "LINK100",
               "MessageTextLines": [
-                "I would like to turn the court's",
-                "attention to this!"
+                "Ich möchte die Aufmerksamkeit des",
+                "Gerichts hierauf lenken!"
               ],
               "Type": 0,
               "Position": 0
@@ -56256,19 +56272,21 @@
             },
             {
               "Name": "JUDGE30",
+              "Comment": "In Majora's Mask, pictographs didn't have their own name, but in Wind Waker, they were consitently referred to as \"Lichtbild\" (which is actually just an outdated word for a photograph). -Jodocus",
               "MessageTextLines": [
-                "Hmm?<PAUSE:5> Why, this is one lovely",
-                "pictograph!"
+                "Hmm?<PAUSE:5> Oh, was für ein bezauberndes",
+                "Lichtbild!"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "JUDGE40",
+              "Comment": "\"Teich\" would be a more common/well known word for \"pond\", but the sign in the German translation of OoT (both N64 and 3D) uses \"Weiher\". -Jodocus",
               "MessageTextLines": [
-                "<PAUSE:5><DC>Ah, it reminds me of the idyllic days",
-                "I spent with my grandson at the",
-                "Fishing Pond...<FADE:10>"
+                "<PAUSE:5><DC>Ah, das erinnert mich an die idyllischen",
+                "Tage, die ich mit meinem Enkelsohn am",
+                "Fischweiher verbracht habe...<FADE:10>"
               ],
               "Type": 0,
               "Position": 0
@@ -56276,7 +56294,8 @@
             {
               "Name": "DRAGMIRE50",
               "MessageTextLines": [
-                "What about this pictograph, Defence?"
+                "Was soll mit diesem Lichtbild jetzt sein,",
+                "Verteidigung?"
               ],
               "Type": 0,
               "Position": 0
@@ -56284,7 +56303,8 @@
             {
               "Name": "LINK110",
               "MessageTextLines": [
-                "Well, just look at what Ingo <SOUND:CLUE>is wearing!"
+                "Nun, schauen Sie einfach, was Basil",
+                "<SOUND:CLUE>darauf trägt!"
               ],
               "Type": 0,
               "Position": 0
@@ -56292,17 +56312,17 @@
             {
               "Name": "LINK120",
               "MessageTextLines": [
-                "This photo is from Malon's childhood,",
-                "but Ingo is very clearly wearing the",
-                "same outfit he has on right now!"
+                "Dieses Bild stammt aus Malons Kindheit,",
+                "doch Basil trägt darauf eindeutig dieselbe",
+                "Kleidung, die er gerade anhat!"
               ],
-              "Type": 2,
+              "Type": 0,
               "Position": 0
             },
             {
               "Name": "LINK125",
               "MessageTextLines": [
-                "<SOUND:DON><DI>He couldn't have bought it today!"
+                "<SOUND:DON><DI>Er kann sie nicht heute gekauft haben!"
               ],
               "Type": 0,
               "Position": 0
@@ -56310,7 +56330,7 @@
             {
               "Name": "INGO100",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><DI>Gaaaaah!"
+                "<SOUND:EXPLOSION><DI>Aaaaaah!"
               ],
               "Type": 0,
               "Position": 0
@@ -56318,7 +56338,7 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Order!<PAUSE:3> I will have order!"
+                "<SOUND:WHAP><DI>Ruhe!<PAUSE:3> Ruhe im Gerichtssaal!"
               ],
               "Type": 0,
               "Position": 0
@@ -56326,7 +56346,7 @@
             {
               "Name": "JUDGE60",
               "MessageTextLines": [
-                "Why, the defence is<SOUND:HINT> absolutely correct!"
+                "Was die Verteidigung sagt,<SOUND:HINT> ist richtig!"
               ],
               "Type": 0,
               "Position": 0
@@ -56334,16 +56354,17 @@
             {
               "Name": "JUDGE70",
               "MessageTextLines": [
-                "I hope the witness has a good",
-                "explanation for this?"
+                "Ich hoffe, der Zeuge hat dafür eine",
+                "vernünftige Erklärung?"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "INGO110",
+              "Comment": "I'm always unsure how to properly \"translate\" interjections like these.Why did I feel the need to change \"Ghh\", but not \"Hrrm\"? I can't tell you, I'm going by vibes here. -Jodocus",
               "MessageTextLines": [
-                "<SPEED:1>Hrrrmmmm....<PAUSE:3> Ghhhhhh....<FADE:10>"
+                "<SPEED:1>Hrrrmmmm....<PAUSE:3> Grrrrr....<FADE:10>"
               ],
               "Type": 0,
               "Position": 0
@@ -56351,9 +56372,9 @@
             {
               "Name": "LINK130",
               "MessageTextLines": [
-                "<SOUND:0><C>(There!<PAUSE:5> I think we finally got him!<PAUSE:5> ",
-                "There's no way he can weasel out",
-                "this time!)"
+                "<SOUND:0><C>(So!<PAUSE:5> Ich glaube, jetzt haben wir ihn!<PAUSE:5> ",
+                "Unmöglich, dass er sich da wieder",
+                "rauswindet!)"
               ],
               "Type": 0,
               "Position": 0
@@ -56361,8 +56382,8 @@
             {
               "Name": "LINK140",
               "MessageTextLines": [
-                "<SOUND:0><C>(Oh.<PAUSE:3> Unless someone weasels out for",
-                "him...)"
+                "<SOUND:0><C>(Oh.<PAUSE:3> Es sei denn, jemand anders macht",
+                "das für ihn...)"
               ],
               "Type": 0,
               "Position": 0
@@ -56370,7 +56391,7 @@
             {
               "Name": "DRAGMIRE60",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Bah!<PAUSE:3> Isn't it obvious?"
+                "<SOUND:WHAP><DI>Pah!<PAUSE:3> Ist es nicht offensichtlich?"
               ],
               "Type": 0,
               "Position": 0
@@ -56378,20 +56399,20 @@
             {
               "Name": "DRAGMIRE70",
               "MessageTextLines": [
-                "Naturally, the witness knew he would",
-                "need to wear his nice clothes for the",
-                "royal visitation that was scheduled for",
-                "that day."
+                "Der Zeuge wusste natürlich, dass er für",
+                "die königliche Besichtigung später am",
+                "Tag seine beste Kleidung brauchen würde."
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "DRAGMIRE80",
+              "Comment": "Translated \"royal visitation's arrival\" as \"Ankunft des hohen Besuchs\"; \"Arrival of the high-ranking visitors\". -Jodocus",
               "MessageTextLines": [
-                "He brought them to the silo in advance,",
-                "so that he could quickly change just",
-                "before the royal visitation's arrival!"
+                "Er hatte sie vorsorglich ins Silo gebracht,",
+                "um sich vor Ankunft des hohen Besuchs",
+                "schnell umziehen zu können!"
               ],
               "Type": 0,
               "Position": 0
@@ -56399,7 +56420,7 @@
             {
               "Name": "INGO120",
               "MessageTextLines": [
-                "<PAUSE:20><DC><SOUND:HINT>...Oh?<PAUSE:20> Oh hoh!<PAUSE:20> Oh hoh hoh hoh!"
+                "<PAUSE:20><DC><SOUND:HINT>...Oh?<PAUSE:20> Oh ho!<PAUSE:20> Oh ho ho ho!"
               ],
               "Type": 0,
               "Position": 0
@@ -56407,29 +56428,31 @@
             {
               "Name": "INGO130",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Yes, of course!<PAUSE:3> I needed to be",
-                "presentable, after all."
+                "<SOUND:WHAP><DI>Ja, ganz richtig!<PAUSE:3> Ich musste mich ja",
+                "von meiner besten Seite zeigen!"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "INGO140",
+              "Comment": "A more direct translation of \"bum\" (in this sense) would be \"Bettler\" (\"beggar\"), \"Schnorrer\" (\"moocher\"), or \"Penner\" (comparable to \"hobo\"), but none of them felt right to me. The word I used, \"Landei\", more or less means \"hillbilly\". (Same with INGO70.) -Jodocus",
               "MessageTextLines": [
-                "Can't look like a bum in front of the",
-                "most important people in the kingdom!"
+                "Immerhin konnte ich vor den wichtigsten",
+                "Leuten im Königreich nicht wie ein",
+                "Landei aussehen!"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "LINK150",
-              "Comment": "Note to self: \"Schaugericht\"/\"Schauprouess\"? Or \"Abgekartetes Spiel\". -Jodocus",
+              "Comment": "About my translation for \"kangaroo court\": There are words like \"Schaugericht\" oder \"Schauprozess\" in German (literally \"show trial\"), but they didn't feel as natural. \"Abgekartetes Spiel\" refers to a setup, something that was rigged in advance, or an unfair/biased situation or process.\nSide note: The very first sentence in the translation, \"Moment mal\", is also the German translation of \"Hold it\"; just so happens to also fit here as a (mostly) direct translation. -Jodocus",
               "MessageTextLines": [
-                "<SOUND:DON><DI>Wait a minute!<PAUSE:5> This is insane!<PAUSE:5> ",
-                "What kind of kangaroo court is this?<PAUSE:5> ",
-                "The prosecution keeps making excuses",
-                "up on the spot!"
+                "<SOUND:DON><DI>Moment mal!<PAUSE:5> Das ist doch verrückt!<PAUSE:5> ",
+                "Was für ein abgekartetes Spiel ist das",
+                "hier?<PAUSE:5> Die Anklage erfindet einfach aus",
+                "dem Stegreif Ausreden für den Zeugen!"
               ],
               "Type": 0,
               "Position": 0
@@ -56437,18 +56460,19 @@
             {
               "Name": "LINK160",
               "MessageTextLines": [
-                "Ingo was clearly lying about buying",
-                "the clothes before the trial<PAUSE:5> <DI><EMDASH> <SOUND:WHAP>he's",
-                "definitely trying to hide something!"
+                "Basil hat eindeutig gelogen, als er sagte,",
+                "er hätte die Kleidung heute früh gekauft<PAUSE:5> <DI><EMDASH>",
+                "<SOUND:WHAP>er verheimlicht offensichtlich etwas!"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "LINK170",
+              "Comment": "The German word for \"perjury\" is \"Meineid\", though that felt like an unnatural/strong expression; as far as I know, in Germany, perjury is uncommon to actually occur in a case like this (witnesses usually aren't asked to swear an oath as path of a trial, so it's a REALLY big deal if it happens), and the word \"Meineid\" would be more closely associated with more high-profile cases.\nWent with \"Schwindel\", meaning \"sham\" or \"bogus\". (Unrelatedly, it can also mean \"dizziness\".) -Jodocus",
               "MessageTextLines": [
-                "Your Honour, surely you won't accept",
-                "this blatant perjury?!"
+                "Euer Ehren, Sie werden diesen offenen",
+                "Schwindel doch nicht etwa akzeptieren?!"
               ],
               "Type": 0,
               "Position": 0
@@ -56464,8 +56488,8 @@
             {
               "Name": "DRAGMIRE90",
               "MessageTextLines": [
-                "Accept it, Judge!<PAUSE:3> ",
-                "There can be no other explanation!"
+                "Akzeptieren Sie es, Richter!<PAUSE:3> ",
+                "Es gibt keine andere Erklärung!"
               ],
               "Type": 0,
               "Position": 0
@@ -56473,8 +56497,8 @@
             {
               "Name": "JUDGE90",
               "MessageTextLines": [
-                "The prosecution's explanation does",
-                "seem plausible...<FADE:20>"
+                "Die Erklärung der Anklage klingt",
+                "durchaus plausibel...<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -56482,18 +56506,19 @@
             {
               "Name": "LINK180",
               "MessageTextLines": [
-                "<SOUND:DON><DI>What?!<FADE:20>"
+                "<SOUND:DON><DI>Was?!<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "JUDGE100",
+              "Comment": "Udgey, take note. -Jodocus",
               "MessageTextLines": [
-                "However,<PAUSE:5> the fact that the witness",
-                "didn't simply say it himself, and",
-                "instead made up a lie about buying",
-                "the clothes, <SOUND:CLUE>is indeed very suspicious."
+                "Dennoch,<PAUSE:5> die Tatsache, dass der Zeuge",
+                "es nicht selbst gesagt hat, und behauptete,",
+                "die Kleidung gekauft zu haben, <SOUND:CLUE>ist in der",
+                "Tat sehr verdächtig."
               ],
               "Type": 0,
               "Position": 0
@@ -56509,7 +56534,7 @@
             {
               "Name": "JUDGE110",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Defence!"
+                "<SOUND:WHAP><DI>Verteidigung!"
               ],
               "Type": 0,
               "Position": 0
@@ -56517,9 +56542,9 @@
             {
               "Name": "JUDGE120",
               "MessageTextLines": [
-                "The prosecution has posed that there",
-                "is no other possible explanation for",
-                "this contradiction."
+                "Die Darstellung der Anklage ist, dass",
+                "es für diesen Widerspruch keine andere",
+                "Erklärung gebe."
               ],
               "Type": 0,
               "Position": 0
@@ -56527,9 +56552,9 @@
             {
               "Name": "JUDGE130",
               "MessageTextLines": [
-                "What is your opinion on the matter?<PAUSE:3> ",
-                "Can the defence think of an",
-                "alternative version of events?"
+                "Was sagen Sie dazu?<PAUSE:3> ",
+                "Kann die Verteidigung eine alternative",
+                "Version der Ereignisse anbieten?"
               ],
               "Type": 0,
               "Position": 0
@@ -56539,8 +56564,8 @@
               "MessageTextLines": [
                 "<SOUND:0><C>(Hmm...)",
                 "<NEW_BOX>",
-                "<C>(This is big. I really need to think",
-                "this through!)<SQUARE>"
+                "<C>(Jetzt kommt's drauf an. Ich muss gut",
+                "darüber nachdenken!)<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
