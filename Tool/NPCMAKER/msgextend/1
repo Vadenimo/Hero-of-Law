@@ -37,8 +37,11 @@ namespace MsgExtend
                     yPos += (int)(16 * scale);
                 }
 
-                if ((choiceType == 2 && yPos >= 32) || (choiceType == 3 && yPos >= 20) || iconType != -1 && yPos > 12)
-                    xPos = 2 * ZeldaMessage.Data.XPOS_DEFAULT;
+                if ((choiceType == 2 && yPos >= 32) || (choiceType == 3 && yPos >= 20))
+                    xPos = 16 + ZeldaMessage.Data.XPOS_DEFAULT;
+                    
+                if (iconType != -1 && yPos > 12)
+                    xPos = 2 * ZeldaMessage.Data.XPOS_DEFAULT;                    
                     
                 if (msg.Box == ZeldaMessage.Data.BoxType.Ocarina)
                 {

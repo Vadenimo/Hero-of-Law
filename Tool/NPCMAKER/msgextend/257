@@ -13,6 +13,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using ZeldaMessage;
+using System.Windows.Forms;
 
 namespace MsgExtend
 {
@@ -20,7 +21,9 @@ namespace MsgExtend
     {
         Bitmap systemBitmap = (System.Drawing.Bitmap)Bitmap.FromFile("msgextend/bitmaps/system.png");
         Bitmap crBitmap = (System.Drawing.Bitmap)Bitmap.FromFile("msgextend/bitmaps/cr.png");
-        
+        Bitmap blackBitmap = (System.Drawing.Bitmap)Bitmap.FromFile("msgextend/bitmaps/preview.png");
+        Bitmap blueBitmap = (System.Drawing.Bitmap)Bitmap.FromFile("msgextend/bitmaps/preview2.png");
+             
         public object TagProcess(ZeldaMessage.MessagePreview msg, Bitmap bmp, Bitmap boxBitmap, Color c, bool revAlpha, ZeldaMessage.Data.BoxType BoxType)
         {
             bool drawNormal = true;
@@ -36,6 +39,22 @@ namespace MsgExtend
                 {
                     bmp = (Bitmap)crBitmap.Clone();
                     drawNormal = false;
+                }
+                else
+                {
+                    if (!System.Windows.Forms.Control.ModifierKeys.HasFlag(Keys.Control))
+                    {
+                        if (BoxType == ZeldaMessage.Data.BoxType.Black)
+                        {
+                            bmp = (Bitmap)blackBitmap.Clone();
+                            drawNormal = false;
+                        }   
+                        else if (BoxType == ZeldaMessage.Data.BoxType.Blue)
+                        {
+                            bmp = (Bitmap)blueBitmap.Clone();
+                            drawNormal = false;
+                        }               
+                    }
                 }
             }
             catch (Exception ex)
