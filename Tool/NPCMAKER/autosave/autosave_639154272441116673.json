@@ -38845,8 +38845,8 @@
                 "kompletten Zeitverschwendung werden",
                 "wird, Verteidiger.",
                 "<NEW_BOX>",
-                "Sowohl ",
-                "client's.<SQUARE>"
+                "Sowohl zu Ihrem eignen Wohle als auch",
+                "Ihrer Angeklaten.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -85055,7 +85055,7 @@
               "Name": "MUTOH1",
               "MessageTextLines": [
                 "Es war ein stinknormaler Tag!<PAUSE:5> Ich hab' ",
-                "nnur meine Einnahmen gezählt, wirklich!"
+                "nur meine Einnahmen gezählt, wirklich!"
               ],
               "Type": 0,
               "Position": 0
@@ -85115,8 +85115,9 @@
               "Name": "MUTOH8",
               "MessageTextLines": [
                 "Er hat das ja nicht nur einmal",
-                "gemacht, der Frechdachs!<PAUSE:5> Aber warum nur?<PAUSE:5> ",
-                "Ist doch alles so billig...!<PAUSE:5> Verflixter<EMDASH>"
+                "gemacht, der Frechdachs!<PAUSE:5> Aber warum ",
+                "nur?<PAUSE:5> Ist doch alles so billig...!<PAUSE:5> ",
+                "Verflixter<EMDASH>"
               ],
               "Type": 0,
               "Position": 0
@@ -90165,7 +90166,7 @@
         {
           "Name": "Title",
           "MessageTextLines": [
-            "<NS><SOUND:0><LC><R>\"Hoot!\"<FADE:20>"
+            "<NS><SOUND:0><LC><R>\"Hu-hu!\"<FADE:20>"
           ],
           "Type": 0,
           "Position": 0
@@ -90174,7 +90175,7 @@
           "Name": "OWL1",
           "MessageTextLines": [
             "Koholint's very existence...<PAUSE:5> its very",
-            "essence...<PAUSE:5> <SOUND:OWLHOOT>Hoot!<PAUSE:6> ",
+            "essence...<PAUSE:5> <SOUND:OWLHOOT>Hu-hu!<PAUSE:6> ",
             "It is tied to the Wind Fish's slumber."
           ],
           "Type": 0,
@@ -90238,9 +90239,9 @@
             {
               "Name": "OWL2",
               "MessageTextLines": [
-                "As long as the Wind Fish sleeps,<PAUSE:3> the",
-                "island cannot be escaped...<PAUSE:5> <SOUND:CLUE>like a",
-                "terrible nightmare."
+                "Solange der Windfisch schlägt,<PAUSE:3> kann",
+                "von der Insel nicht geflüchtet werden...<PAUSE:5> <SOUND:CLUE>",
+                "Es ist wie ein schrecklicher Alptraum."
               ],
               "Type": 0,
               "Position": 0
@@ -90248,10 +90249,10 @@
             {
               "Name": "OWL3",
               "MessageTextLines": [
-                "The young sword-bearer must, thus,",
-                "search for the eight<SOUND:HINT> <R>Instruments of",
-                "the Sirens<W>, and play the ballad that",
-                "will wake the great one."
+                "Der junge Schwertträger muss nach",
+                "den acht<SOUND:HINT> <R>Musikinstrumenten der ",
+                "Sirenen<W> suchen und die Ballade spielen,",
+                "die den Großen erwecken wird."
               ],
               "Type": 0,
               "Position": 0
@@ -90259,9 +90260,9 @@
             {
               "Name": "OWL4",
               "MessageTextLines": [
-                "<SOUND:OWLHOOT>Hoot!<PAUSE:5> With the Instruments all united,",
-                "the Wind Fish's slumber shall come",
-                "to an end...<PAUSE:5> and so shall Koholint.<SQUARE>"
+                "<SOUND:OWLHOOT>Hu-hu!<PAUSE:5> Sind alle Instrumente miteinander",
+                "vereint, so endet der Schlummer des",
+                "Windfisches...<PAUSE:5> als auch Cocolint.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -90614,7 +90615,7 @@
             {
               "Name": "LINK10",
               "MessageTextLines": [
-                "<SOUND:EXPLOSION><SPEED:103>That didn't explain anything either!<SPEED:102>"
+                "<SOUND:EXPLOSION><SPEED:103>Dennoch erkärt das nichts!<SPEED:102>"
               ],
               "Type": 0,
               "Position": 0
@@ -90622,10 +90623,10 @@
             {
               "Name": "DRAGMIRE10",
               "MessageTextLines": [
-                "<SOUND:WHAP><DI>Hah!",
+                "<SOUND:WHAP><DI>Ha!",
                 "<NEW_BOX>",
-                "Just like I said:<PAUSE:3> listening to this bird",
-                "was a waste of time."
+                "Wie ich schon sagte:<PAUSE:3> Dem Vogel",
+                "zuzuhören, war reine Zeitverschwendung!"
               ],
               "Type": 0,
               "Position": 0
@@ -90633,8 +90634,9 @@
             {
               "Name": "OWL10",
               "MessageTextLines": [
-                "<SOUND:OWLHOOT>Hoot!<PAUSE:5> Hmm... perhaps that was not",
-                "as clear as I'd hoped."
+                "<SOUND:OWLHOOT>Hu-hu!<PAUSE:5> Hmm... vielleicht hab ich",
+                "mich, anders als erhofft, ",
+                "missverständlich ausgedrückt."
               ],
               "Type": 0,
               "Position": 0
@@ -90642,9 +90644,9 @@
             {
               "Name": "OWL20",
               "MessageTextLines": [
-                "Do forgive me...<PAUSE:5> Over-mystifying is a",
-                "bit of an occupational hazard for our",
-                "kind."
+                "Vergebt mir bitte...<PAUSE:5> Übermäßiges",
+                "Mystifizieren ist so was wie ein",
+                "Berufsrisiko für unsere Zunft."
               ],
               "Type": 0,
               "Position": 0
@@ -90652,7 +90654,8 @@
             {
               "Name": "LINK20",
               "MessageTextLines": [
-                "<C>(What \"occupation\"?<PAUSE:5> <SOUND:WHAP>Professional Owl?)"
+                "<C>(Welches \"Berufsrisiko\"?<PAUSE:5> <SOUND:WHAP>",
+                "Die einer professionellen Eule?)"
               ],
               "Type": 0,
               "Position": 0
@@ -90660,8 +90663,8 @@
             {
               "Name": "OWL30",
               "MessageTextLines": [
-                "Please, if you have questions, I will",
-                "happily answer.<PAUSE:5><SOUND:OWLHOOT> Hoot!<PAUSE:2><SOUND:OWLHOOT> Hoo!"
+                "Sofern Fragen bestehen, würde",
+                "ich sie m.<PAUSE:5><SOUND:OWLHOOT> Hoot!<PAUSE:2><SOUND:OWLHOOT> Hoo!"
               ],
               "Type": 0,
               "Position": 0
