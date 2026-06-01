@@ -90663,7 +90663,9 @@
             {
               "Name": "OWL30",
               "MessageTextLines": [
-                "Sofern .<PAUSE:5><SOUND:OWLHOOT> Hoot!<PAUSE:2><SOUND:OWLHOOT> Hoo!"
+                "Sofern Fragen bestehen, würde",
+                "ich sie mit Vergnügen beantworten.<PAUSE:5><SOUND:OWLHOOT>",
+                "Hu-hu!<PAUSE:2><SOUND:OWLHOOT> Huu!"
               ],
               "Type": 0,
               "Position": 0
@@ -90671,8 +90673,8 @@
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
-                "Hrmm...<PAUSE:5> well, the witness seems to be all",
-                "but begging to be cross-examined."
+                "Hmm...<PAUSE:5> nun, der Zeuge scheint nach",
+                "einem Kreuzverhör zu betteln."
               ],
               "Type": 0,
               "Position": 0
@@ -90680,7 +90682,7 @@
             {
               "Name": "JUDGE20",
               "MessageTextLines": [
-                "Defence...<PAUSE:3> please go right ahead.<SQUARE>"
+                "Verteidiger...<PAUSE:3> bitte fahren Sie fort.<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
