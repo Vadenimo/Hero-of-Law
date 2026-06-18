@@ -42,7 +42,7 @@ namespace MsgExtend
                 }
                 else
                 {
-                    if (!System.Windows.Forms.Control.ModifierKeys.HasFlag(Keys.Control))
+                    if (System.Windows.Forms.Control.ModifierKeys.HasFlag(Keys.Alt))
                     {
                         if (BoxType == ZeldaMessage.Data.BoxType.Black)
                         {
