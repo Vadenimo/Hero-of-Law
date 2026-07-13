@@ -28592,7 +28592,7 @@
             {
               "Name": "Title",
               "MessageTextLines": [
-                "<NS><SOUND:0><LC><R>\"Die Tat hinter verschlossener Tür\"<FADE:40>"
+                "<NS><SOUND:0><LC><R>\"The Scene Behind the Door\"<FADE:40>"
               ],
               "Type": 0,
               "Position": 0
@@ -28600,9 +28600,9 @@
             {
               "Name": "ZELDA1",
               "MessageTextLines": [
-                "Ich traf kurz nach 8 Uhr auf der ",
-                "Lon Lon-Farm ein, begleitet von ",
-                "meinen treuen Wachen"
+                "I arrived at Lon Lon Ranch a little",
+                "after 8 AM, accompanied by my loyal",
+                "guards."
               ],
               "Type": 0,
               "Position": 0
@@ -28610,9 +28610,9 @@
             {
               "Name": "ZELDA2",
               "MessageTextLines": [
-                "Ich war überrascht, wie ruhig es dort",
-                "war.<PAUSE:3> Es gab niemanden, der uns",
-                "willkommen hat..."
+                "I remember being surprised at how",
+                "quiet everything was.<PAUSE:3> There was",
+                "nobody there to welcome us..."
               ],
               "Type": 0,
               "Position": 0
@@ -28620,9 +28620,9 @@
             {
               "Name": "ZELDA3",
               "MessageTextLines": [
-                "Ich spürte, dass etwas falsch war.",
-                "Ich öffnete die Tür zum Haus der Farm",
-                "und ging hinein..."
+                "I could sense that something was",
+                "wrong. I opened the door to the ranch",
+                "house and went inside..."
               ],
               "Type": 0,
               "Position": 0
@@ -28630,9 +28630,9 @@
             {
               "Name": "ZELDA4",
               "MessageTextLines": [
-                "Der Raum war hauptsächlich leer.<PAUSE:5>",
-                "Es gab da aber einen Tisch auf dem",
-                "eine Art Kristallflasche lag..."
+                "The room was mostly empty.<PAUSE:5> There",
+                "was a table with some kind of crystal",
+                "bottle on top of it..."
               ],
               "Type": 0,
               "Position": 0
@@ -28640,10 +28640,10 @@
             {
               "Name": "ZELDA5",
               "MessageTextLines": [
-                "...aber vor dem Tisch enthüllte sich",
-                "eine furchteinflössende Szene!<PAUSE:5> Die",
-                "Angeklagte <SOUND:STAB>zerfleischte die Brust des",
-                "Besitzers mit einer Säge, die sie hielt."
+                "...but in front of the table, a terrifying",
+                "scene was unveiling!<PAUSE:5> The defendant",
+                "<SOUND:STAB>hacked at the ranch owner's chest",
+                "with the saw she was holding!"
               ],
               "Type": 0,
               "Position": 0
@@ -28651,9 +28651,9 @@
             {
               "Name": "ZELDA6",
               "MessageTextLines": [
-                "Ich war eingehüllt voller Angst und",
-                "schrie.<PAUSE:3> Ich werde niemals vergessen,",
-                "was ich an diesem Tag sah..."
+                "I was overcome with fear, and I",
+                "screamed.<PAUSE:3> I will never forget what I",
+                "saw that day..."
               ],
               "Type": 0,
               "Position": 0
@@ -28661,10 +28661,10 @@
             {
               "Name": "ZELDA7",
               "MessageTextLines": [
-                "Mir wurde gesagt, dass Talon und",
-                "seine Tochter eigentlich nett sind...<PAUSE:3>",
-                "Ich kann es nicht glauben, dass sie",
-                "zu solch einer Gewalt imstande wäre.<SQUARE>"
+                "I heard that Talon and his daughter",
+                "were incredibly kind...<PAUSE:3> I cannot",
+                "believe she would commit such",
+                "horrible violence...<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -29745,8 +29745,8 @@
             {
               "Name": "COURTRECORD1",
               "MessageTextLines": [
-                "<SOUND:ITEMGET><SOUND:0><ICON:5><DI><SQUARE><G>Die <R>Parfürmflasche<G> wurde zu",
-                "den Akten hinzugefügt."
+                "<SOUND:ITEMGET><SOUND:0><ICON:5><DI><SQUARE><G<R>Parfürmflasche<G> added to the",
+                "Court Record."
               ],
               "Type": 1,
               "Position": 2
