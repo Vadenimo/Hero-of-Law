@@ -69008,8 +69008,6 @@
               "Name": "Scenario",
               "MessageTextLines": [
                 "",
-                "",
-                "",
                 "<Shift:140><R>SZENARIO<W>",
                 "",
                 "",
@@ -69037,6 +69035,8 @@
                 "<Shift:180>Professional Gopnik",
                 "",
                 "<Shift:180>Jodocus",
+                "",
+                "<Shift:180>NEWLPK",
                 "",
                 "<PERSISTENT>"
               ],

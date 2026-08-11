@@ -40597,7 +40597,8 @@
             {
               "Name": "2_LINK10",
               "MessageTextLines": [
-                "Gab es sonst noch was in dem "
+                "Gab es sonst noch was in dem Raum zu",
+                "beachten?"
               ],
               "Type": 0,
               "Position": 0
@@ -40605,8 +40606,8 @@
             {
               "Name": "2_ZELDA10",
               "MessageTextLines": [
-                "Only the beautiful little crystal bottle",
-                "I mentioned before."
+                "Nur die kleine, schöne Kristallflasche,",
+                "die ich zuvor erwähnt habe."
               ],
               "Type": 0,
               "Position": 0
@@ -40614,7 +40615,7 @@
             {
               "Name": "2_ZELDA20",
               "MessageTextLines": [
-                "The house was rather barren..."
+                "Das Haus hingegen war ziemlich öde..."
               ],
               "Type": 0,
               "Position": 0

@@ -40606,8 +40606,8 @@
             {
               "Name": "2_ZELDA10",
               "MessageTextLines": [
-                "Only the beautiful little crystal bottle",
-                "I mentioned before."
+                "Nur die kleine, schöne Kristallflasche,",
+                "die ich zuvor erwähnt habe."
               ],
               "Type": 0,
               "Position": 0
@@ -40615,7 +40615,7 @@
             {
               "Name": "2_ZELDA20",
               "MessageTextLines": [
-                "The house was rather barren..."
+                "Das Haus hingegen war ziemlich öde..."
               ],
               "Type": 0,
               "Position": 0
@@ -69008,8 +69008,6 @@
               "Name": "Scenario",
               "MessageTextLines": [
                 "",
-                "",
-                "",
                 "<Shift:140><R>SZENARIO<W>",
                 "",
                 "",
@@ -69037,6 +69035,8 @@
                 "<Shift:180>Professional Gopnik",
                 "",
                 "<Shift:180>Jodocus",
+                "",
+                "<Shift:180>J",
                 "",
                 "<PERSISTENT>"
               ],
