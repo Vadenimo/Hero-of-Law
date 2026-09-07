@@ -27820,7 +27820,6 @@
             },
             {
               "Name": "DRAGMIRE30",
-              "Comment": "A direct translation of the second text box would have meant splitting the lines weird (the first line would have to be half-empty), so I rephreased it somewhat: \"There would be nothing more comfortable for me than a night of darkness and solitude.\"\nThe word I used for comfort is actually closer to rest/recovery. -Jodocus",
               "MessageTextLines": [
                 "Sparen Sie sich die leeren Drohungen,",
                 "Shiekah.<NEW_BOX>",
@@ -27850,7 +27849,6 @@
             },
             {
               "Name": "LINK20",
-              "Comment": "\"dicke Luft\" (literally \"thick air\") is a German idiom, similar to \"bad blood\". -Jodocus",
               "MessageTextLines": [
                 "<SOUND:0><C>(Zwischen denen herrscht ganz schön",
                 "dicke Luft.<PAUSE:10> Wenn das so weitergeht,",
@@ -27896,7 +27894,6 @@
             },
             {
               "Name": "DRAGMIRE45",
-              "Comment": "I suppose \"Todesstoß\" would be a closer translation for \"final blow\", literally meaning \"killing blow\"... but that sounded a bit _too_ aggressive/violent to me in this context, even for Dragmire. \"Gnadenstoß\" translates to \"mercy killing\"/\"coup the grâce\", with the same (figurative) meaning as \"final blow\". -Jodocus",
               "MessageTextLines": [
                 "Die Zeit ist reif für den Gnadenstoß.<PAUSE:10> ",
                 "Ich rufe Ihre Hoheit, <R>Prinzessin Zelda",
@@ -27980,7 +27977,6 @@
             },
             {
               "Name": "DRAGMIRE80",
-              "Comment": "Every direct translation of the last sentence I could come up with sounded unnatural. My version translates to, \"This is all part of the usual procedure!\" -Jodocus",
               "MessageTextLines": [
                 "<SOUND:EXPLOSION>Abfällig?",
                 "<NEW_BOX>",
@@ -28039,7 +28035,7 @@
             },
             {
               "Name": "DRAGMIRE100",
-              "Comment": "One could read the original message as Dragmire already referring to himself, rather than Zelda, as it is explicitly intended in DRAGMIRE120 (as in, there's some room for interpretation as to who is meant with \"wise monarch\"). For the German translation, the word I used for \"monarch\" is specifically for a female ruler, leaving no room for doubt that he's referring to Zelda. (Who is, of course, most associated with wisdom.)\nIf we wish to preserve the ambiguity, we could change it to the male version, as it is common to use male versions (of job titles and the like) as the default if the gender of the person is unknown/unclear or (deemed) irrelevant.\nThough in this context, while using the male as default wouldn't strictly be wrong, it would be a bit strange, and make it more (and, in my view, a bit too) obvious that he's not actually talking about Zelda. -Jodocus",
+              "Comment": "There's some room for interpretation as to who Dragmire is referring to with \"wise monarch\" (i.e., he could be already referring to himself here, as is intended in DRAGMIRE120). For the German translation, the word I used for \"monarch\" is specifically for a female ruler, leaving no room for doubt that he's referring to Zelda. (Who is, of course, most associated with wisdom.) -Jodocus",
               "MessageTextLines": [
                 "Es ist gut zu wissen, dass die Zukunft",
                 "für Hyrule eine so...<PAUSE:3> <SOUND:CLUE>weise Herrscherin",
@@ -40587,7 +40583,6 @@
             },
             {
               "Name": "1_DRAGMIRE10",
-              "Comment": "As in many other messages, I'm avoiding the official translation of \"pressing\" here, which is \"angreifen\", literally \"attack\". While yes, that is what the player did (in game terms), \"attacking the princess on her apology\" sounds, uh, not good. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:EXPLOSION>Sie brauchen die Prinzessin nicht zu",
                 "ihrer Entschuldigung befragen!",
@@ -40782,7 +40777,7 @@
             },
             {
               "Name": "3_ZELDA40",
-              "Comment": "For a more natural sounding message, I translated the second sentence as \"There was no danger\", with the Clue sound right before the \"no\". -Jodocus",
+              "Comment": "I translated the second sentence as \"There was no danger\", with the Clue sound right before the \"no danger\". -Jodocus",
               "MessageTextLines": [
                 "... J-jedoch waren die Wachen ganz in",
                 "meiner Nähe!<PAUSE:10> Es bestand<SOUND:HINT> keine Gefahr."
@@ -40880,7 +40875,6 @@
             },
             {
               "Name": "4_DRAGMIRE10",
-              "Comment": "For a bit I wondered if I could make a pun here with \"hetzen\" (to rush, hurry) and \"HESS\", but then I thought better of it. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:EXPLOSION>Trantüten!<PAUSE:5> Ich wäre in der Hälfte der",
                 "Zeit dagewesen!<PAUSE:3> Selbst, wenn ich",
@@ -40973,7 +40967,6 @@
             },
             {
               "Name": "6_DRAGMIRE10",
-              "Comment": "Took a lot of liberty with the second box: \"The early morning hours often greet us with a cold embrace\"... and I'm not at all sure it's good like this. -Jodocus",
               "MessageTextLines": [
                 "Lassen Sie mich daran erinnern, dass",
                 "es zahlreiche Gründe dafür gibt, warum",
@@ -41199,7 +41192,7 @@
             },
             {
               "Name": "JUDGE40",
-              "Comment": "Changed the second box to, roughly, \"Unless you want to share more revelations with us?\" It also works with the surrounding text, but fits the line lengths better.\n(Also, I don't like how the first box contains the word \"Eure\" twice... Maybe I'll find a better way to translate it later.) -Jodocus",
+              "Comment": "Changed the second box to, roughly, \"Unless you want to share more revelations with us?\" It also works with the surrounding text, but fits the line lengths better. -Jodocus",
               "MessageTextLines": [
                 "Ich danke Euch für Eure Zeit, Eure",
                 "Hoheit.",
@@ -42108,7 +42101,6 @@
             },
             {
               "Name": "DRAGMIRE20",
-              "Comment": "The indirect way in which he says this (\"having established...\") doesn't work well in German, so the whole message roughly translates to: \"As we established before the recess... | ... the defendant had the opportunity, as well as the means to commit the murder. With this, only one question remains. | The motive. After all, such a terrible crime doesn't happen without any reason.\"\n-Jodocus",
               "MessageTextLines": [
                 "Wie wir vor der Pause bereits",
                 "geklärt hatten...",
@@ -42327,7 +42319,6 @@
             },
             {
               "Name": "DRAGMIRE100",
-              "Comment": "Could replace \"offenbar\" with \"wohl\" to shorten the line; though I don't like how that would sound; might try to rephrase it entirely instead. -Jodocus",
               "MessageTextLines": [
                 "Nun gut.<PAUSE:3> Da es sich bei Ihnen offenbar",
                 "um einen wichtigen Arbeiter handelt,",
@@ -42339,10 +42330,9 @@
             },
             {
               "Name": "INGO70",
-              "Comment": "First line perhaps too long? Could replace \"Gewiss\" with \"Ja\" in that case, though it wouldn't sound as good.. -Jodocus",
               "MessageTextLines": [
-                "Gewiss. Der Besitzer hat seine wichtigen",
-                "Entscheidungen stets mit mir geteilt.<PAUSE:5>",
+                "Ganz recht. Der Besitzer teilte all seine",
+                "wichtigen Entscheidungen mit mir.<PAUSE:5>",
                 "Er hat mir <SOUND:HINT>bedingungslos vertraut."
               ],
               "Type": 0,
@@ -42396,7 +42386,6 @@
             },
             {
               "Name": "INGO100",
-              "Comment": "Moved the \"honourable court of law\" bit to the beginning of the message, as it sounds more natural in German. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:WHAP><DI>Verehrtes Gericht, höret, was ich zu",
                 "sagen habe!<SQUARE>"
@@ -42774,7 +42763,6 @@
             },
             {
               "Name": "INGO5",
-              "Comment": "Translated as \"What an ungrateful brat, after all Talon did for her!\" -Jodocus",
               "MessageTextLines": [
                 "Was für ein undankbares Gör, nach",
                 "allem, was Talon für sie getan hat!<SQUARE>"
@@ -43215,7 +43203,6 @@
             },
             {
               "Name": "DRAGMIRE40",
-              "Comment": "\"Hyrule-Stadt\" is my personal pet peeve; it's the official German translation of \"Castle Town\", but just sounds clumsy to me. ... I have nothing of substance to add; just wanted to complain. -Jodocus",
               "MessageTextLines": [
                 "Laut Gesetz sind alle Erbdokumente",
                 "erst rechtlich wirksam, wenn sie beim",
@@ -43246,7 +43233,6 @@
             },
             {
               "Name": "MALON10",
-              "Comment": "Translated \"Why would you...\" as \"But why...\". Translating it verbatim sounded strange to me in German, cutting off the sentence at that part. -Jodocus",
               "MessageTextLines": [
                 "Herr Basil...<PAUSE:10> Aber warum...?"
               ],
@@ -47168,7 +47154,7 @@
             },
             {
               "Name": "CONS1_LINK30",
-              "Comment": "Removed the first pause tag, as it seemed unnatural for him to pause there in the German sentence. -Jodocus",
+              "Comment": "Removed the first pause tag, as it seemed unnatural for him to pause there in the German sentence. -Jodocus; <CT>",
               "MessageTextLines": [
                 "<SOUND:0><C>(... und vielleicht<PAUSE:3> sollte ich genau<SOUND:CLUE> da",
                 "ein wenig nachhaken.)<SQUARE>"
@@ -47259,11 +47245,10 @@
             },
             {
               "Name": "CONS3_LINK40",
-              "Comment": "In German translations of Ace Attorney, \"Pressing\" is called \"angreifen\" (\"attacking\"). Might sound a bit aggressive in this context (we're used to see more physical attacks from Link), so translated it as \"nachhaken\" here (roughly means \"follow-up\", \"question further\"). Did the same for CONS1_LINK30, as well. -Jodocus",
               "MessageTextLines": [
                 "<C>(Ich sollte etwas Anderes versuchen.<PAUSE:5>",
                 "<SOUND:HINT>Vielleicht macht er einen Fehler, wenn",
-                "ich woanders genauer nachhake?)"
+                "ich seine anderen Aussagen angreife?)"
               ],
               "Type": 0,
               "Position": 0
@@ -47418,7 +47403,6 @@
             },
             {
               "Name": "2_INGO30",
-              "Comment": "Schabernack, Sperenzien, Schelmereien, Kapriolen, Eskapaden... Konnte mich kaum entscheiden. Die deutsche Sprache hat so schöne Worte. :D -Jodocus",
               "MessageTextLines": [
                 "<SOUND:WHAP><DI>Talon war nicht dumm!<PAUSE:5> ",
                 "Ich habe ihn selbst davon überzeugt,",
@@ -47452,7 +47436,7 @@
             },
             {
               "Name": "2_INGO50",
-              "Comment": "Shortened the pauses; they felt weirdly long to me when seeing that textbox in game. -Jodocus",
+              "Comment": "Shortened the pauses; they felt weirdly long to me when seeing that textbox in game. -Jodocus; <CT>",
               "MessageTextLines": [
                 "Kinder heutzutage!<PAUSE:2> Man nährt sie,<PAUSE:1> ",
                 "zieht sie groß,<PAUSE:5> und sobald man nur",
@@ -47802,7 +47786,7 @@
             },
             {
               "Name": "4_LINK64",
-              "Comment": "Basically switched the order of the sentences and heavily rephrased them: \"Wouldn't any OTHER day have been better than one where they'd be so many witnesses around?\" Of course, that meant that I changed the control tags, as well. -Jodocus",
+              "Comment": "Basically switched the order of the sentences and heavily rephrased them: \"Wouldn't any OTHER day have been better than one where they'd be so many witnesses around?\" Of course, that meant that I changed the control tags, as well. -Jodocus; <CT>",
               "MessageTextLines": [
                 "Wäre nicht jeder <PAUSE:3><DI><SOUND:WHAP>ANDERE <PAUSE:3><DC>Tag besser",
                 "geeignet gewesen, als der, an dem",
@@ -48048,7 +48032,6 @@
             },
             {
               "Name": "5_INGO80",
-              "Comment": "Personally, I'd like to think that the sentiments about Ingo are the only part that *weren't* made up. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:DON><DI>\"Ich dachte, du liebst diese Farm!<PAUSE:8> <DC>All",
                 "die Tiere sind hier, und Basil wird dir",
@@ -48060,7 +48043,6 @@
             },
             {
               "Name": "5_INGO90",
-              "Comment": "Side note: In the German version, Ingo only refers to himself as \"hard-working\" once (from what I've found), when you first speak to him as an adult. Before that, he refers to himnself as \"fantastisch\" (\"amazing\") and \"einzigartig\" (\"unique\" - he sure is). I'm happy I got to work both of those in here. -Jodocus",
               "MessageTextLines": [
                 "\"Ja, Basil ist einzigartig, aber ich...<PAUSE:3>",
                 "Ich hasse dich trotzdem!<PAUSE:3> <SOUND:EXPLOSION><DI>Wir sind",
@@ -48173,7 +48155,6 @@
             },
             {
               "Name": "6_INGO10",
-              "Comment": "The German version of \"Hold it!\" is \"Moment mal!\", more or less \"Just one moment!\". So in this translation, Ingo says, \"No, YOU wait 'just one moment'!\" -Jodocus",
               "MessageTextLines": [
                 "<SOUND:DON><DI>Nein, SIE warten einen \"Moment mal\"!<PAUSE:10> ",
                 "Dieser Mann hat alles für sie gegeben!"
@@ -48234,7 +48215,7 @@
             },
             {
               "Name": "6_LINK20",
-              "Comment": "Added second line to question and moved <TWO_CHOICES> tag up one line to fit in into the text box. Could cut the \"Hmm.\" part, if it's important to fit the question into one line like in the original. -Jodocus",
+              "Comment": "Added second line to question and moved <TWO_CHOICES> tag up one line to fit in into the text box. Could cut the \"Hmm.\" part, if it's important to fit the question into one line like in the original. -Jodocus; <CT>",
               "MessageTextLines": [
                 "<SOUND:0><C>(Hmm. War diese letzte Äußerung",
                 "wichtig?)<TWO_CHOICES>",
@@ -48429,7 +48410,7 @@
             },
             {
               "Name": "JUDGE10",
-              "Comment": "\"Parfümliebhaber\" would roughly translate as \"lover of perfume\"/\"perfume aficionado\".\"Connaisseur\" does exist in German, but is more of an academic term; I personally don't see the judge using it. (But maybe I'm reading too much of the naive Ace Attorney judge into him...?) -Jodocus",
+              "Comment": "\"Parfümliebhaber\" would roughly translate as \"lover of perfume\"/\"perfume aficionado\".\"Connaisseur\" does exist in German, but is more of an academic term and didn't feel natural to me here. -Jodocus",
               "MessageTextLines": [
                 "Oh, tatsächlich?<PAUSE:3> War der Farmbesitzer",
                 "in Wahrheit ein<SOUND:HINT> Parfümliebhaber?"
@@ -48531,7 +48512,7 @@
             },
             {
               "Name": "A1_LINK10",
-              "Comment": "Removed the last <Pause> tag, due to how I restructured the sentence. -Jodocus",
+              "Comment": "Removed the last <Pause> tag, due to how I restructured the sentence. -Jodocus; <CT>",
               "MessageTextLines": [
                 "Parfüm zu verschenken ist äußerst",
                 "unhöflich.<PAUSE:5> Man sagt einem damit",
@@ -48561,7 +48542,6 @@
             },
             {
               "Name": "A1_JUDGE10",
-              "Comment": "So do I, Judge, so do I... No idea when I'm supposed to use them. -Jodocus",
               "MessageTextLines": [
                 "Ist das wahr?<PAUSE:5> Aber ich bekomme",
                 "jedes Jahr Parfüm zu meinem",
@@ -48580,7 +48560,6 @@
             },
             {
               "Name": "A1_DRAGMIRE10",
-              "Comment": "Too bad the perfume isn't a Christmas present; I would have loved to translate the first line as \"Bah, Humbug!\" -Jodocus",
               "MessageTextLines": [
                 "<SOUND:EXPLOSION>Bah, welch ein Unfug.<PAUSE:3> Wir sind hier",
                 "vor Gericht!<PAUSE:3> Ihre persönliche Meinung",
@@ -48821,7 +48800,7 @@
             },
             {
               "Name": "A2_M_MALON30",
-              "Comment": "Did a complete rewrite; Malon's message now references a line Navi says at the beginning of the game about Link. See my message in the Discord for a full explanation. -Jodocus",
+              "Comment": "Did a complete rewrite; Malon's message now references a line Navi says at the beginning of the game about Link. See my message in the Discord for a full explanation. This includes removing the second pause tag and adding a DC tag. -Jodocus; <CT>",
               "MessageTextLines": [
                 "Komm schon, Link!<PAUSE:2> ",
                 "Sollte meine Verteidigung wirklich in",
@@ -48906,7 +48885,6 @@
             },
             {
               "Name": "A2_T_DRAGMIRE20",
-              "Comment": "I am assuming the original message is a reference to the dungeons in the first TLoZ being refered to as \"labyrinths\" in the manual? Either way, didn't translate it that way; \"Labyrinth\" is occasionally used for dungeons in German but, from what I can tell, not in any official capacity. -Jodocus",
               "MessageTextLines": [
                 "Natürlich!",
                 "<NEW_BOX>",
@@ -48920,7 +48898,6 @@
             },
             {
               "Name": "A2_T_DRAGMIRE30",
-              "Comment": "(Following the comment on the last message)\nInstead, I made a bit of a pun here: Rather than \"labyrinth\", he uses the word \"Gewirr\" (\"maze\"), and in place of \"convoluted\", he uses \"wirr\" (\"confused\"). -Jodocus",
               "MessageTextLines": [
                 "Unterdessen schafft die Verteidigung",
                 "es vielleicht, dem Gewirr ihres eigenen",
@@ -48952,6 +48929,7 @@
             },
             {
               "Name": "A2_W_DRAGMIRE10",
+              "Comment": "Moved the emphasis to a different word: \"What's that got to do with where THIS person must have been?!\" -Jodocus",
               "MessageTextLines": [
                 "Was hat das damit zu tun, wo DIESE",
                 "Person gewesen sein soll?!"
@@ -49477,7 +49455,6 @@
             },
             {
               "Name": "JUDGE130",
-              "Comment": "\"Wundersam\" roughly means \"wondrous\", \"miraculous\", \"mysterious\", but also \"strange\" or \"weird\". Picked it because at first glance it appears as (and can be) a positive word, but can also be understood in a negative way (especially paired with a word like \"smells\"). -Jodocus",
               "MessageTextLines": [
                 "*räusper*",
                 "Von...<PAUSE:5> <SOUND:CLUE><R>\"Tingles Wundersame Gerüche\"<W>..."
@@ -49509,7 +49486,7 @@
               "Name": "DRAGMIRE50",
               "Comment": "Instead of \"nobody\", Dragmire calls Tingle a \"Witzfigur\" here, roughly equal to \"clown\" in a purely derogative sense. -Jodocus",
               "MessageTextLines": [
-                "Das diese<PAUSE:5> <DI><SOUND:WHAP>Witzfigur<PAUSE:5> <DC>ein Monopol an",
+                "Dass diese<PAUSE:5> <DI><SOUND:WHAP>Witzfigur<PAUSE:5> <DC>ein Monopol an",
                 "hylianischen Parfümen hat, ist eine",
                 "Anmaßung!"
               ],
@@ -49574,7 +49551,6 @@
             },
             {
               "Name": "JUDGE190",
-              "Comment": "I'm assuming it cost 398 Rupees.-Jodocus",
               "MessageTextLines": [
                 "<SOUND:WHAP><DI>Oho!<PAUSE:10> Ganz schön kostspielig!<PAUSE:8> ",
                 "Dafür müsste ich glatt<EMDASH><FADE:10>"
@@ -50913,7 +50889,6 @@
             },
             {
               "Name": "LINK20",
-              "Comment": "A direct translation of \"core of the argument\" sounded unnatural; translated it as \"we couldn't shake the core argument of the prosecution\". -Jodocus",
               "MessageTextLines": [
                 "Ja, das war...<PAUSE:3> unerwartet.",
                 "<NEW_BOX>",
@@ -50944,7 +50919,6 @@
             },
             {
               "Name": "LINK30",
-              "Comment": "Translated \"Detective\" as \"Inspektorin\" like the official Ace Attorney translation, as discussed in Discord. (Though I still think \"Kommissarin\" would sound better. :P). -Jodocus",
               "MessageTextLines": [
                 "<SOUND:WHAP><DI>Inspektorin!<PAUSE:5><DC> Sollten Sie nicht gerade",
                 "die Prinzessin zurückbegleiten?"
@@ -51102,7 +51076,6 @@
             },
             {
               "Name": "IMPA100",
-              "Comment": "As earlier, the official German translation of \"Press\" in Ace Attorney is \"angreifen\" (\"attack\"), which doesn't lend itself to be used within sentences as this; Impa now says \"festnageln\" - more or less to pin Ingo down on that topic. -Jodocus",
               "MessageTextLines": [
                 "Wenn ich Ihnen diesen Rat geben",
                 "darf... Darauf sollten Sie den nächsten",
@@ -51161,7 +51134,6 @@
             },
             {
               "Name": "IMPA130",
-              "Comment": "Translated \"ranch girl\" as \"Farmerin\" (also in IMPA_n20), as mentioned in the Discord. -Jodocus",
               "MessageTextLines": [
                 "Schon in Ordnung.<PAUSE:5> ",
                 "Eine Sache noch.<PAUSE:5> Sie.<PAUSE:3> Farmerin."
@@ -51191,7 +51163,7 @@
             },
             {
               "Name": "MALON60",
-              "Comment": "I translated this into the German idiom \"Das Gegenteil von 'gut' ist 'gut gemeint'\", more or less: \"The opposite of 'good' is 'meant well'\" (though I rephrased it to better fit he dialogue); roughly means the same thing as the English one... though I can't find a way to preserve the reference .\nAs a side note, I was going to translate 'Dark Realm' as 'Schattenreich', which is the official German translation of the 'Twilight Realm' in TP, and sounds the most natural to me. (Funnily enough, it would be a word-for-word translation of 'Shadow Realm', the originally intended word for the English script.) -Jodocus",
+              "Comment": "I translated this into the German idiom \"Das Gegenteil von 'gut' ist 'gut gemeint'\", more or less: \"The opposite of 'good' is 'meant well'\" (though I rephrased it to better fit he dialogue); roughly means the same thing as the English one... though I can't find a way to preserve the reference. -Jodocus",
               "MessageTextLines": [
                 "Hmpf.<PAUSE:3> Ist \"gut gemeint\" nicht das",
                 "<SOUND:WHAP>Gegenteil von \"gut\"?"
@@ -51301,7 +51273,6 @@
             },
             {
               "Name": "LINK130",
-              "Comment": "Went with \"energisch\" for \"intense\", which is closer to \"assertive\", \"vigorous\". -Jodocus",
               "MessageTextLines": [
                 "<SOUND:0><C>(Wow, sie wirkt ziemlich energisch.",
                 "Ich hätte nicht erwartet, sie so...",
@@ -51370,7 +51341,6 @@
             },
             {
               "Name": "SOLDIER35",
-              "Comment": "While most German players would likely recognise \"Roger\" from popular culture, I don't think it's used in an official capacity here. Either way, I would like to avoid English words within the translation. Instead, I translated it as \"Jawohl\", which, I think, matches the military context well and basically means the same. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:WHAP><DI>Jawohl!"
               ],
@@ -51379,7 +51349,6 @@
             },
             {
               "Name": "IMPA_n10",
-              "Comment": "Heavily rephrased the translation to make it sound natural. -Jodocus",
               "MessageTextLines": [
                 "...<PAUSE:8> Da fällt mir ein...<PAUSE:8> Ich habe vorhin",
                 "<SOUND:CLUE>ein paar faulenzenden Wachen diese",
@@ -51390,7 +51359,6 @@
             },
             {
               "Name": "IMPA_n20",
-              "Comment": "As above (IMPA130), translated \"ranch girl\" as \"Farmerin\". -Jodocus",
               "MessageTextLines": [
                 "Hier, Farmerin.<PAUSE:5> Vielleicht beruhigt das",
                 "Ihre Nerven.",
@@ -51429,7 +51397,7 @@
             },
             {
               "Name": "IMPA240",
-              "Comment": "\"Ich empfehle mich\" is a somewhat formal/old-timey way of saying \"goodbye\"; it sounds more natural to me than a direct translation. -Jodocus",
+              "Comment": "\"Ich empfehle mich\" is a somewhat formal way of saying \"goodbye\"; it sounds more natural to me than a direct translation. -Jodocus",
               "MessageTextLines": [
                 "Ich empfehle mich..."
               ],
@@ -51450,7 +51418,6 @@
             },
             {
               "Name": "LINK_n40",
-              "Comment": "*gasp* An indirect kiss! *squee* -Jodocus",
               "MessageTextLines": [
                 "Wie?<PAUSE:3> Geschmack verloren?",
                 "<NEW_BOX>",
@@ -51886,7 +51853,6 @@
           "Messages": [
             {
               "Name": "Title",
-              "Comment": "Similarly to the English message, I translated \"non-suspicious\" as the somewhat awkward \"nicht verdächtig\", rather than the more common \"unverdächtig\". -Jodocus",
               "MessageTextLines": [
                 "<NS><SOUND:0><LC><R>\"Meine nicht verdächtigen Bewegungen\"<FADE:40>"
               ],
@@ -51933,7 +51899,6 @@
             },
             {
               "Name": "INGO6",
-              "Comment": "Side note: Was very tempted to translate \"fine woman\" as \"scharfe Braut\", which, while not *wrong*, would be a vastly more inappropriate way of saying it. Decided it was too silly and didn't really match Ingo's character, though. -Jodocus",
               "MessageTextLines": [
                 "Irgendwann kam dann die Inspektorin",
                 "und erzählte mir, was passiert war.<PAUSE:5>",
@@ -52236,7 +52201,7 @@
             },
             {
               "Name": "INGO20",
-              "Comment": "Translated \"you brat\" as \"armseliger Wicht\" (\"pathetic runt\"), which is what Ingo calls Link as a child the first time they talk in the German version of OoT (3D, as well).\nI also translated \"shoes\" as \"Stiefel\" (\"boots\"), which sounds better with the rough tone. \nAlso, for this one message, I'm having Ingo drop the formal \"Sie\" he otherwise uses with Link in HoL (see SCENE_INGO_ENTERS/MALON10). While I try to keep these consistent, it would read rather awkwardly for him to speak so formally while telling Link to eat his boots and insulting him. -Jodocus",
+              "Comment": "Translated \"you brat\" as \"armseliger Wicht\" (\"pathetic runt\"), which is what Ingo calls Link as a child the first time they talk in the German version of OoT (3D, as well).\nI also translated \"shoes\" as \"Stiefel\" (\"boots\"), which sounds better with the rough tone. \nAlso, for this one message, I'm having Ingo drop the formal \"Sie\" he otherwise uses with Link in HoL. While I try to keep these consistent, it would read rather awkwardly for him to speak so formally while telling Link to eat his boots and insulting him. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:NA_SE_VO_IN_LOST><DI>Friss meine Stiefel, armseliger Wicht!"
               ],
@@ -54953,7 +54918,7 @@
             },
             {
               "Name": "CONS1_LINK20",
-              "Comment": "Link normally uses the formal \"Sie\" when talking to Ingo (see SCENE_INGO_ENTERS/MALON10); however, as he is \"addressing\" him in his thoughts, it sounds more natural to use the casual \"Du\" instead. (There are examples of this happening in Ace Attorney, as well.) Compare 1_LINK50. -Jodocus",
+              "Comment": "Link normally uses the formal \"Sie\" when talking to Ingo; however, as he is \"addressing\" him in his thoughts, it sounds more natural to use the casual \"Du\" instead. (There are examples of this happening in Ace Attorney, as well.) Compare 1_LINK50. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:0><C>(Nun, Basil, wenn du von dir aus keine",
                 "Details preisgeben möchtest, muss ich",
@@ -55023,7 +54988,6 @@
             },
             {
               "Name": "CONS2_MALON30",
-              "Comment": "Translated \"Just making sure\" as, more or less, \"Don't you forget it!\" -Jodocus",
               "MessageTextLines": [
                 "Wo wir gerade bei Profilen sind,<PAUSE:2> du",
                 "erinnerst dich, dass du die während",
@@ -55134,7 +55098,6 @@
             },
             {
               "Name": "1_INGO30",
-              "Comment": "The word I used for \"drink\", \"Schluck\", literally means a \"gulp\" or \"swig\". It can also be used as another word for liquor. An alternative word you could use would be \"Getränk\", literally translating as \"drink\" (though with a much weaker association with alcohol than the English word), but I found that word a bit \"stiff\" in this context. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:WHAP>Klar doch.<PAUSE:3> Jeder kann hin und wieder",
                 "einen guten Schluck vertragen!"
@@ -55188,7 +55151,7 @@
             },
             {
               "Name": "1_INGO100",
-              "Comment": "I am translating \"the Sheikah Force\" as just \"the Sheikah\"; as the Sheikah are equivalent to the police, this matches well, as in German, you would most naturally just say \"the police\", rather than \"police force\"... and also, the German message barely fits the text box as it is. \nAlso, translated \"the great Ingo\" as \"der einzigartige Basil\" (which is how he sometimes refers to himself in OoT).-Jodocus",
+              "Comment": "Translated \"the great Ingo\" as \"der einzigartige Basil\" (which is how he sometimes refers to himself in OoT).-Jodocus",
               "MessageTextLines": [
                 "Nach dem Mord hatte ich Sorge, dass",
                 "sich durch die Ermittlung der Shiekah",
@@ -55221,7 +55184,7 @@
             },
             {
               "Name": "1_DRAGMIRE10",
-              "Comment": "Translated as \"You Hylians are pathetic\"; felt more natural. Removed the second pause tag. -Jodocus",
+              "Comment": "Translated as \"You Hylians are pathetic\"; felt more natural. Removed the second pause tag. -Jodocus; <CT>",
               "MessageTextLines": [
                 "Bah!<PAUSE:3> Ihr Hylianer seid jämmerlich!"
               ],
@@ -55239,7 +55202,7 @@
             },
             {
               "Name": "1_DRAGMIRE30",
-              "Comment": "Restructured the sentences a bit, and added a pause tag.\nThe German translation of \"Noble Pursuit\" in BotW/TotK is \"Vaai will Vooi\" (\"Vaai wants Vooi\"), which is actually closer to the original Japanese name. Sounds a bit strange here, though, especially with Dragmire calling it a \"real man's drink\". -Jodocus",
+              "Comment": "Restructured the sentences a bit, and added a pause tag. -Jodocus; <CT>",
               "MessageTextLines": [
                 "Ihr könntet sicher nicht einen Schluck",
                 "unseres \"Vaai will Vooi\" vertragen!<PAUSE:3>",
@@ -55250,7 +55213,6 @@
             },
             {
               "Name": "1_LINK60",
-              "Comment": "Following the previous comment, I considered changing this message a bit, playing on the fact that this supposed drink \"for real men\" is called \"Woman wants Man\"; something along the lines of \"A real men's drink? Shouldn't it be 'Vooi wants Vaai' then?\"... or something like that.\nDecided to just do a direct translation instead. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:0><C>(\"Für echte Männer\"? Aber sind die",
                 "meisten Gerudo nicht Frauen...?)"
@@ -55270,7 +55232,6 @@
             },
             {
               "Name": "1_INGO70",
-              "Comment": "Not 100% happy how this flows into INGO2. It's not wrong or very noticably off, but I feel like I could make it flow better. I might revisit this. -Jodocus",
               "MessageTextLines": [
                 "Ganz recht! Bei den schweren Kisten",
                 "kommt man ganz schön ins Schwitzen,",
@@ -55399,7 +55360,6 @@
             },
             {
               "Name": "3_INGO10",
-              "Comment": "As before (see comment on SCENE_INGO_1_CROSSEXAM/5_INGO90), I'm using specifically the word \"einzigartig\" (\"unique\", though closer to \"incredible\" or \"unrivaled\" in meaning) that Ingo uses to describe himself in the German transaltion of OoT. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:WHAP><DI>Pah!<PAUSE:3> Sie unterschätzen die Fähigkeiten",
                 "des einzigartigen Basils!"
@@ -55409,7 +55369,6 @@
             },
             {
               "Name": "3_INGO20",
-              "Comment": "Apparently, these sounds are supposed to be based on what you hear when you upgrade your house in BotW - but rather than try to mimick them in a, uh, \"German way\", I'm just going for somewhat close German onomatopoeia that fit here. (It's already a loose reference, anyways.) -Jodocus",
               "MessageTextLines": [
                 "<SOUND:WHAP>Hepp!<PAUSE:5> <SOUND:WHAP>Zack! <PAUSE:5><SOUND:WHAP>Peng! <PAUSE:5><SOUND:WHAP>Bumm!<PAUSE:5> ",
                 "<SOUND:WHAP><SPEED:105>Sowas mache ich mit links!<SPEED:102>"
@@ -55419,7 +55378,7 @@
             },
             {
               "Name": "3_INGO30",
-              "Comment": "Translated \"puzzle\" as \"Schieberätsel\", the most common (in my experience) German word for block pushing puzzles. (Alternatively, \"Schiebepuzzle\" is also oftenly used, but I think that \"Schieberätsel\" sounds besser and avoids a noticably English loan word.) -Jodocus",
+              "Comment": "Translated \"puzzle\" as \"Schieberätsel\", the most common (in my experience) German word for block pushing puzzles. -Jodocus",
               "MessageTextLines": [
                 "Ich habe mir beim Versuch, die Kisten",
                 "aus dem Silo zu schaffen, allerdings",
@@ -55584,7 +55543,7 @@
             },
             {
               "Name": "5_INGO10",
-              "Comment": "To have \"Geld wie Heu\", literally \"money as if it was hay\" is a common German phrase meaning \"to have tons of money\"... and also doubles as a pun, since he's working on a ranch.\nTranslated \"boy\" as \"Grünschnabel\", which is comparable to \"greenhorn\", as I found it tonally more fitting than a direct translation. -Jodocus",
+              "Comment": "Translated \"boy\" as \"Grünschnabel\", which is comparable to \"greenhorn\", as I found it tonally more fitting than a direct translation. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:EXPLOSION>Pah, sehe ich aus, als hätte ich Geld",
                 "wie Heu?<PAUSE:3> <SOUND:WHAP>Augen auf,<PAUSE:2> Grünschnabel!<PAUSE:3>",
@@ -56166,7 +56125,7 @@
             },
             {
               "Name": "A1_DRAGMIRE40",
-              "Comment": "Translated \"circus act\" as \"Affenzirkus\", literally \"monkey circus\", but used as a derogative word for a situation where a lot of ado is made about nothing. (Alternatively, \"Affentheater\" (\"monkey theatre\") might be more common and has the same meaning, but \"Affenzirkus\" is closer to the original word.) -Jodocus",
+              "Comment": "Translated \"circus act\" as \"Affenzirkus\", literally \"monkey circus\", but used as a derogative word for a situation where a lot of ado is made about nothing. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:EXPLOSION><DI>Lachhaft!<PAUSE:5> Erneut verschwenden Sie die",
                 "wertvolle Zeit des Gerichts mit Ihrem",
@@ -56461,7 +56420,6 @@
             },
             {
               "Name": "INGO110",
-              "Comment": "I'm always unsure how to properly \"translate\" interjections like these. Why did I feel the need to change \"Ghh\", but not \"Hrrm\"? I can't tell you, I'm going by vibes here. -Jodocus",
               "MessageTextLines": [
                 "<SPEED:1>Hrrrmmmm....<PAUSE:3> Grrrrr....<FADE:10>"
               ],
@@ -56507,7 +56465,6 @@
             },
             {
               "Name": "DRAGMIRE80",
-              "Comment": "Translated \"royal visitation's arrival\" as \"Ankunft des hohen Besuchs\"; \"Arrival of the high-ranking visitors\". -Jodocus",
               "MessageTextLines": [
                 "Er hatte sie vorher ins Silo gebracht,",
                 "um sich vor Ankunft des hohen",
@@ -56546,7 +56503,7 @@
             },
             {
               "Name": "LINK150",
-              "Comment": "About my translation for \"kangaroo court\": There are words like \"Schaugericht\" or \"Schauprozess\" in German (literally \"show trial\"), but they didn't feel as natural. \"Abgekartetes Spiel\" refers to a setup, something that was rigged in advance, or an unfair/biased situation or process.\nSide note: The very first sentence in the translation, \"Moment mal\", is also the German translation of \"Hold it\"; just so happens to also fit here as a (mostly) direct translation. -Jodocus",
+              "Comment": "About my translation for \"kangaroo court\": There are words like \"Schaugericht\" or \"Schauprozess\" in German (literally \"show trial\"), but they didn't feel as natural. \"Abgekartetes Spiel\" refers to a setup, something that was rigged in advance, or an unfair/biased situation or process. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:DON><DI>Moment mal!<PAUSE:5> Das ist doch verrückt!<PAUSE:5> ",
                 "Was für ein abgekartetes Spiel ist das",
@@ -56569,7 +56526,7 @@
             },
             {
               "Name": "LINK170",
-              "Comment": "The German word for \"perjury\" is \"Meineid\", though that felt like an unnatural/strong expression; as far as I know, in Germany, perjury is uncommon to actually occur in a case like this (witnesses usually aren't asked to swear an oath as path of a trial, so it's a REALLY big deal if it happens), and the word \"Meineid\" would be more closely associated with more high-profile cases.\nWent with \"Schwindel\", meaning \"sham\" or \"bogus\". (Unrelatedly, it can also mean \"dizziness\".) -Jodocus",
+              "Comment": "The German word for \"perjury\" is \"Meineid\", though that felt like an unnatural/strong expression; as far as I know, in Germany, perjury is uncommon to actually occur in a case like this (witnesses usually aren't asked to swear an oath as path of a trial, so it's a REALLY big deal if it happens), and the word \"Meineid\" would be more closely associated with more high-profile cases.\nWent with \"Schwindel\", meaning \"sham\" or \"bogus\". -Jodocus",
               "MessageTextLines": [
                 "Euer Ehren, Sie werden diesen offenen",
                 "Schwindel doch nicht etwa billigen?!"
@@ -56613,7 +56570,6 @@
             },
             {
               "Name": "JUDGE100",
-              "Comment": "Udgey, take note. -Jodocus",
               "MessageTextLines": [
                 "Dennoch,<PAUSE:5> die Tatsache, dass der Zeuge",
                 "es nicht einfach selbst gesagt hat, und",
@@ -75775,7 +75731,6 @@
             },
             {
               "Name": "CONS_LINK10",
-              "Comment": "Leaving out the \"scrambling\" part to better fit the box; it now roughly says, \"Imagine you overslept, and the shipments had to get done at any cost.\" -Jodocus",
               "MessageTextLines": [
                 "Hey...<PAUSE:5> Stell dir mal vor, du hättest",
                 "verschlafen, und die Lieferungen",
@@ -75964,7 +75919,7 @@
             },
             {
               "Name": "2_DRAGMIRE20",
-              "Comment": "Translated as \"... they found nothing but milk bottles.\" (with the Clue sound right before the \"nothing\"). -Jodocus",
+              "Comment": "Translated as \"... and as the detective told us, they found nothing but milk bottles.\" (with the Clue sound right before the \"nothing\"). -Jodocus",
               "MessageTextLines": [
                 "... und wie unsere Inspektorin erzählte,",
                 "fanden sie <SOUND:CLUE>nichts als Milchflaschen."
@@ -76029,7 +75984,6 @@
             },
             {
               "Name": "3_MALON20",
-              "Comment": "Don't like those line lengths. Tried for a while to fit the message in three lines and make them more or less the same length, but couldn't get it to work. -Jodocus",
               "MessageTextLines": [
                 "Man muss die Kühe melken,<PAUSE:2> die ",
                 "Flaschen reinigen,<PAUSE:2> die Milch einfüllen,<PAUSE:2>",
@@ -76211,7 +76165,6 @@
             },
             {
               "Name": "5_DRAGMIRE10",
-              "Comment": "The German word \"Freundin\" can mean both \"female friend\", as well as \"girlfriend\", so one COULD read this as him (perhaps mockingly) implying that Link and Malon are in a romantic relationship. I don't this is going to cause any problematic misunderstandings (their relationship is made pretty clear at the beginning of the case), so I would say this is fine. If we wish to avoid this anyways, I'd have to write around the word \"friend\" somehow. -Jodocus",
               "MessageTextLines": [
                 "Ja, ja, wir wissen inzwischen alle, wie",
                 "sehr Sie Ihre Freundin schätzen."
@@ -76320,7 +76273,7 @@
             },
             {
               "Name": "F_LINK40",
-              "Comment": "Had to add a <DC> here, due to how the German phrasing works. -Jodocus",
+              "Comment": "Had to add a <DC> here, due to how the German phrasing works. -Jodocus; <CT>",
               "MessageTextLines": [
                 "Es ist nicht nur die Adresse!<PAUSE:2> Basil",
                 "muss sich bei <SOUND:WHAP><DI><R>der ganzen Lieferung<W>",
@@ -76497,7 +76450,6 @@
             },
             {
               "Name": "LINK60",
-              "Comment": "At other points in the script (e.g. SCENE_INGO_CROSSEXAM_2/CONS1_LINK20), I'm having Link drop the formal \"Sie\" when \"adressing\" another character in his thoughts. I did some more research on how Ace Attorney handles this, and they appear to go back and forth with this; sometimes, Phoenix keeps using \"Sie\" in his thoughts, sometimes he uses \"Du\" instead. So I'm just going for what sounds best, based on my gut feeling. For this message, I kept the formal \"Sie\", which feels more appropriate for the judge. -Jodocus",
               "MessageTextLines": [
                 "<C><SOUND:WHAP><DI>(Ich würde sagen, Sie haben hier bis",
                 "jetzt am wenigsten geredet...)"
@@ -76507,7 +76459,6 @@
             },
             {
               "Name": "JUDGE50",
-              "Comment": "Try drinking on the job - all the cool kids do it! -Jodocus",
               "MessageTextLines": [
                 "Wenn die Verteidigung darauf besteht,",
                 "werde ich mir einen Schluck gönnen."
@@ -76628,7 +76579,6 @@
             },
             {
               "Name": "LINK130",
-              "Comment": "... By playing Epona's Song, which made every cow that heard it give an entire bottle's worth of milk! -Jodocus",
               "MessageTextLines": [
                 "Es sei denn,<PAUSE:2> er hat <SOUND:CLUE><R>geschummelt<W>."
               ],
@@ -76736,7 +76686,6 @@
             },
             {
               "Name": "DRAGMIRE90",
-              "Comment": "\"Jammerlappen\" roughly means \"wimp\". -Jodocus",
               "MessageTextLines": [
                 "Seien Sie still,<SOUND:EXPLOSION> Sie Jammerlappen!"
               ],
@@ -76775,7 +76724,7 @@
             },
             {
               "Name": "LINK190",
-              "Comment": "Related to previous comment: Leaving out the emphasis for similar reasons... which means that the Don sound effect might not make sense here. I'll have to check it in game and get back to this. -Jodocus",
+              "Comment": "Related to previous comment: Leaving out the emphasis for similar reasons... which means that the DON sound effect doesn't make as much sense here. Not a huge deal, but I might revisit this. -Jodocus",
               "MessageTextLines": [
                 "Und wir wissen, dass er<SOUND:DON> sowohl die",
                 "Zeit, als auch die Gelegenheit hatte,",
@@ -78209,7 +78158,7 @@
             },
             {
               "Name": "INGO30",
-              "Comment": "The word \"Talon\" occurs before \"kill\" in the translation; the Clue sound is still with the word \"kill\" (tried placing it before \"Talon\", but I didn't like the result). Meaning that I had to move the Sound tag behind the second Pause tag. -Jodocus",
+              "Comment": "The word \"Talon\" occurs before \"kill\" in the translation; the Clue sound is still with the word \"kill\" (tried placing it before \"Talon\", but I didn't like the result). Meaning that I had to move the Sound tag behind the second Pause tag. -Jodocus; <CT>",
               "MessageTextLines": [
                 "Warum sollte ich...<PAUSE:3> Talon...<PAUSE:3> <SOUND:CLUE>umbringen?!"
               ],
@@ -78236,7 +78185,7 @@
             },
             {
               "Name": "LINK150",
-              "Comment": "Took the liberty of moving the Clue sound to the middle of the sentence; there's no equivalent to the \"why\", so it plays before the word \"surprised\". -Jodocus",
+              "Comment": "Took the liberty of moving the Clue sound to the middle of the sentence; there's no equivalent to the \"why\", so it plays before the word \"surprised\". -Jodocus; <CT>",
               "MessageTextLines": [
                 "Ganz einfach.<PAUSE:5> Ich bin <SOUND:CLUE>überrascht, dass",
                 "Sie überhaupt fragen."
@@ -78534,7 +78483,7 @@
             },
             {
               "Name": "F_DRAGMIRE10",
-              "Comment": "Realised when playtesting that the dialogue jumps straight to MALONcbf_10 and skips these messages. For a moment, I was tempted to have Dragmire say something like, \"By the way, I'm a smellybutt\" in the unused messages, but... that's just asking for trouble. :P -Jodocus",
+              "Comment": "Realised when playtesting that the dialogue jumps straight to MALONcbf_10 and skips these messages. Oh well. -Jodocus",
               "MessageTextLines": [
                 "... Oh, funktioniert Ihre Theorie etwa",
                 "doch nicht?"
@@ -78672,7 +78621,7 @@
             },
             {
               "Name": "INGO110",
-              "Comment": "To make for a more natural sounding sentence, I had to swap the placements of \"really\" and \"scumbag\", which meant changing the positions of the control tags, as well as adding a <DC> tag. With this structure, the pause after the \"really\" seemed a bit much, so I removed it and added an emphasis instead. -Jodocus",
+              "Comment": "To make for a more natural sounding sentence, I had to swap the placements of \"really\" and \"scumbag\", which meant changing the positions of the control tags, as well as adding a <DC> tag. With this structure, the pause after the \"really\" seemed a bit much, so I removed it and added an emphasis instead. -Jodocus; <CT>",
               "MessageTextLines": [
                 "Wollt ihr wissen, warum ich diesen",
                 "<PAUSE:3><SOUND:WHAP><DI>Mistkerl<DC><PAUSE> <SPEED:101>WIRKLICH<SPEED:102> umgebracht habe?!"
@@ -78698,7 +78647,7 @@
             },
             {
               "Name": "INGO120",
-              "Comment": "There is no pause after the \"if\" in the German translation; I moved the pause to the comma before \"What would you do,<PAUSE:2> if...\". I'll have to check whether this works, or if it's better to remove that pause altogether. -Jodocus",
+              "Comment": "There is no pause after the \"if\" in the German translation; I moved the pause to the comma before \"What would you do,<PAUSE:2> if...\". I'll have to check whether this works, or if it's better to remove that pause altogether. -Jodocus; <CT>",
               "MessageTextLines": [
                 "<SOUND:EXPLOSION>Ja!<PAUSE:3> Ja, ich gebe es zu!",
                 "<NEW_BOX>",
@@ -78796,7 +78745,6 @@
             },
             {
               "Name": "INGO180",
-              "Comment": "Ingo calls Talon either \"Faulpelz\" or \"fauler Sack\" in the German version (both referring to a lazy person). -Jodocus",
               "MessageTextLines": [
                 "Ganz recht, MALON.<PAUSE:3> Ich habe den",
                 "faulen Sack, den du Vater nanntest,",
@@ -78827,7 +78775,7 @@
               "Name": "JUDGE50",
               "MessageTextLines": [
                 "Ich denke, wir haben genug gehört!<PAUSE:5> ",
-                "Soldaten, schafft ihn weg!<FADE:20>"
+                "Soldaten, schafft ihn fort!<FADE:20>"
               ],
               "Type": 0,
               "Position": 0
@@ -93339,7 +93287,7 @@
           "Messages": [
             {
               "Name": "Title",
-              "Comment": "In the German translations of both the original version, as well as the Switch remake of Link's Awakening, the owl's sounds are translated as \"Uhu\" (with a variable amount of 'u's after the 'h'). \"Uhu\" is also the German name of the Eurasion eagle-owl, and is often (falsely) used synonymously with \"owl\".:uhhuh: -Jodocus",
+              "Comment": "In the German translations of both the original version, as well as the Switch remake of Link's Awakening, the owl's sounds are translated as \"Uhu\" (with a variable amount of 'u's after the 'h'). :uhhuh: -Jodocus",
               "MessageTextLines": [
                 "<NS><SOUND:0><LC><R>\"Uhuuu!\"<FADE:20>"
               ],
@@ -93400,7 +93348,6 @@
             },
             {
               "Name": "C_KOHOLINK20",
-              "Comment": "In previous testimonies, I avoided usng the German translation of \"pressing\", which is \"Angreifen\" (literally \"attacking\"), in dialogues, as it felt unnatural; I instead opted to use different words that made clear that you're supposed to get more information. As this line is pretty direct and fourth-wall-breaking, however, I'm translating it as the interface does. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:WHAP>Komm schon!<PAUSE:5> Greif die Aussage an!<SQUARE>"
               ],
@@ -93537,7 +93484,6 @@
             },
             {
               "Name": "2_OWL30",
-              "Comment": "I'm considering removing the first pause, as it might seem a bit unnatural, due to the lack of comma in the translation. From testing, it doesn't look too bad, so I'll keep the pause for now; might revisit this decision later. -Jodocus",
               "MessageTextLines": [
                 "Oder<PAUSE:5> vielleicht...<PAUSE:5><SOUND:CLUE> stirbt man einfach."
               ],
@@ -93572,7 +93518,6 @@
             },
             {
               "Name": "3_LINK10",
-              "Comment": "\"elusive\" is difficult to translate; most direct translations don't really work in this context. Went with \"schwer zu fassen\", which means \"hard to grasp\" (both in a physical and cognitive sense). -Jodocus",
               "MessageTextLines": [
                 "Und...<PAUSE:5> wie kommt man an diese schwer",
                 "zu fassenden Musikinstrumente?"
@@ -94002,7 +93947,6 @@
             },
             {
               "Name": "4_OWL90",
-              "Comment": "The actual (modern) German translation of \"nightmare\" would be \"Albtraum\" (or \"Alptraum\"), which contains the word \"Traum\" (\"dream\"), so a direct translation wouldn't sound very elegant. I instead used the uncommon, outdated translation \"Nachtmahr\", which originally referred to a mythical creature thought to visit people at night and cause unpleasant dreams. It fits the \"nightmare's\" role in the windfish's dream, and it also suits the owl to use somewhat outdated speech in my opinion. -Jodocus",
               "MessageTextLines": [
                 "Cocolint ist durch und durch",
                 "unnatürlich.<PAUSE:5> Es ist ein Ort geschaffen",
@@ -94049,7 +93993,7 @@
             },
             {
               "Name": "LINK20",
-              "Comment": "Removed the pause tag in the second text box; it didn't fit well with how I structured the sentence, and I couldn't find a way to preserve the pause and make the translation sound natural. -Jodocus",
+              "Comment": "Removed the pause tag in the second text box; it didn't fit well with how I structured the sentence, and I couldn't find a way to preserve the pause and make the translation sound natural. -Jodocus; <CT>",
               "MessageTextLines": [
                 "Für meinen Mandanten ging es ohne",
                 "Zweifel um Leben und Tod.<PAUSE:5> ",
@@ -94064,7 +94008,6 @@
             },
             {
               "Name": "LINK23",
-              "Comment": "I'm unsure whether the double-meaning of \"ordeal\" as \"hardship\", as well as \"divine judgement/trial\" was deliberate, but I translated it as \"harte Prüfung\" (\"tough trial\"). Originally tried to conserve the double-meaning, but it ended up sounding unnatural. -Jodocus",
               "MessageTextLines": [
                 "Um diese harte Prüfung zu überleben,<PAUSE:3>",
                 "brauchte er die beste Ausrüstung, die",
@@ -94403,7 +94346,7 @@
             },
             {
               "Name": "DRAGMIRE145",
-              "Comment": "\"Schlange\" (\"snake\") does exist as an insult in German for a deceptive person, but I don't associate it with greed, or the goal of personal gain. (And apparently, it's mostly used for women here...? Didn't know that myself.)\nUsed \"Gierschlund\", which is used to refer to a greedy person. -Jodocus",
+              "Comment": "\"Schlange\" (\"snake\") does exist as an insult in German for a deceptive person, but I don't associate it with greed. Used \"Gierschlund\", which is used to refer to a greedy person. -Jodocus",
               "MessageTextLines": [
                 "Nein!<PAUSE:5> Was er wollte, war lediglich ein",
                 "schneller, einfacher Ausweg aus seiner",
@@ -94463,7 +94406,7 @@
             },
             {
               "Name": "OWL80",
-              "Comment": "The word \"Barrister\" technically exists in German, but specifically refers to the British barristers. I chose \"Prokurator\", which has several meanings nowadays, but is still used for certain prosecutors in Austria, for example. -Jodocus",
+              "Comment": "The word \"Barrister\" technically exists in German, but specifically refers to the British barristers. I chose the outdated word \"Prokurator\". -Jodocus",
               "MessageTextLines": [
                 "Nun,<PAUSE:5> Prokurator,<PAUSE:5> das ist leider absolut",
                 "unmöglich."
@@ -94888,7 +94831,7 @@
             },
             {
               "Name": "OWL190",
-              "Comment": "A more direct translation of \"Gerudo friend\" would be \"Gerudo-Freund\", but it sounds strange and unnatural. Translated it as \"my angry friend from the desert\".\nAlso had to restructure the last sentence and remove the pause tag. -Jodocus",
+              "Comment": "A more direct translation of \"Gerudo friend\" would be \"Gerudo-Freund\", but it sounds strange and unnatural. Translated it as \"my angry friend from the desert\".\nAlso had to restructure the last sentence and remove the pause tag. -Jodocus; <CT>",
               "MessageTextLines": [
                 "Lächerlich?<PAUSE:5> ",
                 "Ganz und gar nicht, mein wütender",
@@ -95780,7 +95723,7 @@
             },
             {
               "Name": "A1_1",
-              "Comment": "I avoided the word connoisseur (or Connaisseur in German... even though it's French) before (see SCENE_INGO_1_CROSSEXAM/JUDGE10), because it's not really in use in German, outside of very academic circles - and while you could argue that (this) Link (as well as the judge) WOULD fit in those circles, I personally didn't find the word fitting here.\nI translated it as \"Modenarr\", someone who excessively cares about being fashionable (comparable to \"fop\"). -Jodocus",
+              "Comment": "I avoided the word connoisseur (or Connaisseur in German... even though it's French) before (see SCENE_INGO_1_CROSSEXAM/JUDGE10), because it's not really in use in German, outside of very academic circles.\nI translated it as \"Modenarr\", someone who excessively cares about being fashionable (comparable to \"fop\"). -Jodocus",
               "MessageTextLines": [
                 "Genau.<PAUSE:5> Basil ist in Wirklichkeit ein",
                 "richtiger Modenarr.",
@@ -95803,7 +95746,7 @@
             },
             {
               "Name": "A1_2",
-              "Comment": "The game did receive a partially translated title in Germany, as \"Ghost Trick: Phantom-Detektiv\"; in-game, the \"Ghost Tricks\" were translated directly as \"Geistertricks\".\nI translated the second text box more or less directly, which sounds a bit clumsy, and doesn't make for as good a reference as the original message.\nTo compensate, I translated the \"ghost\" in the first message as \"Phantom\", and rewrote the third message as: \"What am I saying? I'm a lawyer, not a phantom detective!\" (Which, now that I read it again, could double as a Star Trek reference, so... there's that.) -Jodocus",
+              "Comment": "The game did receive a partially translated title in Germany, as \"Ghost Trick: Phantom-Detektiv\"; in-game, the \"Ghost Tricks\" were translated directly as \"Geistertricks\".\nI translated the second text box more or less directly, which sounds a bit clumsy, and doesn't make for as good a reference as the original message.\nTo compensate, I translated the \"ghost\" in the first message as \"Phantom\", and rewrote the third message as: \"What am I saying? I'm a lawyer, not a phantom detective!\" -Jodocus",
               "MessageTextLines": [
                 "Vielleicht wurde in Wirklichkeit Basil",
                 "getötet, und jetzt ist er ein Phantom?",
@@ -95819,7 +95762,6 @@
             },
             {
               "Name": "TH2",
-              "Comment": "Direct translation of the second text box sounded awkward in German; translated it as \"I have to assume he did it, if I want to plead Malon not guilty.\" -Jodocus",
               "MessageTextLines": [
                 "Wenn es nicht Malon war, bleibt Basil",
                 "als einziger möglicher Täter.",
@@ -98917,7 +98859,6 @@
             },
             {
               "Name": "SHOPKEEPER10",
-              "Comment": "The way the shopkeeper talks is very much inspired by how Luckyfini translated his dialogue in NPCs 85 and 86. -Jodocus",
               "MessageTextLines": [
                 "Halt!<PAUSE:5> <SOUND:EXPLOSION>Das könn'se nich' machen!"
               ],
@@ -99371,7 +99312,6 @@
             },
             {
               "Name": "SKAWO_LINK20",
-              "Comment": "Not sure if I like this. (My translation, not Skawo using default names. Whatever floats your boat, Skawo.) -Jodocus",
               "MessageTextLines": [
                 "Kann ich wohl.<PAUSE:5> <SOUND:OBJECTIONCRY><DI><R>Skawo verwendet für",
                 "Protagonisten in Videospielen immer",
@@ -99480,7 +99420,6 @@
             },
             {
               "Name": "MOYSE_LINK10",
-              "Comment": "Easiest translation I've ever done.-Jodocus",
               "MessageTextLines": [
                 "Irgendwelche Sorgen, Nöte oder",
                 "Probleme?<PAUSE:5> Gib mir Deinen Saft, ich",
@@ -103921,11 +103860,12 @@
           "Messages": [
             {
               "Name": "msg",
+              "Comment": "The translation of this NPC was originally done by Vadenimo; I'm fixing it up here and there (mostly the line lengths of the music descriptions). I tried to keep the first translation intact as far as possible, though I had to change up a lot of wordings or retranslate some messages entirely to properly fit them into the text boxes. -Jodocus",
               "MessageTextLines": [
                 "<DI><SHIFT:73>P A U S E<THREE_CHOICES>",
-                "<G>Lese die Regeln",
-                "Details zum Song",
-                "Zurück zum Titelbildschrim<Shift:12><B_BUTTON><W> Zurück"
+                "<G>Regeln anzeigen",
+                "Über die Musik",
+                "Zurück zum Titelbildschirm<Shift:12><B_BUTTON><W> Zurück"
               ],
               "Type": 1,
               "Position": 2
@@ -103933,7 +103873,7 @@
             {
               "Name": "msgPause",
               "MessageTextLines": [
-                "<BYTE:0xF8> Pause / Lese die Regeln"
+                "<BYTE:0xF8> Pause / Regeln lesen"
               ],
               "Type": 0,
               "Position": 0
@@ -103941,7 +103881,7 @@
             {
               "Name": "msgChangeMus",
               "MessageTextLines": [
-                "<Y><C_Up><W>/<Y><C_Down><W> Ändere die Musik"
+                "<Y><C_Up><W>/<Y><C_Down><W> Musik wechseln"
               ],
               "Type": 0,
               "Position": 0
@@ -103961,10 +103901,10 @@
                 "",
                 "",
                 "1. Die Karten werden gezogen...",
-                "2. Du entscheidest, wie viel du",
-                "beim Anklicken der Rubine ver-",
-                "wettest und welche Karten beim",
-                "Aussuchen getauscht werden"
+                "2. Du bestimmst deinen Einsatz,",
+                "indem du den Rubin anklickst,",
+                "und welche Karten du tauschen",
+                "willst, indem du sie anklickst..."
               ],
               "Type": 6,
               "Position": 0
@@ -103980,8 +103920,8 @@
                 "",
                 "",
                 "",
-                "3. Dann wettet Basil und",
-                "entscheidet seinen Kartentausch",
+                "3. Basil bestimmt seinen Einsatz",
+                "und welche Karten er tauscht...",
                 "4. Gewinner erhält alles doppelt!"
               ],
               "Type": 6,
@@ -104021,6 +103961,7 @@
             },
             {
               "Name": "figureNothing",
+              "Comment": "Changed a few of these figure messages from the first translation to more closely match the ones used in NSMB/SM64DS. -Jodocus",
               "MessageTextLines": [
                 "Nichts"
               ],
@@ -104046,7 +103987,7 @@
             {
               "Name": "figureThreeOfAKind",
               "MessageTextLines": [
-                "Drei gleiche Karten"
+                "Drei gleiche"
               ],
               "Type": 0,
               "Position": 0
@@ -104054,7 +103995,7 @@
             {
               "Name": "figureFullHouse",
               "MessageTextLines": [
-                "Volles Haus"
+                "Full House"
               ],
               "Type": 0,
               "Position": 0
@@ -104062,7 +104003,7 @@
             {
               "Name": "figureFourOfAKind",
               "MessageTextLines": [
-                "Vier gleiche Karten"
+                "Vier gleiche"
               ],
               "Type": 0,
               "Position": 0
@@ -104070,7 +104011,7 @@
             {
               "Name": "figureFiveOfaKind",
               "MessageTextLines": [
-                "Fünf gleiche Karten"
+                "Fünf gleiche"
               ],
               "Type": 0,
               "Position": 0
@@ -104117,21 +104058,26 @@
             },
             {
               "Name": "ingoHint",
+              "Comment": "Last message box: Reduced the emphasis to the \"BIG\" part; having both it and the \"STAKES\" part emphasised seemed to much in the German translation. -Jodocus",
               "MessageTextLines": [
-                "<SPEED:102>A-A-Alles klar.<PAUSE:5> Du spielst richtig gut!",
+                "<SPEED:102>Alles klar.<PAUSE:5> Du spielst richtig gut!",
                 "<NEW_BOX>",
-                "Ich erzähl' dir dann noch ein Geheimnis.",
+                "Ich erzähl' dir noch ein Geheimnis.",
                 "<NEW_BOX>",
                 "Du kennst doch diesen Staatsanwalt, ",
-                "sein Name war doch <SOUND:HINT><R>Dragmire<W>, oder?",
+                "<SOUND:HINT><R>Dragmire<W>?",
                 "<NEW_BOX>",
                 "Wenn du ihn auf dem Bildschirm siehst,",
-                "drücke auf dem <C><D_PAD><W> Steuerkreuz diese",
-                "Kombination an Knöpfen:",
+                "drücke auf dem <C><D_PAD><W> Steuerkreuz...",
                 "<NEW_BOX>",
-                "<R><PAUSE:5>HOCH<PAUSE:3> HOCH<PAUSE:3> RUNTER<PAUSE:3> RUNTER<PAUSE:3> LINKS<PAUSE:3>",
-                "RECHTS<PAUSE:3> LINKS<PAUSE:3> RECHTS<PAUSE:3> B<W>...<PAUSE:5> und dann",
-                "sollte etwas passieren!<SQUARE>"
+                "<R><PAUSE:5>HOCH<PAUSE:3> HOCH<PAUSE:3> RUNTER<PAUSE:3> RUNTER<PAUSE:3>",
+                "LINKS<PAUSE:3> RECHTS<PAUSE:3> LINKS<PAUSE:3> RECHTS<PAUSE:3> B<W>...<PAUSE:5>",
+                "und dann sollte etwas passieren!",
+                "<NEW_BOX>",
+                "Soweit verstanden?<PAUSE:3> Alles klar.",
+                "<NEW_BOX>",
+                "Spielen wir jetzt um <SOUND:NA_SE_VO_IN_LASH_0>HOHE Einsätze!<PAUSE:3>",
+                "Kein Limit!<PAUSE:5> <DI><SOUND:WHAP>Setz so viel, wie du willst!<SQUARE>"
               ],
               "Type": 0,
               "Position": 0
@@ -104148,41 +104094,44 @@
             },
             {
               "Name": "About_Tutorial",
+              "Comment": "Added another message box to split the final message into two. -Jodocus; <CT>",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Courageous Deductions",
-                "<LC><W>(Mutige Schlussfolgerungen wie beim Triforce)",
+                "<SOUND:0><LC><R>Schlussfolgerungen des Mutes",
+                "<LC><W>(Courageous Deductions)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Anbeginn der Entwicklung war unser",
-                "Placeholder BGM für diese Musik",
-                "die <R>Schlosshof<W>-Melodie...",
+                "<SOUND:0>Zu Beginn der Entwicklung war unser",
+                "Platzhalter für dieses Stück die",
+                "<R>Schlosshof<W>-Melodie.",
                 "<NEW_BOX>",
-                "<SOUND:0>...als wir uns an der richtigen Musik ran-",
-                "machten, habe ich zuerst den Placeholder",
-                "als Basis für dieses Stück genommen.",
+                "<SOUND:0>Als es darum ging, die tatsächliche",
+                "Musik zu schreiben, nahm ich diese",
+                "auch zunächst als Grundlage.",
                 "<NEW_BOX>",
-                "<SOUND:0>Aber wegen der Anzahl der Chromatik",
-                "(Musiknoten, welche nicht in die Vor-",
-                "zeichen passten) im Song, war es nicht ",
-                "leicht, den für uns passenden Stil zu finden.",
+                "<SOUND:0>Aber durch die vielen chromatischen",
+                "Töne (Noten, die nicht in die Tonart",
+                "passen) war es nicht einfach, sie an",
+                "den Stil, den wir wollten, anzupassen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Stattdessen basiert der Song (offensicht-",
-                "lich) auf <R>Methusas Melodie<W>.",
+                "<SOUND:0>Stattdessen nahm ich als Grundlage",
+                "(offensichtlich) <R>Methusas Melodie<W>.",
                 "<NEW_BOX>",
                 "<SOUND:0>Die neue Melodie wurde so entworfen,",
-                "dass es auf das Lied ineinandergreift.<PAUSE:3>",
-                "Wenn im Originalstück ein Toleiter auf-/",
-                "abwärts läuft, dann auch im neuen Song.",
+                "dass sie auf die von Methusa passt.<PAUSE:3>",
+                "Läuft die eine Melodie die Tonleiter",
+                "auf oder ab, tut es auch die andere.",
                 "<NEW_BOX>",
-                "<SOUND:0>Die Akkorde fließen etwas ziellos um ",
-                "sich herum, ohne viel Logik dahinter.",
-                "<PAUSE:3>Ich habe meist die Noten variiert, damit",
-                "es besser klingen soll.",
+                "<SOUND:0>Die unterliegenden Akkorde fließen",
+                "recht ziellos umher, ohne viel Logik",
+                "dahinter. <PAUSE:3>Ich habe überwiegend bloß",
+                "die Noten variiert, bis es gut klang.",
                 "<NEW_BOX>",
-                "<SOUND:0>Sie ist subtil, aber die Triolen, die auf dem",
-                "Shaker ganz am Ende der Melodie gespielt ",
-                "werden, sind eine Anspielung auf dasselbe",
-                "Lied eines bestimmten Anwaltsspiels...<SQUARE>"
+                "<SOUND:0>Es ist subtil, aber die Triole, die ganz",
+                "am Ende der Melodie der Eule auf der",
+                "Rassel gespielt wird...",
+                "<NEW_BOX>",
+                "<SOUND:0>... ist ein Wink auf die entsprechende",
+                "Musik in einem anderen Anwaltsspiel...<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104190,49 +104139,49 @@
             {
               "Name": "About_Title_a",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Title Theme",
-                "<LC><W>(Titelsong)",
+                "<SOUND:0><LC><R>Titelmusik",
+                "<LC><W>(Title Theme)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Dieser Song hat eine etwas ",
+                "<SOUND:0>Dieses Stück hat eine etwas ",
                 "ungewöhnliche Geschichte.",
                 "<NEW_BOX>",
-                "<SOUND:0>Ich war in der Lage die ersten 30 Sek.",
-                "von dieser Melodie <EMDASH> eine Neuinter-",
-                "pretation des <R>Titelsongs<W> vom Original <EMDASH>",
-                "in meinem ersten Versuch zu arrangieren.",
+                "<SOUND:0>Ich war in der Lage, die ersten 30",
+                "Sekunden <EMDASH> eine Neuinterpretation",
+                "der <R>Titelmusik<W> von Ocarina of Time <EMDASH>",
+                "beim ersten Versuch zu schreiben.",
                 "<NEW_BOX>",
-                "<SOUND:0>...aber dann bekam ich eine Schreib-",
-                "blockade und konnte nicht herausfinden,",
-                "wie ich weitermachen soll.",
+                "<SOUND:0>Aber dann kam eine Schreibblockade",
+                "(Komponierblockade?), und ich wusste",
+                "nicht, wie ich weitermachen sollte.",
                 "<NEW_BOX>",
-                "<SOUND:0>Also fing ich beim zweiten Mal komplett",
-                "von neu an.<PAUSE:3> Ich bemerkte schnell, dass es",
-                "nicht so gut, aber einfacher, war, Ideen ",
-                "wegen der energischen Musik zu finden.",
+                "<SOUND:0>Also startete ich einen neuen Versuch.<PAUSE:3>",
+                "Ich merkte bald, dass dieser weniger",
+                "gut war, konnte aber leichter Ideen",
+                "dafür finden, da er lebhafter war.",
                 "<NEW_BOX>",
-                "<SOUND:0>Danach adaptierte ich viele dieser Ideen",
-                "in die erste Version des Songs, um das",
-                "beste Ergebnis beider Songs zu erzielen.",
+                "<SOUND:0>Dann adaptierte ich viele dieser Ideen",
+                "in die erste Version des Stücks, um",
+                "von beidem das Beste zu kombinieren!",
                 "<NEW_BOX>",
-                "<SOUND:0>Die Sektionen basieren auf die <R>Feen-Quelle<W>, ",
-                "das <R>The Legend of Zelda<W>-Hauptthema und ",
-                "dem <R>Titelsong<W> von <R>Newer Super Mario ",
-                "Bros. Wii<W>...",
+                "<SOUND:0>Die Teile, die auf der <R>Feen-Quelle<W>, der",
+                "<R>The Legend of Zelda<W>-Titelmusik, und",
+                "der <R>Titelmusik<W> von <R>Newer Super Mario",
+                "Bros. Wii<W> basieren, stammen daraus...",
                 "<NEW_BOX>",
-                "<SOUND:0>...aber die Sektion basierend auf ",
-                "<R>Ganondorfs Melodie<W> schaffte es nicht ins",
-                "Spiel.",
+                "<SOUND:0>... aber eine Sektion basierend auf ",
+                "<R>Ganondorfs Melodie<W> schaffte es nicht",
+                "in die fertige Version.",
                 "<NEW_BOX>",
-                "<SOUND:0>(Und ja, richtig gelesen.<PAUSE:3> Es gibt eine",
-                "Newer Super Mario Bros. Wii-Referenz,",
-                "kurz vorm Ende des Songs, sofern du",
-                "es überhört hast!)",
+                "<SOUND:0>(Und ja, richtig gelesen.<PAUSE:3> Es gibt gegen",
+                "Ende des Stücks eine Anspielung auf",
+                "Newer Super Mario Bros. Wii, falls du",
+                "es nicht bemerkt hast!)",
                 "<NEW_BOX>",
-                "<SOUND:0>Etwas Anderes, was du vielleicht nicht be-",
-                "merkt haben könntest ist, dass die Harfe",
-                "gegen Ende genauso klingt, wie das Kla-",
-                "vier vom Titelsong des Originalspiels.",
+                "<SOUND:0>Noch etwas, was du vielleicht überhört",
+                "hast, ist, dass die Harfe gegen Ende",
+                "fast die gleichen Noten spielt wie das",
+                "Klavier in der Titelmusik von OoT.",
                 "<NEW_BOX>",
                 "<PERSISTENT>"
               ],
@@ -104241,29 +104190,32 @@
             },
             {
               "Name": "About_Lobby",
+              "Comment": "Had to add an additional message box, splitting the final one into two. -Jodocus; <CT>",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Defendant Lobby",
-                "<LC><W>(Angeklagtenzimmer)",
+                "<SOUND:0><LC><R>Angeklagtenzimmer",
+                "<LC><W>(Defendant Lobby)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Meine ersten Versuche beim Komponieren",
-                "einer Angeklagtenzimmer-Melodie klang zu",
-                "fröhlich, daher ging ich in eine etwas",
-                "düstere Richtung mit diesem Song.",
+                "<SOUND:0>Meine ersten Versuche für die Musik",
+                "im Angeklagtenzimmer war zu fröhlich,",
+                "daher ging ich hierfür in eine etwas",
+                "düstere Richtung.",
                 "<NEW_BOX>",
-                "<SOUND:0>Zunächst klang es allerdings ZU dunkel,",
-                "mit einem lauten Klavierbass und einem",
+                "<SOUND:0>Zunächst klang es jedoch ZU düster,",
+                "mit einem lauten Pianobass und einem",
                 "Chor, der die Akkorde darüber sang.",
                 "<NEW_BOX>",
-                "<SOUND:0>Mir wurde gesagt, dass es eher wie eine",
-                "Todeszelle klang, als eine Lobby.<PAUSE:3> Zum",
-                "Glück fand ich eine passende Atmosphäre,",
-                "indem ich sie anders instrumentierte.",
+                "<SOUND:0>Mir wurde gesagt, es \"klang eher wie",
+                "eine Todeszelle als eine Lobby!\"<PAUSE:3> Zum",
+                "Glück konnte ich die richtige Stimmung",
+                "mit anderen Instrumenten erzielen.",
                 "<NEW_BOX>",
                 "<SOUND:0>Die <R>Hymne des Sturms<W> symbolisiert den ",
-                "\"aufbrausenden\" Sturm im Gerichtssaal.<PAUSE:3> ",
-                "Der dröhnende Bass danach basiert auf",
-                "das Lobby-Lied eines Anwaltspiels...<SQUARE>"
+                "aufbrausenden \"Sturm\" im Gerichtssaal.<PAUSE:3>",
+                "<NEW_BOX>",
+                "<SOUND:0>Der hämmernde Bass danach spielt auf",
+                "die Angeklagtenzimmer-Musik eines",
+                "anderen Anwaltsspiels an...<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104271,24 +104223,23 @@
             {
               "Name": "About_Trial1",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Court is Now in Session",
-                "<LC><W>(Sitzung eröffnet)",
+                "<SOUND:0><LC><R>Sitzung eröffnet",
+                "<LC><W>(Court is Now in Session)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Dieses Stück origineller Musik war das",
-                "von mir erste komponierte Musikstück",
-                "für dieses Spiel, das ich im Jahr 2022 ",
-                "komponiert habe.",
+                "<SOUND:0>Das hier ist das erste Stück eigener",
+                "Musik, das im Jahr 2022 für das",
+                "Spiel geschrieben wurde.",
                 "<NEW_BOX>",
-                "<SOUND:0>Es ist ein Arrangement vom <R>Haus<W>-",
-                "Lied.<PAUSE:3> Zuerst plante ich dieses Stück als",
-                "Angeklagtenzimmer-Lied, aber wir haben",
-                "uns entschieden, dass es hier besser klingt.",
+                "<SOUND:0>Es ist ein Arrangement der <R>Haus<W>-Musik.<PAUSE:3>",
+                "Zuerst plante ich es als Musik für das",
+                "Angeklagtenzimmer, wir beschlossen",
+                "dann aber, dass es hier besser passt.",
                 "<NEW_BOX>",
-                "<SOUND:0>Verglichen zum Rest des Soundtracks",
-                "wurde der Entwurf nicht mit den im Spiel",
-                "vorhandenen Instrumenten geschrieben,",
-                "da ich diese noch am PC einstellen musste!<SQUARE>"
+                "<SOUND:0>Anders als der Rest des Soundtracks,",
+                "wurde der erste Entwurf nicht mit den",
+                "Instrumenten des Spiels geschrieben, da",
+                "ich sie noch am PC einrichten musste!<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104296,47 +104247,46 @@
             {
               "Name": "About_CEModerato",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Cross-Examination - Moderato",
-                "<LC><W>(Kreuzverhör - Moderato)",
+                "<SOUND:0><LC><R>Kreuzverhör - Moderato",
+                "<LC><W>(Cross-Examination - Moderato)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Ich schrieb den Song an einem Nachmittag.<PAUSE:3>",
-                "Der erste Entwurf war richtig gut, sodass",
-                "ich nicht wirklich viel ändern musste. Die",
-                "finale Version is fast die gleiche.",
+                "<SOUND:0>Ich schrieb dieses Stück an nur einem",
+                "Nachmittag.<PAUSE:3> Der erste Entwurf war so",
+                "gut, ich musste kaum etwas ändern<EMDASH>",
+                "die finale Version ist fast identisch.",
                 "<NEW_BOX>",
-                "<SOUND:0>Ich wollte es wie die <R>Verlorenen Wälder<W>",
-                "klingen lassen, um die verzwickten Pfade",
-                "zur Logik, die Link finden muss, darzu-",
-                "stellen, bevor er die Wahrheit erfährt...",
+                "<SOUND:0>Ich wollte die <R>Verlorene Wälder<W>-Musik",
+                "als Basis nehmen, als Symbol für die",
+                "verzwickten Logikpfade, durch die Link",
+                "irrt, bis er den richtigen Weg findet...",
                 "<NEW_BOX>",
-                "<SOUND:0>...aber ich empfand es als zu schwierig,",
-                "den Song in diesem spezifischen Musik-",
-                "stil aufzubauen.",
+                "<SOUND:0>... aber ich fand es schwierig, die",
+                "Melodie an diesen Stil anzupassen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Dennoch WAR ICH in der Lage, den An-",
-                "fang von den Verlorenen Wäldern <R>rück-",
-                "wärts<W> abzuspielen, sodass ich den Rest",
-                "vom Song passend dazu aufbauen konnte.",
+                "<SOUND:0>Ich habe es dann hinbekommen, indem",
+                "ich den Anfang der Melodie <R>rückwärts<W>",
+                "gespielt und den Rest der Musik",
+                "darauf aufgebaut habe!",
                 "<NEW_BOX>",
-                "<SOUND:0>Spielt man diesen Song rückwärts, kann",
-                "man das Lied der Verlorenen Wälder raus-",
-                "hören.",
+                "<SOUND:0>Spielt man dieses Stück rückwärts,",
+                "kann man die Melodie der Verlorenen",
+                "Wälder raushören.",
                 "<NEW_BOX>",
-                "<SOUND:0>Dieser Song war auch der erste mit einer",
-                "\"nachdenkenden\" Variante.",
+                "<SOUND:0>Diese Musik war auch die erste mit",
+                "einer \"Denk nach!\"-Variante.",
                 "<NEW_BOX>",
-                "<SOUND:0>Die Inklusion von \"nachdenkenden\" Mel-",
-                "odien, welche die Lautstärke bestimmter",
-                "Klänge beim Öffnen der Gerichtsakte ver-",
-                "ändert, war ein Vorschlag meinerseits.<PAUSE:3> ",
+                "<SOUND:0>\"Denk nach!\"-Versionen, bei denen sich",
+                "die Lautstärke bestimmter Tonspuren",
+                "ändert, während die Gerichtsakte offen",
+                "ist, war ein Vorschlag meinerseits.<PAUSE:3> ",
                 "<NEW_BOX>",
-                "<SOUND:0>Zuerst waren nicht alle Entwickler damit",
-                "einverstanden...",
+                "<SOUND:0>Zuerst waren nicht alle der anderen",
+                "Entwickler damit einverstanden...",
                 "<NEW_BOX>",
-                "<SOUND:0>...dennoch, nachdem wir diese Idee im ",
-                "Spiel als Beispiel demonstiert haben, ",
-                "wurden die Entwickler überzeugt.<SQUARE>"
+                "<SOUND:0>... aber nach einer Demonstration im",
+                "Spiel mit dieser Musik als Beispiel",
+                "waren sie überzeugt!<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104344,37 +104294,36 @@
             {
               "Name": "About_Objection",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Objection!",
-                "<LC><W>(Einspruch!)",
+                "<SOUND:0><LC><R>Einspruch!",
+                "<LC><W>(Objection!)",
                 "<LC><C>(Meatball132)",
                 "<NEW_BOX>",
-                "<SOUND:0>Dieses Stück, welches einst die Verfol-",
-                "gungsmusik war, wurde zum \"Einspruch!\"-",
-                "Lied.<PAUSE:3> Jedoch war dieser Song zu energie-",
-                "geladen.",
+                "<SOUND:0>Das Stück, welches später Verfolgung",
+                "wurde, war zuerst die Einspruchsmusik.<PAUSE:3>",
+                "Aber es war zu energiegeladen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Das Ziel dieser Version war dann die",
-                "Erzeugung von triumphierenden Klängen,",
-                "die aber nicht übertrieben klingen sollen,",
-                "was ich dann auch geschafft habe.",
+                "<SOUND:0>Das Ziel dieser Version war dann, sie",
+                "triumphierend, aber nicht ZU aufregend",
+                "klingen zu lassen. Ich denke, das ist",
+                "mir auch gelungen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Der Rhythmus, den die Streicher spielen,",
-                "ist ziemlich nah am Rhythmus in der Musik,",
+                "<SOUND:0>Der Rhythmus der Streichinstrumente",
+                "ist recht nah am Rhythmus der Musik,",
                 "die ich als Referenz aus einer anderen",
-                "Anwaltsspielereihe entnommen habe.",
+                "Anwaltsspielereihe genommen habe.",
                 "<NEW_BOX>",
                 "<SOUND:0>Die zweite Hälfte dieses Titels basiert ",
-                "übrigens direkt auf die Gegenmelodie ",
-                "gegen Ende von der Verfolgungsmusik.",
+                "übrigens direkt auf der Gegenmelodie ",
+                "gegen Ende der Verfolgungsmusik.",
                 "<NEW_BOX>",
-                "<SOUND:0>Ich bin von der Idee abgewichen, sogar",
-                "mehr als gedacht, nachdem ich die ",
-                "aktuelle Akkordfolge entdeckt hatte.<PAUSE:3>",
-                "Es klingt natürlicher als die Originalidee.",
+                "<SOUND:0>Ich bin davon aber mehr abgewichen",
+                "als gedacht, nachdem ich die aktuelle",
+                "Akkordfolge entdeckt hatte.<PAUSE:3> Ich finde",
+                "sie viel besser als die Originalidee!",
                 "<NEW_BOX>",
-                "<SOUND:0>Trotzdem gefiel mir die Idee, dass dieser",
-                "Soundtrack ein paar eigene kleine beson-",
-                "ders herausstechende Leitmotive hat.<SQUARE>"
+                "<SOUND:0>Trotzdem gefiel mir die Idee, dass",
+                "dieser Soundtrack seine eigenen",
+                "kleinen einzigartigen Leitmotive hat.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104386,52 +104335,56 @@
                 "<LC><W>(Suspense)",
                 "<LC><C>(Meatball132)",
                 "<NEW_BOX>",
-                "<SOUND:0>Meine allererste Musik enstand für diese",
-                "Mod, dessen Ursprung direkt aus einem",
-                "originiellen Anwaltsspiel stammt, aber mit",
-                "(teils eignen) Zelda-Instrumenten vermischt.",
+                "<SOUND:0>Die allererste Musik für den Mod kam",
+                "direkt aus dem originalen Anwaltsspiel.",
+                "Ich adaptierte sie für die Instrumente",
+                "aus Zelda (und ein paar eigenen).",
                 "<NEW_BOX>",
-                "<SOUND:0>Es klang wirklich nicht gut und wir produ-",
-                "zierten eigene Arrangements stattdessen.<PAUSE:3> ",
-                "Nun, das war das Erste, was ich kompon-",
-                "ierte, nach dem wir uns umentschieden.",
+                "<SOUND:0>Es klang nicht sehr gut, und wir fanden",
+                "ohnehin, dass eigene Arrangements am",
+                "besten wären.<PAUSE:3> Das hier war nach der",
+                "Entscheidung mein erstes Arrangement.",
                 "<NEW_BOX>",
-                "<SOUND:0>Die Idee dieses Soundtracks ist, dass es",
-                "wie Zelda mit eingestreuselten Referenzen",
-                "zu einem Anwaltsspiel klingen soll.<PAUSE:3> Das Lied",
-                "ist quasi das offensichtlichste Beispiel.<SQUARE>"
+                "<SOUND:0>Der Soundtrack sollte vorwiegend nach",
+                "Zelda klingen, mit Anspielungen auf die",
+                "Anwaltsspiele hier und da.<PAUSE:3> Diese Musik",
+                "ist wohl das offensichtlichste Beispiel.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
             },
             {
               "Name": "About_Zelda",
+              "Comment": "Added another text box to split the last one in two. -Jodocus; <CT>",
               "MessageTextLines": [
-                "<SOUND:0><LC><SHIFT:1><R>Zelda's Theme",
-                "<LC><W>(Zeldas Melodie)",
+                "<SOUND:0><LC><SHIFT:1><R>Zeldas Melodie",
+                "<LC><W>(Zelda's Theme)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Das war das zweite Stück origineller",
-                "Musik, die ich für das Spiel komponierte.",
+                "<SOUND:0>Dies war das zweite Stück eigener",
+                "Musik, die für das Spiel komponiert",
+                "wurde.",
                 "<NEW_BOX>",
-                "<SOUND:0>Genau wie in \"Sitzung eröffnet\" kom-",
-                "ponierte ich das Intro mit dem Gedanken,",
-                "dass es das Lobby-Lied sein soll. Daher",
-                "hört man anfangs die <R>Ebene von Hyrule<W>.",
+                "<SOUND:0>Wie auch in \"Sitzung eröffnet\", war das",
+                "Intro zuerst für das Angeklagtenzimmer",
+                "gedacht. Daher hört man anfangs die",
+                "Melodie der <R>Ebene von Hyrule<W>.",
                 "<NEW_BOX>",
-                "<SOUND:0>Nach paar Debatten entschieden wir,",
-                "es in Zeldas Melodie umzuwandeln, daher",
-                "fügte ich fortfahrend <R>Zeldas Wiegenlied<W> ",
-                "als die Hauptmelodie in den Song hinzu.",
+                "<SOUND:0>Nach einer Diskussion entschieden wir,",
+                "es zu Zeldas Melodie zu machen, also",
+                "fuhr ich mit <R>Zeldas Wiegenlied<W> als",
+                "Hauptstimme fort.",
                 "<NEW_BOX>",
-                "<SOUND:0>Am Ende des Songs habe ich es sogar",
-                "geschafft, beide Melodien auf eine Weise ",
-                "zu überlagern, die gut klingt!",
+                "<SOUND:0>Am Ende des Stücks habe ich es sogar",
+                "geschafft, beide Melodien auf eine",
+                "Weise zu überlagern, die gut klingt!",
                 "<NEW_BOX>",
-                "<SOUND:0>Wir wollten, dass unsere Intepretation von",
-                "Zelda majestätisch, aber auch etwas",
-                "unreif wirkt, und ich denke, das endgültige",
-                "Arrangement fängt diesen Kontrast gut ein.<SQUARE>"
+                "<SOUND:0>Wir wollten, dass unsere Version von",
+                "Prinzessin Zelda majestätisch, aber",
+                "auch etwas unreif wirkt.",
+                "<NEW_BOX>",
+                "<SOUNd:0>Ich denke, das fertige Arrangement",
+                "fängt diesen Kontrast gut ein.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104439,33 +104392,34 @@
             {
               "Name": "About_Trial2_a",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>The Trial Continues",
-                "<LC><W>(Weiterführung des Prozesses)",
+                "<SOUND:0><LC><R>Weiterführung des Prozesses",
+                "<LC><W>(The Trial Continues)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>\"Sitzung eröffnet\" ist mein erster",
-                "origineller Song, den ich fürs Spiel kom-",
-                "ponierte. Je mehr Zeit verstrich, desto",
-                "weniger mochte ich es...",
+                "<SOUND:0>\"Sitzung eröffnet\" war das erste eigene",
+                "Stück, das ich für das Spiel schrieb. Je",
+                "mehr Zeit verging, desto weniger gefiel",
+                "es mir...",
                 "<NEW_BOX>",
-                "<SOUND:0>...vielleicht bin ich da einfach nur zu",
-                "kritisch mir gegenüber, denn die anderen",
-                "Entwickler mögen es immernoch.",
+                "<SOUND:0>... aber die anderen Entwickler mögen",
+                "es wohl immer noch, also bin ich",
+                "vielleicht einfach nur zu selbstkritisch.",
                 "<NEW_BOX>",
                 "<SOUND:0>Jedenfalls dachte ich, ich könnte es",
-                "besser.<PAUSE:3> Daher fing ich an, das zu kom-",
-                "ponieren.",
+                "besser.<PAUSE:3> Also schrieb ich das hier.",
                 "<NEW_BOX>",
-                "<SOUND:0>Genau wie \"Sitzung eröffnet\", ist es",
-                "ein <R>Haus<W>-Remix.<PAUSE:3> Es ist schwer, das raus-",
-                "zuhören, aber die Melodie startet mit den-",
-                "selben Noten, doch Reim & Ton ist anders.",
+                "<SOUND:0>Wie \"Sitzung eröffnet\" ist es ein Remix",
+                "von <R>Haus<W><PAUSE:3>. Es ist schwer hörbar, aber",
+                "die Musik startet mit denselben Noten<EMDASH>",
+                "nur Rhythmus und Tonart sind anders.",
                 "<NEW_BOX>",
-                "<SOUND:0>Das Ende ist eine Retention vom",
-                "<R>Schatz erhalten<W>-Jingle.<PAUSE:3> Ich wünschte, es",
-                "gäbe eine tiefere Bedeutung dahinter...",
+                "<SOUND:0>Am Ende kommt eine Interpretation des",
+                "<R>Schatz erhalten<W>-Jingles.<PAUSE:3> Ich würde gerne",
+                "behaupten, dahinter gäbe es eine tiefe",
+                "Bedeutung...",
                 "<NEW_BOX>",
-                "<SOUND:0>...Jedoch dachte ich halt, es klänge witzig.",
+                "<SOUND:0>... aber ich dachte einfach nur, es",
+                "klänge lustig.",
                 "<NEW_BOX>",
                 "<PERSISTENT>"
               ],
@@ -104475,66 +104429,74 @@
             {
               "Name": "About_CEAllegro",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Cross-Examination - Allegro",
-                "<LC><W>(Kreuzverhör - Allegro)",
+                "<SOUND:0><LC><R>Kreuzverhör - Allegro",
+                "<LC><W>(Cross-Examination - Allegro)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Cross-Examination - Moderato basiert auf",
-                "den Beginn von den <R>Verlorenen Wälder<W>.<PAUSE:3> ",
-                "Für Allegro plante ich, dass <R>der komplette ",
-                "Song<W> fast nur rückwärts abgespielt wird.",
+                "<SOUND:0>Kreuzverhör - Moderato basiert nur auf",
+                "dem Beginn der Musik der <R>Verlorenen",
+                "Wälder<W>.<PAUSE:3> Für Allegro sollte beinahe <R>die",
+                "komplette Melodie<W> rückwärts spielen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Die Trompete macht genau das.<PAUSE:3> Die zwei",
-                "Gegenmelodien lassen das Lied natürlicher",
-                "wirken, sodass man denkt, es war schon",
-                "immer so geplant, es so klingen zu lassen.",
+                "<SOUND:0>Die Trompete macht genau das.<PAUSE:3> Die",
+                "zwei Gegenstimmen lassen die Melodie",
+                "natürlicher wirken, als hätte die Musik",
+                "schon immer so klingen sollen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Auch beim Vorwärtsspielen des Lieds",
-                "erkennt man Referenzen zum Lied der ",
-                "Velorenen Wälder.",
+                "<SOUND:0>Auch beim Vorwärtsspielen der Musik",
+                "erkennt man Referenzen zur Melodie",
+                "der Velorenen Wälder.",
                 "<NEW_BOX>",
                 "<SOUND:0>Der Tamburin-Rhythmus und die vier",
-                "schnellen, hämmernden Akkorde kurz vor ",
-                "dem Loop sind direkte Referenzen darauf.",
+                "schnell hämmernden Akkorde kurz vor",
+                "dem Loop sind direkte Anspielungen",
+                "darauf.",
                 "<NEW_BOX>",
-                "<SOUND:0>Kurz vor dem Ende wird ein Teil der ",
-                "Verlorenen Wälder-Melodie vorwärts abge-",
-                "spielt, während ein anderes Instrument die",
+                "<SOUND:0>Kurz vor dem Ende spielt ein Teil der ",
+                "Verlorenen Wälder-Melodie vorwärts,",
+                "während ein anderes Instrument die",
                 "Hauptmelodie des Kreuzverhörs spielt.",
                 "<NEW_BOX>",
-                "<SOUND:0>Das heißt, dass dieselbe Melodie kurz in ",
-                "zwei Richtungen gleichzeitig gespielt wird!<SQUARE>"
+                "<SOUND:0>Das heißt, dass dieselbe Melodie kurz",
+                "in zwei Richtungen gleichzeitig gespielt",
+                "wird!<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
             },
             {
               "Name": "About_Incident",
+              "Comment": "Had to add a message box to split the fourth one into two. -Jodocus; <CT>",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Reminiscences",
-                "<LC><W>(Erinnerungen)",
+                "<SOUND:0><LC><R>Erinnerungen",
+                "<LC><W>(Reminiscences)",
                 "<LC><C>(Meatball132)",
                 "<NEW_BOX>",
-                "<SOUND:0>Dieser Song basiert offensichtlich an ",
-                "<R>Zeldas Wiegenlied<W>, aber es ist viel emotion-",
-                "aler gestaltet.<PAUSE:3> Es beginnt angespannt, aber",
-                "wird trauriger von der Melodie her.",
+                "<SOUND:0>Dieses Stück basiert offensichtlich auf ",
+                "<R>Zeldas Wiegenlied<W>, ist aber sehr viel",
+                "emotionaler gestaltet.<PAUSE:3> Es beginnt",
+                "angespannt, und wird dann traurig.",
                 "<NEW_BOX>",
-                "<SOUND:0>Der \"traurige\" Abschnitt wird von einem",
-                "Klavier mit einem künstlichen Delay-Effekt ",
-                "angeführt.",
+                "<SOUND:0>Der \"traurige\" Abschnitt wird angeführt",
+                "von einem Klavier mit künstlichem",
+                "Verzögerungseffekt.",
                 "<NEW_BOX>",
-                "<SOUND:0>Der Teil wurde mehrfach leicht versetzt ",
-                "und leiser abgespielt und in andere Richt-",
-                "ungen gepannt, um den Klang zu simulieren, ",
-                "der von einer Wand zurückgeworfen wird.<NEW_BOX>",
-                "<SOUND:0>Eigentlich gibt es hier sogar drei Klaviere.<PAUSE:3> ",
-                "Jedes weitere Klavier ist weiter versetzt, lei-",
-                "ser und weiter gepannt als das vorherige.",
+                "<SOUND:0>Dieser wurde erzielt, indem der Part",
+                "mehrfach mit leichtem Versatz, leiser,",
+                "und in anderen Hörereignisrichtungen",
+                "gespielt wurde...",
+                "<NEW_BOX>",
+                "<SOUND:0>... um zu simulieren, wie der Klang",
+                "von einer Wand reflektiert wird.",
+                "<NEW_BOX>",
+                "<SOUND:0>Somit gibt es hier sogar drei Klaviere.<PAUSE:3> ",
+                "Jedes weitere Klavier ist leiser, stärker",
+                "versetzt und mit höherer Pegeldifferenz",
+                "als das vorherige.",
                 "<NEW_BOX>",
                 "<SOUND:0>Aber es soll wie ein einziges Klavier ",
-                "klingen, das in einem halligen Raum ",
-                "gespielt wird.<SQUARE>"
+                "klingen, das in einem widerhallenden",
+                "Raum gespielt wird.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104542,22 +104504,22 @@
             {
               "Name": "About_Ingo1",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Ingo, The Ingenuous",
-                "<LC><W>(Basil, der Blauäugige)",
+                "<SOUND:0><LC><R>Basil, der Blauäugige",
+                "<LC><W>(Ingo, The Ingenuous)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Dieser Song ist ein einfaches Arrangement",
-                "von <R>Basils Melodie<W> aus dem Originalspiel.",
+                "<SOUND:0>Dies ist ein einfaches Arrangement von",
+                "<R>Basils Melodie<W> aus dem Originalspiel.",
                 "<NEW_BOX>",
                 "<SOUND:0>Der Pfeifton wurde neu importiert.<PAUSE:3> Wir ",
-                "haben mehrere Pfeifeninstrumente aus ver-",
-                "schiedenen Synthesizern ausprobiert, bevor",
-                "wir uns für den Korg Triton einigten.",
+                "probierten mehrere Pfeif-Instrumente",
+                "verschiedener Synthesizer, bevor wir",
+                "uns für den Korg Triton entschieden.",
                 "<NEW_BOX>",
-                "<SOUND:0>Das Pfeifen fängt Basils unbeschwertes",
-                "Verhalten zu dem Zeitpunkt des Spiels ein",
-                "(vielleicht sogar etwas zu unbeschwert...),",
-                "und die Kuhglocke erinnert an die Farm."
+                "<SOUND:0>Das Pfeifen zeigt Basils unbeschwerte",
+                "Einstellung an diesem Punkt des Spiels",
+                "(fast schon verdächtig unbeschwert...),",
+                "und die Kuhglocke erinnert an die Farm.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104565,30 +104527,30 @@
             {
               "Name": "About_ThoughtRoute_a",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Revisualization",
-                "<LC><W>(Rekonstruktion)",
+                "<SOUND:0><LC><R>Rekonstruktion",
+                "<LC><W>(Revisualization)",
                 "<LC><C>(Meatball132)",
                 "<NEW_BOX>",
-                "<SOUND:0>RoadrunnerWMC übernahm zuerst, ",
-                "aber quälte sich beim Komponieren.",
+                "<SOUND:0>RoadrunnerWMC übernahm dieses",
+                "Stück zuerst, hatte aber Probleme",
+                "damit, es richtig hinzubekommen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Die ursprüngliche Idee war,",
-                "<R>The Legend of Hyrule<W> zu arrangieren, ",
+                "<SOUND:0>Die ursprüngliche Idee war es, <R>Die",
+                "Legende von Hyrule<W> zu arrangieren, ",
                 "da es thematisch zur Szene passte.",
                 "<NEW_BOX>",
                 "<SOUND:0>Er komponierte ein paar Arrangements,",
                 "bevor er aufgab.<PAUSE:3> Der Song ist einfach",
-                "musikalisch zu spärlich und ungewöhnlich.",
+                "musikalisch zu karg und ungewöhnlich.",
                 "<NEW_BOX>",
-                "<SOUND:0>Nachdem mir der Track neu zugewiesen ",
-                "wurde und meine Versuche, dieselbe ",
-                "Melodie zu arrangieren, ebenfalls fehl-",
-                "schlugen, kam etwas Konventionelleres.",
+                "<SOUND:0>Als mir das Stück zugewiesen wurde",
+                "und meine Versuche mit derselben",
+                "Melodie ebenfalls scheiterten, wollte ich",
+                "etwas Konventionelleres ausprobieren.",
                 "<NEW_BOX>",
-                "<SOUND:0>Ich fand passende Alternativen:<PAUSE:2> ",
+                "<SOUND:0>Ich wählte passende Alternativen:<PAUSE:2> ",
                 "<R>Nayrus Lied<W> aus <R>Oracle of Ages<W> und",
-                "<R>Hymne der Göttin<W> aus <R>Skyward",
-                "Sword<W>.",
+                "<R>Hymne der Göttin<W> aus <R>Skyward Sword<W>.",
                 "<NEW_BOX>",
                 "<PERSISTENT>"
               ],
@@ -104597,79 +104559,87 @@
             },
             {
               "Name": "About_Ingo2",
+              "Comment": "Added two text boxes, one to split the third message box, and one to split the fifth. Also removed the pause tag from the third message box, as it would now have been at the end of the box. -Jodocus; <CT>",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Ingo, The Restless",
-                "<LC><W>(Basil, der Unruhige)",
+                "<SOUND:0><LC><R>Basil, der Besorgte",
+                "<LC><W>(Ingo, The Restless)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Mein erster Versuch, eine \"böse\" Version ",
-                "von Basils Melodie zu schreiben, bestand",
-                "darin, einige sehr dissonante Klavierak-",
-                "korde unter die \"normale\" Version zu legen.",
+                "<SOUND:0>Mein erster Versuch, Basils Melodie",
+                "eine \"böse\" Version zu geben, bestand",
+                "darin, sehr dissonante Klavierakkorde",
+                "unter die \"normale\" Version zu legen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Wir hätten dynamisch zwischen beiden ",
-                "Versionen überblenden können.<PAUSE:3> Klang aber",
-                "eher \"verwirrt\" als \"böse\", und das dyna-",
-                "mische Überblenden war nicht notwendig.",
+                "<SOUND:0>Damit hätten wir dynamisch zwischen",
+                "beiden Versionen überblenden können.",
                 "<NEW_BOX>",
-                "<SOUND:0>Stattdessen entschied ich mich für eine ",
-                "einfache Version in Moll mit einem lang-",
-                "sameren Tempo und anderer Instru-",
-                "mentierung.",
+                "<SOUND:0>Aber es klang eher \"verrückt\" als",
+                "\"böse\", und das Überblenden wurde",
+                "gar nicht notwendig.",
                 "<NEW_BOX>",
-                "<SOUND:0>Das Pfeifen wird durch eine Klarinette er-",
-                "setzt und der Gitarrenbass ist jetzt eine",
-                "Tuba. Das Schlagzeug ist ebenfalls krasser,",
-                "damit jeder Basils dunklere Seite sieht.",
+                "<SOUND:0>Stattdessen entschied ich mich für",
+                "eine einfache Version in Moll mit",
+                "einem langsameren Tempo und",
+                "anderer Instrumentierung.",
                 "<NEW_BOX>",
-                "<SOUND:0>Dieser Song wurde zunächst abgelehnt, ",
-                "weil er nicht \"böse\" genug klang...",
+                "<SOUND:0>Das Pfeifen wurde durch eine Klarinette",
+                "ersetzt und der Gitarrenbass ist jetzt",
+                "eine Tuba.",
                 "<NEW_BOX>",
-                "<SOUND:0>...aber nachdem ich \"Basil, der Besessene\"",
-                "geschrieben hatte, beschlossen wir, es",
-                "als Zwischenversion wieder aufzunehmen."
+                "<SOUND:0>Die Perkussion ist ebenfalls intensiver,",
+                "um zu zeigen, dass Basil im Inneren",
+                "eine dunklere Seite hat.",
+                "<NEW_BOX>",
+                "<SOUND:0>Diese Musik wurde zunächst abgelehnt, ",
+                "weil sie nicht \"böse\" genug klang...",
+                "<NEW_BOX>",
+                "<SOUND:0>... aber nachdem ich \"Basil, der",
+                "Besessene\" schrieb, beschlossen wir,",
+                "sie als Zwischenversion wieder",
+                "aufzunehmen.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
             },
             {
               "Name": "About_Pursuit",
+              "Comment": "The second line of the third box (\"Gegenstimmen und Hintergrund-Arpeggios\") goes ~21 pixels over the target width; I tried making it shorter, but couldn't find a way. I decided to leave it, rather than rearranging everything to add another message box (which would leave the line half-empty). -Jodocus",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Pursuit",
-                "<LC><W>(Verfolgung)",
+                "<SOUND:0><LC><R>Verfolgung",
+                "<LC><W>(Pursuit)",
                 "<LC><C>(Meatball132)",
                 "<NEW_BOX>",
-                "<SOUND:0>Ursprünglich sollte das die Musik für \"Ein-",
-                "spruch!\" sein, aber sie war zu schnell, ",
-                "weshalb ich mich entschied, sie statt-",
-                "dessen für \"Verfolgung\" zu verwenden.",
+                "<SOUND:0>Ursprünglich sollte das die Musik für",
+                "\"Einspruch!\" sein, aber sie war zu",
+                "hektisch, und ich entschied mich, sie",
+                "stattdessen für \"Verfolgung\" zu nehmen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Man kann noch Reste davon hören:<PAUSE> ",
-                "Einige Gegenmelodien und Hintergrund-",
-                "Arpeggios beziehen sich direkt auf die ",
-                "Melodie eines anderen bestimmten Spiels.",
+                "<SOUND:0>Man hört noch Hinweise darauf:<PAUSE> Einige",
+                "Gegenstimmen und Hintergrund-Arpeggios",
+                "spielen direkt auf die Einspruchsmusik",
+                "eines gewissen anderen Spiels an.",
                 "<NEW_BOX>",
                 "<SOUND:0>Das unregelmäßig spielende Klavier im ",
                 "Hintergrund wurde von Hirozaku Andos ",
                 "Musik für die Kirby-Reihe inspiriert.",
                 "<NEW_BOX>",
-                "<SOUND:0>Ich habe im Grunde genommen zufällige ",
-                "Noten von Hand in den Klavierpart einge-",
-                "geben, bis mir der Klang gefallen hat.",
+                "<SOUND:0>Ich habe im Grunde zufällige Noten von",
+                "Hand in den Klavierpart eingegeben,",
+                "bis mir der Klang gefallen hat.",
                 "<NEW_BOX>",
-                "<SOUND:0>Das Klavier-Sample in OoT war für diesen",
-                "Teil viel zu leise, also habe ich letztendlich ",
-                "ein individuelles, helleres Klavier importiert.",
+                "<SOUND:0>Das Klavier-Sample in OoT war dafür",
+                "viel zu leise, also habe ich letztendlich ",
+                "ein eigenes, helleres Klavier importiert.",
                 "<NEW_BOX>",
-                "<SOUND:0>Auch mit der 2. Hälfte der Musik hatte ich  ",
-                "zu kämpfen.<PAUSE:3> Sie musste länger sein, aber ",
-                "es gab nicht gute Instrumente, die die",
-                "Melodie des B-Teils wiederholen konnten.",
+                "<SOUND:0>Auch mit der zweiten Hälfte der Musik",
+                "hatte ich zu kämpfen.<PAUSE:3> Sie musste länger",
+                "sein, nur konnte keines der Instrumente",
+                "die Melodie im B-Teil gut wiederholen.",
                 "<NEW_BOX>",
-                "<SOUND:0>...Deswegen habe ich ein Saxophon impor-",
-                "tiert.<PAUSE:3> Beide eigene Instrumente erwiesen",
-                "sich als nützlich, als wir den Rest des",
-                "Soundtracks komponiert haben.<SQUARE>"
+                "<SOUND:0>... Also habe ich auch ein Saxophon",
+                "importiert.<PAUSE:3> Beide dieser Instrumente",
+                "erwiesen sich als nützlich, als wir den",
+                "Rest des Soundtracks schrieben.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104677,41 +104647,41 @@
             {
               "Name": "About_Rebuttal_a",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Confrontation - Presto",
-                "<LC><W>(Konfrontation - Presto)",
+                "<SOUND:0><LC><R>Konfrontation - Presto",
+                "<LC><W>(Confrontation - Presto)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Die Widerlegungsszene war ursprünglich",
-                "nicht Teil des Skripts vom Spiel.<PAUSE:3> Daher ",
-                "wurde dieser Song fast zwei Jahre nach",
-                "den Kreuzverhörliedern geschrieben.",
+                "<SOUND:0>Die Widerlegungsszene war zuerst nicht",
+                "Teil des Spielskripts.<PAUSE:3> Daher wurde diese",
+                "Musik fast zwei Jahre nach den",
+                "Kreuzverhör-Melodien geschrieben.",
                 "<NEW_BOX>",
-                "<SOUND:0>Es beinhaltet Bruchstücke aus beiden",
-                "Liedern, wie das Fantasie-Instrument aus",
-                "Moderato und die Trompete aus Allegro.",
+                "<SOUND:0>Es beinhaltet Elemente beider Stücke,",
+                "wie das Fantasia aus Moderato und",
+                "die Trompete aus Allegro.",
                 "<NEW_BOX>",
-                "<SOUND:0>Im Gegensatz zu den Kreuzverhörliedern",
-                "habe ich mich entschieden, dieses Stück ",
-                "nicht rückwärts klingen zu lassen, sondern",
-                "es stattdessen spannender zu gestalten.",
+                "<SOUND:0>Anders als bei der Kreuzverhör-Musik",
+                "habe ich nicht darauf geachtet, wie es ",
+                "rückwärts klingt, sondern es einfach",
+                "so spannend wie möglich gestaltet.",
                 "<NEW_BOX>",
-                "<SOUND:0>Am Ende hat mir das Komponieren dieses",
-                "Songs am meisten Spaß gemacht!",
+                "<SOUND:0>Am Ende hat mir das Schreiben dieses",
+                "Stücks am meisten Spaß gemacht!",
                 "<NEW_BOX>",
-                "<SOUND:0>Ich konnte eine Melodielinie wiederver-",
-                "werten, die aus \"Kreuzverhör - Allegro\" ",
-                "herausgeschnitten worden war, weil sie",
-                "zu energiegeladen war.",
+                "<SOUND:0>Ich konnte eine Melodiezeile neu",
+                "verwerten, die aus \"Kreuzverhör -",
+                "Allegro\" herausgeschnitten wurde,",
+                "weil sie zu energiegeladen war.",
                 "<NEW_BOX>",
-                "<SOUND:0>Zusammen mit einer Variation eines Teils",
-                "der Gegenmelodie der Kreuzverhörlieder",
-                "wurde dies zur Gitarrenmelodie",
-                "in der Mitte des Songs.",
+                "<SOUND:0>Mitsamt einer Variation eines Teils der",
+                "Gegenstimme der Kreuzverhör-Stücke",
+                "wurde dies zur Gitarrenmelodie in der",
+                "Mitte der Musik.",
                 "<NEW_BOX>",
-                "<SOUND:0>Im Gegensatz zu den anderen Spielsongs",
-                "wurden die Perkussion in der \"nachdenk-",
-                "enden\" Version überhaupt nicht reduziert,",
-                "da der Song weniger energiegeladen ist.",
+                "<SOUND:0>Anders als bei vielen anderen Stücken",
+                "wurde in der \"Denk nach!\"-Version die",
+                "Perkussion nicht reduziert, da ich fand,",
+                "es hätte zu viel Energie weggenommen.",
                 "<NEW_BOX>",
                 "<PERSISTENT>"
               ],
@@ -104721,89 +104691,93 @@
             {
               "Name": "About_Ingo3",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Ingo, The Manic",
-                "<LC><W>(Basil, der Besessene)",
+                "<SOUND:0><LC><R>Basil, der Besessene",
+                "<LC><W>(Ingo, The Manic)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Dieser Song zeigt das ganze Ausmaß",
+                "<SOUND:0>Diese Musik zeigt das ganze Ausmaß",
                 "von Basils Verderbtheit als wahrer",
-                "Schurke hinter dem ersten Fall des Spiels.",
+                "Schurke hinter dem Geschehen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Meine ersten Versuche des Songs wurden",
-                "abgelehnt, also habe ich ihn live mit den",
-                "Entwicklern für Echtzeit-Feedback kompo-",
-                "niert, während sie meine Versuche sahen.",
+                "<SOUND:0>Nachdem meine ersten Anläufe, sie zu",
+                "schreiben, abgelehnt wurden, holte ich",
+                "die anderen Entwickler per Livestream",
+                "für Rückmeldungen in Echtzeit dazu.",
                 "<NEW_BOX>",
-                "<SOUND:0>Im Vergleich zu Basils letztem Song ist das",
-                "Klatschen zur Pauke geworden, die Kuh-",
-                "glocke verschwand und das Banjo",
-                "ist zu Ganons Orgel geworden.",
+                "<SOUND:0>Im Vergleich zu Basils letzter Melodie",
+                "ist das Klatschen zur Pauke geworden,",
+                "die Kuhglocke verschwand, und aus",
+                "dem Banjo wurde Ganons Orgel.",
                 "<NEW_BOX>",
-                "<SOUND:0>Es ist cartoonmäßig böse, genau wie wir",
+                "<SOUND:0>Es ist überzogen böse, genau, wie wir",
                 "Basil selbst in diesem Spiel darstellen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Ursprünglich wollte ich diesen Song",
-                "\"Basil, der Mörder\" nennen. (Der ",
-                "endgültige Titel ist \"Basil, der Bessenene\".)",
+                "<SOUND:0>Ursprünglich sollte dieses Stück \"Basil,",
+                "der Mörder\" heißen. (Zur Erinnerung,",
+                "es heißt jetzt \"Basil, der Besessene\".)",
                 "<NEW_BOX>",
-                "<SOUND:0>Alle vier Themen von Basil hätten Nomen ",
-                "verwendet, die seine Rollen im Fall be-",
-                "schreiben: \"Der Landwirt\", \"Der Ver-",
-                "dächtige\", \"Der Mörder\" und \"Der Narr\".",
+                "<SOUND:0>Basils vier Melodien hätten seine",
+                "wechselnden Rollen beschrieben:",
+                "\"Der Knecht\", \"Der Verdächtige\",",
+                "\"Der Mörder\", und \"Der Narr\".",
                 "<NEW_BOX>",
-                "<SOUND:0>(Sein fünftes Lied \"Basil, der Besiegte\" ",
-                "wurde erst sehr spät geschrieben, nach-",
-                "dem wir dieses Namensschema geändert ",
-                "hatten.)",
+                "<SOUND:0>(Seine fünfte Melodie, \"Basil, der",
+                "Besiegte\", entstand sehr spät in der",
+                "Entwicklung, nachdem wir dieses",
+                "Namensmuster geändert hatten.)",
                 "<NEW_BOX>",
                 "<SOUND:0>Wie auch immer, wir haben den Namen",
-                "geändert, da \"Basil, der Mörder\"",
-                "ein zu offensichtlicher Spoiler gewesen",
-                "wäre, um ihn in die Songliste aufzunehmen.",
+                "geändert, da \"Basil, der Mörder\" ein zu",
+                "offensichtlicher Spoiler gewesen wäre,",
+                "um ihn in die Titelliste aufzunehmen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Es war die richtige Entscheidung.<PAUSE:3> ",
-                "Wir wollten nicht, dass der Spieldurchlauf",
-                "von Jemandem dadurch ruiniert wird.<SQUARE>"
+                "<SOUND:0>Ich denke, das war richtig so.<PAUSE:3> Es wäre",
+                "es nicht wert gewesen, jemandem dafür",
+                "den Spieldurchlauf zu ruinieren.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
             },
             {
               "Name": "About_Ingo4",
+              "Comment": "Added a text box to split the second message box into two. Removed the pause tag (which would have been right at the split). -Jodocus; <CT>",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Ingo, The Despondent",
-                "<LC><W>(Basil, der Bestürzte)",
+                "<SOUND:0><LC><R>Basil, der Bestürzte",
+                "<LC><W>(Ingo, The Despondent)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Die ersten drei Variationen von Basils Lied",
-                "offenbaren seine Bösartigkeit.<PAUSE:3> Die vierte",
-                "ist für die Erkenntnis, dass sein Plan auf ",
+                "<SOUND:0>Die ersten drei Variationen von Basils",
+                "Melodie offenbaren seinen Niedergang",
+                "in die Schurkerei.",
+                "<NEW_BOX>",
+                "<SOUND:0>Die Vierte ist für die",
+                "Erkenntnis, dass sein Plan auf ",
                 "einem Missverständnis beruhte.",
                 "<NEW_BOX>",
-                "<SOUND:0>Da Basil so eine Karikatur einer",
-                "Figur ist, habe ich das so übertrieben",
-                "traurig wie möglich gestaltet.",
+                "<SOUND:0>Da Basil eine so karikative Figur ist,",
+                "habe ich das so übertrieben traurig",
+                "wie möglich gestaltet.",
                 "<NEW_BOX>",
-                "<SOUND:0>Der Song ist in D-Moll (manchmal wird ",
-                "sie als \"die traurigste Tonart\" bezeichnet) ",
-                "und im lokrischen/düstersten Modus",
-                "eines Songs geschrieben.",
+                "<SOUND:0>Das Stück ist in D-Moll (manchmal als",
+                "\"die traurigste Tonart\" bezeichnet) und",
+                "im lokrischen Modus (dem düstersten",
+                "Modus) geschrieben.",
                 "<NEW_BOX>",
-                "<SOUND:0>Mit nur drei Instrumenten ist dieser Song ",
-                "der spärlichste von allen im Spiel.",
+                "<SOUND:0>Mit nur drei Instrumenten ist es das",
+                "spärlichste Stück im Spiel.",
                 "<NEW_BOX>",
                 "<SOUND:0>Ursprünglich wollte ich, dass die Harfe ",
-                "dynamisch einblendet, während man durch",
-                "Basils Dialog liest und er realisiert, was er ",
-                "gerade getan hat...",
+                "dynamisch einblendet, während man",
+                "durch Basils Dialog fortschreitet und er",
+                "begreift, was er eigentlich getan hat...",
                 "<NEW_BOX>",
-                "<SOUND:0>...aber das hätte diesen Song zunächst ",
-                "noch leerer gemacht, also haben wir be-",
-                "schlossen, das nicht zu tun.",
+                "<SOUND:0>... aber das hätte die Musik zu Beginn",
+                "noch leerer gemacht, also haben wir",
+                "beschlossen, das nicht zu tun.",
                 "<NEW_BOX>",
-                "<SOUND:0>Und letztendlich wurde dieser Song",
+                "<SOUND:0>Und letztendlich wurde diese Melodie",
                 "im Spiel gar nicht so lange gespielt,",
-                "also hätte das sowieso nicht funktioniert.<SQUARE>"
+                "also hätte es sowieso nicht funktioniert.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104811,43 +104785,44 @@
             {
               "Name": "About_HappyEnd_a",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>Victory!",
-                "<LC><W>(Gewonnen!)",
+                "<SOUND:0><LC><R>Gewonnen!",
+                "<LC><W>(Victory!)",
                 "<LC><C>(Meatball132)",
                 "<NEW_BOX>",
-                "<SOUND:0>Worauf spielt dieses Lied an ein Arrange-",
-                "ment an, was meinst du?",
+                "<SOUND:0>Was meinst du, wovon diese Musik",
+                "ein Arrangement ist?",
                 "<NEW_BOX>",
-                "<SOUND:0>...Dachtest du es sei das Lied der <R>\"Ebene",
-                "von Hyrule\"<W>?<PAUSE:3> Das liegst du leider falsch.",
+                "<SOUND:0>... Dachtest du, es sei die Melodie der",
+                "<R>Ebene von Hyrule<W>?<PAUSE:3> Da liegst du falsch.",
                 "<NEW_BOX>",
-                "<SOUND:0>Es ist das <R>\"End Credits 2\"<W>-Lied",
+                "<SOUND:0>Es ist tatsächlich die <R>Abspann 2<W>-Musik",
                 "aus <R>Ocarina of Time 3D<W>.",
                 "<NEW_BOX>",
-                "<SOUND:0>Ich hab dich erwischt, nicht wahr?<PAUSE:2> :)",
+                "<SOUND:0>Ich hab' dich drangekriegt,",
+                "nicht wahr?<PAUSE:2> :)",
                 "<NEW_BOX>",
                 "<SOUND:0>...",
                 "<NEW_BOX>",
                 "<SOUND:0>Ja, ich meine es ernst.<PAUSE:2> Sie sind anders.<PAUSE:3> ",
-                "Mahito Yokota hat den Abspann in <R>3D<W> ",
-                "komponiert, und sein charakteristischer",
+                "Mahito Yokota schrieb die Musik im",
+                "Abspann von <R>3D<W>, und der ihm typische",
                 "Orchesterstil ist deutlich zu erkennen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Einige Songs, die ich für dieses Spiel ko-",
-                "mponiert habe weisen bewusst Yokota",
-                "-typische Verzierungen und Basslinien auf.",
+                "<SOUND:0>Einige Stücke, die ich für dieses Spiel",
+                "schrieb, weisen bewusst Verzierungen",
+                "und Basslinien in seinem Stil auf.",
                 "<NEW_BOX>",
-                "<SOUND:0>In diesem Titel sind jedoch einige Ab-",
-                "schnitte direkte Transkriptionen seines ",
+                "<SOUND:0>In dieser Musik sind jedoch manche",
+                "Abschnitte direkte Abschriften seines ",
                 "Arrangements für den Abspann.",
                 "<NEW_BOX>",
-                "<SOUND:0>Der Rest basiert jedoch nur lose auf dem ",
-                "Track, sodass auch mein eigener Stil",
-                "ein wenig durchscheint.",
+                "<SOUND:0>Der Rest basiert nur lose darauf,",
+                "sodass auch mein eigener Stil per",
+                "se ein wenig durchscheint.",
                 "<NEW_BOX>",
-                "<SOUND:0>Es gibt eine Sektion, die ich vom",
-                "Titelsong, der von RoadrunnerWMC kom-",
-                "poniert wurde, entnommen habe.",
+                "<SOUND:0>Es gibt auch eine Sektion, die ich der",
+                "Titelmusik, die von RoadrunnerWMC",
+                "komponiert wurde, entnommen habe.",
                 "<NEW_BOX>",
                 "<PERSISTENT>"
               ],
@@ -104857,47 +104832,47 @@
             {
               "Name": "About_Credits_a",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>End Credits",
-                "<LC><W>(Mitwirkende)",
+                "<SOUND:0><LC><R>Abspann",
+                "<LC><W>(End Credits)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Dies ist das vorletzte Lied, das ich",
-                "für das Spiel geschrieben habe.<PAUSE:3> ",
+                "<SOUND:0>Dies ist das vorletzte Stück, das",
+                "ich für das Spiel schrieb.<PAUSE:3>",
                 "(\"Basil, der Besiegte\" war das letzte.)",
                 "<NEW_BOX>",
-                "<SOUND:0>Es MUSSTE gegen Ende sein.<PAUSE:3> Ich wollte, ",
-                "dass es viele der anderen Songs aus dem",
-                "Soundtrack neu arrangiert, also mussten ",
+                "<SOUND:0>Es musste gegen Ende sein.<PAUSE:3> Ich wollte, ",
+                "dass es viele der anderen Stücke des",
+                "Soundtracks rearrangiert, also mussten ",
                 "diese zuerst geschrieben werden.",
                 "<NEW_BOX>",
-                "<SOUND:0>Mit einer Länge von über 3,5 Minuten, ",
-                "über 150 Tracks in meiner Projektdatei",
-                "und 26 verwendeten Instrumenten ist ",
-                "es mit Abstand der größte Song im Spiel.",
+                "<SOUND:0>Mit über dreieinhalb Minuten Laufzeit,",
+                "über 150 Tonspuren in der Projektdatei,",
+                "und 26 verwendeten Instrumenten ist es",
+                "mit Abstand das größte Stück im Spiel.",
                 "<NEW_BOX>",
                 "<SOUND:0>Tatsächlich ist es so groß, dass es ",
                 "nicht einmal in den RAM passt, den ",
-                "<R>Ocarina of Time<W> für Sequenzdaten zuweist.<PAUSE:3>",
-                "Wir mussten den Speicherplatz vergrößern.",
+                "<R>Ocarina of Time<W> Sequenzdaten zuweist.<PAUSE:3>",
+                "Wir mussten diesen Platz vergrößern.",
                 "<NEW_BOX>",
-                "<SOUND:0>(Ocarina of Time's Abspannlied passt auch",
-                "nicht von der Speichergröße. Es wurde",
-                "durch das Aufteilen der Teile gelöst, aber",
-                "wir wollten es nicht genauso umsetzen.)",
+                "<SOUND:0>(Die Abspannmusik von Ocarina of Time",
+                "passt übrigens auch nicht. Sie wurde",
+                "daher in mehrere Abschnitte geteilt, wir",
+                "zogen es aber vor, das nicht zu tun.)",
                 "<NEW_BOX>",
-                "<SOUND:0>Wie auch immer, es gibt ein paar inter-",
-                "essante Fakten zu diesem Song aus",
-                "kompositorischer Sicht...",
+                "<SOUND:0>Davon ab gibt es aus kompositorischer",
+                "Sicht noch ein paar interessante",
+                "Fakten zu dieser Musik...",
                 "<NEW_BOX>",
-                "<SOUND:0>Beispielsweise ist Kreuzverhör - Allegro ",
-                "normalerweise schneller als Moderato,",
-                "und Konfrontation - Presto ist noch ",
-                "schneller...",
+                "<SOUND:0>Auch wenn zum Beispiel Kreuzverhör -",
+                "Allegro normalerweise schneller ist als",
+                "Moderato, und Konfrontation - Presto",
+                "sogar noch schneller...",
                 "<NEW_BOX>",
-                "<SOUND:0>...sie werden hintereinander im ",
-                "Abspann-Medley gespielt, daher müssen",
-                "sie alle das gleiche Tempo haben.<PAUSE:3> Aber ",
-                "\"Konfrontation\" fühlte sich zu langsam an.",
+                "<SOUND:0>... da sie im Abspann aufeinander",
+                "folgen, müssen alle das gleiche Tempo",
+                "haben.<PAUSE:3> Aber vor allem Konfrontation",
+                "fühlte sich so zunächst zu langsam an.",
                 "<NEW_BOX>",
                 "<PERSISTENT>"
               ],
@@ -104907,39 +104882,38 @@
             {
               "Name": "About_RonRon",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>(Bonus) Super Talon Game",
-                "<LC><W>((Bonus) Super Talon, das Spiel)",
+                "<SOUND:0><LC><R>(Bonus) Super Talon, das Spiel",
+                "<LC><W>((Bonus) Super Talon Game)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Dieser Song ist ein Scherz.",
+                "<SOUND:0>Diese Musik ist ein Scherz.",
                 "<NEW_BOX>",
-                "<SOUND:0>Eines Tages kam mir plötzlich der Gedanke,",
-                "mit den Instrumenten aus Spaß ein Cover",
-                "der <R>Grassland-Melodie<W> aus <R>Super Mario ",
-                "Bros. Wonder<W> zu komponieren...",
+                "<SOUND:0>Eines Tages kam mir plötzlich in den",
+                "Sinn, aus Spaß die <R>Grassland-Melodie<W>",
+                "aus <R>Super Mario Bros. Wonder<W> mit",
+                "diesen Instrumenten zu covern...",
                 "<NEW_BOX>",
-                "<SOUND:0>...genauer gesagt, mit der Okarina als",
-                "Pfeife und Malons Stimme als",
-                "Gesang.",
+                "<SOUND:0>... genauer gesagt, mit der Okarina als",
+                "Pfeife und Malons Stimme als Gesang.",
                 "<NEW_BOX>",
-                "<SOUND:0>Ich komponierte sie in ein, zwei Tagen",
-                "ohne die Kenntnis von jemandem, danach",
-                "ersetzte ich aus Spaß den Song als Titel-",
-                "song.",
+                "<SOUND:0>Ich machte sie in ein, zwei Tagen,",
+                "ohne jemandem etwas zu sagen, und",
+                "ersetzte dann als kleinen Streich die",
+                "Titelmusik unseres Spiels damit.",
                 "<NEW_BOX>",
-                "<SOUND:0>Obwohl ich vor hatte, den wieder zu",
-                "entfernen, bekamen die anderen das mit.",
-                "Ich erwartete nicht, dass Skawo den Song",
-                "behalten wollte, und erschuf...",
+                "<SOUND:0>Ich wollte es wieder entfernen, sobald",
+                "die anderen es gehört hatten. Doch zu",
+                "meiner Überraschung wollte Skawo ein",
+                "Easter Egg dafür erschaffen...",
                 "<NEW_BOX>",
-                "<SOUND:0>...an demselben Tag Hero of Law's",
-                "erste Extra-Szene: <R>Super Talon, das ",
-                "Spiel<W> war geboren!",
+                "<SOUND:0>... und später am selben Tag wurde",
+                "die erste Extra-Szene für Hero of Law",
+                "geboren: <R>Super Talon, das Spiel<W>!",
                 "<NEW_BOX>",
-                "<SOUND:0>Deswegen ist es ein Cover und kein",
-                "komplettes Arrangement wie die restliche",
-                "Musik aus dem Spiel.<PAUSE:3> Es war ursprünglich",
-                "nie geplant, dass es im Spiel verweilt!<SQUARE>"
+                "<SOUND:0>Daher ist es, anders als die restliche",
+                "Musik im Spiel, nur ein Cover und kein",
+                "komplettes Arrangement.<PAUSE:3> Es war nie",
+                "geplant, dass es im Spiel verweilt!<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -104947,66 +104921,68 @@
             {
               "Name": "About_Owl",
               "MessageTextLines": [
-                "<SOUND:0><LC><R>(Bonus) Owl's Theme",
-                "<LC><W>((Bonus) Uhus Melodie)",
+                "<SOUND:0><LC><R>(Bonus) Uhus Melodie",
+                "<LC><W>((Bonus) Owl's Theme)",
                 "<LC><C>(RoadrunnerWMC)",
                 "<NEW_BOX>",
-                "<SOUND:0>Das originale <R>Uhu<W>-Lied aus <R>The",
+                "<SOUND:0>Die originale <R>Uhu<W>-Melodie aus <R>The",
                 "Legend of Zelda: Link's Awakening<W>",
-                "besaß nur zehn Noten vor dem Loop.",
+                "wiederholt sich nach nur zehn Noten.",
                 "<NEW_BOX>",
-                "<SOUND:0>Um es auf den Stand moderner Musik zu ",
-                "bringen, wurden im <R>Remake von 2019<W>",
-                "einige Akkorde hinzugefügt, wodurch sich ",
-                "die Schleife von 4 auf 24 Sek. verlängerte.",
+                "<SOUND:0>Um es auf modernen Musikstandard zu",
+                "bringen, fügte das <R>Remake von 2019<W>",
+                "einige Akkorde hinzu und verlängerte",
+                "die Schleife von 4 auf 24 Sekunden.",
                 "<NEW_BOX>",
-                "<SOUND:0>Ich beschloss, dort mit meiner Version zu ",
-                "beginnen, aber es kam mir immer noch zu ",
-                "kurz vor <EMDASH> da man in diesem Spiel viel ",
-                "länger mit der Eule spricht als in LA.",
+                "<SOUND:0>Ich beschloss, mit meiner Version dort",
+                "zu beginnen, aber es fühlte sich immer",
+                "noch zu kurz an <EMDASH> zumal man hier viel",
+                "länger mit dem Uhu redet als in LA.",
                 "<NEW_BOX>",
-                "<SOUND:0>Also habe ich es weiter ausgebaut, indem ",
-                "ich eine Variation dieser Akkorde hinzu-",
-                "gefügt habe, und dann einen neuen ",
-                "einzigartigen Abschnitt.",
+                "<SOUND:0>Also baute ich sie durch eine Variation",
+                "dieser Akkorde weiter aus, und fügte",
+                "einen neuen Abschnitt hinzu, der stark",
+                "abweicht, um ihn markanter zu machen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Am Ende steht ein eindeutiges Zitat aus",
-                "<R>Methusas Thema<W> aus OoT.<PAUSE:3> Es war schwer,",
-                "diesen 4/4-Takt-Song in einen 3/4-Takt ",
-                "einzufügen, ohne dass es zu unnatürlich ist.",
+                "<SOUND:0>Am Ende wird klar <R>Methusas Melodie<W>",
+                "aus OoT zitiert.<PAUSE:3> Es war knifflig, sie vom",
+                "4/4-Takt in den 3/4-Takt zu bringen,",
+                "ohne dass es zu unnatürlich klingt.",
                 "<NEW_BOX>",
-                "<SOUND:0>Insgesamt ist diese Version von der Uhu-",
-                "Melodie etwa 56 Sekunden lang, also",
-                "14 Mal so lang wie das Original!<SQUARE>"
+                "<SOUND:0>Diese Version der Uhu-Melodie ist",
+                "insgesamt etwa 56 Sekunden lang, also",
+                "vierzehnmal so lang wie das Original!<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
             },
             {
               "Name": "About_Title_b",
+              "Comment": "I added the beginning of the fourth message box (\"... music importing system\") to the third message box (and added a pause tag before it) to have more space for the rest of the message. -Jodocus; <CT>",
               "MessageTextLines": [
-                "<SOUND:0>Nach dem das Stück geschrieben war,",
-                "war der Import eine Herausforderung, da",
-                "es der erste Song war, der das Limit von",
-                "16 Songs im Spiel überschritten hat.",
+                "<SOUND:0>Nachdem das Stück geschrieben war,",
+                "war der Import eine Herausforderung,",
+                "da es das erste war, welches das Limit",
+                "von 16 Tonspuren im Spiel überschritt.",
                 "<NEW_BOX>",
-                "<SOUND:0>...In der Tat brauchten wir VIEL mehr.<PAUSE:3> ",
-                "Die finale Version der Projektdatei bein-",
-                "haltet <R>54 Songs<W>!",
+                "<SOUND:0>... Tatsächlich brauchte es VIEL mehr.<PAUSE:3> ",
+                "Die Projektdatei der finalen Version",
+                "beinhaltet <R>54 Tonspuren<W>!",
                 "<NEW_BOX>",
-                "<SOUND:0>Zu jedem einzelnen Zeitpunkt spielen ",
-                "die meisten von ihnen jedoch",
-                "überhaupt nichts.",
+                "<SOUND:0>Allerdings ist immer nur ein Teil der",
+                "Tonspuren gleichzeitig zu hören.<PAUSE:3>",
+                "Um das unterzubringen, habe ich ein ",
+                "neues Musik-Import-System entwickelt.",
                 "<NEW_BOX>",
-                "<SOUND:0>Um das unterzubringen, habe ich ein ",
-                "neues Musik-Import-System entwickelt, mit ",
-                "dem man verschiedene Teile zwischen den ",
-                "16 Spuren auf einer Tabelle kombiniert.",
+                "<SOUND:0>Damit kann man die verschiedenen",
+                "Instrumentalstimmen auf Basis einer",
+                "großen Tabelle frei auf die 16",
+                "Tonspuren verteilen.",
                 "<NEW_BOX>",
                 "<SOUND:0>Das war später sehr nützlich für viele",
-                "der anderen komplexen Songs, die",
-                "für das Spiel geschrieben wurden, ",
-                "wie z. B. \"Konfrontation - Presto\".<SQUARE>"
+                "der anderen komplexen Stücke, die",
+                "für das Spiel geschrieben wurden, wie",
+                "zum Beispiel \"Konfrontation - Presto\".<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -105014,72 +104990,77 @@
             {
               "Name": "About_Trial2_b",
               "MessageTextLines": [
-                "<SOUND:0>Leider war es wegen des Songs <EMDASH> indem ",
-                "im Laufe der Zeit immer mehr Instrumente ",
-                "hinzugefügt wurden <EMDASH> aus technischer ",
-                "Sicht schwierig, ihn hier aufzunehmen.",
+                "<SOUND:0>Da bei diesem Jingle nach und nach",
+                "immer mehr Instrumente spielen, wurde",
+                "es leider aus technischer Sicht schwer,",
+                "ihn hier hinzuzufügen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Ich wollte, dass es über den anderen ",
-                "Instrumenten spielt, aber mir war nicht klar, ",
-                "wie nah es an die Polyphonie-Grenze (syn-",
-                "chrones Abspielen von Klängen) herankam.",
+                "<SOUND:0>Ich wollte, dass er über den anderen ",
+                "Instrumenten spielt, merkte aber nicht, ",
+                "wie nah er dem Limit an Polyphonie",
+                "(gleichzeitig spielenden Tönen) kam.",
                 "<NEW_BOX>",
-                "<SOUND:0>Indem ich die beiden Songs überein-",
-                "anderlegte, habe ich diese Grenze weit ",
-                "überschritten, was dazu führte, dass ",
-                "sich die Noten gegenseitig überlagerten.",
+                "<SOUND:0>Indem ich die beiden Melodien",
+                "übereinanderlegte, hatte ich diese",
+                "Grenze weit überschritten, sodass sich",
+                "die Noten gegenseitig unterbrachen.",
                 "<NEW_BOX>",
                 "<SOUND:0>Ich habe getan, was ich konnte, ",
                 "um die Zahl der Noten zu reduzieren,",
                 "ohne den Klang zu sehr zu verändern...",
                 "<NEW_BOX>",
-                "<SOUND:0>...aber leider ist es immer noch nicht ",
+                "<SOUND:0>... aber leider ist es immer noch nicht ",
                 "perfekt.<PAUSE:5> Ich hoffe, das stört dich nicht",
                 "allzu sehr.",
                 "<NEW_BOX>",
-                "Die Soundtrack-Version (erhältlich auf",
+                "Die Soundtrack-Version (zu finden auf",
                 "unserer Website) enthält zumindest alle",
-                "Noten, da es dort keine Einschränkungen ",
-                "gibt.",
+                "Noten, da es dort kein Limit gibt.",
                 "<NEW_BOX>",
-                "<SOUND:0>Als dieses Lied fertig war, äußerten ",
-                "die anderen jedenfalls Bedenken, dass",
-                "es für den Beginn eines Gerichtsprozesses",
+                "<SOUND:0>Als dieses Stück fertig war, äußerten ",
+                "die Anderen Bedenken, dass es für ",
+                "den Beginn eines Gerichtsprozesses",
                 "vielleicht zu düster klingen könnte...",
                 "<NEW_BOX>",
-                "<SOUND:0>...also haben wir uns letztendlich entschie-",
-                "den, beide zu behalten und diesen hier für ",
-                "die zweite Hälfte zu verwenden, wenn der ",
-                "Prozess ernster wird.<SQUARE>"
+                "<SOUND:0>... also entschieden wir uns letztlich,",
+                "beide Stücke zu behalten und dieses",
+                "für die zweite Hälfte zu verwenden,",
+                "wenn der Prozess ernster wird.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
             },
             {
               "Name": "About_ThoughtRoute_b",
+              "Comment": "Added another box after the first, containing the last line on the first box and the beginning of the third. Removed the Pause tag from its original place (which would now have been at the end of the box) and added it to the end of the first sentence (as in, the original end of the first message box) in the second box. -Jodocus; <CT>",
               "MessageTextLines": [
-                "<SOUND:0>Nebenbei angemerkt: Wegen all der SFX in ",
-                "dieser Szene bin ich direkt an die Grenze ",
-                "für die Polyphonie des Spiels gestoßen.<PAUSE:3> ",
-                "Die Noten haben immer wieder ausgesetzt!",
+                "<SOUND:0>Nebenbei, wegen all der Soundeffekte",
+                "in dieser Szene stieß ich direkt an",
+                "das Limit des Spiels für Polyphonie",
+                "(gleichzeitig spielende Töne).",
                 "<NEW_BOX>",
-                "<SOUND:0>Wir versuchten das Limit zu erhöhen, das ",
-                "Spiel begann jedoch zu ruckeln, sodass ich",
-                "einige Änderungen vornehmen musste, um",
-                "die Polyphonie des Songs zu reduzieren.",
+                "<SOUND:0>Die Noten haben immer wieder",
+                "ausgesetzt!<PAUSE:3> Wir versuchten, das Limit",
+                "zu erhöhen, aber das Spiel begann",
+                "sofort zu ruckeln...",
                 "<NEW_BOX>",
-                "<SOUND:0>Das Klavier verwendet nämlich denselben ",
-                "Delay-Effekt wie in \"Erinnerungen\".",
+                "... also musste ich einige Änderungen",
+                "vornehmen, um die Polyphonie der",
+                "Musik zu reduzieren.",
                 "<NEW_BOX>",
-                "<SOUND:0>Ich musste dies von zwei Delay-Spuren ",
-                "auf nur eine reduzieren und es vollständig ",
-                "entfernen, wenn die Musik ihren Höhepunkt ",
-                "erreicht.<PAUSE:3> Es ist jedoch nicht gut hörbar.",
+                "<SOUND:0>Das Klavier verwendet nämlich",
+                "den gleichen Verzögerungs-Effekt",
+                "wie  \"Erinnerungen\".",
                 "<NEW_BOX>",
-                "<SOUND:0>Es kann zwar immer noch vorkommen, dass ",
-                "Noten herausfallen, aber das ist selten und ",
-                "der Song ist nicht mehr komplett kaputt, da-",
-                "her halte ich diese Korrektur für adäquat.<SQUARE>"
+                "<SOUND:0>Ich musste die Verzögerung von zwei",
+                "Tonspuren auf eine reduzieren und am",
+                "Höhepunkt der Musik ganz entfernen.<PAUSE:3>",
+                "Man hört es jedoch kaum raus.",
+                "<NEW_BOX>",
+                "<SOUND:0>In seltenen Fällen fallen immer noch",
+                "Noten heraus, aber es ruiniert die",
+                "Musik nicht mehr komplett, daher halte",
+                "ich diese Korrektur für adäquat.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -105087,47 +105068,49 @@
             {
               "Name": "About_Rebuttal_b",
               "MessageTextLines": [
-                "<SOUND:0>Zudem fand ich die Mitte der \"nachdenken-",
-                "den\" Version anfangs repetitiv, deshalb ",
-                "wurde eine zusätzliches Klavier hinzugefügt, ",
-                "die nur in dieser Version zu hören ist...",
+                "<SOUND:0>Auch fand ich die Mitte der \"Denk",
+                "nach!\"-Version etwas repetitiv, deshalb",
+                "schmückte ich sie mit einem weiteren",
+                "Klavier aus, das nur hier spielt...",
                 "<NEW_BOX>",
-                "<SOUND:0>...aber dafür hätte ich eine Spur nur für ",
-                "diesen einen Moment reservieren müssen.<PAUSE:3> ",
-                "Also musste ich den Rest des Songs auf",
-                "nur 15 Spuren unterbringen, statt auf 16!",
+                "<SOUND:0>... aber das hieß, eine Spur nur für",
+                "diesen einen Moment zu reservieren.<PAUSE:3> ",
+                "So musste ich den Rest auf 15 Spuren",
+                "unterbringen, statt den üblichen 16!",
                 "<NEW_BOX>",
-                "<SOUND:0>Ein weiteres technisches Detail ist, dass,",
-                "in der eigentlichen Spielszene, der Song",
-                "am Ende des Intros pausiert, indem es",
-                "sein Tempo deutlich verlangsamt.",
+                "<SOUND:0>Noch ein interessantes Detail: In der",
+                "tatsächlichen Spielszene pausiert die",
+                "Musik am Ende des Intros, indem",
+                "sie das Tempo deutlich verlangsamt.",
                 "<NEW_BOX>",
                 "<SOUND:0>Wenn die Scheinwerfer angehen,",
-                "stellt das Spiel seine Tempo auf",
-                "das ursprüngliche zurück.",
+                "stellt das Spiel ihr Tempo auf die",
+                "richtige Geschwindigkeit zurück.",
                 "<NEW_BOX>",
-                "<SOUND:0>Wir gestalteten es so, damit die Melodie",
-                "immer zum richtigen Zeitpunkt startet, sel-",
-                "bst wenn sich die Textlänge im Spiel",
-                "durch Übersetzungen ändert.",
+                "<SOUND:0>Wir taten das, damit die Melodie immer",
+                "zum richtigen Zeitpunkt startet, selbst,",
+                "wenn sich durch eine Übersetzung die",
+                "Länge der Szenentitel-Textbox ändert...",
                 "<NEW_BOX>",
-                "<SOUND:0>...oder wenn das Spiel laggen würde,",
-                "würde es das Timing betreffen.",
+                "<SOUND:0>... oder wenn die Konsole oder der",
+                "Emulator ruckeln, was sich auf das",
+                "Timing auswirken könnte.",
                 "<NEW_BOX>",
-                "<SOUND:0>In diesem Casino möchten wir nicht, dass",
-                "die Sequenz pausiert.<PAUSE:3> Daher haben wir",
-                "dieses Verhalten über des Spiels SeqIO",
-                "(Sequence I/O) konfigurierbar gemacht.",
+                "<SOUND:0>In diesem Casino soll die Sequenz aber",
+                "nicht pausieren.<PAUSE:3> Daher machten wir die",
+                "Funktion über die SeqIO-Schnittstelle",
+                "(Sequence I/O) des Spiels einstellbar.",
                 "<NEW_BOX>",
-                "<SOUND:0>Wenn eine SeqIO-Variable auf 0 einge-",
-                "stellt ist, wird das Tempo übersprungen.",
+                "<SOUND:0>Wenn eine gewisse SeqIO-Variable auf",
+                "Null gestellt ist, wird die Änderung",
+                "des Tempos übersprungen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Wir nutzen auch ein weiteres SeqIO,",
-                "damit das Spiel den einleitenden ",
-                "Bassschlag nur an dieser Stelle nutzt.",
+                "<SOUND:0>Eine weitere SeqIO-Variable lässt das",
+                "Spiel den einleitenden Bass-Schlag nur",
+                "in dieser Umgebung nutzen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Insgesamt ist es einer der komplexesten",
-                "Songs im Spiel, musikalisch als auch",
+                "<SOUND:0>Insgesamt eines der komplexesten",
+                "Stücke im Spiel, musikalisch wie auch",
                 "technisch!<SQUARE>"
               ],
               "Type": 2,
@@ -105135,8 +105118,97 @@
             },
             {
               "Name": "About_Rebuttal_c",
-              "Comment": "",
+              "Comment": "This was fun. The moment I saw that poem, I knew I couldn't leave this without adding one myself (though it's in a vastly different style). Writing this has delayed the completion of this NPC's translation by two days. -Jodocus",
               "MessageTextLines": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<SHIFT:40>Senkt die Schwerter, hebt die Stimmen",
+                "",
+                "<SHIFT:63>Heute streiten wir mit Worten",
+                "",
+                "<SHIFT:48>Es öffnet zu der <R>Schurken<W> Grimmen",
+                "",
+                "<SHIFT:68>Der Gerichtssaal seine Pforten",
+                "<PERSISTENT>",
+                "<NEW_BOX>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<SHIFT:62>Höret nun die Mythen-Steine:",
+                "",
+                "<SHIFT:52>Man erzählt sich, dass ein Recke",
+                "",
+                "<SHIFT:66><C>Blaugewandt<W> und <G>mutig<W> seine",
+                "",
+                "<SHIFT:39>Hand nach Recht und Ordnung strecke",
+                "<PERSISTENT>",
+                "<NEW_BOX>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<SHIFT:69>Seine Waffen sind Beweise",
+                "",
+                "<SHIFT:56>Und die Wahrheit ist sein Schild",
+                "",
+                "<SHIFT:59>Zieht das <R>Unrecht<W> seine Kreise",
+                "",
+                "<SHIFT:78>Ist er es, der es vergilt",
+                "",
+                "<PERSISTENT>",
+                "<NEW_BOX>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<SHIFT:39>Drum auf, Du <C>Held<W>, und werde wacher!",
+                "",
+                "<SHIFT:58>Du hast lang genug geschlafen",
+                "",
+                "<SHIFT:64>Stelle Dich dem <R>Widersacher<W>",
+                "",
+                "<SHIFT:52>Nur Du kannst ihm Lügen strafen!",
+                "",
+                "",
+                "<PERSISTENT>",
+                "<NEW_BOX>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<SHIFT:58>So soll das <R>Böse<W>, was da ächzt",
+                "",
+                "<SHIFT:63>Zu erheben sich nicht wagen",
+                "",
+                "<SHIFT:45>Denn es kämpft der <C>Held des Rechts<W>",
+                "",
+                "<SHIFT:48>Seine Rüstung: Schlips und Kragen!",
+                "<PERSISTENT>",
                 ""
               ],
               "Type": 6,
@@ -105145,28 +105217,28 @@
             {
               "Name": "About_HappyEnd_b",
               "MessageTextLines": [
-                "<SOUND:0>Vor dieser Version des Songs habe ich",
-                "einen komponiert, der <R>Eponas Lied<W>",
-                "/ das Lied der <R>Lon Lon-Farm<W> enthielt.",
+                "<SOUND:0>Vor dieser Version der Melodie hatte",
+                "ich eine komponiert, die <R>Eponas Lied<W>",
+                "/ die Musik der <R>Lon Lon-Farm<W> enthielt.",
                 "<NEW_BOX>",
-                "<SOUND:0>Allerdings wurde ich hingewiesen, dass",
-                "Malon zwar die Angeklagte ist, aber wenn",
-                "jemals weitere Fälle erscheinen würden,",
-                "dieses Stück obsolet werden würde.",
+                "<SOUND:0>Jedoch wurde angemerkt, dass Malon",
+                "zwar die Angeklagte sei, sollten aber je",
+                "weitere Fälle erscheinen, würde die",
+                "Farm-Musik keinen Sinn mehr machen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Ich wollte auch, dass der Song bittersüß",
-                "klingt (Malon verlor schließlich ihren",
-                "Vater), aber diese Version ging etwas zu",
-                "weit und klang nicht fröhlich genug.",
+                "<SOUND:0>Ich wollte auch, dass es bittersüß klingt",
+                "(Malon hatte schließlich ihren Vater",
+                "verloren), aber die Version ging etwas",
+                "zu weit und war nicht fröhlich genug.",
                 "<NEW_BOX>",
-                "<SOUND:0>Das war nachdem wir ein ähnliches Lied",
-                "für Malon verworfen hatten. Ich hatte ur-",
-                "sprünglich ein absichtlich deprimierendes",
-                "Lied, ähnlich wie <R>Eponas Lied<W>, komponiert.",
+                "<SOUND:0>Davor hatten wir bereits eine ähnliche",
+                "Melodie für Malon verworfen! Ich hatte",
+                "ein (gezielt bedrückendes) Arrangement",
+                "von <R>Eponas Lied<W> angefangen.",
                 "<NEW_BOX>",
-                "<SOUND:0>Aber es gab eigentlich keinen Ort, an dem ",
-                "es verwendet werden konnte, also habe ",
-                "ich es nie fertiggestellt.<SQUARE>"
+                "<SOUND:0>Aber es gab eigentlich keine Stelle,",
+                "an der es Verwendung fand, also",
+                "habe ich es nie fertiggestellt.<SQUARE>"
               ],
               "Type": 2,
               "Position": 2
@@ -105174,42 +105246,43 @@
             {
               "Name": "About_Credits_b",
               "MessageTextLines": [
-                "<SOUND:0>Ich musste den Rhythmus stark verändern,",
-                "um eine ähnliche Energie zu kriegen, ",
-                "wie sie das langsamere Tempo erforderte.",
+                "<SOUND:0>Um trotz des langsameren Tempos eine",
+                "ähnliche Energie zu erhalten, musste",
+                "ich den Rhythmus stark verändern.",
                 "<NEW_BOX>",
-                "<SOUND:0>Aber worüber ich eher sprechen möchte,",
-                "ist, wie unsere Musik ein Problem löst,",
-                "das der Abspann von <R>Ocarina of Time<W> hat.",
+                "<SOUND:0>Aber ich möchte viel lieber erzählen,",
+                "wie unsere Musik ein Problem, das der",
+                "Abspann von <R>Ocarina of Time<W> hat, löst.",
                 "<NEW_BOX>",
-                "<SOUND:0>Abgesehen davon, dass sie gleichzeitig ",
-                "starten, sind die Bilder und die Musik für ",
-                "den Abspann von OoT nicht synchron.",
+                "<SOUND:0>Abgesehen davon, dass sie zeitgleich ",
+                "starten, sind das Bild und die Musik",
+                "im Abspann von OoT nicht synchron.",
                 "<NEW_BOX>",
-                "<SOUND:0>Darüber hinaus kommt es beim Spielen ",
-                "auf echter Nintendo 64-Hardware zu",
-                "starken Lags, da so viele Charaktere",
-                "gleichzeitig angezeigt werden.",
+                "<SOUND:0>Darüber hinaus ruckelt das Bild auf",
+                "einer richtigen Nintendo 64-Konsole",
+                "stark, da so viele Charaktere",
+                "gleichzeitig gezeigt werden.",
                 "<NEW_BOX>",
-                "<SOUND:0>Die Entwickler wussten das genaustens,",
-                "deshalb sind die Timings so eingestellt,",
-                "dass sie mit dem zu erwartenden Lag",
-                "korrekt funktionieren...",
+                "<SOUND:0>Den Entwicklern war das offensichtlich",
+                "bewusst, deshalb ist es so getaktet,",
+                "dass mit den erwarteten Verzögerungen",
+                "alles korrekt funktioniert...",
                 "<NEW_BOX>",
-                "<SOUND:0>...aber die <R>genaue Emulation<W> des Lags ist ",
-                "sogar auf moderner Hardware zu langsam,",
-                "sodass kein Emulator es emulieren kann.",
+                "<SOUND:0>... aber diese Verzögerungen akkurat",
+                "zu <R>emulieren<W> ist sogar auf moderner",
+                "Hardware zu langsam, weswegen kein",
+                "aktueller Emulator das tut.",
                 "<NEW_BOX>",
                 "<SOUND:0>Daher wird beim Emulieren von OoT",
                 "das Ende der Musik oft abgeschnitten.",
                 "<NEW_BOX>",
-                "<SOUND:0>Nintendos Emulatoren (Virtual Console, etc.) ",
-                "modifizierten entweder das Spiel, um den ",
-                "Abspann neu zu timen, oder haben den Ab-",
-                "spann mit einem Video komplett ersetzt.",
+                "<SOUND:0>Nintendos offizielle Emulatoren (Virtual",
+                "Console, etc.) takten entweder den",
+                "Abspann neu, oder sie ersetzen die",
+                "Abspannszene durch ein Video.",
                 "<NEW_BOX>",
-                "<SOUND:0>All das wäre jedoch nicht nötig gewesen,",
-                "wenn das Spiel die Musik und die Bilder ",
+                "<SOUND:0>All das wäre aber nicht nötig gewesen,",
+                "wenn das Spiel die Musik und das Bild ",
                 "im Abspann selbst synchronisiert hätte.",
                 "<NEW_BOX>",
                 "<PERSISTENT>"
@@ -105219,18 +105292,19 @@
             },
             {
               "Name": "About_Credits_c",
+              "Comment": "I should mention, as the point was to make the lines fit without word splitting, that \"Text- [new line] oder Szenenwechsel\" in the second text box is _not_ an instance of word splitting; when leaving out part of a word (as done here, with \"text or scenery change\" instead of \"text change or scenery change\" to avoid redundancy), in German the missing part of the word is replaced with a hyphen. I.e., this would also occur if there wasn't a line break here. -Jodocus",
               "MessageTextLines": [
-                "<SOUND:0>Das ist etwas, was Hero of Law macht.<PAUSE:3> ",
-                "Ich markierte in diesem Song etwa 50 Pkt.,",
-                "damit eine SeqIO (Sequence I/O) aktuali-",
-                "siert wird, die das Spiel lesen kann.",
+                "<SOUND:0>Das tut Hero of Law.<PAUSE:3> Ich habe etwa 50",
+                "Stellen im Stück markiert, an denen es",
+                "eine Variable des SeqIO (Sequence I/O)",
+                "aktualisiert, die das Spiel lesen kann.",
                 "<NEW_BOX>",
-                "<SOUND:0>Das Spiel wartet darauf, dass die Variable",
-                "einen bestimmten Wert erreicht, bevor je-",
-                "der Text oder jede Szenerie geändert wird.",
+                "<SOUND:0>Das Spiel wartet vor jedem Text-",
+                "oder Szenenwechsel darauf, dass die",
+                "Variable einen gewissen Wert erreicht.",
                 "<NEW_BOX>",
-                "<SOUND:0>Auf diese Weise bleiben die Grafiken immer",
-                "genau mit der Musik synchronisiert, und ",
+                "<SOUND:0>Auf diese Weise bleibt das Bild immer",
+                "genau synchron mit der Musik, und",
                 "das auf allen aktuellen und zukünftigen ",
                 "Nintendo 64-ähnlichen Plattformen!<SQUARE>"
               ],
