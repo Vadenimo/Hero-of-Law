@@ -28031,6 +28031,10 @@
             },
             {
               "Name": "DRAGMIRE100",
+<<<<<<< basis.json
+=======
+              "Comment": "One could read the original message as Dragmire already referring to himself, rather than Zelda, as it is explicitly intended in DRAGMIRE120 (as in, there's some room for interpretation as to who is meant with \"wise monarch\"). For the German translation, the word I used for \"monarch\" is specifically for a female ruler, leaving no room for doubt that he's referring to Zelda. (Who is, of course, most associated with wisdom.)\nIf we wish to preserve the ambiguity, we could change it to the male version, as it is common to use male versions (of job titles and the like) as the default if the gender of the person is unknown/unclear or (deemed) irrelevant.\nThough in this context, while using the male as default wouldn't strictly be wrong, it would be a bit strange, and make it more (and, in my view, a bit too) obvious that he's not actually talking about Zelda. -Jodocus",
+>>>>>>> newlpk.json
               "MessageTextLines": [
                 "We can all rest easy knowing that",
                 "Hyrule is destined to have such a...<PAUSE:3> ",
@@ -40567,9 +40571,16 @@
             },
             {
               "Name": "1_DRAGMIRE10",
+<<<<<<< basis.json
               "MessageTextLines": [
                 "<SOUND:EXPLOSION>Sie brauchen die Prinzessin nicht",
                 "mehr zu ihrer Entschuldigung befragen!",
+=======
+              "Comment": "As in many other messages, I'm avoiding the official translation of \"pressing\" here, which is \"angreifen\", literally \"attack\". While yes, that is what the player did (in game terms), \"attacking the princess on her apology\" sounds, uh, not good. -Jodocus",
+              "MessageTextLines": [
+                "<SOUND:EXPLOSION>Es hat keinen Sinn, die Prinzessin",
+                "nach ihrer Entschuldigung zu fragen!",
+>>>>>>> newlpk.json
                 "<NEW_BOX>",
                 "Sie haben bereits die Chance vertan,",
                 "ihre Aussage zu widerlegen!"
@@ -40606,7 +40617,8 @@
             {
               "Name": "2_ZELDA10",
               "MessageTextLines": [
-                "Hauptsächlich die k."
+                "Nur die kleine, schöne Kristallflasche,",
+                "die ich zuvor erwähnt habe."
               ],
               "Type": 0,
               "Position": 0
@@ -40614,7 +40626,7 @@
             {
               "Name": "2_ZELDA20",
               "MessageTextLines": [
-                "The house was rather barren..."
+                "Das Haus hingegen war ziemlich öde..."
               ],
               "Type": 0,
               "Position": 0
@@ -40737,8 +40749,14 @@
             {
               "Name": "3_ZELDA30",
               "MessageTextLines": [
+<<<<<<< basis.json
                 "I<EMDASH><PAUSE:10> ",
                 "...that thought did not occur to me."
+=======
+                "Ich<EMDASH><PAUSE:10> ",
+                "... diese Möglichkeit hatte ich nicht",
+                "bedacht."
+>>>>>>> newlpk.json
               ],
               "Type": 0,
               "Position": 0
@@ -40753,6 +40771,10 @@
             },
             {
               "Name": "3_ZELDA40",
+<<<<<<< basis.json
+=======
+              "Comment": "For a more natural sounding message, I translated the second sentence as \"There was no danger\", with the Clue sound right before the \"no\". -Jodocus",
+>>>>>>> newlpk.json
               "MessageTextLines": [
                 "...B-but the guards did stand close by!<PAUSE:10> ",
                 "I would have been<SOUND:HINT> safe."
@@ -40945,8 +40967,13 @@
                 "there's any number of reasons why a",
                 "fire could've been there.",
                 "<NEW_BOX>",
+<<<<<<< basis.json
                 "You can still feel the cold grasp of",
                 "death early in the morn."
+=======
+                "Die frühen Morgenstunden begrüßen",
+                "uns oft mit einem kalten Händedruck."
+>>>>>>> newlpk.json
               ],
               "Type": 0,
               "Position": 0
@@ -41160,8 +41187,15 @@
             },
             {
               "Name": "JUDGE40",
+<<<<<<< basis.json
               "MessageTextLines": [
                 "Thank you for your time, Your Highness.",
+=======
+              "Comment": "Changed the second box to, roughly, \"Unless you want to share more revelations with us?\" It also works with the surrounding text, but fits the line lengths better.\n(Also, I don't like how the first box contains the word \"Eure\" twice... Maybe I'll find a better way to translate it later.) -Jodocus",
+              "MessageTextLines": [
+                "Ich danke Euch für Eure Zeit, Eure",
+                "Hoheit.",
+>>>>>>> newlpk.json
                 "<NEW_BOX>",
                 "I assume you have no more revelations",
                 "to share with us?"
@@ -41231,8 +41265,13 @@
             {
               "Name": "DRAGMIRE40",
               "MessageTextLines": [
+<<<<<<< basis.json
                 "The prosecution's stance is still the",
                 "same, of course."
+=======
+                "Die Stellung der Staatsanwaltschaft",
+                "bleibt natürlich unverändert."
+>>>>>>> newlpk.json
               ],
               "Type": 0,
               "Position": 0
@@ -41338,9 +41377,15 @@
             {
               "Name": "DRAGMIRE100",
               "MessageTextLines": [
+<<<<<<< basis.json
                 "Before calling him in, though, the",
                 "prosecution requests a brief recess",
                 "to prepare."
+=======
+                "Bevor er aussagt, möchte die Anklage",
+                "jedoch zur Vorbereitung eine kurze",
+                "Pause beantragen."
+>>>>>>> newlpk.json
               ],
               "Type": 0,
               "Position": 0
@@ -69007,8 +69052,6 @@
               "Name": "Scenario",
               "MessageTextLines": [
                 "",
-                "",
-                "",
                 "<Shift:140><R>SZENARIO<W>",
                 "",
                 "",
@@ -69036,6 +69079,8 @@
                 "<Shift:180>Professional Gopnik",
                 "",
                 "<Shift:180>Jodocus",
+                "",
+                "<Shift:180>NEWLPK",
                 "",
                 "<PERSISTENT>"
               ],
@@ -75747,8 +75792,13 @@
             {
               "Name": "CONS_MALON10",
               "MessageTextLines": [
+<<<<<<< basis.json
                 "<SOUND:EXPLOSION>If I overslept, the shipments would just",
                 "have to be late!"
+=======
+                "<SOUND:EXPLOSION>Wenn ich verschlafen hätte, müssten",
+                "sich die Lieferungen halt verspäten!"
+>>>>>>> newlpk.json
               ],
               "Type": 0,
               "Position": 0
@@ -75910,6 +75960,10 @@
             },
             {
               "Name": "2_DRAGMIRE20",
+<<<<<<< basis.json
+=======
+              "Comment": "Translated as \"... they found nothing but milk bottles.\" (with the Clue sound right before the \"nothing\"). -Jodocus",
+>>>>>>> newlpk.json
               "MessageTextLines": [
                 "...and as our resident detective has",
                 "told us, they were found to be <SOUND:CLUE>fully",
@@ -76254,6 +76308,10 @@
             },
             {
               "Name": "F_LINK40",
+<<<<<<< basis.json
+=======
+              "Comment": "Had to add a <DC> here, due to how the German phrasing works. -Jodocus",
+>>>>>>> newlpk.json
               "MessageTextLines": [
                 "It wasn't just the address!<PAUSE:2> Ingo must",
                 "have rushed <SOUND:WHAP><DI><R>the entire shipment<W>!"
@@ -76415,9 +76473,15 @@
             {
               "Name": "JUDGE40",
               "MessageTextLines": [
+<<<<<<< basis.json
                 "<PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:5><DI><DC>But, to be honest, I could use a drink.<PAUSE:5> ",
                 "All this talking does make one's throat",
                 "dry, you know!"
+=======
+                "<PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:5><DI><DC> Aber um offen gesagt, könnte ich",
+                "einen Schluck vertragen.<PAUSE:5> Dieses ganze",
+                "Reden trocknet einem die Kehle aus!"
+>>>>>>> newlpk.json
               ],
               "Type": 0,
               "Position": 0
@@ -76585,8 +76649,13 @@
             {
               "Name": "LINK150",
               "MessageTextLines": [
+<<<<<<< basis.json
                 "Indeed!<PAUSE:5> All he had to do is milk fewer",
                 "of the cows.",
+=======
+                "Ganz genau!<PAUSE:5> Er musst dafür lediglich",
+                "weniger Kühe melken.",
+>>>>>>> newlpk.json
                 "<NEW_BOX>",
                 "To save enough time without ruining",
                 "the taste too much...<PAUSE:3> I'd guess he used",
@@ -76691,6 +76760,10 @@
             },
             {
               "Name": "LINK190",
+<<<<<<< basis.json
+=======
+              "Comment": "Related to previous comment: Leaving out the emphasis for similar reasons... which means that the Don sound effect might not make sense here. I'll have to check it in game and get back to this. -Jodocus",
+>>>>>>> newlpk.json
               "MessageTextLines": [
                 "And we know he<SOUND:DON> DID have the time",
                 "and opportunity to kill Talon, as well!"
@@ -78122,8 +78195,14 @@
             },
             {
               "Name": "INGO30",
+<<<<<<< basis.json
               "MessageTextLines": [
                 "Why would I...<PAUSE:3> <SOUND:CLUE>kill...<PAUSE:3> Talon?!"
+=======
+              "Comment": "I left the clue sound in its original \"position\" of the text; due to how the structure of the sentence, it is not played with the name \"Talon\", instead of the word for \"kill\". -Jodocus",
+              "MessageTextLines": [
+                "Warum sollte ich...<PAUSE:3> <SOUND:CLUE>Talon...<PAUSE:3> umbringen?!"
+>>>>>>> newlpk.json
               ],
               "Type": 0,
               "Position": 0
@@ -78148,6 +78227,10 @@
             },
             {
               "Name": "LINK150",
+<<<<<<< basis.json
+=======
+              "Comment": "Took the liberty of moving the Clue sound to the middle of the sentence; there's no equivalent to the \"why\", so it plays before the word \"surprised\". -Jodocus",
+>>>>>>> newlpk.json
               "MessageTextLines": [
                 "That's simple.<PAUSE:5> <SOUND:CLUE>Why, I'm surprised",
                 "you're even asking about it."
@@ -78579,9 +78662,16 @@
             },
             {
               "Name": "INGO110",
+<<<<<<< basis.json
               "MessageTextLines": [
                 "You wanna know why I<PAUSE> <SPEED:101>really<PAUSE><SPEED:102> killed",
                 "that <PAUSE:3><SOUND:WHAP><DI>scumbag?!"
+=======
+              "Comment": "To make for a more natural sounding sentence, I had to swap the placements of \"really\" and \"scumbag\", which meant changing the positions of the control tags, as well as adding a <DC> tag. They are also back to back now, which might be too much...? I'll have to see how it looks in game. -Jodocus",
+              "MessageTextLines": [
+                "Wollt ihr wissen, warum ich diesen",
+                "<PAUSE:3><SOUND:WHAP><DI>Mistkerl<DC><PAUSE> <SPEED:101>wirklich<PAUSE><SPEED:102> umgebracht habe?!"
+>>>>>>> newlpk.json
               ],
               "Type": 0,
               "Position": 0
@@ -78604,6 +78694,10 @@
             },
             {
               "Name": "INGO120",
+<<<<<<< basis.json
+=======
+              "Comment": "There is no pause after the \"if\" in the German translation; I moved the pause to the comma before \"What would you do,<PAUSE:2> if...\". I'll have to check whether this works, or if it's better to remove that pause altogether. -Jodocus",
+>>>>>>> newlpk.json
               "MessageTextLines": [
                 "<SOUND:EXPLOSION>Yes!<PAUSE:3> Yes, I admit it!",
                 "<NEW_BOX>",
@@ -78643,10 +78737,18 @@
             },
             {
               "Name": "INGO150",
+<<<<<<< basis.json
               "MessageTextLines": [
                 "I was just returning back from another",
                 "day of <PAUSE:2><NULL><DI>SPINE<PAUSE:3><NULL><DI>-WRENCHING<PAUSE:3> <DI>WORK<PAUSE:4>, and,",
                 "lo and behold, what's this?!"
+=======
+              "Comment": "Translated \"spine-wrenching\" (eww) with \"schweißtreibend\", literally means something that makes you sweat, used similarly to \"exhausting\". It's used without a hyphen, but that shouldn't be a problem... I think?\nSide note: To write \"Schweiß\" in all caps, I'm using a capital ß (ẞ), which, while valid for these cases (as of 2017), is somewhat uncommon. These used to be replaced with SS (which is also still valid); if other translators or testers take issue with the capital ß, it would be fine to change this. -Jodocus",
+              "MessageTextLines": [
+                "Ich kam gerade von einem weiteren",
+                "Tag voll <PAUSE:2><NULL><DI>SCHWEIẞ<PAUSE:3><NULL><DI>TREIBENDER<PAUSE:3> <DI>ARBEIT<PAUSE:4>,",
+                "und was muss ich da hören?!"
+>>>>>>> newlpk.json
               ],
               "Type": 0,
               "Position": 0
@@ -78722,8 +78824,13 @@
             {
               "Name": "JUDGE50",
               "MessageTextLines": [
+<<<<<<< basis.json
                 "I think we've heard enough!<PAUSE:5> ",
                 "Soldiers, take him away!<FADE:20>"
+=======
+                "Ich denke, wir haben genug gehört!<PAUSE:5> ",
+                "Soldaten, schafft ihn weg!<FADE:20>"
+>>>>>>> newlpk.json
               ],
               "Type": 0,
               "Position": 0
