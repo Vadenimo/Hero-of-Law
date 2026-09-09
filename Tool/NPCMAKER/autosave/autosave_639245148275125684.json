@@ -27946,6 +27946,7 @@
             },
             {
               "Name": "DRAGMIRE60",
+              "Comment": "\"peasant\" in its original meaning (someone working the field) would be more closely translated as \"Bauer\". I assume that in this case, the intent is rather to read \"peasant\" as \"someone of low social standing\" to contrast the high status of the princess; the German word \"Bauer\" doesn't necessarily have that connotation (as much), and would more likely lead players to think he is comparing Zelda to Malon (an actual \"Bauer\").\nI instead used the word \"Bettler\", \"beggar\". -Jodocus",
               "MessageTextLines": [
                 "In the face of the law, the princess is",
                 "no<SOUND:DON> different from a peasant!"
@@ -28031,6 +28032,7 @@
             },
             {
               "Name": "DRAGMIRE100",
+              "Comment": "There's some room for interpretation as to who Dragmire is referring to with \"wise monarch\" (i.e., he could be already referring to himself here, as is intended in DRAGMIRE120). For the German translation, the word I used for \"monarch\" is specifically for a female ruler, leaving no room for doubt that he's referring to Zelda. (Who is, of course, most associated with wisdom.) -Jodocus",
               "MessageTextLines": [
                 "We can all rest easy knowing that",
                 "Hyrule is destined to have such a...<PAUSE:3> ",
@@ -28049,6 +28051,7 @@
             },
             {
               "Name": "DRAGMIRE120",
+              "Comment": "(Following my comment on DRAGMIRE100):\nAs Dragmire is now secretly referring to himself, I avoided the word \"ruler\", as it would be strange/rather obvious if he used the male version of the word when (allegedly) referring to Zelda.\nMy translation roughly means, \"I am eagerly awaiting the day when the throne falls into new hands, who know how to shape this kingdom in their interest.\" -Jodocus",
               "MessageTextLines": [
                 "I eagerly await the day when our next",
                 "ruler takes the throne and reshapes",
@@ -28129,6 +28132,7 @@
             },
             {
               "Name": "ZELDA100",
+              "Comment": "Rather than a \"supplier\", Zelda calls the farm \"Erzeuger\" (\"producer\" or manufacturer\") here, as it sounds more natural to me. -Jodocus",
               "MessageTextLines": [
                 "Lon Lon Ranch is Hyrule Castle Town's",
                 "biggest food supplier."
@@ -40419,6 +40423,7 @@
           "Messages": [
             {
               "Name": "Title",
+              "Comment": "Translation of the testimony (i.e., SCENE_ZELDA_3) done by Vadenimo. -Jodocus",
               "MessageTextLines": [
                 "<NS><SOUND:0><LC><R>\"Meine Funde\"<FADE:40>"
               ],
@@ -40588,6 +40593,7 @@
             },
             {
               "Name": "1_LINK10",
+              "Comment": "Translated as, roughly, \"Yeah, I get it already.\" -Jodocus",
               "MessageTextLines": [
                 "<SOUND:0><C>(Uff...)<SQUARE>"
               ],
@@ -40606,7 +40612,8 @@
             {
               "Name": "2_ZELDA10",
               "MessageTextLines": [
-                "Nur die kleine, schöne Kristallflasche,."
+                "Nur die kleine, schöne Kristallflasche,",
+                "die ich zuvor erwähnt habe."
               ],
               "Type": 0,
               "Position": 0
@@ -40614,7 +40621,7 @@
             {
               "Name": "2_ZELDA20",
               "MessageTextLines": [
-                "The house was rather barren..."
+                "Das Haus hingegen war ziemlich öde..."
               ],
               "Type": 0,
               "Position": 0
@@ -40673,6 +40680,7 @@
             },
             {
               "Name": "2_LINK40",
+              "Comment": "Translated \"latch onto\" as \"... there's not much I can get out of this.\" -Jodocus",
               "MessageTextLines": [
                 "<SOUND:0><C>(I was just trying to distract myself",
                 "from the fact that there's nothing to",
@@ -40728,6 +40736,7 @@
             },
             {
               "Name": "3_JUDGE10",
+              "Comment": "Translated as \"By Hylia's grace...!\" -Jodocus",
               "MessageTextLines": [
                 "<SOUND:EXPLOSION><DI>Sweet Hylia up above...!"
               ],
@@ -40753,6 +40762,7 @@
             },
             {
               "Name": "3_ZELDA40",
+              "Comment": "I translated the second sentence as \"There was no danger\", with the Clue sound right before the \"no danger\". -Jodocus",
               "MessageTextLines": [
                 "...B-but the guards did stand close by!<PAUSE:10> ",
                 "I would have been<SOUND:HINT> safe."
@@ -41026,6 +41036,7 @@
             },
             {
               "Name": "6_DRAGMIRE50",
+              "Comment": "Had to remove the \"might\" part due to how long the message is; in the translation, he says that Link \"will get [his] wish soon\". -Jodocus",
               "MessageTextLines": [
                 "It was almost certainly him.<PAUSE:5> ",
                 "If you really want to ask about his",
@@ -41046,6 +41057,7 @@
             },
             {
               "Name": "6_LINK50",
+              "Comment": "Couldn't find a good translation of \"pin [something] on him\" (the most direct translation would be closer in meaning to \"framing him\", which I hope Link wasn't planning to do). My translation means something like, \"As long as I can't find a connection between him and the crime\". -Jodocus",
               "MessageTextLines": [
                 "<SOUND:0><C>(But without anything concrete to pin",
                 "on him, he'll just be able to brush it",
@@ -41160,6 +41172,7 @@
             },
             {
               "Name": "JUDGE40",
+              "Comment": "Changed the second box to, roughly, \"Unless you want to share more revelations with us?\" It also works with the surrounding text, but fits the line lengths better. -Jodocus",
               "MessageTextLines": [
                 "Thank you for your time, Your Highness.",
                 "<NEW_BOX>",
@@ -41221,6 +41234,7 @@
             },
             {
               "Name": "DRAGMIRE30",
+              "Comment": "Translated as, \"Now that the princess has had her fun...\" -Jodocus",
               "MessageTextLines": [
                 "Now that the princess's little game is",
                 "over, we should move this along."
@@ -41347,6 +41361,7 @@
             },
             {
               "Name": "LINK60",
+              "Comment": "As in other places, I'm having Link use the casual \"Du\" with Dragmire in his thoughts, as it sounds better here. Would be easy to change if we decide differently, though (or we could put it in third person, to avoid the issue entirely; this would also fit the second message box better.) -Jodocus",
               "MessageTextLines": [
                 "<SOUND:0><C>(I thought you said you were ALREADY",
                 "prepared?)",
@@ -48907,6 +48922,7 @@
             },
             {
               "Name": "A2_W_DRAGMIRE10",
+              "Comment": "Moved the emphasis to a different word: \"What's that got to do with where THIS person must have been?!\" -Jodocus",
               "MessageTextLines": [
                 "Was hat das damit zu tun, wo DIESE",
                 "Person gewesen sein soll?!"
@@ -69007,8 +69023,6 @@
               "Name": "Scenario",
               "MessageTextLines": [
                 "",
-                "",
-                "",
                 "<Shift:140><R>SZENARIO<W>",
                 "",
                 "",
@@ -69036,6 +69050,8 @@
                 "<Shift:180>Professional Gopnik",
                 "",
                 "<Shift:180>Jodocus",
+                "",
+                "<Shift:180>NEWLPK",
                 "",
                 "<PERSISTENT>"
               ],
@@ -75672,6 +75688,7 @@
           "Messages": [
             {
               "Name": "Title",
+              "Comment": "Translation of the actual testimony (SCENE_INGO_3) by Vadenimo, but I made some changes, partly regarding the \"Du/Sie\" issue.. -Jodocus",
               "MessageTextLines": [
                 "<NS><SOUND:0><LC><R>\"Too Busy for Murder\"<FADE:40>"
               ],
@@ -75717,6 +75734,7 @@
             },
             {
               "Name": "INGO5",
+              "Comment": "Removed the \"Also\" at the beginning from Vadenimo's translation, to make it flow better with 4_INGO60. -Jodocus",
               "MessageTextLines": [
                 "<DI><G>Stop trying to pin this on poor,",
                 "innocent Ingo!<PERSISTENT>"
@@ -75782,6 +75800,7 @@
             },
             {
               "Name": "B_MALON10",
+              "Comment": "Translated as, roughly, \"Not to my knowledge\". -Jodocus",
               "MessageTextLines": [
                 "I'm not sure..."
               ],
@@ -75800,6 +75819,7 @@
             },
             {
               "Name": "B_LINK20",
+              "Comment": "Rearranged the sentence; the clue sound is directly before the \"shared [it] with you\" part. -Jodocus",
               "MessageTextLines": [
                 "Yeah, you'd think he would've <SOUND:CLUE>shared",
                 "it with you, if he knew of one..."
@@ -75910,6 +75930,7 @@
             },
             {
               "Name": "2_DRAGMIRE20",
+              "Comment": "Translated as \"... and as the detective told us, they found nothing but milk bottles.\" (with the Clue sound right before the \"nothing\"). -Jodocus",
               "MessageTextLines": [
                 "...and as our resident detective has",
                 "told us, they were found to be <SOUND:CLUE>fully",
@@ -75984,6 +76005,7 @@
             },
             {
               "Name": "3_MALON30",
+              "Comment": "\"you only get a little at a time\" is difficult to translate in a way that makes sense and sounds natural. I translated it as \"... because the milk comes out slowly\"... but I'm not quite happy with it, to be honest. -Jodocus",
               "MessageTextLines": [
                 "I <SOUND:WHAP>love working with the cows!<PAUSE:6> ",
                 "But that part takes the <SOUND:CLUE>longest because",
@@ -76092,6 +76114,7 @@
             },
             {
               "Name": "4_LINK20",
+              "Comment": "\"convenient\" in this sense is difficult to translate to German; translated it as \"What a cheap excuse.\" -Jodocus",
               "MessageTextLines": [
                 "<SOUND:0><C>(What a convenient little explanation.)"
               ],
@@ -76119,6 +76142,7 @@
             },
             {
               "Name": "4_INGO60",
+              "Comment": "Interpreted the \"you\" as a plural, i.e., he's addressing the whole court here. Same with INGO5, as that would immediately follow this one. -Jodocus",
               "MessageTextLines": [
                 "Of course, of course.<PAUSE:3> ",
                 "My point is just what I've been telling",
@@ -76232,6 +76256,7 @@
             },
             {
               "Name": "F_DRAGMIRE30",
+              "Comment": "\"Federstrich\" literally means \"stroke of the quill\". If \"stroke of the pen\" in the original message is supposed to mean a modern-ish pen, rather than a quill pen, this could still work as a more \"poetic\" way of saying it. If the \"quill\" bit is to be avoided, we could reduce it to just the \"stroke\" part and replace \"Federstrich\" with \"Strich\". -Jodocus",
               "MessageTextLines": [
                 "Writing an address only takes a few",
                 "seconds.",
@@ -76254,6 +76279,7 @@
             },
             {
               "Name": "F_LINK40",
+              "Comment": "Had to add a <DC> here, due to how the German phrasing works. -Jodocus; <CT>",
               "MessageTextLines": [
                 "It wasn't just the address!<PAUSE:2> Ingo must",
                 "have rushed <SOUND:WHAP><DI><R>the entire shipment<W>!"
@@ -76292,6 +76318,7 @@
             },
             {
               "Name": "F_JUDGE20",
+              "Comment": "Translated as \"Would that be all from you?\" -Jodocus",
               "MessageTextLines": [
                 "Don't you have anything else?"
               ],
@@ -76380,6 +76407,7 @@
             },
             {
               "Name": "DRAGMIRE35",
+              "Comment": "Changed this into a more active sentence (\"I will inform the Crown of this\"). Wouldn't be a problem to keep it passive, if this is preferred; but the active version sounds better in German to me. -Jodocus",
               "MessageTextLines": [
                 "The Crown will be informed of this!"
               ],
@@ -76476,6 +76504,7 @@
             },
             {
               "Name": "LINK80",
+              "Comment": "Swapped \"princess\" and \"detective\" in my translation, to better fit the line lengths. -Jodocus",
               "MessageTextLines": [
                 "As we've heard from the princess and",
                 "the detective,<PAUSE:5> Lon Lon Ranch is",
@@ -76683,6 +76712,7 @@
             },
             {
               "Name": "LINK180",
+              "Comment": "The emphasis doesn't really work in German (there's no equivalent to the \"did\" here), so I'm leaving it out. -Jodocus",
               "MessageTextLines": [
                 "We know he DID go to the crime scene!"
               ],
@@ -76691,6 +76721,7 @@
             },
             {
               "Name": "LINK190",
+              "Comment": "Related to previous comment: Leaving out the emphasis for similar reasons... which means that the DON sound effect doesn't make as much sense here. Not a huge deal, but I might revisit this. -Jodocus",
               "MessageTextLines": [
                 "And we know he<SOUND:DON> DID have the time",
                 "and opportunity to kill Talon, as well!"
@@ -78122,6 +78153,7 @@
             },
             {
               "Name": "INGO30",
+              "Comment": "The word \"Talon\" occurs before \"kill\" in the translation; the Clue sound is still with the word \"kill\" (tried placing it before \"Talon\", but I didn't like the result). Meaning that I had to move the Sound tag behind the second Pause tag. -Jodocus; <CT>",
               "MessageTextLines": [
                 "Why would I...<PAUSE:3> <SOUND:CLUE>kill...<PAUSE:3> Talon?!"
               ],
@@ -78148,6 +78180,7 @@
             },
             {
               "Name": "LINK150",
+              "Comment": "Took the liberty of moving the Clue sound to the middle of the sentence; there's no equivalent to the \"why\", so it plays before the word \"surprised\". -Jodocus; <CT>",
               "MessageTextLines": [
                 "That's simple.<PAUSE:5> <SOUND:CLUE>Why, I'm surprised",
                 "you're even asking about it."
@@ -78309,6 +78342,7 @@
             },
             {
               "Name": "LINK210",
+              "Comment": "Left out the last bit (\"before they arrived\"), as there is no place. From my perspective, it still makes enough sense (since it mentions that she went to the farmhouse for preparations, which would logically only occur before the arrival). If it is preferred to keep that bit in, I'd have to either heavily rearrange the sentence (and probably remove a different part), or split the message into another box. -Jodocus",
               "MessageTextLines": [
                 "That's why you volunteered to work",
                 "in the silo all day!<PAUSE:3> It gave you an alibi",
@@ -78443,6 +78477,7 @@
             },
             {
               "Name": "F_DRAGMIRE10",
+              "Comment": "Realised when playtesting that the dialogue jumps straight to MALONcbf_10 and skips these messages. Oh well. -Jodocus",
               "MessageTextLines": [
                 "...Oh, is your theory not working out",
                 "after all?"
@@ -78579,6 +78614,7 @@
             },
             {
               "Name": "INGO110",
+              "Comment": "To make for a more natural sounding sentence, I had to swap the placements of \"really\" and \"scumbag\", which meant changing the positions of the control tags, as well as adding a <DC> tag. With this structure, the pause after the \"really\" seemed a bit much, so I removed it and added an emphasis instead. -Jodocus; <CT>",
               "MessageTextLines": [
                 "You wanna know why I<PAUSE> <SPEED:101>really<PAUSE><SPEED:102> killed",
                 "that <PAUSE:3><SOUND:WHAP><DI>scumbag?!"
@@ -78604,6 +78640,7 @@
             },
             {
               "Name": "INGO120",
+              "Comment": "There is no pause after the \"if\" in the German translation; I moved the pause to the comma before \"What would you do,<PAUSE:2> if...\". I'll have to check whether this works, or if it's better to remove that pause altogether. -Jodocus; <CT>",
               "MessageTextLines": [
                 "<SOUND:EXPLOSION>Yes!<PAUSE:3> Yes, I admit it!",
                 "<NEW_BOX>",
@@ -78643,6 +78680,7 @@
             },
             {
               "Name": "INGO150",
+              "Comment": "Translated \"spine-wrenching\" (eww) with \"schweißtreibend\", literally means something that makes you sweat, used similarly to \"exhausting\". It's used without a hyphen, but that shouldn't be a problem... I think?\nSide note: To write \"Schweiß\" in all caps, I'm using SS, rather than a capital ß which, while valid for these cases (as of 2017), is uncommon (also, in the game it looks indistinguishable from a lower case one, so it looks like it's just a mistake). SS is still a correct way of handling this, and much more common, as far as I know. -Jodocus",
               "MessageTextLines": [
                 "I was just returning back from another",
                 "day of <PAUSE:2><NULL><DI>SPINE<PAUSE:3><NULL><DI>-WRENCHING<PAUSE:3> <DI>WORK<PAUSE:4>, and,",
@@ -78674,6 +78712,7 @@
             },
             {
               "Name": "INGO172",
+              "Comment": "Translated \"girl\" as \"Göre\", which is a (slightly) derogative word for a young girl... for no other reason than that it is shorter than the (tonally neutral) translation \"Mädchen\", which would have made the line too long. -Jodocus",
               "MessageTextLines": [
                 "And so...",
                 "<NEW_BOX>After volunteering to work on that",
@@ -78739,13 +78778,14 @@
             {
               "Name": "MALON40",
               "MessageTextLines": [
-                "Ingo..."
+                "Basil..."
               ],
               "Type": 0,
               "Position": 0
             },
             {
               "Name": "INGO200",
+              "Comment": "Translated \"girl\" as \"Kleine\", literally \"little one\"; it's more natural than a direct translation (though I'm not quite happy with it, as Malon isn't little... though, she isn't a girl either, so... eh.)\nAlso, I interpreted the \"what you've done\" to be referring to both Malon and Talon, and translated it as such. If he's supposed to only mean Malon here, we'd have to change the translation. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:WHAP><DI>Yes, girl?<DC> <PAUSE:4>Want to apologise for what",
                 "you've done?"
@@ -103817,6 +103857,7 @@
           "Messages": [
             {
               "Name": "msg",
+              "Comment": "The translation of this NPC was originally done by Vadenimo; I'm fixing it up here and there (mostly the line lengths of the music descriptions). I tried to keep the first translation intact as far as possible, though I had to change up a lot of wordings or retranslate some messages entirely to properly fit them into the text boxes. -Jodocus",
               "MessageTextLines": [
                 "<DI><SHIFT:73>P A U S E<THREE_CHOICES>",
                 "<G>Lese die Regeln",
@@ -103917,6 +103958,7 @@
             },
             {
               "Name": "figureNothing",
+              "Comment": "Changed a few of these figure messages from the first translation to more closely match the ones used in NSMB/SM64DS. -Jodocus",
               "MessageTextLines": [
                 "Nichts"
               ],
@@ -104013,6 +104055,7 @@
             },
             {
               "Name": "ingoHint",
+              "Comment": "Last message box: Reduced the emphasis to the \"BIG\" part; having both it and the \"STAKES\" part emphasised seemed to much in the German translation. -Jodocus",
               "MessageTextLines": [
                 "<SPEED:102>A-A-Alles klar.<PAUSE:5> Du spielst richtig gut!",
                 "<NEW_BOX>",
@@ -104044,6 +104087,7 @@
             },
             {
               "Name": "About_Tutorial",
+              "Comment": "Added another message box to split the final message into two. -Jodocus; <CT>",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Courageous Deductions",
                 "<LC><W>(Mutige Schlussfolgerungen wie beim Triforce)",
@@ -104137,6 +104181,7 @@
             },
             {
               "Name": "About_Lobby",
+              "Comment": "Had to add an additional message box, splitting the final one into two. -Jodocus; <CT>",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Defendant Lobby",
                 "<LC><W>(Angeklagtenzimmer)",
@@ -104302,6 +104347,7 @@
             },
             {
               "Name": "About_Zelda",
+              "Comment": "Added another text box to split the last one in two. -Jodocus; <CT>",
               "MessageTextLines": [
                 "<SOUND:0><LC><SHIFT:1><R>Zelda's Theme",
                 "<LC><W>(Zeldas Melodie)",
@@ -104406,6 +104452,7 @@
             },
             {
               "Name": "About_Incident",
+              "Comment": "Had to add a message box to split the fourth one into two. -Jodocus; <CT>",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Reminiscences",
                 "<LC><W>(Erinnerungen)",
@@ -104493,6 +104540,7 @@
             },
             {
               "Name": "About_Ingo2",
+              "Comment": "Added two text boxes, one to split the third message box, and one to split the fifth. Also removed the pause tag from the third message box, as it would now have been at the end of the box. -Jodocus; <CT>",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Ingo, The Restless",
                 "<LC><W>(Basil, der Unruhige)",
@@ -104530,6 +104578,7 @@
             },
             {
               "Name": "About_Pursuit",
+              "Comment": "The second line of the third box (\"Gegenstimmen und Hintergrund-Arpeggios\") goes ~21 pixels over the target width; I tried making it shorter, but couldn't find a way. I decided to leave it, rather than rearranging everything to add another message box (which would leave the line half-empty). -Jodocus",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Pursuit",
                 "<LC><W>(Verfolgung)",
@@ -104666,6 +104715,7 @@
             },
             {
               "Name": "About_Ingo4",
+              "Comment": "Added a text box to split the second message box into two. Removed the pause tag (which would have been right at the split). -Jodocus; <CT>",
               "MessageTextLines": [
                 "<SOUND:0><LC><R>Ingo, The Despondent",
                 "<LC><W>(Basil, der Bestürzte)",
@@ -104880,6 +104930,7 @@
             },
             {
               "Name": "About_Title_b",
+              "Comment": "I added the beginning of the fourth message box (\"... music importing system\") to the third message box (and added a pause tag before it) to have more space for the rest of the message. -Jodocus; <CT>",
               "MessageTextLines": [
                 "<SOUND:0>Nach dem das Stück geschrieben war,",
                 "war der Import eine Herausforderung, da",
@@ -104953,6 +105004,7 @@
             },
             {
               "Name": "About_ThoughtRoute_b",
+              "Comment": "Added another box after the first, containing the last line on the first box and the beginning of the third. Removed the Pause tag from its original place (which would now have been at the end of the box) and added it to the end of the first sentence (as in, the original end of the first message box) in the second box. -Jodocus; <CT>",
               "MessageTextLines": [
                 "<SOUND:0>Nebenbei angemerkt: Wegen all der SFX in ",
                 "dieser Szene bin ich direkt an die Grenze ",
@@ -105115,6 +105167,7 @@
             },
             {
               "Name": "About_Credits_c",
+              "Comment": "I should mention, as the point was to make the lines fit without word splitting, that \"Text- [new line] oder Szenenwechsel\" in the second text box is _not_ an instance of word splitting; when leaving out part of a word (as done here, with \"text or scenery change\" instead of \"text change or scenery change\" to avoid redundancy), in German the missing part of the word is replaced with a hyphen. I.e., this would also occur if there wasn't a line break here. -Jodocus",
               "MessageTextLines": [
                 "<SOUND:0>Das ist etwas, was Hero of Law macht.<PAUSE:3> ",
                 "Ich markierte in diesem Song etwa 50 Pkt.,",

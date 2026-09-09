@@ -29440,7 +29440,7 @@
               "Position": 0
             },
             {
-              "Name": "DRAGMIRE40",
+              "Name": "LINK50",
               "MessageTextLines": [
                 "Sie brauchen es auch nicht,<SOUND:EXPLOSION> Sie Narr, ",
                 "weil es nichts zum Verhören gibt!<PAUSE:6> Haben",
@@ -29507,7 +29507,7 @@
               "Position": 0
             },
             {
-              "Name": "DRAGMIRE60",
+              "Name": "MALON30",
               "MessageTextLines": [
                 "<SOUND:WHAP><DI>Hmmmmpf."
               ],
@@ -29559,8 +29559,8 @@
                 "<NEW_BOX>",
                 "Nun, ich glaube, ich kenne den Grund."
               ],
-              "Type": 0,
-              "Position": 0
+              "Type": 1,
+              "Position": 2
             },
             {
               "Name": "MALON20",
@@ -30053,6 +30053,124 @@
             "",
             "    ::ResetAnimations OBJ_ZELDA",
             "",
+            "::spawnWitness OBJ_ZELDA",
+            "::setActorAnim OBJ_ZELDA ZELDA_IDLE",
+            "",
+            "SAVE_EVIDENCE = EVIDENCE_GOTPERFUME",
+            "",
+            "    ::textboxActor B_MALON10 OBJ_MALON",
+            "    ::textboxSpeaker B_LINK10 SPEAKER_LINK",
+            "    ::textboxActor B_MALON20 OBJ_MALON",
+            "    ::textboxActorAnimAtPause B_MALON30 OBJ_MALON MALON_SAD",
+            "    ::setActorAnim OBJ_LINK LINK_THINKING",
+            "    ::setActorAnim OBJ_ZELDA ZELDA_BOW",
+            "    await frames 5",
+            "    ::setCamera CAMERA_WITNESS",
+            "    ::textboxSpeaker B_LINK20 SPEAKER_LINK",
+            "    ::setCamera CAMERA_DEFENCE",
+            "    ::textboxSpeaker B_LINK30 SPEAKER_LINK",
+            "",
+            "    ::CrossExamGotoNext Statement1",
+            "",
+            "StatementPress1:",
+            "    ::setActorAnim OBJ_LINK LINK_PAPER",
+            "    ::setCamera CAMERA_DEFENCE",
+            "    ::textboxActor 1_LINK10 OBJ_LINK",
+            "",
+            "FADEIN 15",
+            "",
+            "await frames 10",
+            "",
+            "::DoBubbleExclamation EXCL_CROSSEXAM_NOCUTINS 0",
+            "set ext_var OBJ_EFFECTS EFFECT_DO_EXCLAMATION = EXCL_CUTINS",
+            "::textboxSpeaker Title SPEAKER_NONE",
+            "set ext_var OBJ_EFFECTS EFFECT_DO_EXCLAMATION = EXCL_NONE",
+            "",
+            "::playMusic BGM_CROSSEXAM_MODERATO",
+            "",
+            "",
+            "// ========================================= CROSS-EXAMINATION BEGINS",
+            "",
+            "SET SCENE_CONTROLLER_CURRENTLY_CROSSEXAMINED = OBJ_ZELDA",
+            "SET SCENE_CONTROLLER_FINAL_STATEMENT = STATEMENT7",
+            "SET SCENE_CONTROLLER_NUM_STATEMENTS = 7",
+            "SET LABEL_TO_VAR Consult SCENE_CONTROLLER_CE_GOTOCONSULT",
+            "",
+            "::CheckIfEnableConsult",
+            "",
+            "::CR_OpenPresent",
+            "",
+            "Statement1:",
+            "   ::CrossExamStatementInit STATEMENT1 PRESSFLAG_STATEMENT1 Statement1 Statement2 StatementPress1 ZELDA1 ZELDA_BOW",
+            "Statement2:",
+            "    ::CrossExamStatementInit STATEMENT2 PRESSFLAG_STATEMENT2 Statement1 Statement3 StatementPress2 ZELDA2 ZELDA_SHOCKLOOP",
+            "Statement3:",
+            "    ::CrossExamStatementInit STATEMENT3 PRESSFLAG_STATEMENT3 Statement2 Statement4 StatementPress3 ZELDA3 ZELDA_IDLE",
+            "Statement4:",
+            "    ::CrossExamStatementInit STATEMENT4 PRESSFLAG_STATEMENT4 Statement3 Statement5 StatementPress4 ZELDA4 ZELDA_THINKING",
+            "Statement5:",
+            "    ::CrossExamStatementInit STATEMENT5 PRESSFLAG_STATEMENT5 Statement4 Statement6 StatementPress5 ZELDA5 ZELDA_ANGRY",
+            "Statement6:",
+            "    ::CrossExamStatementInit STATEMENT6 PRESSFLAG_STATEMENT6 Statement5 Statement7 StatementPress6 ZELDA6 ZELDA_SAD",
+            "Statement7:",
+            "    ::CrossExamStatementInit STATEMENT7 PRESSFLAG_STATEMENT7 Statement6 CrossExamBanter StatementPress7 ZELDA7 ZELDA_CONCERN",
+            "return",
+            "",
+            "CrossExamination:",
+            "    ::CrossExamStatement",
+            "    ::CrossExamControls",
+            "",
+            "CheckPresent:",
+            "   if SCENE_CONTROLLER_CROSSEXAM_CUR_STATEMENT == STATEMENT1 \\",
+            "        and ext_var OBJ_CONTROLLER CONTROLLER_PLAYER_PRESENTED == IDX_AUTOPSY",
+            "        ::CrossExamRightPresent PresentedWell",
+            "   elif SCENE_CONTROLLER_CROSSEXAM_CUR_STATEMENT == STATEMENT5 \\",
+            "        and ext_var OBJ_CONTROLLER CONTROLLER_PLAYER_PRESENTED == IDX_AUTOPSY",
+            "        ::CrossExamRightPresent PresentedWell",
+            "   elif SCENE_CONTROLLER_CROSSEXAM_CUR_STATEMENT == STATEMENT5 \\",
+            "        and ext_var OBJ_CONTROLLER CONTROLLER_PLAYER_PRESENTED == IDX_POACHERSAW",
+            "        goto FakeoutPresent",
+            "   elif SCENE_CONTROLLER_CROSSEXAM_CUR_STATEMENT == STATEMENT5 \\",
+            "        and ext_var OBJ_CONTROLLER CONTROLLER_PLAYER_PRESENTED == IDX_BLOODYCLOTH",
+            "        goto FakeoutPresent",
+            "   elif ext_var OBJ_CONTROLLER CONTROLLER_PLAYER_PRESENTED != -1",
+            "        ::CrossExamWrongPresent",
+            "   endif",
+            "return",
+            "",
+            "FakeoutPresent:",
+            "    ::setSpeakerActorForce SCENE_CONTROLLER_CURRENTLY_CROSSEXAMINED",
+            "    set ext_var OBJ_CONTROLLER CONTROLLER_PLAYER_PRESENTED = -1",
+            "    ::setActorAnimCam OBJ_LINK LINK_THINKING CAMERA_DEFENCE",
+            "    ::CR_Open",
+            "    ::textboxSpeaker F_LINK10 SPEAKER_LINK",
+            "    ::CrossExamGotoNext Statement5",
+            "",
+            "",
+            "Consult:",
+            "",
+            "    ::CR_Open",
+            "",
+            "    ::setActorAnim OBJ_MALON MALON_ANGRYLOBBY",
+            "    await frames 6",
+            "    ::setCamera CAMERA_COUNSEL",
+            "",
+            "",
+            "    ::textboxActor CONS_LINK10 OBJ_LINK",
+            "    ::textboxActor CONS_MALON10 OBJ_MALON",
+            "    ::textboxActor CONS_MALON20 OBJ_MALON",
+            "    ::textboxActorAnim CONS_MALON30 OBJ_MALON MALON_SAD",
+            "    ::textboxSpeaker CONS_LINK20 SPEAKER_LINK",
+            "",
+            "    ::CrossExamGotoNext SCENE_CONTROLLER_CE_GOTOCUR",
+            "",
+            "CrossExamBanter:",
+            "    ::CR_Closed",
+            "",
+            "    FADEOUT 0 0 0 15",
+            "",
+            "    ::ResetAnimations OBJ_ZELDA",
+            "",
             "    ::setActorAnim OBJ_MALON MALON_ANGRYLOBBY",
             "    ::setCamera CAMERA_COUNSEL",
             "    ::CR_Open",
@@ -30346,6 +30464,14 @@
       ],
       "EnvironmentColor": "White",
       "Segments": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
         [],
         [],
         [],
@@ -30779,7 +30905,7 @@
           "Position": 0
         },
         {
-          "Name": "4_JUDGE10",
+          "Name": "Script",
           "MessageTextLines": [
             "<SPEED:103>The defendant will curb her outbursts!<PAUSE:3> <SOUND:WHAP><DI><SPEED:102>",
             "You're addressing royalty!"
@@ -30788,7 +30914,7 @@
           "Position": 0
         },
         {
-          "Name": "4_LINK20",
+          "Name": "Always",
           "MessageTextLines": [
             "<C>(Hmm. This is really bad. What now?)<THREE_CHOICES><G>",
             "Ask about the crime scene",
@@ -38002,6 +38128,14 @@
         [],
         [],
         [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
         []
       ],
       "BlinkPattern": "",
@@ -38014,7 +38148,7 @@
       "DisplayListColors": [],
       "Messages": [
         {
-          "Name": "Title",
+          "Name": "Always",
           "MessageTextLines": [
             "<NS><SOUND:0><LC><R>\"My Findings\"<FADE:40>"
           ],
@@ -38464,6 +38598,14 @@
         [],
         [],
         [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
         []
       ],
       "BlinkPattern": "",
@@ -38476,7 +38618,7 @@
       "DisplayListColors": [],
       "Messages": [
         {
-          "Name": "ZELDA10",
+          "Name": "Always",
           "MessageTextLines": [
             "And here it is!<PAUSE:10> The oil bottle I found!"
           ],
@@ -40607,7 +40749,7 @@
               "Name": "2_ZELDA10",
               "MessageTextLines": [
                 "Nur die kleine, schöne Kristallflasche,",
-                "die ich zuvor erwähnt h."
+                "die ich zuvor erwähnt habe."
               ],
               "Type": 0,
               "Position": 0
@@ -40615,7 +40757,7 @@
             {
               "Name": "2_ZELDA20",
               "MessageTextLines": [
-                "The house was rather barren..."
+                "Das Haus hingegen war ziemlich öde..."
               ],
               "Type": 0,
               "Position": 0
@@ -59640,7 +59782,774 @@
               ],
               "Type": 0,
               "Position": 0
-            },
+            }
+          ]
+        }
+      ],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 10,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "CullForward": 1000.0,
+      "CullDown": 700.0,
+      "CullScale": 350.0,
+      "AnimInterpFrames": 4,
+      "EmbeddedOverlayCode": {
+        "CodeLines": [
+          ""
+        ],
+        "Functions": [],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "SetFuncNames": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          ""
+        ],
+        "HeaderPaths": []
+      },
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
+    },
+    {
+      "NPCName": "SCENE_VERDICT",
+      "IsNull": false,
+      "ObjectID": 0,
+      "Hierarchy": 0,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": true,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": true,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": true,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "TextLines": [
+            "#define CUCCO_MURDER 30",
+            "",
+            "::setActorAnim OBJ_DRAGMIRE DRAGMIRE_IDLE",
+            "::setActorAnim OBJ_JUDGE JUDGE_IDLE",
+            "::setActorAnim OBJ_LINK LINK_DESKSLAMMED",
+            "::setActorAnim OBJ_MALON MALON_IDLE",
+            "",
+            "kill npcmaker OBJ_IMPA",
+            "kill npcmaker OBJ_ZELDA",
+            "kill npcmaker OBJ_INGO",
+            "",
+            "::spawnWitness OBJ_INGO",
+            "::setActorAnim OBJ_INGO INGO_IDLE",
+            "",
+            "SAVE_EVIDENCE = EVIDENCE_GOTINHERITANCE",
+            "",
+            "::CR_Closed",
+            "::setCutsceneBarsFalse",
+            "::setTextSpeed 2",
+            "",
+            "stop bgm 0",
+            "",
+            "::setCamera CAMERA_WITNESS",
+            "",
+            "FADEIN 15",
+            "",
+            "//goto Verdict",
+            "",
+            "::CR_Open",
+            "::textboxActor INGO10 OBJ_INGO",
+            "::textboxActorAnimAtPause INGO20 OBJ_INGO INGO_BREAKDOWN",
+            "",
+            "::playMusic BGM_INGO4",
+            "gTextboxPaused = 0",
+            "await frames 2",
+            "::setSpeakerActor OBJ_INGO",
+            "show_textbox_sp INGO30",
+            "::awaitNextPause",
+            "::setSpeakerActor OBJ_INGO",
+            "play sfx_global NA_SE_EV_EARTHQUAKE",
+            "QUAKE QUAKE_TYPE2 0x3A98 10 1 1 0x200 1",
+            "::awaitNextPause",
+            "stop sfx NA_SE_EV_EARTHQUAKE",
+            "::setSpeakerActor OBJ_INGO",
+            "play sfx_global NA_SE_EV_EARTHQUAKE",
+            "QUAKE QUAKE_TYPE2 0x3A98 10 1 1 0x200 1",
+            "::setSpeakerActor OBJ_INGO",
+            "stop sfx NA_SE_EV_EARTHQUAKE",
+            "await textbox_on_screen false",
+            "",
+            "Breakdown:",
+            "::setActorAnim OBJ_INGO INGO_BREAKDOWN",
+            "play sfx_global NA_SE_EV_EARTHQUAKE",
+            "QUAKE QUAKE_TYPE2 0x3A98 50 1 1 0x200 1",
+            "::CR_Closed",
+            "::textboxActor INGO40 OBJ_INGO",
+            "",
+            "// ======================= BREAKDOWN",
+            "",
+            "::SpawnCuccoStatic",
+            "await frames 2",
+            "::setCamera CAMERA_BREAKDOWN_CUCCO",
+            "play sfx_global DON",
+            "play sfx_global NA_SE_EV_CHICKEN_CRY_N",
+            "await frames 40",
+            "",
+            "::setActorAnim OBJ_INGO INGO_BREAKDOWN_FRAME",
+            "::setCamera CAMERA_BREAKDOWN_INGO",
+            "play sfx_global SHOCK",
+            "play sfx_global NA_SE_VO_IN_CRY_0",
+            "await frames 40",
+            "",
+            "stop bgm 70",
+            "::setCamera CAMERA_BREAKDOWN_CUCCO",
+            "::setActorAnim OBJ_INGO INGO_BREAKDOWN",
+            "set ext_var OBJ_CUCCO CUCCO_STATUS = CUCCO_CROW",
+            "await ext_var OBJ_CUCCO CUCCO_STATUS = CUCCO_IDLE",
+            "",
+            "::playMusic BGM_CASE_01_BREAKDOWN",
+            "::setCamera CAMERA_WITNESS",
+            "await frames 0",
+            "kill npcmaker OBJ_CUCCO",
+            "",
+            "SCENE_CONTROLLER_TEMP = 0",
+            "",
+            "while SCENE_CONTROLLER_TEMP != \"INGO_BREAKDOWN_CUCCO_HITS - 1\"",
+            "    ::spawnCuccoAttack",
+            "",
+            "    if ccall NpcM_Is50Hz",
+            "        await frames random.5->10",
+            "    else",
+            "        await frames random.10->15",
+            "   endif",
+            "",
+            "    SCENE_CONTROLLER_TEMP += 1",
+            "endwhile",
+            "",
+            "await frames 60",
+            "::spawnCuccoAttack",
+            "",
+            "await frames 20",
+            "stop sfx NA_SE_EV_EARTHQUAKE",
+            "await frames 45",
+            "::playMusic BGM_CASE_01_BREAKDOWN_END",
+            "",
+            "await frames 60",
+            "",
+            "set flag_internal CUCCO_MURDER TRUE",
+            "",
+            "// ======================= BREAKDOWN END",
+            "",
+            "FADEOUT 0 0 0 10",
+            "await frames 40",
+            "::CR_Open",
+            "::setActorAnimCam OBJ_JUDGE JUDGE_THINKING CAMERA_JUDGE",
+            "FADEIN 20",
+            "::playMusic BGM_TRIAL_START2",
+            "await frames 10",
+            "",
+            "::textboxActor JUDGE10 OBJ_JUDGE",
+            "::textboxActorAnim JUDGE20 OBJ_JUDGE JUDGE_HEADRAISE",
+            "",
+            "::textboxActorCamAnim LINK10 OBJ_LINK CAMERA_DEFENCE LINK_IDLE",
+            "::textboxActor LINK20 OBJ_LINK",
+            "",
+            "::textboxActorCamAnim DRAGMIRE10 OBJ_DRAGMIRE CAMERA_PROSECUTOR DRAGMIRE_SERIOUS",
+            "::setActorAnim OBJ_INGO INGO_SAD",
+            "::setActorAnim OBJ_LINK LINK_THINKING",
+            "::textboxActorAnim DRAGMIRE20 OBJ_DRAGMIRE DRAGMIRE_ANGRY",
+            "stop bgm 4",
+            "::textboxActorCamAnim DRAGMIRE30 OBJ_DRAGMIRE CAMERA_WITNESS DRAGMIRE_ANGRY",
+            "await frames 10",
+            "set ext_var OBJ_INGO SHED_TEAR = 1",
+            "await ext_var OBJ_INGO SHED_TEAR = 0",
+            "await frames 20",
+            "",
+            "::setActorAnimCam OBJ_LINK LINK_THINKING CAMERA_DEFENCE",
+            "::textboxSpeaker LINK30 SPEAKER_LINK",
+            "::setActorAnim OBJ_LINK LINK_SWEATING",
+            "::textboxSpeaker LINK40 SPEAKER_LINK",
+            "",
+            "::DoGavelSlam",
+            "",
+            "::playMusic BGM_TRIAL_START2",
+            "::textboxActorCamAnim JUDGE30 OBJ_JUDGE CAMERA_JUDGE JUDGE_SHAKING",
+            "::textboxActorAnim JUDGE40 OBJ_JUDGE JUDGE_NODDING",
+            "",
+            "FADEOUT 0 0 0 20",
+            "::setActorAnim OBJ_LINK LINK_CONFIDENT",
+            "::setActorAnim OBJ_DRAGMIRE DRAGMIRE_FACEAWAY",
+            "::setActorAnim OBJ_JUDGE JUDGE_IDLE",
+            "kill npcmaker OBJ_INGO",
+            "kill npcmaker OBJ_MALON",
+            "::spawnWitnessYOffset OBJ_MALON MALON_WITNESS_YPOS",
+            "await frames 5",
+            "set ext_var OBJ_MALON MALON_IGNORE_BEING_COUNSEL = 1",
+            "::setCamera CAMERA_GALLERY",
+            "await frames 0",
+            "FADEIN 20",
+            "",
+            "await frames 40",
+            "",
+            "::textboxActorCamAnim JUDGE50 OBJ_JUDGE CAMERA_JUDGE JUDGE_IDLE",
+            "::textboxActorAnim JUDGE60 OBJ_JUDGE JUDGE_HEADRAISE",
+            "::textboxActorCamAnim MALON10 OBJ_MALON CAMERA_WITNESS MALON_HAPPY",
+            "::setActorAnimCam OBJ_LINK LINK_ABASHED CAMERA_DEFENCE",
+            "::textboxSpeaker LINK50 SPEAKER_LINK",
+            "::textboxActorCamAnim DRAGMIRE40 OBJ_DRAGMIRE CAMERA_PROSECUTOR DRAGMIRE_FACEAWAY",
+            "",
+            "stop bgm 20",
+            "Verdict:",
+            "::CR_Closed",
+            "::textboxActorCamAnim JUDGE70 OBJ_JUDGE CAMERA_JUDGE JUDGE_IDLE",
+            "::setActorAnim OBJ_LINK LINK_CONFIDENT",
+            "::textboxActorAnim JUDGE80 OBJ_JUDGE JUDGE_HEADRAISE",
+            "",
+            "::setLogNextSubtitle OBJ_JUDGE",
+            "::DoBubbleExclamation EXCL_NOTGUILTY 0",
+            "",
+            "await frames 20",
+            "play sfx_global CHEER",
+            "::setCamera CAMERA_GALLERY",
+            "",
+            "//FIREWORKS",
+            "#define CONFETTI 31",
+            "set FLAG_INTERNAL CONFETTI TRUE",
+            "play sfx_global NA_SE_EV_STONE_LAUNCH",
+            "await frames 5",
+            "stop sfx NA_SE_EV_STONE_LAUNCH",
+            "play sfx_global NA_SE_PL_BOUND",
+            "play sfx_global NA_SE_EV_WALL_BROKEN",
+            "particle DUST",
+            "    position absolute -79 141 158",
+            "    color1 214, 73, 21, 242",
+            "    color1 166, 50, 7, 155",
+            "    scale random.1000->1020",
+            "    scale_update 20",
+            "    acceleration 0 2 0",
+            "    velocity 0 5 0",
+            "    duration 50",
+            "endparticle",
+            "particle SPARK",
+            "    position absolute -79 141 158",
+            "    color1 214, 73, 21, 242",
+            "    color1 156, 47, 9, 155",
+            "    scale random.800->820",
+            "    acceleration 0 0 0",
+            "    velocity 0 0 0",
+            "endparticle",
+            "await frames 10",
+            "play sfx_global NA_SE_EV_STONE_LAUNCH",
+            "await frames 5",
+            "stop sfx NA_SE_EV_STONE_LAUNCH",
+            "play sfx_global NA_SE_PL_BOUND",
+            "play sfx_global NA_SE_EV_WALL_BROKEN",
+            "particle DUST",
+            "    position absolute -4 152 158",
+            "    color1 22, 191, 19, 242",
+            "    color1 23, 112, 21, 155",
+            "    scale random.1000->1020",
+            "    scale_update 20",
+            "    acceleration 0 2 0",
+            "    velocity 0 5 0",
+            "    duration 50",
+            "endparticle",
+            "particle SPARK",
+            "    position absolute -4 152 158",
+            "    color1 22, 191, 19, 242",
+            "    color1 113, 227, 151, 155",
+            "    scale random.800->820",
+            "    acceleration 0 0 0",
+            "    velocity 0 0 0",
+            "endparticle",
+            "await frames 10",
+            "play sfx_global NA_SE_EV_STONE_LAUNCH",
+            "await frames 5",
+            "stop sfx NA_SE_EV_STONE_LAUNCH",
+            "play sfx_global NA_SE_PL_BOUND",
+            "play sfx_global NA_SE_EV_WALL_BROKEN",
+            "particle DUST",
+            "    position absolute 98 148 158",
+            "    color1 39, 24, 173, 228",
+            "    color1 92, 78, 217, 155",
+            "    scale random.1000->1020",
+            "    scale_update 20",
+            "    acceleration 0 2 0",
+            "    velocity 0 5 0",
+            "    duration 50",
+            "endparticle",
+            "particle SPARK",
+            "    position absolute 98 148 158",
+            "    color1 39, 24, 173, 228",
+            "    color1 128, 116, 237, 155",
+            "    scale random.800->820",
+            "    acceleration 0 0 0",
+            "    velocity 0 0 0",
+            "endparticle",
+            "//FIREWORKS END",
+            "",
+            "",
+            "await frames 30",
+            "::setCamera CAMERA_WITNESS",
+            "await frames 30",
+            "::setCamera CAMERA_DEFENCE",
+            "await frames 30",
+            "::setCamera CAMERA_PROSECUTOR",
+            "await frames 30",
+            "",
+            "set FLAG_INTERNAL CONFETTI FALSE",
+            "::textboxActorCamAnim JUDGE90 OBJ_JUDGE CAMERA_JUDGE JUDGE_HEADRAISE",
+            "::DoGavelSlamFade",
+            "",
+            "::SceneWarpNextLobby PROGRESS_EPILOGUE"
+          ],
+          "ParseErrors": [],
+          "Name": "Script"
+        },
+        {
+          "TextLines": [
+            "::SceneController_Always",
+            "",
+            "#define CONFETTI 31",
+            "",
+            "if FLAG_INTERNAL CONFETTI TRUE",
+            "",
+            "    SCENE_CONTROLLER_TEMP = 0",
+            "    while SCENE_CONTROLLER_TEMP != 3",
+            "",
+            "        SCENE_CONTROLLER_TEMP2 = random.1->4",
+            "",
+            "        if SCENE_CONTROLLER_TEMP2 == 1",
+            "            particle DISPERSED_STAR",
+            "                position absolute random.-400->400 275 random.-400->150",
+            "                color1 random.210->255, 0, 0, random.120->200",
+            "                color1 random.210->255, 0, 0, random.120->200",
+            "                scale random.12000->14200",
+            "                acceleration random.3->6 random.-35->-50 random.3->6",
+            "                velocity random.3->6 random.-45->-125 random.3->6",
+            "                duration 150",
+            "            endparticle",
+            "        elif SCENE_CONTROLLER_TEMP2 == 2",
+            "            particle DISPERSED_STAR",
+            "                position absolute random.-400->400 275 random.-400->150",
+            "                color1 0, random.210->255, 0, random.120->200",
+            "                color1 0, random.210->255, 0, random.120->200",
+            "                scale random.12000->14200",
+            "                acceleration random.3->6 random.-35->-50 random.3->6",
+            "                velocity random.3->6 random.-45->-125 random.3->6",
+            "                duration 150",
+            "            endparticle",
+            "        elif SCENE_CONTROLLER_TEMP2 == 3",
+            "            particle DISPERSED_STAR",
+            "                position absolute random.-400->400 275 random.-400->150",
+            "                color1 0, 0, random.210->255, random.120->200",
+            "                color1 0, 0, random.210->255, random.120->200",
+            "                scale random.12000->14200",
+            "                acceleration random.3->6 random.-35->-50 random.3->6",
+            "                velocity random.3->6 random.-45->-125 random.3->6",
+            "                duration 150",
+            "            endparticle",
+            "        elif SCENE_CONTROLLER_TEMP2 == 4",
+            "            particle DISPERSED_STAR",
+            "                position absolute random.-400->400 275 random.-400->150",
+            "                color1 random.210->255, random.210->255, 0, random.120->200",
+            "                color1 random.210->255, random.210->255, 0, random.120->200",
+            "                scale random.12000->14200",
+            "                acceleration random.3->6 random.-35->-50 random.3->6",
+            "                velocity random.3->6 random.-45->-125 random.3->6",
+            "                duration 150",
+            "            endparticle",
+            "        endif",
+            "",
+            "",
+            "        SCENE_CONTROLLER_TEMP += 1",
+            "",
+            "    endwhile",
+            "endif",
+            ""
+          ],
+          "ParseErrors": [],
+          "Name": "Always"
+        },
+        {
+          "TextLines": [
+            "#define CUCCO_MURDER 30",
+            "",
+            "if FLAG_INTERNAL CUCCO_MURDER TRUE",
+            "",
+            "    kill npcmaker OBJ_CUCCO",
+            "    await frames 5",
+            "",
+            "    if actor_exists npcmaker OBJ_CUCCO",
+            "    else",
+            "        set flag_internal CUCCO_MURDER false",
+            "    endif",
+            "",
+            "endif",
+            "",
+            ""
+          ],
+          "ParseErrors": [],
+          "Name": "CuccoMurder"
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 7,
+      "TalkSegment": 7,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [
+        {
+          "Name": "INGO10",
+          "MessageTextLines": [
+            "<DI><SOUND:WHAP>That's...",
+            "<NEW_BOX>I...",
+            "<NEW_BOX>You..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "INGO20",
+          "MessageTextLines": [
+            "You were...<PAUSE:5> planning...<PAUSE:5> <SOUND:EXPLOSION>what?",
+            "<NEW_BOX>A vacation,<PAUSE:5> <SOUND:CLUE>for me?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "INGO30",
+          "MessageTextLines": [
+            "And I did...<PAUSE:5> <SOUND:WHAP><DI>No!",
+            "<NEW_BOX><DI><SOUND:WHAP>No!<PAUSE:5> It can't be so!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "INGO40",
+          "MessageTextLines": [
+            "<NS>Please say it isn't soooooooooo~!<FADE:30>"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "JUDGE10",
+          "MessageTextLines": [
+            "We have witnessed today the results",
+            "of a truly horrifying misunderstanding."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "JUDGE20",
+          "MessageTextLines": [
+            "But misunderstanding or not, what you",
+            "have done is unforgivable."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK10",
+          "MessageTextLines": [
+            "Talon was a kind man, beloved by all",
+            "who had the good fortune to cross his",
+            "path."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK20",
+          "MessageTextLines": [
+            "His loss will be felt not only at his",
+            "ranch,<PAUSE:3> <SOUND:CLUE>but all across Hyrule."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "DRAGMIRE10",
+          "MessageTextLines": [
+            "The killer turned out to be an utterly",
+            "pathetic man with delusions of",
+            "grandeur!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "DRAGMIRE20",
+          "MessageTextLines": [
+            "<SOUND:EXPLOSION>I mean, look at him!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "DRAGMIRE30",
+          "MessageTextLines": [
+            "<SOUND:DON><DI>An utter idiot, dressed like a clown!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK30",
+          "MessageTextLines": [
+            "<SOUND:0><C>(Geez. He's really laying into him.)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK40",
+          "MessageTextLines": [
+            "<SOUND:0><C>(I bet he's just upset because he lost.)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "JUDGE30",
+          "MessageTextLines": [
+            "The prosecution's rant aside, I think",
+            "it is time to declare today's verdict."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "JUDGE40",
+          "MessageTextLines": [
+            "This is just a formality, but will the",
+            "defendant please step up to the stand?<SQUARE>"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "JUDGE50",
+          "MessageTextLines": [
+            "Young miss, I am very sorry for the",
+            "situation you have found yourself in."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "JUDGE60",
+          "MessageTextLines": [
+            "I am very glad you appear to have",
+            "such a good attorney as a friend."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "MALON10",
+          "MessageTextLines": [
+            "I wouldn't have chosen anyone else!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK50",
+          "MessageTextLines": [
+            "<SOUND:0><C>(Aww, thanks!)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "DRAGMIRE40",
+          "MessageTextLines": [
+            "<SOUND:WHAP><DI>Hmph."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "JUDGE70",
+          "MessageTextLines": [
+            "Now, then, without further ado..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "JUDGE80",
+          "MessageTextLines": [
+            "In the name of Goddess Hylia and the",
+            "sacred land of Hyrule, I hereby find",
+            "Malon of Lon Lon Ranch..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "JUDGE90",
+          "MessageTextLines": [
+            "Court is adjourned!<SQUARE>"
+          ],
+          "Type": 0,
+          "Position": 0
+        }
+      ],
+      "Localization": [
+        {
+          "Language": "German",
+          "Messages": [
             {
               "Name": "JUDGE10",
               "MessageTextLines": [
@@ -61582,7 +62491,1744 @@
               ],
               "Type": 0,
               "Position": 0
-            },
+            }
+          ]
+        }
+      ],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 10,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "CullForward": 1000.0,
+      "CullDown": 700.0,
+      "CullScale": 350.0,
+      "AnimInterpFrames": 4,
+      "EmbeddedOverlayCode": {
+        "CodeLines": [
+          "#define PAL_FUNCS",
+          "#include \"npc_maker_header.h\"",
+          "#include <npcmaker/npc_maker_types.h>",
+          "",
+          "/*",
+          "To make NPC Maker able to use your function, it must have the following form:",
+          "",
+          "1. Its name must have a NpcM_ prefix (eg. NpcM_Function),",
+          "2. Must have at least two parameters: NpcMaker* and PlayState*. Up to 8 additional float arguments can be passed on from scripts.",
+          "3. If you plan to pass the result to scripts, the return type must be float",
+          "5. A unique name",
+          "",
+          "Examples of valid function signatures are thus, for example:",
+          "",
+          "void NpcM_Function(NpcMaker* npc, PlayState* play, float argument, float argument1)",
+          "float NpcM_Function2(NpcMaker* npc, PlayState* play)",
+          "float NpcM_DoAThing(NpcMaker* npc, PlayState* play)",
+          "",
+          "The exception for this is functions which should run \"On limb\", their signature is as follows:",
+          "",
+          "float NpcM_Function(NpcMaker* npc, PlayState* playState, s32 limbNumber, Gfx** dListPtr, Vec3f* translation, Vec3s* rotation, void* instance, Gfx** gfxP)",
+          "",
+          "This function should return 0 if the limb is meant to be drawn, and 1 if it is not.",
+          "",
+          "For \"post limb\" functions, the signature is the same, but some of the arguments might be NULL, and the function doesn't return anything.",
+          "For \"Skin\" models, only the limb number is available.",
+          "For others, everything but the translation is available.",
+          "",
+          "Warning; When using these functions from scripts, make sure",
+          "the return type is valid.",
+          "*/"
+        ],
+        "Functions": [
+          {
+            "Symbol": "NpcM_Is50Hz"
+          }
+        ],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "SetFuncNames": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "HeaderPaths": []
+      },
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
+    },
+    {
+      "NPCName": "OBJ_CUCCO",
+      "IsNull": false,
+      "ObjectID": 19,
+      "Hierarchy": 9520,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": true,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": true,
+      "ShadowRadius": 15,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 25,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 10,
+      "LoopPath": false,
+      "IgnoreYAxis": false,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 35,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "HeaderDefinition": "",
+          "Address": 232,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "HeaderDefinition": "",
+          "Address": 232,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "TextLines": [
+            "proc CuccoCrow frameNum frameNumHold",
+            "    CUCCO_TEMP = -1200",
+            "    CUCCO_TEMP *= frameNum",
+            "    await ccall NpcM_DoMoveRotAxis DLISTID_Neck -1 CUCCO_TEMP 0 2 frameNum == 1",
+            "    await frames frameNumHold",
+            "    await ccall NpcM_DoMoveRotAxis DLISTID_Neck -1 0 0 2 frameNum == 1",
+            "endproc",
+            "",
+            "switch CUCCO_STATUS",
+            "    case CUCCO_CROW:",
+            "        play sfx_global NA_SE_EV_CHICKEN_CRY_M",
+            "",
+            "        ::CuccoCrow 2 0",
+            "        await frames 2",
+            "        ::CuccoCrow 2 0",
+            "        await frames 1",
+            "        ::CuccoCrow 8 4",
+            "        await frames 20",
+            "",
+            "        CUCCO_STATUS = CUCCO_IDLE",
+            "    endcase",
+            "    case CUCCO_ATTACK:",
+            "        set CASTS_SHADOW false",
+            "",
+            "        set ref_actor self",
+            "        if actor.posX < 0",
+            "            CUCCO_DIRECTION = 1",
+            "        else",
+            "            CUCCO_DIRECTION = 0",
+            "        endif",
+            "",
+            "        if ext_var OBJ_INGO HIT_BY_CUCCO_COUNT == \"INGO_BREAKDOWN_CUCCO_HITS - 1\"",
+            "            scale set self 0.0180",
+            "            play sfx_global NA_SE_EV_CHICKEN_CRY_M 0.9 0.7",
+            "            play sfx_global NA_SE_EN_DEKU_WAKEUP 0.9 0.7",
+            "        else",
+            "            if random.0->10 != 10",
+            "                play sfx_global NA_SE_EV_CHICKEN_CRY_A 0.9",
+            "            else",
+            "                play sfx_global NA_SE_EV_CHICKEN_CRY_M 0.9",
+            "            endif",
+            "",
+            "            play sfx_global NA_SE_EN_DEKU_WAKEUP 0.9",
+            "        endif",
+            "",
+            "        set ref_actor npcmaker OBJ_INGO",
+            "",
+            "        if ref_actor_exists",
+            "            set CUCCO_TEMP2 = actor.posY",
+            "            CUCCO_TEMP2 += random.10->30",
+            "            ccall NpcM_GetCuccoFlySpeed CUCCO_TEMP3",
+            "            position move_to self actor.posX CUCCO_TEMP2 actor.posZ CUCCO_TEMP3",
+            "        endif",
+            "    endcase",
+            "    case CUCCO_ATTACK_END:",
+            "        if CUCCO_DIRECTION == 0",
+            "            CUCCO_TEMP2 = random.-200->-100",
+            "        else",
+            "            CUCCO_TEMP2 = random.100->200",
+            "        endif",
+            "",
+            "        position move_to self CUCCO_TEMP2 random.150->250 309 CUCCO_TEMP3",
+            "        set invisible true",
+            "        script stop 0",
+            "        script stop 1",
+            "        script stop 2",
+            "        return",
+            "        // for some reason deleting the actors too quickly crashes",
+            "    endcase",
+            "    default:",
+            "        return",
+            "    endcase",
+            "endswitch"
+          ],
+          "ParseErrors": [],
+          "Name": "Script"
+        },
+        {
+          "TextLines": [
+            "set ref_actor npcmaker OBJ_INGO",
+            "",
+            "if CUCCO_STATUS >= CUCCO_ATTACK",
+            "",
+            "    particle DISPLAY_LIST",
+            "        DLIST FeatherModel",
+            "        COUNT 1",
+            "        SCALE random.4->8",
+            "        SCALE_UPDATE random.1->2",
+            "        DURATION 66",
+            "        POSITION RELATIVE random.-1->1 random.-10->10 random.-1->1",
+            "    endparticle",
+            "",
+            "    if ref_actor_exists",
+            "        if DISTANCE_FROM_REF_ACTOR < 10 and CUCCO_STATUS == CUCCO_ATTACK",
+            "",
+            "            set ext_var OBJ_INGO HIT_BY_CUCCO = 1",
+            "            set ext_var OBJ_INGO HIT_BY_CUCCO_COUNT += 1",
+            "",
+            "            if ext_var OBJ_INGO HIT_BY_CUCCO_COUNT == INGO_BREAKDOWN_CUCCO_HITS",
+            "                particle HIT_MARK_FLASH",
+            "                    POSITION relative 0 0 0",
+            "                    SCALE 400",
+            "                endparticle",
+            "            else",
+            "                particle HIT_MARK_FLASH",
+            "                    POSITION relative 0 0 0",
+            "                    SCALE 200",
+            "                endparticle",
+            "            endif",
+            "",
+            "            particle DISPLAY_LIST",
+            "                DLIST FeatherModel",
+            "                COUNT random.8->11",
+            "                SCALE random.8->12",
+            "                SCALE_UPDATE random.1->2",
+            "                DURATION 66",
+            "                POSITION RELATIVE random.-1->1 random.-10->10 random.-1->1",
+            "        endparticle",
+            "",
+            "        CUCCO_STATUS = CUCCO_ATTACK_END",
+            "",
+            "        endif",
+            "    endif",
+            "",
+            "endif",
+            ""
+          ],
+          "ParseErrors": [],
+          "Name": "Always"
+        },
+        {
+          "TextLines": [
+            "if CUCCO_STATUS >= CUCCO_ATTACK",
+            "    set DLIST_ROT_X WingR = -4000",
+            "    set DLIST_ROT_Z WingR = -7000",
+            "    set DLIST_ROT_X WingL = -7000",
+            "    set DLIST_ROT_Z WingL = -23000",
+            "",
+            "    ccall NpcM_FlapWing",
+            "endif"
+          ],
+          "ParseErrors": [],
+          "Name": "Fly"
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 7,
+      "TalkSegment": 7,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [
+        {
+          "Name": "Neck",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 4,
+          "Limb": 13,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "WingL",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 4,
+          "Limb": 11,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "WingR",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 4,
+          "Limb": 7,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        },
+        {
+          "Name": "FeatherModel",
+          "HeaderDefinition": "",
+          "Address": 4048,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 5.0,
+          "ShowType": 0,
+          "Limb": 0,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        }
+      ],
+      "DisplayListColors": [],
+      "Messages": [],
+      "Localization": [
+        {
+          "Language": "German",
+          "Messages": []
+        }
+      ],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 5,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "CullForward": 1000.0,
+      "CullDown": 700.0,
+      "CullScale": 350.0,
+      "AnimInterpFrames": 4,
+      "EmbeddedOverlayCode": {
+        "CodeLines": [
+          "#define DLISTMOVEROT_FUNC",
+          "",
+          "#include \"npc_maker_header.h\"",
+          "#include <npcmaker/npc_maker_types.h>",
+          "",
+          "/*",
+          "To make NPC Maker able to use your function, it must have the following form:",
+          "",
+          "1. Its name must have a NpcM_ prefix (eg. NpcM_Function),",
+          "2. Must have at least two parameters: NpcMaker* and PlayState*. Up to 8 additional float arguments can be passed on from scripts.",
+          "3. If you plan to pass the result to scripts, the return type must be float",
+          "5. A unique name",
+          "",
+          "Examples of valid function signatures are thus, for example:",
+          "",
+          "void NpcM_Function(NpcMaker* npc, PlayState* play, float argument, float argument1)",
+          "float NpcM_Function2(NpcMaker* npc, PlayState* play)",
+          "float NpcM_DoAThing(NpcMaker* npc, PlayState* play)",
+          "",
+          "The exception for this is functions which should run \"On limb\", their signature is as follows:",
+          "",
+          "int NpcM_Function(NpcMaker* npc, PlayState* playState, s32 limbNumber, Gfx** dListPtr, Vec3f* translation, Vec3s* rotation, void* instance, Gfx** gfxP)",
+          "",
+          "This function should return 0 if the limb is meant to be drawn, and 1 if it is not.",
+          "",
+          "Warning; When using these functions from scripts, make sure",
+          "the return type is valid.",
+          "*/",
+          "",
+          "float Counter = 0;",
+          "",
+          "void NpcM_FlapWing(NpcMaker* npc, PlayState* play)",
+          "{",
+          "    Counter+=5;",
+          "",
+          "    npc->extraDLists[1].rotation.y = 9000 + (sinf(Counter) * 10000);",
+          "    npc->extraDLists[2].rotation.y = -(sinf(Counter) * 10000);",
+          "}",
+          "",
+          "float NpcM_GetCuccoFlySpeed(NpcMaker* npc, PlayState* play)",
+          "{",
+          "    return ((float)Rand_S16Offset(10, 5) * UPDATE_RATE_MULT);",
+          "}"
+        ],
+        "Functions": [
+          {
+            "Symbol": "NpcM_DoMoveRotAxis"
+          },
+          {
+            "Symbol": "NpcM_FlapWing"
+          },
+          {
+            "Symbol": "NpcM_GetCuccoFlySpeed"
+          }
+        ],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "SetFuncNames": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "HeaderPaths": []
+      },
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
+    },
+    {
+      "NPCName": "SCENE_LOBBY_ENDING",
+      "IsNull": false,
+      "ObjectID": 0,
+      "Hierarchy": 0,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": true,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "TextLines": [
+            "SAVE_EVIDENCE = EVIDENCE_GOTINHERITANCE",
+            "",
+            "::spawnPerson OBJ_MALON",
+            "",
+            "await frames 2",
+            "::setActorAnim OBJ_MALON MALON_PENSIVE",
+            "await frames 2",
+            "::setCamera CAMERA_DEFAULT",
+            "",
+            "FADEIN 15",
+            "await frames 10",
+            "",
+            "SCENE_INTRO:",
+            "    ::setTextSpeed 1",
+            "    ::textboxSpeaker START SPEAKER_TYPEWRITER",
+            "    ::setTextSpeed 2",
+            "",
+            "",
+            "AFTER_INTRO_TEXT:",
+            "    ::playMusic BGM_HAPPYEND",
+            "    ::CR_Open",
+            "",
+            "    ::textboxSpeaker LINK10 SPEAKER_LINK",
+            "",
+            "    ::textboxActor MALON10 OBJ_MALON",
+            "    ::textboxSpeaker LINK20 SPEAKER_LINK",
+            "    ::textboxActorAnim MALON20 OBJ_MALON MALON_SAD",
+            "    ::textboxSpeaker LINK30 SPEAKER_LINK",
+            "    ::textboxSpeaker LINK40 SPEAKER_LINK",
+            "    ::textboxActorAnim MALON30 OBJ_MALON MALON_HAPPY",
+            "",
+            "    ::spawnPersonOffscreen OBJ_IMPA",
+            "    ::textboxSpeaker IMPA10 SPEAKER_IMPA_UNKNOWN",
+            "",
+            "    ::LobbyMoveIntoDoublePosition OBJ_MALON OBJ_IMPA",
+            "",
+            "    ::textboxActor IMPA20 OBJ_IMPA",
+            "    ::textboxSpeaker LINK50 SPEAKER_LINK",
+            "    ::textboxActorAnimAtPause IMPA30 OBJ_IMPA IMPA_LOOKUP",
+            "    ::textboxActor IMPA40 OBJ_IMPA",
+            "    ::spawnPersonOffScreenAtPos OBJ_ZELDA 50 6 21 -8000",
+            "    ::textboxSpeaker LINK60 SPEAKER_LINK",
+            "    ::setActorAnim OBJ_ZELDA ZELDA_THINKING",
+            "    ::LobbyMoveIntoTriplePosition OBJ_MALON OBJ_IMPA OBJ_ZELDA",
+            "    ::textboxSpeaker LINK70 SPEAKER_LINK",
+            "",
+            "    ::textboxSpeaker LINK80 SPEAKER_LINK",
+            "",
+            "    ::textboxActorAnim ZELDA10 OBJ_ZELDA ZELDA_SAD",
+            "    ::setActorAnim OBJ_MALON MALON_HAPPY",
+            "    ::textboxActorAnim MALON50 OBJ_MALON MALON_BOW",
+            "    ::setActorAnim OBJ_IMPA IMPA_IDLE",
+            "    ::textboxActorAnim ZELDA20 OBJ_ZELDA ZELDA_SHOCK",
+            "    ::setActorAnim OBJ_MALON MALON_PENSIVE",
+            "    ::textboxActor ZELDA30 OBJ_ZELDA",
+            "    ::textboxSpeaker LINK90 SPEAKER_LINK",
+            "    ::textboxActorAnim IMPA50 OBJ_IMPA IMPA_LOOKUP",
+            "    ::textboxActorAnim ZELDA40 OBJ_ZELDA ZELDA_ANGRY",
+            "    ::textboxActorAnim IMPA60 OBJ_IMPA IMPA_GLARE",
+            "    ::textboxActorAnim IMPA70 OBJ_IMPA IMPA_THINKING",
+            "    ::textboxActorAnim ZELDA50 OBJ_ZELDA ZELDA_SHOCK",
+            "",
+            "    ::CR_Closed",
+            "    ::setActorAnim OBJ_MALON MALON_PENSIVE",
+            "    ::textboxActorCamAnimPersistent IMPA80 OBJ_IMPA LOBBY_CAMERA_MAIN IMPA_STANCE",
+            "    ::ForceCourtRecordPresent",
+            "",
+            "    // FAIL",
+            "    if ext_var OBJ_CONTROLLER CONTROLLER_PLAYER_PRESENTED != IDX_OILBOTTLE",
+            "        set ext_var OBJ_CONTROLLER CONTROLLER_PLAYER_PRESENTED = -1",
+            "",
+            "        ::CR_Open",
+            "        ::setActorAnim OBJ_IMPA IMPA_GLARE",
+            "        ::setActorAnim OBJ_ZELDA ZELDA_THINKING",
+            "        ::textboxSpeaker 2_LINK10 SPEAKER_LINK",
+            "        ::textboxSpeaker 2_LINK20 SPEAKER_LINK",
+            "        ::textboxActor 2_ZELDA10 OBJ_ZELDA",
+            "        ::textboxActor 2_IMPA10 OBJ_IMPA",
+            "    else",
+            "        ::CR_Open",
+            "        ::setActorAnim OBJ_MALON MALON_IDLE",
+            "        ::textboxActorAnim 1_ZELDA10 OBJ_ZELDA ZELDA_SHOCK",
+            "        ::textboxSpeaker 1_LINK10 SPEAKER_LINK",
+            "        ::textboxActorAnim 1_ZELDA20 OBJ_ZELDA ZELDA_THINKING",
+            "",
+            "        set ext_var OBJ_CONTROLLER CONTROLLER_CURRENT_SPEAKERACTOR = -1",
+            "        await frames 2",
+            "        ::setSpeakerInternal SPEAKER_LINK",
+            "        show_textbox_sp 1_LINK20",
+            "        await frames 15",
+            "        ::setActorAnim OBJ_IMPA IMPA_GLARE",
+            "        await textbox_on_screen false",
+            "",
+            "        QUAKE QUAKE_TYPE1 0x3A98 10 0 0 0x500 0",
+            "        show_textbox_sp 1_LINK25",
+            "        await textbox_on_screen false",
+            "",
+            "        ::textboxSpeaker 1_LINK30 SPEAKER_LINK",
+            "        ::textboxActorAnim 1_IMPA10 OBJ_IMPA IMPA_LOOKUP",
+            "    endif",
+            "",
+            "    ::textboxActorAnim IMPA90 OBJ_IMPA IMPA_LOOKUP",
+            "    ::textboxActorAnim MALON60 OBJ_MALON MALON_PENSIVE",
+            "    ::textboxSpeaker SOLDIER10 SPEAKER_SOLDIER",
+            "    ::spawnPersonOffScreenAtPos OBJ_VISCEN -183 0 116 11400",
+            "    ::setActorAnim OBJ_ZELDA ZELDA_SHOCK",
+            "    ::setActorAnim OBJ_MALON MALON_SHOCK",
+            "    await frames 5",
+            "    ::LobbySwitchLeftNPC OBJ_MALON OBJ_VISCEN -85 94 13400",
+            "    ::setNPCMakerVisibility OBJ_MALON OBJ_INVISIBLE",
+            "    ::setTextSpeed 5",
+            "    ::textboxActor SOLDIER20 OBJ_VISCEN",
+            "    ::setTextSpeed 2",
+            "    ::textboxActorAnim IMPA100 OBJ_IMPA IMPA_IDLE",
+            "    ::textboxActorAnim IMPA105 OBJ_IMPA IMPA_STANCE",
+            "    ::LobbyNPCLRExitStageRight OBJ_VISCEN OBJ_ZELDA",
+            "    play sfx_global NA_SE_EV_DOOR_CLOSE",
+            "    kill npcmaker OBJ_ZELDA",
+            "    kill npcmaker OBJ_VISCEN",
+            "    ::setNPCMakerVisibility OBJ_MALON OBJ_VISIBLE",
+            "    ::setActorAnim OBJ_MALON MALON_PENSIVE",
+            "    ::LobbyMoveIntoDoublePosition OBJ_MALON OBJ_IMPA",
+            "    ::textboxSpeaker LINK100 SPEAKER_LINK",
+            "    stop bgm 20",
+            "    ::textboxActorAnim IMPA110 OBJ_IMPA IMPA_GLARE",
+            "    ::textboxActorAnim MALON70 OBJ_MALON MALON_ANGRYLOBBY",
+            "    ::textboxActorAnim IMPA120 OBJ_IMPA IMPA_LOOKUP",
+            "    ::textboxActorAnim MALON80 OBJ_MALON MALON_SHOCK",
+            "    ::textboxActorAnim IMPA130 OBJ_IMPA IMPA_THINKING",
+            "    ::textboxActorAnim IMPA140 OBJ_IMPA IMPA_LOOKUP",
+            "    ::textboxActorAnim MALON90 OBJ_MALON MALON_PENSIVE",
+            "    ::textboxActorAnim IMPA150 OBJ_IMPA IMPA_LOOK",
+            "    await frames 20",
+            "    ::textboxActorAnim IMPA160 OBJ_IMPA IMPA_IDLE",
+            "    ::textboxActorAnim IMPA170 OBJ_IMPA IMPA_IDLE",
+            "    ::textboxSpeaker LINK110 SPEAKER_LINK",
+            "    ::textboxActor IMPA180 OBJ_IMPA",
+            "    ::textboxActorAnimAtPause IMPA190 OBJ_IMPA IMPA_STANCE",
+            "    ::LobbyNPCLRExitStage OBJ_MALON OBJ_IMPA",
+            "",
+            "DragmireEnters:",
+            "    play sfx_global NA_SE_EV_DOOR_OPEN",
+            "    kill npcmaker OBJ_IMPA",
+            "    ::spawnPersonOffscreen OBJ_DRAGMIRE",
+            "    await frames 2",
+            "    ::setDragmireHeadOverride DRAGMIRE_HEAD_FUMING",
+            "    ::textboxSpeaker LINK120 SPEAKER_LINK",
+            "",
+            "    set ref_actor npcmaker OBJ_DRAGMIRE",
+            "    actor.posX = -53",
+            "    actor.posY = -10",
+            "    actor.posZ = 95",
+            "    actor.rotY = 6720",
+            "    ::playMusic BGM_TENSION",
+            "    ::setActorAnim OBJ_MALON MALON_ANGRYLOBBY",
+            "    ::textboxSpeaker DRAGMIRE10 SPEAKER_DRAGMIRE",
+            "    ::textboxSpeaker LINK130 SPEAKER_LINK",
+            "    ::setDragmireHeadOverride DRAGMIRE_HEAD_SERIOUS",
+            "    ::textboxActor DRAGMIRE20 OBJ_DRAGMIRE",
+            "    ::setDragmireHeadOverride DRAGMIRE_HEAD_FUMING",
+            "    ::textboxActor DRAGMIRE30 OBJ_DRAGMIRE",
+            "",
+            "    ::textboxSpeaker LINK140 SPEAKER_LINK",
+            "",
+            "    ::LobbyMoveIntoDoublePosition OBJ_MALON OBJ_DRAGMIRE",
+            "    ::setDragmireHeadOverride DRAGMIRE_HEAD_FUMING",
+            "    ::textboxActor MALON100 OBJ_MALON",
+            "    ::textboxSpeaker LINK150 SPEAKER_LINK",
+            "",
+            "    ::setMusicVolume 0 30",
+            "    ::textboxActorAnim DRAGMIRE70 OBJ_DRAGMIRE DRAGMIRE_IDLE",
+            "",
+            "    await frames 30",
+            "    stop bgm 0",
+            "    play sfx_global CLUE",
+            "    ::setDragmireHeadOverride DRAGMIRE_HEAD_SERIOUS",
+            "    await frames 30",
+            "    ::textboxActorAnim DRAGMIRE80 OBJ_DRAGMIRE DRAGMIRE_IDLE",
+            "    ::setActorAnim OBJ_MALON MALON_SHOCK",
+            "    ::textboxSpeaker LINK160 SPEAKER_LINK",
+            "    ::textboxActor DRAGMIRE85 OBJ_DRAGMIRE",
+            "    ::setActorAnim OBJ_MALON MALON_PENSIVE",
+            "    ::setDragmireHeadOverride DRAGMIRE_HEAD_FUMING",
+            "    ::textboxActorAnim DRAGMIRE87 OBJ_DRAGMIRE DRAGMIRE_SMUG",
+            "    ::textboxSpeaker LINK165 SPEAKER_LINK",
+            "    ::setDragmireHeadOverride DRAGMIRE_HEAD_GRIN",
+            "    ::textboxActor DRAGMIRE86 OBJ_DRAGMIRE",
+            "    ::setDragmireHeadOverrideOff",
+            "    ::textboxActorAnim DRAGMIRE50 OBJ_DRAGMIRE DRAGMIRE_LAUGH",
+            "",
+            "    ::LobbyMoveOffDoublePosition OBJ_MALON OBJ_DRAGMIRE",
+            "    await frames 10",
+            "    play sfx_global NA_SE_EV_DOOR_CLOSE",
+            "",
+            "    await frames 30",
+            "    ::textboxActorAnim MALON120 OBJ_MALON MALON_SAD",
+            "    ::textboxSpeaker LINK170 SPEAKER_LINK",
+            "    ::playMusic BGM_HAPPYEND",
+            "    ::setActorAnim OBJ_MALON MALON_IDLE",
+            "    ::textboxSpeaker LINK180 SPEAKER_LINK",
+            "    ::textboxActorAnim MALON130 OBJ_MALON MALON_PENSIVE",
+            "    ::textboxActorAnim MALON140 OBJ_MALON MALON_HAPPY",
+            "    ::textboxSpeaker LINK190 SPEAKER_LINK",
+            "    ::textboxActorAnim MALON160 OBJ_MALON MALON_HAPPY",
+            "    ::textboxActorAnim MALON170 OBJ_MALON MALON_PENSIVE",
+            "    ::textboxSpeaker LINK200 SPEAKER_LINK",
+            "    ::setActorAnim OBJ_MALON MALON_HAPPY",
+            "    ::CR_Closed",
+            "    stop BGM 100",
+            "    await frames 20",
+            "    FADEOUT 0 0 0 20",
+            "    ::setCamera LOBBY_CAMERA_BG",
+            "    FADEIN 20",
+            "    ::textboxSpeaker LINK210 SPEAKER_LINK",
+            "    ::textboxSpeaker LINK220 SPEAKER_LINK",
+            "",
+            "    set SAVE_PROGRESS = PROGRESS_CREDITS",
+            "    set SAVE_HASBEATENGAME = 125",
+            "    set SAVE_LASTDIEDONSCENE = 0",
+            "",
+            "    // Unlock all extra scenes on Wii/U VC (since TPak can't be used there anyway)",
+            "    if ccall NpcM_GetSkipTpak == 1",
+            "        SAVE_EXTRASCENES = 0xFF",
+            "    endif",
+            "",
+            "    save",
+            "    warp ROUTE_HYRULEFIELD TRANS_TYPE_ROUTE SCENE_HEADER_CREDITS",
+            "    await forever",
+            "",
+            ""
+          ],
+          "ParseErrors": [],
+          "Name": "Script"
+        },
+        {
+          "TextLines": [
+            "::SceneController_Always"
+          ],
+          "ParseErrors": [],
+          "Name": "Always"
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 7,
+      "TalkSegment": 7,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [
+        {
+          "Name": "START",
+          "MessageTextLines": [
+            "<SPEED:1><G><LC>March 17, 12:32 PM",
+            "<LC>Hyrule Grand Court",
+            "<LC>Defendant Lobby No. 3<SOUND:0>"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK10",
+          "MessageTextLines": [
+            "<SOUND:WHAP><DI>We did it!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "MALON10",
+          "MessageTextLines": [
+            "I suppose so..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK20",
+          "MessageTextLines": [
+            "<SOUND:0><C>(Hmm. I guess Ingo's outburst kind of",
+            "<SOUND:CLUE>soured the mood, huh...)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "MALON20",
+          "MessageTextLines": [
+            "I don't think I can ever forgive Mr.",
+            "Ingo for what he's done."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK30",
+          "MessageTextLines": [
+            "That's...<PAUSE:3> fair enough, honestly."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK40",
+          "MessageTextLines": [
+            "Really, though, you shouldn't think",
+            "about that for now.",
+            "<NEW_BOX>",
+            "<SOUND:WHAP><DI>You're free!<PAUSE:5> It's time to celebrate!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "MALON30",
+          "MessageTextLines": [
+            "I guess you're right."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA10",
+          "MessageTextLines": [
+            "Excellent work."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA20",
+          "MessageTextLines": [
+            "I knew you'd pull through!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK50",
+          "MessageTextLines": [
+            "Oh, uh, thanks.",
+            "<NEW_BOX>",
+            "I couldn't have done it without you,",
+            "really.<PAUSE:5> So...<PAUSE:3> thank you."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA30",
+          "MessageTextLines": [
+            "Now, now,<PAUSE:3> that's not quite right."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA40",
+          "MessageTextLines": [
+            "If you want to thank someone, I'm not",
+            "the one who deserves it the most."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK60",
+          "MessageTextLines": [
+            "<SOUND:0><C><SOUND:CLUE>(Huh?)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK70",
+          "MessageTextLines": [
+            "<SOUND:WHAP><DI>Your Highness?!",
+            "<NEW_BOX>",
+            "I thought you were going back to",
+            "Hyrule Castle...?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK80",
+          "MessageTextLines": [
+            "<SOUND:0><C>(What strings did Impa have to pull to",
+            "get her here?)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "ZELDA10",
+          "MessageTextLines": [
+            "I was...<PAUSE:5> but I realized I should",
+            "apologise for what I did personally."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "MALON50",
+          "MessageTextLines": [
+            "It's... an honour."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "ZELDA20",
+          "MessageTextLines": [
+            "Ah, there is...<PAUSE:3> no need to bow.<PAUSE:5> ",
+            "Not after what I have done."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "ZELDA30",
+          "MessageTextLines": [
+            "Really, if not for my status, I would",
+            "have probably been carted off to",
+            "prison alongside that angry little man..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK90",
+          "MessageTextLines": [
+            "<SOUND:0><C>(Perjury's,<PAUSE:3> uh,<PAUSE:3> pretty serious, so that's",
+            "probably <SOUND:CLUE>not entirely wrong...)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA50",
+          "MessageTextLines": [
+            "Ah, as usual, you don't give yourself",
+            "<SOUND:CLUE>enough credit, Your Highness."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "ZELDA40",
+          "MessageTextLines": [
+            "How can you say that, Detective?<PAUSE:5> ",
+            "<SOUND:WHAP>I almost condemned an innocent",
+            "person to prison!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA60",
+          "MessageTextLines": [
+            "Yes, there are some things you should",
+            "think twice about doing, in the future..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA70",
+          "MessageTextLines": [
+            "But it's all thanks to you that the young",
+            "lady over here finally went free!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "ZELDA50",
+          "MessageTextLines": [
+            "Huh?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA80",
+          "MessageTextLines": [
+            "<SOUND:WHAP><DI>C'mon, attorney!<PAUSE:5> <G>Show Her Highness",
+            "what I'm talking about!<PERSISTENT>"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "2_LINK10",
+          "MessageTextLines": [
+            "I, uh, well..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "2_LINK20",
+          "MessageTextLines": [
+            "<SOUND:0><C>(Impa just shot me the most",
+            "unimpressed face.)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "2_ZELDA10",
+          "MessageTextLines": [
+            "Hmm..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "2_IMPA10",
+          "MessageTextLines": [
+            "Never mind about that."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "1_ZELDA10",
+          "MessageTextLines": [
+            "<SOUND:CLUE>The bottle..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "1_LINK10",
+          "MessageTextLines": [
+            "Well, it's true.",
+            "<NEW_BOX>",
+            "Without this, and without knowing",
+            "about the fire, we wouldn't have had",
+            "any proof to substantiate our claims."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "1_ZELDA20",
+          "MessageTextLines": [
+            "Hmm..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "1_LINK20",
+          "MessageTextLines": [
+            "And,<PAUSE:3> really,<PAUSE:3> your <SOUND:HINT>obviously-false",
+            "testimony helped us a lo<DI><EMDASH><FADE:10>"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "1_LINK25",
+          "MessageTextLines": [
+            "<LC><SOUND:STAB><DI><R>YYYOWCH~!<FADE:20>"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "1_LINK30",
+          "MessageTextLines": [
+            "<SOUND:0><C><DI><SOUND:WHAP>(Impa just stepped on my foot!)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "1_IMPA10",
+          "MessageTextLines": [
+            "Well, there you have it!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA90",
+          "MessageTextLines": [
+            "In any case, I'm sure Miss Malon isn't",
+            "too upset."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "MALON60",
+          "MessageTextLines": [
+            "I, uh...<PAUSE:3> well...<PAUSE:3> sure?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "SOLDIER10",
+          "MessageTextLines": [
+            "<SOUND:EXPLOSION><DI><LC>TEN-HUT!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "SOLDIER20",
+          "MessageTextLines": [
+            "<SOUND:WHAP>We have orders to escort the princess",
+            "back to the castle immediately!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA100",
+          "MessageTextLines": [
+            "<SOUND:WHAP>Ah, just in time."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA105",
+          "MessageTextLines": [
+            "Farewell, Your Highness."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK100",
+          "MessageTextLines": [
+            "<SOUND:0><C>(And so they left...)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA110",
+          "MessageTextLines": [
+            "<SOUND:WHAP>Now, then, listen to me.<PAUSE:3> I know that I",
+            "am perhaps being too lenient on the",
+            "princess, but...",
+            "<NEW_BOX>",
+            "Tough times are ahead.",
+            "<NEW_BOX>",
+            "The princess will need all the",
+            "confidence she can get to lead the",
+            "kingdom through them."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "MALON70",
+          "MessageTextLines": [
+            "She...<PAUSE:3> <SOUND:WHAP>she needs to learn to take",
+            "responsibility for her actions, too,",
+            "though!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA120",
+          "MessageTextLines": [
+            "And she will."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "MALON80",
+          "MessageTextLines": [
+            "<SOUND:CLUE>Huh?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA130",
+          "MessageTextLines": [
+            "Her Highness is in for a rather",
+            "<SOUND:HINT>unpleasant afternoon today, I imagine."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA140",
+          "MessageTextLines": [
+            "The urgency with which she has just",
+            "been escorted out of here isn't",
+            "coincidental."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "MALON90",
+          "MessageTextLines": [
+            "What, is the King going to scold her?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA150",
+          "MessageTextLines": [
+            "<SOUND:0><PAUSE:3>.<PAUSE:3>.<PAUSE:3>.<PAUSE:3><SOUND:0>At the very least."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA160",
+          "MessageTextLines": [
+            "Now, then...",
+            "<NEW_BOX>My duties call, unfortunately, so I must",
+            "be off."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA170",
+          "MessageTextLines": [
+            "Again, you did well today, both of you.<PAUSE:5> ",
+            "<SOUND:WHAP>I trust that I will be able to rely on you",
+            "in future court proceedings as well?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK110",
+          "MessageTextLines": [
+            "I'll... try my best."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA180",
+          "MessageTextLines": [
+            "That's all I ask."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "IMPA190",
+          "MessageTextLines": [
+            "That <SOUND:CLUE>unpleasant prosecutor seems to",
+            "be making his way over here, so I'll",
+            "be excusing myself posthaste.<PAUSE:5> Farewell."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK120",
+          "MessageTextLines": [
+            "Uh oh...<FADE:10>"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "DRAGMIRE10",
+          "MessageTextLines": [
+            "<SOUND:EXPLOSION><DI>YOU."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK130",
+          "MessageTextLines": [
+            "<SOUND:WHAP>Hello!<PAUSE:3> Nice day we're having, isn't it?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "DRAGMIRE20",
+          "MessageTextLines": [
+            "Tell me,<PAUSE:3> <SOUND:EXPLOSION>now!<PAUSE:5> Where did that blasted",
+            "detective go?!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "DRAGMIRE30",
+          "MessageTextLines": [
+            "To have my reputation tarnished",
+            "this way...!<PAUSE:5><SOUND:EXPLOSION> By some novice attorney",
+            "from the boonies...!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK140",
+          "MessageTextLines": [
+            "<SOUND:0><C>(Dramatic much?<PAUSE:5> He looks about ready",
+            "to burst from anger...)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "MALON100",
+          "MessageTextLines": [
+            "<SOUND:WHAP><DI>Don't be such a sore loser!",
+            "<NEW_BOX>",
+            "You lost.<PAUSE:3> Deal with it!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK150",
+          "MessageTextLines": [
+            "<SOUND:WHAP>Yeah!<PAUSE:3> We got the right verdict!<PAUSE:3> Doesn't",
+            "that make you even a little bit glad?"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "DRAGMIRE70",
+          "MessageTextLines": [
+            "<SPEED:101>Hrmmmm.<SPEED:102>"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "DRAGMIRE80",
+          "Comment": "Dragmire gets visibly less angry just before this message appears. It's meant to imply that he isn't a manifestation of evil or anything like in most Zelda games, just a normal (but rude) guy",
+          "MessageTextLines": [
+            "<PAUSE:5>Yes...<PAUSE:5> I suppose there is some",
+            "worth in that."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK160",
+          "MessageTextLines": [
+            "<SOUND:0><C><SOUND:HINT>(...!)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "DRAGMIRE85",
+          "MessageTextLines": [
+            "...What transpired is most unfortunate.<PAUSE:7> ",
+            "I can only offer my condolences."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "DRAGMIRE87",
+          "MessageTextLines": [
+            "Just remember that it was the meddling",
+            "of that idiotic princess and the stupidity",
+            "of that blasted detective that led to your",
+            "arrest.",
+            "<NEW_BOX>",
+            "<SOUND:HINT>So if you have any grievances, take it",
+            "up with them."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK165",
+          "MessageTextLines": [
+            "<C><PAUSE:5>(...I suppose there is some truth",
+            "to what he's saying.)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "DRAGMIRE86",
+          "MessageTextLines": [
+            "Speaking of the detective, it appears",
+            "she has fled from me like a Cucco on",
+            "fire."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "DRAGMIRE50",
+          "Comment": "There's an implied reference here to Ganondorf swearing to exterminate Link's descendants after his seal is broken at the end of OoT. Also, a reference to the broader curse placed upon Link and Zelda by Demise in Skyward Sword - that an incarnation of Demise's hatred will follow their bloodline forever.\n\nTo be clear, this message isn't meant to literally refer to an existing curse or anything, it's just that Demise/Ganondorf has made similar threats in other games, essentially.",
+          "MessageTextLines": [
+            "Mark my words: she will regret what",
+            "she's done for <SOUND:EXPLOSION>GENERATIONS."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "MALON120",
+          "MessageTextLines": [
+            "<PAUSE:5><SOUND:CLUE>...Well, that sure was something.",
+            "<NEW_BOX>",
+            "I don't know if he was being sincere,",
+            "or just wanted to shift blame onto",
+            "someone else..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK170",
+          "MessageTextLines": [
+            "<C>(I wouldn't say he's entirely",
+            "blameless...)"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK180",
+          "MessageTextLines": [
+            "Never mind that.<PAUSE:5> Do you think you'll be",
+            "all right, running the ranch by yourself?",
+            "<NEW_BOX>",
+            "Of course I'll come visit,<PAUSE:3> but I have my",
+            "attorney duties too..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "MALON130",
+          "MessageTextLines": [
+            "I'll get in touch with the castle, see if",
+            "they can spare some men to work at",
+            "the ranch."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "MALON140",
+          "MessageTextLines": [
+            "Silly as my father may have seemed,",
+            "he really did prepare me to take over",
+            "one day, and he's taught me well.",
+            "<NEW_BOX>",
+            "I'll make sure the animals are well",
+            "cared for, just as I always have."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK190",
+          "MessageTextLines": [
+            "<SOUND:WHAP><DI>That's the spirit!<PAUSE:5> I believe in you!"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "MALON160",
+          "MessageTextLines": [
+            "I really want to thank you for bringing",
+            "the truth to light."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "MALON170",
+          "MessageTextLines": [
+            "If it wasn't for you, I don't even want",
+            "to think about what could've",
+            "happened..."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK200",
+          "MessageTextLines": [
+            "<SOUND:WHAP>Don't mention it!",
+            "<NEW_BOX>I'm just glad everything worked out in",
+            "the end."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK210",
+          "MessageTextLines": [
+            "And so ended a very personal case",
+            "for me.",
+            "<NEW_BOX>",
+            "It felt like a weight had been lifted off",
+            "my back.",
+            "<NEW_BOX>",
+            "Malon continued working at the ranch,",
+            "hoping to make it prosper even beyond",
+            "what her father was able to accomplish.",
+            "<NEW_BOX>",
+            "I didn't really think much about it, but",
+            "the days following were some of the",
+            "happiest I'd lived for a long time.",
+            "<NEW_BOX>",
+            "Little did I know that a terrible tragedy",
+            "would soon shock the entire kingdom,<PAUSE:3> ",
+            "and I'd find myself smack dab in the",
+            "middle of it."
+          ],
+          "Type": 2,
+          "Position": 0
+        },
+        {
+          "Name": "LINK220",
+          "Comment": "A reference to The \"Legend\" of Zelda, of course",
+          "MessageTextLines": [
+            "<NS>But that's a <R>legend<W> for another day...<FADE:50>"
+          ],
+          "Type": 2,
+          "Position": 0
+        }
+      ],
+      "Localization": [
+        {
+          "Language": "German",
+          "Messages": [
             {
               "Name": "MALON20",
               "MessageTextLines": [
@@ -65539,48 +68185,25 @@
           ],
           "Type": 0,
           "Position": 0
-        },
-        {
-          "Name": "5_2_LINK100",
-          "MessageTextLines": [
-            "I bet Ingo expected this box to stay",
-            "in shipping limbo a while longer.",
-            "<NEW_BOX>",
-            "How unfortunate for him that the postal",
-            "service was on its game today."
-          ],
-          "Type": 0,
-          "Position": 0
-        },
-        {
-          "Name": "5_2_LINK110",
-          "MessageTextLines": [
-            "<SOUND:0><C>(...Maybe because they were worried",
-            "it'd start to smell.)"
-          ],
-          "Type": 0,
-          "Position": 0
-        },
-        {
-          "Name": "5_2_JUDGE10",
-          "MessageTextLines": [
-            "I believe this calls for us to investigate",
-            "these boxes of milk more closely."
-          ],
-          "Type": 0,
-          "Position": 0
-        },
-        {
-          "Name": "5_2_JUDGE20",
-          "MessageTextLines": [
-            "<SOUND:WHAP><DI>Soldiers!<PAUSE:3> Have these boxes retrieved",
-            "from the ranch immediately!<SQUARE>"
-          ],
-          "Type": 0,
-          "Position": 0
         }
       ],
       "Localization": [
+        {
+          "Language": "",
+          "Messages": []
+        },
+        {
+          "Language": "",
+          "Messages": []
+        },
+        {
+          "Language": "",
+          "Messages": []
+        },
+        {
+          "Language": "",
+          "Messages": []
+        },
         {
           "Language": "German",
           "Messages": [
@@ -69008,8 +71631,6 @@
               "Name": "Scenario",
               "MessageTextLines": [
                 "",
-                "",
-                "",
                 "<Shift:140><R>SZENARIO<W>",
                 "",
                 "",
@@ -69037,6 +71658,8 @@
                 "<Shift:180>Professional Gopnik",
                 "",
                 "<Shift:180>Jodocus",
+                "",
+                "<Shift:180>NEWLPK",
                 "",
                 "<PERSISTENT>"
               ],
@@ -69632,6 +72255,1488 @@
               "Type": 1,
               "Position": 2
             },
+            {
+              "Name": "UnlockedWiiUGCN",
+              "MessageTextLines": [
+                "<DI><SOUND:NA_SE_SY_GET_ITEM><LC>Das <R>Extra 1<W>, <R>Extra 2<W> und <R>Extra 3<W>",
+                "<LC>wurden freigeschaltet!",
+                "",
+                "<LC>Schau einfach in die Szenenauswahl hinein!<SQUARE>"
+              ],
+              "Type": 1,
+              "Position": 2
+            }
+          ]
+        }
+      ],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 20,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "CullForward": 1000.0,
+      "CullDown": 700.0,
+      "CullScale": 350.0,
+      "AnimInterpFrames": 4,
+      "EmbeddedOverlayCode": {
+        "CodeLines": [
+          "#define SEQIO_FUNCS",
+          "#define PAL_FUNCS",
+          "#define VC_CHECKS",
+          "#include \"npc_maker_header.h\"",
+          "#include <npcmaker/npc_maker_types.h>",
+          "",
+          "/*",
+          "To make NPC Maker able to use your function, it must have the following form:",
+          "",
+          "1. Its name must have a NpcM_ prefix (eg. NpcM_Function),",
+          "2. Must have at least two parameters: NpcMaker* and PlayState*. Up to 8 additional float arguments can be passed on from scripts.",
+          "3. If you plan to pass the result to scripts, the return type must be float",
+          "5. A unique name",
+          "",
+          "Examples of valid function signatures are thus, for example:",
+          "",
+          "void NpcM_Function(NpcMaker* npc, PlayState* play, float argument, float argument1)",
+          "float NpcM_Function2(NpcMaker* npc, PlayState* play)",
+          "float NpcM_DoAThing(NpcMaker* npc, PlayState* play)",
+          "",
+          "The exception for this is functions which should run \"On limb\", their signature is as follows:",
+          "",
+          "int NpcM_Function(NpcMaker* npc, PlayState* playState, s32 limbNumber, Gfx** dListPtr, Vec3f* translation, Vec3s* rotation, void* instance, Gfx** gfxP)",
+          "",
+          "This function should return 0 if the limb is meant to be drawn, and 1 if it is not.",
+          "",
+          "Warning; When using these functions from scripts, make sure",
+          "the return type is valid.",
+          "*/",
+          "",
+          "",
+          "bool textExplode;",
+          "int Alpha[3];",
+          "int CurLoadedMsg[3];",
+          "Vec2s* textPositions[3];",
+          "Vec2s* movementVectors[3];",
+          "",
+          "#define DRAW_DEBUG npc->scriptVars[19]",
+          "#define TEXT_DRAW_X 28",
+          "#define TEXT_DRAW_Y 40",
+          "#define EXPLOSION_CHAR_GRAVITY -2",
+          "",
+          "void NpcM_InitCredits(NpcMaker* npc, PlayState* play)",
+          "{",
+          "    Alpha[0] = 0;",
+          "    Alpha[1] = 0;",
+          "    Alpha[2] = 0;",
+          "    CurLoadedMsg[0] = -1;",
+          "    CurLoadedMsg[1] = -1;",
+          "    CurLoadedMsg[2] = -1;",
+          "",
+          "    for (int j = 0; j < 3; j++)",
+          "    {",
+          "        textPositions[j] = ZeldaArena_Malloc(sizeof(Vec2s) * 200);",
+          "        movementVectors[j] = ZeldaArena_Malloc(sizeof(Vec2s) * 200);",
+          "",
+          "        for (int i = 0; i < 200; i++)",
+          "            movementVectors[j][i] = (Vec2s){Rand_S16Offset(-5, 10), Rand_S16Offset(2, 10)};",
+          "    }",
+          "",
+          "    textExplode = false;",
+          "}",
+          "",
+          "void NpcM_DestroyCredits(NpcMaker* npc, PlayState* play)",
+          "{",
+          "    for (int j = 0; j < 3; j++)",
+          "    {",
+          "        ZeldaArena_Free(textPositions[0]);",
+          "        ZeldaArena_Free(movementVectors[0]);",
+          "    }",
+          "}",
+          "",
+          "float NpcM_FadeAlphaIn(NpcMaker* npc, PlayState* play, float which)",
+          "{",
+          "    int whichInt = (int)which;",
+          "    bool allDone = true;",
+          "",
+          "    for (int i = 0; i < 3; i++)",
+          "    {",
+          "        if (!(whichInt & (1 << i)))",
+          "            continue;",
+          "",
+          "        if (Alpha[i] != 255)",
+          "        {",
+          "            Alpha[i] += 15;",
+          "            allDone = false;",
+          "        }",
+          "    }",
+          "",
+          "    return allDone;",
+          "}",
+          "",
+          "float NpcM_FadeAlphaOut(NpcMaker* npc, PlayState* play, float which)",
+          "{",
+          "    int whichInt = (int)which;",
+          "    bool allDone = true;",
+          "",
+          "    for (int i = 0; i < 3; i++)",
+          "    {",
+          "        if (!(whichInt & (1 << i)))",
+          "            continue;",
+          "",
+          "        if (Alpha[i] != 0)",
+          "        {",
+          "            Alpha[i] -= 15;",
+          "            allDone = false;",
+          "        }",
+          "    }",
+          "",
+          "    return allDone;",
+          "}",
+          "",
+          "void NpcM_DrawLogo(NpcMaker* npc, PlayState* play, Gfx** gfxp)",
+          "{",
+          "    Gfx* gfx = *gfxp;",
+          "",
+          "    #define LOGO_OFFSET (void*)0x0",
+          "    Draw2D(RGBA32, OBJECT_MAG, play, &gfx, SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2, LOGO_OFFSET, NULL, 180, 140, Alpha[0]);",
+          "",
+          "    *gfxp = gfx;",
+          "}",
+          "",
+          "void NpcM_DrawCreditsText(NpcMaker* npc, PlayState* play, Gfx** gfxp, int textId1, int textId2, int textId3, int x, int y, float Scale)",
+          "{",
+          "    Gfx* gfx = *gfxp;",
+          "",
+          "    Gfx_SetupDL_39Ptr(&gfx);",
+          "    gDPPipeSync(gfx++);",
+          "",
+          "    bool charDrawn = true;",
+          "",
+          "    int textIds[3] = {textId1, textId2, textId3};",
+          "",
+          "    for (int i = 0; i < 3; i++)",
+          "    {",
+          "        void* msg = npc->GetInternalMsgPtrFunc(npc, play, textIds[i]);",
+          "",
+          "        if (CurLoadedMsg[i] != textIds[i] && textIds[i] >= 0)",
+          "        {",
+          "            TextOperation(play, NULL, NULL,",
+          "                          COLOR_BLACK, COLOR_BLACK,",
+          "                          0, 0,",
+          "                          msg,",
+          "                          x, y,",
+          "                          0, 0,",
+          "                          textPositions[i], Scale, Scale, 0, false, OPERATION_SET_POSITIONS_CREDITS);",
+          "",
+          "            CurLoadedMsg[i] = textIds[i];",
+          "        }",
+          "",
+          "        if (textIds[i] >= 0 && Alpha[i] != 0)",
+          "            charDrawn &= TextOperation(play, NULL, &gfx,",
+          "                                       COLOR_WHITE, COLOR_BLACK,",
+          "                                       Alpha[i], Alpha[i],",
+          "                                       msg,",
+          "                                       x, y,",
+          "                                       1, 1,",
+          "                                       textPositions[i], Scale, Scale, 0, false, OPERATION_DRAW_INDIVIDUAL_SHADOW);",
+          "",
+          "        if (textExplode)",
+          "        {",
+          "            for (int k = 0; k < 200; k++)",
+          "            {",
+          "                textPositions[i][k].x += movementVectors[i][k].x;",
+          "                textPositions[i][k].y -= movementVectors[i][k].y;",
+          "                movementVectors[i][k].y += EXPLOSION_CHAR_GRAVITY;",
+          "            }",
+          "        }",
+          "    }",
+          "",
+          "",
+          "    if (!charDrawn)",
+          "    {",
+          "        Alpha[0] = 0;",
+          "        Alpha[1] = 0;",
+          "        Alpha[2] = 0;",
+          "        textExplode = false;",
+          "    }",
+          "",
+          "    *gfxp = gfx;",
+          "}",
+          "",
+          "",
+          "void NpcM_DrawDebug(NpcMaker* npc, PlayState* play, Gfx** gfxp)",
+          "{",
+          "    Gfx* gfx = *gfxp;",
+          "",
+          "    Gfx_SetupDL_39Ptr(&gfx);",
+          "    gDPPipeSync(gfx++);",
+          "",
+          "    char* text = \"TESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTINGTESTING\";",
+          "    sprintf(text, \"SeqIO:\\x01\"\"%X\\x01\"\"%X\\x01\"\"%X\\x01\"\"%X\\x01\"\"%X\\x01\"\"%X\\x01\"\"%X\\x01\"\"%X\\x02\",",
+          "                      getSeqio(0), getSeqio(1), getSeqio(2), getSeqio(3),",
+          "                      getSeqio(4), getSeqio(5), getSeqio(6), getSeqio(7));",
+          "",
+          "    TextOperation(play, NULL, &gfx,",
+          "                  COLOR_WHITE, COLOR_BLACK,",
+          "                  255, 255,",
+          "                  text,",
+          "                  12, 12,",
+          "                  1, 1,",
+          "                  NULL, TEXT_SCALE, TEXT_SCALE, 0, false, OPERATION_DRAW_SHADOW);",
+          "",
+          "    *gfxp = gfx;",
+          "}",
+          "",
+          "void NpcM_CreditsDraw(NpcMaker* npc, PlayState* play, float DrawType, float TextId1, float TextId2, float TextId3, float TextScale)",
+          "{",
+          "    GraphicsContext* __gfxCtx = play->state.gfxCtx;",
+          "    Gfx* gfxRef = POLY_OPA_DISP;",
+          "    Gfx* gfx = Graph_GfxPlusOne(gfxRef);",
+          "",
+          "    gSPDisplayList(OVERLAY_DISP++, gfx);",
+          "",
+          "    switch ((int)DrawType)",
+          "    {",
+          "        case 0:",
+          "            NpcM_DrawLogo(npc, play, &gfx); break;",
+          "        case 1:",
+          "            NpcM_DrawCreditsText(",
+          "                npc,",
+          "                play,",
+          "                &gfx,",
+          "                TextId1 - 0x8000,",
+          "                TextId2 - 0x8000,",
+          "                TextId3 - 0x8000,",
+          "                TEXT_DRAW_X,",
+          "                TEXT_DRAW_Y,",
+          "                TextScale",
+          "            );",
+          "            break;",
+          "        default:",
+          "            break;",
+          "    }",
+          "",
+          "    if (DRAW_DEBUG)",
+          "        NpcM_DrawDebug(npc, play, &gfx);",
+          "",
+          "    gSPEndDisplayList(gfx++);",
+          "    Graph_BranchDlist(gfxRef, gfx);",
+          "    POLY_OPA_DISP = gfx;",
+          "}",
+          "",
+          "void NpcM_ExplodeText(NpcMaker* npc, PlayState* play)",
+          "{",
+          "    textExplode = true;",
+          "}"
+        ],
+        "Functions": [
+          {
+            "Symbol": "NpcM_CreditsDraw"
+          },
+          {
+            "Symbol": "NpcM_DestroyCredits"
+          },
+          {
+            "Symbol": "NpcM_DrawCreditsText"
+          },
+          {
+            "Symbol": "NpcM_DrawDebug"
+          },
+          {
+            "Symbol": "NpcM_DrawLogo"
+          },
+          {
+            "Symbol": "NpcM_ExplodeText"
+          },
+          {
+            "Symbol": "NpcM_FadeAlphaIn"
+          },
+          {
+            "Symbol": "NpcM_FadeAlphaOut"
+          },
+          {
+            "Symbol": "NpcM_GetPlatform"
+          },
+          {
+            "Symbol": "NpcM_GetSeqio"
+          },
+          {
+            "Symbol": "NpcM_GetSkipTpak"
+          },
+          {
+            "Symbol": "NpcM_InitCredits"
+          },
+          {
+            "Symbol": "NpcM_Is50Hz"
+          },
+          {
+            "Symbol": "NpcM_SetSeqio"
+          }
+        ],
+        "FuncsRunWhen": [
+          [
+            11,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "SetFuncNames": [
+          "NpcM_InitCredits",
+          "",
+          "",
+          "",
+          "NpcM_DestroyCredits",
+          ""
+        ],
+        "HeaderPaths": []
+      },
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
+    },
+    {
+      "NPCName": "OBJ_HORSE_CREDITS",
+      "IsNull": false,
+      "ObjectID": 39,
+      "Hierarchy": 40876,
+      "FileStart": 0,
+      "HierarchyType": 4,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": true,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": true,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 12,
+      "CollisionHeight": 9,
+      "CollisionYShift": 3,
+      "NPCToRide": -1,
+      "CastsShadow": true,
+      "ShadowRadius": 50,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 4,
+      "MovementDistance": 0,
+      "MovementSpeed": 3.0,
+      "GravityForce": 0.1,
+      "PathID": 2,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "HeaderDefinition": "",
+          "Address": 17792,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "HeaderDefinition": "",
+          "Address": 21692,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "TextLines": [
+            "set ref_actor self",
+            "",
+            "if scene_id == SCENE_ID_HYRULECASTLE",
+            "",
+            "    await frames 10",
+            "",
+            "    if actor.rotX == 1",
+            "        set MOVEMENT_TYPE NONE",
+            "    else",
+            "        await cutscene_frame >= 270",
+            "        kill self",
+            "    endif",
+            "elif scene_id == SCENE_ID_HYRULE_FIELD",
+            "    set UNCULL_FORWARD = 3000",
+            "",
+            "    if actor.rotX == 1",
+            "        set MOVEMENT_PATH_ID = 3",
+            "        set MOVEMENT_SPEED = 1.8",
+            "        // So OBJ_GALLERY_BEARD can ride it",
+            "        set NPC_ID = 61",
+            "    else",
+            "        await forever",
+            "    endif",
+            "endif"
+          ],
+          "ParseErrors": [],
+          "Name": "Always"
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "Eye",
+            "HeaderDefinition": "",
+            "Address": 21720,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 7,
+      "TalkSegment": 7,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [],
+      "Localization": [
+        {
+          "Language": "German",
+          "Messages": []
+        }
+      ],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "CullForward": 1000.0,
+      "CullDown": 700.0,
+      "CullScale": 350.0,
+      "AnimInterpFrames": 4,
+      "EmbeddedOverlayCode": {
+        "CodeLines": [
+          ""
+        ],
+        "Functions": [],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "SetFuncNames": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          ""
+        ],
+        "HeaderPaths": []
+      },
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
+    },
+    {
+      "NPCName": "OBJ_SOLDIER_CREDITS_HORSE_FIRE",
+      "IsNull": false,
+      "ObjectID": 151,
+      "Hierarchy": 47816,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": true,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": true,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 18,
+      "CollisionHeight": 12,
+      "CollisionYShift": 12,
+      "NPCToRide": -1,
+      "CastsShadow": true,
+      "ShadowRadius": 25,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 4,
+      "MovementDistance": 0,
+      "MovementSpeed": 3.0,
+      "GravityForce": 0.1,
+      "PathID": 3,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "HeaderDefinition": "",
+          "Address": 23600,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "HeaderDefinition": "",
+          "Address": 22656,
+          "ObjID": -1,
+          "Speed": 1.5,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "SpearSlam",
+          "HeaderDefinition": "",
+          "Address": 21760,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Sitting",
+          "HeaderDefinition": "",
+          "Address": 50244,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "TextLines": [
+            "set ref_actor self",
+            "",
+            "if actor.rotX == 1",
+            "    set NO_AUTO_ANIM true",
+            "    set animation Sitting",
+            "    set MOVEMENT_TYPE NONE",
+            "endif",
+            "",
+            "await frames 10",
+            "",
+            "if actor.rotX == 1",
+            "    await cutscene_frame >= 200",
+            "    kill self",
+            "else",
+            "    await cutscene_frame >= 270",
+            "    kill self",
+            "endif",
+            "",
+            "",
+            ""
+          ],
+          "ParseErrors": [],
+          "Name": "Always"
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [
+          {
+            "Name": "Mouth1",
+            "HeaderDefinition": "",
+            "Address": 24128,
+            "ObjectID": -1,
+            "FileStart": -1
+          },
+          {
+            "Name": "Mouth2",
+            "HeaderDefinition": "",
+            "Address": 84240,
+            "ObjectID": -1,
+            "FileStart": -1
+          },
+          {
+            "Name": "Mouth3",
+            "HeaderDefinition": "",
+            "Address": 84496,
+            "ObjectID": -1,
+            "FileStart": -1
+          }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 7,
+      "TalkSegment": 7,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [
+        {
+          "Name": "Arm1",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 0,
+          "Limb": 9,
+          "Color": "White",
+          "ObjectID": -5,
+          "FileStart": -1
+        },
+        {
+          "Name": "Arm2",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 0,
+          "Limb": 10,
+          "Color": "White",
+          "ObjectID": -5,
+          "FileStart": -1
+        },
+        {
+          "Name": "Arm3",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 0,
+          "Limb": 11,
+          "Color": "White",
+          "ObjectID": -5,
+          "FileStart": -1
+        },
+        {
+          "Name": "Head",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "TransX": 0.0,
+          "TransY": 0.0,
+          "TransZ": 0.0,
+          "RotX": 0,
+          "RotY": 0,
+          "RotZ": 0,
+          "Scale": 1.0,
+          "ShowType": 4,
+          "Limb": 15,
+          "Color": "White",
+          "ObjectID": -1,
+          "FileStart": -1
+        }
+      ],
+      "DisplayListColors": [],
+      "Messages": [],
+      "Localization": [
+        {
+          "Language": "German",
+          "Messages": []
+        }
+      ],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 10,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "CullForward": 1000.0,
+      "CullDown": 700.0,
+      "CullScale": 350.0,
+      "AnimInterpFrames": 4,
+      "EmbeddedOverlayCode": {
+        "CodeLines": [
+          ""
+        ],
+        "Functions": [],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "SetFuncNames": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          ""
+        ],
+        "HeaderPaths": []
+      },
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
+    },
+    {
+      "NPCName": "",
+      "IsNull": true,
+      "ObjectID": 0,
+      "Hierarchy": 0,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [],
+      "Scripts": [],
+      "EnvironmentColor": "White",
+      "Segments": [],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 7,
+      "TalkSegment": 7,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [],
+      "Localization": [
+        {
+          "Language": "German",
+          "Messages": []
+        }
+      ],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "CullForward": 1000.0,
+      "CullDown": 700.0,
+      "CullScale": 350.0,
+      "AnimInterpFrames": 4,
+      "EmbeddedOverlayCode": {
+        "CodeLines": [
+          ""
+        ],
+        "Functions": [],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "SetFuncNames": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "HeaderPaths": []
+      },
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
+    },
+    {
+      "NPCName": "",
+      "IsNull": true,
+      "ObjectID": 0,
+      "Hierarchy": 0,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": false,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": false,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": false,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [],
+      "Scripts": [],
+      "EnvironmentColor": "White",
+      "Segments": [],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 7,
+      "TalkSegment": 7,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [],
+      "Localization": [
+        {
+          "Language": "German",
+          "Messages": []
+        }
+      ],
+      "DEBUGShowCols": false,
+      "DEBUGPrintToScreen": false,
+      "DEBUGLookAtEditor": false,
+      "DEBUGExDlistEditor": false,
+      "NumVars": 2,
+      "NumFVars": 2,
+      "ExistInAllRooms": false,
+      "CullForward": 1000.0,
+      "CullDown": 700.0,
+      "CullScale": 350.0,
+      "AnimInterpFrames": 4,
+      "EmbeddedOverlayCode": {
+        "CodeLines": [
+          ""
+        ],
+        "Functions": [],
+        "FuncsRunWhen": [
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ]
+        ],
+        "SetFuncNames": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "HeaderPaths": []
+      },
+      "Omitted": false,
+      "HeaderPath": "",
+      "SkeletonHeaderDefinition": "",
+      "FileStartHeaderDefinition": ""
+    },
+    {
+      "NPCName": "SCENE_TEST_BUFFERS",
+      "IsNull": false,
+      "ObjectID": 0,
+      "Hierarchy": 0,
+      "FileStart": 0,
+      "HierarchyType": 0,
+      "ModelPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "ModelScale": 0.01,
+      "CutsceneID": 0,
+      "LookAtType": 0,
+      "HeadLimb": 0,
+      "HeadHorizAxis": 0,
+      "HeadVertAxis": 0,
+      "WaistLimb": 0,
+      "WaistHorizAxis": 0,
+      "WaistVertAxis": 0,
+      "LookAtDegreesVertical": 0,
+      "LookAtDegreesHorizontal": 0,
+      "LookAtPositionOffsets": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "HasCollision": false,
+      "PushesSwitches": false,
+      "Mass": 254,
+      "IsAlwaysActive": true,
+      "IsAlwaysDrawn": false,
+      "ExecuteJustScript": true,
+      "ReactsIfAttacked": false,
+      "SfxIfAttacked": -1,
+      "EffectIfAttacked": 10,
+      "OpensDoors": false,
+      "CollisionRadius": 0,
+      "CollisionHeight": 0,
+      "CollisionYShift": 0,
+      "NPCToRide": -1,
+      "CastsShadow": false,
+      "ShadowRadius": 0,
+      "VisibleUnderLensOfTruth": false,
+      "Invisible": true,
+      "IsTargettable": false,
+      "FadeOut": false,
+      "Alpha": 255,
+      "TargetDistance": 1,
+      "TargetLimb": 0,
+      "TargetPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "TalkRadius": 150.0,
+      "MovementType": 0,
+      "MovementDistance": 0,
+      "MovementSpeed": 1.0,
+      "GravityForce": 0.1,
+      "PathID": 0,
+      "PathStartNodeID": -1,
+      "PathEndNodeID": -1,
+      "MovementDelayTime": 0,
+      "LoopPath": false,
+      "IgnoreYAxis": true,
+      "SmoothingConstant": 15.0,
+      "TimedPathStart": 0,
+      "TimedPathEnd": 65490,
+      "MaxDistRoam": 65535,
+      "GenLight": false,
+      "Glow": false,
+      "LightLimb": 0,
+      "LightPositionOffsets": [
+        0,
+        0,
+        0
+      ],
+      "LightColor": "White",
+      "LightRadius": 0,
+      "AnimationType": 0,
+      "Animations": [
+        {
+          "Name": "Idle",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Walking",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        },
+        {
+          "Name": "Attacked",
+          "HeaderDefinition": "",
+          "Address": 0,
+          "ObjID": -1,
+          "Speed": 1.0,
+          "StartFrame": 0,
+          "EndFrame": 255,
+          "FileStart": -1
+        }
+      ],
+      "Scripts": [
+        {
+          "TextLines": [
+            "::setActorAnim OBJ_DRAGMIRE DRAGMIRE_FACEAWAY",
+            "::setActorAnim OBJ_JUDGE JUDGE_IDLE",
+            "::setActorAnim OBJ_LINK LINK_GALLERY",
+            "::setActorAnim OBJ_MALON MALON_IDLE",
+            "",
+            "kill npcmaker OBJ_IMPA",
+            "kill npcmaker OBJ_ZELDA",
+            "kill npcmaker OBJ_INGO",
+            "",
+            "//::spawnWitness OBJ_GALLERY_GORON",
+            "",
+            "SAVE_EVIDENCE = EVIDENCE_GOTINHERITANCE",
+            "",
+            "::CR_Closed",
+            "::setCutsceneBarsFalse",
+            "::setTextSpeed 2",
+            "",
+            "stop bgm 0",
+            "",
+            "::setCamera CAMERA_DEFENCE",
+            "await frames 2",
+            "",
+            "",
+            "FADEIN 15",
+            "",
+            "::CR_Open",
+            "",
+            "::textboxActorAnim LINK10 OBJ_LINK LINK_PAPER",
+            "::playMusic BGM_TENSION",
+            "",
+            "",
+            "next:",
+            "::textboxActorAnim LINK20 OBJ_LINK LINK_THINKING_EYES",
+            "play sfx_global CLUE",
+            "::textboxActorAnim LINK30 OBJ_LINK LINK_CONFIDENT",
+            "::textboxActorAnim LINK20 OBJ_LINK LINK_DESKSLAM",
+            "::textboxActorAnim LINK30 OBJ_LINK LINK_POINT",
+            "::setSpeakerActor OBJ_LINK",
+            "show_textbox_sp LINK20",
+            "play sfx_global OBJECTIONCRY",
+            "::DoLinkActionLines",
+            "await textbox_on_screen false",
+            "::stopActionLines CAMERA_DEFENCE",
+            "play sfx_global WHAP",
+            "::textboxActorAnim LINK30 OBJ_LINK LINK_SHOCK",
+            "::textboxActorAnim LINK20 OBJ_LINK LINK_ABASHED",
+            "::textboxActorAnim LINK30 OBJ_LINK LINK_SWEATING",
+            "goto next",
+            ""
+          ],
+          "ParseErrors": [],
+          "Name": "Script"
+        },
+        {
+          "TextLines": [
+            "::SceneController_Always"
+          ],
+          "ParseErrors": [],
+          "Name": "Always"
+        }
+      ],
+      "EnvironmentColor": "White",
+      "Segments": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "BlinkPattern": "",
+      "TalkPattern": "",
+      "BlinkSegment": 7,
+      "TalkSegment": 7,
+      "BlinkSpeed": 1,
+      "TalkSpeed": 1,
+      "ExtraDisplayLists": [],
+      "DisplayListColors": [],
+      "Messages": [
+        {
+          "Name": "LINK10",
+          "MessageTextLines": [
+            "This is a stress-test scene for the",
+            "message log graphics buffer.<PAUSE:5> ",
+            "...Ahem."
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK20",
+          "MessageTextLines": [
+            "ijijijijijijijijijijijijijijijijijijijijijijijijijijijijijijijijij",
+            "ijijijijijijijijijijijijijijijijijijijijijijijijijijijijijijijijij",
+            "ijijijijijijijijijijijijijijijijijijijijijijijijijijijijijijijiji"
+          ],
+          "Type": 0,
+          "Position": 0
+        },
+        {
+          "Name": "LINK30",
+          "MessageTextLines": [
+            "ijijijijijijijijijijijijijijijijijijijijijijijijijijijijijijijijij",
+            "ijijijijijijijijijijijijijijijijijijijijijijijijijijijijijijijijij",
+            "ijijijijijijijijijijijijijijijijijijijijijijijijijijijijijijijiji"
+          ],
+          "Type": 0,
+          "Position": 0
+        }
+      ],
+      "Localization": [
+        {
+          "Language": "German",
+          "Messages": [
             {
               "Name": "UnlockedWiiUGCN",
               "MessageTextLines": [
@@ -98868,8 +102973,8 @@
                 "<TWO_CHOICES><G>Ja",
                 "Nein<W>"
               ],
-              "Type": 1,
-              "Position": 2
+              "Type": 0,
+              "Position": 0
             },
             {
               "Name": "TRSPAK_REMOVE_NOTINITED",
@@ -102011,9 +106116,9 @@
       "ModelPositionOffsets": [
         0,
         0,
-        0
+        -500
       ],
-      "ModelScale": 0.01,
+      "ModelScale": 0.012,
       "CutsceneID": 0,
       "LookAtType": 0,
       "HeadLimb": 0,
@@ -102076,12 +106181,12 @@
       "Glow": false,
       "LightLimb": 0,
       "LightPositionOffsets": [
-        0,
+        20,
         0,
         0
       ],
-      "LightColor": "White",
-      "LightRadius": 0,
+      "LightColor": "189, 166, 159",
+      "LightRadius": 120,
       "AnimationType": 0,
       "Animations": [
         {
